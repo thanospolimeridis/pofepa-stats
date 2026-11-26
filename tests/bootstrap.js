@@ -10,6 +10,7 @@ const bootstrap=JSON.parse(bootstrapBytes),full=archive('data/catalog.json.gz');
 assert.equal(bootstrap.bootstrap_schema,2);
 assert.deepEqual(bootstrap.archives,{fixtures:'data/fixtures.json.gz',about:'data/about.json.gz'});
 assert.equal(manifest.revision,createHash('sha256').update(bootstrapBytes).digest('hex').slice(0,16),'revision must cover the bootstrap schema/content');
+assert(!Object.hasOwn(bootstrap,'match_rankings'),'match comparisons must be deferred');
 assert(!Object.hasOwn(bootstrap,'fixtures'),'fixtures must be deferred');
 assert(!Object.hasOwn(bootstrap,'cup_draws'),'cup drawings must be deferred');
 for(const event of bootstrap.events.filter(e=>e.draw_archive))assert.deepEqual(archive(event.draw_archive),full.cup_draws[event.id],'hosted and offline cup drawings must match');
@@ -28,6 +29,10 @@ for(const [key,value] of Object.entries(bootstrap.coverage)){
   if(key!=='match_sheets')assert.deepEqual(value,full.coverage[key]);
 }
 for(const key of ['reviews','issues','unavailable_sources'])assert(!Object.hasOwn(bootstrap.coverage.match_sheets||{},key),'match-sheet detail must be deferred: '+key);
+for(const pid of ['p-859','p-1692']){
+  const player=bootstrap.players.find(p=>p.id===pid),record=archive(player.archive)[pid];
+  assert.deepEqual(record.rank_comparisons,Object.fromEntries(record.matches.filter(m=>full.match_rankings[m.id]).map(m=>[m.id,full.match_rankings[m.id]])),'profile must retain the same ranking evidence as offline');
+}
 const latest=full.coverage.ranking_periods.at(-1);
 for(const list of ['ΓΕΝΙΚΟΣ','BET 40-49']){
   const original=full.snapshots.find(s=>s.region==='national'&&s.period===latest&&s.list===list);

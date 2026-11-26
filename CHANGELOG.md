@@ -2,6 +2,8 @@
 
 ## Prototype updates — 2026-11-26
 
+- Bring the athlete directory and profiles close to Greek TT Archive: dark profile headers, a full-width combined chart with date ranges, win/loss cards, score and opponent breakdowns, source-linked best wins, and season/competition summaries. Keep ranking comparison data in lazy athlete archives and preserve match correction evidence.
+
 - Separate cups from leagues within each region. Show source-faithful cup draws with zoom, match-sheet links, byes and progression to the winner; load each draw only on demand and preserve the full offline archive.
 - Connect confirmed winners in historical HTML cup rounds, keeping group and placement stages separate. Restore eight omitted 2012–13 Central Macedonia first-round team results by preserving spaces within BR-delimited team names.
 

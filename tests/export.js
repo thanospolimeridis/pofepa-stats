@@ -9,6 +9,7 @@ const zlib = require('node:zlib');
 const root = path.resolve(__dirname,'..');
 const Pofepa = require('../src/core.js');
 const PofepaEvidence = require('../src/evidence.js');
+const PofepaAthleteStats = require('../src/athlete-stats.js');
 const catalog = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'data/catalog.json.gz'))));
 const code = fs.readFileSync(path.join(root,'src/app.js'),'utf8');
 const ids = ['m-fd7e881d92c54d6f','m-71e3ade7d7899d7b','m-fbabd63d13623401'];
@@ -70,7 +71,7 @@ async function clickExport(route,kind,lang='en') {
   const handlers = {},errors = [],timers = [],downloads = [],blobs = new Map(),revoked = [];
   const app = {innerHTML:'',addEventListener:(type,handler) => {handlers[type]=handler;}};
   const context = {
-    Pofepa,PofepaEvidence,Blob,URLSearchParams,Intl,
+    Pofepa,PofepaEvidence,PofepaAthleteStats,Blob,URLSearchParams,Intl,
     document:{
       documentElement:{},
       getElementById:id => id === 'site-data' ? {textContent:JSON.stringify(payload)} : app,
@@ -94,7 +95,7 @@ async function clickExport(route,kind,lang='en') {
   const buttonHtml = app.innerHTML.match(new RegExp('<button\\b[^>]*data-export="'+kind+'"[^>]*>'))?.[0];
   assert(buttonHtml,`Rendered ${route} lacks its ${kind} CSV button`);
   const dataset = Object.fromEntries([...buttonHtml.matchAll(/data-([a-z]+)="([^"]*)"/g)].map(m => [m[1],m[2]]));
-  handlers.click({target:{closest:selector => {assert.equal(selector,'button');return {dataset};}}});
+  handlers.click({target:{closest:selector => {if(selector==='[data-rank-point]')return null;assert.equal(selector,'button');return {dataset};}}});
   await Promise.resolve();
   assert.equal(downloads.length,1,'Click must trigger exactly one captured download');
   const download = downloads[0],blob = blobs.get(download.url);

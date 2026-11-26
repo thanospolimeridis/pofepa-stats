@@ -1,6 +1,6 @@
 /* Run all routes against the real data plus domain edge cases, without a browser dependency. */
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
-const C=require('../src/core.js'),Evidence=require('../src/evidence.js');
+const C=require('../src/core.js'),Evidence=require('../src/evidence.js'),AthleteStats=require('../src/athlete-stats.js');
 const rows=[{p1:'a',p2:'b',score:[3,2]},{p1:'b',p2:'a',score:[3,0]},{p1:'c',p2:'a',score:[1,3]}];
 assert.deepEqual(C.stats(rows,'a'),{played:3,wins:2,losses:1,winRate:2/3,gamesWon:6,gamesLost:6,deciding:1,decidingWins:1});
 assert.equal(C.stats([], 'a').winRate,null);
@@ -18,18 +18,20 @@ const manifest=JSON.parse(fs.readFileSync('dist/index.html','utf8').match(/<scri
 db.version='test';db.ranking_index='https://www.pofepa.gr/';
 const event=db.events.find(e=>e.kind==='singles'), fixtureEvent=db.events.find(e=>e.kind==='fixtures');
 const routes=['home','rankings','rankings?region=north&class=BET&age=40-49','rankings?region=south&class=ANE&age=70%2B','rankings?class=WOMEN','rankings?class=GENERAL','rankings?region=nonsense','players','players?q=polymeridis','players?q=nevermatch123','player/p-859','player/p-859?region=north','player/missing','matches','matches?view=teams&status=reported','matches?view=teams&status=scheduled','events','event/'+event.id,'event/'+fixtureEvent.id,'teams','team/'+db.clubs[0].id,'h2h','h2h?p1=p-859&p2=p-7','h2h?p1=p-859&p2=p-859','about','bad-route'];
-routes.push('player/p-1912','player/p-2926','player/p-313','player/p-1692');
+routes.push('players?category=BET%2040-49','players?category=ANE%2050-59','player/p-859?range=3m','player/p-859?season=2025-2026','player/p-859?season=missing','player/p-1912','player/p-2926','player/p-313','player/p-1692');
 routes.push('events?region=crete&season=2025-2026','events?region=central-macedonia&season=2026-2027','events?season=all&kind=all','events?kind=singles');
 routes.push('event/e-872537db429e91ee','event/e-076a3ed10707b3f2','event/e-c3a3dcdc39edcc8e','event/e-df9707fab1c9c47f','event/e-5d1c3230f89cd9aa','event/e-d7de6d7827232949','events?competition=cup');
 routes.push('event/e-517d2fa8e574a147','event/e-517d2fa8e574a147?page=1','event/e-517d2fa8e574a147?page=99');
 const fixtures=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/data/fixtures.json.gz')));
+const rendered=new Map();
 (async()=>{
 for(const language of ['el','en']) for(const route of routes){
   const app={innerHTML:'',addEventListener(){}},skip={addEventListener(){}},requests=[];
-  const context={Pofepa:C,PofepaEvidence:Evidence,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>skip},location:{hash:'#'+route},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=>language},URLSearchParams,Intl,console,setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(fs.readFileSync('dist/'+path.split('?')[0]))};
+  const context={Pofepa:C,PofepaEvidence:Evidence,PofepaAthleteStats:AthleteStats,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>skip},location:{hash:'#'+route},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=>language},URLSearchParams,Intl,console,setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(fs.readFileSync('dist/'+path.split('?')[0]))};
   const fetchArchive=context.fetch;context.fetch=async path=>{requests.push(path.split('?')[0]);return fetchArchive(path);};
   vm.runInNewContext(fs.readFileSync('src/app.js','utf8'),context,{timeout:10000});
   await context.window.pofepaReady;
+  rendered.set(language+':'+route,app.innerHTML);
   assert(app.innerHTML.includes('<main'),route+' main is missing');
   assert(!app.innerHTML.includes('undefined'),route+' leaks undefined');
   assert(!app.innerHTML.includes('Unable to load'),route+' failed to load its archive');
@@ -61,7 +63,7 @@ for(const language of ['el','en']) for(const route of routes){
   if(route==='events?competition=cup'){assert(app.innerHTML.includes('data-competition-type="cup"'));assert(!app.innerHTML.includes('data-competition-type="league"'));}
   if(route.startsWith('player/p-859')){assert(!app.innerHTML.includes('data-filter="region"'));assert(!app.innerHTML.includes('data-filter="list"'));assert(app.innerHTML.includes('id="athlete-rankings"'));assert(!app.innerHTML.includes('data-page-key="rpage"'));assert(!app.innerHTML.includes('All rankings'));assert(!app.innerHTML.includes('Όλες οι κατατάξεις'));}
   if(route==='player/p-1692'){
-    const charts=[...app.innerHTML.matchAll(/<svg class="chart"[\s\S]*?<\/svg>/g)];
+    const charts=[...app.innerHTML.matchAll(/<svg class="chart athlete-ranking-chart"[\s\S]*?<\/svg>/g)];
     assert.equal(charts.length,1,'Athlete history must use one combined chart');
     const player=db.players.find(p=>p.id==='p-1692');
     const history=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/'+player.archive)))[player.id].history;
@@ -69,7 +71,7 @@ for(const language of ['el','en']) for(const route of routes){
     assert(new Set(records.map(h=>h.snapshot.region)).size>1,'Fixture must cover multiple source regions');
     const unique=new Set(records.map(h=>JSON.stringify([h.snapshot.period,h.points])));
     assert.equal((charts[0][0].match(/<circle /g)||[]).length,unique.size,'Preserve distinct points and collapse only identical month/value pairs');
-    assert(!app.innerHTML.includes('<h3>'),'Combined chart must have no regional or national subheadings');
+    assert(!charts[0][0].includes('<h3>'),'Combined chart must have no regional or national subheadings');
   }
   if(route==='rankings?region=north&class=BET&age=40-49')assert(app.innerHTML.includes('ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ'));
   if(route==='events'||route==='teams'){
@@ -85,6 +87,16 @@ for(const language of ['el','en']) for(const route of routes){
     assert(!app.innerHTML.includes('Α1-Α2'),'Attica cup must not leak into Crete');
   }
 }
+for(const language of ['el','en']){
+  const profile=route=>rendered.get(language+':player/p-859'+route);
+  const metrics=html=>html.match(/<div class="athlete-results">[\s\S]*?<\/div><section/)[0];
+  const points=html=>(html.match(/data-rank-point=/g)||[]).length;
+  assert.equal(metrics(profile('')),metrics(profile('?range=3m')),'Chart range must not filter match statistics');
+  assert(points(profile('?range=3m'))<points(profile('')),'Short range must shorten the ranking chart');
+  assert.equal(points(profile('')),points(profile('?season=2025-2026')),'Match season must not shorten ranking history');
+  assert.notEqual(metrics(profile('')),metrics(profile('?season=2025-2026')),'Season must update match statistics');
+  assert(profile('').indexOf('id="athlete-rankings"')<profile('').indexOf('id="athlete-matches"'),'Keep ranking chart before matches');
+}
 console.log(`Passed domain checks and ${routes.length*2} route/language renders.`);
 
 // A tab opened before a deployment can fetch a newer player shard with an
@@ -96,7 +108,7 @@ const newEvent=record.matches.find(m=>m.date==='2026-10-31').event;
 stale.events=stale.events.filter(e=>e.id!==newEvent);
 const handlers={},errors=[];let reloaded=false;
 const app={innerHTML:'',addEventListener:(name,fn)=>{handlers[name]=fn;}};
-const context={Pofepa:C,PofepaEvidence:Evidence,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>({addEventListener(){}})},location:{hash:'#player/p-1912',reload:()=>{reloaded=true;}},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=> 'en'},URLSearchParams,Intl,console:{error:error=>errors.push(error)},setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(path.split('?')[0]===manifest.bootstrap?zlib.gzipSync(JSON.stringify(stale)):fs.readFileSync('dist/'+path.split('?')[0]))};
+const context={Pofepa:C,PofepaEvidence:Evidence,PofepaAthleteStats:AthleteStats,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>({addEventListener(){}})},location:{hash:'#player/p-1912',reload:()=>{reloaded=true;}},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=> 'en'},URLSearchParams,Intl,console:{error:error=>errors.push(error)},setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(path.split('?')[0]===manifest.bootstrap?zlib.gzipSync(JSON.stringify(stale)):fs.readFileSync('dist/'+path.split('?')[0]))};
 vm.runInNewContext(fs.readFileSync('src/app.js','utf8'),context,{timeout:10000});
 await context.window.pofepaReady;
 assert.equal(errors.length,1,'Stale index should exercise the rendering failure');

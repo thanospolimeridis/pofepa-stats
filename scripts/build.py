@@ -12,6 +12,7 @@ from dataset import load, encode, save
 from validate import validate
 from competition_regions import attach_regions
 from cup_draws import attach_draws
+from athlete_rankings import match_ranking_context
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -43,7 +44,7 @@ def bootstrap_data(data):
     The full catalog and offline archive retain their original data contract.
     This shallow projection never removes fields from their source objects.
     """
-    result = {key: value for key, value in data.items() if key not in ('fixtures', 'issues', 'cup_draws')}
+    result = {key: value for key, value in data.items() if key not in ('fixtures', 'issues', 'cup_draws', 'match_rankings')}
     result['bootstrap_schema'] = BOOTSTRAP_SCHEMA
     result['archives'] = dict(ROUTE_ARCHIVES)
     result['sources'] = [{key: source[key] for key in ('id', 'url')} for source in data['sources']]
@@ -63,12 +64,13 @@ def build():
     validate(data)
     attach_regions(data)
     attach_draws(data)
+    data['match_rankings'] = match_ranking_context(data)
     data['player_redirects'] = json.loads((ROOT / 'data/player-redirects.json').read_text())
     data['version'] = (ROOT / 'VERSION').read_text().strip()
     data['dataset_sha256'] = hashlib.sha256(encode(data)).hexdigest()
     data['ranking_index'] = 'https://www.pofepa.gr/piiotanualphakappaepsilonsigmaf-alphaxiiotaomicronlambdaomicrongammaetasigmaetasigmaf.html'
     html = (ROOT / 'src/template.html').read_text()
-    for marker, filename in [('STYLE', 'style.css'), ('CORE', 'core.js'), ('EVIDENCE', 'evidence.js'), ('APP', 'app.js')]:
+    for marker, filename in [('STYLE', 'style.css'), ('CORE', 'core.js'), ('EVIDENCE', 'evidence.js'), ('ATHLETES', 'athlete-stats.js'), ('APP', 'app.js')]:
         html = html.replace(f'/*{marker}*/', (ROOT / 'src' / filename).read_text())
     dist = ROOT / 'dist'
     if dist.exists():
@@ -95,7 +97,8 @@ def build():
         bucket = int(hashlib.sha256(pid.encode()).hexdigest()[:8], 16) % 128
         player['archive'] = f'data/players-{bucket:03}.json.gz'
         player['stats'] = player_stats(matches[pid], pid)
-        shards[bucket][pid] = dict(matches=matches[pid], history=history[pid])
+        shards[bucket][pid] = dict(matches=matches[pid], history=history[pid],
+            rank_comparisons={m['id']: data['match_rankings'][m['id']] for m in matches[pid] if m['id'] in data['match_rankings']})
     for bucket, records in shards.items():
         save(records, dist / f'data/players-{bucket:03}.json.gz')
     for event in data['events']:

@@ -6,6 +6,7 @@ window.pofepaReady = (async () => {
   function fetchData(path){if(!downloads.has(path))downloads.set(path,(async()=>{const requestPath=payload.revision?path+(path.includes('?')?'&':'?')+'data='+payload.revision:path;const response=await fetch(requestPath,{cache:'no-cache'});if(!response.ok)throw new Error('Data download failed: '+response.status);return unpack(await response.arrayBuffer());})().catch(error=>{downloads.delete(path);throw error;}));return downloads.get(path);}
   const db=payload.bootstrap?await fetchData(payload.bootstrap):payload.compressed?await unpack(Uint8Array.from(atob(payload.compressed),c=>c.charCodeAt(0))):payload;
   const playerHistories=new Map();
+  const playerRankComparisons=new Map();
 
   const {escape:E,search,stats,h2h}=Pofepa;
   const Evidence=PofepaEvidence;
@@ -19,6 +20,7 @@ window.pofepaReady = (async () => {
   const latestPeriod=db.coverage.ranking_periods.at(-1);
   const latestGeneral=db.snapshots.find(s=>s.region==='national'&&s.period===latestPeriod&&s.list==='ΓΕΝΙΚΟΣ');
   const latestRows=new Map((latestGeneral?.rows||[]).map(r=>[r[0],r]));
+  const rosterSnapshot=category=>db.snapshots.find(s=>s.region==='national'&&s.period===latestPeriod&&s.list===(category?category.startsWith('ΓΥΝ')?'ΓΥΝΑΙΚΩΝ':category:'ΓΕΝΙΚΟΣ'));
   let lang='el';try{lang=localStorage.getItem('pofepa-lang')==='en'?'en':'el';}catch{}
   const L=(el,en)=>lang==='el'?el:en;
   const num=(v,digits=0)=>v==null?'—':new Intl.NumberFormat(lang==='el'?'el-GR':'en-GB',{maximumFractionDigits:digits}).format(v);
@@ -122,35 +124,73 @@ window.pofepaReady = (async () => {
       `<div class="notice">${L('Από τον Σεπτέμβριο 2026 οι πίνακες Βόρειας και Νότιας Ελλάδας ενοποιήθηκαν. Οι ξεχωριστοί περιφερειακοί πίνακες εδώ φτάνουν έως τον Ιούνιο 2026.','North and South rankings were unified from September 2026. Separate regional lists here run through June 2026.')} ${kind==='WOMEN'?L('Η πηγή δημοσιεύει ενιαίο πίνακα γυναικών, χωρίς ξεχωριστές ηλικιακές λίστες.','The source publishes one women’s table, without separate age-bracket lists.'):''}</div>`+
       (snap?`<div class="section-title"><h2>${E(listName(snap.list))}</h2>${sourceLink(snap.source)}</div><p class="chart-note">${E(regionName(region))} · ${month(period)} · ${L('Θέση εντός του επιλεγμένου πίνακα. Δεν υπολογίζεται ξανά μετά την αναζήτηση.','Rank within this list. Search does not renumber positions.')}</p>`+paged(rows,r=>rankingTable(r,snap)):empty());
   }
-  function playerList(){const q=param('q'),category=param('category'),sort=param('sort','points');
+  function playerList(){const q=param('q'),category=param('category'),sort=param('sort','points'),snapshot=rosterSnapshot(category),ranks=new Map((snapshot?.rows||[]).map(r=>[r[0],r]));
     let rows=db.players.filter(p=>search([p.name,p.aliases.join(' '),p.registration,clubs.get(p.club)?.name].join(' '),q)&&(!category||p.category===category));
-    rows.sort((a,b)=>sort==='name'?a.name.localeCompare(b.name,'el'):sort==='wins'?(statsByPlayer.get(b.id).wins-statsByPlayer.get(a.id).wins):sort==='played'?(statsByPlayer.get(b.id).played-statsByPlayer.get(a.id).played):(latestRows.get(b.id)?.[2]??-Infinity)-(latestRows.get(a.id)?.[2]??-Infinity));
-    return pageHead(L('Αθλητές','Players'),L('Αναζήτησε όνομα, αριθμό ΔΑΙ ή ομάδα και άνοιξε το προφίλ ενός αθλητή.','Search by name, registration number or team, then open a player profile.'))+
-      `<div class="toolbar">${field('q',L('Αναζήτηση αθλητή','Search players'),q,L('Όνομα, ΔΑΙ ή ομάδα','Name, ID or team'))}${select('category',L('Κατηγορία','Category'),[['',L('Όλες οι κατηγορίες','All categories')],...[...new Set(db.players.map(p=>p.category).filter(Boolean))].sort().map(c=>[c,c])],category)}${select('sort',L('Ταξινόμηση','Sort by'),[['points',L('Βαθμοί τελευταίας κατάταξης','Latest ranking points')],['wins',L('Νίκες στο αρχείο','Archived wins')],['played',L('Αγώνες στο αρχείο','Archived matches')],['name',L('Όνομα','Name')]],sort)}</div>`+
-      paged(rows,rs=>table([L('Αθλητής','Player'),L('Ομάδα · τελευταία καταγραφή','Team · latest observation'),L('Κατηγορία','Category'),L('Βαθμοί','Points'),L('Αγώνες','Played'),L('Ν–Η','W–L'),L('Νίκες %','Win %')],rs.map(p=>{const s=statsByPlayer.get(p.id);return `<tr><td class="player-cell">${pLink(p.id)}<span class="meta">${p.provisional?L('Μη συνδεδεμένη ταυτότητα','Unresolved identity'):p.registration?L('ΔΑΙ','ID')+' '+p.registration:L('Χωρίς ΔΑΙ στην πηγή','No source registration')}</span></td><td>${cLink(p.club)}<span class="meta">${month(p.period)}</span></td><td>${E(p.category)||'—'}</td><td class="number">${num(latestRows.get(p.id)?.[2],3)}</td><td class="number">${num(s.played)}</td><td class="number">${s.wins}–${s.losses}</td><td class="number">${percent(s.winRate)}</td></tr>`;}).join('')));
+    const byName=(a,b)=>a.name.localeCompare(b.name,'el');
+    rows.sort((a,b)=>sort==='name'?byName(a,b):sort==='wins'?statsByPlayer.get(b.id).wins-statsByPlayer.get(a.id).wins||byName(a,b):sort==='played'?statsByPlayer.get(b.id).played-statsByPlayer.get(a.id).played||byName(a,b):(ranks.get(a.id)?.[1]??Infinity)-(ranks.get(b.id)?.[1]??Infinity)||statsByPlayer.get(b.id).played-statsByPlayer.get(a.id).played||byName(a,b));
+    return pageHead(L('Αθλητές','Players'),L('Βρες τον αθλητή και εξερεύνησε τη διαδρομή του.','Find a player and explore their record.'))+
+      `<div class="panel panel-pad athlete-search"><div class="toolbar">${field('q',L('Αναζήτηση αθλητή','Search players'),q,L('Όνομα, ΔΑΙ ή ομάδα','Name, ID or team'))}${select('category',L('Κατηγορία','Category'),[['',L('Όλοι οι αθλητές','All players')],...[...new Set(db.players.map(p=>p.category).filter(Boolean))].sort().map(c=>[c,c])],category)}${select('sort',L('Ταξινόμηση','Sort by'),[['points',L('Θέση κατάταξης','Ranking position')],['played',L('Περισσότεροι αγώνες','Most matches')],['wins',L('Περισσότερες νίκες','Most wins')],['name',L('Αλφαβητικά','Alphabetical')]],sort)}</div></div>`+
+      `<div class="section-title"><h2>${L('Λίστα αθλητών','Player list')}</h2><span class="chart-note">${snapshot?E(listName(snapshot.list))+' · '+month(snapshot.period):''}</span></div>`+
+      paged(rows,rs=>`<div class="athlete-directory"><div class="athlete-list-head" aria-hidden="true"><span>#</span><span></span><span>${L('Αθλητής','Player')}</span><span>${L('Βαθμοί','Points')}</span><span>${L('Νίκες–Ήττες','Wins–Losses')}</span></div>${rs.map(p=>{const st=statsByPlayer.get(p.id),rank=ranks.get(p.id);return `<a class="athlete-row" href="#player/${E(p.id)}"><span class="athlete-rank">${rank?.[1]??'—'}</span><span class="athlete-avatar" aria-hidden="true">${E(p.name.split(' ').slice(0,2).map(n=>n[0]).join(''))}</span><span class="athlete-name"><strong>${E(p.name)}</strong><span>${E(clubs.get(p.club)?.name||'—')}${p.registration?' · ΔΑΙ '+E(p.registration):''}${p.provisional?' · '+L('Προσωρινή ταυτότητα','Provisional identity'):''}</span></span><span class="athlete-points"><strong>${num(rank?.[2],1)}</strong><small>${E(p.category)||'—'}</small></span><span class="athlete-record" aria-label="${num(st.played)} ${L('αγώνες','matches')}, ${num(st.wins)} ${L('νίκες','wins')}, ${num(st.losses)} ${L('ήττες','losses')}">${st.played?`<span><b class="won">${num(st.wins)}</b> – <b class="lost">${num(st.losses)}</b></span><span class="record-bar"><i style="width:${st.winRate*100}%"></i></span><small>${percent(st.winRate)} · ${num(st.played)} ${L('αγ.','played')}</small>`:`<small>${L('Χωρίς αγώνες','No matches')}</small>`}</span></a>`;}).join('')}</div>`,'page',50,L('αθλητές','players'));
   }
-  function historyChart(history){history=history.filter(h=>h.row[2]!==null);if(!history.length)return empty(L('Δεν υπάρχει κατάταξη για αυτή την επιλογή.','No ranking history for this selection.'));
-    const low=Math.min(...history.map(h=>h.row[2])),high=Math.max(...history.map(h=>h.row[2]));const span=Math.max(high-low,10);
-    const points=history.map((h,i)=>[52+i*500/Math.max(history.length-1,1),145-(h.row[2]-low)*100/span]);
-    return `<svg class="chart" viewBox="0 0 600 200" role="img" aria-label="${L('Ιστορικό βαθμών κατάταξης.','Ranking points history.')}"><path d="M45 35V150H570" fill="none" stroke="#dce5e7"/><polyline points="${points.map(p=>p.join(',')).join(' ')}" fill="none" stroke="#00776e" stroke-width="3"/>${points.map(([x,y],i)=>`<circle cx="${x}" cy="${y}" r="4" fill="#00776e"><title>${E(month(history[i].period))}: ${num(history[i].row[2],3)}</title></circle>${i===0||i===points.length-1||i%Math.max(1,Math.ceil(points.length/5))===0?`<text x="${x}" y="${Math.max(20,y-13)}" text-anchor="middle">${num(history[i].row[2],1)}</text><text x="${x}" y="180" text-anchor="middle">${history[i].period.slice(5)}/${history[i].period.slice(2,4)}</text>`:''}`).join('')}</svg>`;
+  function combinedRankingHistory(id){
+    const history=playerHistories.get(id)||db.snapshots.flatMap(s=>(s.rows||[]).filter(r=>r[0]===id).map(row=>({...s,row})));
+    return [...new Map(history.filter(h=>h.list==='ΓΕΝΙΚΟΣ').map(h=>[JSON.stringify([h.period,h.row[2]]),h])).values()].sort((a,b)=>a.period.localeCompare(b.period));
+  }
+  function historyChart(history){
+    const rows=history.filter(h=>Number.isFinite(h.row[2]));
+    const range=['all','1y','6m','3m'].includes(param('range'))?param('range'):'all';
+    const controls=`<div class="ranking-ranges" role="group" aria-label="${L('Διάστημα γραφήματος','Chart range')}">${[['all',L('Όλα','All')],['1y',L('1Ε','1Y')],['6m',L('6Μ','6M')],['3m',L('3Μ','3M')]].map(([value,label])=>`<button type="button" id="chart-range-${value}" data-chart-range="${value}" aria-pressed="${range===value}" class="${range===value?'active':''}">${label}</button>`).join('')}</div>`;
+    const heading=`<div class="ranking-chart-head"><h2 id="athlete-rankings" tabindex="-1">${L('Βαθμοί κατάταξης στο χρόνο','Ranking points over time')}</h2>${controls}</div>`;
+    if(!rows.length)return heading+empty(L('Δεν υπάρχει ιστορικό βαθμών.','No ranking points history.'));
+    const time=h=>Date.parse(h.period+'-01T00:00:00Z'),last=time(rows.at(-1)),cutoff=new Date(last);
+    if(range!=='all')cutoff.setUTCMonth(cutoff.getUTCMonth()-({ '1y':12,'6m':6,'3m':3 }[range]));
+    const shown=rows.filter(h=>range==='all'||time(h)>=cutoff.getTime());
+    let t0=range==='all'?time(shown[0]):cutoff.getTime(),t1=last;
+    if(t0===t1){t0-=15*86400000;t1+=15*86400000;}
+    let low=Math.min(...shown.map(h=>h.row[2])),high=Math.max(...shown.map(h=>h.row[2]));
+    if(low===high){const pad=Math.max(1,Math.abs(low)*.02);low-=pad;high+=pad;}
+    const raw=(high-low)/5,mag=10**Math.floor(Math.log10(raw)),step=[1,2,2.5,5,10].map(v=>v*mag).find(v=>v>=raw);
+    low=Math.floor(low/step)*step;high=Math.ceil(high/step)*step;
+    const width=Math.max(240,Math.min(1060,(window.innerWidth||1200)-88)),left=58,right=width-22;
+    const x=t=>left+(t-t0)/(t1-t0)*(right-left),y=v=>22+(high-v)/(high-low)*260;
+    const ticks=[];for(let v=low;v<=high+step/2;v+=step)ticks.push(v);
+    const points=shown.map(h=>[x(time(h)),y(h.row[2])]);
+    const xticks=[];const start=new Date(t0),end=new Date(t1),total=(end.getUTCFullYear()-start.getUTCFullYear())*12+end.getUTCMonth()-start.getUTCMonth(),monthStep=[1,2,3,6,12,24,36].find(n=>total/n<=(width<500?3:6))||48;
+    for(let i=0;i<=total;i+=monthStep){const t=Date.UTC(start.getUTCFullYear(),start.getUTCMonth()+i,1);if(t>=t0&&t<=t1)xticks.push(t);}
+    const label=h=>month(h.period)+': '+num(h.row[2],3)+' '+L('βαθμοί','points');
+    return heading+`<div class="ranking-chart-scroll"><svg class="chart athlete-ranking-chart" viewBox="0 0 ${width} 330" role="group" aria-label="${L('Ιστορικό βαθμών κατάταξης','Ranking points history')}">${ticks.map(v=>`<path d="M${left} ${y(v)}H${right}" class="rank-grid"/><text x="${left-12}" y="${y(v)+4}" text-anchor="end">${num(v,1)}</text>`).join('')}${xticks.map(t=>`<path d="M${x(t)} 22V282" class="rank-grid"/><text x="${x(t)}" y="312" text-anchor="${x(t)>right-30?'end':'middle'}">${E(month(new Date(t).toISOString().slice(0,7)))}</text>`).join('')}<polyline points="${points.map(p=>p.join(',')).join(' ')}" fill="none" stroke="#2b4052" stroke-width="2"/>${points.map(([cx,cy],i)=>`<circle cx="${cx}" cy="${cy}" r="3.5" fill="#2b4052" tabindex="0" role="img" aria-label="${E(label(shown[i]))}" data-rank-point="${E(label(shown[i]))}"><title>${E(label(shown[i]))}</title></circle>`).join('')}</svg></div><p class="ranking-readout" id="ranking-readout" aria-live="polite">${E(label(shown.at(-1)))}</p><p class="chart-note">${shown.length} / ${rows.length} ${L('δημοσιευμένα σημεία · Αγγίξτε ή εστιάστε ένα σημείο για λεπτομέρειες.','published points · Tap or focus a point for details.')}</p>`;
+  }
+  function athleteInsights(summary){
+    const row=(label,value,cls='')=>`<div class="athlete-stat-row ${cls}"><span>${label}</span><span>${value}</span></div>`;
+    const record=([w,l])=>`<b>${num(w)}–${num(l)}</b> <small>${percent(w+l?w/(w+l):null)}</small>`;
+    const totals=summary.totals,opponents=summary.opponents.slice(0,6);
+    const scoreRows=summary.scoreLines.map(line=>row(`<span class="${line.mine>line.theirs?'won':'lost'}">${line.mine>line.theirs?'✓':'✕'} ${line.mine}–${line.theirs}</span>`,`<b>${num(line.count)}</b>`)).join('');
+    const rankLabels={higher:L('Αντίπαλος σε υψηλότερη θέση','Higher-ranked opponent'),lower:L('Αντίπαλος σε χαμηλότερη θέση','Lower-ranked opponent'),level:L('Ίδια θέση','Same rank'),unknown:L('Χωρίς σύγκριση','Not comparable')};
+    return `<section aria-labelledby="athlete-analysis"><div class="section-title"><h2 id="athlete-analysis" tabindex="-1">${L('Ανάλυση αγώνων','Match breakdown')}</h2></div><div class="athlete-insight-grid"><section class="panel panel-pad"><h3>${L('Σκορ αγώνων','Match scores')}</h3>${scoreRows}${row(L('Αγώνες στο τελευταίο σετ','Deciding-game matches'),record([totals.decidingWins,totals.deciding-totals.decidingWins]))}${row(L('Σετ υπέρ–κατά','Games won–lost'),`<b>${num(totals.gamesWon)}–${num(totals.gamesLost)}</b>`)}</section><section class="panel panel-pad"><h3>${L('Ανάλογα με τη θέση του αντιπάλου','By opponent ranking')}</h3>${Object.entries(summary.vsRanking).filter(([k,v])=>k!=='level'||v[0]+v[1]).map(([k,v])=>row(rankLabels[k],record(v))).join('')}<p class="chart-note">${L('Σύγκριση στον ίδιο γενικό πίνακα, από τον πιο πρόσφατο διαθέσιμο μήνα πριν από τον αγώνα. Οι πηγές δίνουν μήνα, όχι ακριβή ημέρα δημοσίευσης. Αν λείπει ένας αθλητής από τον ίδιο πίνακα, δεν γίνεται σύγκριση.','Both players are compared in the same general ranking, from the latest available month before the match month. Sources provide a month, not an exact publication day. If either player is absent from that list, the match is not compared.')}</p></section><section class="panel panel-pad"><h3>${L('Καλύτερες νίκες','Best wins')}</h3>${summary.bestWins.length?summary.bestWins.map(b=>{const snap=snapshotMap.get(b.snapshot),m=b.match;return row(`<strong>#${b.rank}</strong> · ${pLink(b.opponent)}<small class="stat-context">${E(regionName(snap?.region))} · ${snap?month(snap.period):''} · ${snap?sourceLink(snap.source):''}</small>`,`<b>${(m.p1===current.id?m.score:[...m.score].reverse()).join('–')}</b><small class="stat-context">${datefmt(m.date)}</small>`,'best-win');}).join(''):`<p class="chart-note">${L('Δεν υπάρχουν νίκες με συγκρίσιμη προηγούμενη κατάταξη.','No wins with a comparable earlier ranking.')}</p>`}<p class="chart-note">${L('Νίκες απέναντι στις υψηλότερες θέσεις των αντίστοιχων πινάκων πριν από τον μήνα του αγώνα.','Wins against the highest positions in the respective source lists before the match month.')}</p></section><section class="panel panel-pad"><h3>${L('Συχνότεροι αντίπαλοι','Most frequent opponents')}</h3>${opponents.map(o=>row(pLink(o.id),record([o.wins,o.losses]))).join('')}<p class="chart-note">${num(summary.opponents.length)} ${L('διαφορετικοί αντίπαλοι','distinct opponents')}</p></section></div></section>`;
+  }
+  function athleteSeasonTables(summary,id){
+    const seasonRows=summary.bySeason.map(r=>`<tr><td>${link('player/'+id,r.season,{season:r.season,...(param('range')?{range:param('range')}:{})})}</td><td class="number">${num(r.events)}</td><td class="number">${num(r.played)}</td><td class="number won">${num(r.wins)}</td><td class="number lost">${num(r.losses)}</td><td class="number">${percent(r.winRate)}</td></tr>`).join('');
+    return `<div class="athlete-seasons-grid"><section><div class="section-title"><h2>${L('Ανά αγωνιστική περίοδο','By season')}</h2></div><div class="panel">${table([L('Περίοδος','Season'),L('Διοργ.','Events'),L('Αγ.','Played'),L('Ν','W'),L('Η','L'),'%'],seasonRows)}</div></section><section aria-labelledby="athlete-events"><div class="section-title"><h2 id="athlete-events" tabindex="-1">${L('Διοργανώσεις','Competitions')} · ${num(summary.byEvent.length)}</h2></div>${paged(summary.byEvent,rs=>table([L('Τελευταίος αγώνας','Last match'),L('Διοργάνωση','Competition'),L('Αγ.','Played'),L('Ν–Η','W–L')],rs.map(r=>`<tr><td>${datefmt(r.last)}</td><td>${link('event/'+r.id,events.get(r.id).name)}<span class="meta">${E(events.get(r.id).season)}</span></td><td class="number">${num(r.played)}</td><td class="number">${num(r.wins)}–${num(r.losses)}</td></tr>`).join('')),'epage',8,L('διοργανώσεις','competitions'))}</section></div>`;
   }
   function playerDetail(id) {
     const p=players.get(id);if(!p)return notFound();
-    const rows=matchesByPlayer.get(id)||[];
+    const rows=[...(matchesByPlayer.get(id)||[])].sort((a,b)=>b.date.localeCompare(a.date)||a.id.localeCompare(b.id));
     const seasons=[...new Set(rows.map(m=>events.get(m.event).season))].sort().reverse();
     const filtered=rows.filter(m=>!param('season')||events.get(m.event).season===param('season'));
-    const s=stats(filtered,id);
-    const history=playerHistories.get(id)||db.snapshots.flatMap(s=>(s.rows||[]).filter(r=>r[0]===id).map(row=>({...s,row})));
-    const chartRows=[...new Map(history.filter(h=>h.list==='ΓΕΝΙΚΟΣ').map(h=>[JSON.stringify([h.period,h.row[2]]),h])).values()].sort((a,b)=>a.period.localeCompare(b.period));
-    return breadcrumb(L('Αθλητές','Players'),'players')+
-      `<div class="profile-head"><div class="profile-identity"><div class="avatar" aria-hidden="true">${E(p.name.split(' ').slice(0,2).map(n=>n[0]).join(''))}</div><div><div class="eyebrow">${p.registration?'ΔΑΙ '+p.registration:L('Προσωρινή ταυτότητα','Provisional identity')}</div><h1>${E(p.name)}</h1><p>${cLink(p.club)} · ${E(p.category)} · ${L('Καταγραφή','Observed')} ${month(p.period)}</p></div></div><a class="button secondary" href="${E(href('h2h',{p1:id}))}">${L('Σύγκριση αθλητή','Compare player')}</a></div>`+
-      `<nav class="profile-jumps" aria-label="${L('Ενότητες αθλητή','Athlete sections')}"><button type="button" data-jump="athlete-rankings">${L('Κατατάξεις','Rankings')}</button><button type="button" data-jump="athlete-analysis">${L('Ανάλυση','Breakdown')}</button><button type="button" data-jump="athlete-matches">${L('Αγώνες','Matches')}</button></nav>`+
+    const summary=PofepaAthleteStats.summarize(filtered,id,events,playerRankComparisons.get(id)||db.match_rankings||{}),s=summary.totals;
+    const chartRows=combinedRankingHistory(id);
+    const latest=chartRows.at(-1),latestPoints=[...new Set(chartRows.filter(h=>h.period===latest?.period&&h.row[2]!==null).map(h=>h.row[2]))];
+    return breadcrumb(L('Αθλητές','Players'),'players')+`<div class="athlete-profile">`+
+      `<div class="profile-head athlete-hero"><div class="profile-identity"><div class="avatar" aria-hidden="true">${E(p.name.split(' ').slice(0,2).map(n=>n[0]).join(''))}</div><div><div class="eyebrow">${p.registration?'ΔΑΙ '+E(p.registration):L('Προσωρινή ταυτότητα','Provisional identity')}</div><h1>${E(p.name)}</h1><div class="athlete-chips"><span>${cLink(p.club)} · ${month(p.period)}</span>${p.category?`<span>${E(p.category)}</span>`:''}${latestPoints.length?`<span>${latestPoints.map(v=>num(v,1)).join(' / ')} ${L('βαθμοί','points')} · ${month(latest.period)}</span>`:''}</div></div></div><a class="button secondary" href="${E(href('h2h',{p1:id}))}">${L('Σύγκριση αθλητών','Compare players')}</a></div>`+
+      `<nav class="profile-jumps" aria-label="${L('Ενότητες αθλητή','Athlete sections')}"><button type="button" data-jump="athlete-rankings">${L('Κατάταξη','Ranking')}</button>${s.played?`<button type="button" data-jump="athlete-analysis">${L('Ανάλυση','Breakdown')}</button>`:''}<button type="button" data-jump="athlete-matches">${L('Αγώνες','Matches')}</button></nav>`+
       (p.provisional?`<div class="notice">${L('Αυτή η εγγραφή δεν συνδέθηκε με βεβαιότητα με αριθμό ΔΑΙ. Οι αγώνες της παραμένουν χωριστά από ομώνυμους αθλητές.','This source identity could not be resolved to a registration number. Its matches remain separate from players with the same name.')}</div>`:'')+
       (p.identity_conflict?`<div class="notice">${L('Ο ίδιος ΔΑΙ εμφανίζεται με διαφορετικά ονόματα στις πηγές. Οι διαφορετικές εγγραφές διατηρούνται χωριστές μέχρι να ελεγχθούν.','This registration number appears under different names in the sources. Those identities remain separate pending review.')}</div>`:'')+
-      `<div class="toolbar athlete-season">${select('season',L('Περίοδος αγώνων','Match season'),[['',L('Όλες οι περίοδοι','All seasons')],...seasons.map(v=>[v,v])],param('season'))}<p class="chart-note">${L('Η περίοδος αλλάζει τους αγώνες και τα στατιστικά. Το διάγραμμα κατάταξης παραμένει πλήρες.','Season filters matches and statistics. The ranking chart always shows the full history.')}</p></div>`+
-      statCards(s)+scopeNote()+
-      `<div class="grid-two"><section class="panel panel-pad" aria-labelledby="athlete-rankings"><h2 id="athlete-rankings" tabindex="-1">${L('Εξέλιξη βαθμών κατάταξης','Ranking points history')}</h2><p class="chart-note">${L('Το πλήρες ιστορικό βαθμών σε μία χρονολογική διαδρομή.','Your full points history in one timeline.')}</p>${historyChart(chartRows)}</section><section class="panel panel-pad" aria-labelledby="athlete-analysis"><h2 id="athlete-analysis" tabindex="-1">${L('Ανάλυση αγώνων','Match breakdown')}</h2><dl class="details-list"><dt>${L('Σετ υπέρ / κατά','Games won / lost')}</dt><dd>${s.gamesWon} / ${s.gamesLost}</dd><dt>${L('Αγώνες πέντε σετ','Five-game matches')}</dt><dd>${s.deciding}</dd><dt>${L('Νίκες στο πέμπτο σετ','Deciding-game wins')}</dt><dd>${s.decidingWins}</dd><dt>${L('Διαφορετικοί αντίπαλοι','Distinct opponents')}</dt><dd>${new Set(filtered.map(m=>m.p1===id?m.p2:m.p1)).size}</dd></dl><p class="chart-note" style="margin-top:22px">${L('Τα αποτελέσματα δίνουν τελικό σκορ σετ, όχι πόντους ανά σετ. Δεν υπολογίζονται στατιστικά πόντων.','Results give final game scores, not individual points. Point-level statistics are unavailable.')}</p><details><summary>${L('Πώς συνδέονται οι αγώνες','How matches are linked')}</summary><p class="chart-note">${L('Οι αγώνες συνδέονται με ακριβές όνομα και ομάδα ή μοναδικό ακριβές όνομα στον ίδιο μήνα. Σύνδεση μόνο με όνομα ή με διαφορετική ομάδα είναι προσωρινή.','Matches link by exact name and team, or by a unique exact name in the same month’s lists. Name-only links and links with a different recorded team are provisional.')}</p></details></section></div>`+
-      `<section aria-labelledby="athlete-matches"><div class="section-title"><h2 id="athlete-matches" tabindex="-1">${L('Ιστορικό αγώνων','Match history')}</h2><button class="button secondary" data-export="player" data-id="${E(id)}">CSV</button></div><p class="chart-note">${L('Οι πιο πρόσφατοι αγώνες πρώτα. Όλο το ιστορικό είναι διαθέσιμο στις επόμενες σελίδες.','Latest matches first. Continue through the pages to explore the full history.')}</p>${paged(filtered,r=>matchTable(r,id),'page',10)}</section>`;
+      `<section class="panel panel-pad athlete-chart-panel" aria-labelledby="athlete-rankings">${historyChart(chartRows)}</section>`+
+      `<div class="toolbar athlete-season">${select('season',L('Περίοδος αγώνων','Match season'),[['',L('Όλες οι περίοδοι','All seasons')],...seasons.map(v=>[v,v])],param('season'))}<p class="chart-note">${num(s.played)} ${L('αγώνες στο αρχείο. Η περίοδος αλλάζει τα στατιστικά και τους αγώνες. Το γράφημα έχει ξεχωριστό διάστημα.','archived matches. Season filters statistics and matches. The chart has its own date range.')}</p></div>`+
+      `<div class="athlete-results">${metric(s.played?num(s.wins):'—',L('Νίκες','Wins'),'win')}${metric(s.played?num(s.losses):'—',L('Ήττες','Losses'),'loss')}${metric(percent(s.winRate),L('Ποσοστό νικών','Win rate'))}</div>`+
+      (s.played?athleteInsights(summary)+athleteSeasonTables(summary,id):'')+
+      `<section aria-labelledby="athlete-matches"><div class="section-title"><h2 id="athlete-matches" tabindex="-1">${L('Ιστορικό αγώνων','Match history')}</h2><button class="button secondary" data-export="player" data-id="${E(id)}">CSV</button></div>${paged(filtered,r=>matchTable(r,id),'page',10)}</section><p class="chart-note athlete-coverage">${L('Τα στατιστικά αφορούν τους εισαγμένους αγώνες.','Statistics cover imported matches.')} ${link('about',L('Κάλυψη και πηγές','Coverage and sources'))}</p></div>`;
   }
   function matchList(){const view=param('view','singles');const relevantEvents=db.events.filter(e=>e.kind===(view==='singles'?'singles':'fixtures'));
     let rows=(view==='singles'?db.matches:db.fixtures).filter(m=>(!param('event')||m.event===param('event'))&&(!param('region')||(m.regions||[m.region]).includes(param('region')))&&search(view==='singles'?m.names.join(' '):m.home+' '+m.away,param('q'))&&(!param('season')||events.get(m.event).season===param('season'))&&(!param('status')||m.status===param('status')));
@@ -199,9 +239,11 @@ window.pofepaReady = (async () => {
   async function loadPlayer(id){const p=players.get(id);if(!p||!db.lazy)return;
     const records=await fetchData(p.archive),record=records[id];
     matchesByPlayer.set(id,record.matches);
+    playerRankComparisons.set(id,record.rank_comparisons||{});
     playerHistories.set(id,record.history.map(([sid,row])=>({...snapshotMap.get(sid),row})));
   }
   async function prepareView(r){if(!db.lazy)return db.matches;
+    if(r.name==='players'){const snapshot=rosterSnapshot(r.params.get('category'));if(snapshot&&!snapshot.rows)snapshot.rows=await fetchData(snapshot.archive);}
     if(r.name==='team'||(r.name==='matches'&&r.params.get('view')==='teams')||(r.name==='event'&&events.get(r.id)?.kind==='fixtures')){
       if(!db.fixtures&&db.archives?.fixtures)db.fixtures=await fetchData(db.archives.fixtures);
     }
@@ -245,7 +287,7 @@ window.pofepaReady = (async () => {
     app.innerHTML=header()+(current.name==='home'?body:`<main id="main" class="wrap main">${body}</main>`)+`<footer class="footer"><div class="wrap footer-inner"><div><b>POFEPA STATS</b> · ${db.version==='prototype'?L('Πρωτότυπο','Prototype'):'v'+E(db.version)}<br>${L('Ανεξάρτητο αρχείο · όχι επίσημη υπηρεσία ΠΟΦΕΠΑ.','Independent archive · not an official POFΕPA service.')}</div><div>${link('about',L('Κάλυψη & πηγές','Coverage & sources'))}${external('https://www.pofepa.gr/','pofepa.gr')}${external('https://thanospolimeridis.github.io/greek-tt-stats/','Greek TT Archive')}</div></div></footer>`;
   }
   async function updateFilter(name,value){const focus=document.activeElement?.id;let pos;try{pos=document.activeElement.selectionStart;}catch{}
-    const params=new URLSearchParams(current.params);value?params.set(name,value):params.delete(name);if(name!=='page')params.delete('page');params.delete('rpage');
+    const params=new URLSearchParams(current.params);value?params.set(name,value):params.delete(name);if(!['page','epage','range'].includes(name)){params.delete('page');params.delete('epage');}params.delete('rpage');
     if(name==='region'&&current.name==='rankings'){params.delete('period');params.delete('list');}if(name==='class')params.delete('age');if(name==='kind'&&value==='singles')params.delete('competition');
     history.replaceState(null,'',href(current.name+(current.id?'/'+current.id:''),Object.fromEntries(params)));await render();
     if(focus){const el=document.getElementById(focus);el?.focus();try{el?.setSelectionRange(pos,pos);}catch{}}
@@ -254,13 +296,17 @@ window.pofepaReady = (async () => {
   app.addEventListener('input',event=>{if(event.target.matches('input[data-filter]')){clearTimeout(searchTimer);const {filter}=event.target.dataset,value=event.target.value;searchTimer=setTimeout(()=>updateFilter(filter,value),160);}});
   app.addEventListener('change',event=>{if(event.target.matches('select[data-draw-zoom]')){const image=document.getElementById('draw-canvas-'+event.target.dataset.drawZoom);image.style.width=event.target.value==='fit'?'100%':Math.round(Number(image.dataset.width)*Number(event.target.value))+'px';}if(event.target.matches('select[data-filter]'))updateFilter(event.target.dataset.filter,event.target.value);});
   function jumpToSection(id){const section=document.getElementById(id);if(section){section.focus({preventScroll:true});section.scrollIntoView({block:'start'});}}
-  app.addEventListener('click',event=>{const button=event.target.closest('button');if(!button)return;
+  function showRankingPoint(event){const point=event.target.closest('[data-rank-point]');if(point){const readout=document.getElementById('ranking-readout');if(readout)readout.textContent=point.dataset.rankPoint;}}
+  app.addEventListener('focusin',showRankingPoint);
+  app.addEventListener('mouseover',showRankingPoint);
+  app.addEventListener('click',event=>{showRankingPoint(event);const button=event.target.closest('button');if(!button)return;
+    if(button.dataset.chartRange){updateFilter('range',button.dataset.chartRange);return;}
     if(button.dataset.drawEnd!==undefined){const viewport=document.getElementById('draw-viewport-'+button.dataset.drawEnd);viewport.scrollTo({left:viewport.scrollLeft+viewport.clientWidth*.8,behavior:'auto'});return;}
     if(button.dataset.jump){jumpToSection(button.dataset.jump);return;}
     if(button.id==='retry')render();
     if(button.id==='reload')location.reload();
     if(button.id==='lang'){lang=lang==='el'?'en':'el';try{localStorage.setItem('pofepa-lang',lang);}catch{}render();}
-    if(button.dataset.page!==undefined){const key=button.dataset.pageKey||'page',athlete=current.name==='player',rounds=current.name==='event'&&events.get(current.id)?.kind==='fixtures';updateFilter(key,button.dataset.page).then(()=>{if(athlete)jumpToSection('athlete-matches');else if(rounds)jumpToSection('fixture-round-0');});}
+    if(button.dataset.page!==undefined){const key=button.dataset.pageKey||'page',athlete=current.name==='player',rounds=current.name==='event'&&events.get(current.id)?.kind==='fixtures';updateFilter(key,button.dataset.page).then(()=>{if(athlete)jumpToSection(key==='epage'?'athlete-events':'athlete-matches');else if(rounds)jumpToSection('fixture-round-0');});}
     if(button.dataset.export)exportData(button.dataset.export,button.dataset.id);
   });
   app.addEventListener('submit',event=>{event.preventDefault();const form=event.target;
@@ -281,5 +327,10 @@ window.pofepaReady = (async () => {
   }
   document.querySelector('.skip').addEventListener('click',event=>{event.preventDefault();const main=document.getElementById('main');main.setAttribute('tabindex','-1');main.focus();main.scrollIntoView();});
   window.addEventListener('hashchange',()=>{clearTimeout(searchTimer);render();window.scrollTo(0,0);});
+  let chartResizeTimer,chartWidth=window.innerWidth;
+  window.addEventListener('resize',()=>{
+    if(window.innerWidth===chartWidth)return;chartWidth=window.innerWidth;clearTimeout(chartResizeTimer);
+    chartResizeTimer=setTimeout(()=>{if(current.name==='player'){const panel=document.querySelector('.athlete-chart-panel');if(panel)panel.innerHTML=historyChart(combinedRankingHistory(current.id));}},120);
+  });
   await render();
 })().catch(error=>{document.getElementById('app').innerHTML='<main class="wrap main"><h1>Unable to load archive / Αδυναμία φόρτωσης</h1><p>Please reload the page / Ανανεώστε τη σελίδα.</p></main>';console.error(error);});

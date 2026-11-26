@@ -9,6 +9,7 @@ const zlib = require('node:zlib');
 const root = path.resolve(__dirname,'..');
 const Pofepa = require('../src/core.js');
 const PofepaEvidence = require('../src/evidence.js');
+const PofepaAthleteStats = require('../src/athlete-stats.js');
 const code = fs.readFileSync(path.join(root,'src/app.js'),'utf8');
 const builtHtml = fs.readFileSync(path.join(root,'dist/index.html'),'utf8');
 const manifest = JSON.parse(builtHtml.match(/<script type="application\/json" id="site-data">(.*?)<\/script>/s)[1]);
@@ -41,7 +42,7 @@ function harness(payload,initialRoute,fetcher) {
   };
   const location = {hash:'#'+initialRoute};
   const context = {
-    Pofepa,PofepaEvidence,Blob,Response,DecompressionStream,Uint8Array,atob,URLSearchParams,Intl,
+    Pofepa,PofepaEvidence,PofepaAthleteStats,Blob,Response,DecompressionStream,Uint8Array,atob,URLSearchParams,Intl,
     document:{getElementById:id => id==='site-data'?{textContent:JSON.stringify(payload)}:app,
       documentElement:{},querySelector:() => ({addEventListener(){}})},
     location,window:{addEventListener:(type,callback) => {windowHandlers[type]=callback;},scrollTo(){}},
@@ -101,6 +102,13 @@ async function retryAndCache(route,archive,verifyHydrated) {
     assert(html.includes('Home team') && html.includes('Away team'),'Fixture table must hydrate after retry');
     assert(html.includes('<tbody><tr>'),'Recovered fixture table must contain actual rows');
   });
+  const rankedPlayer=bootstrap.players.find(p=>p.id==='p-859');
+  readArchive(rankedPlayer.archive);
+  await retryAndCache('player/p-859',rankedPlayer.archive,html=>{
+    assert(html.includes('Best wins') && html.includes('By opponent ranking'));
+    assert(html.includes('Most frequent opponents') && html.includes('By season'));
+    assert(!html.includes('No wins with a comparable earlier ranking'),'Recovered shard must restore comparison data');
+  });
   await retryAndCache('about',bootstrap.archives.about,html => {
     assert(html.includes('Imported sources'));
     assert(html.includes(about.sources[0].sha256),'About hydration must restore full source metadata');
@@ -132,5 +140,5 @@ async function retryAndCache(route,archive,verifyHydrated) {
   assert(app.app.innerHTML.includes(full.sources[0].sha256),'Offline about route must retain full sources');
   assert.equal(app.errors.length,0,app.errors.map(String).join('\n'));
   assert.equal(networkCalls,0,'Offline athlete, team-fixtures and about routes must make no network requests');
-  console.log('Passed fixtures/about failure-retry-cache hydration and compressed offline athlete/team-fixtures/about rendering.');
+  console.log('Passed athlete/fixtures/about failure-retry-cache hydration and compressed offline athlete/team-fixtures/about rendering.');
 })().catch(error => {console.error(error);process.exitCode=1;});

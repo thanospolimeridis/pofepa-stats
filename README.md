@@ -20,7 +20,7 @@ The results menu is inventoried for every listed season, from 2007–2008 throug
 
 Rankings remain separated into **North Greece**, **Attica & South Greece**, and **Nationwide**, then into the source's age brackets. September 2026 onward uses the unified national rankings. Historical age-sheet titles are normalized (`ΑΝΕΞΑΡΤΗΤΟΙ` → `ANE`, `ΒΕΤΕΡΑΝΟΙ` → `BET`), with original worksheet names retained for evidence. Positions are never recalculated from a filtered overall ranking. Tied positions and unranked source entries are preserved. Birth years are not published.
 
-Athlete pages show **all linked matches** and one chronological ranking-points chart, combining published general-ranking points without regional or national labels. Identical month/value pairs appear once; distinct published values are preserved. There are no region or age selectors or detailed ranking tables on athlete pages. The ranking chart and match breakdown appear above match history, with section shortcuts in the same order. Match statistics default to all seasons, and match history shows the newest results first with ten matches per page. The dedicated rankings page retains every region and age category. Team details remain accessible through athlete and result links; there is no separate Teams directory.
+Athlete pages show **all linked matches** and one chronological ranking-points chart, combining published general-ranking points without regional or national labels. Identical month/value pairs appear once; distinct published values are preserved. There are no region or age selectors or detailed ranking tables on athlete pages. The profile follows Greek TT Archive’s dark header, full-width ranking chart, compact win/loss totals, score breakdown, opponent summaries, and season/competition tables. The chart stays above match history and offers independent All/1Y/6M/3M ranges. Opponent-rank comparisons and best wins use a shared general-ranking table from the latest available month strictly before the match month, preferring a shared national table and then the match’s recorded regions. Unavailable comparisons remain explicitly unclassified; best wins link to their source ranking. This context loads with the athlete shard, not the initial data package. Match statistics default to all seasons, and match history shows the newest results first with ten matches per page. The dedicated rankings page retains every region and age category. Team details remain accessible through athlete and result links; there is no separate Teams directory.
 
 ## Build and preview
 
@@ -48,6 +48,7 @@ python3 scripts/collect.py --offline --as-of 2026-11-26
 python3 scripts/build.py
 python3 -m unittest discover -s tests -v
 node tests/smoke.js
+node tests/athlete-stats.js
 node tests/evidence.js
 node tests/export.js
 node tests/bootstrap.js

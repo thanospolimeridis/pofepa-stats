@@ -24,6 +24,7 @@ class BootstrapContractTests(unittest.TestCase):
             'sources': [{'id': 's-1', 'url': 'https://example.org/source.jpg',
                          'sha256': 'hash', 'retrieved_at': '2026-11-26'}],
             'issues': [{'reason': 'audit-only'}],
+            'match_rankings': {'m-1': {'snapshot': 'r-1', 'ranks': [1, 2]}},
             'coverage': {'matches': 2, 'ranking_periods': ['2026-10'],
                          'document_reviews': [{'url': 'source'}],
                          'match_sheets': {'reviewed': 1, 'held': 0,
@@ -38,6 +39,7 @@ class BootstrapContractTests(unittest.TestCase):
         self.assertEqual(self.data, original)
         self.assertNotIn('fixtures', result)
         self.assertNotIn('issues', result)
+        self.assertNotIn('match_rankings', result)
         self.assertEqual(result['sources'], [{'id': 's-1', 'url': 'https://example.org/source.jpg'}])
         self.assertEqual(result['archives'], {'fixtures': 'data/fixtures.json.gz', 'about': 'data/about.json.gz'})
         for key in ('players', 'events', 'snapshots', 'matches', 'recent_matches'):
