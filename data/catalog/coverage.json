@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 396,
-  "imported_sheets": 326,
-  "held": 70,
-  "pending": 13115,
+  "reviewed": 406,
+  "imported_sheets": 333,
+  "held": 73,
+  "pending": 13105,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6282,11 +6282,41 @@
     "reason": "conflicting_score",
     "details": "Row 5 shows ΚΥΡΙΑΚΟΥ–ΦΟΥΡΤΟΥΛΑΚΗΣ 2–3 across five games, whereas the existing workbook result is 1–3. The same-date pair cannot be imported again or overwritten without clarification.",
     "details_el": "Το πέμπτο αποτέλεσμα ΚΥΡΙΑΚΟΥ–ΦΟΥΡΤΟΥΛΑΚΗΣ είναι 2–3 στο φύλλο αλλά 1–3 στο βιβλίο. Δεν προστίθεται διπλός αγώνας ούτε αντικαθίσταται το υπάρχον σκορ."
+   },
+   {
+    "source": "s-a451b1fa384ac353",
+    "url": "http://files.ping-pong.gr/FA25-26/TTV-ATTpo.jpg",
+    "fixture": "f-c35b280f4c7625ef",
+    "sha256": "75d7c718935f69e6c644c8eb248740fac404dd17e5be4a11a832f04adcb28e34",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 2 ΧΑΛΚΙΔΗΣ–ΨΑΡΟΥΔΑΚΗΣ has a written 3-2 score matching the workbook, but the five handwritten game scores do not support that result (7-11, 13-15, 8-11, 12-10, 7-11). Held pending correction of the inconsistent score columns. Actual sheet date: 2 June 2026.",
+    "details_el": "Το δεύτερο αποτέλεσμα ΧΑΛΚΙΔΗΣ–ΨΑΡΟΥΔΑΚΗΣ αναγράφεται 3–2, αλλά τα επιμέρους σετ δεν συμφωνούν. Απαιτείται διευκρίνιση. Ημερομηνία φύλλου: 2 Ιουνίου 2026."
+   },
+   {
+    "source": "s-fe774a80db8074ec",
+    "url": "http://files.ping-pong.gr/FA25-26/NAU-TTVpo.jpg",
+    "fixture": "f-ea36089d9057f3f8",
+    "sha256": "843aac27e55c8b311ac65025b782d64b46c6cdc1960cdf2fc7523e8c86671b93",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_participant",
+    "details": "The 13 May sheet row 9 is ΚΑΡΑΪΩΣΗΦ–ΧΑΛΚΙΔΗΣ 3-1. The workbook instead has a second ΑΛΕΞΑΝΔΡΙΔΗΣ–ΧΑΛΚΙΔΗΣ result, 3-1, beside their row-6 3-0. Held to avoid adding a tenth result or silently changing the participant.",
+    "details_el": "Στις 13 Μαΐου, το ένατο αποτέλεσμα είναι ΚΑΡΑΪΩΣΗΦ–ΧΑΛΚΙΔΗΣ 3–1. Το βιβλίο καταγράφει δεύτερο ΑΛΕΞΑΝΔΡΙΔΗΣ–ΧΑΛΚΙΔΗΣ με 3–1 αντί γι’ αυτό. Απαιτείται διευκρίνιση αθλητή."
+   },
+   {
+    "source": "s-b461b11ec4d84239",
+    "url": "http://files.ping-pong.gr/FA25-26/BWK-ATTpo.jpg",
+    "fixture": "f-13ef728ca87a266c",
+    "sha256": "7cc7f87bb9403a247745ec7ca76a71d7d1f54d4a968a8a3dc72f12b0ac6100dc",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_participant",
+    "details": "The SIX ΜΠΑΚ–ATTACK-t 5-3 fixture links BWK-ATTpo.jpg, which is the 14 May BLADE WALKERS–ΑΝΕΞΑΡΤΗΤΟΙ ΤΑΤΑΥΛΑ 5-4 sheet. Different teams and score; cannot attribute its rows to the linked fixture.",
+    "details_el": "Ο σύνδεσμος SIX ΜΠΑΚ–ATTACK-t 5–3 ανοίγει φύλλο BLADE WALKERS–ΑΝΕΞΑΡΤΗΤΟΙ ΤΑΤΑΥΛΑ 5–4 της 14ης Μαΐου. Απαιτείται ο σωστός σύνδεσμος."
    }
   ],
   "imported": 907,
-  "corroborated": 1251,
-  "excluded_walkovers": 25,
+  "corroborated": 1292,
+  "excluded_walkovers": 27,
   "reviews": [
    {
     "source": "s-adfb32f236e751d3",
@@ -9238,6 +9268,70 @@
     "season": "2026-2027",
     "corroborated": 5,
     "notes": ""
+   },
+   {
+    "source": "s-a5e64d8e070a23e5",
+    "url": "http://files.ping-pong.gr/FA25-26/6BK-NAUpo.jpg",
+    "fixture": "f-67d8b64c7704fb23",
+    "date": "2026-05-27",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-01d863cd4c6cedf3",
+    "url": "http://files.ping-pong.gr/FA25-26/F91-ERApo.jpg",
+    "fixture": "f-b8357ba9fcdde946",
+    "date": "2026-05-21",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-e38efc211e6fd0ac",
+    "url": "http://files.ping-pong.gr/FA25-26/ATT-NAUpo.jpg",
+    "fixture": "f-d7bb132d3047953a",
+    "date": "2026-05-20",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-6175a88b37c4bd21",
+    "url": "http://files.ping-pong.gr/FA25-26/TTV-6BKpo.jpg",
+    "fixture": "f-ed22179c09843574",
+    "date": "2026-05-19",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Official 5-2 score reached after row 7. Row 8 has a 3-0 score but dashes in both team-total columns and is excluded as an uncounted post-clinch rubber."
+   },
+   {
+    "source": "s-d439473aa8be4757",
+    "url": "http://files.ping-pong.gr/FA25-26/25o-THBpo.jpg",
+    "fixture": "f-33600eebe355d3c1",
+    "date": "2026-05-15",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-bcdb6036ebd2b3aa",
+    "url": "http://files.ping-pong.gr/FA25-26/ATR-VAGpo.jpg",
+    "fixture": "f-1bf044448f03be96",
+    "date": "2026-05-12",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-e1e50ce747799a31",
+    "url": "http://files.ping-pong.gr/FA25-26/AEE-OMUpo.jpg",
+    "fixture": "f-5c377df607c2be31",
+    "date": "2026-05-07",
+    "season": "2025-2026",
+    "walkover": 2,
+    "corroborated": 5,
+    "notes": "Home A slot is explicitly absent; rows 1 and 5 advance the away team total without games. These walkovers are excluded from athlete records."
    }
   ]
  }

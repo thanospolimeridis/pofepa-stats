@@ -558,5 +558,29 @@
     "reason": "conflicting_score",
     "details": "Row 5 shows ΚΥΡΙΑΚΟΥ–ΦΟΥΡΤΟΥΛΑΚΗΣ 2–3 across five games, whereas the existing workbook result is 1–3. The same-date pair cannot be imported again or overwritten without clarification.",
     "details_el": "Το πέμπτο αποτέλεσμα ΚΥΡΙΑΚΟΥ–ΦΟΥΡΤΟΥΛΑΚΗΣ είναι 2–3 στο φύλλο αλλά 1–3 στο βιβλίο. Δεν προστίθεται διπλός αγώνας ούτε αντικαθίσταται το υπάρχον σκορ."
+  },
+  "http://files.ping-pong.gr/FA25-26/TTV-ATTpo.jpg": {
+    "fixture": "f-c35b280f4c7625ef",
+    "sha256": "75d7c718935f69e6c644c8eb248740fac404dd17e5be4a11a832f04adcb28e34",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 2 ΧΑΛΚΙΔΗΣ–ΨΑΡΟΥΔΑΚΗΣ has a written 3-2 score matching the workbook, but the five handwritten game scores do not support that result (7-11, 13-15, 8-11, 12-10, 7-11). Held pending correction of the inconsistent score columns. Actual sheet date: 2 June 2026.",
+    "details_el": "Το δεύτερο αποτέλεσμα ΧΑΛΚΙΔΗΣ–ΨΑΡΟΥΔΑΚΗΣ αναγράφεται 3–2, αλλά τα επιμέρους σετ δεν συμφωνούν. Απαιτείται διευκρίνιση. Ημερομηνία φύλλου: 2 Ιουνίου 2026."
+  },
+  "http://files.ping-pong.gr/FA25-26/NAU-TTVpo.jpg": {
+    "fixture": "f-ea36089d9057f3f8",
+    "sha256": "843aac27e55c8b311ac65025b782d64b46c6cdc1960cdf2fc7523e8c86671b93",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_participant",
+    "details": "The 13 May sheet row 9 is ΚΑΡΑΪΩΣΗΦ–ΧΑΛΚΙΔΗΣ 3-1. The workbook instead has a second ΑΛΕΞΑΝΔΡΙΔΗΣ–ΧΑΛΚΙΔΗΣ result, 3-1, beside their row-6 3-0. Held to avoid adding a tenth result or silently changing the participant.",
+    "details_el": "Στις 13 Μαΐου, το ένατο αποτέλεσμα είναι ΚΑΡΑΪΩΣΗΦ–ΧΑΛΚΙΔΗΣ 3–1. Το βιβλίο καταγράφει δεύτερο ΑΛΕΞΑΝΔΡΙΔΗΣ–ΧΑΛΚΙΔΗΣ με 3–1 αντί γι’ αυτό. Απαιτείται διευκρίνιση αθλητή."
+  },
+  "http://files.ping-pong.gr/FA25-26/BWK-ATTpo.jpg": {
+    "fixture": "f-13ef728ca87a266c",
+    "sha256": "7cc7f87bb9403a247745ec7ca76a71d7d1f54d4a968a8a3dc72f12b0ac6100dc",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_participant",
+    "details": "The SIX ΜΠΑΚ–ATTACK-t 5-3 fixture links BWK-ATTpo.jpg, which is the 14 May BLADE WALKERS–ΑΝΕΞΑΡΤΗΤΟΙ ΤΑΤΑΥΛΑ 5-4 sheet. Different teams and score; cannot attribute its rows to the linked fixture.",
+    "details_el": "Ο σύνδεσμος SIX ΜΠΑΚ–ATTACK-t 5–3 ανοίγει φύλλο BLADE WALKERS–ΑΝΕΞΑΡΤΗΤΟΙ ΤΑΤΑΥΛΑ 5–4 της 14ης Μαΐου. Απαιτείται ο σωστός σύνδεσμος."
   }
 }
