@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 216,
-  "imported_sheets": 164,
+  "reviewed": 236,
+  "imported_sheets": 184,
   "held": 52,
-  "pending": 13295,
+  "pending": 13275,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6105,7 +6105,7 @@
    }
   ],
   "imported": 891,
-  "corroborated": 185,
+  "corroborated": 318,
   "excluded_walkovers": 16,
   "reviews": [
    {
@@ -7593,6 +7593,186 @@
     "season": "2026-2027",
     "corroborated": 5,
     "notes": "Sheet explicitly dates the fixture 4 October despite its placement in a later round. All five results match that workbook date; identities of ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ Ν. and substitute ΚΩΝΣΤΑΝΤΙΝΟΥ ΠΕΤΡΟΣ are confirmed there."
+   },
+   {
+    "source": "s-06dcdd7dbdb6c72f",
+    "url": "http://files.ping-pong.gr/FA26-27/TPZ-VKI.jpg",
+    "fixture": "f-d8d46c44190f51e7",
+    "date": "2026-10-30",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "ΚΟΥΦΟΣ and ΧΑΤΖΗΚΥΡΙΑΚΟΣ registrations are transposed on the sheet. Resolve 465 and 394 by their names and eight matching workbook results; do not use the transposed printed registrations as identity proof."
+   },
+   {
+    "source": "s-e6e0fcc4b08dee39",
+    "url": "http://files.ping-pong.gr/FA26-27/ASV-SF2.jpg",
+    "fixture": "f-560e45af6571d786",
+    "date": "2026-10-29",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-3a23a1ac7556d2c3",
+    "url": "http://files.ping-pong.gr/FA26-27/KAR-RDL.jpg",
+    "fixture": "f-38688d18d017013b",
+    "date": "2026-10-27",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "Row 7 repeats ΒΟΛΑΚΑΚΗ in overwritten handwriting and matches the existing workbook pair; the reserve named below does not appear in a played row."
+   },
+   {
+    "source": "s-52196f77b7aedf79",
+    "url": "http://files.ping-pong.gr/FA26-27/V3V-LEO.jpg",
+    "fixture": "f-cadc1ae0f2dab7f9",
+    "date": "2026-10-23",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-6381f1a5d303ad76",
+    "url": "http://files.ping-pong.gr/FA26-27/AP2-ILN.jpg",
+    "fixture": "f-5d9496605dbdd7e8",
+    "date": "2026-10-23",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "Use current ΤΖΗΚΑΣ variant for 1899. Row 5 explicitly names ΤΣΑΚΙΡΗΣ rather than the normal Z participant ΤΣΑΚΟΣ; row 6 names ΧΙΟΝΗΣ. Both pairs and scores are independently corroborated by the workbook, so preserve the written row identities."
+   },
+   {
+    "source": "s-5258896dc8e086a0",
+    "url": "http://files.ping-pong.gr/FA26-27/ATH-ELF.jpg",
+    "fixture": "f-25735b6cf7e1ab85",
+    "date": "2026-10-22",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "The final winner label reads 5-0 for the away side; row-by-row totals give home 0, away 5, agreeing with the linked fixture."
+   },
+   {
+    "source": "s-fa4907032389e5bb",
+    "url": "http://files.ping-pong.gr/FA26-27/MFR-PFL.jpg",
+    "fixture": "f-3836d3aa53d4a663",
+    "date": "2026-10-22",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-77bacef95798b01c",
+    "url": "http://files.ping-pong.gr/FA26-27/AP9-LSP.jpg",
+    "fixture": "f-2169532e23991aa9",
+    "date": "2026-10-22",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "Row 8 away name is corrected to ΚΑΝΑΒΟΥΤΣΟΣ, matching the workbook. ΠΑΠΑΔΟΠΟΥΛΟΣ plays in row 6; ΑΝΔΡΙΤΣΟΣ replaces ΜΟΥΝΤΡΑΚΗΣ in row 8."
+   },
+   {
+    "source": "s-cbfc6caebad8e642",
+    "url": "http://files.ping-pong.gr/FA26-27/ETH-PL7.jpg",
+    "fixture": "f-8f6a66fbf029b6bb",
+    "date": "2026-10-21",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "Sheet date contains only 21/. The six identical workbook results establish 21 October 2026; the repeated ΒΑΣΙΛΕΙΑΔΗΣ registration is mistyped in row 4, while row 1 is 1216."
+   },
+   {
+    "source": "s-62c150156797e4f5",
+    "url": "http://files.ping-pong.gr/FA26-27/BWK-PRD.jpg",
+    "fixture": "f-f2a9a99eabda8eff",
+    "date": "2026-10-21",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "Use the current ΤΣΑΛΙΚΗΣ ranking variant for registration 1529. ΚΩΝΣΤΑΝΤΙΝΟΥ replaces him in row 6."
+   },
+   {
+    "source": "s-f996d3321b12d1d2",
+    "url": "http://files.ping-pong.gr/FA26-27/VTT-ATL.jpg",
+    "fixture": "f-74edda655228cf83",
+    "date": "2026-10-21",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "ΑΘΑΝΑΣΟΠΟΥΛΟΣ registration is indistinct; name and existing workbook result resolve 2946. Row 6 has names but no score and is excluded."
+   },
+   {
+    "source": "s-2cf200c10bead698",
+    "url": "http://files.ping-pong.gr/FA26-27/PAN-ADF.jpg",
+    "fixture": "f-4933db7054d18392",
+    "date": "2026-10-20",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-0cefe3706cd8d6f8",
+    "url": "http://files.ping-pong.gr/FA26-27/PRT-ASE.jpg",
+    "fixture": "f-a5d1fcee7e8f48d4",
+    "date": "2026-10-19",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "ROSE ZHIHUA is printed with 1026, the ZHANG ZHIHUA profile, and is corroborated by the same workbook fixture."
+   },
+   {
+    "source": "s-c12d705861907357",
+    "url": "http://files.ping-pong.gr/FA26-27/CNC-ATN.jpg",
+    "fixture": "f-f7d638236821d517",
+    "date": "2026-10-17",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": ""
+   },
+   {
+    "source": "s-5c67775861eba881",
+    "url": "http://files.ping-pong.gr/FA26-27/AKT-AMZ.jpg",
+    "fixture": "f-631223ae0a8604db",
+    "date": "2026-10-15",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-f58b3d04700b7098",
+    "url": "http://files.ping-pong.gr/FA26-27/ATT-SWD.jpg",
+    "fixture": "f-e765776f6b75f922",
+    "date": "2026-10-15",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-a1ebe80107ca017c",
+    "url": "http://files.ping-pong.gr/FA26-27/TDT-ELM.jpg",
+    "fixture": "f-6d4ab8c05b685a0f",
+    "date": "2026-10-15",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-661ff64c75310be0",
+    "url": "http://files.ping-pong.gr/FA26-27/VAV-AP8.jpg",
+    "fixture": "f-ee5f821282de4e8f",
+    "date": "2026-10-14",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": ""
+   },
+   {
+    "source": "s-f6b40012dd3c1b33",
+    "url": "http://files.ping-pong.gr/FA26-27/ESP-SLM.jpg",
+    "fixture": "f-89cdc06f887b5c44",
+    "date": "2026-10-13",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-c76054df75639fb6",
+    "url": "http://files.ping-pong.gr/FA26-27/ART-RHC.jpg",
+    "fixture": "f-9112fbb6dd0c4758",
+    "date": "2026-10-07",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": ""
    }
   ]
  }
