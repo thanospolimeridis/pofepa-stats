@@ -95,6 +95,13 @@ class MatchSheetTests(unittest.TestCase):
         self.run_import();self.data['matches'][0]['score']=[3,2]
         with self.assertRaisesRegex(ValueError,'Ambiguous existing result'):self.run_import()
 
+    def test_walkover_cannot_silently_leave_an_existing_played_result(self):
+        self.review['rows'][1]['status']='played'
+        self.run_import()
+        self.review['rows'][1]['status']='walkover'
+        with self.assertRaisesRegex(ValueError,'Existing played result conflicts with walkover'):
+            self.run_import()
+
     def test_changed_source_and_registration_fail_closed(self):
         self.path.write_bytes(b'changed')
         with self.assertRaisesRegex(ValueError,'sheet changed'):self.run_import()

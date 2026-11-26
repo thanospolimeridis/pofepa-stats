@@ -127,6 +127,9 @@ def import_reviews(data, cache, reviews=None, issues=None):
                 raise ValueError(f'Invalid match-sheet score: {url} row {number}')
             scores[0 if score[0] > score[1] else 1] += 1
             if row.get('status', 'played') != 'played' or row.get('kind', 'singles') != 'singles':
+                ids = [roster[k].get('id') for k in row['players']]
+                if all(ids) and by_pair.get((review['date'], tuple(sorted(ids)))):
+                    raise ValueError(f'Existing played result conflicts with walkover: {url} row {number}')
                 counts[row.get('status', 'doubles')] += 1
                 rubbers.append({'kind': row.get('kind', 'singles'), 'status': row.get('status', 'played'),
                                 'row': number, 'score': score, 'names': [roster[k]['label'] for k in row['players']]})

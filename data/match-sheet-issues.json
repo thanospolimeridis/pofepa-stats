@@ -902,5 +902,285 @@
     "reason": "missing_date",
     "details": "VΚI–RED HOT CHILI PONGERS sheet has a completely blank date field. Seven played rubbers are legible, final 2-5. No played date inferred from the fixture round or results workbook.",
     "details_el": "Το φύλλο Βετεράνοι Κεφαλονιάς-Ιθάκης–RED HOT CHILI PONGERS έχει κενό πεδίο ημερομηνίας. Επτά αγώνες διακρίνονται με τελικό 2–5, αλλά απαιτείται τεκμηρίωση της πραγματικής ημερομηνίας."
+  },
+  "http://files.ping-pong.gr/FA25-26/D06-ATB.jpg": {
+    "fixture": "f-cf6dfff66d6dc955",
+    "sha256": "b625c065c02735145d4aea0c376d2d3fd82f2103010720f67bc91c98113ddd92",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_match_status",
+    "details": "3 April 2026 sheet explicitly says ΜΑΡΙΝΟΣ injured; rows 3, 6 and 8 are 0-3 with dashed games, administrative walkovers. These exact rows are currently scored as played workbook matches. Held for explicit status reconciliation rather than preserving incorrect athlete counts. Other played rows: ΡΑΠΤΑΚΗΣ–ΠΑΠΑΝΤΩΝΙΟΥ 1-3, ΒΑΣΑΓΙΑΝΝΗΣ–ΛΕΪΜΟΝΗΣ 3-2, ΒΑΣΑΓΙΑΝΝΗΣ–ΠΑΠΑΝΤΩΝΙΟΥ 3-0, ΡΑΠΤΑΚΗΣ–ΒΑΧΛΑΣ 1-3, ΒΑΣΑΓΙΑΝΝΗΣ–ΒΑΧΛΑΣ 3-0.",
+    "details_el": "Το φύλλο της 3 ης Απριλίου 2026 αναφέρει τραυματισμό ΜΑΡΙΝΟΥ και μη παιγμένα 0–3 στις γραμμές 3, 6 και 8. Αυτές οι γραμμές μετρούν ήδη ως παιγμένες στο βιβλίο. Χρειάζεται ρητή διόρθωση της κατάστασής τους."
+  },
+  "http://files.ping-pong.gr/FA25-26/SLG-STV.jpg": {
+    "fixture": "f-5641dfad0bff847c",
+    "sha256": "f03824c14bffd15dbc8a4660d14bdae557fc358976fcfece8909c44278d3fcfb",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "23 March 2026 row 5 ΑΣΗΜΑΚΟΠΟΥΛΟΣ–ΤΣΑΜΑΚΟΣ is written 3-2 but contains only four games (5-11, 12-10, 11-8, 11-7), supporting the workbook 3-1. No silent correction.",
+    "details_el": "Στις 23 Μαρτίου 2026, το πέμπτο αποτέλεσμα ΑΣΗΜΑΚΟΠΟΥΛΟΣ–ΤΣΑΜΑΚΟΣ γράφει 3–2 αλλά τα τέσσερα σετ δίνουν 3–1, όπως το βιβλίο. Απαιτείται διευκρίνιση."
+  },
+  "http://files.ping-pong.gr/FA25-26/BBR-S7J.jpg": {
+    "fixture": "f-3b2fe4a2f3430dac",
+    "sha256": "dccde9e2e1571991c50f16193b8666b75804b509c658b37ce3f7709fb854406b",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The BALL BREAKERS–SEN 7 JUNIORS sheet reads 27-3-2006, whereas its six results match the 27 March 2026 workbook and it is linked from the 2025–26 fixture. The written year requires clarification.",
+    "details_el": "Το φύλλο BALL BREAKERS–SEN 7 JUNIORS γράφει 27-3-2006, ενώ τα έξι αποτελέσματα αντιστοιχούν στο βιβλίο της 27 ης Μαρτίου 2026 και στη σεζόν 2025–26. Χρειάζεται διευκρίνιση του έτους."
+  },
+  "http://files.ping-pong.gr/FA25-26/007-DIO.jpg": {
+    "fixture": "f-5c3cbcaaf34da9c5",
+    "sha256": "71b7ed5ae0a5f72d7654fc3933ed50e69d1dddb9f5d2b2cf0f8b246a1a875606",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_player",
+    "details": "4 April 2026 rows 5 and 6 explicitly name ΚΥΡΙΑΚΟΥ–ΚΑΛΛΕΡΓΗΣ 0-3 and MANSUROV–ΒΛΑΧΟΔΗΜΗΤΡΟΠΟΥΛΟΣ 3-1, with corrected Y/Z marks. The workbook instead records ΚΥΡΙΑΚΟΥ–ΒΛΑΧΟΔΗΜΗΤΡΟΠΟΥΛΟΣ 0-3 and MANSUROV–ΚΑΛΛΕΡΓΗΣ 3-1. Held to reconcile opponent identities without adding duplicate or contradictory results.",
+    "details_el": "Στις 4 Απριλίου 2026, οι γραμμές 5 και 6 αναφέρουν διαφορετικούς αντιπάλους από το βιβλίο: ΚΑΛΛΕΡΓΗΣ και ΒΛΑΧΟΔΗΜΗΤΡΟΠΟΥΛΟΣ έχουν αντιστραφεί. Χρειάζεται επιβεβαίωση πριν εισαχθούν αποτελέσματα."
+  },
+  "http://files.ping-pong.gr/FA25-26/ES2-DSB.jpg": {
+    "fixture": "f-80298438ed147358",
+    "sha256": "4f07ba6ba340e2e3e5d4269b388d6d6f12f7e467096c8706319cb4856a729cf5",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_date",
+    "details": "ΕΣΠΕΡΟΣ 2–DAFNI SILVER BLADES has a blank date field. Six rows match the workbook on 6 April 2026, but the sheet supplies no actual calendar date.",
+    "details_el": "Το φύλλο ΕΣΠΕΡΟΣ 2–DAFNI SILVER BLADES δεν έχει ημερομηνία. Τα έξι αποτελέσματα αντιστοιχούν στο βιβλίο της 6 ης Απριλίου 2026, αλλά απαιτείται χρονολογημένη πηγή."
+  },
+  "http://files.ping-pong.gr/FA25-26/AP10-PLD.jpg": {
+    "fixture": "f-c01b03ab353adb60",
+    "sha256": "3680193b5a4ff1ce26c1130d1ed04f3438fd28fc55a63b66195ead8706a15523",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "APACHE 10–ΑΟ ΠΕΤΑΛΟΥΔΕΣ row 5 ΡΑΠΤΗΣ–ΣΟΥΓΙΟΥΛΤΖΟΓΛΟΥ is written 1-3 but records only three losing games (3-11, 9-11, 5-11). The day/month date is also overwritten. Held for score/date clarification.",
+    "details_el": "Το πέμπτο αποτέλεσμα ΡΑΠΤΗΣ–ΣΟΥΓΙΟΥΛΤΖΟΓΛΟΥ στο APACHE 10–ΑΟ ΠΕΤΑΛΟΥΔΕΣ γράφει 1–3 αλλά καταγράφει μόνο τρία χαμένα σετ. Η ημέρα και ο μήνας έχουν επίσης διορθωθεί δυσανάγνωστα. Απαιτείται διευκρίνιση."
+  },
+  "http://files.ping-pong.gr/FA25-26/RL2-DSH.jpg": {
+    "fixture": "f-b8c8c3dbe09445e5",
+    "sha256": "5618fdea7a4d1c349374603064275b60c3319978f89a001eefeed9f7c568dcb5",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 6 (ΛΟΥΚΑΣ–ΤΣΟΥΚΑΝΤΑΣ) records 1-3, matching the workbook, but the four entered games include both 11-3 and 11-6 home wins (first two away wins): the written game detail contradicts the rubber total.",
+    "details_el": "Η γραμμή 6 (ΛΟΥΚΑΣ–ΤΣΟΥΚΑΝΤΑΣ) γράφει 1-3, όπως το αρχείο αποτελεσμάτων, αλλά στα τέσσερα σετ υπάρχουν δύο νίκες του γηπεδούχου, 11-3 και 11-6, μετά από δύο ήττες. Υπάρχει αντίφαση με το συνολικό σκορ."
+  },
+  "http://files.ping-pong.gr/FA25-26/TTV-ECG.jpg": {
+    "fixture": "f-9375e24a81a5c23d",
+    "sha256": "4aea45cb0c2280cf376cf9b0d2cf49d953fbc40921a5c9d728cbeb9c0fc4d061",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Enlarged inspection shows row 5 (ΠΕΡΚΟΥΛΙΔΗΣ–ΠΟΥΡΖΙΤΙΔΗΣ) has three games 11-2, 13-11, 12-14, yet the rubber total and workbook say 3-0. The away game win contradicts a straight-games home win; full draft preserved separately.",
+    "details_el": "Η μεγέθυνση της γραμμής 5 (ΠΕΡΚΟΥΛΙΔΗΣ–ΠΟΥΡΖΙΤΙΔΗΣ) δείχνει σετ 11-2, 13-11, 12-14, ενώ το συνολικό σκορ και το αρχείο γράφουν 3-0. Το κερδισμένο σετ του φιλοξενούμενου αντιφάσκει με το 3-0. Διατηρήθηκε χωριστά η μεταγραφή."
+  },
+  "http://files.ping-pong.gr/FA25-26/KVE-ELE.jpg": {
+    "fixture": "f-361875c984e87c33",
+    "sha256": "de62c7f65909872961d7c08a81706caae8a0979cf8ba117e13291a6c061489fa",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The sheet explicitly dates 9/3/2027, whereas all five corresponding workbook results are 2026-03-09. Do not replace an explicit adjacent year without independent source reconciliation.",
+    "details_el": "Το φύλλο γράφει 9/3/2027, ενώ οι πέντε αντίστοιχοι αγώνες του αρχείου έχουν ημερομηνία 09/03/2026. Δεν αντικαθίσταται ρητό διαφορετικό έτος χωρίς ανεξάρτητη συμφωνία πηγών."
+  },
+  "http://files.ping-pong.gr/FA25-26/PET-NDL.jpg": {
+    "fixture": "f-67bc10d9a0422ad3",
+    "sha256": "f22f8fcf91792cd0b1467b3630be7a1f31d2da67aab93952b77c8a35ae255c79",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "The 2026-05-06 sheet records played rows 1 and 2 as 3-2 and 3-0, then explicitly states ΔΙΑΚΟΠΗ and an administrative team win ΑΝΕΥ ΑΓΩΝΑ. Workbook records five 3-0 individual results, including the conflicting first rubber and unplayed later rows. This requires partial-play/administrative-result reconciliation, not wholesale team-walkover import.",
+    "details_el": "Το φύλλο της 06/05/2026 καταγράφει δύο παιγμένους αγώνες 3-2 και 3-0, κατόπιν ΔΙΑΚΟΠΗ και ομαδική νίκη ΑΝΕΥ ΑΓΩΝΑ. Το αρχείο καταγράφει πέντε ατομικά 3-0, ακόμη και τον πρώτο αγώνα και μεταγενέστερες μη παιγμένες γραμμές. Απαιτείται χωριστή συμφωνία παιγμένων και διοικητικών αποτελεσμάτων."
+  },
+  "http://files.ping-pong.gr/FA25-26/P4A-PM1.jpg": {
+    "fixture": "f-35f6570a2e46b68b",
+    "sha256": "c8fc31df442e29a8a2e09d39450cd985b8c4bee14b33da965b65d556d4c2448c",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "Sheet date 2026-03-31 conflicts with all seven matching workbook results dated 2026-04-01. Row 6 also explicitly shows ΙΩΑΝΝΟΥ injured/ΑΑ but exists as a played 0-3 workbook result. Sheet final 5-3 miscounts seven rows whose outcomes total 5-2. Hold for date and walkover reconciliation.",
+    "details_el": "Η ημερομηνία 31/03/2026 διαφέρει από την 01/04/2026 των επτά αντίστοιχων αγώνων. Η γραμμή 6 δηλώνει τραυματισμό ΙΩΑΝΝΟΥ/ΑΑ, αλλά υπάρχει ως παιγμένο 0-3. Το τελικό 5-3 του φύλλου δεν συμφωνεί με τις επτά γραμμές που δίνουν 5-2. Απαιτείται συμφωνία ημερομηνίας και νίκης άνευ αγώνος."
+  },
+  "http://files.ping-pong.gr/FA25-26/ANX-AML.jpg": {
+    "fixture": "f-8858df3ee8553d80",
+    "sha256": "9ae3f9772953a687d5bc5ec52756b4ab35781a7d24f957145045a9f72f20f412",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 7 (ΣΕΝΤΟΥΚΑΣ–ΜΑΥΡΙΔΗΣ) explicitly records 3-2, whereas its four games 10-12, 15-13, 11-4, 11-5 and the workbook indicate 3-1. No score was overwritten.",
+    "details_el": "Η γραμμή 7 (ΣΕΝΤΟΥΚΑΣ–ΜΑΥΡΙΔΗΣ) γράφει 3-2, ενώ τα τέσσερα σετ 10-12, 15-13, 11-4, 11-5 και το αρχείο αποτελεσμάτων δίνουν 3-1. Δεν αντικαταστάθηκε σκορ."
+  },
+  "http://files.ping-pong.gr/FA25-26/AVK-NS2.jpg": {
+    "fixture": "f-5f030811c6c8b239",
+    "sha256": "62cf2375ab625ca1d53b3145bcc678945c451e79d357ad76bc50495a56c9df08",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_participant",
+    "details": "The sheet twice labels ΛΥΔΑΚΗΣ Κ. with registration 2408, but that catalog/workbook athlete is ΛΥΔΑΚΗΣ ΔΗΜΗΤΡΙΟΣ. The given-name initial conflicts even though registration and surname match.",
+    "details_el": "Το φύλλο αναγράφει δύο φορές ΛΥΔΑΚΗΣ Κ. με αριθμό 2408, ενώ το αντίστοιχο προφίλ και το αρχείο αποτελεσμάτων γράφουν ΛΥΔΑΚΗΣ ΔΗΜΗΤΡΙΟΣ. Το αρχικό μικρού ονόματος αντιφάσκει παρά τη συμφωνία αριθμού και επωνύμου."
+  },
+  "http://files.ping-pong.gr/FA25-26/KPG-AN4.jpg": {
+    "fixture": "f-a87217f9ddb2c4f5",
+    "sha256": "c1bac77061fce34314234e44e9181733efbc43aad920bd6cbf493558350d52d5",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The sheet is dated 2026-03-31, but all six corresponding workbook results are dated 2026-04-01. Importing on the sheet date would duplicate existing results.",
+    "details_el": "Το φύλλο έχει ημερομηνία 31/03/2026, αλλά οι έξι αντίστοιχοι αγώνες καταγράφονται την 01/04/2026. Η εισαγωγή με την ημερομηνία του φύλλου θα δημιουργούσε διπλές εγγραφές."
+  },
+  "http://files.ping-pong.gr/FA25-26/KLS-S40.jpg": {
+    "fixture": "f-a2a519ff4d2e24f8",
+    "sha256": "d0533fae5b5692f47e2fdcade4fe50898a5168f0f60bb40029a88d2095cd4759",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 2 (ΠΑΥΛΙΔΗΣ–ΚΙΛΚΙΣΛΗΣ) records 3-2 and five games 11-7, 11-9, 11-3, 7-11, 11-7. These include four home game wins and contradict the 3-2 rubber total. Workbook also says 3-2; no result was changed.",
+    "details_el": "Η γραμμή 2 (ΠΑΥΛΙΔΗΣ–ΚΙΛΚΙΣΛΗΣ) γράφει 3-2 και πέντε σετ 11-7, 11-9, 11-3, 7-11, 11-7. Περιλαμβάνονται τέσσερις νίκες του γηπεδούχου, αντίθετα με το 3-2. Το αρχείο επίσης γράφει 3-2· δεν άλλαξε αποτέλεσμα."
+  },
+  "http://files.ping-pong.gr/FA25-26/THE-PM3.jpg": {
+    "fixture": "f-55b4f1b2000ef23f",
+    "sha256": "98be5b0f06a20c4122f99b3a9a2dc5227066fd6e7c59abd25faae61ab7b869c6",
+    "reviewed_at": "2026-11-26",
+    "reason": "missing_date",
+    "details": "The date field contains only ΔΕΥΤΕΡΑ (Monday), with no calendar date. Although five matching results occur on 2026-03-16, the sheet itself cannot establish that date.",
+    "details_el": "Το πεδίο ημερομηνίας περιέχει μόνο ΔΕΥΤΕΡΑ, χωρίς ημερολογιακή ημερομηνία. Παρότι πέντε αντίστοιχα αποτελέσματα υπάρχουν στις 16/03/2026, το φύλλο δεν τεκμηριώνει αυτή την ημερομηνία."
+  },
+  "http://files.ping-pong.gr/FA25-26/ATV-APK.jpg": {
+    "fixture": "f-66809579c2bb80e8",
+    "sha256": "198230c592901a687aaef1b71142468af3ebb80e69420cc5dcaf0e08a7d2cad8",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "The sheet explicitly says ΓΟΥΔΗΣ ΝΑΟΥΜ withdrew due to injury; row 5 has no played games and is an administrative 0-3. Existing match m-b 5 e 30202 b 7160 e 1 a counts ΓΟΥΔΗΣ–ΝΤΙΝΑΣ on 2026-03-15 as played 0-3. Hold until that workbook-derived result is reconciled; full draft retained separately.",
+    "details_el": "Το φύλλο δηλώνει αποχώρηση ΓΟΥΔΗ ΝΑΟΥΜ λόγω τραυματισμού. Η γραμμή 5 δεν έχει παιγμένα σετ και αποτελεί διοικητικό 0-3. Η εγγραφή m-b 5 e 30202 b 7160 e 1 a καταμετρά ΓΟΥΔΗΣ–ΝΤΙΝΑΣ στις 15/03/2026 ως παιγμένο 0-3. Απαιτείται συμφωνία της εγγραφής· η πλήρης μεταγραφή διατηρήθηκε χωριστά."
+  },
+  "http://files.ping-pong.gr/FA25-26/APN-APK.jpg": {
+    "fixture": "f-5ca59a4eaa617330",
+    "sha256": "d79d9f7f1c9600d722eb678294661f4084547d08bb67b8470717b163e8cec215",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_participant",
+    "details": "The away roster labels ΣΤΕΦΑΝΙΔΗΣ Ν. (46) and ΝΤΙΝΑΣ Γ. (1515), while registered catalog/workbook athletes are ΣΤΕΦΑΝΙΔΗΣ ΓΕΩΡΓΙΟΣ and ΝΤΙΝΑΣ ΝΙΚΟΛΑΟΣ. Both given-name initials conflict. ΨΙΑΝΟΣ also has a wrong printed registration 2019 rather than 2090, which alone would be resolvable.",
+    "details_el": "Οι φιλοξενούμενοι αναγράφονται ως ΣΤΕΦΑΝΙΔΗΣ Ν. (46) και ΝΤΙΝΑΣ Γ. (1515), ενώ τα προφίλ και το αρχείο γράφουν ΣΤΕΦΑΝΙΔΗΣ ΓΕΩΡΓΙΟΣ και ΝΤΙΝΑΣ ΝΙΚΟΛΑΟΣ. Και τα δύο αρχικά μικρού ονόματος αντιφάσκουν. Ο ΨΙΑΝΟΣ έχει επίσης λανθασμένο αριθμό 2019 αντί 2090, που μόνος του θα μπορούσε να επιλυθεί."
+  },
+  "http://files.ping-pong.gr/FA25-26/AMF-RDL.jpg": {
+    "fixture": "f-02136198075d2bf2",
+    "sha256": "da276765a7aa36b40268aac424c16082da69dc80b376a0a82dd621c1ed9c3287",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_walkover",
+    "details": "Sheet explicitly marks named rubbers as ΑΝΕΥ ΑΓΩΝΑ, but corresponding workbook results currently count as played. Hold for evidence-based statistics correction; affected match IDs retained in blocked transcription.",
+    "details_el": "Το φύλλο χαρακτηρίζει ονομαστικούς αγώνες ως άνευ αγώνα, ενώ το βιβλίο τους μετρά ως παιγμένους. Απαιτείται διόρθωση των στατιστικών βάσει τεκμηρίωσης."
+  },
+  "http://files.ping-pong.gr/FA25-26/ELF-ETH.jpg": {
+    "fixture": "f-de958a3cdb0c2b3c",
+    "sha256": "f59134d660723311a871d7b2406daac124d5d12e46959e0ccd1be0e733b28602",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_walkover",
+    "details": "Sheet explicitly marks named rubbers as ΑΝΕΥ ΑΓΩΝΑ, but corresponding workbook results currently count as played. Hold for evidence-based statistics correction; affected match IDs retained in blocked transcription.",
+    "details_el": "Το φύλλο χαρακτηρίζει ονομαστικούς αγώνες ως άνευ αγώνα, ενώ το βιβλίο τους μετρά ως παιγμένους. Απαιτείται διόρθωση των στατιστικών βάσει τεκμηρίωσης."
+  },
+  "http://files.ping-pong.gr/FA25-26/RD2-ASV.jpg": {
+    "fixture": "f-25e5967e52678dc4",
+    "sha256": "644ea6c5bec07fb3faa820bc9680d183fa60e34fcaa5b72307e4798cc15e40c0",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "20 March 2026 row 3 ΠΑΠΑΝΤΩΝΙΟΥ–ΓΙΑΝΝΑΚΟΥΡΗΣ written 2-3 but four games yield 1-3; workbook also 1-3. Home ΚΟΧΥΛΗΣ printed 598 incorrectly reuses reserve ΜΑΣΤΡΑΝΤΩΝΑΚΗΣ 598; verified ΚΟΧΥΛΗΣ 601 by team and three matching results. Hold score conflict.",
+    "details_el": "Η τρίτη αναμέτρηση αναγράφεται 2–3 αλλά τα τέσσερα σετ και το βιβλίο δείχνουν 1–3. Υπάρχει επίσης λανθασμένος αριθμός μητρώου του ΚΟΧΥΛΗ."
+  },
+  "http://files.ping-pong.gr/FA25-26/RSN-KRG.jpg": {
+    "fixture": "f-1cec371be0b4d367",
+    "sha256": "8273951abab9f0c86e3ed862c8be6ae2f3c9fa677e59a8362e18eda2b857de7f",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_substitution",
+    "details": "27 March 2026 explicit note ΑΛΛΑΓΗ ROSSONERI ΚΑΨΗΣ 623 does not identify a changed row; all played rows retain starting names. Row 7 written 2-3 matches workbook but only four games are populated. Hold substitution ambiguity.",
+    "details_el": "Η σημείωση αλλαγής ΚΑΨΗΣ 623 δεν αντιστοιχεί σε συγκεκριμένο αγώνα. Όλοι οι αγώνες διατηρούν τα αρχικά ονόματα."
+  },
+  "http://files.ping-pong.gr/FA25-26/ILN-ATN.jpg": {
+    "fixture": "f-9b17f09f737d098c",
+    "sha256": "9125ef024aeece132ab8bbfdf3df00e63ab461912c9ff59dad41e350996fa07d",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "29 March 2026 row 7 ΜΠΑΛΙΟΥΣΚΑΣ–ΜΑΤΗΣ written 3-2, but only four game scores appear and yield 3-1; workbook records 3-1. Hold pending score reconciliation.",
+    "details_el": "Η έβδομη αναμέτρηση ΜΠΑΛΙΟΥΣΚΑΣ–ΜΑΤΗΣ αναγράφεται 3–2, αλλά τα τέσσερα σετ και το βιβλίο δείχνουν 3–1."
+  },
+  "http://files.ping-pong.gr/FA25-26/MK2-AP6.jpg": {
+    "fixture": "f-00e888c63721664e",
+    "sha256": "e7d57810c8307480d1b142ed3d921b0263aebcddbf566723cd189c6809298dde",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "21 March 2026 ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ handwritten 2662 is absent from registered catalog. Workbook uses provisional u-9538 e 67 fc 000 c 7 ee, unlike May provisional u-df 76 a 9 a 0 ac 2147 b 5; do not invent registered identity or merge provisional profiles. Rows 2,6 explicitly ΑΝΕΥ although workbook counts them as played.",
+    "details_el": "Ο ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ αναγράφεται με μητρώο 2662 που δεν υπάρχει στον κατάλογο. Το προσωρινό προφίλ Μαρτίου διαφέρει από του Μαΐου. Οι αγώνες 2,6 είναι άνευ αγώνα και απαιτούν επίσης διόρθωση."
+  },
+  "http://files.ping-pong.gr/FA25-26/AKA-N4S.jpg": {
+    "fixture": "f-fa03e85ce78fd984",
+    "sha256": "a8c1aa3acc05a3dd4643b69545ce42a4e84e436dc893ed2398831de88fb700ba",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_substitution",
+    "details": "20 March 2026 note ΑΛΛΑΓΗ NEED 4 SPIN ΧΟΥΖΟΥΡΗΣ 1620 does not identify a changed row. Every played row retains the original three away players and matches workbook. Hold until reserve versus actual substitution is clarified.",
+    "details_el": "Η σημείωση αλλαγής ΧΟΥΖΟΥΡΗΣ 1620 δεν αντιστοιχεί σε συγκεκριμένο αγώνα. Απαιτείται διευκρίνιση αν πραγματοποιήθηκε αλλαγή ή επρόκειτο για αναπληρωματικό."
+  },
+  "http://files.ping-pong.gr/FA25-26/DSH-PNR.jpg": {
+    "fixture": "f-0a9a864aa39e1d88",
+    "sha256": "6dc1992dfc0b0d907bc0f9661d45dc9f8a07c962927eecebb9445de1b365c1a3",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "Sheet explicitly dates 8 March 2026, but all five pair/score combinations already occur 9 March 2026 in the workbook. Held to avoid cross-date duplicates or silently replacing source dates.",
+    "details_el": "Το φύλλο αναφέρει 8 Μαρτίου 2026, ενώ οι πέντε αντίστοιχοι αγώνες του βιβλίου είναι στις 9 Μαρτίου 2026. Απαιτείται διευκρίνιση της ημερομηνίας."
+  },
+  "http://files.ping-pong.gr/FA25-26/NES-SG2.jpg": {
+    "fixture": "f-18a4c705174d1d96",
+    "sha256": "f156173d889fa647eb9489c08b9516c57f1617d2b4c94b899cddea053731e794",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "19 March 2026 row 1 is written 0–3 but four games 6–11,11–8,4–11,3–11 imply 1–3. Row 4 is written 2–3 with only four games 7–11,11–9,2–11,13–15, again implying 1–3. Conflicting rubber totals need clarification.",
+    "details_el": "Στις 19 Μαρτίου 2026, η πρώτη γραμμή γράφει 0–3 αλλά τα τέσσερα σετ δίνουν 1–3. Η τέταρτη γράφει 2–3 αλλά τα τέσσερα σετ επίσης δίνουν 1–3. Απαιτείται διευκρίνιση σκορ."
+  },
+  "http://files.ping-pong.gr/FA25-26/AN1-AP10.jpg": {
+    "fixture": "f-a753bb5628d67150",
+    "sha256": "d3744770fffdc8eb83d51ee017cccfd1a8f190b9af4062c68be0ada3b5f9bb62",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "24 March 2026 row 1 ΜΑΥΡΟΜΜΑΤΗΣ–ΚΑΡΑΓΕΩΡΓΟΣ is written 1–3 and agrees with workbook, but four entered games 9–11,11–6,9–11,12–10 give 2–2. Requires clarification of the last game or rubber total.",
+    "details_el": "Η πρώτη γραμμή ΜΑΥΡΟΜΜΑΤΗΣ–ΚΑΡΑΓΕΩΡΓΟΣ αναγράφεται 1–3, αλλά τα τέσσερα σετ δίνουν 2–2. Απαιτείται διευκρίνιση του τελευταίου σετ ή του τελικού σκορ."
+  },
+  "http://files.ping-pong.gr/FA25-26/ECG-PM4.jpg": {
+    "fixture": "f-3657a52c4d1c802d",
+    "sha256": "8e2a0197dfb45870bc7bcb4ef534b83ff6405cd4d96d72c8c8cd3e1eb313e16a",
+    "reviewed_at": "2026-11-26",
+    "reason": "walkover_conflicts_with_existing_played_results",
+    "details": "Rows 2 and 6 name ΜΑΣΙΟΥ but show dashes instead of games and administrative 3–0 results; both are currently recorded as played on 9 March. Reconcile their status before accepting this sheet.",
+    "details_el": "Οι γραμμές 2 και 6 αναγράφουν ΜΑΣΙΟΥ αλλά έχουν παύλες αντί σετ και αποτέλεσμα 3–0. Υπάρχουν ως παιγμένοι αγώνες στις 9 Μαρτίου· απαιτείται έλεγχος της κατάστασής τους."
+  },
+  "http://files.ping-pong.gr/FA25-26/NDL-KVE.jpg": {
+    "fixture": "f-6cd8a7eaa5c13c3f",
+    "sha256": "37d1a1ab2b6020a66d12ae4aacbac5b5bbc70453117adc8592ac4374bee4de2b",
+    "reviewed_at": "2026-11-26",
+    "reason": "contradictory_rubber_score",
+    "details": "Row 8 writes 3–2 but contains four game scores and the workbook gives 3–1 for ΤΟΥΜΠΑΣ–ΓΡΑΒΑΛΗΣ on 18 March 2026. Do not infer a corrected rubber score.",
+    "details_el": "Η γραμμή 8 γράφει 3–2 αλλά περιέχει τέσσερα σετ, ενώ το αρχείο αποτελεσμάτων δίνει 3–1 για ΤΟΥΜΠΑΣ–ΓΡΑΒΑΛΗΣ στις 18/3/2026. Χρειάζεται διευκρίνιση."
+  },
+  "http://files.ping-pong.gr/FA25-26/THB-MG1.jpg": {
+    "fixture": "f-344d1f3e3e4129c1",
+    "sha256": "d03c32a5d941b2532b37d99d7c85d2d12e9b72a2a96e80efd0ce411f77904556",
+    "reviewed_at": "2026-11-26",
+    "reason": "retirement_status_reconciliation",
+    "details": "Row 5 ΚΟΡΡΑΣ has ΑΠΟΧΩΡΗΣΕ after a played first game 11–7 and final 3–0. Same played result exists. Reconcile retirement status without treating it as an unplayed walkover or deleting the existing result. Full draft preserved separately.",
+    "details_el": "Η γραμμή 5 αναφέρει ΑΠΟΧΩΡΗΣΕ μετά από παιγμένο πρώτο σετ 11–7 και τελικό 3–0. Χρειάζεται καταγραφή εγκατάλειψης, όχι χαρακτηρισμός ως άνευ αγώνα ούτε διαγραφή του υπάρχοντος αποτελέσματος."
+  },
+  "http://files.ping-pong.gr/FA25-26/OPX-SF3.jpg": {
+    "fixture": "f-7fc1974e2f6b2ace",
+    "sha256": "f95286b01d8fba31ac0aaab43b82af34bf14874690f06c19330e8f8a7bdd1b31",
+    "reviewed_at": "2026-11-26",
+    "reason": "contradictory_rubber_score",
+    "details": "Row 7 ΧΑΡΜΠΗΣ–ΚΟΛΛΥΡΗΣ writes 3–0 but its three game scores read 11–3,11–7,1–11. Workbook 3–0 cannot resolve this contradiction.",
+    "details_el": "Η γραμμή 7 ΧΑΡΜΠΗΣ–ΚΟΛΛΥΡΗΣ γράφει 3–0 αλλά τα τρία σετ διαβάζονται 11–3,11–7,1–11. Απαιτείται διευκρίνιση."
+  },
+  "http://files.ping-pong.gr/FA25-26/AP3-BSR.jpg": {
+    "fixture": "f-414a3fbf2fefde5b",
+    "sha256": "0321b660de89030afff36bb7d59315dd8fefafd51628ab312d8c5706b242a83f",
+    "reviewed_at": "2026-11-26",
+    "reason": "cross_date_duplicate",
+    "details": "Sheet dates all six rubbers 3 March 2026, but identical pairings and scores already exist 2 March 2026. Do not duplicate or silently change dates.",
+    "details_el": "Το φύλλο γράφει 3/3/2026 αλλά οι ίδιοι έξι αγώνες με ίδια αποτελέσματα υπάρχουν στις 2/3/2026. Απαιτείται διευκρίνιση ημερομηνίας."
+  },
+  "http://files.ping-pong.gr/FA25-26/MXX-AEK.jpg": {
+    "fixture": "f-6ba58594f0d711a7",
+    "sha256": "db44e4a523e0f0145104dd9154c1c971bf70783349a0dc932bed08a7393e4398",
+    "reviewed_at": "2026-11-26",
+    "reason": "missing_match_date",
+    "details": "The sheet date field is entirely blank. Same-event workbook 8 March 2026 is insufficient to supply an unstated sheet date.",
+    "details_el": "Το πεδίο ημερομηνίας είναι κενό. Δεν συμπληρώνεται αυθαίρετα η ημερομηνία 8/3/2026 από το αρχείο αποτελεσμάτων."
+  },
+  "http://files.ping-pong.gr/FA25-26/ATX-APK.jpg": {
+    "fixture": "f-cc9cfd19cdc4ce6a",
+    "sha256": "93ed08a1a950fce4e5e6dd0cad02723f6c7a1a81fbb71df8e1eb4810a15ce759",
+    "reviewed_at": "2026-11-26",
+    "reason": "walkover_conflicts_with_existing_played_results",
+    "details": "Row 6 away player and games are dashes, administrative 3–0, but workbook records ΒΑΣΙΛΟΥΔΗΣ–ΠΕΤΡΙΔΗΣ 3–0 as played. Reconcile before accepting the sheet.",
+    "details_el": "Στη γραμμή 6 ο φιλοξενούμενος και τα σετ είναι παύλες με 3–0, αλλά υπάρχει παιγμένος ΒΑΣΙΛΟΥΔΗΣ–ΠΕΤΡΙΔΗΣ 3–0 στο αρχείο αποτελεσμάτων. Απαιτείται συμφωνία κατάστασης."
   }
 }
