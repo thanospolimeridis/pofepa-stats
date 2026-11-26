@@ -614,5 +614,37 @@
     "reason": "conflicting_score",
     "details": "The 5 May 2026 LAST MINUTE–ΦΙΛΙΠΠΟΣ sheet row 7 ΑΝΔΡΕΑΔΗΣ–ΚΟΥΤΡΙΟΣ is written 3-2, matching the workbook, but only four games are recorded (11-9, 11-6, 9-11, 11-6), which give 3-1. Held pending clarification.",
     "details_el": "Στο έβδομο αποτέλεσμα ΑΝΔΡΕΑΔΗΣ–ΚΟΥΤΡΙΟΣ της 5ης Μαΐου 2026 αναγράφεται 3–2, αλλά τα τέσσερα καταγεγραμμένα σετ δίνουν 3–1. Απαιτείται διευκρίνιση."
+  },
+  "http://files.ping-pong.gr/FA25-26/VAV-MKB.jpg": {
+    "fixture": "f-7a1530a8e51cc4ce",
+    "sha256": "d20d1b15e78ec6f34f1d47678cf945bb8834ce16501d9284afe3630cd73dbbee",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_date",
+    "details": "May 2026 day is overwritten and cannot be confidently distinguished as 13 or 15. Independent second visual review agreed the day is ambiguous. Six complete rubbers recorded; no date inferred from round window. Exact roster and scores retained in the review draft.",
+    "details_el": "Η ημέρα του Μαΐου 2026 είναι διορθωμένη και δεν διακρίνεται με βεβαιότητα ως 13 ή 15. Οι έξι ατομικοί αγώνες διατηρούνται σε πρόχειρη μεταγραφή μέχρι επιβεβαίωση της ημερομηνίας."
+  },
+  "http://files.ping-pong.gr/FA25-26/AP8-MK2.jpg": {
+    "fixture": "f-15761bb720222e7c",
+    "sha256": "07c423fa43d1f66b6649e9f6dd534166a58f78d15d33d8f0ec0433a92d08668b",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "9 May 2026 ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ has handwritten registration 2662, absent from the registered catalog. Existing same-date workbook profile u-df 76 a 9 a 0 ac 2147 b 5 is provisional and has no earlier result or contemporary ranking identity proof. Do not promote the handwritten number or merge profiles.",
+    "details_el": "Ο ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ αναγράφεται με ΔΑΙ 2662 που δεν υπάρχει στον κατάλογο. Το προσωρινό προφίλ του βιβλίου δεν έχει προηγούμενο αγώνα ή τεκμηρίωση κατάταξης πριν από τις 9 Μαΐου 2026. Απαιτείται επιβεβαίωση ταυτότητας."
+  },
+  "http://files.ping-pong.gr/FA25-26/ILN-LSP.jpg": {
+    "fixture": "f-5605f256410ad6d2",
+    "sha256": "89cb7c5531232541a5328fbf78f1f3f9b4609d4503ef5b4c59a84549a6283aa2",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "7 May 2026 row 7 ΜΠΑΛΙΟΥΣΚΑΣ–ΛΑΜΠΡΙΝΟΣ is written 3-2 but only four games appear, inconsistent with a best-of-five 3-2 result. Workbook records 3-1. Held pending correction of score/game columns.",
+    "details_el": "Στις 7 Μαΐου 2026, το έβδομο αποτέλεσμα ΜΠΑΛΙΟΥΣΚΑΣ–ΛΑΜΠΡΙΝΟΣ αναγράφεται 3–2 αλλά περιέχει μόνο τέσσερα σετ. Το βιβλίο αναφέρει 3–1. Απαιτείται διευκρίνιση του σκορ."
+  },
+  "http://files.ping-pong.gr/FA25-26/BBR-AP4.jpg": {
+    "fixture": "f-d9ac2b72865da8fd",
+    "sha256": "08adb3b4cb11d92366bbad15ef3832ba1cbd6e21304818b9730d23c828eda875",
+    "reviewed_at": "2026-11-26",
+    "reason": "missing_date",
+    "details": "BALL BREAKERS–APACHE 4 sheet has a completely blank date field. Its six scores correspond to 6 May 2026 workbook results, but the sheet supplies no actual played date. No date is inferred.",
+    "details_el": "Το φύλλο BALL BREAKERS–APACHE 4 έχει κενό πεδίο ημερομηνίας. Οι έξι αγώνες αντιστοιχούν στις 6 Μαΐου 2026 στο βιβλίο, αλλά απαιτείται τεκμηρίωση της πραγματικής ημερομηνίας."
   }
 }

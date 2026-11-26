@@ -5,7 +5,7 @@
 - Record whole-team no-shows without inventing individual results, and retain both original and recovered URLs when a match sheet is linked from the wrong fixture.
 
 - Offer a page reload when an older open tab cannot render newly published archive data.
-- Retain historical match-sheet links and add 912 reviewed singles to athlete pages, with substitutions, walkover exclusions and visible import progress. Corroborate 1,483 existing workbook results and record 77 sheets excluded from the singles import separately.
+- Retain historical match-sheet links and add 931 reviewed singles to athlete pages, with substitutions, walkover exclusions and visible import progress. Corroborate 1,561 existing workbook results and record 81 sheets excluded from the singles import separately.
 
 - Review 124 PDFs and seven images; add 1,601 team results, preserve document evidence and disclose contradictory source labels.
 - Confirm three existing singles from the handwritten final, retain its doubles result, and show document coverage on the sources page.
