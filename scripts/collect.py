@@ -172,8 +172,16 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
             cells = rows[0].find_all('td', recursive=False)
             if len(rows) != 1 or len(cells) < 4:
                 continue
-            def lines(cell, preserve_blank=False):
+            def lines(cell, preserve_blank=False, retain_links=False):
                 copy = BeautifulSoup(str(cell), 'html.parser')
+                if retain_links:
+                    for anchor in copy.find_all('a', href=True):
+                        target = urljoin(source_url, anchor['href'])
+                        if safe_url(target) and re.match(r'^\s*\d+\s*[-–:]\s*\d+', anchor.get_text()):
+                            for node in anchor.find_all(string=True):
+                                if re.search(r'\d+\s*[-–:]\s*\d+', str(node)):
+                                    node.replace_with(re.sub(r'(\d+\s*[-–:]\s*\d+)', lambda m:m[0]+'[[SHEET:'+target+']]', str(node), count=1))
+                                    break
                 for br in copy.find_all('br'):
                     br.insert_before('\x1e')
                 output = []
@@ -189,7 +197,7 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
             for values in (home_lines, away_lines):
                 while values and not values[-1]:
                     values.pop()
-            score_lines = lines(cells[offset + 3], True)
+            score_lines = lines(cells[offset + 3], True, retain_links=True)
             compact_home, compact_away = list(filter(None, home_lines)), list(filter(None, away_lines))
             candidates = [(compact_home, compact_away, score_lines), (home_lines, away_lines, score_lines),
                           (compact_home, compact_away, list(filter(None, score_lines)))]
@@ -210,11 +218,13 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
             for row_index, (home, away, result) in enumerate(zip(columns[0], columns[2], columns[3]), 1):
                 if not home or not away:
                     continue
+                sheet = re.search(r'\[\[SHEET:(.*?)\]\]', result)
+                result = re.sub(r'\[\[SHEET:.*?\]\]', '', result)
                 score = re.match(r'^(\d+)\s*[-–:]\s*(\d+)(?:\s|$)', result)
                 fixtures.append({'id': uid('f-', f'{event_id}:{table_index}:{row_index}'), 'event': event_id,
                     'home': home, 'away': away, 'score': [int(score[1]), int(score[2])] if score else None,
                     'status': 'reported' if score else 'scheduled', 'round': round_name,
-                    'schedule_note': result if not score else '', 'deadline': '', 'source': source_id, 'sheet_url': '',
+                    'schedule_note': result if not score else '', 'deadline': '', 'source': source_id, 'sheet_url': sheet[1] if sheet else '',
                     'table': table_index, 'row': row_index})
             continue
         heading = table.find_previous(["h2", "h3"])
@@ -452,6 +462,9 @@ def collect(cache, as_of):
         "clubs": list(clubs.values()), "events": list(events.values()), "snapshots": snapshots, "matches": matches, "fixtures": fixtures, "issues": issues}
     from refresh_documents import corroborate_singles
     corroborate_singles(result)
+    from import_match_sheets import import_reviews, MANIFEST
+    if MANIFEST.exists():
+        import_reviews(result, cache)
     return result
 
 

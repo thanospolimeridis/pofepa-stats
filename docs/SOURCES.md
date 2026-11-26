@@ -49,3 +49,11 @@ The handwritten North Aegean final records ΓΑΤΕΛΟΥΖΟΙ 0–4 ΑΡΙΣΒ
 `data/catalog.json.gz` is deterministic gzip JSON with timestamps disabled in the compression header. The hosted build includes a small bootstrap archive, per-ranking shards, athlete buckets, event shards and full-dataset exports. Athlete buckets contain the complete associated match and ranking histories. The offline HTML embeds the complete compressed data.
 
 Validation checks references, unique record IDs, legal singles scores, date bounds and reconciled counts. Source auditing independently compares every ranking row and every singles evidence row with the cached original cells. UI smoke tests exercise both languages and all routes against the hosted shards. Reproducibility checks hash every generated file recursively.
+
+## Linked individual match sheets
+
+The historical parallel-column importer retains score hyperlinks, including anchors that contain line breaks. Discovery checks that every existing fixture keeps the same teams, score and ID. There are 13,511 distinct linked sheets; match photographs and standings links are not treated as individual result sheets. The reviewed/pending counts are published in `coverage.match_sheets`.
+
+The first November 2026 batch contributes 71 played singles from 11 visually reviewed sheets. `data/match-sheet-reviews.json` binds every transcription to the source SHA-256, fixture, actual date and individual row. Explicit substitutions replace the normal A/B/C/X/Y/Z pairing for that row. Known walkovers (3–0 with no played games) are retained under the team fixture but excluded from athlete statistics.
+
+Athletes are checked using the printed registration where reliable, or a visually reviewed name and team association supported by the contemporary ranking roster. Printed registration errors are documented rather than used to silently attach results to a different player. Existing same-date player pairs and oriented scores are checked before insertion; conflicting or multiple candidates stop the import. Rankings are not recalculated. The match-sheet audit verifies hashes and requires an identical replay of the published data.

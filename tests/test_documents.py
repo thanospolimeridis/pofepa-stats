@@ -108,7 +108,7 @@ class ReviewedArchiveTests(unittest.TestCase):
 
     def test_image_singles_corroborate_existing_matches(self):
         matches={m['id']:m for m in self.data['matches']}
-        image_fixtures=[f for f in self.data['fixtures'] if f.get('rubbers')]
+        image_fixtures=[f for f in self.data['fixtures'] if f.get('rubbers') and not f.get('match_sheet_source')]
         self.assertEqual(len(image_fixtures),1)
         fixture=image_fixtures[0]
         self.assertEqual(fixture['score'],[0,4])

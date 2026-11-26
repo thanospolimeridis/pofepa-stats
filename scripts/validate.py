@@ -46,7 +46,7 @@ def validate(data):
             require(len(fixture['score'])==2 and all(type(s) is int and 0<=s<=99 for s in fixture['score']), 'Invalid team score')
         for rubber in fixture.get('rubbers',[]):
             require(rubber['kind'] in ('singles','doubles'), 'Invalid rubber type')
-            if rubber['kind']=='singles':require(rubber['match'] in indices['matches'],'Missing corroborated singles match')
+            if rubber['kind']=='singles' and rubber.get('status','played')=='played':require(rubber['match'] in indices['matches'],'Missing corroborated singles match')
     for match in data['matches']:
         for proof in match.get('document_evidence',[]):
             require(proof['source'] in indices['sources'] and proof['fixture'] in indices['fixtures'],'Invalid document evidence')

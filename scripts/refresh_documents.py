@@ -17,6 +17,8 @@ def corroborate_singles(data):
         for rubber in f.get('rubbers',[]):
             if rubber['kind']!='singles':
                 continue
+            if rubber.get('status','played')!='played' or f.get('match_sheet_source'):
+                continue
             match = matches[rubber['match']]
             if match['date']!=f['date'] or match['score']!=rubber['score'] or match['clubs']!=f['clubs']:
                 raise ValueError('Image transcription does not match its workbook corroboration')

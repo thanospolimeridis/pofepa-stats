@@ -4,6 +4,12 @@
 
 An independent Greek/English POFΕPA table tennis archive, following [Greek TT Archive](https://github.com/thanospolimeridis/greek-tt-stats): Python ingestion, a static website, no backend, and an offline HTML edition.
 
+## Match-sheet imports
+
+Linked team-result sheets are being reviewed newest first. The first batch adds **71 played singles from 11 November 2026 sheets** directly to athlete histories. One unplayed 3–0 is excluded. The archive now retains **13,511 match-sheet links**; the website reports the reviewed and pending counts explicitly. Historical sheets have not yet all been reviewed.
+
+`data/match-sheet-reviews.json` records the source hash, actual date, row scores, substitutions and checked athlete identities. Replaying a sheet corroborates an existing result instead of creating a duplicate.
+
 ## Historical coverage
 
 All **270 distinct Excel workbooks** linked in the official ranking archive are imported, covering **October 2011–October 2026** and **742,275 ranking records**. Every published regional and age-category position is retained. The archive contains over **136,000 completed singles matches**, together with historical team results from HTML pages, 124 reviewed PDFs and a handwritten match sheet. The document review adds 1,601 team results, bringing reported team results to 17,118. Six older images contain standings only. Exact current counts, exclusions, source hashes and unparsed documents are available on the website's **Coverage & sources** page and in `dist/coverage.json`.
@@ -41,6 +47,8 @@ node tests/smoke.js
 python3 scripts/check_reproducible_build.py
 python3 scripts/audit_sources.py
 python3 scripts/audit_documents.py
+python3 scripts/audit_match_sheets.py
+python3 scripts/import_match_sheets.py --offline --discover
 # Refresh the reviewed documents without rebuilding unchanged workbook data:
 python3 scripts/refresh_documents.py --offline
 ```

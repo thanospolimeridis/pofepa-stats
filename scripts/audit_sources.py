@@ -67,7 +67,7 @@ def audit():
             assert played.date().isoformat() == match['date']
             result_count += 1
     assert ranking_count == data['coverage']['ranking_rows']
-    assert result_count == sum(len(m['evidence']) for m in data['matches'])
+    assert result_count == sum(e.get('kind')!='match_sheet' for m in data['matches'] for e in m['evidence'])
     print(f'Verified {len(data["sources"])} source hashes, {ranking_count:,} ranking rows and {result_count:,} original result rows for {len(data["matches"]):,} distinct singles matches.')
 
 
