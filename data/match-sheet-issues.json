@@ -334,5 +334,61 @@
     "reason": "uncertain_date",
     "details": "The sheet is dated 7/10 but is linked from round 3 (26 October–1 November), with a 12 November deadline. No matching October workbook results corroborate that date; confirm whether October or November was intended. ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ has no verified registration profile for the handwritten 2662.",
     "details_el": "Το φύλλο γράφει 7/10 αλλά συνδέεται με την 3η αγωνιστική (26/10–1/11) και προθεσμία 12/11. Δεν υπάρχουν αντίστοιχα αποτελέσματα στο Excel Οκτωβρίου. Εκκρεμούν επιβεβαίωση μήνα και ταυτοποίηση του ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ (χειρόγραφο 2662)."
+  },
+  "http://files.ping-pong.gr/FA26-27/SL2-AP5.jpg": {
+    "fixture": "f-b8ab826b025c35c3",
+    "sha256": "69f50b471697970d17728a16060aee92ef9c18dfc18c4e0f5ce62d3210c76e3c",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous_lineup",
+    "details": "Row 5 names ΒΑΣΙΛΑΚΟΣ (2633), the starting Y athlete, in the Z position occupied by ΚΑΝΤΖΑΒΕΛΟΥ (2624), without a substitution explanation. Confirm the opponent before importing.",
+    "details_el": "Η γραμμή 5 αναφέρει ΒΑΣΙΛΑΚΟ (2633), τον αρχικό Υ, στη θέση Ζ της ΚΑΝΤΖΑΒΕΛΟΥ (2624), χωρίς εξήγηση αλλαγής. Εκκρεμεί επιβεβαίωση αντιπάλου."
+  },
+  "http://files.ping-pong.gr/FA26-27/AVG-RL2.jpg": {
+    "fixture": "f-867d82001cd670bf",
+    "sha256": "d016a559cad39e874d299b389fab267f58a3fc1696a5b0896144e8461b391629",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The home A surname appears ΚΟΝΙΔΑΡΗΣ Γ., with no registration and no confirmed existing profile for this team.",
+    "details_el": "Το όνομα στη θέση Α φαίνεται ΚΟΝΙΔΑΡΗΣ Γ., χωρίς ΔΑΙ ή επιβεβαιωμένο υπάρχον προφίλ στην ομάδα."
+  },
+  "http://files.ping-pong.gr/FA26-27/BSS-KMZ.jpg": {
+    "fixture": "f-a5c872d4ff1b3952",
+    "sha256": "7e6daaf1bbf9482be2974a7ebd4e032f514942f360b461b7025c600615207a9b",
+    "reviewed_at": "2026-11-26",
+    "reason": "missing_date",
+    "details": "The photograph omits the date and team headings. The fixture link alone does not establish the actual playing date.",
+    "details_el": "Η φωτογραφία δεν περιλαμβάνει ημερομηνία και ονόματα ομάδων. Ο σύνδεσμος της αγωνιστικής δεν τεκμηριώνει την πραγματική ημερομηνία."
+  },
+  "http://files.ping-pong.gr/FA26-27/IL2-BPG.jpg": {
+    "fixture": "f-3a2f190490228657",
+    "sha256": "f398a47bae3e9a36263c5fde9246d09837ed35b1f78b19375f9e52e23ff038bf",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Home B is written ΚΩΤΣΑΚΗΣ / ΚΩΤΣΑΜΗΣ ΠΑΝ., registration 2835, with no confirmed ranking or prior-result profile.",
+    "details_el": "Η θέση Β γράφει ΚΩΤΣΑΚΗΣ / ΚΩΤΣΑΜΗΣ ΠΑΝ., ΔΑΙ 2835, χωρίς επιβεβαιωμένο προφίλ κατάταξης ή προηγούμενων αποτελεσμάτων."
+  },
+  "http://files.ping-pong.gr/FA26-27/SRS-PAM.jpg": {
+    "fixture": "f-640f137a11f47157",
+    "sha256": "7d61424a72f71ec2ecbfb060ec561822b59a82f90ab1f9f67cc2e8e36790adb2",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Home B is ΛΥΡΩΝΗΣ with handwritten 2828, absent from the ranking profiles. The existing ΛΥΡΩΝΗΣ ΖΑΧΑΡΙΑΣ (1587) belongs to another team and cannot be equated from this sheet alone.",
+    "details_el": "Η θέση Β γράφει ΛΥΡΩΝΗΣ με ΔΑΙ 2828, χωρίς αντίστοιχο προφίλ. Ο ΛΥΡΩΝΗΣ ΖΑΧΑΡΙΑΣ (1587) ανήκει σε άλλη ομάδα και δεν ταυτοποιείται μόνο από αυτό το φύλλο."
+  },
+  "http://files.ping-pong.gr/FA26-27/BSR-RBT.jpg": {
+    "fixture": "f-744c889448130f4a",
+    "sha256": "a34104245741f8f4955019ea39d3484dc7c76ebb5e3cd46586a9e8df4a932302",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Away Y is ΤΟΤΟΝΤΖΙΑΝ, handwritten 2918, with no confirmed ranking or prior-result profile.",
+    "details_el": "Η θέση Υ γράφει ΤΟΤΟΝΤΖΙΑΝ, χειρόγραφο 2918, χωρίς επιβεβαιωμένο προφίλ κατάταξης ή προηγούμενων αποτελεσμάτων."
+  },
+  "http://files.ping-pong.gr/FA26-27/MHL-KPS.jpg": {
+    "fixture": "f-c0f6b5e4472558c1",
+    "sha256": "479efe795439865a4ca8fea4273d5150194926689c5f6756858249d231031bca",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Home starters ΓΙΑΧΑΕΦ Γ. (2984) and ΓΙΑΧΑΕΦ Λ. (2985) have no confirmed existing profiles. Do not attach their results to another ΓΙΑΧΑΕΒ athlete.",
+    "details_el": "Οι ΓΙΑΧΑΕΦ Γ. (2984) και ΓΙΑΧΑΕΦ Λ. (2985) δεν έχουν επιβεβαιωμένα υπάρχοντα προφίλ. Δεν αποδίδονται τα αποτελέσματά τους σε άλλον αθλητή ΓΙΑΧΑΕΒ."
   }
 }

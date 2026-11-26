@@ -139,7 +139,7 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 137195,
+ "matches": 137263,
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
@@ -160,8 +160,8 @@
   "bonus": 1807
  },
  "identity_methods": {
-  "sheet_registration": 1044,
-  "reviewed_sheet_name_and_team": 400,
+  "sheet_registration": 1163,
+  "reviewed_sheet_name_and_team": 417,
   "unique_name_in_month": 45112,
   "exact_name_and_team": 182512,
   "unique_name_team_differs": 32029,
@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 167,
-  "imported_sheets": 125,
-  "held": 42,
-  "pending": 13344,
+  "reviewed": 187,
+  "imported_sheets": 138,
+  "held": 49,
+  "pending": 13324,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6002,11 +6002,81 @@
     "reason": "uncertain_date",
     "details": "The sheet is dated 7/10 but is linked from round 3 (26 October–1 November), with a 12 November deadline. No matching October workbook results corroborate that date; confirm whether October or November was intended. ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ has no verified registration profile for the handwritten 2662.",
     "details_el": "Το φύλλο γράφει 7/10 αλλά συνδέεται με την 3η αγωνιστική (26/10–1/11) και προθεσμία 12/11. Δεν υπάρχουν αντίστοιχα αποτελέσματα στο Excel Οκτωβρίου. Εκκρεμούν επιβεβαίωση μήνα και ταυτοποίηση του ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ (χειρόγραφο 2662)."
+   },
+   {
+    "source": "s-b18b171f2027e61d",
+    "url": "http://files.ping-pong.gr/FA26-27/SL2-AP5.jpg",
+    "fixture": "f-b8ab826b025c35c3",
+    "sha256": "69f50b471697970d17728a16060aee92ef9c18dfc18c4e0f5ce62d3210c76e3c",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous_lineup",
+    "details": "Row 5 names ΒΑΣΙΛΑΚΟΣ (2633), the starting Y athlete, in the Z position occupied by ΚΑΝΤΖΑΒΕΛΟΥ (2624), without a substitution explanation. Confirm the opponent before importing.",
+    "details_el": "Η γραμμή 5 αναφέρει ΒΑΣΙΛΑΚΟ (2633), τον αρχικό Υ, στη θέση Ζ της ΚΑΝΤΖΑΒΕΛΟΥ (2624), χωρίς εξήγηση αλλαγής. Εκκρεμεί επιβεβαίωση αντιπάλου."
+   },
+   {
+    "source": "s-6ec8b87ec296b1d6",
+    "url": "http://files.ping-pong.gr/FA26-27/AVG-RL2.jpg",
+    "fixture": "f-867d82001cd670bf",
+    "sha256": "d016a559cad39e874d299b389fab267f58a3fc1696a5b0896144e8461b391629",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The home A surname appears ΚΟΝΙΔΑΡΗΣ Γ., with no registration and no confirmed existing profile for this team.",
+    "details_el": "Το όνομα στη θέση Α φαίνεται ΚΟΝΙΔΑΡΗΣ Γ., χωρίς ΔΑΙ ή επιβεβαιωμένο υπάρχον προφίλ στην ομάδα."
+   },
+   {
+    "source": "s-d73d727d0f69096d",
+    "url": "http://files.ping-pong.gr/FA26-27/BSS-KMZ.jpg",
+    "fixture": "f-a5c872d4ff1b3952",
+    "sha256": "7e6daaf1bbf9482be2974a7ebd4e032f514942f360b461b7025c600615207a9b",
+    "reviewed_at": "2026-11-26",
+    "reason": "missing_date",
+    "details": "The photograph omits the date and team headings. The fixture link alone does not establish the actual playing date.",
+    "details_el": "Η φωτογραφία δεν περιλαμβάνει ημερομηνία και ονόματα ομάδων. Ο σύνδεσμος της αγωνιστικής δεν τεκμηριώνει την πραγματική ημερομηνία."
+   },
+   {
+    "source": "s-7454e35f041732ed",
+    "url": "http://files.ping-pong.gr/FA26-27/IL2-BPG.jpg",
+    "fixture": "f-3a2f190490228657",
+    "sha256": "f398a47bae3e9a36263c5fde9246d09837ed35b1f78b19375f9e52e23ff038bf",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Home B is written ΚΩΤΣΑΚΗΣ / ΚΩΤΣΑΜΗΣ ΠΑΝ., registration 2835, with no confirmed ranking or prior-result profile.",
+    "details_el": "Η θέση Β γράφει ΚΩΤΣΑΚΗΣ / ΚΩΤΣΑΜΗΣ ΠΑΝ., ΔΑΙ 2835, χωρίς επιβεβαιωμένο προφίλ κατάταξης ή προηγούμενων αποτελεσμάτων."
+   },
+   {
+    "source": "s-46da70318b3486a4",
+    "url": "http://files.ping-pong.gr/FA26-27/SRS-PAM.jpg",
+    "fixture": "f-640f137a11f47157",
+    "sha256": "7d61424a72f71ec2ecbfb060ec561822b59a82f90ab1f9f67cc2e8e36790adb2",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Home B is ΛΥΡΩΝΗΣ with handwritten 2828, absent from the ranking profiles. The existing ΛΥΡΩΝΗΣ ΖΑΧΑΡΙΑΣ (1587) belongs to another team and cannot be equated from this sheet alone.",
+    "details_el": "Η θέση Β γράφει ΛΥΡΩΝΗΣ με ΔΑΙ 2828, χωρίς αντίστοιχο προφίλ. Ο ΛΥΡΩΝΗΣ ΖΑΧΑΡΙΑΣ (1587) ανήκει σε άλλη ομάδα και δεν ταυτοποιείται μόνο από αυτό το φύλλο."
+   },
+   {
+    "source": "s-248d26da2c3338f3",
+    "url": "http://files.ping-pong.gr/FA26-27/BSR-RBT.jpg",
+    "fixture": "f-744c889448130f4a",
+    "sha256": "a34104245741f8f4955019ea39d3484dc7c76ebb5e3cd46586a9e8df4a932302",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Away Y is ΤΟΤΟΝΤΖΙΑΝ, handwritten 2918, with no confirmed ranking or prior-result profile.",
+    "details_el": "Η θέση Υ γράφει ΤΟΤΟΝΤΖΙΑΝ, χειρόγραφο 2918, χωρίς επιβεβαιωμένο προφίλ κατάταξης ή προηγούμενων αποτελεσμάτων."
+   },
+   {
+    "source": "s-f4b22f4ac06b7819",
+    "url": "http://files.ping-pong.gr/FA26-27/MHL-KPS.jpg",
+    "fixture": "f-c0f6b5e4472558c1",
+    "sha256": "479efe795439865a4ca8fea4273d5150194926689c5f6756858249d231031bca",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Home starters ΓΙΑΧΑΕΦ Γ. (2984) and ΓΙΑΧΑΕΦ Λ. (2985) have no confirmed existing profiles. Do not attach their results to another ΓΙΑΧΑΕΒ athlete.",
+    "details_el": "Οι ΓΙΑΧΑΕΦ Γ. (2984) και ΓΙΑΧΑΕΦ Λ. (2985) δεν έχουν επιβεβαιωμένα υπάρχοντα προφίλ. Δεν αποδίδονται τα αποτελέσματά τους σε άλλον αθλητή ΓΙΑΧΑΕΒ."
    }
   ],
-  "imported": 722,
-  "corroborated": 106,
-  "excluded_walkovers": 12,
+  "imported": 790,
+  "corroborated": 129,
+  "excluded_walkovers": 16,
   "reviews": [
    {
     "source": "s-adfb32f236e751d3",
@@ -7141,6 +7211,124 @@
     "season": "2026-2027",
     "imported": 7,
     "notes": "ΧΡΥΣΑΝΘΟΠΟΥΛΟΣ registration is indistinct in row 3 but repeated as 2039 in row 6 and supported by the team roster. Row 5 substitute ΓΟΥΑΝΓΚ ΧΟΥΝΓΚ ΦΕΙ, printed 2206, is HONGFEI WANG."
+   },
+   {
+    "source": "s-0dfe266eb8838d3f",
+    "url": "http://files.ping-pong.gr/FA26-27/12S-AP6.jpg",
+    "fixture": "f-d96759e36cceff27",
+    "date": "2026-10-30",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "ΝΑΤΣΙΟΣ registration resembles 1911, belonging to another athlete; use 1811, verified by unique name and workbook results. ΦΕΛΟΥΚΑΣ is written unclearly in row 2 and clearly in rows 6 and 9, all the Y position."
+   },
+   {
+    "source": "s-299e81ee344d032c",
+    "url": "http://files.ping-pong.gr/FA26-27/SFS-PWS.jpg",
+    "fixture": "f-72f004bd8792f5c5",
+    "date": "2026-11-05",
+    "season": "2026-2027",
+    "imported": 9,
+    "notes": "Low-resolution ΛΑΟΥΡΑΣ and ΜΠΟΥΜΠΟΥΚΑΣ digits verified by their unique names in POWERSPIN; ΤΑΜΠΑΚΟΣ is named in rows 4 and 8 and the reserve box."
+   },
+   {
+    "source": "s-a9c6e6e99fc84931",
+    "url": "http://files.ping-pong.gr/FA26-27/FLR-ATC.jpg",
+    "fixture": "f-5fc4b9603f996dbd",
+    "date": "2026-11-02",
+    "season": "2026-2027",
+    "imported": 9,
+    "notes": ""
+   },
+   {
+    "source": "s-1f0ff0d7c9372557",
+    "url": "http://files.ping-pong.gr/FA26-27/TBL-L08.jpg",
+    "fixture": "f-61bcbb2ff6c85286",
+    "date": "2026-11-14",
+    "season": "2026-2027",
+    "imported": 4,
+    "walkover": 4,
+    "notes": "Both teams explicitly fielded two athletes. Row 1 is void with no score and is omitted. Rows 4, 5, 8 and 9 are walkovers; only rows 2, 3, 6 and 7 count as played singles."
+   },
+   {
+    "source": "s-5c0cbc191a2fbbab",
+    "url": "http://files.ping-pong.gr/FA26-27/ATD-DIO.jpg",
+    "fixture": "f-31212eb379175d61",
+    "date": "2026-11-01",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-f068e65cb5ae7a44",
+    "url": "http://files.ping-pong.gr/FA26-27/KPG-SFD.jpg",
+    "fixture": "f-4dbc896cade0ad15",
+    "date": "2026-11-02",
+    "season": "2026-2027",
+    "imported": 9,
+    "notes": ""
+   },
+   {
+    "source": "s-7d38d05528f098fc",
+    "url": "http://files.ping-pong.gr/FA26-27/MB3-AEH.jpg",
+    "fixture": "f-eec29c8b6ec07594",
+    "date": "2026-11-05",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-ef783117ae05f264",
+    "url": "http://files.ping-pong.gr/FA26-27/MG2-SDR.jpg",
+    "fixture": "f-f9c4e5fa31c679ad",
+    "date": "2026-11-12",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-5014a2a7de3718b3",
+    "url": "http://files.ping-pong.gr/FA26-27/AP10-T96.jpg",
+    "fixture": "f-aba4b99aee00a3d6",
+    "date": "2026-11-05",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": "ΡΩΜΑΣ registration is truncated; unique name and team identify 2611. Substitute ΜΑΝΤΗΣ is 1329 in the substitution note, despite unclear digits in row 5."
+   },
+   {
+    "source": "s-7e4875934f6b6426",
+    "url": "http://files.ping-pong.gr/FA26-27/NES-FPL.jpg",
+    "fixture": "f-e36b2e84acc6edc5",
+    "date": "2026-11-10",
+    "season": "2026-2027",
+    "imported": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-4885dbaa72a12a38",
+    "url": "http://files.ping-pong.gr/FA26-27/SPD-XML.jpg",
+    "fixture": "f-bcb934e95b906713",
+    "date": "2026-11-01",
+    "season": "2026-2027",
+    "imported": 9,
+    "notes": "ΑΘΑΝΑΣΟΠΟΥΛΟΣ handwritten registration is unclear; unique team roster identifies 2965. ΠΛΟΥΤΑΡΧΑ, printed 2560, is ΝΤΑΗ ΠΛΟΥΤΑΡΧΑ. Use the current ΜΑΡΑΓΚΟΥΔΑΚΗΣ ranking variant for 1812."
+   },
+   {
+    "source": "s-f28f65f914cd9bc4",
+    "url": "http://files.ping-pong.gr/FA26-27/PNR-ATR.jpg",
+    "fixture": "f-7a67a52329b40bee",
+    "date": "2026-10-29",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "Indistinct date is resolved as 29 October by the five identical workbook results. Away starting registrations are poorly written; names uniquely resolve within ATNERS. Both substitutions are explicitly recorded."
+   },
+   {
+    "source": "s-f6fc94ed268e8cba",
+    "url": "http://files.ping-pong.gr/FA26-27/AD2-ATD.jpg",
+    "fixture": "f-1df5cd77ff215a4f",
+    "date": "2026-10-27",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": ""
    }
   ]
  }
