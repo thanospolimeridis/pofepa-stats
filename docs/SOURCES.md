@@ -1,64 +1,45 @@
-# Source contract and audit
+# Source contract
 
-## Observed sources
+## Discovery and provenance
 
-The public ranking index groups workbooks into `ΠΑΝΕΛΛΑΔΙΚΑ`, `ΑΤΤΙΚΗ & ΝΟΤΙΑ ΕΛΛΑΔΑ` and `ΒΟΡΕΙΑ ΕΛΛΑΔΑ`. Its note says the regional rankings were unified in September 2026. The national May and June files are combined ranking lists and have no results sheet. Regional January–June and unified September/October files contain a results sheet.
+The collector reads the POFΕPA ranking index headings to assign `north`, `south`, or `national`; it discovers every linked XLS/XLSX workbook. Source filenames provide the month. All 270 distinct linked workbooks are imported. Result seasons are discovered specifically from the **Αποτελεσματα** navigation menu, avoiding similarly named competition-announcement pages.
 
-All June 2026 regional DAI/name pairs were checked against the June nationwide list: every pair matched exactly, and North/South DAI sets did not overlap. This supports a common 2026 registration namespace. Four numbers change names across the full imported time range; they are quarantined into separate name-specific profiles rather than automatically merged.
+Each fetched source records its public URL, retrieval time, byte length and SHA-256. Raw files and cache metadata stay in ignored `capture/`. No credentials or private data are needed.
 
-The index labels are **months**, not verified publication dates. They are stored as `YYYY-MM`; the application does not fabricate a day of publication or use a month-end ranking as pre-match evidence.
+One index error is confirmed: the North link labeled **ΝΟΕ/2011** points to `rl_be_11-2014-v3.xls`. Its result dates and ranking contents confirm November 2014. The correctly labeled November 2014 link points to v2, whose ranking rows are identical. Both source versions are preserved as separately attributed snapshots; no November 2011 North snapshot is fabricated.
 
-## Workbook tables
+## Ranking records
 
-`ΓΕΝΙΚΟΣ` has either 7 or 8 columns. Columns are selected by header, including `Νέα θέση`, `Ονοματεπώνυμο`, `Βαθμοί`, `Κατηγορία`, `Ομάδα`, `ΔΑΙ`. The optional `Από θέση` column is not needed. The birth-year column is ignored and never normalized.
+A snapshot records region, month, canonical list title, original worksheet title, source ID and rows:
 
-Each category sheet has its own official `Νέα θέση`. Category ranks are not derived from the overall list. Each snapshot is keyed by **region + month + sheet name**. Category membership and ranking order are kept as published; equal points are not renumbered or given an invented tie-break.
+```text
+[player_id, source_rank, source_points, club_id, source_category, Excel_row]
+```
 
-`ΑΠΟΤΕΛΕΣΜΑΤΑ` has no header:
+A missing source rank or points value remains null. Ditto marks copy the preceding tied rank. Negative points are valid source values. Historical Greek division names are normalized to ANE/BET for consistent navigation, but age brackets and source positions remain unchanged. Repeated athlete entries in a sheet remain separate rows and receive `repeated_source_ranking` issues.
 
-| Column | Meaning used by importer |
-| --- | --- |
-| A | Source match date, day/month/year |
-| B, C | Player names |
-| D, E | Final games won by each player |
-| F, G | Source team names, sometimes blank |
-| H | Competition name |
-| I, J | Rating changes; deliberately not treated as scores |
+Registration-free historical entries are matched only through exact names and supporting team or unique-name evidence. Names repeated in a historical general list remain separate. Registration conflicts are split by normalized name. Source birth years, addresses and contact fields are omitted.
 
-Bonus rows include non-player text such as `Bonus 1ος…`. Source `1–0` or `0–1` outcomes have no established completed-match semantics, so they are excluded from played-match statistics. Twelve October result rows have a blank participant despite a numeric score. Their row locations remain in `issues`.
+## Singles results
 
-## HTML team fixtures
+Both XLS and XLSX formats are supported. Published score layouts include a combined score cell, separate columns D/E, shifted columns E/F, and compact individual-tournament sheets without teams. The dominant explicit score layout is detected per sheet; point-change columns are not interpreted as scores.
 
-Only tables with explicit `Γηπεδούχος` and `Φιλοξενούμενος` headers are parsed. The preceding heading supplies the round. Score cells containing a leading numeric score are preserved as reported fixture totals; scheduling text remains a note.
+Legacy worksheets leave repeated dates, teams and event labels blank within a group. The importer carries the written context and retains its row numbers in every evidence object (`date_row`, `team_row`, `event_row`), alongside the original sheet, result row and detected layout. Explicit new dates reset carried teams. Numeric totals are never interpreted as team names.
 
-`Ημ/νια ενδεχόμενου ορισμού` is a deadline, not a played date. Those values never enter chronological singles statistics. Score links usually point to scans on `files.ping-pong.gr`; the app keeps the link but does not claim to have transcribed it. Some of those external HTTPS endpoints have certificate issues; the collector does not disable TLS verification or fetch them. Their original HTTP links remain as published.
+Results require two distinct named participants, a valid date and a completed best-of-five score. Dates more than one calendar year away from their workbook are quarantined as `date_outside_workbook_year`; source mistakes such as 1949 in a 2019 workbook are not silently corrected. Future dates, missing context, nonstandard scores and bonus rows are also reported as exclusions.
 
-The 2026–2027 index also contains empty links to old seasons, PDF-only competitions and at least one named link into a previous season. They are not treated as current supported HTML fixtures. Pages without supported tables remain explicitly listed in coverage; their source page title is retained, including any stale year displayed by POFΕPA.
+Exact name/team associations and provisional unique-name associations are distinguished in `identity`. Each association retains its ranking-source evidence. Unresolved identities remain source/event-scoped rather than being merged by similar spelling. Cross-source duplicate results keep all corroborating source rows; occurrence counts preserve legitimate repeats within a single source.
 
-## Dataset schema 1
+## Team fixtures and PDFs
 
-- `sources`: source ID, URL, UTC retrieval timestamp, byte count, response SHA-256.
-- `players`: source DAI, display name, dated team/category observation, provisional/conflicting identity flags. Conflict variants have distinct profile IDs.
-- `clubs`: source team name; hashed IDs do not establish official club identity.
-- `snapshots`: ID, region, period, source, sheet/list name and compact rows `[player_id, source_rank, points, club_id, category, Excel_row]`.
-- `matches`: source ID and Excel row, date, event, region, two player IDs, original names, final games, source teams, identity resolution method and supporting ranking sources for each side. Duplicate physical results keep all workbook/row references in `evidence`.
-- `fixtures`: event, round, source, teams, reported total or null, deadline, schedule note, external match-sheet link.
-- `events`: workbook competition aggregates use the exact competition label and season, retaining all contributing source regions; HTML fixture competitions have distinct records. Results are not guessed to belong to a league division when the workbook does not identify it.
-- `issues`: excluded source rows and reasons. This is not evidence that all source errors have been detected.
-- `coverage`: totals, cutoff, imported month range, deferred pages, other discovered workbooks and registration-name conflicts.
+Supported HTML layouts include modern headed tables, round tables without column headings, and historical parallel columns separated by line breaks or explicit wide spacing. Parallel columns must align exactly; missing cells are not shifted to guess opponents or scores.
 
-Player resolution uses the union of the same month’s national/regional general lists. A visiting player can therefore be resolved from their home-region list. Repeated DAI entries across national and regional sheets are treated as one candidate; equal names with different DAIs remain ambiguous.
+PDF group-result rows retain page and text-line evidence. Knockout brackets are read through their drawn horizontal and vertical connectors. A recorded bracket winner must exactly match one of the two connected teams. Ambiguous sections remain in the deferred list, including partially parsed documents. Blank draws are not wins. Source fonts sometimes contain imperfect text mappings; original spellings are retained rather than guessed.
 
-The committed catalog contains the normalized source records. `build.py` checks it, embeds it safely in the HTML, and generates downloadable coverage/provenance reports. `audit_sources.py` independently checks every normalized ranking/match row against the corresponding raw workbook cells and verifies source hashes. Raw cache files are required only for replay/audit, never to build the site.
+Team totals do not imply individual athlete results. Match-sheet image links are retained as source evidence; individual scores come from the official workbooks. Reported schedule deadlines remain separate from dates played.
 
-## Remaining work
+## Distribution and reproducibility
 
-- Review the four registration-name conflicts with additional evidence before merging any profiles.
-- Resolve result names lacking an unambiguous corresponding ranking identity.
-- Backfill pre-2026 ranking files after checking their formats and namespaces.
-- Parse PDF/image-only fixtures and individual tournament documents with their own source-specific validation.
-- Add new published months deliberately. A refresh does not expand the configured collection scope.
+`data/catalog.json.gz` is deterministic gzip JSON with timestamps disabled in the compression header. The hosted build includes a small bootstrap archive, per-ranking shards, athlete buckets, event shards and full-dataset exports. Athlete buckets contain the complete associated match and ranking histories. The offline HTML embeds the complete compressed data.
 
-## Browser verification
-
-The implementation is checked at desktop and narrow mobile widths, with ranking region/age changes, source-ranked positions, player search/profile histories, comparison routes and bilingual rendering. Domain tests validate disambiguation, invalid score exclusions, age-sheet ranks and post-merger regional boundaries. The complete route render smoke test runs in both languages against the committed data.
+Validation checks references, unique record IDs, legal singles scores, date bounds and reconciled counts. Source auditing independently compares every ranking row and every singles evidence row with the cached original cells. UI smoke tests exercise both languages and all routes against the hosted shards. Reproducibility checks hash every generated file recursively.

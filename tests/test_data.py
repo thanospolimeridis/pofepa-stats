@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from collect import key, parse_fixture_tables, registry_id, resolve_player, score_status
 from validate import validate
+from dataset import load
 
 
 class ParserTests(unittest.TestCase):
@@ -58,7 +59,7 @@ class ParserTests(unittest.TestCase):
 class DatasetTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.data = json.loads((ROOT / "data/catalog.json").read_text())
+        cls.data = load()
 
     def test_committed_dataset_validates(self):
         validate(self.data)
@@ -112,3 +113,48 @@ class DatasetTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class HistoricalTests(unittest.TestCase):
+    def test_legacy_scores_and_grouped_dates_keep_context(self):
+        import xlrd
+        from workbooks import LegacySheet, result_rows
+        class Sheet:
+            name = 'ΑΠΟΤΕΛΕΣΜΑΤΑ'
+            def get_rows(self):
+                values = [['26/10/2011', 'A', 'B', '3-1', 'HOME', 'AWAY', 'CUP', 2, -1],
+                          ['', 'C', 'D', '2-3', '', '', '', -1, 2]]
+                return [[xlrd.sheet.Cell(xlrd.XL_CELL_TEXT, x) if isinstance(x, str) else xlrd.sheet.Cell(xlrd.XL_CELL_NUMBER, float(x)) for x in row] for row in values]
+        rows = list(result_rows(LegacySheet(Sheet(), 0)))
+        self.assertEqual(rows[1][1], ('26/10/2011', 'C', 'D', 2, 3, 'HOME', 'AWAY', 'CUP'))
+        self.assertEqual(rows[1][2]['date_row'], 1)
+        self.assertEqual(rows[1][2]['layout'], 'combined')
+
+    def test_source_ties_and_unranked_entries_are_preserved(self):
+        from collect import ranking_rows
+        class Sheet:
+            title = 'ΓΕΝΙΚΟΣ'
+            def iter_rows(self, values_only=True):
+                yield ('Θέση', 'Ονοματεπώνυμο', 'Βαθμοί', 'Κατηγορία', 'Ομάδα')
+                yield (1, 'A', 12.5, 'ANE 18-39', 'X')
+                yield ('"', 'B', 12.5, 'ANE 18-39', 'Y')
+                yield ('-', 'C', '-', 'ANE 18-39', 'Z')
+        rows = list(ranking_rows(Sheet()))
+        self.assertEqual([r[1] for r in rows], [1, 1, None])
+        self.assertIsNone(rows[-1][3])
+
+    def test_historical_parallel_columns_do_not_shift_scores(self):
+        html = '<h2>1η Αγωνιστική</h2><table><tr><td>A<br>B</td><td>-<br>-</td><td>C<br>D</td><td>5-1<br>2-5</td></tr></table>'
+        rows = parse_fixture_tables(html, 'source', 'https://www.pofepa.gr/test.html', 'event')
+        self.assertEqual([(r['home'], r['away'], r['score']) for r in rows], [('A', 'C', [5, 1]), ('B', 'D', [2, 5])])
+        # Missing a score is ambiguous; never shift the second score up a row.
+        bad = html.replace('5-1<br>2-5', '2-5')
+        self.assertEqual(parse_fixture_tables(bad, 'source', 'https://www.pofepa.gr/test.html', 'event'), [])
+
+    def test_full_linked_workbook_archive_is_accounted_for(self):
+        d = DatasetTests.data
+        self.assertEqual(len(d['coverage']['workbook_inventory']), 270)
+        self.assertTrue(all(i['imported'] for i in d['coverage']['workbook_inventory']))
+        self.assertEqual(d['coverage']['ranking_periods'][0], '2011-10')
+        self.assertGreater(d['coverage']['matches'], 130000)
+        self.assertGreater(d['coverage']['ranking_rows'], 700000)
+        self.assertGreaterEqual(d['coverage']['match_date_min'], '2011-01-01')

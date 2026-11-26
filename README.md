@@ -1,103 +1,63 @@
 # POFEPA Stats · Αγώνες & αθλητές
 
-An independent POFΕPA table tennis archive, built in the same spirit as [Greek TT Archive](https://github.com/thanospolimeridis/greek-tt-stats): **Python ingestion, a static website, no database or frontend dependencies, and an offline HTML edition**.
+[Website](https://thanospolimeridis.github.io/pofepa-stats/) · [Offline edition](https://thanospolimeridis.github.io/pofepa-stats/offline.html) · [Source archive](https://www.pofepa.gr/piiotanualphakappaepsilonsigmaf-alphaxiiotaomicronlambdaomicrongammaetasigmaetasigmaf.html)
 
-## Browse locally
+An independent Greek/English POFΕPA table tennis archive, following [Greek TT Archive](https://github.com/thanospolimeridis/greek-tt-stats): Python ingestion, a static website, no backend, and an offline HTML edition.
 
-The generated `index.html` can be opened directly, including all searches and charts. To serve the site:
+## Historical coverage
+
+All **270 distinct Excel workbooks** linked in the official ranking archive are imported, covering **October 2011–October 2026** and **742,275 ranking records**. Every published regional and age-category position is retained. The archive contains over **136,000 completed singles matches**, together with historical team results from HTML pages and supported PDF tables and knockout brackets. Exact current counts, exclusions, source hashes and unparsed documents are available on the website's **Coverage & sources** page and in `dist/coverage.json`.
+
+The results menu is inventoried for every listed season, from 2007–2008 through 2026–2027. The two earliest season pages currently link no results; the imported team pages start in 2009–2010. Some source documents contain ambiguous layouts or incomplete score fields. Those sections remain explicitly listed for review; this does not claim that every match ever played is recoverable.
+
+Rankings remain separated into **North Greece**, **Attica & South Greece**, and **Nationwide**, then into the source's age brackets. September 2026 onward uses the unified national rankings. Historical age-sheet titles are normalized (`ΑΝΕΞΑΡΤΗΤΟΙ` → `ANE`, `ΒΕΤΕΡΑΝΟΙ` → `BET`), with original worksheet names retained for evidence. Positions are never recalculated from a filtered overall ranking. Tied positions and unranked source entries are preserved. Birth years are not published.
+
+Athlete pages automatically show **all linked matches and all ranking histories**, including every recorded region and age category. There are no region or age selectors on those pages. The ranking charts show each region separately, and the complete ranking table has its own pagination. Match statistics default to all seasons.
+
+## Build and preview
 
 ```sh
 python3 scripts/build.py
 python3 -m http.server 8000 --directory dist
 ```
 
-Open `http://localhost:8000`. Builds need Python 3.10+ and the committed dataset only; they make no network requests. The generated files are ignored by Git.
+Open `http://localhost:8000`. The generated root `index.html` and `dist/offline.html` contain the complete compressed archive and can be saved for offline use. The hosted site loads only the required ranking, athlete or competition data. A modern browser with `DecompressionStream` support is required.
 
-## Rankings: region first, then division and age
+The committed dataset is `data/catalog.json.gz`. Builds require Python 3.10+ and make no network requests. Generated files and raw downloads are ignored by Git.
 
-Rankings use the **official age-category worksheet**, not a general list filtered and renumbered by age. The main controls select:
-
-- Region: **North Greece**, **Attica & South Greece**, or **Nationwide**.
-- Division: veterans (`BET`) or independent players (`ANE`).
-- Published age bracket: independent 18–39; veteran 30–39; then 40–49, 50–59, 60–64, 65–69 and 70+.
-- Source month.
-
-The source publishes a combined women's list without separate age worksheets. That table is available with an explicit note, as is the overall ranking.
-
-**North and South lists were unified from September 2026.** Their separate histories here end in June 2026. September and October are nationwide lists; the site does not invent regional ranks from them. Source categories are preserved even when a label appears unusual. No birth years are published or used to recalculate categories.
-
-## Current coverage — 26 November 2026
-
-| Data | Imported scope |
-| --- | --- |
-| Regional rankings | North and South: January–June 2026, 12 workbooks |
-| National rankings | May, June, September and October 2026, 4 workbooks |
-| Ranking records | 88,170 rows in 256 dated, regional/category lists |
-| Ranked identities | 3,113 profiles representing 3,109 source registration numbers; 4 changed-name numbers are kept split pending review |
-| Singles results | 12,814 completed matches, dated 1 January–31 October 2026 in the source |
-| Team schedules | 1,262 fixtures, 294 with a reported score, from supported current-season HTML tables |
-| Unresolved match identities | 68 source/event-scoped profiles, not merged into ranking identities |
-| Excluded result rows | 476 bonus rows, 36 nonstandard scores, 12 rows missing participants, and 357 repeated exports already represented by another source |
-
-This is **partial 2026 coverage**, not a complete historical archive. There are no July/August result workbooks in this import scope. PDF/image-only regional results, cup brackets and pre-2026 archives remain untranscribed. The source catalog and deferred pages are retained in the dataset and exposed on About. Team results can be newer than the latest imported singles workbook.
-
-Implemented: Greek/English interface; Greek accent-insensitive and transliterated player search; player profiles with season filters, W/L, win rate, games won/lost and deciding-game records; region-specific age-bracket ranking histories; matches and fixture filters; competition and team pages; shareable head-to-head comparisons; CSV/JSON downloads; source links and spreadsheet row numbers; responsive layouts.
-
-## Refresh and reproduce
-
-Install importer/test dependencies in a virtual environment:
+## Collect, validate and reproduce
 
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+# Also install Poppler (pdftotext) for PDF collection, e.g. brew install poppler.
 
-# Fetch any missing files, use existing cached sources otherwise:
 python3 scripts/collect.py --as-of 2026-11-26
-
-# Replay exactly the downloaded sources, with the same cutoff:
 python3 scripts/collect.py --offline --as-of 2026-11-26
-
-# Fetch the configured scope again (review the data diff before publishing):
-python3 scripts/collect.py --refresh --as-of YYYY-MM-DD
-
 python3 scripts/build.py
 python3 -m unittest discover -s tests -v
 node tests/smoke.js
 python3 scripts/check_reproducible_build.py
-python3 scripts/audit_sources.py  # requires the ignored raw cache
+python3 scripts/audit_sources.py
 ```
 
-`--output PATH` stages a collection separately; `--cache PATH` selects a different cache. The collector replaces its selected output only after validation. Ranking download/schema failures abort. Unavailable fixture pages are reported explicitly in coverage. Raw downloads, their timestamps and metadata live in ignored `capture/`; normalized data, source URLs and SHA-256 hashes are committed in `data/catalog.json`.
+The collector discovers all linked workbooks and result seasons rather than maintaining a fixed month list. `--refresh` refetches sources; `--cache PATH` selects the raw cache; `--output PATH` stages a separate collection. Validation must pass before the output is atomically replaced. The source-cell audit requires the original ignored `capture/` downloads.
 
-The importer refreshes the **explicit `WORKBOOKS` scope** in `scripts/collect.py`. New months are not silently included: inspect the new workbook and add its `(YYYY-MM, region, filename)` entry before recollecting. Discovery records the other published workbook URLs for later backfill. No periodic automation is enabled.
+## Identity and evidence
 
-## Identity and score policy
+- Ranking DAI registration numbers identify athletes. Conflicting names under a number remain separate, with the conflict disclosed.
+- Earlier lists omit DAI. An exact name and team, or a unique exact name among registered profiles, can associate the historical entry. Names appearing more than once in historical general lists remain separate.
+- Match records link against the same month's ranking lists. Exact name plus team is preferred; unique exact names with blank or differing teams are provisional associations. Ambiguous or unmatched names remain separate profiles. No fuzzy spelling matching is used.
+- Older spreadsheets use grouped dates and team headings, numeric text scores, combined score cells and different column layouts. The importer retains the worksheet, result row and context row numbers used to interpret each result.
+- Only completed 3–0, 3–1 and 3–2 singles scores enter statistics. Invalid dates, implausible years, bonus entries and nonstandard outcomes are excluded with reasons. Scores and dates are never invented.
+- Repeated result exports are deduplicated while preserving every source row. Repeated games within one source remain separate. Repeated ranking entries remain as published and are flagged.
+- Team fixtures retain reported totals and source-page references. Schedule deadlines are not treated as dates played. PDF bracket results require drawn connectors and a named winner matching one of the two teams.
 
-- Source DAI is the ranking identity key. If its normalized name changes, **all variants are separated** until reviewed. This prevents merging a reused or mistyped number into someone else's profile. Four such numbers are recorded in `coverage.identity_conflicts`.
-- Result sheets omit DAI. Exact name plus exact team across the **same month’s ranking lists** resolves a player. With a blank team, a unique exact name across those lists is a *provisional association*, retained as `unique_name_in_month`. Conflicting teams and ambiguous names are kept as distinct unresolved profiles. No fuzzy matching or manual spelling corrections are applied.
-- Only numeric completed best-of-five scores (`3–0`, `3–1`, `3–2`, either orientation), nonempty distinct participants and valid dates through the cutoff enter statistics. Bonus rows, nonstandard outcomes and missing participants are recorded as exclusions. There are no invented set points or walkover wins.
-- Same-day repeated matches within one source are retained. Overlapping identical results across workbooks use occurrence counts to avoid double counting repeated exports without discarding legitimate within-source repeats. Every corroborating workbook/row is retained. An unresolved participant may be matched as part of an identical result by its exact name/team, without linking it to a ranked identity.
-- Fixture deadlines remain `deadline`, never `date`. Reported team totals are displayed as published. No individual match results or standings are reconstructed from them.
-- Team names are exact source strings with whitespace cleanup. Different spellings remain separate. Profile team labels are dated observations, not inferred current membership.
+See [SOURCES.md](docs/SOURCES.md) for the source contract and known anomalies.
 
-Read [the source contract](docs/SOURCES.md) for schema, evidence and remaining coverage.
+## Deployment
 
-## Repository and deployment
+Pushes to `main` validate, build, verify reproducibility and publish `dist/` through GitHub Actions. During prototyping, each validated change is also pushed to `main` for immediate preview. No new version numbers or release tags are created until the prototype is ready. The full normalized dataset and offline edition are downloadable; the hosted HTML is small and loads compressed data shards on demand.
 
-```text
-Public POFΕPA pages and XLSX workbooks
-  → capture/ (ignored raw sources)
-  → scripts/collect.py → data/catalog.json (normalized, attributed records)
-  → scripts/build.py → index.html + dist/ (offline/static website)
-```
-
-[Source repository](https://github.com/thanospolimeridis/pofepa-stats) · [Website](https://thanospolimeridis.github.io/pofepa-stats/) · [Offline edition](https://thanospolimeridis.github.io/pofepa-stats/offline.html)
-
-GitHub Pages uses GitHub Actions, following `greek-tt-stats`: pushes to `main` validate the data, build the site twice to check reproducibility, and publish `dist/`. Other branches run validation only. Use `develop` for new work and move reviewed releases to `main` when they should be published. The initial release is tagged `v0.1.0`. **Publish GitHub Pages** can also be triggered manually on `main` to redeploy the current release.
-
-No API keys, cookies or secrets are required. Production builds run offline against the committed dataset; only the collector contacts POFΕPA.
-
-## License and attribution
-
-Code is MIT licensed. Design and architecture follow Greek TT Archive; its attribution is retained in `LICENSE`. Third-party sports data and source documents are not covered by this code license. The site links every result to [POFΕPA](https://www.pofepa.gr/) and the [ranking archive](https://www.pofepa.gr/piiotanualphakappaepsilonsigmaf-alphaxiiotaomicronlambdaomicrongammaetasigmaetasigmaf.html).
+Code is MIT licensed, with Greek TT Archive attribution retained in `LICENSE`. Third-party sports data and source documents remain attributed to POFΕPA and are not covered by the code license.

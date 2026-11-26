@@ -43,14 +43,28 @@
    "key": "snapshots",
    "type": "list",
    "files": [
-    "snapshots-000.jsonl"
+    "snapshots-000.jsonl",
+    "snapshots-001.jsonl",
+    "snapshots-002.jsonl",
+    "snapshots-003.jsonl",
+    "snapshots-004.jsonl"
    ]
   },
   {
    "key": "matches",
    "type": "list",
    "files": [
-    "matches-000.jsonl"
+    "matches-000.jsonl",
+    "matches-001.jsonl",
+    "matches-002.jsonl",
+    "matches-003.jsonl",
+    "matches-004.jsonl",
+    "matches-005.jsonl",
+    "matches-006.jsonl",
+    "matches-007.jsonl",
+    "matches-008.jsonl",
+    "matches-009.jsonl",
+    "matches-010.jsonl"
    ]
   },
   {

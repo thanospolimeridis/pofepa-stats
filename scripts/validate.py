@@ -23,10 +23,10 @@ def validate(data):
         require(snapshot["source"] in indices["sources"], "Missing ranking source")
         seen = set()
         for pid, rank, points, club, category, row in snapshot["rows"]:
-            require(pid in indices["players"] and pid not in seen, "Missing/duplicate ranking player")
-            require(isinstance(rank, int) and rank > 0 and math.isfinite(points), "Invalid rank/points")
+            require(pid in indices["players"] and (pid, row) not in seen, "Missing/duplicate ranking record")
+            require((rank is None or isinstance(rank, int) and rank > 0) and (points is None or math.isfinite(points)), "Invalid rank/points")
             require(not club or club in indices["clubs"], "Missing ranking club")
-            seen.add(pid)
+            seen.add((pid, row))
     for match in data["matches"]:
         require(match["p1"] in indices["players"] and match["p2"] in indices["players"] and match["p1"] != match["p2"], "Invalid match players")
         require(match["source"] in indices["sources"] and match["event"] in indices["events"], "Invalid match reference")

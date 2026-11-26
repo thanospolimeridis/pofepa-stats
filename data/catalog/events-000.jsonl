@@ -1,6 +1,513 @@
-{"id":"e-d0c783b04385c742","name":"ΠΡΩΤΑΘΛΗΜΑ ΠΟΦΕΠΑ 2025-2026","season":"2025-2026","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-b0f4e0d930a51560","s-fe6d3610349bb28d","s-d79c912eaf020d26","s-3d45d89dc0fcbb76","s-c0a685f52ee15ffc","s-ef388d41ae1614aa","s-996f93f97b53b32f","s-628d0be829302860","s-38dbffd3c2ba59c3","s-99a61e0c2b0a1b4a","s-8e605cccae2d4a1e","s-746533ff0668ed6b"]}
-{"id":"e-884f316fb7998a38","name":"ΚΥΠΕΛΛΟ ΠΟΦΕΠΑ 2025-2026","season":"2025-2026","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-b0f4e0d930a51560","s-fe6d3610349bb28d","s-3d45d89dc0fcbb76","s-c0a685f52ee15ffc","s-ef388d41ae1614aa","s-628d0be829302860","s-38dbffd3c2ba59c3","s-99a61e0c2b0a1b4a"]}
-{"id":"e-835b08121fc3e3b8","name":"ΚΥΠΕΛΛΟ ΟΜΑΔΩΝ ΑΝΕΞΑΡΤΗΤΩΝ 2025-2026","season":"2025-2026","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-b0f4e0d930a51560","s-fe6d3610349bb28d","s-d79c912eaf020d26","s-3d45d89dc0fcbb76","s-c0a685f52ee15ffc","s-ef388d41ae1614aa","s-99a61e0c2b0a1b4a"]}
+{"id":"e-2c933a7c0934a88f","name":"ΚΥΠΕΛΛΟ","season":"2011-2012","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-79b5fc56477cfd35","s-d156c7e1a2c2c2e2","s-8f11790d48593e77","s-5874485747708237","s-8f712968bd204e7f","s-ccbce0277568efa8","s-ee55373ebb3f4a46"]}
+{"id":"e-097091da35df427a","name":"Α' ΚΑΤΗΓΟΡΙΑ","season":"2011-2012","region":"south","regions":["south"],"kind":"singles","sources":["s-d156c7e1a2c2c2e2","s-5874485747708237","s-29962c5e3e010fc2","s-0589dc143f8afff7","s-f85c7b64622d2b25","s-223ca4fc6daf2750"]}
+{"id":"e-77c967fd6da9ecd0","name":"Γ' ΚΑΤΗΓΟΡΙΑ","season":"2011-2012","region":"south","regions":["south"],"kind":"singles","sources":["s-d156c7e1a2c2c2e2","s-5874485747708237","s-29962c5e3e010fc2","s-0589dc143f8afff7","s-f85c7b64622d2b25","s-223ca4fc6daf2750","s-71036f8c299e73fb"]}
+{"id":"e-91f01b7531b6e675","name":"ΠΡΩΤΑΘΛΗΜΑ","season":"2011-2012","region":"north","regions":["north"],"kind":"singles","sources":["s-8f11790d48593e77","s-8f712968bd204e7f","s-a5b5b585b645a948","s-ccbce0277568efa8","s-ee55373ebb3f4a46","s-258f500f3785394d"]}
+{"id":"e-a86653dcc834da2b","name":"Β' ΚΑΤΗΓΟΡΙΑ","season":"2011-2012","region":"south","regions":["south"],"kind":"singles","sources":["s-5874485747708237","s-29962c5e3e010fc2","s-0589dc143f8afff7","s-f85c7b64622d2b25","s-223ca4fc6daf2750","s-71036f8c299e73fb"]}
+{"id":"e-f7a73917ea5c907f","name":"ΑΤΟΜΙΚΑ","season":"2011-2012","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-0589dc143f8afff7","s-ee55373ebb3f4a46"]}
+{"id":"e-eba8428b93f99b51","name":"ΚΥΠΕΛΛΟ PLAY OFF","season":"2011-2012","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-258f500f3785394d","s-71036f8c299e73fb"]}
+{"id":"e-f68e62b81a8acaf7","name":"ΠΡΩΤΑΘΛΗΜΑ PLAY OFF","season":"2011-2012","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-258f500f3785394d","s-71036f8c299e73fb"]}
+{"id":"e-0f44d2b52028105a","name":"ΑΤΟΜΙΚΑ ΠΑΝΕΛΛΗΝΙΟ","season":"2011-2012","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-258f500f3785394d","s-71036f8c299e73fb"]}
+{"id":"e-2e1f37d314608534","name":"ΚΥΠΕΛΛΟ","season":"2012-2013","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-fcc3553b1ba20c12","s-05d9d117ea0b6794","s-90579f9cf0060e8d","s-59d74ee59e3a9768","s-9f1bb7051c4b8fbb","s-087050ffd248e0e0"]}
+{"id":"e-8c991cb9bd2cdc40","name":"ΠΡΩΤΑΘΛΗΜΑ","season":"2012-2013","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-90579f9cf0060e8d","s-59d74ee59e3a9768","s-9f1bb7051c4b8fbb","s-d3ffd03136b9b323","s-7a6eab7414b5f8e2","s-dc67a3f4c7ee4fff","s-5eca5e53bfd89c01"]}
+{"id":"e-43378156a8c70516","name":"Γ' ΚΑΤΗΓΟΡΙΑ","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-59d74ee59e3a9768","s-087050ffd248e0e0","s-9351f5925e36ecfb","s-e74b903ea2982fc1","s-378009cf804d047f","s-fd5c62210cb3b43b","s-edf02dba3ab82ecd"]}
+{"id":"e-2449fd2d7909e24d","name":"Β' ΚΑΤΗΓΟΡΙΑ","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-59d74ee59e3a9768","s-087050ffd248e0e0","s-9351f5925e36ecfb","s-e74b903ea2982fc1","s-378009cf804d047f","s-fd5c62210cb3b43b","s-88d2bc4ac6512e21"]}
+{"id":"e-0d05b6cd961b0189","name":"Α' ΚΑΤΗΓΟΡΙΑ","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-087050ffd248e0e0","s-9351f5925e36ecfb","s-e74b903ea2982fc1","s-378009cf804d047f","s-fd5c62210cb3b43b"]}
+{"id":"e-85d9a86795cddf4d","name":"ΑΤΟΜΙΚΑ 18-39","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-9351f5925e36ecfb"]}
+{"id":"e-def253d207ba74c5","name":"ΑΤΟΜΙΚΑ ΓΥΝΑΙΚΩΝ","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-9351f5925e36ecfb"]}
+{"id":"e-7fd227cedcbf96f0","name":"ΑΤΟΜΙΚΑ 40-49","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-9351f5925e36ecfb"]}
+{"id":"e-e85572f1364fb981","name":"ΑΤΟΜΙΚΑ 50-59","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-9351f5925e36ecfb"]}
+{"id":"e-9e18811be825e1ae","name":"ΑΤΟΜΙΚΑ 60+","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-9351f5925e36ecfb"]}
+{"id":"e-15a0d5adeb326f26","name":"PLAY OFFS","season":"2012-2013","region":"north","regions":["north"],"kind":"singles","sources":["s-5eca5e53bfd89c01"]}
+{"id":"e-173334bb2b6d7719","name":"ΑΤΟΜΙΚΑ ΑΝΕ 18-39","season":"2012-2013","region":"north","regions":["north"],"kind":"singles","sources":["s-5eca5e53bfd89c01"]}
+{"id":"e-74a8e53929bc8f5e","name":"ΑΤΟΜΙΚΑ ΑΝΕ 40-49","season":"2012-2013","region":"north","regions":["north"],"kind":"singles","sources":["s-5eca5e53bfd89c01"]}
+{"id":"e-8dd3d8fcca0e19f6","name":"ΑΤΟΜΙΚΑ ΑΝΕ 50-59","season":"2012-2013","region":"north","regions":["north"],"kind":"singles","sources":["s-5eca5e53bfd89c01"]}
+{"id":"e-693a91adbf78124e","name":"ΑΤΟΜΙΚΑ ΑΝΕ 60+","season":"2012-2013","region":"north","regions":["north"],"kind":"singles","sources":["s-5eca5e53bfd89c01"]}
+{"id":"e-5385779c9f03028d","name":"ΑΤΟΜΙΚΑ ΒΕΤ 40-49","season":"2012-2013","region":"north","regions":["north"],"kind":"singles","sources":["s-5eca5e53bfd89c01"]}
+{"id":"e-694e35de93f4abbe","name":"ΑΤΟΜΙΚΑ ΒΕΤ 50-59","season":"2012-2013","region":"north","regions":["north"],"kind":"singles","sources":["s-5eca5e53bfd89c01"]}
+{"id":"e-75cda25801187f43","name":"ΠΑΝ. ΠΡΩΤ.","season":"2012-2013","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-e5cad675b36fd1a4","s-edf02dba3ab82ecd"]}
+{"id":"e-35c5684136c2c9b0","name":"ΠΑΝ. ΚΥΠΕΛΛΟ.","season":"2012-2013","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-e5cad675b36fd1a4","s-edf02dba3ab82ecd"]}
+{"id":"e-db35e0dc2bb293bc","name":"ΠΑΝΕΛΛΗΝΙΟ","season":"2012-2013","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-e5cad675b36fd1a4","s-edf02dba3ab82ecd"]}
+{"id":"e-07ffa38ac103f301","name":"ΑΕΚ 1","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-2314e5c06a8bed22"]}
+{"id":"e-2c582439e317b01f","name":"ΠΑΝΘΕΟ 11","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-2314e5c06a8bed22"]}
+{"id":"e-8032de2913b04659","name":"ΒΕΤ. ΛΟΥΤΡΑΚΙΟΥ","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-2314e5c06a8bed22"]}
+{"id":"e-c55528f6b595ed92","name":"ΠΟΝΤΙΟΙ ΜΕΛΙΣΣΙΩΝ","season":"2012-2013","region":"south","regions":["south"],"kind":"singles","sources":["s-2314e5c06a8bed22"]}
+{"id":"e-24e517ad4231918b","name":"ΤΑΤΑΥΛΑ ΟΡΕΝ 2013","season":"2013-2014","region":"south","regions":["south"],"kind":"singles","sources":["s-8721d24eb64dc306"]}
+{"id":"e-2cab338bccc74311","name":"ΚΥΠΕΛΛΟ","season":"2013-2014","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-e43ddd97c4e32405","s-8f63909f22d2ebe2","s-544ab1e3d9a37969","s-88d2bc4ac6512e21","s-6476152a9176c38f","s-efe2dc7a4a1f191e","s-322c4766a62a0f85","s-80641d0646997bf2"]}
+{"id":"e-304760580243630f","name":"ΠΡΩΤΑΘΛΗΜΑ","season":"2013-2014","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-e43ddd97c4e32405","s-8f63909f22d2ebe2","s-544ab1e3d9a37969","s-88d2bc4ac6512e21","s-6476152a9176c38f","s-efe2dc7a4a1f191e","s-322c4766a62a0f85","s-80641d0646997bf2","s-ff0e4367f81c6c96","s-48ab8321acbbe0e2","s-909159f5dc031218","s-1dcb6ebb92a1449d","s-afd0976fb41283a2","s-1b63f8a10cbb2676","s-7e3c6a6bbbc1a74a","s-24f093e8e403a274","s-2a409ff9e3a9adf2"]}
+{"id":"e-fe144f4763d40e2d","name":"Γ' ΚΑΤΗΓΟΡΙΑ","season":"2013-2014","region":"south","regions":["south"],"kind":"singles","sources":["s-8f63909f22d2ebe2","s-88d2bc4ac6512e21","s-efe2dc7a4a1f191e","s-80641d0646997bf2","s-48ab8321acbbe0e2","s-1dcb6ebb92a1449d","s-1b63f8a10cbb2676"]}
+{"id":"e-382066d545585c29","name":"Α' ΚΑΤΗΓΟΡΙΑ","season":"2013-2014","region":"south","regions":["south"],"kind":"singles","sources":["s-88d2bc4ac6512e21","s-efe2dc7a4a1f191e","s-80641d0646997bf2","s-48ab8321acbbe0e2","s-1dcb6ebb92a1449d","s-1b63f8a10cbb2676"]}
+{"id":"e-4e93be4695b3df4a","name":"Β' ΚΑΤΗΓΟΡΙΑ","season":"2013-2014","region":"south","regions":["south"],"kind":"singles","sources":["s-88d2bc4ac6512e21","s-efe2dc7a4a1f191e","s-80641d0646997bf2","s-48ab8321acbbe0e2","s-1dcb6ebb92a1449d","s-1b63f8a10cbb2676","s-24f093e8e403a274"]}
+{"id":"e-98ba5a1aececcc74","name":"ΑΝΕ 18-39","season":"2013-2014","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-48ab8321acbbe0e2","s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-aeb5fb2acf5488f7","name":"ΑΝΕ 60+","season":"2013-2014","region":"south","regions":["south"],"kind":"singles","sources":["s-48ab8321acbbe0e2"]}
+{"id":"e-c4bf75d9968bbc85","name":"ΜΗ ΕΝΕ 30-39","season":"2013-2014","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-48ab8321acbbe0e2","s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-f7b6aa93aabc9f92","name":"ΒΕΤ 60+","season":"2013-2014","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-48ab8321acbbe0e2","s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-a495d47ec4141095","name":"ΒΕΤ 40-49","season":"2013-2014","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-48ab8321acbbe0e2","s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-e734b5292757e04c","name":"ΒΕΤ 50-59","season":"2013-2014","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-48ab8321acbbe0e2","s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-d671dcd1df499dce","name":"ΑΝΕΞ. ΓΥΝΑΙΚΩΝ","season":"2013-2014","region":"south","regions":["south"],"kind":"singles","sources":["s-48ab8321acbbe0e2"]}
+{"id":"e-b6e8095f57457c0e","name":"ΑΝΕ 40-49","season":"2013-2014","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-48ab8321acbbe0e2","s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-f53839d30e6951f6","name":"ΑΝΕ 50-59","season":"2013-2014","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-48ab8321acbbe0e2","s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-e2d78d56d6242a8f","name":"ΒΕΤ. ΓΥΝΑΙΚΩΝ","season":"2013-2014","region":"south","regions":["south"],"kind":"singles","sources":["s-48ab8321acbbe0e2"]}
+{"id":"e-87095cfa1fc73940","name":"ΑΤΟΜΙΚΑ Κ-ΜΑΚ","season":"2013-2014","region":"north","regions":["north"],"kind":"singles","sources":["s-909159f5dc031218"]}
+{"id":"e-5db64bc56d67581c","name":"ΑΝΕ ΓΥΝ","season":"2013-2014","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-535f5227ef633895","name":"ΑΝΕ 50+","season":"2013-2014","region":"north","regions":["north"],"kind":"singles","sources":["s-7e3c6a6bbbc1a74a"]}
+{"id":"e-0fc4485889840be7","name":"ΒΕΤ 50+","season":"2013-2014","region":"north","regions":["north"],"kind":"singles","sources":["s-7e3c6a6bbbc1a74a"]}
+{"id":"e-7c6290ff49df4340","name":"ΠΑΝΕΛΛΗΝΙΟ","season":"2013-2014","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-1523c2cd2745b81f","name":"ΒΕΤ ΓΥΝ","season":"2013-2014","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-abe4cf6ad4c24a7d","name":"ΑΝΕ 65+","season":"2013-2014","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-13836a82d98c2714","name":"ΜΗ ΕΝΕ 18-39","season":"2013-2014","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-7e3c6a6bbbc1a74a","s-24f093e8e403a274"]}
+{"id":"e-ee95460106b13eb6","name":"PLAY OFFS","season":"2013-2014","region":"south","regions":["south"],"kind":"singles","sources":["s-24f093e8e403a274"]}
+{"id":"e-31cead448b7a50d3","name":"ΤΑΤΑΥΛΑ ΟΡΕΝ 2014","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-0689d0cd73e10bae"]}
+{"id":"e-aaa5b44af4d14574","name":"ΚΥΠΕΛΛΟ","season":"2014-2015","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-e4a92e2038386fd5","s-e6fdd5a96855a7e4","s-ee3426ce1963414b","s-1509655a764a13de","s-079921671c665b7c","s-e8524a24081ddf4b","s-b91327187fafcb82","s-2a409ff9e3a9adf2","s-3daf4778c4e2456e"]}
+{"id":"e-07a3f4662976397d","name":"ΠΡΩΤΑΘΛΗΜΑ","season":"2014-2015","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-e4a92e2038386fd5","s-e6fdd5a96855a7e4","s-ee3426ce1963414b","s-1509655a764a13de","s-079921671c665b7c","s-e8524a24081ddf4b","s-b91327187fafcb82","s-13cb7ee75cb34548","s-2a409ff9e3a9adf2","s-0f1291fc6a7f1b2a","s-5c1880ad9783ae7c","s-58e02d61b6d20166","s-08dea4e7b4d8f7f8","s-f501a4e09cc29365","s-61c61c4a7549e321"]}
+{"id":"e-96e37bac5c024399","name":"Β΄ ΚΕΝΤ. ΜΑΚΕΔ.","season":"2014-2015","region":"north","regions":["north"],"kind":"singles","sources":["s-ee3426ce1963414b","s-1509655a764a13de"]}
+{"id":"e-d99277ba74ed0bed","name":"Α΄ ΚΕΝΤ. ΜΑΚΕΔ.","season":"2014-2015","region":"north","regions":["north"],"kind":"singles","sources":["s-ee3426ce1963414b","s-1509655a764a13de"]}
+{"id":"e-b36e3d9c2d0e8a69","name":"Ο","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-079921671c665b7c"]}
+{"id":"e-127c89e799338815","name":"Β' ΚΕΝΤ. ΜΑΚΕΔ.","season":"2014-2015","region":"north","regions":["north"],"kind":"singles","sources":["s-e8524a24081ddf4b"]}
+{"id":"e-e3a86aad16027029","name":"Α' ΚΕΝΤ. ΜΑΚΕΔ.","season":"2014-2015","region":"north","regions":["north"],"kind":"singles","sources":["s-e8524a24081ddf4b"]}
+{"id":"e-31315c9823264045","name":"Β' ΚΕΝΤ. ΜΑΚΕΔ.","season":"2013-2014","region":"north","regions":["north"],"kind":"singles","sources":["s-e8524a24081ddf4b"]}
+{"id":"e-4359a3931e3b451c","name":"Β' ΑΤΤΙΚΗΣ","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-b91327187fafcb82","s-2a409ff9e3a9adf2","s-5c1880ad9783ae7c","s-08dea4e7b4d8f7f8","s-61c61c4a7549e321"]}
+{"id":"e-42b66a5e13e95db3","name":"Δ' ΑΤΤΙΚΗΣ","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-b91327187fafcb82","s-2a409ff9e3a9adf2","s-5c1880ad9783ae7c","s-08dea4e7b4d8f7f8","s-61c61c4a7549e321"]}
+{"id":"e-b3ad8652dd386cc3","name":"Γ΄ΑΤΤΙΚΗΣ","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-b91327187fafcb82","s-08dea4e7b4d8f7f8","s-61c61c4a7549e321"]}
+{"id":"e-f7fd1777628fe716","name":"Α' ΑΤΤΙΚΗΣ","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-b91327187fafcb82","s-2a409ff9e3a9adf2","s-5c1880ad9783ae7c","s-08dea4e7b4d8f7f8","s-61c61c4a7549e321"]}
+{"id":"e-27628f628054aac8","name":"Γ' ΑΤΤΙΚΗΣ","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-b91327187fafcb82","s-2a409ff9e3a9adf2","s-5c1880ad9783ae7c","s-08dea4e7b4d8f7f8"]}
+{"id":"e-def6326314c9addc","name":"OPEN ΑΚΕ ΖΩΓΡΑΦΟΥ 2014","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-b91327187fafcb82"]}
+{"id":"e-51e5dabd32087952","name":"Β' ΚΕΝΤ. ΜΑΚΕΔΟΝΙΑΣ","season":"2014-2015","region":"north","regions":["north"],"kind":"singles","sources":["s-13cb7ee75cb34548","s-0f1291fc6a7f1b2a","s-58e02d61b6d20166"]}
+{"id":"e-555ca9b6a2116e04","name":"Α΄ΚΕΝΤ. ΜΑΚΕΔΟΝΙΑΣ","season":"2014-2015","region":"north","regions":["north"],"kind":"singles","sources":["s-13cb7ee75cb34548","s-0f1291fc6a7f1b2a"]}
+{"id":"e-fb1cbcf036f0c683","name":"Δ' ΑΤΙΚΗΣ","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-2a409ff9e3a9adf2"]}
+{"id":"e-98b2b62ec60505e3","name":"Δ΄ ΑΤΤΙΚΗΣ","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-2a409ff9e3a9adf2"]}
+{"id":"e-d0c35f11ac72521b","name":"OPEN Α.Σ. ΑΛΦΑ","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-2a409ff9e3a9adf2"]}
+{"id":"e-17bcfd5119940e5d","name":"Α' ΑΤΤΙΚΗΣ","season":"2013-2014","region":"south","regions":["south"],"kind":"singles","sources":["s-2a409ff9e3a9adf2"]}
+{"id":"e-ec4c5dd06a82837d","name":"ΠΑΝΑΤΤΙΚΟ 2015","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-5c1880ad9783ae7c","s-08dea4e7b4d8f7f8"]}
+{"id":"e-0266171e9c4858fd","name":"Α' ΚΕΝΤ. ΜΑΚΕΔΟΝΙΑΣ","season":"2014-2015","region":"north","regions":["north"],"kind":"singles","sources":["s-58e02d61b6d20166"]}
+{"id":"e-ad8d0686e2d1deb9","name":"ΑΤΟΜΙΚΑ Κ-ΜΑΚ","season":"2014-2015","region":"north","regions":["north"],"kind":"singles","sources":["s-58e02d61b6d20166"]}
+{"id":"e-fc99440cc2c6922f","name":"\"","season":"2014-2015","region":"north","regions":["north"],"kind":"singles","sources":["s-58e02d61b6d20166"]}
+{"id":"e-e3513ad678166b5f","name":"OPEN ΑΟ ΑΡΗ 2006","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-61c61c4a7549e321"]}
+{"id":"e-626c9c9c312d1572","name":"Α-ΜΑΚ & ΘΡΑΚΗ","season":"2014-2015","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-858f7c93a634b778","s-de1c04093fa8327c"]}
+{"id":"e-462cf2ca15bb32b9","name":"ΠΕΛΟΠΟΝΝΗΣΟΣ","season":"2014-2015","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-858f7c93a634b778","s-de1c04093fa8327c"]}
+{"id":"e-f44f8c9e1cc46933","name":"Γ΄ ΑΤΤΙΚΗΣ","season":"2014-2015","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-858f7c93a634b778","s-de1c04093fa8327c"]}
+{"id":"e-2fc48d1d5c865490","name":"ΔΥΤΙΚΗ ΕΛΛΑΔΑ","season":"2014-2015","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-858f7c93a634b778","s-de1c04093fa8327c"]}
+{"id":"e-162ca57ab448c268","name":"ΚΕΝΤ. ΜΑΚΕΔΟΝΙΑ","season":"2014-2015","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-858f7c93a634b778","s-de1c04093fa8327c"]}
+{"id":"e-a35975b3158d80ed","name":"ΠΑΝΕΛΛΗΝΙΟ","season":"2014-2015","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-858f7c93a634b778","s-de1c04093fa8327c"]}
+{"id":"e-e3f072ae1ad44ea7","name":"PLAYOFFS","season":"2014-2015","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-858f7c93a634b778","s-de1c04093fa8327c"]}
+{"id":"e-e870fd86e7bc91b8","name":"ΤΑΤΑΥΛΑ ΟΡΕΝ 2015","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-baa473177ea33361"]}
+{"id":"e-c2390e6ddc16dcbb","name":"ΚΥΠΕΛΛΟ ΚΜΑΚ","season":"2015-2016","region":"north","regions":["north"],"kind":"singles","sources":["s-811b41a73aca9856"]}
+{"id":"e-36486f50e7b30ee2","name":"OPEN ΠΡΕΒΕΖΑΣ","season":"2015-2016","region":"north","regions":["north"],"kind":"singles","sources":["s-811b41a73aca9856"]}
+{"id":"e-b3c53603159f6b8c","name":"ΔΥΤΙΚΗ ΕΛΛΑΔΑ","season":"2015-2016","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-811b41a73aca9856","s-3daf4778c4e2456e","s-21516a9b5e8694bc","s-1cf1dce42a769901","s-5273c8fb285f6cf6","s-81442e4a477498e9","s-607a91a2ebc7aea1","s-340a6ef11b78a023"]}
+{"id":"e-3888b870535977d3","name":"ΚΡΗΤΗ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-3daf4778c4e2456e","s-21516a9b5e8694bc","s-1cf1dce42a769901","s-5273c8fb285f6cf6","s-81442e4a477498e9","s-a6b336abf5f453e9","s-67a0e5279bde2f45","s-607a91a2ebc7aea1"]}
+{"id":"e-fff2f8360849884a","name":"ΚΥΠΕΛΛΟ","season":"2015-2016","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-3daf4778c4e2456e","s-4fc1b20fec8e8aee","s-21516a9b5e8694bc","s-81de182f159be419","s-1cf1dce42a769901","s-5273c8fb285f6cf6","s-a6b336abf5f453e9"]}
+{"id":"e-52c4d7d8e8f81e70","name":"ΠΕΛΟΠΟΝΝΗΣΟΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-3daf4778c4e2456e","s-21516a9b5e8694bc","s-1cf1dce42a769901","s-5273c8fb285f6cf6","s-81442e4a477498e9","s-a6b336abf5f453e9","s-67a0e5279bde2f45","s-607a91a2ebc7aea1"]}
+{"id":"e-75d1e4f233adce81","name":"ΠΡΩΤΑΘΛΗΜΑ","season":"2015-2016","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-3daf4778c4e2456e","s-4fc1b20fec8e8aee","s-81de182f159be419","s-7dcc7c4767840010","s-c5ea8afbfc4511e5","s-61f4e45e808e6f5f","s-9f24d5dbbb97fcb8","s-856fcc651ec2c187"]}
+{"id":"e-249644459e1b7df1","name":"Α' ΚΑΤΗΓΟΡΙΑ","season":"2015-2016","region":"north","regions":["north"],"kind":"singles","sources":["s-4fc1b20fec8e8aee","s-81de182f159be419","s-7dcc7c4767840010","s-c5ea8afbfc4511e5","s-61f4e45e808e6f5f","s-9f24d5dbbb97fcb8"]}
+{"id":"e-a574975b7e952102","name":"Β' ΚΑΤΗΓΟΡΙΑ","season":"2015-2016","region":"north","regions":["north"],"kind":"singles","sources":["s-4fc1b20fec8e8aee","s-81de182f159be419","s-7dcc7c4767840010","s-c5ea8afbfc4511e5","s-61f4e45e808e6f5f","s-9f24d5dbbb97fcb8","s-856fcc651ec2c187"]}
+{"id":"e-142162226e29e280","name":"Δ' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-21516a9b5e8694bc","s-87f291f948865dc4"]}
+{"id":"e-6af4f25047729ed3","name":"Γ' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-21516a9b5e8694bc"]}
+{"id":"e-1008107000ebec9c","name":"Β' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-21516a9b5e8694bc","s-1cf1dce42a769901","s-5273c8fb285f6cf6","s-81442e4a477498e9","s-a6b336abf5f453e9","s-67a0e5279bde2f45","s-607a91a2ebc7aea1"]}
+{"id":"e-5c7e82b943140ad5","name":"Α' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-21516a9b5e8694bc","s-1cf1dce42a769901","s-5273c8fb285f6cf6","s-81442e4a477498e9","s-a6b336abf5f453e9","s-67a0e5279bde2f45"]}
+{"id":"e-17a887549ee7769b","name":"Β' ΚΑΤΗΓΟΡΙΑ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-81de182f159be419","s-4f496218bfcd2e9c","s-866964789ba03d34","s-d3a30ab5544273ac","s-e987810fff2cb282","s-2a461c7e8b8c215f","s-a466ee2e79d0010c","s-6b4d6f95bf6b7e2a"]}
+{"id":"e-39c7132e02e9c60f","name":"Α' ΚΑΤΗΓΟΡΙΑ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-81de182f159be419","s-866964789ba03d34","s-d3a30ab5544273ac","s-e987810fff2cb282","s-2a461c7e8b8c215f","s-a466ee2e79d0010c","s-6b4d6f95bf6b7e2a"]}
+{"id":"e-ff1ce117035450b2","name":"Γ1' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-1cf1dce42a769901","s-5273c8fb285f6cf6","s-81442e4a477498e9","s-a6b336abf5f453e9","s-67a0e5279bde2f45","s-607a91a2ebc7aea1"]}
+{"id":"e-bf3577b4db988cca","name":"Γ2' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-1cf1dce42a769901","s-5273c8fb285f6cf6","s-81442e4a477498e9","s-a6b336abf5f453e9","s-67a0e5279bde2f45","s-607a91a2ebc7aea1"]}
+{"id":"e-fff12410f4882b84","name":"Δ1' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-1cf1dce42a769901","s-5273c8fb285f6cf6","s-81442e4a477498e9","s-a6b336abf5f453e9","s-67a0e5279bde2f45"]}
+{"id":"e-cd66f82ec4edc653","name":"Δ3' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-1cf1dce42a769901","s-5273c8fb285f6cf6","s-81442e4a477498e9","s-a6b336abf5f453e9","s-67a0e5279bde2f45","s-607a91a2ebc7aea1"]}
+{"id":"e-695cfbcfa5c2e815","name":"B' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-1cf1dce42a769901"]}
+{"id":"e-d5e52e2448920c7f","name":"Δ2' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-1cf1dce42a769901","s-5273c8fb285f6cf6","s-81442e4a477498e9","s-a6b336abf5f453e9","s-67a0e5279bde2f45"]}
+{"id":"e-eab19158a41c3c3e","name":"OPEN ΕΛΛΗΝΙΚΟΥ 2015","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-1cf1dce42a769901"]}
+{"id":"e-b0700af7f16c1cb5","name":"Δ3' ΑΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-1cf1dce42a769901"]}
+{"id":"e-f003d3bfccbee80e","name":"OPEN ΑΛΦΑ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-5273c8fb285f6cf6"]}
+{"id":"e-324ac2e830d0f8d4","name":"Γ2' ΑΤΤΙΚΗΣ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-5273c8fb285f6cf6"]}
+{"id":"e-1f9c0e1bd12efb85","name":"ΑΤΟΜΙΚΑ Κ-ΜΑΚ","season":"2015-2016","region":"north","regions":["north"],"kind":"singles","sources":["s-c5ea8afbfc4511e5","s-61f4e45e808e6f5f"]}
+{"id":"e-61460abbb6613da8","name":"Δ3' ΑΤΤΙΚΗΣ","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-81442e4a477498e9"]}
+{"id":"e-d6f6d16beb108d37","name":"ΠΑΝΑΤΤΙΚΟ 2016","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-81442e4a477498e9"]}
+{"id":"e-e3095097abe594d3","name":"Δ2' ΑΤΤΙΚΗΣ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-81442e4a477498e9"]}
+{"id":"e-002077d74d175af3","name":"α/α","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-81442e4a477498e9"]}
+{"id":"e-ff0400cbf4d439af","name":"ΔΥΤ. ΕΛΛΑΔΑ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-a6b336abf5f453e9","s-67a0e5279bde2f45"]}
+{"id":"e-f4ed048ddc0b2ad1","name":"Β΄ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-a6b336abf5f453e9"]}
+{"id":"e-f2c9694ffe081771","name":"A' ΚΑΤΗΓΟΡΙΑ","season":"2015-2016","region":"north","regions":["north"],"kind":"singles","sources":["s-9f24d5dbbb97fcb8"]}
+{"id":"e-1349dc218b0a23e6","name":"ΑΞ. ΦΙΛΟΝΙΚΗ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-67a0e5279bde2f45"]}
+{"id":"e-4db824fbac4d91d3","name":"1ο ΒΟΡΕΙΟΥ ΕΛΛΑΔΑΣ","season":"2015-2016","region":"north","regions":["north"],"kind":"singles","sources":["s-856fcc651ec2c187"]}
+{"id":"e-4f53e7208698c8d0","name":"Κ.ΜΑΚΕΔΟΝΙΑΣ","season":"2015-2016","region":"north","regions":["north"],"kind":"singles","sources":["s-856fcc651ec2c187"]}
+{"id":"e-65f91a014a160c81","name":"ΜΠΑΡΑΖ","season":"2015-2016","region":"north","regions":["north"],"kind":"singles","sources":["s-856fcc651ec2c187"]}
+{"id":"e-6eeb0f0e95b08910","name":"ΚΥΠΕΛΛΟ ΔΥΤ ΕΛΛΑΔΑ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-607a91a2ebc7aea1"]}
+{"id":"e-1192b3e2c81c1ade","name":"PLAYOFFS Γ' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-607a91a2ebc7aea1"]}
+{"id":"e-75d6d6a4c1a1e3bb","name":"PLAYOFFS Δ' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-607a91a2ebc7aea1"]}
+{"id":"e-5b414955b381856d","name":"PLAYOFFS Β' ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-607a91a2ebc7aea1"]}
+{"id":"e-b0da8e4a7c5d4eb6","name":"ΑΤΟΜΙΚΟ ΔΥΤ. ΕΛΛΑΔΑ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-607a91a2ebc7aea1"]}
+{"id":"e-31bf0769db0f697b","name":"ΠΑΝΕΛΛΗΝΙΟ","season":"2015-2016","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-1770203dd737764c","s-b841d347ecbcdb2e"]}
+{"id":"e-1b37820e9744087e","name":"ΚΥΠΕΛΛΟ","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-c1351651019c4b29","s-858c111d280836bc","s-4f496218bfcd2e9c","s-6a0f26af2f5130f4","s-866964789ba03d34","s-6a275c94138a1ca7","s-d3a30ab5544273ac","s-7498fdbf6c2a6100","s-340a6ef11b78a023","s-9c1a66b4adab34ff","s-87f291f948865dc4","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-63ec85c79c677b5a","name":"Κ. ΜΑΚΕΔΟΝΙΑΣ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-c1351651019c4b29","s-4f496218bfcd2e9c","s-866964789ba03d34","s-d3a30ab5544273ac","s-e987810fff2cb282","s-2a461c7e8b8c215f","s-a466ee2e79d0010c","s-6b4d6f95bf6b7e2a"]}
+{"id":"e-e518e246756d8c86","name":"ΤΑΤΑΥΛΑ OPEN","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-858c111d280836bc"]}
+{"id":"e-8b1a4ab470105902","name":"ΚΡΗΤΗ","season":"2016-2017","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-858c111d280836bc","s-6a0f26af2f5130f4","s-6a275c94138a1ca7","s-7498fdbf6c2a6100","s-5b40463073633e09","s-340a6ef11b78a023","s-9c1a66b4adab34ff","s-87f291f948865dc4","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-08c34944eaed2e1b","name":"ΠΡΩΤΑΘΛΗΜΑ","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-4f496218bfcd2e9c","s-866964789ba03d34","s-d3a30ab5544273ac","s-e987810fff2cb282","s-5b40463073633e09","s-2a461c7e8b8c215f","s-a466ee2e79d0010c","s-6b4d6f95bf6b7e2a","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-8f0ab482be2512e8","name":"ΔΥΤ. ΜΑΚΕΔΟΝΙΑΣ-","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-4f496218bfcd2e9c"]}
+{"id":"e-27551db03735fd5a","name":"ΗΠΕΙΡΟΥ-ΙΟΝΙΩΝ ΝΗΣΩΝ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-4f496218bfcd2e9c"]}
+{"id":"e-ecdef0d1b43ffe23","name":"Γ' ΑΤΤΙΚΗΣ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-6a0f26af2f5130f4","s-6a275c94138a1ca7","s-7498fdbf6c2a6100","s-5b40463073633e09","s-340a6ef11b78a023","s-9c1a66b4adab34ff","s-87f291f948865dc4","s-5c18a2d03394d6aa"]}
+{"id":"e-a03b6622f22d5220","name":"Δ' ΑΤΤΙΚΗΣ","season":"2016-2017","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-6a0f26af2f5130f4","s-6a275c94138a1ca7","s-7498fdbf6c2a6100","s-5b40463073633e09","s-340a6ef11b78a023","s-9c1a66b4adab34ff","s-87f291f948865dc4","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa","s-001528efed700148"]}
+{"id":"e-af669d6917925c7c","name":"Α' ΑΤΤΙΚΗΣ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-6a0f26af2f5130f4","s-6a275c94138a1ca7","s-7498fdbf6c2a6100","s-5b40463073633e09","s-340a6ef11b78a023","s-9c1a66b4adab34ff","s-87f291f948865dc4"]}
+{"id":"e-169d43b5457dabd9","name":"Β' ΑΤΤΙΚΗΣ","season":"2016-2017","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-6a0f26af2f5130f4","s-6a275c94138a1ca7","s-7498fdbf6c2a6100","s-5b40463073633e09","s-340a6ef11b78a023","s-9c1a66b4adab34ff","s-87f291f948865dc4","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-f5f235e7656c2907","name":"ΚΥΠΕΛΛΟ ΔΥΤ ΕΛΛΑΔΑ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-6a0f26af2f5130f4","s-6a275c94138a1ca7"]}
+{"id":"e-653e061f2fbd3aa4","name":"ΔΥΤ. ΜΑΚ. & ΗΠΕΙΡΟΣ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-866964789ba03d34"]}
+{"id":"e-d66c7ecd282df533","name":"ΑΝΑΤ. ΜΑΚ. & ΘΡΑΚΗ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-866964789ba03d34"]}
+{"id":"e-e2901c4fca3ce338","name":"ΑΝΕ 18-39","season":"2016-2017","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-6a275c94138a1ca7","s-6b4d6f95bf6b7e2a","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa","s-2f48a8e262a7b08f"]}
+{"id":"e-432bf85c784361c1","name":"ΑΝΕ 40-49","season":"2016-2017","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-6a275c94138a1ca7","s-6b4d6f95bf6b7e2a","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa","s-2f48a8e262a7b08f"]}
+{"id":"e-4dc77fe462d7bb49","name":"ΑΝΕ 50-59","season":"2016-2017","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-6a275c94138a1ca7","s-6b4d6f95bf6b7e2a","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa","s-2f48a8e262a7b08f"]}
+{"id":"e-2e017c8abd1288fe","name":"ΑΝΕ 70+","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-6a275c94138a1ca7"]}
+{"id":"e-bf28094d9eda6529","name":"ΒΕΤ 40-49","season":"2016-2017","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-6a275c94138a1ca7","s-6b4d6f95bf6b7e2a","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-9d6fa0958669f634","name":"ΒΕΤ 50+","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-6a275c94138a1ca7"]}
+{"id":"e-de005501b333e302","name":"ΑΝΕ ΓΥΝ","season":"2016-2017","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-6a275c94138a1ca7","s-6b4d6f95bf6b7e2a","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-7463842d5e723128","name":"ΔΥΤΙΚΗ ΕΛΛΑΔΑ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-6a275c94138a1ca7","s-7498fdbf6c2a6100","s-5b40463073633e09","s-340a6ef11b78a023","s-9c1a66b4adab34ff","s-87f291f948865dc4"]}
+{"id":"e-97bc9d135e5a926e","name":"ΤΕΛΙΚΟΣ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-d3a30ab5544273ac"]}
+{"id":"e-39f726bb3b50960e","name":"ΚΥΠΕΛΛΟ","season":"2017-2018","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-d3a30ab5544273ac","s-cfc75e80afe3d44c","s-2f48a8e262a7b08f","s-a881165d3424bf31","s-3a3cbadb083c46cc","s-f8cc0db354d8daa7","s-febe671f0024a611","s-1c708845c7a656ba","s-b13afd8c386e6109","s-3c0c31451e0f485b"]}
+{"id":"e-c517cfb6a71c8236","name":"Κ. ΜΑΚΕΔΟΝΙΑΣ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-d3a30ab5544273ac"]}
+{"id":"e-2680dbb422d450ac","name":"ΗΜΙΤΕΛΙΚΟΣ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-d3a30ab5544273ac"]}
+{"id":"e-3e2e668716c4e161","name":"ΠΡΩΤΑΘΛΗΜΑ","season":"2017-2018","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-d3a30ab5544273ac","s-a881165d3424bf31","s-f8cc0db354d8daa7","s-febe671f0024a611","s-1c708845c7a656ba","s-c7c4b8d12d524193","s-1f64dd8ff15c383d","s-3c0c31451e0f485b","s-ec091355f5dcf027","s-5aabfeca91d782f6"]}
+{"id":"e-064d713a77b51337","name":"Β' ΚΑΤΗΓΟΡΙΑ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-d3a30ab5544273ac","s-f8cc0db354d8daa7","s-1c708845c7a656ba","s-c7c4b8d12d524193","s-1f64dd8ff15c383d","s-3c0c31451e0f485b"]}
+{"id":"e-f0606510d8b0b26b","name":"Α' ΑΤΤΙΚΗΣ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-7498fdbf6c2a6100","s-3a3cbadb083c46cc","s-febe671f0024a611","s-fc17716b46ef5c9e","s-b13afd8c386e6109","s-001528efed700148","s-678af102da4d2950","s-c437c70c786320d6"]}
+{"id":"e-ef97237b81d0e668","name":"Γ' ΑΤΤΙΚΗΣ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-7498fdbf6c2a6100","s-3a3cbadb083c46cc","s-febe671f0024a611","s-fc17716b46ef5c9e","s-b13afd8c386e6109","s-001528efed700148","s-678af102da4d2950","s-c437c70c786320d6","s-6824dd124c0e3e68","s-3bb8e0366d252706"]}
+{"id":"e-d22c3723e4c2d93a","name":"Δ'ΑΤΤΙΚΗΣ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-5b40463073633e09","s-9c1a66b4adab34ff"]}
+{"id":"e-d43cd22954f3f950","name":"Δ΄ΑΤΤΙΚΗΣ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-5b40463073633e09","s-340a6ef11b78a023"]}
+{"id":"e-c46f7ef5831194c4","name":"Γ΄ΑΤΤΙΚΗΣ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-5b40463073633e09","s-340a6ef11b78a023"]}
+{"id":"e-db373867bac32574","name":"ΤΟΥΡΝΟΥΑ ΑΛΦΑ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-5b40463073633e09"]}
+{"id":"e-6ee74662c1fc302e","name":"ΠΕΛΟΠΟΝΝΗΣΟΣ","season":"2016-2017","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-340a6ef11b78a023","s-9c1a66b4adab34ff","s-87f291f948865dc4","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-58c3551e57aaf8c6","name":"ΠΑΝΑΤΤΙΚΟ 2017","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-340a6ef11b78a023"]}
+{"id":"e-3a5b228937ddf3b1","name":"ΑΝ. ΜΑΚ. - ΘΡΑΚΗΣ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-a466ee2e79d0010c"]}
+{"id":"e-7aeb993735d6735c","name":"ΠΡΟΚΡΙΜΑΤΙΚΑ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-a466ee2e79d0010c"]}
+{"id":"e-0a6b26e2c9ac18e4","name":"Κ.ΜΑΚΕΔΟΝΙΑΣ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-a466ee2e79d0010c"]}
+{"id":"e-0e6a18ce2c90025f","name":"ΑΤΟΜΙΚΑ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-a466ee2e79d0010c"]}
+{"id":"e-0b189884130f7969","name":"ΑΝΑΤ. ΜΑΚΕΔΟΝΙΑΣ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-6b4d6f95bf6b7e2a"]}
+{"id":"e-36be6af64ff54731","name":"& ΘΡΑΚΗΣ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-6b4d6f95bf6b7e2a"]}
+{"id":"e-d41cdda7731f6732","name":"ΔΥΤ. ΜΑΚΕΔΟΝΙΑΣ-ΗΠΕΙΡΟΥ-","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-6b4d6f95bf6b7e2a"]}
+{"id":"e-f844709cd9f074e9","name":"ΙΟΝΙΩΝ ΝΗΣΩΝ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-6b4d6f95bf6b7e2a"]}
+{"id":"e-e5e672ae619cbc7c","name":"ΚΟΝΙΤΣΑ","season":"2016-2017","region":"north","regions":["north"],"kind":"singles","sources":["s-6b4d6f95bf6b7e2a"]}
+{"id":"e-0f1e4faecdbe7fc9","name":"ΑΝΕ 60+","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-6b4d6f95bf6b7e2a","s-2f48a8e262a7b08f"]}
+{"id":"e-80442f8f53ebc4b8","name":"ΒΕΤ 50-59","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-6b4d6f95bf6b7e2a","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-af94a468ae694418","name":"ΒΕΤ 60+","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-6b4d6f95bf6b7e2a","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-ddd93d1cbc3aedfa","name":"PLAY OFF","season":"2016-2017","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-87f291f948865dc4","s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-55fc8683aa2bd099","name":"ΑΤΟΜΙΚΟ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-87f291f948865dc4"]}
+{"id":"e-a0416e26e7d8c4bd","name":"ΔΥΤ. ΕΛΛΑΔΑΣ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-87f291f948865dc4"]}
+{"id":"e-9b7afcdabf029932","name":"PLAYOFFS","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-8250193d2a1843df","name":"ΠΑΝΕΛΛΗΝΙΟ","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-d533de705cd48c79","name":"ΟΜΙΛΟΙ","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-74073350e5a14b02","name":"ΝΟΚ ΑΟΥΤ","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-0a71c71a2926bbf0","name":"ΑΝΕ 60-64","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-60787cd4393f38d0","name":"ΑΝΕ 65+","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-b8ca95d7e4619c43","name":"ΒΕΤ ΓΥΝ","season":"2016-2017","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-9eace0e5eb173fbd","s-5c18a2d03394d6aa"]}
+{"id":"e-fc73a87a026823c7","name":"Κ.ΜΑΚΕΔΟΝΙΑΣ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-cfc75e80afe3d44c"]}
+{"id":"e-8aee7f403f0e5254","name":"ΒΕΤΕΡΑΝΟΙ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-2f48a8e262a7b08f"]}
+{"id":"e-02832b7aee13a88b","name":"ΔΥΤ. ΜΑΚΕΔΟΝΙΑΣ-","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-a881165d3424bf31","s-f8cc0db354d8daa7","s-1c708845c7a656ba","s-1f64dd8ff15c383d","s-3c0c31451e0f485b","s-ec091355f5dcf027","s-5aabfeca91d782f6"]}
+{"id":"e-e2a7768accf0d976","name":"ΗΠΕΙΡΟΥ-ΙΟΝΙΩΝ ΝΗΣΩΝ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-a881165d3424bf31","s-f8cc0db354d8daa7","s-1c708845c7a656ba","s-1f64dd8ff15c383d","s-3c0c31451e0f485b","s-ec091355f5dcf027","s-5aabfeca91d782f6"]}
+{"id":"e-b7ed0a958de8ffe8","name":"ΚΕΝΤΡ.ΜΑΚΕΔΟΝΙΑΣ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-a881165d3424bf31","s-f8cc0db354d8daa7","s-1c708845c7a656ba"]}
+{"id":"e-6d90c1f62d0150bd","name":"ΠΕΛΟΠΟΝΝΗΣΟΣ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-3a3cbadb083c46cc","s-fc17716b46ef5c9e","s-b13afd8c386e6109","s-001528efed700148","s-678af102da4d2950","s-6824dd124c0e3e68"]}
+{"id":"e-282837d55853a140","name":"Β' ΑΤΤΙΚΗΣ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-3a3cbadb083c46cc","s-febe671f0024a611","s-fc17716b46ef5c9e","s-b13afd8c386e6109","s-001528efed700148","s-678af102da4d2950","s-c437c70c786320d6","s-6824dd124c0e3e68"]}
+{"id":"e-ec865066c5641865","name":"ΔΥΤΙΚΗ ΕΛΛΑΔΑ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-3a3cbadb083c46cc","s-febe671f0024a611","s-fc17716b46ef5c9e","s-b13afd8c386e6109","s-001528efed700148","s-678af102da4d2950","s-6824dd124c0e3e68"]}
+{"id":"e-f1d75f66ab848e8e","name":"Δ' ΑΤΤΙΚΗΣ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-3a3cbadb083c46cc","s-febe671f0024a611","s-fc17716b46ef5c9e","s-b13afd8c386e6109","s-001528efed700148","s-678af102da4d2950","s-c437c70c786320d6"]}
+{"id":"e-b9c83932eacd86a5","name":"ΤΑΤΑΥΛΑ OPEN","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-3a3cbadb083c46cc"]}
+{"id":"e-a7c70b96e069614c","name":"Α' ΟΜΙΛΟΣ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-f8cc0db354d8daa7"]}
+{"id":"e-7060726ac2fae3af","name":"Α' ΚΑΤΗΓΟΡΙΑ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-f8cc0db354d8daa7","s-1c708845c7a656ba","s-c7c4b8d12d524193","s-1f64dd8ff15c383d","s-3c0c31451e0f485b","s-ec091355f5dcf027"]}
+{"id":"e-14de8ee68074b24a","name":"Β' ΟΜΙΛΟΣ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-f8cc0db354d8daa7"]}
+{"id":"e-01300b380a8d41c1","name":"ΠΕΛΟΠΟΝΝΗΣΟΥ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-febe671f0024a611"]}
+{"id":"e-ea8797e826197f5a","name":"B' ΑΤΤΙΚΗΣ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-fc17716b46ef5c9e"]}
+{"id":"e-1877a42ecbad2336","name":"ΚΡΗΤΗ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-fc17716b46ef5c9e","s-b13afd8c386e6109","s-001528efed700148","s-678af102da4d2950","s-6fb773351393ff78"]}
+{"id":"e-339cbe1e20a60207","name":"ΝΟΚ ΑΟΥΤ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-fc17716b46ef5c9e"]}
+{"id":"e-78a4b8be2b84fd8d","name":"ΚΑΤΑΤΑΞΗ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-fc17716b46ef5c9e"]}
+{"id":"e-38a152f3f4c9e406","name":"ΒΕΤ. 50+","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-fc17716b46ef5c9e"]}
+{"id":"e-85d26f983bf1f04a","name":"ΓΥΝ ΑΝΕ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-fc17716b46ef5c9e"]}
+{"id":"e-35b8a724285ec594","name":"ΑΝΕ 18-39","season":"2017-2018","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-fc17716b46ef5c9e","s-1f64dd8ff15c383d"]}
+{"id":"e-698db82dd1086039","name":"ΑΝΕ 40-49","season":"2017-2018","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-fc17716b46ef5c9e","s-1f64dd8ff15c383d"]}
+{"id":"e-a9fe1d8530a45f4d","name":"ΑΝΕ 50-59","season":"2017-2018","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-fc17716b46ef5c9e","s-1f64dd8ff15c383d"]}
+{"id":"e-e74333042d5ecd7f","name":"ΑΝΕ 60+","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-fc17716b46ef5c9e"]}
+{"id":"e-8fa1e9e2578f2171","name":"B' KΑΤΗΓΟΡΙΑ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-c7c4b8d12d524193"]}
+{"id":"e-1ef8182df9d0dcac","name":"ΑΝΑΤ. ΜΑΚΕΔ.&ΘΡΑΚΗΣ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-c7c4b8d12d524193"]}
+{"id":"e-8993f14257fa2d44","name":"ΑΤΟΜΙΚΑ ΚΜΑΚ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-1f64dd8ff15c383d"]}
+{"id":"e-c16bf17245db4549","name":"ΑΝΕ 60-64","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-1f64dd8ff15c383d"]}
+{"id":"e-ba5a3fddf39cf6b6","name":"ΑΝΕ 65+","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-1f64dd8ff15c383d"]}
+{"id":"e-f447bcf2a2ef924d","name":"ΑΝΕ ΓΥΝ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-1f64dd8ff15c383d"]}
+{"id":"e-e846295ec93ab8ce","name":"ΒΕΤ 40-49","season":"2017-2018","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-1f64dd8ff15c383d","s-06780c46ab7d7299"]}
+{"id":"e-64988850cb7ff811","name":"ΒΕΤ 50-59","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-1f64dd8ff15c383d"]}
+{"id":"e-a151df1699381714","name":"ΒΕΤ 60+","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-1f64dd8ff15c383d"]}
+{"id":"e-4fb4bdb6f447ddfe","name":"ΑΝΑΤ.ΜΑΚΕΔ.&ΘΡΑΚΗΣ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-1f64dd8ff15c383d"]}
+{"id":"e-f06ff6851d15944f","name":"ΠΑΝΑΤΤΙΚΟ 2018","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-001528efed700148"]}
+{"id":"e-1b39a018ddadf628","name":"ΑΝΑΤ. ΜΑΚΕΔΟΝΙΑΣ & ΘΡΑΚΗΣ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-3c0c31451e0f485b","s-ec091355f5dcf027"]}
+{"id":"e-8059dd901e394d1a","name":"3o ΒΟΡΕΙΑΣ ΕΛΛΑΔΑΣ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-3c0c31451e0f485b"]}
+{"id":"e-a32e0d81047bcc52","name":"ΚΡΗΤΗ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-678af102da4d2950"]}
+{"id":"e-fb93c27b804f4759","name":"1ο VENUS SPINTHAROS","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-678af102da4d2950"]}
+{"id":"e-6fd12126155b21c6","name":"ΤΕΛΙΚΟΣ Β΄ΚΑΤΗΓΟΡΙΑΣ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-ec091355f5dcf027"]}
+{"id":"e-b8d58024d83d00b8","name":"ΑΝ. ΜΑΚΕΔ.& ΘΡΑΚΗ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-5c5d34e4942023b4"]}
+{"id":"e-e793b11d059230c0","name":"ΜΠΑΡΑΖ 2017-2018","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-5c5d34e4942023b4"]}
+{"id":"e-2d0367e68286e1cf","name":"Β' ΑΤΤΙΚΗΣ/PLAYOFFS","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-6824dd124c0e3e68"]}
+{"id":"e-01a19218efdfe7b8","name":"Γ' ΑΤΤΙΚΗΣ/PLAYOFFS","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-6824dd124c0e3e68"]}
+{"id":"e-bd4a7a116ef383e2","name":"Δ' ΑΤΤΙΚΗΣ/PLAYOFFS","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-6824dd124c0e3e68"]}
+{"id":"e-f01d4f833a0501c6","name":"ΠΑΝΕΛΛΗΝΙΟ","season":"2017-2018","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-5aabfeca91d782f6","s-6fb773351393ff78"]}
+{"id":"e-5ed73ad06c262f78","name":"1o KYΠΕΛΛΟ ΑΝΕΞ.ΟΜΑΔΩΝ","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-5aabfeca91d782f6"]}
+{"id":"e-ab6b7d72be0d273a","name":"2017-2018","season":"2017-2018","region":"north","regions":["north"],"kind":"singles","sources":["s-5aabfeca91d782f6"]}
+{"id":"e-545df99fc763d61d","name":"PLAY OFFS","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-6fb773351393ff78"]}
+{"id":"e-8b302daa07278a13","name":"4ο ΚΥΠ. ΑΝΕΞΑΡΤΗΤΩΝ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-6fb773351393ff78"]}
+{"id":"e-c52b99ff5dbe14f7","name":"ΚΑΛΑΜΑΤΑ OPEN","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
+{"id":"e-878f5988bcfdbfae","name":"ANE 18-39","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
+{"id":"e-47fa4e48cb2fce36","name":"ANE 40-49","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
+{"id":"e-3cdbc50a2eba4cc1","name":"ANE 50-59","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
+{"id":"e-b30de4c11ce1e00d","name":"ANE 60+","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
+{"id":"e-73d0609833c82c37","name":"α/α","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
+{"id":"e-497596204c830860","name":"ΒΕΤ 50+","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
+{"id":"e-c44f009204e5bb38","name":"ΚΥΠΕΛΛΟ","season":"2018-2019","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-d2b821317ec21ad1","s-2b1dd800d8d9a877","s-d7e25e1a9ffc514b","s-5aec01e4599cee35","s-3bb8e0366d252706","s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-c7d89350b3dc4c01","s-99e209fecfa33d1c","s-c52534cb3f853dda","s-5c527b1d950e32c0","s-263630291b165b71","s-3a6c5d8c6d68d25e"]}
+{"id":"e-507a33f3dda886a1","name":"Α2 ΑΤΤΙΚΗΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-d2b821317ec21ad1","s-d7e25e1a9ffc514b","s-3bb8e0366d252706","s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-99e209fecfa33d1c","s-5c527b1d950e32c0","s-3a6c5d8c6d68d25e","s-36a71bb568037654"]}
+{"id":"e-c4681b3ac4c8cb42","name":"ΤΑΤΑΥΛΑ Open 2018","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-d2b821317ec21ad1"]}
+{"id":"e-ffc8e4dd267f9d0e","name":"ΠΡΩΤΑΘΛΗΜΑ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-2b1dd800d8d9a877","s-5aec01e4599cee35","s-74e2c81d85fc2728","s-b15597c31492f6ff","s-c7d89350b3dc4c01","s-c52534cb3f853dda","s-263630291b165b71","s-b1d551b5584038c4"]}
+{"id":"e-e6d1ef0e4802d6aa","name":"Β' ΚΑΤΗΓΟΡΙΑ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-2b1dd800d8d9a877","s-74e2c81d85fc2728"]}
+{"id":"e-de3c72e46a804ec4","name":"Α' ΚΑΤΗΓΟΡΙΑ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-2b1dd800d8d9a877","s-5aec01e4599cee35","s-74e2c81d85fc2728","s-b15597c31492f6ff","s-c7d89350b3dc4c01","s-c52534cb3f853dda","s-263630291b165b71","s-b1d551b5584038c4"]}
+{"id":"e-dcde218657ee3860","name":"Γ' ΚΑΤΗΓΟΡΙΑ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-2b1dd800d8d9a877","s-5aec01e4599cee35","s-74e2c81d85fc2728","s-b15597c31492f6ff","s-c7d89350b3dc4c01","s-c52534cb3f853dda","s-263630291b165b71"]}
+{"id":"e-0f3e7281e08ec238","name":"Δ' ΑΤΤΙΚΗΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-d7e25e1a9ffc514b","s-3bb8e0366d252706","s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-99e209fecfa33d1c","s-5c527b1d950e32c0","s-3a6c5d8c6d68d25e","s-36a71bb568037654"]}
+{"id":"e-0d0002ae18a3d2b6","name":"Α' ΚΡΗΤΗΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-d7e25e1a9ffc514b","s-3bb8e0366d252706","s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-99e209fecfa33d1c","s-5c527b1d950e32c0","s-3a6c5d8c6d68d25e","s-36a71bb568037654"]}
+{"id":"e-3e86fe49a24c3b96","name":"ΠΕΛΟΠΟΝΝΗΣΟΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-d7e25e1a9ffc514b","s-3bb8e0366d252706","s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-99e209fecfa33d1c","s-5c527b1d950e32c0","s-3a6c5d8c6d68d25e","s-36a71bb568037654"]}
+{"id":"e-1f63bdd0e4008318","name":"Γ' ΑΤΤΙΚΗΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-d7e25e1a9ffc514b","s-3bb8e0366d252706","s-99e209fecfa33d1c","s-5c527b1d950e32c0"]}
+{"id":"e-be23f549221ffcb8","name":"ΔΥΤ. ΕΛΛΑΔΑ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-d7e25e1a9ffc514b","s-3bb8e0366d252706","s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-99e209fecfa33d1c","s-5c527b1d950e32c0","s-36a71bb568037654"]}
+{"id":"e-1bce9ea8aadbadd5","name":"Β' ΑΤΤΙΚΗΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-d7e25e1a9ffc514b","s-3bb8e0366d252706","s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-99e209fecfa33d1c","s-5c527b1d950e32c0","s-3a6c5d8c6d68d25e"]}
+{"id":"e-ed5d479b53fce85f","name":"Β' ΚΡΗΤΗΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-d7e25e1a9ffc514b","s-3bb8e0366d252706","s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-99e209fecfa33d1c","s-5c527b1d950e32c0","s-3a6c5d8c6d68d25e"]}
+{"id":"e-4d2b0ef0506da398","name":"Α' ΚΡΗΤΗΣ","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-d7e25e1a9ffc514b"]}
+{"id":"e-aebd248e72af20d6","name":"Α1 ΑΤΤΙΚΗΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-d7e25e1a9ffc514b","s-3bb8e0366d252706","s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-99e209fecfa33d1c","s-5c527b1d950e32c0","s-3a6c5d8c6d68d25e","s-36a71bb568037654"]}
+{"id":"e-7583318e66d68adf","name":"B' ΚΑΤΗΓΟΡΙΑ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-5aec01e4599cee35","s-74e2c81d85fc2728","s-b15597c31492f6ff","s-c7d89350b3dc4c01","s-c52534cb3f853dda","s-263630291b165b71","s-b1d551b5584038c4"]}
+{"id":"e-12f770f7e5fbd54f","name":"ΚΥΠΕΛΟ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-5aec01e4599cee35"]}
+{"id":"e-df1e2d2be65272af","name":"ΔΥΤ. ΜΑΚΕΔΟΝΙΑΣ-","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-5aec01e4599cee35","s-74e2c81d85fc2728","s-c7d89350b3dc4c01","s-c52534cb3f853dda","s-263630291b165b71","s-b1d551b5584038c4"]}
+{"id":"e-b83c4990b6f439f0","name":"ΗΠΕΙΡΟΥ-ΙΟΝΙΩΝ ΝΗΣΩΝ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-5aec01e4599cee35","s-74e2c81d85fc2728","s-c7d89350b3dc4c01","s-c52534cb3f853dda","s-263630291b165b71","s-b1d551b5584038c4"]}
+{"id":"e-5b1572d6ada10d41","name":"ΑΝΑΤ. ΜΑΚΕΔΟΝΙΑΣ-ΘΡΑΚΗΣ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-5aec01e4599cee35"]}
+{"id":"e-ba2d92e35495b512","name":"2ο ΑΣ ΠΕΡΑ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-3bb8e0366d252706"]}
+{"id":"e-8a989e6c4c9319e5","name":"ΑΝ. ΜΑΚ-ΘΡΑΚΗΣ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-74e2c81d85fc2728"]}
+{"id":"e-c1c300c6708f0dd2","name":"Γ'ΑΤΤΙΚΗΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-3a6c5d8c6d68d25e","s-36a71bb568037654"]}
+{"id":"e-a81fa2438d71701e","name":"Α' ΚΡΗΤΗΣ","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-9242bc0927f6df4b"]}
+{"id":"e-adb19cc97274d84b","name":"ΑΞΙΟΛΟΓΗΜΕΝΟ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-e3d1c17221d1d304"]}
+{"id":"e-0c35664ad7523f9b","name":"ΑΟ ΖΗΝΩΝ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-e3d1c17221d1d304"]}
+{"id":"e-01f8892d3a1982f3","name":"Δ' ΑΤΤΙΚΗΣ Δ΄ΟΜΙΛΟΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-e3d1c17221d1d304","s-99e209fecfa33d1c"]}
+{"id":"e-662f412e20bcea4a","name":"ΠΡΩΤΑΘΛΗΜΑ ΑΝΑΤ. ΜΑΚΕΔ & ΘΡΑΚΗΣ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-c7d89350b3dc4c01"]}
+{"id":"e-189c32f30ac7591f","name":"ΠΡΩΤΑΘΛΗΜΑ ΑΝΑΤ. ΜΑΚΕΔ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-c7d89350b3dc4c01"]}
+{"id":"e-007056859bebf6db","name":"& ΘΡΑΚΗΣ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-c7d89350b3dc4c01"]}
+{"id":"e-c2e413fc384f0c96","name":"15ο ΑΤΟΜΙΚΟ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-99e209fecfa33d1c"]}
+{"id":"e-49eebf19d2ca15d9","name":"ΑΝΕΞΑΡΤΗΤΩΝ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-99e209fecfa33d1c"]}
+{"id":"e-d66291617ed76b0b","name":"ΑΤΤΙΚΗΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-99e209fecfa33d1c"]}
+{"id":"e-ae64c3f637ff3a29","name":"ΔΥΤ.ΜΑΚΕΔΟΝΙΑΣ-","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-c52534cb3f853dda"]}
+{"id":"e-030cdfedf73c262e","name":"ΑΝ. ΜΑΚΕΔΟΝΙΑΣ & ΘΡΑΚΗΣ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-c52534cb3f853dda"]}
+{"id":"e-fbf1394ca3b44ef9","name":"ΟPΕΝ ΧΑΝΙΩΝ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-5c527b1d950e32c0"]}
+{"id":"e-d52f1f9413e16396","name":"ΟΠΕΝ ΗΡΑΚΛΕΙΟ 2019","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-5c527b1d950e32c0"]}
+{"id":"e-30498aae856699e5","name":"ΑΝΑΤΟΛ. ΜΑΚ.&ΘΡΑΚΗΣ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-263630291b165b71"]}
+{"id":"e-d680dfa33eb150c0","name":"Α ΚΑΤΗΓΟΡΙΑ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-263630291b165b71"]}
+{"id":"e-1d370d07cc2779cb","name":"ΑΤΟΜΙΚΑ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-263630291b165b71"]}
+{"id":"e-e4981ff4d3a52a6d","name":"ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-263630291b165b71"]}
+{"id":"e-71790893eb01a04d","name":"ΟΠΕΝ ΡΕΘΥΜΝΟΥ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-3a6c5d8c6d68d25e"]}
+{"id":"e-826c438ef314bf3e","name":"ΑΝΑΤ.ΜΑΚΕΔΟΝΙΑΣ & ΘΡΑΚΗΣ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-b1d551b5584038c4"]}
+{"id":"e-1cff97fbbf6c919d","name":"4ο OPEN Β. ΕΛΛΑΔΑΣ","season":"2018-2019","region":"north","regions":["north"],"kind":"singles","sources":["s-b1d551b5584038c4"]}
+{"id":"e-998f1b3625760e41","name":"PLAY OFFS","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-36a71bb568037654"]}
+{"id":"e-ab75467fa7776acd","name":"PLAYOFFS","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-36a71bb568037654"]}
+{"id":"e-ed69518d3865f326","name":"PLAY OFF Κ-ΜΑΚ","season":"2018-2019","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-49a178624f360ee6","s-0bb89c4a9cb50bca"]}
+{"id":"e-b330b25c63e1e04c","name":"ΚΥΠΕΛΛΟ ΑΝΕΞΑΡΤΗΤΩΝ","season":"2018-2019","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-49a178624f360ee6","s-0bb89c4a9cb50bca"]}
+{"id":"e-7f11fbf3c1b8a5ef","name":"ΜΠΑΡΑΖ ΚΡΗΤΗΣ","season":"2018-2019","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-49a178624f360ee6","s-0bb89c4a9cb50bca"]}
+{"id":"e-e3c6bfb4c7be6dc3","name":"ΤΑΤΑΥΛΑ PING PONG OPEN 2019","season":"2019-2020","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-1ebc50b3fabea337","s-4eb8d231304b27dc"]}
+{"id":"e-0f940bc01190ecd5","name":"ΚΥΠΕΛΛΟ ΠΟΦΕΠΑ 2019-2020","season":"2019-2020","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-1ebc50b3fabea337","s-4eb8d231304b27dc","s-ee0fca0f199fde8a","s-784d513558504b5d","s-a675efbdfbf501e3","s-eaac40e605e23df0","s-6a0a583381a10f9f","s-d9b502dce8522374","s-0a56bebeb9a639d5","s-1f8780ec8033941e"]}
+{"id":"e-b84b6f193b67a022","name":"ΠΡΩΤΑΘΛΗΜΑ ΠΟΦΕΠΑ 2019-2020","season":"2019-2020","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-ee0fca0f199fde8a","s-784d513558504b5d","s-a675efbdfbf501e3","s-eaac40e605e23df0","s-cd535e0c05fa93f1","s-6a0a583381a10f9f","s-d9b502dce8522374","s-0a56bebeb9a639d5","s-378420f59f4c149e","s-1f8780ec8033941e","s-6539aadfcc12f0bf","s-1676384c609b98e3"]}
+{"id":"e-14abfaa02a28b98e","name":"3ο Ατομικό Πρωτάθλημα Ανεξάρτητων Δ' και Ε' κατηγορίας","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-eaac40e605e23df0"]}
+{"id":"e-d19a0b84a1e79f6f","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2020 - 11-12/1/2020","season":"2019-2020","region":"north","regions":["north"],"kind":"singles","sources":["s-d9b502dce8522374"]}
+{"id":"e-3c5f53fceb688340","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2020","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-7f36dabd35b66720","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2021","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-9d1f8492fa2805f8","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2022","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-be90102345406594","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2023","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-5d790e8fe03fb9ed","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2024","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-03d430557c9940df","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2025","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-76ddcb442ce8cbfa","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2026","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-b30517c0722def49","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2027","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-f4d33d943cf3acb5","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2028","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-4007c82ef025a1f3","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2029","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-2e6d96e744ec0eec","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2030","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-98ba2a68389c0a6f","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2031","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-9a7942b0ad63be41","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2032","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-988d279960bf76a2","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2033","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-d8111d356788c743","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2034","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-760f07ed8b9051bb","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2035","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-dc1f9b489e749ea8","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2036","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-70247b1896d55884","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2037","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-f9fe78b3dd0f5ed7","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2038","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-6ad0860c73cc6b84","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2039","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-aeeaea763a911bf9","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2040","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-c2dfb78fca0a0f98","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2041","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-dc7c5eed8e6651b5","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2042","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-a7c06cedf88589cf","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2043","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-54d4a2831b5b2e11","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2044","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-10f29e106edf5a42","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2045","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-3110b0554791de3f","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2046","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-fcf602eb9085f69a","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2047","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-501bf1ea0dce3cad","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2048","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-f8fa033efeeaa3d3","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2049","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-5f6a1a683fda2ecf","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2050","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-040dcffc5018caae","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2051","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-4917fe07a698ea97","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2052","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-15d8645f7df1cadb","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2053","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-8c513f1f3c0d2b58","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2054","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-7fa42484b7293f04","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2055","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-83f0bc229f1ea518","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2056","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-861a879fbbbcdcb2","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2057","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-6469c8560abe6f77","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2058","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-e60728844b79fce9","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2059","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-ed011714e04f3a47","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2060","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-0054cce08fdb68a8","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2061","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-4559fafa1f59f30f","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2062","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-316f7944524f0d1c","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2063","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-d1079bbbb779acb6","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2064","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-fe440b794ef7a44b","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2065","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-b52e98b38c84b550","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2066","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-b29ed03824965302","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2067","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-d677a62739b8b2af","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2068","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-c5afc640ed61dacb","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2069","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-8e70f30a301655dc","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2070","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-ca12372fa0e1042e","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2071","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-111399ef471f5852","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2072","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-b7f34fd2537f6a5b","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2073","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-afbeadb6c783c103","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2074","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-fd735432d7bb61fb","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2075","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-ed0d9f0bed170a51","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2076","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-bd4734588c540f99","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2077","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-af667bfda2bc49f2","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2078","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-2ff410c29f4dd9c6","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2079","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-c247093a4a8bfca1","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2080","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-8c90d648dd28f370","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2081","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-2a7b1307c3b72951","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2082","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-0df9a052c9e10e42","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2083","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-17c0070654a4f2a8","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2084","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-e4f6a916c246a4a6","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2085","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-f39c8bf9dd4831d3","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2086","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-bdd66d74e2cf1e82","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2087","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-078c7eb0295db2d1","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2088","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-5072d3de23b10e9c","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2089","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-0b3a27c1b2ed19dc","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2090","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-3353ea774b8ad2a1","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2091","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-c9e61691110f5ecf","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2092","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-bc5489414b2457c5","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2093","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-b2652a871345368b","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2094","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-df97708c643b1e9d","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2095","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-975dd4e4345943e8","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2096","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-ed3d4da1fecdbb05","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2097","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-a28267c4c55abe50","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2098","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-691782dbeb641079","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2099","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-017a1a65f14d998e","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2100","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-b0424847ab1e9923","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2101","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-9d30b8b518b964d6","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2102","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-40a15d991cc717be","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2103","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-8b78eb24ddf2a027","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2104","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-84c234f2bc3ef215","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2105","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-4ea468558e0713cd","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2106","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-95e2c16bd1b9e58b","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2107","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-6265ccc8ed08f39b","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2108","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-efc0dbb1b574f6a6","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2109","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-204062adce43de80","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2110","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-24c50734a051aa7b","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2111","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-5335197076c51865","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2112","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-af0ca7e83db18c3d","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2113","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-dc9c4d4e47d02346","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2114","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-7eb039756b283e1f","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2115","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-6ca339516a4525a1","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2116","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-8e0091c0bd01bc89","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2117","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-83bc7d4453c92bf1","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2118","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-33fa06e505b54d2a","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2119","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-3ea8e8db5ae8e128","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2120","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-1dacf7c64e8a37f7","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2121","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-0d76a99a3687d569","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2122","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-1592da31fb5d5a44","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2123","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-90c13c1ad3010124","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2124","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-3f221ce272fd9ec5","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2125","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-78022bde384cf06f","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2126","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-ad02519be99366a3","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2127","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-29bf7ee3c45ce5af","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2128","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-1c0cc1e07d19b76d","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2129","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-7c9e818ec5d10fef","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2130","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-feecc1ffdff1094e","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2131","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-6cd825cfd7f202b3","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2132","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-4740abb83a6b5612","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2133","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-16fb8dad78f3caf5","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2134","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-2db0eefce6c720e8","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2135","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-f709f9c7d9afd708","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2136","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-97a80c15a89d8b71","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2137","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-0420f0a3738763bf","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2138","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-7e6c23812add471e","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2139","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-bdff68bc97164a75","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2140","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-893f17f754a95d70","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2141","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-a727a87bd32068a4","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2142","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-f0ec020d840574ad","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2143","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-6811c58d221db334","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2144","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-1ab1adb8a6f1fb83","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2145","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-340963d1224a1e82","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2146","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-167d53337aeb5311","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2147","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-a0dfea70afb5259c","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2148","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-8aa2ad9cd19a0cdb","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2149","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-7cc80a3c6f6f35f6","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2150","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-116db96f112911a8","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2151","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-957c32a2942ad0bf","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2152","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-adb44535e27a991d","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2153","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-dc9bd228498891dc","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2154","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-e08598a8bfec1dfc","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2155","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-012ffa7a38fc5006","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2156","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-036c455fbd688bd4","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2157","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-3e6229ced9c8b087","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2158","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-0118701394f68eed","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2159","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-f194e341f6fc5fb4","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2160","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-79f0c3b9f1aaca29","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2161","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-82e9ac984fbf3376","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2162","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-eef12bbbacd41078","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2163","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-25230bee784eafd5","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2164","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-2a8a4baf533600ef","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2165","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-105391e00a805175","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2166","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-69ea05a3c588ae7d","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2167","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-a2a146bffffa993a","name":"ΠΑΝΙΩΝΙΟΣ PING PONG OPEN 2168","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-0a56bebeb9a639d5"]}
+{"id":"e-18702a110f263a4e","name":"16ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ ΑΤΤΙΚΗΣ - 9/2/2020","season":"2019-2020","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-378420f59f4c149e","s-1f8780ec8033941e"]}
+{"id":"e-838a81b20e964c81","name":"14ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΒΕΤΕΡΑΝΩΝ ΑΤΤΙΚΗΣ - 16/2/2020","season":"2019-2020","region":"south","regions":["south"],"kind":"singles","sources":["s-1f8780ec8033941e"]}
+{"id":"e-aa8293c162393576","name":"ΤΑΤΑΥΛΑ PING PONG OPEN 2020 - 26-27/9/2020","season":"2020-2021","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-93c1446b8e103e61","s-6e713d34a11b0872"]}
+{"id":"e-c79c34828087711e","name":"ΚΥΠΕΛΛΟ ΠΟΦΕΠΑ 2020-2021","season":"2020-2021","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-93c1446b8e103e61","s-6e713d34a11b0872","s-8d6da1fba0826b32","s-352c3d6ec0053f8c"]}
+{"id":"e-ce071bdb5196a2db","name":"ΠΡΩΤΑΘΛΗΜΑ ΠΟΦΕΠΑ 2020-2021","season":"2020-2021","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-8d6da1fba0826b32","s-352c3d6ec0053f8c"]}
+{"id":"e-ed3a42c1542e5722","name":"ΚΥΠΕΛΛΟ ΠΟΦΕΠΑ 2020-2022","season":"2020-2022","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-a29411b62f4d1197","s-fa63cfc025248a40","s-a846e92faa7c38ea","s-a524acc9d64c2d1e","s-aea6f26d45cd8a1e","s-3a6c310ea687ea94","s-2a643d2136221ce5","s-59c78cbf4fdbb356","s-63f1477325975095","s-26ce18296db30a50","s-50c88c48e694bac3","s-e5c9d9461f8f2602","s-0a056b4229b868f0"]}
+{"id":"e-c889c3fe25a7c7d0","name":"ΠΡΩΤΑΘΛΗΜΑ ΠΟΦΕΠΑ 2020-2022","season":"2020-2022","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-a29411b62f4d1197","s-fa63cfc025248a40","s-a846e92faa7c38ea","s-a524acc9d64c2d1e","s-0164795b7a054b56","s-aea6f26d45cd8a1e","s-2ed80be9d0847605","s-4ec7ff7176d3ec36","s-7b01e4adca695ec5","s-747308bf30d50e8a","s-3a6c310ea687ea94","s-2a643d2136221ce5","s-59c78cbf4fdbb356","s-63f1477325975095","s-26ce18296db30a50","s-50c88c48e694bac3","s-e5c9d9461f8f2602","s-0a056b4229b868f0","s-faaa56826d91541e"]}
+{"id":"e-bee28a3a929e3e99","name":"ΤΑΤΑΥΛΑ PING PONG OPEN 2021 - 03-10/2021","season":"2021-2022","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-a846e92faa7c38ea","s-a524acc9d64c2d1e"]}
+{"id":"e-c55243022d30fa7f","name":"17ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ ΑΤΤΙΚΗΣ 22-23/1/2022","season":"2021-2022","region":"south","regions":["south"],"kind":"singles","sources":["s-747308bf30d50e8a"]}
+{"id":"e-d469f581656a8b2d","name":"15ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ BETΕΡΑΝΩΝ ΑΤΤΙΚΗΣ 19-20/2/2022","season":"2021-2022","region":"south","regions":["south"],"kind":"singles","sources":["s-2a643d2136221ce5"]}
+{"id":"e-5981062b274d6b86","name":"9ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 13/3/2022","season":"2021-2022","region":"north","regions":["north"],"kind":"singles","sources":["s-59c78cbf4fdbb356"]}
+{"id":"e-14508c994d6e1087","name":"VOULA TABLE TENNIS OPEN 2022","season":"2021-2022","region":"south","regions":["south"],"kind":"singles","sources":["s-63f1477325975095"]}
+{"id":"e-859e4f63faa5c924","name":"ΤΟΥΡΝΟΥΑ ΤΑΥΡΟΥ 17/4/2022","season":"2021-2022","region":"south","regions":["south"],"kind":"singles","sources":["s-50c88c48e694bac3"]}
+{"id":"e-6d8b6bd15b7581af","name":"9ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΒΕΤΕΡΑΝΩΝ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 8/5/2022","season":"2021-2022","region":"north","regions":["north"],"kind":"singles","sources":["s-e5c9d9461f8f2602"]}
+{"id":"e-4ac6765aa479400e","name":"11ο ΠΑΝΕΛΛΗΝΙΟ ΠΡΩΤΑΘΛΗΜΑ - 28/29 ΜΑΙΟΥ 2022 ΛΟΥΤΡΑΚΙ","season":"2021-2022","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-e5c9d9461f8f2602","s-0a056b4229b868f0"]}
+{"id":"e-1bf259acbaf93bdc","name":"ΚΥΠΕΛΛΟ ΟΜΑΔΩΝ ΑΝΕΞΑΡΤΗΤΩΝ 2021-2022","season":"2021-2022","region":"south","regions":["south"],"kind":"singles","sources":["s-739b5231fcd346c9"]}
+{"id":"e-ab388c171521e9bd","name":"ΤΑΤΑΥΛΑ PING PONG OPEN 2022 - 24-25/9/2022","season":"2022-2023","region":"south","regions":["south"],"kind":"singles","sources":["s-4148a76586f3e4bb"]}
+{"id":"e-5a9b8ad58da2ab7d","name":"ΚΥΠΕΛΛΟ ΠΟΦΕΠΑ 2022-2023","season":"2022-2023","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-4148a76586f3e4bb","s-d3f22305c93f4391","s-8acf67dbd4b488b8","s-eb939e930b9f6dcc","s-871d8de59214fc20","s-faaa56826d91541e","s-e0cf8fa2138a78a1","s-12e274b583c085b4","s-e2fdb65373986097","s-62fd7013d7540b3f","s-f3c0f08829f2d690","s-6827dc87b48d0c1d","s-e4ac7cdd76e2b192","s-ddde30014b1bd51c","s-35fed91f5b7588d1","s-4b8471531e4e1898"]}
+{"id":"e-e67a8eea9b9f0a3b","name":"ΠΡΩΤΑΘΛΗΜΑ ΠΟΦΕΠΑ 2022-2023","season":"2022-2023","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-d3f22305c93f4391","s-8acf67dbd4b488b8","s-eb939e930b9f6dcc","s-871d8de59214fc20","s-7a0efa68ec9e7930","s-faaa56826d91541e","s-e0cf8fa2138a78a1","s-12e274b583c085b4","s-e2fdb65373986097","s-62fd7013d7540b3f","s-f3c0f08829f2d690","s-6827dc87b48d0c1d","s-e4ac7cdd76e2b192","s-ddde30014b1bd51c","s-35fed91f5b7588d1","s-4b8471531e4e1898","s-7c62be7719cd5c24"]}
+{"id":"e-f29bcb5c1ea34135","name":"ΤΟΥΡΝΟΥΑ ΑΡΗ ΒΟΥΛΑΣ","season":"2022-2023","region":"south","regions":["south"],"kind":"singles","sources":["s-faaa56826d91541e"]}
+{"id":"e-807cb5498abdc448","name":"16ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΒΕΤΕΡΑΝΩΝ ΑΤΤΙΚΗΣ & ΝΟΤΙΑΣ ΕΛΛΑΔΑΣ 18-19/3/2023","season":"2022-2023","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-f3c0f08829f2d690","s-6827dc87b48d0c1d"]}
+{"id":"e-54edb0ae786e6889","name":"18ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ ΑΤΤΙΚΗΣ & ΝΟΤΙΑΣ ΕΛΛΑΔΑΣ 18-19/3/2023","season":"2022-2023","region":"south","regions":["south"],"kind":"singles","sources":["s-6827dc87b48d0c1d"]}
+{"id":"e-0d62b9471dafac27","name":"10ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ ΚΑΙ ΒΕΤΕΡΑΝΩΝ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 23/4/2023","season":"2022-2023","region":"north","regions":["north"],"kind":"singles","sources":["s-e4ac7cdd76e2b192"]}
+{"id":"e-1327e9cf054a8793","name":"5ο ΑΝΟΙΧΤΟ ΤΟΥΡΝΟΥΑ ΒΟΡΕΙΟΥ ΕΛΛΑΔΑΣ","season":"2022-2023","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-e4ac7cdd76e2b192","s-ddde30014b1bd51c"]}
+{"id":"e-b2f0cfe396dbd89c","name":"ΠΡΟΚΡΙΜΑΤΙΚΑ ΠΑΝΕΛΛΗΝΙΟΥ (ΑΤΤΙΚΗ) 23/4/2023","season":"2022-2023","region":"south","regions":["south"],"kind":"singles","sources":["s-ddde30014b1bd51c"]}
+{"id":"e-f7c3cc22a0bf93cb","name":"12ο ΠΑΝΕΛΛΗΝΙΟ ΠΡΩΤΑΘΛΗΜΑ - 27/28 ΜΑΙΟΥ 2023 ΣΕΦ","season":"2022-2023","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-35fed91f5b7588d1","s-4b8471531e4e1898"]}
+{"id":"e-5ecc7f19336b6c42","name":"4ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ ΑΘΛΗΤΩΝ ΚΑΙ ΑΘΛΗΤΡΙΩΝ Δ’ και Ε’ κατηγορίας","season":"2022-2023","region":"south","regions":["south"],"kind":"singles","sources":["s-4b8471531e4e1898"]}
+{"id":"e-df174f2e5fdc2e77","name":"ΤΑΤΑΥΛΑ PING PONG OPEN 2023 - 30/9-1/10","season":"2023-2024","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-352a1410243f411b","s-37da6f78cb8389fa"]}
+{"id":"e-26520adefcfb4841","name":"ΠΡΩΤΑΘΛΗΜΑ ΠΟΦΕΠΑ 2023-2024","season":"2023-2024","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-37da6f78cb8389fa","s-d651862334fe232e","s-ee4e0a8b01862c3a","s-1c456bc5e3f1a7c1","s-439a424a6918be51","s-51bae87c7e2c7572","s-3e5386a7586296b4","s-245cd56038630be1","s-26752b5b2982d218","s-6f56b0690b93ed6b","s-7c3dc51437e53091","s-6300bc23d2d77de0","s-49c9905d295a75b2","s-011aa63a7578fd9f","s-6719b88bf7334e0d","s-75f2e5311a692617","s-c9fcd9de9ab7c65f"]}
+{"id":"e-a4214854bba2b3ec","name":"ΚΥΠΕΛΛΟ ΠΟΦΕΠΑ 2023-2024","season":"2023-2024","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-37da6f78cb8389fa","s-d651862334fe232e","s-ee4e0a8b01862c3a","s-1c456bc5e3f1a7c1","s-439a424a6918be51","s-51bae87c7e2c7572","s-3e5386a7586296b4","s-26752b5b2982d218","s-7c3dc51437e53091","s-6300bc23d2d77de0","s-49c9905d295a75b2","s-011aa63a7578fd9f","s-6719b88bf7334e0d","s-75f2e5311a692617","s-c9fcd9de9ab7c65f"]}
+{"id":"e-4f6a7ff865a86ca7","name":"ΚΥΠΕΛΛΟ ΟΜΑΔΩΝ ΑΝΕΞΑΡΤΗΤΩΝ 2023-2024","season":"2023-2024","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-1c456bc5e3f1a7c1","s-439a424a6918be51","s-51bae87c7e2c7572","s-3e5386a7586296b4","s-245cd56038630be1","s-26752b5b2982d218","s-6f56b0690b93ed6b","s-7c3dc51437e53091","s-49c9905d295a75b2","s-011aa63a7578fd9f","s-6719b88bf7334e0d"]}
+{"id":"e-d443600fb4ee25d9","name":"6ο ΑΝΟΙΧΤΟ ΤΟΥΡΝΟΥΑ ΒΟΡΕΙΟΥ ΕΛΛΑΔΑΣ 20-21/4/2024","season":"2023-2024","region":"north","regions":["north"],"kind":"singles","sources":["s-011aa63a7578fd9f"]}
+{"id":"e-e5f7c4984e41ee6e","name":"11ου ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ & ΒΕΤΕΡΑΝΩΝ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2023-2024","season":"2023-2024","region":"north","regions":["north"],"kind":"singles","sources":["s-011aa63a7578fd9f"]}
+{"id":"e-1ca92bd0e5580f1b","name":"19ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ ΑΤΤΙΚΗΣ & ΝΟΤΙΑΣ ΕΛΛΑΔΑΣ 6-7/4/2024","season":"2023-2024","region":"south","regions":["south"],"kind":"singles","sources":["s-6719b88bf7334e0d"]}
+{"id":"e-07f86323f1c2afe3","name":"17ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΒΕΤΕΡΑΝΩΝ ΑΤΤΙΚΗΣ & ΝΟΤΙΑΣ ΕΛΛΑΔΑΣ 6-7/4/2024","season":"2023-2024","region":"south","regions":["south"],"kind":"singles","sources":["s-6719b88bf7334e0d"]}
+{"id":"e-a3e69c1fc904c7b3","name":"ΠΡΟΚΡΙΜΑΤΙΚΑ ΠΑΝΕΛΛΗΝΙΟΥ (ΑΤΤΙΚΗ) 28/4/2024","season":"2023-2024","region":"south","regions":["south"],"kind":"singles","sources":["s-6719b88bf7334e0d"]}
+{"id":"e-513a7423c0bea31d","name":"13ο ΠΑΝΕΛΛΗΝΙΟ ΠΡΩΤΑΘΛΗΜΑ - 31 ΜΑΙΟΥ - 2 ΙΟΥΝΙΟΥ 2024 ΤΡΙΚΑΛΑ","season":"2023-2024","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-75f2e5311a692617","s-c9fcd9de9ab7c65f"]}
+{"id":"e-6e25313789635f9f","name":"5ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ ΑΘΛΗΤΩΝ ΚΑΙ ΑΘΛΗΤΡΙΩΝ Δ’ και Ε’ κατηγορίας","season":"2023-2024","region":"south","regions":["south"],"kind":"singles","sources":["s-85b10965f393ee3a"]}
+{"id":"e-d45119b1cb7cc428","name":"ΚΥΠΕΛΛΟ ΠΟΦΕΠΑ 2024-2025","season":"2024-2025","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-5e204742ba9dc6f6","s-13e681248f5e5d9b","s-4d7894207eb1e4a3","s-433990aaa83c9de6","s-cefc9997957d9af4","s-6162675978d483c2","s-543f4533b84d550f","s-72ed68a92ff13347","s-c60403c5b61d387b","s-36eb141d006954b6","s-311284c7f18544b0","s-5ead61b1685061ad","s-14a558ba371d4393","s-6bd797ab6bab69d9","s-245da3b6a1326f7f","s-9b2aea5f0424b166","s-de8a7860bbbfcf7f","s-b99bdcf2f999f903"]}
+{"id":"e-e1cb43066ef6f43e","name":"ΠΡΩΤΑΘΛΗΜΑ ΠΟΦΕΠΑ 2024-2025","season":"2024-2025","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-13e681248f5e5d9b","s-4d7894207eb1e4a3","s-433990aaa83c9de6","s-cefc9997957d9af4","s-6162675978d483c2","s-543f4533b84d550f","s-72ed68a92ff13347","s-c60403c5b61d387b","s-36eb141d006954b6","s-311284c7f18544b0","s-5ead61b1685061ad","s-14a558ba371d4393","s-6bd797ab6bab69d9","s-245da3b6a1326f7f","s-93c486fb1a631ccd","s-9b2aea5f0424b166","s-de8a7860bbbfcf7f"]}
+{"id":"e-3ffd7f40a099454a","name":"ΤΑΤΑΥΛΑ PING PONG OPEN 2024 - 5-6/10/2024","season":"2024-2025","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-4d7894207eb1e4a3","s-433990aaa83c9de6"]}
+{"id":"e-afda5bb1031bc5a3","name":"ΚΥΠΕΛΛΟ ΟΜΑΔΩΝ ΑΝΕΞΑΡΤΗΤΩΝ 2024-2025","season":"2024-2025","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-4d7894207eb1e4a3","s-433990aaa83c9de6","s-cefc9997957d9af4","s-6162675978d483c2","s-543f4533b84d550f","s-72ed68a92ff13347","s-c60403c5b61d387b","s-36eb141d006954b6","s-5ead61b1685061ad","s-14a558ba371d4393","s-6bd797ab6bab69d9","s-245da3b6a1326f7f","s-de8a7860bbbfcf7f"]}
+{"id":"e-a19aff9e29e4dc7c","name":"1ο ΑΞΙΟΛΟΓΗΜΕΝΟ ΤΟΥΡΝΟΥΑ ΔΥΝΑΜΙΚΟΤΗΤΑΣ","season":"2024-2025","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-cefc9997957d9af4","s-6162675978d483c2"]}
+{"id":"e-5991530e555276ae","name":"2ο ΑΞΙΟΛΟΓΗΜΕΝΟ ΤΟΥΡΝΟΥΑ ΔΥΝΑΜΙΚΟΤΗΤΑΣ","season":"2024-2025","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-311284c7f18544b0","s-5ead61b1685061ad"]}
+{"id":"e-86329e1a2070722e","name":"20ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ ΑΤΤΙΚΗΣ & ΝΟΤΙΑΣ ΕΛΛΑΔΑΣ 5-6/4/2025","season":"2024-2025","region":"south","regions":["south"],"kind":"singles","sources":["s-93c486fb1a631ccd"]}
+{"id":"e-b5a91dceb36b59da","name":"18ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΒΕΤΕΡΑΝΩΝ ΑΤΤΙΚΗΣ & ΝΟΤΙΑΣ ΕΛΛΑΔΑΣ 5-6/4/2025","season":"2024-2025","region":"south","regions":["south"],"kind":"singles","sources":["s-93c486fb1a631ccd"]}
+{"id":"e-ccb59b00a5a1b787","name":"12ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ & ΒΕΤΕΡΑΝΩΝ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 4/5/2025","season":"2024-2025","region":"north","regions":["north"],"kind":"singles","sources":["s-9b2aea5f0424b166"]}
+{"id":"e-a2ecacfa2c1e9a2a","name":"7ο ΑΝΟΙΧΤΟ ΤΟΥΡΝΟΥΑ ΒΟΡΕΙΑΣ ΕΛΛΑΔΑΣ 10-11/5/2025","season":"2024-2025","region":"north","regions":["north"],"kind":"singles","sources":["s-9b2aea5f0424b166"]}
+{"id":"e-168f2412a42bebd5","name":"14ο ΠΑΝΕΛΛΗΝΙΟ ΠΡΩΤΑΘΛΗΜΑ - 30 ΜΑΙΟΥ - 1 ΙΟΥΝΙΟΥ 2025 - ΑΘΗΝΑ (ΣΕΦ)","season":"2024-2025","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-9b2aea5f0424b166","s-de8a7860bbbfcf7f"]}
+{"id":"e-dab56137a0fee2e0","name":"3ο ΑΞΙΟΛΟΓΗΜΕΝΟ ΤΟΥΡΝΟΥΑ ΔΥΝΑΜΙΚΟΤΗΤΑΣ 28-29/6/2025","season":"2024-2025","region":"south","regions":["south"],"kind":"singles","sources":["s-b99bdcf2f999f903"]}
+{"id":"e-884f316fb7998a38","name":"ΚΥΠΕΛΛΟ ΠΟΦΕΠΑ 2025-2026","season":"2025-2026","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-6fd469f2add87ad1","s-41f71df78b64cae7","s-a203a754a56e9d99","s-3f351c891a3c512c","s-0328deb862774242","s-7776fc00d9bd1ae1","s-fd556d84a02b23e8","s-6d88f5747f6cafa9","s-b0f4e0d930a51560","s-fe6d3610349bb28d","s-3d45d89dc0fcbb76","s-c0a685f52ee15ffc","s-ef388d41ae1614aa","s-628d0be829302860","s-38dbffd3c2ba59c3","s-99a61e0c2b0a1b4a"]}
+{"id":"e-d0c783b04385c742","name":"ΠΡΩΤΑΘΛΗΜΑ ΠΟΦΕΠΑ 2025-2026","season":"2025-2026","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-6fd469f2add87ad1","s-41f71df78b64cae7","s-a203a754a56e9d99","s-3f351c891a3c512c","s-0328deb862774242","s-7776fc00d9bd1ae1","s-fd556d84a02b23e8","s-6d88f5747f6cafa9","s-b0f4e0d930a51560","s-fe6d3610349bb28d","s-d79c912eaf020d26","s-3d45d89dc0fcbb76","s-c0a685f52ee15ffc","s-ef388d41ae1614aa","s-996f93f97b53b32f","s-628d0be829302860","s-38dbffd3c2ba59c3","s-99a61e0c2b0a1b4a","s-8e605cccae2d4a1e","s-746533ff0668ed6b"]}
+{"id":"e-3f067c69e4b5d208","name":"1ο ΑΞΙΟΛΟΓΗΜΕΝΟ ΤΟΥΡΝΟΥΑ ΔΥΝΑΜΙΚΟΤΗΤΑΣ 2025-26","season":"2025-2026","region":"south","regions":["south"],"kind":"singles","sources":["s-41f71df78b64cae7"]}
+{"id":"e-835b08121fc3e3b8","name":"ΚΥΠΕΛΛΟ ΟΜΑΔΩΝ ΑΝΕΞΑΡΤΗΤΩΝ 2025-2026","season":"2025-2026","region":"multi","regions":["north","south"],"kind":"singles","sources":["s-a203a754a56e9d99","s-3f351c891a3c512c","s-0328deb862774242","s-7776fc00d9bd1ae1","s-fd556d84a02b23e8","s-6d88f5747f6cafa9","s-b0f4e0d930a51560","s-fe6d3610349bb28d","s-d79c912eaf020d26","s-3d45d89dc0fcbb76","s-c0a685f52ee15ffc","s-ef388d41ae1614aa","s-99a61e0c2b0a1b4a"]}
+{"id":"e-4bc6f52b8351e32e","name":"ΤΑΤΑΥΛΑ PING PONG OPEN 2025 - 1-2/11/2025","season":"2025-2026","region":"south","regions":["south"],"kind":"singles","sources":["s-7776fc00d9bd1ae1"]}
+{"id":"e-b7aad8f8cec28890","name":"2ο ΑΞΙΟΛΟΓΗΜΕΝΟ ΤΟΥΡΝΟΥΑ ΔΥΝΑΜΙΚΟΤΗΤΑΣ 2025-26","season":"2025-2026","region":"south","regions":["south"],"kind":"singles","sources":["s-7776fc00d9bd1ae1"]}
 {"id":"e-33f3c41670a10225","name":"3ο ΑΞΙΟΛΟΓΗΜΕΝΟ ΤΟΥΡΝΟΥΑ ΔΥΝΑΜΙΚΟΤΗΤΑΣ 2025-26","season":"2025-2026","region":"south","regions":["south"],"kind":"singles","sources":["s-fe6d3610349bb28d"]}
 {"id":"e-c4defe598879e677","name":"21ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΑΝΕΞΑΡΤΗΤΩΝ ΑΤΤΙΚΗΣ & ΝΟΤΙΑΣ ΕΛΛΑΔΑΣ 14-15/2/2026","season":"2025-2026","region":"south","regions":["south"],"kind":"singles","sources":["s-3d45d89dc0fcbb76"]}
 {"id":"e-67651e3166cbe879","name":"19ο ΑΤΟΜΙΚΟ ΠΡΩΤΑΘΛΗΜΑ ΒΕΤΕΡΑΝΩΝ & 1ο ΑΜΑΞΙΔΙΩΝ ΑΤΤ. & Ν. ΕΛΛΑΔΑΣ 14-15/2/2026","season":"2025-2026","region":"south","regions":["south"],"kind":"singles","sources":["s-3d45d89dc0fcbb76"]}
@@ -24,6 +531,7 @@
 {"id":"e-e7558420a777f6e6","name":"Ε ΚΑΤΗΓΟΡΙΑ (Α' όμιλος) ΑΤΤΙΚΗΣ 2026-2027","season":"2026-2027","kind":"fixtures","sources":["s-e7558420a777f6e6"]}
 {"id":"e-89e6fd09e621e92c","name":"Ε ΚΑΤΗΓΟΡΙΑ (Β' όμιλος) ΑΤΤΙΚΗΣ 2026-2027","season":"2026-2027","kind":"fixtures","sources":["s-89e6fd09e621e92c"]}
 {"id":"e-f84e034bb4877789","name":"ΣΤ ΚΑΤΗΓΟΡΙΑ (Α' όμιλος) ΑΤΤΙΚΗΣ 2026-2027","season":"2026-2027","kind":"fixtures","sources":["s-f84e034bb4877789"]}
+{"id":"e-79d55245e6c9175c","name":"ΣΤ'","season":"2026-2027","kind":"fixtures","sources":["s-79d55245e6c9175c"]}
 {"id":"e-9c2b96eea40d0afa","name":"ΣΤ ΚΑΤΗΓΟΡΙΑ (Β' όμιλος) ΑΤΤΙΚΗΣ 2026-2027","season":"2026-2027","kind":"fixtures","sources":["s-9c2b96eea40d0afa"]}
 {"id":"e-517d2fa8e574a147","name":"Α' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2026-2027","season":"2026-2027","kind":"fixtures","sources":["s-517d2fa8e574a147"]}
 {"id":"e-f242ff25bfd7c6d0","name":"Β' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2026-2027","season":"2026-2027","kind":"fixtures","sources":["s-f242ff25bfd7c6d0"]}
@@ -33,7 +541,373 @@
 {"id":"e-99614e6ab58c56fa","name":"ΚΡΗΤΗ ΑΝΑΤΟΛΙΚΟΣ ΟΜΙΛΟΣ 2026-2027","season":"2026-2027","kind":"fixtures","sources":["s-99614e6ab58c56fa"]}
 {"id":"e-66dcedb84af0e353","name":"ΚΡΗΤΗ ΔΥΤΙΚΟΣ ΟΜΙΛΟΣ 2025-2026","season":"2026-2027","kind":"fixtures","sources":["s-66dcedb84af0e353"]}
 {"id":"e-1066705a56d07b16","name":"ΠΟΦΕΠΑ - ΔΥΤΙΚΗ ΜΑΚΕΔΟΝΙΑ - ΗΠΕΙΡΟΣ - ΙΟΝΙΑ ΝΗΣΙΑ","season":"2026-2027","kind":"fixtures","sources":["s-1066705a56d07b16"]}
+{"id":"e-c374dcab909f7967","name":"ΠΟΦΕΠΑ - ΑΝΑΤΟΛΙΚΗ ΜΑΚΕΔΟΝΙΑ & ΘΡΑΚΗ 2026-2027 - Ανατολι&k","season":"2026-2027","kind":"fixtures","sources":["s-c374dcab909f7967"]}
 {"id":"e-30027e6829ab8239","name":"ΠΟΦΕΠΑ - ΑΝΑΤΟΛΙΚΗ ΜΑΚΕΔΟΝΙΑ & ΘΡΑΚΗ 2025-2026 - Δυτικός","season":"2026-2027","kind":"fixtures","sources":["s-30027e6829ab8239"]}
 {"id":"e-e88bdc6421997d2d","name":"ΠΕΛΟΠΟΝΝΗΣΟΣ 2026-2027","season":"2026-2027","kind":"fixtures","sources":["s-e88bdc6421997d2d"]}
 {"id":"e-741f44a5502e9d6b","name":"ΘΕΣΣΑΛΙΑ 2026-2027","season":"2026-2027","kind":"fixtures","sources":["s-741f44a5502e9d6b"]}
 {"id":"e-213b356c6453aa5b","name":"ΝΗΣΙΑ ΒΟΡΕΙΟΥ ΑΙΓΑΙΟΥ 2026-2027","season":"2026-2027","kind":"fixtures","sources":["s-213b356c6453aa5b"]}
+{"id":"e-9ae5d73e22dc8050","name":"12ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής","season":"2026-2027","kind":"fixtures","sources":["s-9ae5d73e22dc8050"]}
+{"id":"e-f2e1501fe83fdc04","name":"4ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας","season":"2026-2027","kind":"fixtures","sources":["s-f2e1501fe83fdc04"]}
+{"id":"e-96bd6d0c9e74537e","name":"2ο Κύπελλο Ομάδων Ανεξαρτήτων Δυτικής Μακεδονίας-Ηπείρου-Ιονίων Νήσων","season":"2026-2027","kind":"fixtures","sources":["s-96bd6d0c9e74537e"]}
+{"id":"e-f31eef764bb7abea","name":"Α1-Α2","season":"2026-2027","kind":"fixtures","sources":["s-f31eef764bb7abea"]}
+{"id":"e-5e84205e29bcc9f8","name":"Β-Γ","season":"2026-2027","kind":"fixtures","sources":["s-5e84205e29bcc9f8"]}
+{"id":"e-367d8baa7f33b4f5","name":"Δ-Ε-ΣΤ","season":"2026-2027","kind":"fixtures","sources":["s-367d8baa7f33b4f5"]}
+{"id":"e-6d844be585ef6d05","name":"Κεντρική Μακεδονία","season":"2026-2027","kind":"fixtures","sources":["s-6d844be585ef6d05"]}
+{"id":"e-076a3ed10707b3f2","name":"Κρήτη","season":"2026-2027","kind":"fixtures","sources":["s-076a3ed10707b3f2"]}
+{"id":"e-830e618336743fb6","name":"Α1 ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-830e618336743fb6"]}
+{"id":"e-3492e67fa9abc4ea","name":"Α2 ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-3492e67fa9abc4ea"]}
+{"id":"e-add7ca6117846962","name":"Β ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-add7ca6117846962"]}
+{"id":"e-78e8ec015e8103de","name":"Γ ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ - Α' όμιλος 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-78e8ec015e8103de"]}
+{"id":"e-6677fe88b64320a7","name":"Γ ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ - Β' όμιλος 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-6677fe88b64320a7"]}
+{"id":"e-3000d5d4eaf2a238","name":"Δ ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ - Α' όμιλος 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-3000d5d4eaf2a238"]}
+{"id":"e-94366c99f3a41b89","name":"Δ ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ - Β' όμιλος 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-94366c99f3a41b89"]}
+{"id":"e-56222e42e5fb3daf","name":"Ε ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ - Α' όμιλος 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-56222e42e5fb3daf"]}
+{"id":"e-3e1624a3adc4456f","name":"Ε ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ - Β' όμιλος 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-3e1624a3adc4456f"]}
+{"id":"e-10c5c6fb86a334a9","name":"Ε ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ - Γ' όμιλος 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-10c5c6fb86a334a9"]}
+{"id":"e-a3028363205b0d86","name":"Ε ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ - Δ' όμιλος 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-a3028363205b0d86"]}
+{"id":"e-8e4ea14f7df8e32b","name":"Play offs","season":"2025-2026","kind":"fixtures","sources":["s-8e4ea14f7df8e32b"]}
+{"id":"e-121617516af9d9e1","name":"Α' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-121617516af9d9e1"]}
+{"id":"e-2b99e0bcab7cfdb2","name":"Β' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-2b99e0bcab7cfdb2"]}
+{"id":"e-f7544ad7813de276","name":"Γ' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-f7544ad7813de276"]}
+{"id":"e-52cbd8ea8f2d30ff","name":"ΔΥΤΙΚΗ ΕΛΛΑΔΑ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-52cbd8ea8f2d30ff"]}
+{"id":"e-099bc9337886cc0c","name":"ΚΡΗΤΗ ΑΝΑΤΟΛΙΚΟΣ ΟΜΙΛΟΣ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-099bc9337886cc0c"]}
+{"id":"e-6ef99af632000dbd","name":"ΚΡΗΤΗ ΔΥΤΙΚΟΣ ΟΜΙΛΟΣ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-6ef99af632000dbd"]}
+{"id":"e-738699cf0bd23e21","name":"Play off (final four)","season":"2025-2026","kind":"fixtures","sources":["s-738699cf0bd23e21"]}
+{"id":"e-c24cb11252728208","name":"ΠΟΦΕΠΑ - ΔΥΤΙΚΗ ΜΑΚΕΔΟΝΙΑ - ΗΠΕΙΡΟΣ - ΙΟΝΙΑ ΝΗΣΙΑ","season":"2025-2026","kind":"fixtures","sources":["s-c24cb11252728208"]}
+{"id":"e-6635465d5ca26b95","name":"ΠΟΦΕΠΑ - ΑΝΑΤΟΛΙΚΗ ΜΑΚΕΔΟΝΙΑ & ΘΡΑΚΗ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-6635465d5ca26b95"]}
+{"id":"e-c77402d5bab465c2","name":"ΠΟΦΕΠΑ - ΑΝΑΤΟΛΙΚΗ ΜΑΚΕΔΟΝΙΑ & ΘΡΑΚΗ 2025-2026 - Δυτικός","season":"2025-2026","kind":"fixtures","sources":["s-c77402d5bab465c2"]}
+{"id":"e-354948d9534b3f0d","name":"ΠΟΦΕΠΑ - ΑΝΑΤΟΛΙΚΗ ΜΑΚΕΔΟΝΙΑ & ΘΡΑΚΗ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-354948d9534b3f0d"]}
+{"id":"e-1144ee252c70aa90","name":"ΘΕΣΣΑΛΙΑ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-1144ee252c70aa90"]}
+{"id":"e-b85a04cd3dde931b","name":"ΝΗΣΙΑ ΒΟΡΕΙΟΥ ΑΙΓΑΙΟΥ 2025-2026","season":"2025-2026","kind":"fixtures","sources":["s-b85a04cd3dde931b"]}
+{"id":"e-22012c0953117b99","name":"11ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής","season":"2025-2026","kind":"fixtures","sources":["s-22012c0953117b99"]}
+{"id":"e-287b2ee7e397e85a","name":"3ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας","season":"2025-2026","kind":"fixtures","sources":["s-287b2ee7e397e85a"]}
+{"id":"e-6f365de857360db3","name":"1ο Κύπελλο Ομάδων Ανεξαρτήτων Δυτικής Μακεδονίας-Ηπείρου-Ιονίων Νήσων","season":"2025-2026","kind":"fixtures","sources":["s-6f365de857360db3"]}
+{"id":"e-1b4660977e791f20","name":"Α1-Α2","season":"2025-2026","kind":"fixtures","sources":["s-1b4660977e791f20"]}
+{"id":"e-c1403594e1618a7e","name":"Β-Γ","season":"2025-2026","kind":"fixtures","sources":["s-c1403594e1618a7e"]}
+{"id":"e-379e9a81ca5f1856","name":"Δ-Ε","season":"2025-2026","kind":"fixtures","sources":["s-379e9a81ca5f1856"]}
+{"id":"e-872537db429e91ee","name":"Κεντρική Μακεδονία","season":"2025-2026","kind":"fixtures","sources":["s-872537db429e91ee"]}
+{"id":"e-5845cb56098bcf02","name":"Δυτική Ελλάδα","season":"2025-2026","kind":"fixtures","sources":["s-5845cb56098bcf02"]}
+{"id":"e-3384e8b2d8608a1d","name":"Κρήτη","season":"2025-2026","kind":"fixtures","sources":["s-3384e8b2d8608a1d"]}
+{"id":"e-af9651d5376c7c3d","name":"Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά","season":"2025-2026","kind":"fixtures","sources":["s-af9651d5376c7c3d"]}
+{"id":"e-001e5833392bfd40","name":"Ανατολική Μακεδονία & Θράκη","season":"2025-2026","kind":"fixtures","sources":["s-001e5833392bfd40"]}
+{"id":"e-8edb382cac657e21","name":"Θεσσαλία","season":"2025-2026","kind":"fixtures","sources":["s-8edb382cac657e21"]}
+{"id":"e-3f6d2a5a4093d7f4","name":"Νησιά Βόρειου Αιγαίου","season":"2025-2026","kind":"fixtures","sources":["s-3f6d2a5a4093d7f4"]}
+{"id":"e-0716c06c49cc6b14","name":"Α1 ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-0716c06c49cc6b14"]}
+{"id":"e-e407fc59dbbb1fab","name":"Α2 ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-e407fc59dbbb1fab"]}
+{"id":"e-39a904e301e1bb0d","name":"Β' ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-39a904e301e1bb0d"]}
+{"id":"e-38933b9dd4750dbb","name":"Γ' ΚΑΤΗΓΟΡΙΑ - Α' ΟΜΙΛΟΣ ΑΤΤΙΚΗΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-38933b9dd4750dbb"]}
+{"id":"e-0533c9ecd573382f","name":"Γ' ΚΑΤΗΓΟΡΙΑ - Β' ΟΜΙΛΟΣ ΑΤΤΙΚΗΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-0533c9ecd573382f"]}
+{"id":"e-49cb0f667aff9545","name":"ΔΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ Α' ΟΜΙΛΟΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-49cb0f667aff9545"]}
+{"id":"e-f200abff4c915fd0","name":"ΔΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ Β' ΟΜΙΛΟΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-f200abff4c915fd0"]}
+{"id":"e-e7e45c368cca3702","name":"Ε ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ - Α' ΟΜΙΛΟΣ 2024-2025","season":"2024-2025","kind":"fixtures","sources":["s-e7e45c368cca3702"]}
+{"id":"e-484e0a95276faac0","name":"Ε ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ Β' ΟΜΙΛΟΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-484e0a95276faac0"]}
+{"id":"e-5d9746c6a2f1579f","name":"Ε ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ Α' ΟΜΙΛΟΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-5d9746c6a2f1579f"]}
+{"id":"e-9e24fc6e3c3d39e6","name":"Play offs","season":"2024-2025","kind":"fixtures","sources":["s-9e24fc6e3c3d39e6"]}
+{"id":"e-dc0bf0cea6738eef","name":"Α' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2024-2025","season":"2024-2025","kind":"fixtures","sources":["s-dc0bf0cea6738eef"]}
+{"id":"e-45cf66c8fbd4c8fd","name":"Β' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-45cf66c8fbd4c8fd"]}
+{"id":"e-205aa39028e95d16","name":"Γ' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-205aa39028e95d16"]}
+{"id":"e-94f295b215bf4a4d","name":"ΔΥΤΙΚΗ ΕΛΛΑΔΑ 2024-2025","season":"2024-2025","kind":"fixtures","sources":["s-94f295b215bf4a4d"]}
+{"id":"e-6c0a7d9f27103b44","name":"ΚΡΗΤΗ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-6c0a7d9f27103b44"]}
+{"id":"e-59d75452744eaa10","name":"ΠΟΦΕΠΑ - ΔΥΤΙΚΗ ΜΑΚΕΔΟΝΙΑ - ΗΠΕΙΡΟΣ - ΙΟΝΙΑ ΝΗΣΙΑ","season":"2024-2025","kind":"fixtures","sources":["s-59d75452744eaa10"]}
+{"id":"e-b3a9bd766a510fd4","name":"ΠΟΦΕΠΑ - ΑΝΑΤΟΛΙΚΗ ΜΑΚΕΔΟΝΙΑ & ΘΡΑΚΗ 2024-2025","season":"2024-2025","kind":"fixtures","sources":["s-b3a9bd766a510fd4"]}
+{"id":"e-f6c53cf2a55498f3","name":"ΠΟΦΕΠΑ - ΑΝΑΤΟΛΙΚΗ ΜΑΚΕΔΟΝΙΑ & ΘΡΑΚΗ 2024-2025 - Δυτικός","season":"2024-2025","kind":"fixtures","sources":["s-f6c53cf2a55498f3"]}
+{"id":"e-42d31e85455f3766","name":"ΠΟΦΕΠΑ - ΑΝΑΤΟΛΙΚΗ ΜΑΚΕΔΟΝΙΑ & ΘΡΑΚΗ 2024-2025","season":"2024-2025","kind":"fixtures","sources":["s-42d31e85455f3766"]}
+{"id":"e-216295d8307797cc","name":"ΠΕΛΟΠΟΝΝΗΣΟΣ 2023-2024","season":"2024-2025","kind":"fixtures","sources":["s-216295d8307797cc"]}
+{"id":"e-f08b94b6819197d9","name":"ΘΕΣΣΑΛΙΑ 2024-2025","season":"2024-2025","kind":"fixtures","sources":["s-f08b94b6819197d9"]}
+{"id":"e-9b8a88ce85f08346","name":"ΝΗΣΙΑ ΒΟΡΕΙΟΥ ΑΙΓΑΙΟΥ 2024-2025","season":"2024-2025","kind":"fixtures","sources":["s-9b8a88ce85f08346"]}
+{"id":"e-b6a76f8ec9c63a4f","name":"10ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής","season":"2024-2025","kind":"fixtures","sources":["s-b6a76f8ec9c63a4f"]}
+{"id":"e-a54e614a09c32aad","name":"2ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας","season":"2024-2025","kind":"fixtures","sources":["s-a54e614a09c32aad"]}
+{"id":"e-4492badfa1c772ad","name":"Α1-Α2","season":"2024-2025","kind":"fixtures","sources":["s-4492badfa1c772ad"]}
+{"id":"e-7305243f4051816c","name":"Β-Γ","season":"2024-2025","kind":"fixtures","sources":["s-7305243f4051816c"]}
+{"id":"e-a0fb1f7ba5e87af6","name":"Δ-Ε","season":"2024-2025","kind":"fixtures","sources":["s-a0fb1f7ba5e87af6"]}
+{"id":"e-e3aedda175b73e3d","name":"Κεντρική Μακεδονία","season":"2024-2025","kind":"fixtures","sources":["s-e3aedda175b73e3d"]}
+{"id":"e-3454a7be86f46887","name":"Δυτική Ελλάδα","season":"2024-2025","kind":"fixtures","sources":["s-3454a7be86f46887"]}
+{"id":"e-25579974a88e3c08","name":"Κρήτη","season":"2024-2025","kind":"fixtures","sources":["s-25579974a88e3c08"]}
+{"id":"e-11d3a720bbbc4acc","name":"Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά","season":"2024-2025","kind":"fixtures","sources":["s-11d3a720bbbc4acc"]}
+{"id":"e-892a98473e2c6708","name":"Ανατολική Μακεδονία & Θράκη","season":"2024-2025","kind":"fixtures","sources":["s-892a98473e2c6708"]}
+{"id":"e-9893e8fd55375e58","name":"Πελοπόννησος","season":"2024-2025","kind":"fixtures","sources":["s-9893e8fd55375e58"]}
+{"id":"e-74f527609c822145","name":"Νησιά Βόρειου Αιγαίου","season":"2024-2025","kind":"fixtures","sources":["s-74f527609c822145"]}
+{"id":"e-3a4a9578ee1a5071","name":"Α1 ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-3a4a9578ee1a5071"]}
+{"id":"e-5386df049e1ea399","name":"Α2 ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-5386df049e1ea399"]}
+{"id":"e-b4dcb2a25cebe355","name":"Β' ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-b4dcb2a25cebe355"]}
+{"id":"e-6ca1a60e0f1f8796","name":"Γ' ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024 - Α' ΟΜΙΛΟΣ","season":"2023-2024","kind":"fixtures","sources":["s-6ca1a60e0f1f8796"]}
+{"id":"e-122febf7d2ee47bb","name":"Γ ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024 - Β' ΟΜΙΛΟΣ","season":"2023-2024","kind":"fixtures","sources":["s-122febf7d2ee47bb"]}
+{"id":"e-bf2a043ca554579e","name":"Δ' ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024 - Α' ΟΜΙΛΟΣ","season":"2023-2024","kind":"fixtures","sources":["s-bf2a043ca554579e"]}
+{"id":"e-937550a0ebd955a4","name":"Δ' ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024 Β' ΟΜΙΛΟΣ","season":"2023-2024","kind":"fixtures","sources":["s-937550a0ebd955a4"]}
+{"id":"e-02a1547c920e71b9","name":"Ε' ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024 Α' ΟΜΙΛΟΣ","season":"2023-2024","kind":"fixtures","sources":["s-02a1547c920e71b9"]}
+{"id":"e-605575514490e30e","name":"Ε' ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024 Β' ΟΜΙΛΟΣ","season":"2023-2024","kind":"fixtures","sources":["s-605575514490e30e"]}
+{"id":"e-a4d05843d1ca6618","name":"Ε' ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ 2023-2024 Γ' ΟΜΙΛΟΣ","season":"2023-2024","kind":"fixtures","sources":["s-a4d05843d1ca6618"]}
+{"id":"e-5678840cd74f7bb7","name":"Play offs","season":"2023-2024","kind":"fixtures","sources":["s-5678840cd74f7bb7"]}
+{"id":"e-a2e6211af05282bf","name":"Α' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-a2e6211af05282bf"]}
+{"id":"e-b2a9c87c792c3dd8","name":"Β' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-b2a9c87c792c3dd8"]}
+{"id":"e-8ccc515ad22c829f","name":"Γ' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-8ccc515ad22c829f"]}
+{"id":"e-16d96d0f5823fe6f","name":"ΔΥΤΙΚΗ ΕΛΛΑΔΑ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-16d96d0f5823fe6f"]}
+{"id":"e-38e6c3882ac1f000","name":"ΚΡΗΤΗ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-38e6c3882ac1f000"]}
+{"id":"e-d92525e85aad4ae1","name":"ΠΟΦΕΠΑ - ΔΥΤΙΚΗ ΜΑΚΕΔΟΝΙΑ - ΗΠΕΙΡΟΣ - ΙΟΝΙΑ ΝΗΣΙΑ","season":"2023-2024","kind":"fixtures","sources":["s-d92525e85aad4ae1"]}
+{"id":"e-cad5bc1cf6f9dd1e","name":"ΠΟΦΕΠΑ - ΑΝΑΤΟΛΙΚΗ ΜΑΚΕΔΟΝΙΑ & ΘΡΑΚΗ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-cad5bc1cf6f9dd1e"]}
+{"id":"e-7dab4130ef8933f7","name":"ΠΕΛΟΠΟΝΝΗΣΟΣ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-7dab4130ef8933f7"]}
+{"id":"e-3eabe7bb2b3efe3b","name":"ΘΕΣΣΑΛΙΑ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-3eabe7bb2b3efe3b"]}
+{"id":"e-25067e88996d2882","name":"ΝΗΣΙΑ ΒΟΡΕΙΟΥ ΑΙΓΑΙΟΥ 2023-2024","season":"2023-2024","kind":"fixtures","sources":["s-25067e88996d2882"]}
+{"id":"e-a95091e768bea663","name":"9ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής","season":"2023-2024","kind":"fixtures","sources":["s-a95091e768bea663"]}
+{"id":"e-222c6d5c8584b10a","name":"1ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας","season":"2023-2024","kind":"fixtures","sources":["s-222c6d5c8584b10a"]}
+{"id":"e-bbcc969e882a4228","name":"Α1-Α2","season":"2023-2024","kind":"fixtures","sources":["s-bbcc969e882a4228"]}
+{"id":"e-fc2b8b386711fb4b","name":"Β-Γ","season":"2023-2024","kind":"fixtures","sources":["s-fc2b8b386711fb4b"]}
+{"id":"e-6af0ac2fff220482","name":"Δ-Ε","season":"2023-2024","kind":"fixtures","sources":["s-6af0ac2fff220482"]}
+{"id":"e-589c25c55a556470","name":"Κεντρική Μακεδονία","season":"2023-2024","kind":"fixtures","sources":["s-589c25c55a556470"]}
+{"id":"e-70c92aeadae3a47f","name":"Δυτική Ελλάδα","season":"2023-2024","kind":"fixtures","sources":["s-70c92aeadae3a47f"]}
+{"id":"e-13e85c0deb21ee93","name":"Κρήτη","season":"2023-2024","kind":"fixtures","sources":["s-13e85c0deb21ee93"]}
+{"id":"e-e615c8da00f38822","name":"Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά","season":"2023-2024","kind":"fixtures","sources":["s-e615c8da00f38822"]}
+{"id":"e-87a8ed9979cbdc1c","name":"Ανατολική Μακεδονία & Θράκη","season":"2023-2024","kind":"fixtures","sources":["s-87a8ed9979cbdc1c"]}
+{"id":"e-6c6aee5831603d00","name":"Πελοπόννησος","season":"2023-2024","kind":"fixtures","sources":["s-6c6aee5831603d00"]}
+{"id":"e-c4e3310e730d384d","name":"2022-23 A1","season":"2022-2023","kind":"fixtures","sources":["s-c4e3310e730d384d"]}
+{"id":"e-1a55cf7c1c85c24c","name":"2022-23 A2","season":"2022-2023","kind":"fixtures","sources":["s-1a55cf7c1c85c24c"]}
+{"id":"e-29f7d1e2b4711692","name":"2022-23 B","season":"2022-2023","kind":"fixtures","sources":["s-29f7d1e2b4711692"]}
+{"id":"e-89fbf629b3537470","name":"2022-23 C1","season":"2022-2023","kind":"fixtures","sources":["s-89fbf629b3537470"]}
+{"id":"e-f02ded6e179830c5","name":"2022-23 C2","season":"2022-2023","kind":"fixtures","sources":["s-f02ded6e179830c5"]}
+{"id":"e-09bd96e35b3a9b10","name":"2022-23 D1","season":"2022-2023","kind":"fixtures","sources":["s-09bd96e35b3a9b10"]}
+{"id":"e-5f5c47426e0c5748","name":"2022-23 D2","season":"2022-2023","kind":"fixtures","sources":["s-5f5c47426e0c5748"]}
+{"id":"e-1b1596e4720d8bc2","name":"2022-23 E1","season":"2022-2023","kind":"fixtures","sources":["s-1b1596e4720d8bc2"]}
+{"id":"e-cd60d75cf784a3b7","name":"2022-23 E2","season":"2022-2023","kind":"fixtures","sources":["s-cd60d75cf784a3b7"]}
+{"id":"e-e38e578bf241cc3c","name":"Play offs","season":"2022-2023","kind":"fixtures","sources":["s-e38e578bf241cc3c"]}
+{"id":"e-726a797972e65d3f","name":"2022-23 KMAKA","season":"2022-2023","kind":"fixtures","sources":["s-726a797972e65d3f"]}
+{"id":"e-f170f1ae269b7aee","name":"2022-23 KMAKB","season":"2022-2023","kind":"fixtures","sources":["s-f170f1ae269b7aee"]}
+{"id":"e-a76499b54e1b7359","name":"2022-23 KMAKC","season":"2022-2023","kind":"fixtures","sources":["s-a76499b54e1b7359"]}
+{"id":"e-0227ed543ceb660c","name":"2022-23 DYTELL","season":"2022-2023","kind":"fixtures","sources":["s-0227ed543ceb660c"]}
+{"id":"e-eb62278c5588b584","name":"2022-23 KRHTH","season":"2022-2023","kind":"fixtures","sources":["s-eb62278c5588b584"]}
+{"id":"e-36b70f98660c7427","name":"2022-23 D-MAKA","season":"2022-2023","kind":"fixtures","sources":["s-36b70f98660c7427"]}
+{"id":"e-8c6e68a6e8260fff","name":"2022-23 D-MAKB","season":"2022-2023","kind":"fixtures","sources":["s-8c6e68a6e8260fff"]}
+{"id":"e-97a34c1c4b9d4d7d","name":"Play offs","season":"2022-2023","kind":"fixtures","sources":["s-97a34c1c4b9d4d7d"]}
+{"id":"e-38dfd3fadf357523","name":"2022-23 A-MAK","season":"2022-2023","kind":"fixtures","sources":["s-38dfd3fadf357523"]}
+{"id":"e-a58824c1af0f4ce0","name":"2022-23 PELOP","season":"2022-2023","kind":"fixtures","sources":["s-a58824c1af0f4ce0"]}
+{"id":"e-716efce343ffc768","name":"2022-23 THESSALY","season":"2022-2023","kind":"fixtures","sources":["s-716efce343ffc768"]}
+{"id":"e-4eb88df9d23d5a97","name":"2022-23 AIGAIO","season":"2022-2023","kind":"fixtures","sources":["s-4eb88df9d23d5a97"]}
+{"id":"e-8ac1d2e68c6abcde","name":"Αττική","season":"2022-2023","kind":"fixtures","sources":["s-8ac1d2e68c6abcde"]}
+{"id":"e-51cb33864e69a954","name":"Κεντρική Μακεδονία","season":"2022-2023","kind":"fixtures","sources":["s-51cb33864e69a954"]}
+{"id":"e-e9722749c3f117a2","name":"Δυτική Ελλάδα","season":"2022-2023","kind":"fixtures","sources":["s-e9722749c3f117a2"]}
+{"id":"e-f7fd8593a5729084","name":"Κρήτη","season":"2022-2023","kind":"fixtures","sources":["s-f7fd8593a5729084"]}
+{"id":"e-1a8e6e54b95e47b4","name":"Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά","season":"2022-2023","kind":"fixtures","sources":["s-1a8e6e54b95e47b4"]}
+{"id":"e-9ecdc5cf816ad080","name":"Ανατολική Μακεδονία & Θράκη","season":"2022-2023","kind":"fixtures","sources":["s-9ecdc5cf816ad080"]}
+{"id":"e-6492018ba8ee75ae","name":"Πελοπόννησος","season":"2022-2023","kind":"fixtures","sources":["s-6492018ba8ee75ae"]}
+{"id":"e-6506a8d5f78bffbf","name":"Πανελλήνιο Πρωτάθλημα - play offs ομαδικών","season":"2022-2023","kind":"fixtures","sources":["s-6506a8d5f78bffbf"]}
+{"id":"e-dce9261bed615a28","name":"8ο Κύπελλο Ομάδων Ανεξάρτητων","season":"2022-2023","kind":"fixtures","sources":["s-dce9261bed615a28"]}
+{"id":"e-8dad8131a5dec4ef","name":"2020-21 A1","season":"2020-2021","kind":"fixtures","sources":["s-8dad8131a5dec4ef"]}
+{"id":"e-450204b7b61b7fb7","name":"2020-21 A2","season":"2020-2021","kind":"fixtures","sources":["s-450204b7b61b7fb7"]}
+{"id":"e-1fbfa7625371c883","name":"2020-21 B","season":"2020-2021","kind":"fixtures","sources":["s-1fbfa7625371c883"]}
+{"id":"e-a4899f6e9a2fba15","name":"2020-21 C1","season":"2020-2021","kind":"fixtures","sources":["s-a4899f6e9a2fba15"]}
+{"id":"e-f12e9856d722fd0d","name":"2020-21 C2","season":"2020-2021","kind":"fixtures","sources":["s-f12e9856d722fd0d"]}
+{"id":"e-72cb1f424092ad7b","name":"2020-21 D1","season":"2020-2021","kind":"fixtures","sources":["s-72cb1f424092ad7b"]}
+{"id":"e-d027a5bf40c4fd1e","name":"2020-21 D2","season":"2020-2021","kind":"fixtures","sources":["s-d027a5bf40c4fd1e"]}
+{"id":"e-d4c6ead179d22d93","name":"2020-21 E1","season":"2020-2021","kind":"fixtures","sources":["s-d4c6ead179d22d93"]}
+{"id":"e-971d686447c7a180","name":"2020-21 E2","season":"2020-2021","kind":"fixtures","sources":["s-971d686447c7a180"]}
+{"id":"e-6d97756879bd044a","name":"Play offs","season":"2020-2021","kind":"fixtures","sources":["s-6d97756879bd044a"]}
+{"id":"e-9820f782e7ea617a","name":"2020-21 KMAKA","season":"2020-2021","kind":"fixtures","sources":["s-9820f782e7ea617a"]}
+{"id":"e-436996ae78d1677e","name":"2020-21 KMAKB","season":"2020-2021","kind":"fixtures","sources":["s-436996ae78d1677e"]}
+{"id":"e-27eceebe61425aff","name":"2020-21 KMAKC","season":"2020-2021","kind":"fixtures","sources":["s-27eceebe61425aff"]}
+{"id":"e-d3ff8b9b38b2b814","name":"2020-21 DYTELL","season":"2020-2021","kind":"fixtures","sources":["s-d3ff8b9b38b2b814"]}
+{"id":"e-f3c69acffed2c139","name":"2020-21 KRHTH","season":"2020-2021","kind":"fixtures","sources":["s-f3c69acffed2c139"]}
+{"id":"e-bd6e93bdced8726b","name":"2020-21 D-MAKA","season":"2020-2021","kind":"fixtures","sources":["s-bd6e93bdced8726b"]}
+{"id":"e-a0a076c75556053d","name":"2020-21 D-MAKB","season":"2020-2021","kind":"fixtures","sources":["s-a0a076c75556053d"]}
+{"id":"e-62b84eccb946e3ae","name":"Play offs","season":"2020-2021","kind":"fixtures","sources":["s-62b84eccb946e3ae"]}
+{"id":"e-b2a8e8390730ab11","name":"2020-21 A-MAK","season":"2020-2021","kind":"fixtures","sources":["s-b2a8e8390730ab11"]}
+{"id":"e-2bbbf0c1f3ae3700","name":"2020-21 PELOP","season":"2020-2021","kind":"fixtures","sources":["s-2bbbf0c1f3ae3700"]}
+{"id":"e-b011b7e34f5c6991","name":"Αττική","season":"2020-2021","kind":"fixtures","sources":["s-b011b7e34f5c6991"]}
+{"id":"e-5345d1e9f320015a","name":"Κεντρική Μακεδονία","season":"2020-2021","kind":"fixtures","sources":["s-5345d1e9f320015a"]}
+{"id":"e-ffa8bca02cfcaf4b","name":"Δυτική Ελλάδα","season":"2020-2021","kind":"fixtures","sources":["s-ffa8bca02cfcaf4b"]}
+{"id":"e-0b2b25982ababfc1","name":"Κρήτη","season":"2020-2021","kind":"fixtures","sources":["s-0b2b25982ababfc1"]}
+{"id":"e-dd3a32d260f4e5e9","name":"Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά","season":"2020-2021","kind":"fixtures","sources":["s-dd3a32d260f4e5e9"]}
+{"id":"e-ff9b768219f90ed6","name":"Ανατολική Μακεδονία & Θράκη","season":"2020-2021","kind":"fixtures","sources":["s-ff9b768219f90ed6"]}
+{"id":"e-d4006eb0d2a637c0","name":"Πελοπόννησος","season":"2020-2021","kind":"fixtures","sources":["s-d4006eb0d2a637c0"]}
+{"id":"e-f5617591a7aa613e","name":"2019-20 A1","season":"2019-2020","kind":"fixtures","sources":["s-f5617591a7aa613e"]}
+{"id":"e-5178e11d08fec331","name":"2019-20 A2","season":"2019-2020","kind":"fixtures","sources":["s-5178e11d08fec331"]}
+{"id":"e-a8083962ebb1c03f","name":"2019-20 B","season":"2019-2020","kind":"fixtures","sources":["s-a8083962ebb1c03f"]}
+{"id":"e-5009641a78d6add5","name":"2019-20 C1","season":"2019-2020","kind":"fixtures","sources":["s-5009641a78d6add5"]}
+{"id":"e-e1fd557da2ca57ba","name":"2019-20 C2","season":"2019-2020","kind":"fixtures","sources":["s-e1fd557da2ca57ba"]}
+{"id":"e-ff0b889ac205a13c","name":"2019-20 D1","season":"2019-2020","kind":"fixtures","sources":["s-ff0b889ac205a13c"]}
+{"id":"e-c9c5b684815a453b","name":"2019-20 D2","season":"2019-2020","kind":"fixtures","sources":["s-c9c5b684815a453b"]}
+{"id":"e-0239645366578244","name":"2019-20 E1","season":"2019-2020","kind":"fixtures","sources":["s-0239645366578244"]}
+{"id":"e-d2667bd32d14a778","name":"2019-20 E2","season":"2019-2020","kind":"fixtures","sources":["s-d2667bd32d14a778"]}
+{"id":"e-dd71eedaa105c9f1","name":"2019-20 A-KMAK","season":"2019-2020","kind":"fixtures","sources":["s-dd71eedaa105c9f1"]}
+{"id":"e-89735cd135596355","name":"2019-20 B-KMAK","season":"2019-2020","kind":"fixtures","sources":["s-89735cd135596355"]}
+{"id":"e-fba4458817d85f13","name":"2019-20 C-KMAK","season":"2019-2020","kind":"fixtures","sources":["s-fba4458817d85f13"]}
+{"id":"e-50e0e58d9388995a","name":"2019-20 A DYTELL","season":"2019-2020","kind":"fixtures","sources":["s-50e0e58d9388995a"]}
+{"id":"e-621f2214f2aa1019","name":"2019-20 B DYTELL","season":"2019-2020","kind":"fixtures","sources":["s-621f2214f2aa1019"]}
+{"id":"e-6ee5d2b1ddc30dfc","name":"2019-20 KRHTH","season":"2019-2020","kind":"fixtures","sources":["s-6ee5d2b1ddc30dfc"]}
+{"id":"e-e5714ad6459e127d","name":"2019-20 D-MAKA","season":"2019-2020","kind":"fixtures","sources":["s-e5714ad6459e127d"]}
+{"id":"e-09aeb1d76c976b2d","name":"2019-20 D-MAKB","season":"2019-2020","kind":"fixtures","sources":["s-09aeb1d76c976b2d"]}
+{"id":"e-c2cce8d45d2fba95","name":"2019-20 A-MAK","season":"2019-2020","kind":"fixtures","sources":["s-c2cce8d45d2fba95"]}
+{"id":"e-cec9d1d33f568988","name":"2019-20 PELOP","season":"2019-2020","kind":"fixtures","sources":["s-cec9d1d33f568988"]}
+{"id":"e-55640baf978a634b","name":"Αττική","season":"2019-2020","kind":"fixtures","sources":["s-55640baf978a634b"]}
+{"id":"e-9c51fa8c2567729a","name":"Κεντρική Μακεδονία","season":"2019-2020","kind":"fixtures","sources":["s-9c51fa8c2567729a"]}
+{"id":"e-e2d5d319678d6459","name":"Κρήτη","season":"2019-2020","kind":"fixtures","sources":["s-e2d5d319678d6459"]}
+{"id":"e-d1b50ef75d312690","name":"Πελοπόννησος","season":"2019-2020","kind":"fixtures","sources":["s-d1b50ef75d312690"]}
+{"id":"e-ebd57636066968f4","name":"2018-19 A1","season":"2018-2019","kind":"fixtures","sources":["s-ebd57636066968f4"]}
+{"id":"e-980c74ba80f314d3","name":"2018-19 A2","season":"2018-2019","kind":"fixtures","sources":["s-980c74ba80f314d3"]}
+{"id":"e-0981b90d520a5fc8","name":"2018-19 B","season":"2018-2019","kind":"fixtures","sources":["s-0981b90d520a5fc8"]}
+{"id":"e-fca8b2e21025c926","name":"2018-19 C1","season":"2018-2019","kind":"fixtures","sources":["s-fca8b2e21025c926"]}
+{"id":"e-3c9ce410fed809aa","name":"2018-19 C2","season":"2018-2019","kind":"fixtures","sources":["s-3c9ce410fed809aa"]}
+{"id":"e-cd138dc7bf34f651","name":"2018-19 D1","season":"2018-2019","kind":"fixtures","sources":["s-cd138dc7bf34f651"]}
+{"id":"e-87730574fc0377bf","name":"2018-19 D2","season":"2018-2019","kind":"fixtures","sources":["s-87730574fc0377bf"]}
+{"id":"e-e224a4e87a81aecc","name":"2018-19 D3","season":"2018-2019","kind":"fixtures","sources":["s-e224a4e87a81aecc"]}
+{"id":"e-495345882be3d8cc","name":"2018-19 D4","season":"2018-2019","kind":"fixtures","sources":["s-495345882be3d8cc"]}
+{"id":"e-16ff5ee67a36d0a3","name":"Play offs","season":"2018-2019","kind":"fixtures","sources":["s-16ff5ee67a36d0a3"]}
+{"id":"e-28ddf3cc2ba0fc42","name":"2018-19 KMAK-A","season":"2018-2019","kind":"fixtures","sources":["s-28ddf3cc2ba0fc42"]}
+{"id":"e-c66bcd4f1fb74b04","name":"2018-19 KMAK-B","season":"2018-2019","kind":"fixtures","sources":["s-c66bcd4f1fb74b04"]}
+{"id":"e-1e070ab8db04d541","name":"2018-19 KMAK-C","season":"2018-2019","kind":"fixtures","sources":["s-1e070ab8db04d541"]}
+{"id":"e-2aa975860436c854","name":"Play offs","season":"2018-2019","kind":"fixtures","sources":["s-2aa975860436c854"]}
+{"id":"e-88253608291f1d7f","name":"2018-19 DYTELL","season":"2018-2019","kind":"fixtures","sources":["s-88253608291f1d7f"]}
+{"id":"e-a292fa007adb42b4","name":"2018-19 KRITI-A","season":"2018-2019","kind":"fixtures","sources":["s-a292fa007adb42b4"]}
+{"id":"e-d479f189ea6f134c","name":"2018-19 KRITI-B","season":"2018-2019","kind":"fixtures","sources":["s-d479f189ea6f134c"]}
+{"id":"e-5200be109bbfa73a","name":"Play offs","season":"2018-2019","kind":"fixtures","sources":["s-5200be109bbfa73a"]}
+{"id":"e-ffdba325f1685dff","name":"2018-19 D-MAK","season":"2018-2019","kind":"fixtures","sources":["s-ffdba325f1685dff"]}
+{"id":"e-5ea025c840edbdb1","name":"2018-19 A-MAK","season":"2018-2019","kind":"fixtures","sources":["s-5ea025c840edbdb1"]}
+{"id":"e-31a6ff61b418067f","name":"2018-19 PELOP","season":"2018-2019","kind":"fixtures","sources":["s-31a6ff61b418067f"]}
+{"id":"e-c1687ab254f605e6","name":"Αττική","season":"2018-2019","kind":"fixtures","sources":["s-c1687ab254f605e6"]}
+{"id":"e-0cc4f52cacbde33b","name":"Κεντρική Μακεδονία","season":"2018-2019","kind":"fixtures","sources":["s-0cc4f52cacbde33b"]}
+{"id":"e-61da415457f45957","name":"Δυτική Ελλάδα","season":"2018-2019","kind":"fixtures","sources":["s-61da415457f45957"]}
+{"id":"e-3e15a2f507451b06","name":"Κρήτη","season":"2018-2019","kind":"fixtures","sources":["s-3e15a2f507451b06"]}
+{"id":"e-5360ff2078cbbb76","name":"Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά","season":"2018-2019","kind":"fixtures","sources":["s-5360ff2078cbbb76"]}
+{"id":"e-5a4da998bc6c6ceb","name":"Ανατολική Μακεδονία & Θράκη","season":"2018-2019","kind":"fixtures","sources":["s-5a4da998bc6c6ceb"]}
+{"id":"e-004820d3750ecc52","name":"Πελοπόννησος","season":"2018-2019","kind":"fixtures","sources":["s-004820d3750ecc52"]}
+{"id":"e-65bdb95bbb7ed02c","name":"2017-18 A","season":"2017-2018","kind":"fixtures","sources":["s-65bdb95bbb7ed02c"]}
+{"id":"e-3fa007378c569f7b","name":"2017-18 B","season":"2017-2018","kind":"fixtures","sources":["s-3fa007378c569f7b"]}
+{"id":"e-ce6bb6a87dd3ec6b","name":"2017-18 C1","season":"2017-2018","kind":"fixtures","sources":["s-ce6bb6a87dd3ec6b"]}
+{"id":"e-f9b430133a47ef88","name":"2017-18 C2","season":"2017-2018","kind":"fixtures","sources":["s-f9b430133a47ef88"]}
+{"id":"e-f5edfc22a14c5e49","name":"2017-18 D1","season":"2017-2018","kind":"fixtures","sources":["s-f5edfc22a14c5e49"]}
+{"id":"e-125038f8b95de99b","name":"2017-18 D2","season":"2017-2018","kind":"fixtures","sources":["s-125038f8b95de99b"]}
+{"id":"e-b1ab8b7c8d46ba13","name":"2017-18 D3","season":"2017-2018","kind":"fixtures","sources":["s-b1ab8b7c8d46ba13"]}
+{"id":"e-5ed0d2e579e6b1ef","name":"2017-18 D4","season":"2017-2018","kind":"fixtures","sources":["s-5ed0d2e579e6b1ef"]}
+{"id":"e-af805eb2e9858ff7","name":"Play offs","season":"2017-2018","kind":"fixtures","sources":["s-af805eb2e9858ff7"]}
+{"id":"e-553b11968522d21a","name":"2017-18 KMAK-A","season":"2017-2018","kind":"fixtures","sources":["s-553b11968522d21a"]}
+{"id":"e-e9c9135f8d5dab5a","name":"2017-18 KMAK-B1","season":"2017-2018","kind":"fixtures","sources":["s-e9c9135f8d5dab5a"]}
+{"id":"e-893c15f53e572dd6","name":"2017-18 KMAK-B2","season":"2017-2018","kind":"fixtures","sources":["s-893c15f53e572dd6"]}
+{"id":"e-4c0dc421f69174c4","name":"Play offs","season":"2017-2018","kind":"fixtures","sources":["s-4c0dc421f69174c4"]}
+{"id":"e-b4686ee1a77ef3ee","name":"2017-18 DYTELL","season":"2017-2018","kind":"fixtures","sources":["s-b4686ee1a77ef3ee"]}
+{"id":"e-00e43c0bc2be7cf8","name":"2017-18 KRITI A1","season":"2017-2018","kind":"fixtures","sources":["s-00e43c0bc2be7cf8"]}
+{"id":"e-2776cbd2a4698017","name":"2017-18 KRITI A2","season":"2017-2018","kind":"fixtures","sources":["s-2776cbd2a4698017"]}
+{"id":"e-373dc48731eb1d3d","name":"Play offs","season":"2017-2018","kind":"fixtures","sources":["s-373dc48731eb1d3d"]}
+{"id":"e-1f5aa6a7dd2b8380","name":"2017-18 D-MAK","season":"2017-2018","kind":"fixtures","sources":["s-1f5aa6a7dd2b8380"]}
+{"id":"e-19930478c1282b00","name":"2017-18 A-MAK","season":"2017-2018","kind":"fixtures","sources":["s-19930478c1282b00"]}
+{"id":"e-89f47fe33ee9b9cc","name":"2017-18 PELOP","season":"2017-2018","kind":"fixtures","sources":["s-89f47fe33ee9b9cc"]}
+{"id":"e-4a4689fda87bc913","name":"Αττική","season":"2017-2018","kind":"fixtures","sources":["s-4a4689fda87bc913"]}
+{"id":"e-f02f0fd8a9aef65f","name":"Κεντρική Μακεδονία","season":"2017-2018","kind":"fixtures","sources":["s-f02f0fd8a9aef65f"]}
+{"id":"e-375030c5383dcbf9","name":"Δυτική Ελλάδα","season":"2017-2018","kind":"fixtures","sources":["s-375030c5383dcbf9"]}
+{"id":"e-48230a1868c751ce","name":"Κρήτη","season":"2017-2018","kind":"fixtures","sources":["s-48230a1868c751ce"]}
+{"id":"e-4d895ff50c180dee","name":"Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά","season":"2017-2018","kind":"fixtures","sources":["s-4d895ff50c180dee"]}
+{"id":"e-fca99ea793dc8476","name":"Ανατολική Μακεδονία & Θράκη","season":"2017-2018","kind":"fixtures","sources":["s-fca99ea793dc8476"]}
+{"id":"e-1df35a03494f4ada","name":"Πελοπόννησος","season":"2017-2018","kind":"fixtures","sources":["s-1df35a03494f4ada"]}
+{"id":"e-0042a476c4ea0c84","name":"2016-17 A","season":"2016-2017","kind":"fixtures","sources":["s-0042a476c4ea0c84"]}
+{"id":"e-37793e6c26c9dc58","name":"2016-17 B","season":"2016-2017","kind":"fixtures","sources":["s-37793e6c26c9dc58"]}
+{"id":"e-820441c38d2d0019","name":"2016-17 G1","season":"2016-2017","kind":"fixtures","sources":["s-820441c38d2d0019"]}
+{"id":"e-ea4740ef7b47855a","name":"2016-17 G2","season":"2016-2017","kind":"fixtures","sources":["s-ea4740ef7b47855a"]}
+{"id":"e-87a817c7ef5534f1","name":"2016-17 D1","season":"2016-2017","kind":"fixtures","sources":["s-87a817c7ef5534f1"]}
+{"id":"e-a75464aa5cb3db7e","name":"2016-17 D2","season":"2016-2017","kind":"fixtures","sources":["s-a75464aa5cb3db7e"]}
+{"id":"e-20af72e7a394425e","name":"2016-17 D3","season":"2016-2017","kind":"fixtures","sources":["s-20af72e7a394425e"]}
+{"id":"e-8c6b7c40f360286d","name":"Play offs","season":"2016-2017","kind":"fixtures","sources":["s-8c6b7c40f360286d"]}
+{"id":"e-1d1b55e181bf1dbd","name":"2016-17 KMAK-A","season":"2016-2017","kind":"fixtures","sources":["s-1d1b55e181bf1dbd"]}
+{"id":"e-64b1260b313a6de0","name":"2016-17 KMAK-B","season":"2016-2017","kind":"fixtures","sources":["s-64b1260b313a6de0"]}
+{"id":"e-fae99da876f2aac5","name":"Play offs","season":"2016-2017","kind":"fixtures","sources":["s-fae99da876f2aac5"]}
+{"id":"e-73b88a9e92a7352e","name":"2016-17 D-MAK","season":"2016-2017","kind":"fixtures","sources":["s-73b88a9e92a7352e"]}
+{"id":"e-dbeccc61809d1058","name":"2016-17 A-MAK","season":"2016-2017","kind":"fixtures","sources":["s-dbeccc61809d1058"]}
+{"id":"e-66c72c6dce3aa78f","name":"2016-17 PELOP","season":"2016-2017","kind":"fixtures","sources":["s-66c72c6dce3aa78f"]}
+{"id":"e-c7914a88b62786bc","name":"2016-17 DYTELL","season":"2016-2017","kind":"fixtures","sources":["s-c7914a88b62786bc"]}
+{"id":"e-9a6cdd6271814490","name":"2016-17 KRHTH","season":"2016-2017","kind":"fixtures","sources":["s-9a6cdd6271814490"]}
+{"id":"e-6a8d680fd3602911","name":"Αττική","season":"2016-2017","kind":"fixtures","sources":["s-6a8d680fd3602911"]}
+{"id":"e-0dac29b1e81ad7eb","name":"Κεντρική Μακεδονία","season":"2016-2017","kind":"fixtures","sources":["s-0dac29b1e81ad7eb"]}
+{"id":"e-709d615885b4f88f","name":"Δυτική Μακεδονία & Ήπειρος","season":"2016-2017","kind":"fixtures","sources":["s-709d615885b4f88f"]}
+{"id":"e-0f99576c293a08a3","name":"Ανατολική Μακεδονία & Θράκη","season":"2016-2017","kind":"fixtures","sources":["s-0f99576c293a08a3"]}
+{"id":"e-0e861e695000913e","name":"Πελοπόννησος","season":"2016-2017","kind":"fixtures","sources":["s-0e861e695000913e"]}
+{"id":"e-61942f67cd3bffcb","name":"Δυτική Ελλάδα","season":"2016-2017","kind":"fixtures","sources":["s-61942f67cd3bffcb"]}
+{"id":"e-229e6478e79cdfd2","name":"Κρήτη","season":"2016-2017","kind":"fixtures","sources":["s-229e6478e79cdfd2"]}
+{"id":"e-b733cb2d4d91762e","name":"2015-16 A","season":"2015-2016","kind":"fixtures","sources":["s-b733cb2d4d91762e"]}
+{"id":"e-eb250498f7497a01","name":"2015-16 B","season":"2015-2016","kind":"fixtures","sources":["s-eb250498f7497a01"]}
+{"id":"e-9e7cb3ba6099db54","name":"2015-16 G1","season":"2015-2016","kind":"fixtures","sources":["s-9e7cb3ba6099db54"]}
+{"id":"e-a237ea8b16d9faf1","name":"2015-16 G2","season":"2015-2016","kind":"fixtures","sources":["s-a237ea8b16d9faf1"]}
+{"id":"e-17c174d4e84e9e34","name":"2015-16 D1","season":"2015-2016","kind":"fixtures","sources":["s-17c174d4e84e9e34"]}
+{"id":"e-05d604bb41f48c7e","name":"2015-16 D2","season":"2015-2016","kind":"fixtures","sources":["s-05d604bb41f48c7e"]}
+{"id":"e-836d16ec333acbb9","name":"2015-16 D3","season":"2015-2016","kind":"fixtures","sources":["s-836d16ec333acbb9"]}
+{"id":"e-fe631da930dab7c5","name":"Play offs","season":"2015-2016","kind":"fixtures","sources":["s-fe631da930dab7c5"]}
+{"id":"e-59a2b0bf10d8d22c","name":"2015-16 KMAK-A","season":"2015-2016","kind":"fixtures","sources":["s-59a2b0bf10d8d22c"]}
+{"id":"e-8e9da87c34cf9a0e","name":"2015-16 KMAK-B","season":"2015-2016","kind":"fixtures","sources":["s-8e9da87c34cf9a0e"]}
+{"id":"e-d4b14eb49f699254","name":"2015-16 D-MAK","season":"2015-2016","kind":"fixtures","sources":["s-d4b14eb49f699254"]}
+{"id":"e-48d76a59573cc118","name":"2015-16 A-MAK","season":"2015-2016","kind":"fixtures","sources":["s-48d76a59573cc118"]}
+{"id":"e-a7158d8691398111","name":"2015-16 PELOP","season":"2015-2016","kind":"fixtures","sources":["s-a7158d8691398111"]}
+{"id":"e-8f5ec65dbf6563f7","name":"2015-16 DYT-ELLADA","season":"2015-2016","kind":"fixtures","sources":["s-8f5ec65dbf6563f7"]}
+{"id":"e-9014032a885af2a1","name":"2015-16 KRHTH","season":"2015-2016","kind":"fixtures","sources":["s-9014032a885af2a1"]}
+{"id":"e-c3a3dcdc39edcc8e","name":"Αττική & Νότια Ελλάδα","season":"2015-2016","kind":"fixtures","sources":["s-c3a3dcdc39edcc8e"]}
+{"id":"e-b6c508f37db6b2bb","name":"Κεντρική Μακεδονία","season":"2015-2016","kind":"fixtures","sources":["s-b6c508f37db6b2bb"]}
+{"id":"e-928794d9adb14b04","name":"Δυτική Μακεδονία & Ήπειρος","season":"2015-2016","kind":"fixtures","sources":["s-928794d9adb14b04"]}
+{"id":"e-ff63dc2eac717099","name":"Ανατολική Μακεδονία & Θράκη","season":"2015-2016","kind":"fixtures","sources":["s-ff63dc2eac717099"]}
+{"id":"e-f9aeeb6439a62918","name":"Πελοπόννησος","season":"2015-2016","kind":"fixtures","sources":["s-f9aeeb6439a62918"]}
+{"id":"e-54b2d0f2ef02ca11","name":"Δυτική Ελλάδα","season":"2015-2016","kind":"fixtures","sources":["s-54b2d0f2ef02ca11"]}
+{"id":"e-3612786347f39ca3","name":"Κρήτη","season":"2015-2016","kind":"fixtures","sources":["s-3612786347f39ca3"]}
+{"id":"e-f9cbd7b83693ebf3","name":"2014-15 A","season":"2014-2015","kind":"fixtures","sources":["s-f9cbd7b83693ebf3"]}
+{"id":"e-f9b485f46c893036","name":"2014-15 B","season":"2014-2015","kind":"fixtures","sources":["s-f9b485f46c893036"]}
+{"id":"e-4c5b5d7b48bf5efe","name":"2014-15 G1","season":"2014-2015","kind":"fixtures","sources":["s-4c5b5d7b48bf5efe"]}
+{"id":"e-f2c606c3ff34e31b","name":"2014-15 G2","season":"2014-2015","kind":"fixtures","sources":["s-f2c606c3ff34e31b"]}
+{"id":"e-fe6d9fe0efb46f1c","name":"2014-15 D1","season":"2014-2015","kind":"fixtures","sources":["s-fe6d9fe0efb46f1c"]}
+{"id":"e-b251db0f8b6b8b24","name":"2014-15 D2","season":"2014-2015","kind":"fixtures","sources":["s-b251db0f8b6b8b24"]}
+{"id":"e-3d3442037bed7ccd","name":"2014-15 D3","season":"2014-2015","kind":"fixtures","sources":["s-3d3442037bed7ccd"]}
+{"id":"e-89f77755cc77f45d","name":"Play offs","season":"2014-2015","kind":"fixtures","sources":["s-89f77755cc77f45d"]}
+{"id":"e-c130e1f25ebfd2f6","name":"2014-15 ΚΜΑΚ Α","season":"2014-2015","kind":"fixtures","sources":["s-c130e1f25ebfd2f6"]}
+{"id":"e-e8fcd67c474ca3f0","name":"2014-15 KMAK B","season":"2014-2015","kind":"fixtures","sources":["s-e8fcd67c474ca3f0"]}
+{"id":"e-7985d9ff46268dd0","name":"2014-15 D-MAK","season":"2014-2015","kind":"fixtures","sources":["s-7985d9ff46268dd0"]}
+{"id":"e-6254c4881fb1dd5a","name":"2014-15 A-MAK","season":"2014-2015","kind":"fixtures","sources":["s-6254c4881fb1dd5a"]}
+{"id":"e-b2499079af413470","name":"2014-15 PELOP","season":"2014-2015","kind":"fixtures","sources":["s-b2499079af413470"]}
+{"id":"e-55396b8df2f741bc","name":"2014-15 DYT-ELLADA","season":"2014-2015","kind":"fixtures","sources":["s-55396b8df2f741bc"]}
+{"id":"e-b803a40a27404cb5","name":"Αττική & Νότια Ελλάδα","season":"2014-2015","kind":"fixtures","sources":["s-b803a40a27404cb5"]}
+{"id":"e-f4dc774c7e49a7c2","name":"Κεντρική Μακεδονία","season":"2014-2015","kind":"fixtures","sources":["s-f4dc774c7e49a7c2"]}
+{"id":"e-c6ac76e793e6fa97","name":"Δυτική Μακεδονία & Ήπειρος","season":"2014-2015","kind":"fixtures","sources":["s-c6ac76e793e6fa97"]}
+{"id":"e-7ed26212a43b343c","name":"Ανατολική Μακεδονία & Θράκη","season":"2014-2015","kind":"fixtures","sources":["s-7ed26212a43b343c"]}
+{"id":"e-0b70bf64d80e67a4","name":"Πελοπόννησος","season":"2014-2015","kind":"fixtures","sources":["s-0b70bf64d80e67a4"]}
+{"id":"e-7431cb79649da4d2","name":"Δυτική Ελλάδα","season":"2014-2015","kind":"fixtures","sources":["s-7431cb79649da4d2"]}
+{"id":"e-6836c0f4bf30a76d","name":"2013-14 A","season":"2013-2014","kind":"fixtures","sources":["s-6836c0f4bf30a76d"]}
+{"id":"e-70f3f7a8d266af71","name":"2013-14 B","season":"2013-2014","kind":"fixtures","sources":["s-70f3f7a8d266af71"]}
+{"id":"e-f051b903d99b49a8","name":"2013-14 C1","season":"2013-2014","kind":"fixtures","sources":["s-f051b903d99b49a8"]}
+{"id":"e-60d2941cdebad7d0","name":"2013-14 C2","season":"2013-2014","kind":"fixtures","sources":["s-60d2941cdebad7d0"]}
+{"id":"e-dc92af75e9613749","name":"2013-14 C3","season":"2013-2014","kind":"fixtures","sources":["s-dc92af75e9613749"]}
+{"id":"e-6cd6e7b6d58e8acc","name":"2013-14 C4","season":"2013-2014","kind":"fixtures","sources":["s-6cd6e7b6d58e8acc"]}
+{"id":"e-8d199f919fe2b7b0","name":"Play Offs","season":"2013-2014","kind":"fixtures","sources":["s-8d199f919fe2b7b0"]}
+{"id":"e-7974e17e42c06f39","name":"2013-14 K-MAK","season":"2013-2014","kind":"fixtures","sources":["s-7974e17e42c06f39"]}
+{"id":"e-8abe7eb2d5f4ad0e","name":"2013-14 D-MAK","season":"2013-2014","kind":"fixtures","sources":["s-8abe7eb2d5f4ad0e"]}
+{"id":"e-81f3781f0cb04fd5","name":"2013-14 A-MAK","season":"2013-2014","kind":"fixtures","sources":["s-81f3781f0cb04fd5"]}
+{"id":"e-ffcd62dd17e26b2e","name":"2013-14 PELOP","season":"2013-2014","kind":"fixtures","sources":["s-ffcd62dd17e26b2e"]}
+{"id":"e-0076b204ab172f17","name":"2013-14 D-ELL","season":"2013-2014","kind":"fixtures","sources":["s-0076b204ab172f17"]}
+{"id":"e-70935c1a47775d74","name":"Αττική & Νότια Ελλάδα","season":"2013-2014","kind":"fixtures","sources":["s-70935c1a47775d74"]}
+{"id":"e-5cf953c77581868f","name":"Κεντρική Μακεδονία","season":"2013-2014","kind":"fixtures","sources":["s-5cf953c77581868f"]}
+{"id":"e-b109c5409d1b355c","name":"Δυτική Μακεδονία & Ήπειρος","season":"2013-2014","kind":"fixtures","sources":["s-b109c5409d1b355c"]}
+{"id":"e-ba9f643ba24024d8","name":"Ανατολική Μακεδονία & Θράκη","season":"2013-2014","kind":"fixtures","sources":["s-ba9f643ba24024d8"]}
+{"id":"e-93dac39e020ffbf2","name":"Πελοπόννησος","season":"2013-2014","kind":"fixtures","sources":["s-93dac39e020ffbf2"]}
+{"id":"e-9ce1a1671d69d200","name":"Δυτική Ελλάδα","season":"2013-2014","kind":"fixtures","sources":["s-9ce1a1671d69d200"]}
+{"id":"e-95cea143e91b63b7","name":"2012-13 A","season":"2012-2013","kind":"fixtures","sources":["s-95cea143e91b63b7"]}
+{"id":"e-8455077a26908129","name":"2012-13 B","season":"2012-2013","kind":"fixtures","sources":["s-8455077a26908129"]}
+{"id":"e-336330821c21f0d1","name":"2012-13 C1","season":"2012-2013","kind":"fixtures","sources":["s-336330821c21f0d1"]}
+{"id":"e-1485754e2d8ef2c4","name":"2012-13 C2","season":"2012-2013","kind":"fixtures","sources":["s-1485754e2d8ef2c4"]}
+{"id":"e-9d831222a966dbc9","name":"2012-13 K-MAK1","season":"2012-2013","kind":"fixtures","sources":["s-9d831222a966dbc9"]}
+{"id":"e-244b9c3b2b087a0b","name":"2012-13 K-MAK2","season":"2012-2013","kind":"fixtures","sources":["s-244b9c3b2b087a0b"]}
+{"id":"e-111dad8796879f14","name":"2012-13 K-MAKP","season":"2012-2013","kind":"fixtures","sources":["s-111dad8796879f14"]}
+{"id":"e-d59297c6cbb3437e","name":"2012-13 D-MAK","season":"2012-2013","kind":"fixtures","sources":["s-d59297c6cbb3437e"]}
+{"id":"e-a9ab5929cb76f076","name":"2012-13 A-MAK","season":"2012-2013","kind":"fixtures","sources":["s-a9ab5929cb76f076"]}
+{"id":"e-0d88862fea9fcb51","name":"2012-13 KYP ATTIKH","season":"2012-2013","kind":"fixtures","sources":["s-0d88862fea9fcb51"]}
+{"id":"e-df9707fab1c9c47f","name":"2012-13 KYP K-MAK","season":"2012-2013","kind":"fixtures","sources":["s-df9707fab1c9c47f"]}
+{"id":"e-bfd8ebf8bd3bddab","name":"2012-13 KYP D-MAK","season":"2012-2013","kind":"fixtures","sources":["s-bfd8ebf8bd3bddab"]}
+{"id":"e-5d1c3230f89cd9aa","name":"2012-13 KYP A-MAK","season":"2012-2013","kind":"fixtures","sources":["s-5d1c3230f89cd9aa"]}
+{"id":"e-a423d4fd5bc15d8e","name":"2011-12 A","season":"2011-2012","kind":"fixtures","sources":["s-a423d4fd5bc15d8e"]}
+{"id":"e-7720ca960a4641e5","name":"2011-12 B","season":"2011-2012","kind":"fixtures","sources":["s-7720ca960a4641e5"]}
+{"id":"e-370d747e69a84a7c","name":"2011-12 C1","season":"2011-2012","kind":"fixtures","sources":["s-370d747e69a84a7c"]}
+{"id":"e-5e9c3ab332fe28be","name":"2011-12 C2","season":"2011-2012","kind":"fixtures","sources":["s-5e9c3ab332fe28be"]}
+{"id":"e-e4114475b5973946","name":"2011-12 K-MAK","season":"2011-2012","kind":"fixtures","sources":["s-e4114475b5973946"]}
+{"id":"e-6660bcbd4e4af8eb","name":"2011-12 D-MAK","season":"2011-2012","kind":"fixtures","sources":["s-6660bcbd4e4af8eb"]}
+{"id":"e-abed920a9f792f0d","name":"2011-12 A-MAK","season":"2011-2012","kind":"fixtures","sources":["s-abed920a9f792f0d"]}
+{"id":"e-fcf3bcb08ba5838b","name":"2011-12 KYP ATTIKH","season":"2011-2012","kind":"fixtures","sources":["s-fcf3bcb08ba5838b"]}
+{"id":"e-d1617a2e858d3586","name":"2011-12 KYP K-MAK","season":"2011-2012","kind":"fixtures","sources":["s-d1617a2e858d3586"]}
+{"id":"e-ad84a67db7ab2ac1","name":"2011-12 KYP D-MAK","season":"2011-2012","kind":"fixtures","sources":["s-ad84a67db7ab2ac1"]}
+{"id":"e-bcd9e827cdc54720","name":"2010-11 A","season":"2010-2011","kind":"fixtures","sources":["s-bcd9e827cdc54720"]}
+{"id":"e-0b39819123018fc6","name":"2010-11 B","season":"2010-2011","kind":"fixtures","sources":["s-0b39819123018fc6"]}
+{"id":"e-357fbd0fc8ee865e","name":"2010-11 C","season":"2010-2011","kind":"fixtures","sources":["s-357fbd0fc8ee865e"]}
+{"id":"e-03aa3d21bd6b4730","name":"2010-11 A-MAK","season":"2010-2011","kind":"fixtures","sources":["s-03aa3d21bd6b4730"]}
+{"id":"e-c3d2379a72453aef","name":"2010-11 K-MAK","season":"2010-2011","kind":"fixtures","sources":["s-c3d2379a72453aef"]}
+{"id":"e-a6dcea0ba29a77cc","name":"2010-11 KYP ATTIKH","season":"2010-2011","kind":"fixtures","sources":["s-a6dcea0ba29a77cc"]}
+{"id":"e-2abc69c0844c67bc","name":"2009-10 A","season":"2009-2010","kind":"fixtures","sources":["s-2abc69c0844c67bc"]}
+{"id":"e-f215bde87cf5a04b","name":"2009-10 B","season":"2009-2010","kind":"fixtures","sources":["s-f215bde87cf5a04b"]}
+{"id":"e-3ab756292b2bc74d","name":"2009-10 C","season":"2009-2010","kind":"fixtures","sources":["s-3ab756292b2bc74d"]}
+{"id":"e-ec08bc9719630027","name":"2009-10 KYP ATTIKH","season":"2009-2010","kind":"fixtures","sources":["s-ec08bc9719630027"]}

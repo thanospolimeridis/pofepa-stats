@@ -17,24 +17,14 @@ from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 
 from bs4 import BeautifulSoup
-import openpyxl
+from workbooks import inventory as workbook_inventory, open_book, canonical_list, result_rows
+from season_sources import seasons, content_links
+from pdf_results import extract_pdf
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://www.pofepa.gr/"
 RANKINGS = BASE + "piiotanualphakappaepsilonsigmaf-alphaxiiotaomicronlambdaomicrongammaetasigmaetasigmaf.html"
 SEASON = BASE + "2026-2027.html"
-# June 2026 regional DAI/name pairs reconcile exactly with the combined list.
-# Retain region on every snapshot; a regional position is never a national one.
-WORKBOOKS = [
-    ("2026-05", "national", "rl_meikto_5_2026v2.xlsx"),
-    ("2026-06", "national", "rl_pan_6_2026.xlsx"),
-    ("2026-09", "national", "rl_9_2026.xlsx"),
-    ("2026-10", "national", "rl_10_2026.xlsx"),
-    *[(f"2026-{month:02}", "south", filename) for month, filename in enumerate([
-        "rl_1_2026.xlsx", "rl_2_2026.xlsx", "rl_3_2026v2.xlsx", "rl_4_2026.xlsx", "rl_5_2026_v2.xlsx", "rl_6_2026v2.xlsx"], 1)],
-    *[(f"2026-{month:02}", "north", filename) for month, filename in enumerate([
-        "rl_be_1_2026.xlsx", "rl_be_2_2026.xlsx", "rl_be_3_2026v3.xlsx", "rl_be_4_2026.xlsx", "rl_be_5_2026v2.xlsx", "rl_be_6_2026v2.xlsx"], 1)],
-]
 
 
 def clean(value):
@@ -105,20 +95,30 @@ class Cache:
 def ranking_rows(sheet):
     iterator = sheet.iter_rows(values_only=True)
     header = [clean(v) for v in next(iterator)]
-    required = ["Νέα θέση", "Ονοματεπώνυμο", "Βαθμοί", "Κατηγορία", "Ομάδα", "ΔΑΙ"]
+    if header[0] in ("Θέση", ""):
+        header[0] = "Νέα θέση"
+    required = ["Νέα θέση", "Ονοματεπώνυμο", "Βαθμοί", "Κατηγορία", "Ομάδα"]
     if not all(h in header for h in required):
         raise ValueError(f"Unrecognized ranking header: {sheet.title}: {header}")
     columns = [header.index(h) for h in required]
+    previous_rank = None
     for row_number, row in enumerate(iterator, 2):
         if not any(v is not None and clean(v) for v in row):
             continue
         values = [row[i] if i < len(row) else None for i in columns]
-        rank, name, points, category, club, registration = values
-        if not name or not registration or not str(registration).strip().isdigit():
+        rank, name, points, category, club = values
+        registration = row[header.index("ΔΑΙ")] if "ΔΑΙ" in header else None
+        if clean(rank) in ('"', '〃'):
+            rank = previous_rank  # The source uses ditto marks for tied positions.
+        if clean(rank) in ('-', '') and (clean(points) == '-' or isinstance(points, (int, float))):
+            yield row_number, None, clean(name), None if clean(points) == '-' else float(points), clean(category), clean(club), str(int(registration)) if registration else ""
+            continue
+        if not name or (registration is not None and not str(registration).strip().isdigit()):
             raise ValueError(f"Missing identity in {sheet.title} row {row_number}")
         if not isinstance(points, (int, float)) or not str(rank).isdigit():
-            raise ValueError(f"Invalid ranking in {sheet.title} row {row_number}")
-        yield row_number, int(rank), clean(name), float(points), clean(category), clean(club), str(int(registration))
+            raise ValueError(f"Invalid ranking in {sheet.title} row {row_number}: {values}")
+        previous_rank = int(rank)
+        yield row_number, int(rank), clean(name), float(points), clean(category), clean(club), str(int(registration)) if registration else ""
 
 
 def resolve_player(name, club, candidates):
@@ -149,6 +149,46 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
             continue
         header = rows[0].get_text(" ", strip=True)
         if "Γηπεδούχος" not in header or "Φιλοξενούμενος" not in header:
+            heading = table.find_previous(['h2', 'h3'])
+            round_name = clean(heading.get_text(' ')) if heading else ''
+            if len(rows) > 1 and 'ΑΓΩΝΙΣΤΙΚ' in key(round_name):
+                for row_index, tr in enumerate(rows, 1):
+                    cells = tr.find_all(['td', 'th'], recursive=False)
+                    if len(cells) < 3:
+                        continue
+                    home, away, result = [clean(c.get_text(' ')) for c in cells[:3]]
+                    if not home or not away:
+                        continue
+                    score = re.match(r'^(\d+)\s*[-–:]\s*(\d+)(?:\s|$)', result)
+                    links = [urljoin(source_url, a['href']) for a in cells[2].find_all('a', href=True)]
+                    fixtures.append({'id': uid('f-', f'{event_id}:{table_index}:{row_index}'), 'event': event_id,
+                        'home': home, 'away': away, 'score': [int(score[1]), int(score[2])] if score else None,
+                        'status': 'reported' if score else 'scheduled', 'round': round_name,
+                        'schedule_note': result if not score else '', 'deadline': '', 'source': source_id,
+                        'sheet_url': next((u for u in links if safe_url(u)), ''), 'table': table_index, 'row': row_index})
+                continue
+            # Historical Weebly pages put an entire round in four parallel
+            # columns, with <br> separating games. Require exact alignment.
+            cells = rows[0].find_all('td', recursive=False)
+            if len(rows) != 1 or len(cells) < 4:
+                continue
+            def lines(cell):
+                copy = BeautifulSoup(str(cell), 'html.parser')
+                for br in copy.find_all('br'):
+                    br.insert_before('\n')
+                return [clean(line) for line in re.split(r'\n| {5,}|\xa0{3,}', copy.get_text()) if clean(line)]
+            columns = [lines(c) for c in cells[:4]]
+            if not columns[0] or not all(len(c) == len(columns[0]) for c in columns) or any(x not in ('-', '–', '—') for x in columns[1]):
+                continue
+            heading = table.find_previous(['h2', 'h3'])
+            round_name = clean(heading.get_text(' ')) if heading else ''
+            for row_index, (home, _, away, result) in enumerate(zip(*columns), 1):
+                score = re.match(r'^(\d+)\s*[-–:]\s*(\d+)(?:\s|$)', result)
+                fixtures.append({'id': uid('f-', f'{event_id}:{table_index}:{row_index}'), 'event': event_id,
+                    'home': home, 'away': away, 'score': [int(score[1]), int(score[2])] if score else None,
+                    'status': 'reported' if score else 'scheduled', 'round': round_name,
+                    'schedule_note': result if not score else '', 'deadline': '', 'source': source_id, 'sheet_url': '',
+                    'table': table_index, 'row': row_index})
             continue
         heading = table.find_previous(["h2", "h3"])
         round_name = clean(heading.get_text(" ")) if heading else ""
@@ -182,64 +222,84 @@ def collect(cache, as_of):
         return cid
 
     _, ranking_index = cache.get(RANKINGS, "rankings.html")
-    rsoup = BeautifulSoup(ranking_index.read_text(), "html.parser")
-    inventory = []
-    for a in (rsoup.select_one("#wsite-content") or rsoup).find_all("a", href=True):
-        url = urljoin(BASE, a["href"])
-        if re.search(r"\.(xlsx?|pdf)$", url, re.I) and safe_url(url):
-            inventory.append({"label": clean(a.get_text(" ")), "url": url, "imported": False})
+    inventory = workbook_inventory(ranking_index.read_text(), BASE)
     candidates_by_period = defaultdict(lambda: defaultdict(list))
     workbook_objects = []
     registry = defaultdict(set)
-    for period, region, filename in sorted(WORKBOOKS, key=lambda item: (item[0], item[1] == "national", item[1])):
-        url = BASE + "uploads/5/7/2/5/5725823/" + filename
-        if not any(i["url"] == url for i in inventory):
-            raise ValueError(f"Configured workbook no longer linked: {url}")
-        sid, path = cache.get(url, filename)
-        for i in inventory:
-            if i["url"] == url:
-                i["imported"] = True
-        book = openpyxl.load_workbook(path, read_only=True, data_only=True)
-        workbook_objects.append((period, region, sid, book))
-        for rownum, rank, name, points, category, club, dai in ranking_rows(book["ΓΕΝΙΚΟΣ"]):
-            registry[dai].add(key(name))
-    identity_conflicts = [{"registration": dai, "names": sorted(names)} for dai, names in sorted(registry.items()) if len(names) > 1]
-    for period, region, sid, book in workbook_objects:
-        candidates = defaultdict(list)
-        for rownum, rank, name, points, category, club, dai in ranking_rows(book["ΓΕΝΙΚΟΣ"]):
-            pid = registry_id(dai, name, registry)
-            old = players.get(pid)
-            aliases = sorted(set((old or {}).get("aliases", []) + ([old["name"]] if old and old["name"] != name else [])))
-            players[pid] = {"id": pid, "registration": dai, "name": name, "aliases": aliases,
-                "club": club_id(club), "category": category, "period": period, "provisional": False, "identity_conflict": len(registry[dai]) > 1}
-            candidates_by_period[period][key(name)].append({"id": pid, "club": club, "source": sid})
+    for item in sorted(inventory, key=lambda item: (item["period"], item["region"] == "national", item["region"])):
+        period, region = item["period"], item["region"]
+        sid, path = cache.get(item["url"], item["filename"])
+        book = open_book(path)
+        ranking_sheets, results = [], []
         for sheet in book:
-            if sheet.title == "ΑΠΟΤΕΛΕΣΜΑΤΑ":
+            if sheet.title in ("ΑΠΟΤΕΛΕΣΜΑΤΑ", "Sheet1"):
+                results.extend(result_rows(sheet) or [])
+            else:
+                ranking_sheets.append((sheet.title, list(ranking_rows(sheet))))
+        book.close()
+        general = next(rows for title, rows in ranking_sheets if title == "ΓΕΝΙΚΟΣ")
+        workbook_objects.append((period, region, sid, ranking_sheets, results))
+        for rownum, rank, name, points, category, club, dai in general:
+            if dai:
+                registry[dai].add(key(name))
+        item.update(imported=True, source=sid)
+        if len(workbook_objects) % 30 == 0:
+            print(f"Parsed {len(workbook_objects)}/{len(inventory)} workbooks", flush=True)
+    # Modern registrations are the evidence for linking pre-registration lists.
+    modern_names = defaultdict(list)
+    legacy_homonyms = set()
+    for period, region, sid, sheets, results in workbook_objects:
+        for title, rows in sheets:
+            if title != "ΓΕΝΙΚΟΣ":
                 continue
+            duplicates = Counter(key(row[2]) for row in rows)
+            legacy_homonyms.update(name for name, count in duplicates.items() if count > 1)
+            for rownum, rank, name, points, category, club, dai in rows:
+                if dai:
+                    modern_names[key(name)].append({"id": registry_id(dai, name, registry), "club": club, "registration": dai})
+    def historical_id(dai, name, club, region):
+        if dai:
+            return registry_id(dai, name, registry), "registration", dai
+        if key(name) in legacy_homonyms:
+            return uid("h-", f"{region}:{key(name)}:{key(club)}"), "historical_ambiguous_name", ""
+        found = modern_names.get(key(name), [])
+        same = [p for p in found if key(p["club"]) == key(club)] if club else []
+        pool = same if len({p["id"] for p in same}) == 1 else found
+        if len({p["id"] for p in pool}) == 1:
+            return pool[0]["id"], "historical_exact_name_and_team" if pool is same else "historical_unique_name", pool[0]["registration"]
+        return uid("h-", f"{region}:{key(name)}:{key(club)}"), "historical_unregistered", ""
+    identity_conflicts = [{"registration": dai, "names": sorted(names)} for dai, names in sorted(registry.items()) if len(names) > 1]
+    for period, region, sid, sheets, results in workbook_objects:
+        # Include category-only entries if a source's general table omits them.
+        for title, source_rows in sheets:
             rows = []
-            for rownum, rank, name, points, category, club, dai in ranking_rows(sheet):
-                pid = registry_id(dai, name, registry)
-                if pid not in players:
-                    raise ValueError(f"Category player absent from general list: {pid}")
+            for rownum, rank, name, points, category, club, dai in source_rows:
+                pid, method, registration = historical_id(dai, name, club, region)
+                old = players.get(pid)
+                aliases = sorted(set((old or {}).get("aliases", []) + ([old["name"]] if old and old["name"] != name else [])))
+                players[pid] = {"id": pid, "registration": registration, "name": name, "aliases": aliases,
+                    "club": club_id(club), "category": category, "period": period, "provisional": False,
+                    "identity_conflict": bool(registration and len(registry[registration]) > 1),
+                    "historical_identity": method if not dai else (old or {}).get("historical_identity", "")}
+                if title == "ΓΕΝΙΚΟΣ":
+                    candidates_by_period[period][key(name)].append({"id": pid, "club": club, "source": sid})
                 rows.append([pid, rank, points, club_id(club), category, rownum])
-            snapshots.append({"id": f"{region}:{period}:{sheet.title}", "region": region, "period": period, "list": sheet.title, "source": sid, "rows": rows})
+            repeated = Counter(r[0] for r in rows)
+            for pid, count in repeated.items():
+                if count > 1:
+                    issues.append({"source": sid, "sheet": title, "player": pid, "reason": "repeated_source_ranking", "count": count})
+            snapshots.append({"id": f"{region}:{period}:{canonical_list(title)}:{sid}", "region": region, "period": period,
+                "list": canonical_list(title), "sheet": title, "source": sid, "rows": rows})
 
     records_by_fingerprint = defaultdict(list)
-    for period, region, sid, book in workbook_objects:
-        if "ΑΠΟΤΕΛΕΣΜΑΤΑ" not in book.sheetnames:
-            book.close()
-            continue
+    for period, region, sid, sheets, results in workbook_objects:
         this_source = Counter()
-        for rownum, row in enumerate(book["ΑΠΟΤΕΛΕΣΜΑΤΑ"].iter_rows(values_only=True), 1):
-            if not any(v is not None for v in row):
-                continue
-            if len(row) < 8:
-                raise ValueError(f"Unexpected results row {rownum}")
+        for rownum, row, context in results:
             raw_date, first, second, a, b, first_club, second_club, event_name = row[:8]
             first, second, first_club, second_club, event_name = map(clean, (first, second, first_club, second_club, event_name))
             status = score_status(a, b, second)
             if status != "completed":
-                issues.append({"source": sid, "sheet": "ΑΠΟΤΕΛΕΣΜΑΤΑ", "row": rownum, "reason": status, "score": [a, b]})
+                issues.append({"source": sid, "sheet": context["sheet"], "row": rownum, "reason": status, "score": [a, b]})
                 continue
             try:
                 played = raw_date.date() if isinstance(raw_date, datetime) else datetime.strptime(clean(raw_date), "%d/%m/%Y").date()
@@ -248,6 +308,9 @@ def collect(cache, as_of):
                 continue
             if played > as_of:
                 issues.append({"source": sid, "row": rownum, "reason": "future_result"})
+                continue
+            if abs(played.year - int(period[:4])) > 1:
+                issues.append({"source": sid, "row": rownum, "reason": "date_outside_workbook_year", "date": played.isoformat()})
                 continue
             if not first or not second or not event_name or key(first) == key(second):
                 issues.append({"source": sid, "row": rownum, "reason": "invalid_participants"})
@@ -268,6 +331,10 @@ def collect(cache, as_of):
             for name, club in [(first, first_club), (second, second_club)]:
                 candidates = candidates_by_period[period]
                 pid, method = resolve_player(name, club, candidates)
+                if not pid and method == "team_mismatch" and key(name) not in legacy_homonyms:
+                    found = candidates.get(key(name), [])
+                    if len({p["id"] for p in found}) == 1:
+                        pid, method = found[0]["id"], "unique_name_team_differs"
                 evidence = sorted({p["source"] for p in candidates.get(key(name), []) if p["id"] == pid and (method != "exact_name_and_team" or key(p["club"]) == key(club))})
                 if not pid:
                     # Unresolved identities stay scoped to this source and event.
@@ -288,7 +355,7 @@ def collect(cache, as_of):
             this_source[fingerprint] += 1
             if this_source[fingerprint] <= len(records_by_fingerprint[fingerprint]):
                 original = records_by_fingerprint[fingerprint][this_source[fingerprint] - 1]
-                original["evidence"].append({"source": sid, "row": rownum, "region": region})
+                original["evidence"].append({"source": sid, "row": rownum, "region": region, **context})
                 if region not in original["regions"]:
                     original["regions"].append(region)
                 issues.append({"source": sid, "row": rownum, "reason": "overlapping_source_result"})
@@ -296,40 +363,48 @@ def collect(cache, as_of):
             match = {"id": uid("m-", f"{sid}:{rownum}"), "date": played.isoformat(), "event": eid, "region": region, "regions": [region],
                 "p1": ids[0], "p2": ids[1], "names": [first, second], "score": [int(a), int(b)],
                 "clubs": [club_id(first_club), club_id(second_club)], "identity": methods, "identity_sources": identity_sources,
-                "source": sid, "row": rownum, "evidence": [{"source": sid, "row": rownum, "region": region}]}
+                "source": sid, "row": rownum, "evidence": [{"source": sid, "row": rownum, "region": region, **context}]}
             matches.append(match)
             records_by_fingerprint[fingerprint].append(match)
-        book.close()
 
     _, season_path = cache.get(SEASON, "season.html")
-    soup = BeautifulSoup(season_path.read_text(), "html.parser")
-    main = soup.select_one("#wsite-content") or soup
     visited = set()
     deferred = []
-    for anchor in main.find_all("a", href=True):
-        url = urljoin(BASE, anchor["href"])
-        label = clean(anchor.get_text(" "))
-        if not label or not safe_url(url) or url in visited:
-            continue
-        visited.add(url)
-        if not re.search(r"/2026-(2027|27)-[^/]+\.html$", url):
-            deferred.append({"label": label, "url": url, "reason": "document_or_other_season"})
-            continue
-        try:
-            sid, path = cache.get(url, "a1.html" if url == BASE + "2026-2027-a1.html" else None)
-            html = path.read_text()
-            page = BeautifulSoup(html, "html.parser")
-            title = clean(page.title.get_text()).split(" - ΠΑΝΕΛ")[0] if page.title else label
-            eid = uid("e-", url)
-            parsed = parse_fixture_tables(html, sid, url, eid)
-            events[eid] = {"id": eid, "name": title, "season": "2026-2027", "kind": "fixtures", "sources": [sid]}
-            for f in parsed:
-                f["clubs"] = [club_id(f["home"]), club_id(f["away"])]
-            fixtures.extend(parsed)
-            if not parsed:
-                deferred.append({"label": title, "url": url, "reason": "no_supported_fixture_table"})
-        except (OSError, ValueError) as exc:
-            deferred.append({"label": label, "url": url, "reason": "source_unavailable", "detail": str(exc)})
+    season_inventory = []
+    for season_name, season_url in seasons(season_path.read_text(), BASE):
+        season_sid, path = cache.get(season_url, "season.html" if season_url == SEASON else None)
+        links = content_links(path.read_text(), season_url)
+        season_inventory.append({"season": season_name, "url": season_url, "linked_sources": len(links)})
+        if not links:
+            deferred.append({"label": season_name, "url": season_url, "reason": "no_linked_results"})
+        for label, url in links:
+            if not safe_url(url) or url in visited:
+                continue
+            visited.add(url)
+            if not url.endswith((".html", ".pdf")):
+                deferred.append({"label": label, "url": url, "season": season_name, "reason": "image_result"})
+                continue
+            try:
+                sid, path = cache.get(url, "a1.html" if url == BASE + "2026-2027-a1.html" else None)
+                eid = uid("e-", url)
+                if url.endswith(".pdf"):
+                    title = label
+                    parsed, pdf_info = extract_pdf(path, sid, eid, uid)
+                    if pdf_info["has_bracket"]:
+                        deferred.append({"label": title, "url": url, "reason": "pdf_bracket_requires_review", "parsed_fixtures": len(parsed)})
+                else:
+                    html = path.read_text()
+                    page = BeautifulSoup(html, "html.parser")
+                    title = clean(page.title.get_text()).split(" - ΠΑΝΕΛ")[0] if page.title else label
+                    parsed = parse_fixture_tables(html, sid, url, eid)
+                events[eid] = {"id": eid, "name": title, "season": season_name, "kind": "fixtures", "sources": [sid]}
+                for f in parsed:
+                    f["clubs"] = [club_id(f["home"]), club_id(f["away"])]
+                fixtures.extend(parsed)
+                if not parsed:
+                    deferred.append({"label": title, "url": url, "reason": "no_supported_fixture_table"})
+            except (OSError, ValueError) as exc:
+                deferred.append({"label": label, "url": url, "reason": "source_unavailable", "detail": str(exc)})
 
     referenced_players = {m[p] for m in matches for p in ("p1", "p2")}
     players = {pid: p for pid, p in players.items() if not p["provisional"] or pid in referenced_players}
@@ -342,7 +417,7 @@ def collect(cache, as_of):
         "match_date_min": min((m["date"] for m in matches), default=None), "match_date_max": max((m["date"] for m in matches), default=None),
         "excluded_rows": dict(Counter(i["reason"] for i in issues)),
         "identity_methods": dict(Counter(v for m in matches for v in m["identity"])),
-        "identity_conflicts": identity_conflicts, "deferred": deferred, "workbook_inventory": inventory}
+        "identity_conflicts": identity_conflicts, "season_inventory": season_inventory, "deferred": deferred, "workbook_inventory": inventory}
     return {"schema": 1, "coverage": coverage, "sources": list(cache.sources.values()), "players": list(players.values()),
         "clubs": list(clubs.values()), "events": list(events.values()), "snapshots": snapshots, "matches": matches, "fixtures": fixtures, "issues": issues}
 
@@ -353,7 +428,7 @@ def main():
     parser.add_argument("--refresh", action="store_true", help="Re-fetch configured source scope")
     parser.add_argument("--as-of", default=date.today().isoformat())
     parser.add_argument("--cache", type=Path, default=ROOT / "capture")
-    parser.add_argument("--output", type=Path, default=ROOT / "data/catalog.json")
+    parser.add_argument("--output", type=Path, default=ROOT / "data/catalog.json.gz")
     args = parser.parse_args()
     if args.offline and args.refresh:
         parser.error("--offline and --refresh are mutually exclusive")
@@ -361,9 +436,8 @@ def main():
     from validate import validate
     validate(data)
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    temporary = args.output.with_suffix(".tmp")
-    temporary.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    temporary.replace(args.output)
+    from dataset import save
+    save(data, args.output)
     print(json.dumps({k: v for k, v in data["coverage"].items() if k not in ("workbook_inventory", "deferred")}, ensure_ascii=False, indent=2))
 
 
