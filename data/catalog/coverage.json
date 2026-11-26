@@ -139,7 +139,7 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 137366,
+ "matches": 137373,
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
@@ -161,7 +161,7 @@
  },
  "identity_methods": {
   "sheet_registration": 1205,
-  "reviewed_sheet_name_and_team": 581,
+  "reviewed_sheet_name_and_team": 595,
   "unique_name_in_month": 45112,
   "exact_name_and_team": 182512,
   "unique_name_team_differs": 32029,
@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 296,
-  "imported_sheets": 240,
-  "held": 56,
-  "pending": 13215,
+  "reviewed": 326,
+  "imported_sheets": 264,
+  "held": 62,
+  "pending": 13185,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6142,11 +6142,71 @@
     "reason": "unresolved_identity",
     "details": "Two G.P.S. (M) participants have handwritten registrations 10578 and 10557 but no matching athlete profiles or contemporary ranking identities were found. The other two singles already exist in the workbook.",
     "details_el": "Δεν έχουν επιβεβαιωθεί δύο αθλητές της G.P.S. (M), με χειρόγραφους ΔΑΙ 10578 και 10557. Τα δύο ατομικά αποτελέσματα των επιβεβαιωμένων αθλητών υπάρχουν ήδη."
+   },
+   {
+    "source": "s-a0f5c2173aa2f672",
+    "url": "http://files.ping-pong.gr/FA26-27/OMU-PLG.jpg",
+    "fixture": "f-fbd28656250ba69d",
+    "sha256": "ae97fff433dfacaca30fd562b50785aa7475dd235099c413e6bd77bcdefb2cbd",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "The opening ΚΑΡΑΜΗΤΣΙΟΣ–ΚΟΜΠΟΥΡΗΣ rubber is 0–3 on the sheet but 2–3 in the workbook. The two ΜΟΥΣΤΑΚΑΣ appearances also need separate identity confirmation. Preserve the six existing results.",
+    "details_el": "Το πρώτο ατομικό σκορ είναι 0–3 στο φύλλο και 2–3 στο αρχείο. Χρειάζεται επίσης επιβεβαίωση των δύο συμμετοχών ΜΟΥΣΤΑΚΑΣ."
+   },
+   {
+    "source": "s-8c9065df104e4715",
+    "url": "http://files.ping-pong.gr/FA26-27/PM3-PET.jpg",
+    "fixture": "f-2288d2ad1fa32580",
+    "sha256": "7ffefc9291111b2ea16030195f09d47a06ff552aa85bb12c3c520b1bc2d7cdae",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 4 ΔΗΜΗΤΡΙΑΔΗΣ–ΒΟΛΙΚΑΣ is totalled 3–2 on the sheet but is 3–1 in the workbook; the game-point row is overwritten and incomplete. Preserve the nine existing results.",
+    "details_el": "Το τέταρτο ατομικό σκορ γράφει 3–2, αλλά το αρχείο γράφει 3–1. Οι πόντοι είναι διορθωμένοι και ελλιπείς."
+   },
+   {
+    "source": "s-2e1a1a0eca8b89df",
+    "url": "http://files.ping-pong.gr/FA26-27/TTV-6BK.jpg",
+    "fixture": "f-7da6433f12fc689b",
+    "sha256": "ae882e2c7265b8cf70661d485d8e700c123faaae5d149193a63dfb8dd84655a8",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 2 ΑΡΓΥΡΙΑΔΗΣ–ΣΤΕΦΑΝΟΠΟΥΛΟΣ is 3–1 on the sheet but 3–0 in the workbook. Preserve the eight existing results until the score conflict is resolved.",
+    "details_el": "Το δεύτερο ατομικό σκορ είναι 3–1 στο φύλλο και 3–0 στο αρχείο. Διατηρούνται τα υπάρχοντα αποτελέσματα."
+   },
+   {
+    "source": "s-3031e386042f66a7",
+    "url": "http://files.ping-pong.gr/FA26-27/CDR-CHN.jpg",
+    "fixture": "f-6d660564606fb6d7",
+    "sha256": "220890932f2f49648a78b9247f5ee7aef2d2af8b621a480064b6fc65695681bc",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The first home participant name and registration cannot be matched confidently to a contemporary Cretan Dentists athlete profile. The folded, blurred sheet needs identity confirmation.",
+    "details_el": "Το όνομα και ο ΔΑΙ του πρώτου αθλητή της Cretan Dentists δεν έχουν συνδεθεί με βεβαιότητα. Το φύλλο είναι διπλωμένο και θολό."
+   },
+   {
+    "source": "s-1f03e1692d5e6cf0",
+    "url": "http://files.ping-pong.gr/FA26-27/FNF-MPD.jpg",
+    "fixture": "f-6305577ea392dd24",
+    "sha256": "34d1b320179d625e99a7858c477fd223847087fc368600101dea01887ff01ed7",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The first Fast and Furious participant has an unclear surname and registration that do not establish a reliable match to an existing athlete profile. Confirm the identity before importing the 21 November encounter.",
+    "details_el": "Δεν έχει επιβεβαιωθεί το δυσανάγνωστο όνομα και ο ΔΑΙ του πρώτου αθλητή των Fast and Furious για τον αγώνα της 21ης Νοεμβρίου."
+   },
+   {
+    "source": "s-cb244129afbb5001",
+    "url": "http://files.ping-pong.gr/FA26-27/MGL-CHP.jpg",
+    "fixture": "f-4f4f82cbcfb97bbe",
+    "sha256": "66e461039a933a10aa406f2cda23e8ea8c09421dfcba1b574638c83513b5e83b",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΜΠΟΥΡΟΥΣ is explicitly numbered 2412 (ΣΤΥΛΙΑΝΟΣ), whereas the two workbook rubbers name 2822 (ΠΕΤΡΟΣ). Both profiles belong to THE CHAMPIONS, so surname and team cannot resolve the conflict. Preserve the five existing results.",
+    "details_el": "Ο ΜΠΟΥΡΟΥΣ γράφεται με ΔΑΙ 2412 (ΣΤΥΛΙΑΝΟΣ), αλλά το αρχείο τον συνδέει με 2822 (ΠΕΤΡΟΣ). Και οι δύο ανήκουν στην ίδια ομάδα και απαιτείται επιβεβαίωση."
    }
   ],
-  "imported": 893,
-  "corroborated": 690,
-  "excluded_walkovers": 24,
+  "imported": 900,
+  "corroborated": 831,
+  "excluded_walkovers": 25,
   "reviews": [
    {
     "source": "s-adfb32f236e751d3",
@@ -8322,6 +8382,224 @@
     "corroborated": 3,
     "imported": 2,
     "notes": "ΚΟΤΣΑΡΗ is identified by the clearly written 2963 and contemporary ranking profile. The row 5 substitute ΚΑΡΑΜΟΥΖΗ has an erroneous handwritten 2780; her name, team and exact existing workbook result identify 2760. Do not assert the erroneous registration."
+   },
+   {
+    "source": "s-4d0573597ff43cab",
+    "url": "http://files.ping-pong.gr/FA26-27/DPR-NRX.jpg",
+    "fixture": "f-e30f9461402e2407",
+    "date": "2026-11-20",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": "Actual handwritten date is 20 November, later than the nominal round. The six unnumbered surnames uniquely match contemporary team rosters; ΠΛΑΚΑΣ is the existing ΠΛΑΚΑΣ-ΚΟΥΜΑΔΩΡΑΚΗΣ profile. Row 2 total is 3–0 although the last game points are incomplete; use the explicit rubber total, also consistent with the 16–6 aggregate."
+   },
+   {
+    "source": "s-45614f8e556678f1",
+    "url": "http://files.ping-pong.gr/FA26-27/PM4-SVR.jpg",
+    "fixture": "f-520c35f27df7adab",
+    "date": "2026-10-29",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "ΜΑΣΙΟΥ replaces ΖΥΡΙΝΙΔΟΥ in row 5. Row 6 contains names but no scores and is excluded."
+   },
+   {
+    "source": "s-845e41a2b91bc991",
+    "url": "http://files.ping-pong.gr/FA26-27/ASE-ELE.jpg",
+    "fixture": "f-8f56c66c656cd377",
+    "date": "2026-10-28",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "The two substitutions and all seven official scores agree with the workbook. Row 4 game points contain an inconsistency; retain the independently corroborated 3–0 rubber total without importing game points."
+   },
+   {
+    "source": "s-22c33c0441a74a54",
+    "url": "http://files.ping-pong.gr/FA26-27/AIG-RSF.jpg",
+    "fixture": "f-24cfe327a1f50d79",
+    "date": "2026-10-25",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "ΜΟΥΝΤΟΓΙΑΝΝΑΚΗΣ replaces ΤΣΙΤΟΓΛΟΥ in row 5. All five pairs and scores match the workbook."
+   },
+   {
+    "source": "s-d5ad621ee73cece5",
+    "url": "http://files.ping-pong.gr/FA26-27/FLE-MAE.jpg",
+    "fixture": "f-24c5a6f06516b6a1",
+    "date": "2026-10-23",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "Rows 7–9 are unplayed template rows with 0–0 totals and no game scores; exclude them."
+   },
+   {
+    "source": "s-9b382fcacce9927f",
+    "url": "http://files.ping-pong.gr/FA26-27/APR-PLN.jpg",
+    "fixture": "f-00b81f97613dbaa3",
+    "date": "2026-10-22",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "The cropped date field retains only Thursday. All nine exact workbook pairs establish Thursday 22 October 2026, independently of the scheduled round. ΜΠΟΖΙΝΗΣ substitutes only in row 9."
+   },
+   {
+    "source": "s-e922db8bf238ce1f",
+    "url": "http://files.ping-pong.gr/FA26-27/VAG-FNX.jpg",
+    "fixture": "f-884451f7fc379ffa",
+    "date": "2026-10-22",
+    "season": "2026-2027",
+    "corroborated": 4,
+    "walkover": 1,
+    "notes": "Away Y is crossed out and marked ά/α, with three 11–0 games. Exclude row 2 as a walkover; the other four played singles match the workbook."
+   },
+   {
+    "source": "s-edb09078ec301871",
+    "url": "http://files.ping-pong.gr/FA26-27/THB-THE.jpg",
+    "fixture": "f-d1231fedf7e9964e",
+    "date": "2026-10-21",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "The six individual row totals, game points and workbook pairs agree; the footer mis-adds the home sets as 4 instead of 5. Team result is 1–5."
+   },
+   {
+    "source": "s-ae80602e5690eae1",
+    "url": "http://files.ping-pong.gr/FA26-27/F91-VLD.jpg",
+    "fixture": "f-a4246909e16f31a2",
+    "date": "2026-10-19",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "ΚΟΡΔΑΤΟΣ is written with an inconsistent registration 2391; the name, team and both exact workbook results establish 2309. Do not assert the written registration."
+   },
+   {
+    "source": "s-304a185050289cf7",
+    "url": "http://files.ping-pong.gr/FA26-27/PM2-LBH.jpg",
+    "fixture": "f-6ef6fb93551156ba",
+    "date": "2026-10-17",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "ΠΑΛΤΣΙΔΗΣ replaces ΜΙΧΑΗΛΙΔΗΣ in row 6. All six pairs and scores match the workbook."
+   },
+   {
+    "source": "s-b27c6bdc90f1f154",
+    "url": "http://files.ping-pong.gr/FA26-27/FRT-ATK.jpg",
+    "fixture": "f-538ff73cc0452811",
+    "date": "2026-10-17",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "TRENDAFILI substitutes in row 4. All six pairs and scores match the workbook."
+   },
+   {
+    "source": "s-aa3ad8d5cb405bc8",
+    "url": "http://files.ping-pong.gr/FA26-27/AIG-RCL.jpg",
+    "fixture": "f-39e9be30f04cc30b",
+    "date": "2026-10-17",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": ""
+   },
+   {
+    "source": "s-c2a332b251b657e8",
+    "url": "http://files.ping-pong.gr/FA26-27/SWV-ATT.jpg",
+    "fixture": "f-90831ad50b7c81bc",
+    "date": "2026-10-16",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "All seven official row totals and workbook pairs agree. Row 8 has stray game points but no participants or rubber total, after the 5–2 result was reached; it is excluded."
+   },
+   {
+    "source": "s-76cae6b0cf95091c",
+    "url": "http://files.ping-pong.gr/FA26-27/ECG-LMN.jpg",
+    "fixture": "f-cf054b2ddd890011",
+    "date": "2026-10-16",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "ΠΕΡΑΚΗΣ replaces ΙΩΑΝΝΟΥ in rows 6 and 9. All nine row totals match the workbook. Row 1 has an inconsistent game-point entry; retain the independently corroborated 3–0 rubber total without importing game points."
+   },
+   {
+    "source": "s-eb6d485f5c2fce2d",
+    "url": "http://files.ping-pong.gr/FA26-27/RBL-AEA.jpg",
+    "fixture": "f-062e43fb024f1b93",
+    "date": "2026-10-15",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-5c35b6da10f728f3",
+    "url": "http://files.ping-pong.gr/FA26-27/PVV-RBL.jpg",
+    "fixture": "f-d6c40b76ead345d6",
+    "date": "2026-10-15",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "All unnumbered identities are supported by the team rosters and five exact workbook pairs. ΘΕΟΔΩΡΙΔΗΣ substitutes in row 5."
+   },
+   {
+    "source": "s-b7ca549af4aa38d3",
+    "url": "http://files.ping-pong.gr/FA26-27/25o-S40.jpg",
+    "fixture": "f-ee1c25c410b05db5",
+    "date": "2026-10-15",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "Unnumbered identities are confirmed by team and all five exact workbook pairs."
+   },
+   {
+    "source": "s-a87fb9d31303aeda",
+    "url": "http://files.ping-pong.gr/FA26-27/APR-NAU.jpg",
+    "fixture": "f-9da4bc580e5a5749",
+    "date": "2026-10-14",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "All five individual row totals agree with the workbook. Row 4 game points contain an inconsistent entry; retain the independently corroborated 3–2 rubber total and do not import game points."
+   },
+   {
+    "source": "s-d9ab158eecb2282f",
+    "url": "http://files.ping-pong.gr/FA26-27/DXE-KVE.jpg",
+    "fixture": "f-c6d38037612c4f3d",
+    "date": "2026-10-14",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "ΜΠΕΚΙΑΡΗΣ replaces ΔΟΝΤΣΙΟΣ in rows 5 and 7. All seven scores match the workbook."
+   },
+   {
+    "source": "s-551e42b574e08d5a",
+    "url": "http://files.ping-pong.gr/FA26-27/SRD-TBP.jpg",
+    "fixture": "f-2e873c06f3b5f35a",
+    "date": "2026-10-13",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "All nine unnumbered pairs and scores match the workbook."
+   },
+   {
+    "source": "s-356e38079df8fe54",
+    "url": "http://files.ping-pong.gr/FA26-27/SGN-BBL.jpg",
+    "fixture": "f-910cae359b705396",
+    "date": "2026-10-12",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-a986c3fc63c6c0cd",
+    "url": "http://files.ping-pong.gr/FA26-27/GSM-IPK.jpg",
+    "fixture": "f-3f47d50a7705ef0d",
+    "date": "2026-10-12",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "All five unnumbered pairs and scores match the workbook."
+   },
+   {
+    "source": "s-e617b53f9d47bbdc",
+    "url": "http://files.ping-pong.gr/FA26-27/GLZ-KLN.jpg",
+    "fixture": "f-33ff90b81087c040",
+    "date": "2026-10-12",
+    "season": "2026-2027",
+    "corroborated": 4,
+    "imported": 1,
+    "notes": "ΧΑΦΤΑΣ ΗΛΙΑΣ resolves to the September 2026 registration 2970, replacing the older 5049 ranking profile. No existing same-date match against ΜΟΥΤΖΟΥΡΕΛΛΗΣ exists under either identity. The four other rubbers match the workbook."
+   },
+   {
+    "source": "s-92ac674be9291817",
+    "url": "http://files.ping-pong.gr/FA26-27/SNT-NDL.jpg",
+    "fixture": "f-f68b69163ce5b6e8",
+    "date": "2026-10-11",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "All unnumbered names are resolved by team and six exact workbook pairs."
    }
   ]
  }

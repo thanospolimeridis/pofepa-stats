@@ -446,5 +446,53 @@
     "reason": "unresolved_identity",
     "details": "Two G.P.S. (M) participants have handwritten registrations 10578 and 10557 but no matching athlete profiles or contemporary ranking identities were found. The other two singles already exist in the workbook.",
     "details_el": "Δεν έχουν επιβεβαιωθεί δύο αθλητές της G.P.S. (M), με χειρόγραφους ΔΑΙ 10578 και 10557. Τα δύο ατομικά αποτελέσματα των επιβεβαιωμένων αθλητών υπάρχουν ήδη."
+  },
+  "http://files.ping-pong.gr/FA26-27/OMU-PLG.jpg": {
+    "fixture": "f-fbd28656250ba69d",
+    "sha256": "ae97fff433dfacaca30fd562b50785aa7475dd235099c413e6bd77bcdefb2cbd",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "The opening ΚΑΡΑΜΗΤΣΙΟΣ–ΚΟΜΠΟΥΡΗΣ rubber is 0–3 on the sheet but 2–3 in the workbook. The two ΜΟΥΣΤΑΚΑΣ appearances also need separate identity confirmation. Preserve the six existing results.",
+    "details_el": "Το πρώτο ατομικό σκορ είναι 0–3 στο φύλλο και 2–3 στο αρχείο. Χρειάζεται επίσης επιβεβαίωση των δύο συμμετοχών ΜΟΥΣΤΑΚΑΣ."
+  },
+  "http://files.ping-pong.gr/FA26-27/PM3-PET.jpg": {
+    "fixture": "f-2288d2ad1fa32580",
+    "sha256": "7ffefc9291111b2ea16030195f09d47a06ff552aa85bb12c3c520b1bc2d7cdae",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 4 ΔΗΜΗΤΡΙΑΔΗΣ–ΒΟΛΙΚΑΣ is totalled 3–2 on the sheet but is 3–1 in the workbook; the game-point row is overwritten and incomplete. Preserve the nine existing results.",
+    "details_el": "Το τέταρτο ατομικό σκορ γράφει 3–2, αλλά το αρχείο γράφει 3–1. Οι πόντοι είναι διορθωμένοι και ελλιπείς."
+  },
+  "http://files.ping-pong.gr/FA26-27/TTV-6BK.jpg": {
+    "fixture": "f-7da6433f12fc689b",
+    "sha256": "ae882e2c7265b8cf70661d485d8e700c123faaae5d149193a63dfb8dd84655a8",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 2 ΑΡΓΥΡΙΑΔΗΣ–ΣΤΕΦΑΝΟΠΟΥΛΟΣ is 3–1 on the sheet but 3–0 in the workbook. Preserve the eight existing results until the score conflict is resolved.",
+    "details_el": "Το δεύτερο ατομικό σκορ είναι 3–1 στο φύλλο και 3–0 στο αρχείο. Διατηρούνται τα υπάρχοντα αποτελέσματα."
+  },
+  "http://files.ping-pong.gr/FA26-27/CDR-CHN.jpg": {
+    "fixture": "f-6d660564606fb6d7",
+    "sha256": "220890932f2f49648a78b9247f5ee7aef2d2af8b621a480064b6fc65695681bc",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The first home participant name and registration cannot be matched confidently to a contemporary Cretan Dentists athlete profile. The folded, blurred sheet needs identity confirmation.",
+    "details_el": "Το όνομα και ο ΔΑΙ του πρώτου αθλητή της Cretan Dentists δεν έχουν συνδεθεί με βεβαιότητα. Το φύλλο είναι διπλωμένο και θολό."
+  },
+  "http://files.ping-pong.gr/FA26-27/FNF-MPD.jpg": {
+    "fixture": "f-6305577ea392dd24",
+    "sha256": "34d1b320179d625e99a7858c477fd223847087fc368600101dea01887ff01ed7",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The first Fast and Furious participant has an unclear surname and registration that do not establish a reliable match to an existing athlete profile. Confirm the identity before importing the 21 November encounter.",
+    "details_el": "Δεν έχει επιβεβαιωθεί το δυσανάγνωστο όνομα και ο ΔΑΙ του πρώτου αθλητή των Fast and Furious για τον αγώνα της 21ης Νοεμβρίου."
+  },
+  "http://files.ping-pong.gr/FA26-27/MGL-CHP.jpg": {
+    "fixture": "f-4f4f82cbcfb97bbe",
+    "sha256": "66e461039a933a10aa406f2cda23e8ea8c09421dfcba1b574638c83513b5e83b",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΜΠΟΥΡΟΥΣ is explicitly numbered 2412 (ΣΤΥΛΙΑΝΟΣ), whereas the two workbook rubbers name 2822 (ΠΕΤΡΟΣ). Both profiles belong to THE CHAMPIONS, so surname and team cannot resolve the conflict. Preserve the five existing results.",
+    "details_el": "Ο ΜΠΟΥΡΟΥΣ γράφεται με ΔΑΙ 2412 (ΣΤΥΛΙΑΝΟΣ), αλλά το αρχείο τον συνδέει με 2822 (ΠΕΤΡΟΣ). Και οι δύο ανήκουν στην ίδια ομάδα και απαιτείται επιβεβαίωση."
   }
 }
