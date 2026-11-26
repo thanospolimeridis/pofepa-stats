@@ -139,7 +139,7 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 137412,
+ "matches": 137385,
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
@@ -161,11 +161,11 @@
  },
  "identity_methods": {
   "sheet_registration": 1276,
-  "reviewed_sheet_name_and_team": 607,
+  "reviewed_sheet_name_and_team": 609,
   "unique_name_in_month": 45112,
-  "exact_name_and_team": 182509,
+  "exact_name_and_team": 182454,
   "unique_name_team_differs": 32029,
-  "name_not_found": 12149,
+  "name_not_found": 12148,
   "ambiguous_name": 269,
   "team_mismatch": 873
  },
@@ -5579,8 +5579,8 @@
  "match_sheets": {
   "linked": 13511,
   "reviewed": 1992,
-  "imported_sheets": 1629,
-  "held": 363,
+  "imported_sheets": 1651,
+  "held": 341,
   "pending": 11518,
   "issues": [
    {
@@ -6294,16 +6294,6 @@
     "details_el": "Το δεύτερο αποτέλεσμα ΧΑΛΚΙΔΗΣ–ΨΑΡΟΥΔΑΚΗΣ αναγράφεται 3–2, αλλά τα επιμέρους σετ δεν συμφωνούν. Απαιτείται διευκρίνιση. Ημερομηνία φύλλου: 2 Ιουνίου 2026."
    },
    {
-    "source": "s-fe774a80db8074ec",
-    "url": "http://files.ping-pong.gr/FA25-26/NAU-TTVpo.jpg",
-    "fixture": "f-ea36089d9057f3f8",
-    "sha256": "843aac27e55c8b311ac65025b782d64b46c6cdc1960cdf2fc7523e8c86671b93",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_participant",
-    "details": "The 13 May sheet row 9 is ΚΑΡΑΪΩΣΗΦ–ΧΑΛΚΙΔΗΣ 3-1. The workbook instead has a second ΑΛΕΞΑΝΔΡΙΔΗΣ–ΧΑΛΚΙΔΗΣ result, 3-1, beside their row-6 3-0. Held to avoid adding a tenth result or silently changing the participant.",
-    "details_el": "Στις 13 Μαΐου, το ένατο αποτέλεσμα είναι ΚΑΡΑΪΩΣΗΦ–ΧΑΛΚΙΔΗΣ 3–1. Το βιβλίο καταγράφει δεύτερο ΑΛΕΞΑΝΔΡΙΔΗΣ–ΧΑΛΚΙΔΗΣ με 3–1 αντί γι’ αυτό. Απαιτείται διευκρίνιση αθλητή."
-   },
-   {
     "source": "s-b461b11ec4d84239",
     "url": "http://files.ping-pong.gr/FA25-26/BWK-ATTpo.jpg",
     "fixture": "f-13ef728ca87a266c",
@@ -6694,16 +6684,6 @@
     "details_el": "Το φύλλο Βετεράνοι Κεφαλονιάς-Ιθάκης–RED HOT CHILI PONGERS έχει κενό πεδίο ημερομηνίας. Επτά αγώνες διακρίνονται με τελικό 2–5, αλλά απαιτείται τεκμηρίωση της πραγματικής ημερομηνίας."
    },
    {
-    "source": "s-fa8bc56d60713955",
-    "url": "http://files.ping-pong.gr/FA25-26/D06-ATB.jpg",
-    "fixture": "f-cf6dfff66d6dc955",
-    "sha256": "b625c065c02735145d4aea0c376d2d3fd82f2103010720f67bc91c98113ddd92",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_match_status",
-    "details": "3 April 2026 sheet explicitly says ΜΑΡΙΝΟΣ injured; rows 3, 6 and 8 are 0-3 with dashed games, administrative walkovers. These exact rows are currently scored as played workbook matches. Held for explicit status reconciliation rather than preserving incorrect athlete counts. Other played rows: ΡΑΠΤΑΚΗΣ–ΠΑΠΑΝΤΩΝΙΟΥ 1-3, ΒΑΣΑΓΙΑΝΝΗΣ–ΛΕΪΜΟΝΗΣ 3-2, ΒΑΣΑΓΙΑΝΝΗΣ–ΠΑΠΑΝΤΩΝΙΟΥ 3-0, ΡΑΠΤΑΚΗΣ–ΒΑΧΛΑΣ 1-3, ΒΑΣΑΓΙΑΝΝΗΣ–ΒΑΧΛΑΣ 3-0.",
-    "details_el": "Το φύλλο της 3 ης Απριλίου 2026 αναφέρει τραυματισμό ΜΑΡΙΝΟΥ και μη παιγμένα 0–3 στις γραμμές 3, 6 και 8. Αυτές οι γραμμές μετρούν ήδη ως παιγμένες στο βιβλίο. Χρειάζεται ρητή διόρθωση της κατάστασής τους."
-   },
-   {
     "source": "s-85ad7faa1908f013",
     "url": "http://files.ping-pong.gr/FA25-26/SLG-STV.jpg",
     "fixture": "f-5641dfad0bff847c",
@@ -6854,16 +6834,6 @@
     "details_el": "Το πεδίο ημερομηνίας περιέχει μόνο ΔΕΥΤΕΡΑ, χωρίς ημερολογιακή ημερομηνία. Παρότι πέντε αντίστοιχα αποτελέσματα υπάρχουν στις 16/03/2026, το φύλλο δεν τεκμηριώνει αυτή την ημερομηνία."
    },
    {
-    "source": "s-68240dbcb0134c3b",
-    "url": "http://files.ping-pong.gr/FA25-26/ATV-APK.jpg",
-    "fixture": "f-66809579c2bb80e8",
-    "sha256": "198230c592901a687aaef1b71142468af3ebb80e69420cc5dcaf0e08a7d2cad8",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_score",
-    "details": "The sheet explicitly says ΓΟΥΔΗΣ ΝΑΟΥΜ withdrew due to injury; row 5 has no played games and is an administrative 0-3. Existing match m-b 5 e 30202 b 7160 e 1 a counts ΓΟΥΔΗΣ–ΝΤΙΝΑΣ on 2026-03-15 as played 0-3. Hold until that workbook-derived result is reconciled; full draft retained separately.",
-    "details_el": "Το φύλλο δηλώνει αποχώρηση ΓΟΥΔΗ ΝΑΟΥΜ λόγω τραυματισμού. Η γραμμή 5 δεν έχει παιγμένα σετ και αποτελεί διοικητικό 0-3. Η εγγραφή m-b 5 e 30202 b 7160 e 1 a καταμετρά ΓΟΥΔΗΣ–ΝΤΙΝΑΣ στις 15/03/2026 ως παιγμένο 0-3. Απαιτείται συμφωνία της εγγραφής· η πλήρης μεταγραφή διατηρήθηκε χωριστά."
-   },
-   {
     "source": "s-a4dc44cabc603f30",
     "url": "http://files.ping-pong.gr/FA25-26/APN-APK.jpg",
     "fixture": "f-5ca59a4eaa617330",
@@ -6872,26 +6842,6 @@
     "reason": "conflicting_participant",
     "details": "The away roster labels ΣΤΕΦΑΝΙΔΗΣ Ν. (46) and ΝΤΙΝΑΣ Γ. (1515), while registered catalog/workbook athletes are ΣΤΕΦΑΝΙΔΗΣ ΓΕΩΡΓΙΟΣ and ΝΤΙΝΑΣ ΝΙΚΟΛΑΟΣ. Both given-name initials conflict. ΨΙΑΝΟΣ also has a wrong printed registration 2019 rather than 2090, which alone would be resolvable.",
     "details_el": "Οι φιλοξενούμενοι αναγράφονται ως ΣΤΕΦΑΝΙΔΗΣ Ν. (46) και ΝΤΙΝΑΣ Γ. (1515), ενώ τα προφίλ και το αρχείο γράφουν ΣΤΕΦΑΝΙΔΗΣ ΓΕΩΡΓΙΟΣ και ΝΤΙΝΑΣ ΝΙΚΟΛΑΟΣ. Και τα δύο αρχικά μικρού ονόματος αντιφάσκουν. Ο ΨΙΑΝΟΣ έχει επίσης λανθασμένο αριθμό 2019 αντί 2090, που μόνος του θα μπορούσε να επιλυθεί."
-   },
-   {
-    "source": "s-7b1af14267b53462",
-    "url": "http://files.ping-pong.gr/FA25-26/AMF-RDL.jpg",
-    "fixture": "f-02136198075d2bf2",
-    "sha256": "da276765a7aa36b40268aac424c16082da69dc80b376a0a82dd621c1ed9c3287",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_walkover",
-    "details": "Sheet explicitly marks named rubbers as ΑΝΕΥ ΑΓΩΝΑ, but corresponding workbook results currently count as played. Hold for evidence-based statistics correction; affected match IDs retained in blocked transcription.",
-    "details_el": "Το φύλλο χαρακτηρίζει ονομαστικούς αγώνες ως άνευ αγώνα, ενώ το βιβλίο τους μετρά ως παιγμένους. Απαιτείται διόρθωση των στατιστικών βάσει τεκμηρίωσης."
-   },
-   {
-    "source": "s-3e31871518a906f7",
-    "url": "http://files.ping-pong.gr/FA25-26/ELF-ETH.jpg",
-    "fixture": "f-de958a3cdb0c2b3c",
-    "sha256": "f59134d660723311a871d7b2406daac124d5d12e46959e0ccd1be0e733b28602",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_walkover",
-    "details": "Sheet explicitly marks named rubbers as ΑΝΕΥ ΑΓΩΝΑ, but corresponding workbook results currently count as played. Hold for evidence-based statistics correction; affected match IDs retained in blocked transcription.",
-    "details_el": "Το φύλλο χαρακτηρίζει ονομαστικούς αγώνες ως άνευ αγώνα, ενώ το βιβλίο τους μετρά ως παιγμένους. Απαιτείται διόρθωση των στατιστικών βάσει τεκμηρίωσης."
    },
    {
     "source": "s-331002a5b38f68f8",
@@ -6922,16 +6872,6 @@
     "reason": "conflicting_score",
     "details": "29 March 2026 row 7 ΜΠΑΛΙΟΥΣΚΑΣ–ΜΑΤΗΣ written 3-2, but only four game scores appear and yield 3-1; workbook records 3-1. Hold pending score reconciliation.",
     "details_el": "Η έβδομη αναμέτρηση ΜΠΑΛΙΟΥΣΚΑΣ–ΜΑΤΗΣ αναγράφεται 3–2, αλλά τα τέσσερα σετ και το βιβλίο δείχνουν 3–1."
-   },
-   {
-    "source": "s-51780ac944b2483e",
-    "url": "http://files.ping-pong.gr/FA25-26/MK2-AP6.jpg",
-    "fixture": "f-00e888c63721664e",
-    "sha256": "e7d57810c8307480d1b142ed3d921b0263aebcddbf566723cd189c6809298dde",
-    "reviewed_at": "2026-11-26",
-    "reason": "unresolved_identity",
-    "details": "21 March 2026 ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ handwritten 2662 is absent from registered catalog. Workbook uses provisional u-9538 e 67 fc 000 c 7 ee, unlike May provisional u-df 76 a 9 a 0 ac 2147 b 5; do not invent registered identity or merge provisional profiles. Rows 2,6 explicitly ΑΝΕΥ although workbook counts them as played.",
-    "details_el": "Ο ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ αναγράφεται με μητρώο 2662 που δεν υπάρχει στον κατάλογο. Το προσωρινό προφίλ Μαρτίου διαφέρει από του Μαΐου. Οι αγώνες 2,6 είναι άνευ αγώνα και απαιτούν επίσης διόρθωση."
    },
    {
     "source": "s-8e881c737a524dd9",
@@ -6974,16 +6914,6 @@
     "details_el": "Η πρώτη γραμμή ΜΑΥΡΟΜΜΑΤΗΣ–ΚΑΡΑΓΕΩΡΓΟΣ αναγράφεται 1–3, αλλά τα τέσσερα σετ δίνουν 2–2. Απαιτείται διευκρίνιση του τελευταίου σετ ή του τελικού σκορ."
    },
    {
-    "source": "s-97e82bd029042c93",
-    "url": "http://files.ping-pong.gr/FA25-26/ECG-PM4.jpg",
-    "fixture": "f-3657a52c4d1c802d",
-    "sha256": "8e2a0197dfb45870bc7bcb4ef534b83ff6405cd4d96d72c8c8cd3e1eb313e16a",
-    "reviewed_at": "2026-11-26",
-    "reason": "walkover_conflicts_with_existing_played_results",
-    "details": "Rows 2 and 6 name ΜΑΣΙΟΥ but show dashes instead of games and administrative 3–0 results; both are currently recorded as played on 9 March. Reconcile their status before accepting this sheet.",
-    "details_el": "Οι γραμμές 2 και 6 αναγράφουν ΜΑΣΙΟΥ αλλά έχουν παύλες αντί σετ και αποτέλεσμα 3–0. Υπάρχουν ως παιγμένοι αγώνες στις 9 Μαρτίου· απαιτείται έλεγχος της κατάστασής τους."
-   },
-   {
     "source": "s-5071ad0949363d51",
     "url": "http://files.ping-pong.gr/FA25-26/NDL-KVE.jpg",
     "fixture": "f-6cd8a7eaa5c13c3f",
@@ -6992,16 +6922,6 @@
     "reason": "contradictory_rubber_score",
     "details": "Row 8 writes 3–2 but contains four game scores and the workbook gives 3–1 for ΤΟΥΜΠΑΣ–ΓΡΑΒΑΛΗΣ on 18 March 2026. Do not infer a corrected rubber score.",
     "details_el": "Η γραμμή 8 γράφει 3–2 αλλά περιέχει τέσσερα σετ, ενώ το αρχείο αποτελεσμάτων δίνει 3–1 για ΤΟΥΜΠΑΣ–ΓΡΑΒΑΛΗΣ στις 18/3/2026. Χρειάζεται διευκρίνιση."
-   },
-   {
-    "source": "s-f29fa5ef47578925",
-    "url": "http://files.ping-pong.gr/FA25-26/THB-MG1.jpg",
-    "fixture": "f-344d1f3e3e4129c1",
-    "sha256": "d03c32a5d941b2532b37d99d7c85d2d12e9b72a2a96e80efd0ce411f77904556",
-    "reviewed_at": "2026-11-26",
-    "reason": "retirement_status_reconciliation",
-    "details": "Row 5 ΚΟΡΡΑΣ has ΑΠΟΧΩΡΗΣΕ after a played first game 11–7 and final 3–0. Same played result exists. Reconcile retirement status without treating it as an unplayed walkover or deleting the existing result. Full draft preserved separately.",
-    "details_el": "Η γραμμή 5 αναφέρει ΑΠΟΧΩΡΗΣΕ μετά από παιγμένο πρώτο σετ 11–7 και τελικό 3–0. Χρειάζεται καταγραφή εγκατάλειψης, όχι χαρακτηρισμός ως άνευ αγώνα ούτε διαγραφή του υπάρχοντος αποτελέσματος."
    },
    {
     "source": "s-8fdb56240ab34374",
@@ -7032,16 +6952,6 @@
     "reason": "missing_match_date",
     "details": "The sheet date field is entirely blank. Same-event workbook 8 March 2026 is insufficient to supply an unstated sheet date.",
     "details_el": "Το πεδίο ημερομηνίας είναι κενό. Δεν συμπληρώνεται αυθαίρετα η ημερομηνία 8/3/2026 από το αρχείο αποτελεσμάτων."
-   },
-   {
-    "source": "s-5c7c302bb974de51",
-    "url": "http://files.ping-pong.gr/FA25-26/ATX-APK.jpg",
-    "fixture": "f-cc9cfd19cdc4ce6a",
-    "sha256": "93ed08a1a950fce4e5e6dd0cad02723f6c7a1a81fbb71df8e1eb4810a15ce759",
-    "reviewed_at": "2026-11-26",
-    "reason": "walkover_conflicts_with_existing_played_results",
-    "details": "Row 6 away player and games are dashes, administrative 3–0, but workbook records ΒΑΣΙΛΟΥΔΗΣ–ΠΕΤΡΙΔΗΣ 3–0 as played. Reconcile before accepting the sheet.",
-    "details_el": "Στη γραμμή 6 ο φιλοξενούμενος και τα σετ είναι παύλες με 3–0, αλλά υπάρχει παιγμένος ΒΑΣΙΛΟΥΔΗΣ–ΠΕΤΡΙΔΗΣ 3–0 στο αρχείο αποτελεσμάτων. Απαιτείται συμφωνία κατάστασης."
    },
    {
     "source": "s-5799c99385bcb9ce",
@@ -7192,16 +7102,6 @@
     "reason": "conflicting_score",
     "details": "Dated 3 March 2026. Row 3 ΑΔΑΜΙΔΗΣ–ΑΠΟΣΤΟΛΙΔΗΣ records 2–3, but its five complete game entries are 12–10, 7–11, 11–3, 11–9, 5–11, giving three home wins. Enlarged inspection confirms the contradiction. Do not infer a correction.",
     "details_el": "Στις 3/3/2026 ο τρίτος αγώνας ΑΔΑΜΙΔΗΣ–ΑΠΟΣΤΟΛΙΔΗΣ καταγράφεται 2–3, ενώ τα πέντε επιμέρους σκορ 12–10, 7–11, 11–3, 11–9, 5–11 δίνουν τρία κερδισμένα σετ στον γηπεδούχο. Απαιτείται διευκρίνιση."
-   },
-   {
-    "source": "s-0fbfaed43f9b14e7",
-    "url": "http://files.ping-pong.gr/FA25-26/SF2-TRB.jpg",
-    "fixture": "f-7dcedd7dec1dcc6d",
-    "sha256": "571eb46b99c69cd91085cbc00e7b618d62f2adad7df9abdbbf0c7811dbafc286",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_participant",
-    "details": "Sheet dated 8 March 2026 has row 2 ΚΟΛΛΥΡΗΣ–ΠΑΛΗΟΣ 3–0 and row 4 ΚΟΛΛΥΡΗΣ–ΓΚΙΡΗΣ 3–0. Existing workbook has two same-date ΚΟΛΛΥΡΗΣ–ΠΑΛΗΟΣ 3–0 matches (m-cf 70 e 8 b 6 b 6492 aee, m-abf 536 bf 39 e 3 f 1 ee), so importer correctly rejects ambiguous corroboration. Preserve full sheet draft and reconcile source workbook before adding/corroborating.",
-    "details_el": "Το φύλλο της 8/3/2026 έχει ΚΟΛΛΥΡΗΣ–ΠΑΛΗΟΣ 3–0 στη δεύτερη σειρά και ΚΟΛΛΥΡΗΣ–ΓΚΙΡΗΣ 3–0 στην τέταρτη. Το υπάρχον αρχείο περιέχει δύο αποτελέσματα ΚΟΛΛΥΡΗΣ–ΠΑΛΗΟΣ 3–0 την ίδια ημέρα. Απαιτείται συμφιλίωση των εγγραφών."
    },
    {
     "source": "s-b623a43e1d6131d8",
@@ -7434,16 +7334,6 @@
     "details_el": "Το φύλλο γράφει 17/2/2026, ενώ οι ίδιες αναμετρήσεις υπάρχουν στο βιβλίο 1/3/2026. Αναμονή για αποφυγή διπλοεγγραφών."
    },
    {
-    "source": "s-2d2bbc2cc15092be",
-    "url": "http://files.ping-pong.gr/FA25-26/AVG-ES2.jpg",
-    "fixture": "f-a1abc4609071577b",
-    "sha256": "decf29e10955c49200c5c7b12cbc0f016dfea077e46f33f1e5ef92c8d944d8a9",
-    "reviewed_at": "2026-11-26",
-    "reason": "walkover_reconciliation",
-    "details": "Row 8 Orfanidis versus blank opponent has no played game scores and 3–0; workbook already counts Orfanidis–Demou 3–0 as played. Hold full sheet until reconciliation; preserve seven genuinely played rubbers and full blocked draft.",
-    "details_el": "Η 8 η γραμμή Ορφανίδης–κενός αντίπαλος έχει παύλες και 3–0, ενώ το βιβλίο μετρά Ορφανίδης–Δέμου ως παιγμένο. Απαιτείται συμφωνία στοιχείων."
-   },
-   {
     "source": "s-69d8b38f4e753957",
     "url": "http://files.ping-pong.gr/FA25-26/AN1-SPD.jpg",
     "fixture": "f-b93f767fdaea5731",
@@ -7504,16 +7394,6 @@
     "details_el": "Το φύλλο γράφει 15/1/2025 ενώ περίοδος και βιβλίο δείχνουν 2026. Δεν διορθώνεται σιωπηρά το έτος."
    },
    {
-    "source": "s-0a4c6629beb49b32",
-    "url": "http://files.ping-pong.gr/FA25-26/RDL-ART.jpg",
-    "fixture": "f-46cc7f30a9e250c6",
-    "sha256": "4b3ad37cff7a58f0629ba1388d96a74ff7985eb495a307e02b15b73ba76aa312",
-    "reviewed_at": "2026-11-26",
-    "reason": "walkover_reconciliation",
-    "details": "Row 6 Chelmis–Cholis marked injury with no games and 3–0; workbook already counts it as played. Hold full sheet for injury status reconciliation, preserving five played rubbers.",
-    "details_el": "Η 6 η γραμμή Χέλμης–Χόλης γράφει τραυματισμός χωρίς σετ, αλλά το βιβλίο την καταγράφει ως παιγμένη. Αναμονή συμφωνίας στοιχείων."
-   },
-   {
     "source": "s-13f3ce998f135498",
     "url": "http://files.ping-pong.gr/FA25-26/DIO-PTH.jpg",
     "fixture": "f-2fdb529955a9348c",
@@ -7564,16 +7444,6 @@
     "details_el": "Η ημερομηνία 29/1/2026 διαφέρει από 1/2/2026 του αρχείου. Χρειάζεται και επιβεβαίωση ταυτότητας ΤΑΡΑΜΠΟΥΛΟΥΣ."
    },
    {
-    "source": "s-3c7bbc6e0a3f4a27",
-    "url": "http://files.ping-pong.gr/FA25-26/AKR-D06.jpg",
-    "fixture": "f-52d098033f89fed2",
-    "sha256": "780435a705ea6c5512e6f6bed9d3fab815ef231c7ad7575044bea2064e7e04a9",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_score",
-    "details": "Explicit ΜΠΑΤΖΑΚΑΣ injury retirement. Row 3 partial play 11–5 then dashes awarded 1–3; rows 6,8 named unplayed 0–3 currently counted played. Existing IDs m-03 b 8 ea 1 b 893319 e 8,m-23 d 7 afed 7 eeb 5 d 36,m-dc 9 fb 3 e 5 fbcefbbb require reconciliation. Printed ΡΑΠΤΑΚΗΣ 4395 differs from workbook 855. Full draft preserved.",
-    "details_el": "Δηλωμένη αποχώρηση ΜΠΑΤΖΑΚΑ λόγω θλάσης. Η 3 η αναμέτρηση διακόπηκε, οι 6 η και 8 η δεν παίχτηκαν αλλά καταγράφονται ως κανονικοί αγώνες."
-   },
-   {
     "source": "s-7bcac83b6a593c08",
     "url": "http://files.ping-pong.gr/FA25-26/AP1-ILR.jpg",
     "fixture": "f-64af28c3b0df90d2",
@@ -7582,16 +7452,6 @@
     "reason": "missing_date",
     "details": "Date field blank; no date inferred from workbook or schedule.",
     "details_el": "Το πεδίο ημερομηνίας είναι κενό."
-   },
-   {
-    "source": "s-506d4c55e9c58fe8",
-    "url": "http://files.ping-pong.gr/FA25-26/FRB-AEH.jpg",
-    "fixture": "f-5462242172b9f6b8",
-    "sha256": "74c593903621309eb0141fa659dc741ac7484205f8d312e5f4bbb90a88e61db5",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_score",
-    "details": "Row 5 ΔΩΡΙΖΑΣ–ΣΚΑΤΖΗΣ 0–3 has dashed game columns: named walkover, already counted as played in m-7 a 76 d 04 d 0860 eb 9 a. Full draft preserved; reconcile before import.",
-    "details_el": "Η 5 η αναμέτρηση ΔΩΡΙΖΑΣ–ΣΚΑΤΖΗΣ είναι άνευ αγώνα αλλά ήδη καταμετράται ως παιγμένη."
    },
    {
     "source": "s-58ed8f1833b5df6a",
@@ -7692,16 +7552,6 @@
     "reason": "conflicting_score",
     "details": "Draft: row 6 explicit 2-3 contradicts four complete games 11-7,4-11,5-11,4-11 and workbook 1-3.",
     "details_el": "Το σκορ της 6 ης αναμέτρησης 2-3 διαφωνεί με τα τέσσερα σετ 1-3 και το βιβλίο."
-   },
-   {
-    "source": "s-d7e3f257d25aef4b",
-    "url": "http://files.ping-pong.gr/FA25-26/AP7-KPG.jpg",
-    "fixture": "f-6efaa6d38fdb3877",
-    "sha256": "ef67df36357ca01435ae34eed2550022127443f15c26da7577669a1ee72e3476",
-    "reviewed_at": "2026-11-26",
-    "reason": "walkover_conflict",
-    "details": "Draft: ΒΕΪΟΠΟΥΛΟΣ injured per explicit note; row 6 has crossed-out name/no games, administrative 3-0. Workbook already counts it played; hold correction.",
-    "details_el": "Η 6 η αναμέτρηση άνευ αγώνα λόγω τραυματισμού καταγράφεται ήδη ως παιγμένη στο βιβλίο."
    },
    {
     "source": "s-bc5815d3f04f6ef0",
@@ -8084,16 +7934,6 @@
     "details_el": "Η σημείωση αλλαγής αναφέρει Χουπατέλη και Ζαχαρίου χωρίς αντιστοίχιση σε επιμέρους αγώνα. Απαιτείται διευκρίνιση."
    },
    {
-    "source": "s-5d15bf15b7807524",
-    "url": "http://files.ping-pong.gr/FA25-26/BMB-FRB.jpg",
-    "fixture": "f-6644c00620cd6baf",
-    "sha256": "3e0e4633d3462c48b617ab8acf144429859cc24e0da9e4989cca9c8dbefea657",
-    "reviewed_at": "2026-11-26",
-    "reason": "walkover-conflicts-with-played-match",
-    "details": "Rows 6 and 9 award 3–0 against Δωρίζας with no point scores (row 6 explicitly dashed), while the workbook counts both named pairs as played singles on 1 December. These require reconciliation before the sheet can be accepted.",
-    "details_el": "Οι γραμμές 6 και 9 καταχωρίζουν 3–0 χωρίς πόντους έναντι Δωρίζα, αλλά το αρχείο τις μετρά ως παιγμένους αγώνες. Απαιτείται συμφωνία των πηγών."
-   },
-   {
     "source": "s-d1c0caa003f0ada1",
     "url": "http://files.ping-pong.gr/FA25-26/EFR-OTK.jpg",
     "fixture": "f-822d3c23ac9192db",
@@ -8262,16 +8102,6 @@
     "reason": "conflicting_score",
     "details": "Row 5 HUANG–ΛΥΚΟΥΡΙΝΟΣ explicit 2–3 but complete games 11–8,12–10,11–2,8–11,8–11 give 3–2.",
     "details_el": "Το 2–3 στην 5 η αναμέτρηση αντιφάσκει με τρία κερδισμένα αρχικά σετ."
-   },
-   {
-    "source": "s-23bc8231c5aa8e69",
-    "url": "http://files.ping-pong.gr/FA25-26/AP1-LTT.jpg",
-    "fixture": "f-23348a5f055ec44e",
-    "sha256": "57db6d361d4aa4e7bc0463b1d8028dbd75dad4ee6a274a3949f1c82feaec6d68",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_score",
-    "details": "Row 9 home A explicitly ΑΝΕΥ with no games,0–3. Same-day existing m-94 e 33 e 292 ad 3 eb 24 ΧΡΥΣΑΝΘΟΠΟΥΛΟΣ–ΔΗΜΟΓΛΗΣ 0–3 counted played. Reconcile excluded last rubber before import; full draft preserved.",
-    "details_el": "Η 9 η αναμέτρηση δηλώνεται ΑΝΕΥ, αλλά ο αγώνας ΧΡΥΣΑΝΘΟΠΟΥΛΟΣ–ΔΗΜΟΓΛΗΣ ήδη μετρά ως παιγμένος."
    },
    {
     "source": "s-8172e6362cea2cb7",
@@ -8724,36 +8554,6 @@
     "details_el": "Αντίφαση 3–2 με τέσσερα κερδισμένα σετ στην 3 η αναμέτρηση. Επιπλέον η συνδεδεμένη εγγραφή συγχωνεύει ονόματα ομάδων και δεν διαθέτει τελικό σκορ."
    },
    {
-    "source": "s-63cab43e173b3b39",
-    "url": "http://files.ping-pong.gr/FA25-26/PKL-EAI.jpg",
-    "fixture": "f-fe9d5f1f21730d87",
-    "sha256": "04cf70d0492dd0c2e835f8cb825342690c0e7fe310408faa115c509e82133953",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_score",
-    "details": "Row 5 ΤΡΑΝΟΥΛΙΔΗΣ–ΤΟΛΙΑΣ explicitly ANEY AGONA, 0–3 with no games; existing workbook m-f 9 becdc 97508 ea 4 f counts same pair/day as played. Full draft preserved for reconciliation.",
-    "details_el": "Η 5 η αναμέτρηση ΤΡΑΝΟΥΛΙΔΗΣ–ΤΟΛΙΑΣ δηλώνεται άνευ αγώνα αλλά ήδη μετρά ως παιγμένη στο αρχείο."
-   },
-   {
-    "source": "s-fc5d6d9cd70931d0",
-    "url": "http://files.ping-pong.gr/FA25-26/APK-APN.jpg",
-    "fixture": "f-d8739d95e6507650",
-    "sha256": "dbfbd3ae2d15c1c98ed30baea6635753b0276460b21245a7c18cf2803417d2ba",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_score",
-    "details": "Row 9 away explicitly AA and blank games, home 3–0 administrative award. Same-day ΑΡΓΥΡΙΑΔΗΣ–ΜΑΡΚΟΠΟΥΛΟΣ Ν. m-d 1938 b 29323 a 47 db already counted played. Full draft preserves prior-slot athlete for required reconciliation.",
-    "details_el": "Η 9 η αναμέτρηση είναι άνευ αγώνα αλλά ΑΡΓΥΡΙΑΔΗΣ–ΜΑΡΚΟΠΟΥΛΟΣ ήδη μετρά ως παιγμένη."
-   },
-   {
-    "source": "s-5a3cbabc9041cdad",
-    "url": "http://files.ping-pong.gr/FA25-26/ATH-ART.jpg",
-    "fixture": "f-1c82f43e5348c830",
-    "sha256": "29ae193b933992061ae0dff2949f57730b561f77318ebe43f657a3e2bdaa73df",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_score",
-    "details": "Row 5 ΑΣΛΑΝ–ΜΑΝΩΛΟΠΟΥΛΟΣ explicitly ANEY with no games, 3–0; existing workbook m-60879 c 4 a 98 dc 3499 counts played. Full draft retained for reconciliation.",
-    "details_el": "Η 5 η αναμέτρηση ΑΣΛΑΝ–ΜΑΝΩΛΟΠΟΥΛΟΣ δηλώνεται άνευ αγώνα αλλά ήδη μετρά ως παιγμένη."
-   },
-   {
     "source": "s-4a240801faddf0ab",
     "url": "http://files.ping-pong.gr/FA25-26/ATT-EM1.jpg",
     "fixture": "f-a68bbc467e4033c1",
@@ -9154,16 +8954,6 @@
     "details_el": "Η 3 η γραμμή γράφει 2–3 αλλά τα πέντε καταγεγραμμένα σετ δίνουν 3–2. Διατηρείται πλήρης μεταγραφή."
    },
    {
-    "source": "s-2283d131dcfb459a",
-    "url": "http://files.ping-pong.gr/FA25-26/TDT-AP2.jpg",
-    "fixture": "f-65e3be3a3e9bcd08",
-    "sha256": "d4b23ad1d48fbe57479d01ff2c08afb0520f75b0eaafe75f0e4d9fc7885d2013",
-    "reviewed_at": "2026-11-26",
-    "reason": "walkover_conflict",
-    "details": "Named Papaspyros rows 2/6 explicitly lack games with diagonal strokes and 3–0 awards, whereas existing workbook records those pairs as played. Preserve full draft; reconcile played statistics before accepting.",
-    "details_el": "Οι 2 η/6 η γραμμές για Παπασπύρο έχουν διαγώνιες γραμμές αντί σετ αλλά υπάρχουν ως παιγμένοι αγώνες στο αρχείο. Απαιτείται συμφιλίωση των στατιστικών."
-   },
-   {
     "source": "s-66e505a9b1131298",
     "url": "http://files.ping-pong.gr/FA25-26/TBL-PPA.jpg",
     "fixture": "f-776e14f1f7c691f2",
@@ -9182,16 +8972,6 @@
     "reason": "conflicting_date",
     "details": "Source explicitly 7/2/2006, whereas linked 2025–26 season and workbook place event 7 February 2026. No silent source-year correction.",
     "details_el": "Το φύλλο γράφει 7/2/2006 ενώ το συνδεδεμένο πρωτάθλημα και το αρχείο αναφέρουν 2026. Δεν διορθώνεται σιωπηρά το έτος."
-   },
-   {
-    "source": "s-2319519938890cde",
-    "url": "http://files.ping-pong.gr/FA25-26/PAO-ATN.jpg",
-    "fixture": "f-fc9bff12fb755198",
-    "sha256": "0b4ee4a3b6f798f6714cc654452c1281cac0b80276893a1880adfa6c39a217a6",
-    "reviewed_at": "2026-11-26",
-    "reason": "walkover_conflict",
-    "details": "Row 7 Michopoulos–Dalitsikas explicitly shows dashes instead of games and 0–3 award, but existing workbook marks pair played. Preserve full draft pending no-play reconciliation.",
-    "details_el": "Η 7 η γραμμή Μιχόπουλος–Δαλιτσίκας έχει παύλες αντί σετ αλλά υπάρχει ως παιγμένος αγώνας. Απαιτείται διόρθωση στατιστικών πριν την εισαγωγή."
    },
    {
     "source": "s-f35c569db15b5ccc",
@@ -9237,8 +9017,8 @@
    "2025-2026": {
     "linked": 1597,
     "reviewed": 1596,
-    "accepted": 1303,
-    "held": 293,
+    "accepted": 1325,
+    "held": 271,
     "unavailable": 1,
     "pending": 0
    },
@@ -9340,9 +9120,9 @@
    }
   },
   "imported": 939,
-  "corroborated": 9720,
+  "corroborated": 9858,
   "excluded_team_walkovers": 11,
-  "excluded_walkovers": 288,
+  "excluded_walkovers": 315,
   "reviews": [
    {
     "source": "s-adfb32f236e751d3",
@@ -24154,6 +23934,223 @@
     "season": "2025-2026",
     "corroborated": 7,
     "notes": "Re-reviewed original 27 February 2026 sheet and enlarged roster: ΜΑΡΤΟΣ ΘΟΔΩΡ./Θ. registration2707 (earlier2777 reading corrected), existing February provisional ΜΑΡΤΟΣ ΘΕΟΔΩΡΟΣ. All seven played rows already exist with exact same date, players, scores and oriented clubs. Attach source evidence to the existing provisional only; no registered-profile reassignment, new singles, global merge or ranking changes. Explicit row7 ΜΠΙΣΤΟΛΑΣ2284 substitution retained."
+   },
+   {
+    "source": "s-fe774a80db8074ec",
+    "url": "http://files.ping-pong.gr/FA25-26/NAU-TTVpo.jpg",
+    "fixture": "f-ea36089d9057f3f8",
+    "date": "2026-05-13",
+    "season": "2025-2026",
+    "corroborated": 9,
+    "notes": "Independently reviewed13May2026 source. Row9 explicitly ΚΑΡΑΪΩΣΗΦ–ΧΑΛΚΙΔΗΣ3–1, complete games11–5,11–4,12–14,11–8. Workbook row151 erroneously repeats ΑΛΕΞΑΝΔΡΙΔΗΣ, while correct row6 ΑΛΕΞΑΝΔΡΙΔΗΣ–ΧΑΛΚΙΔΗΣ3–0 remains unchanged. Correct only row151 participant using original row-order evidence. Row8 fourth point cell is obscured, but explicit3–2 agrees workbook and team progression; no point score inferred. All other complete games agree rubber totals, final team5–4/games19–16."
+   },
+   {
+    "source": "s-0fbfaed43f9b14e7",
+    "url": "http://files.ping-pong.gr/FA25-26/SF2-TRB.jpg",
+    "fixture": "f-7dcedd7dec1dcc6d",
+    "date": "2026-03-08",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Independently reviewed8March2026 source. Row2 explicitly ΚΟΛΛΥΡΗΣ–ΠΑΛΗΟΣ3–0 (11–6,11–3,11–2), row4 explicitly ΚΟΛΛΥΡΗΣ–ΓΚΙΡΗΣ3–0 (11–2,11–5,11–5). Workbook contiguous rows398–404 exactly follow seven sheet rows but erroneously repeat ΠΑΛΗΟΣ at row401. Correct row401 only to ΓΚΙΡΗΣ2784; preserve row399 ΠΑΛΗΟΣ. All complete games agree totals, final team5–2/games17–8. Workbook away club ΤΡ. ΕΛΛΑ. BLOCK and fixture ΤΡ.ΕΛΛΑ BLOCK are spacing/punctuation variants of the same source team; no global club merge."
+   },
+   {
+    "source": "s-fa8bc56d60713955",
+    "url": "http://files.ping-pong.gr/FA25-26/D06-ATB.jpg",
+    "fixture": "f-cf6dfff66d6dc955",
+    "date": "2026-04-03",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "walkover": 3,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Explicit ΜΑΡΙΝΟΣ ΤΡΑΥΜΑΤΙΣΜΟΣ note, all row3 game cells dashes, 0–3 administrative award. Same injury note, all row6 game cells dashes, 0–3 administrative award. Same injury note, all row8 game cells dashes, 0–3 administrative award. ΡΑΠΤΑΚΗΣ identified by surname, club and exact workbook pairings, not anomalous sheet number4395."
+   },
+   {
+    "source": "s-97e82bd029042c93",
+    "url": "http://files.ping-pong.gr/FA25-26/ECG-PM4.jpg",
+    "fixture": "f-3657a52c4d1c802d",
+    "date": "2026-03-09",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "walkover": 2,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Named ΜΑΣΙΟΥ with dashes in every game cell, administrative3–0; row6 repeats same absent player. Named ΜΑΣΙΟΥ with dashes in every game cell, administrative3–0; row2 repeats same absent player."
+   },
+   {
+    "source": "s-f29fa5ef47578925",
+    "url": "http://files.ping-pong.gr/FA25-26/THB-MG1.jpg",
+    "fixture": "f-344d1f3e3e4129c1",
+    "date": "2026-03-13",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Row5 ΓΙΑΝΝΑΚΟΠΟΥΛΟΣ–ΚΟΡΡΑΣ remains a played retirement: first game11–7 followed by ΑΠΟΧΩΡΗΣΕ, recorded3–0. All other rows visually checked and exactly corroborate workbook."
+   },
+   {
+    "source": "s-5c7c302bb974de51",
+    "url": "http://files.ping-pong.gr/FA25-26/ATX-APK.jpg",
+    "fixture": "f-cc9cfd19cdc4ce6a",
+    "date": "2026-03-08",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "walkover": 1,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Away participant and all games explicitly dashed;3–0 award, starting Y Petridis earlier played row2 but absent row6. Starting away Y is ΠΕΤΡΙΔΗΣ104 as established by played row2; row6 Y position is blank/dashed and not played."
+   },
+   {
+    "source": "s-2d2bbc2cc15092be",
+    "url": "http://files.ping-pong.gr/FA25-26/AVG-ES2.jpg",
+    "fixture": "f-a1abc4609071577b",
+    "date": "2026-02-12",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "walkover": 1,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Away participant blank/dash and all game cells dashed;3–0 administrative award. Orfanidis explicitly replaces Nomidis."
+   },
+   {
+    "source": "s-0a4c6629beb49b32",
+    "url": "http://files.ping-pong.gr/FA25-26/RDL-ART.jpg",
+    "fixture": "f-46cc7f30a9e250c6",
+    "date": "2026-01-28",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "walkover": 1,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. ΤΡΑΥΜΑΤΙΣΜΟΣ across game area, no played point/game recorded in this rubber,3–0 award. Earlier Cholis match row2 was played and must remain."
+   },
+   {
+    "source": "s-2283d131dcfb459a",
+    "url": "http://files.ping-pong.gr/FA25-26/TDT-AP2.jpg",
+    "fixture": "f-65e3be3a3e9bcd08",
+    "date": "2026-02-03",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "walkover": 2,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Named Papaspyros, first three game cells diagonal strokes with no points,3–0 award; same absent Y again row6. Named Papaspyros, first three game cells diagonal strokes with no points,3–0 award; same absent Y row2."
+   },
+   {
+    "source": "s-2319519938890cde",
+    "url": "http://files.ping-pong.gr/FA25-26/PAO-ATN.jpg",
+    "fixture": "f-fc9bff12fb755198",
+    "date": "2026-02-14",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "walkover": 1,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Named Michopoulos–Dalitsikas with three dashed game cells and0–3 award; no game played in row7."
+   },
+   {
+    "source": "s-68240dbcb0134c3b",
+    "url": "http://files.ping-pong.gr/FA25-26/ATV-APK.jpg",
+    "fixture": "f-66809579c2bb80e8",
+    "date": "2026-03-15",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "walkover": 1,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Explicit ΓΟΥΔΗΣ ΝΑΟΥΜ withdrew due to injury; row5 home name crossed out and entire game area line/no points,0–3 award. His completed row1 remains played."
+   },
+   {
+    "source": "s-7b1af14267b53462",
+    "url": "http://files.ping-pong.gr/FA25-26/AMF-RDL.jpg",
+    "fixture": "f-02136198075d2bf2",
+    "date": "2026-04-23",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "walkover": 2,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Explicit ΑΝΕΥ across game area,0–3 administrative award, no played games. Explicit ΑΝΕΥ, home name dash,0–3 administrative award, no played games."
+   },
+   {
+    "source": "s-3e31871518a906f7",
+    "url": "http://files.ping-pong.gr/FA25-26/ELF-ETH.jpg",
+    "fixture": "f-de958a3cdb0c2b3c",
+    "date": "2026-03-31",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "walkover": 1,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Explicit ΑΝΕΥ ΑΓΩΝΑ across game area,3–0 administrative award."
+   },
+   {
+    "source": "s-3c7bbc6e0a3f4a27",
+    "url": "http://files.ping-pong.gr/FA25-26/AKR-D06.jpg",
+    "fixture": "f-52d098033f89fed2",
+    "date": "2026-02-02",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "walkover": 2,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Explicit Mpatzakas injury departure note; all row6 game cells crosses,0–3 award. Do not conflate with partially played row3. Same injury departure note; row8 no point/game scores,0–3 award after departure. Partially played row3 remains played. Row3 remains a played retirement: first game11–5, followed by injury and recorded1–3; only later rows6/8 are no-play."
+   },
+   {
+    "source": "s-506d4c55e9c58fe8",
+    "url": "http://files.ping-pong.gr/FA25-26/FRB-AEH.jpg",
+    "fixture": "f-5462242172b9f6b8",
+    "date": "2026-01-23",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "walkover": 1,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Named Dorizas–Skatzis with three dashed game cells,0–3 administrative award. Other rubbers have ordinary game scores."
+   },
+   {
+    "source": "s-d7e3f257d25aef4b",
+    "url": "http://files.ping-pong.gr/FA25-26/AP7-KPG.jpg",
+    "fixture": "f-6efaa6d38fdb3877",
+    "date": "2026-01-23",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "walkover": 1,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Explicit ΒΕΪΟΠΟΥΛΟΣ ΤΡΑΥΜΑΤΙΣΜΟΣ note; row6 away name crossed out and all five game columns dashed,3–0 award."
+   },
+   {
+    "source": "s-23bc8231c5aa8e69",
+    "url": "http://files.ping-pong.gr/FA25-26/AP1-LTT.jpg",
+    "fixture": "f-23348a5f055ec44e",
+    "date": "2025-12-03",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "walkover": 1,
+    "notes": "Source visually reviewed; named no-play rows explicitly excluded by workbook corrections. Prior hold resolved: row9 A explicitly ΑΝΕΥ with no games; named initial A participant retained for reconciliation against existing played m-94e33e292ad3eb24. Day/month3 December season establishes2025."
+   },
+   {
+    "source": "s-63cab43e173b3b39",
+    "url": "http://files.ping-pong.gr/FA25-26/PKL-EAI.jpg",
+    "fixture": "f-fe9d5f1f21730d87",
+    "date": "2025-11-09",
+    "season": "2025-2026",
+    "corroborated": 4,
+    "walkover": 1,
+    "notes": "Source visually reviewed; named no-play rows explicitly excluded by workbook corrections. Prior hold resolved: named walkover row 5 Tranoulidis–Tolias already counted played in workbook; reconciled through explicit correction."
+   },
+   {
+    "source": "s-fc5d6d9cd70931d0",
+    "url": "http://files.ping-pong.gr/FA25-26/APK-APN.jpg",
+    "fixture": "f-d8739d95e6507650",
+    "date": "2025-11-09",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "walkover": 1,
+    "notes": "Source visually reviewed; named no-play rows explicitly excluded by workbook corrections. Prior hold resolved: row 9 explicitly AA with no game scores; prior roster Markopoulos N. already counted played against Argyriadis in workbook."
+   },
+   {
+    "source": "s-5a3cbabc9041cdad",
+    "url": "http://files.ping-pong.gr/FA25-26/ATH-ART.jpg",
+    "fixture": "f-1c82f43e5348c830",
+    "date": "2025-11-04",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "walkover": 1,
+    "notes": "Source visually reviewed; named no-play rows explicitly excluded by workbook corrections. Prior hold resolved: row 5 Aslan–Manolopoulos explicitly ANEY, already counted played in workbook."
+   },
+   {
+    "source": "s-51780ac944b2483e",
+    "url": "http://files.ping-pong.gr/FA25-26/MK2-AP6.jpg",
+    "fixture": "f-00e888c63721664e",
+    "date": "2026-03-21",
+    "season": "2025-2026",
+    "corroborated": 4,
+    "walkover": 2,
+    "notes": "Source visually reviewed; named no-play rows explicitly excluded by workbook corrections. Rows 2 and 6 explicitly ΑΝΕΥ ΑΓΩΝΑ. Row 3 is played 0–3 with games 7–11,9–11,7–11. Retain existing provisional Tarampoulous identity matched by name, club and played row; do not create profile from sheet number 2662. ΜΠΑΚΟΛΑΣ registration 1363 in roster; row4 1368 is a transcription typo."
+   },
+   {
+    "source": "s-5d15bf15b7807524",
+    "url": "http://files.ping-pong.gr/FA25-26/BMB-FRB.jpg",
+    "fixture": "f-6644c00620cd6baf",
+    "date": "2025-12-01",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "walkover": 2,
+    "notes": "Visually reviewed source; explicit no-play workbook records are excluded using hash-bound corrections. Dorizas row6 explicitly lined out across game area,3–0 administrative award; same absent opponent row9. Dorizas row9 again has no games,3–0 award following explicitly lined-out row6; earlier row2 was played and retained. ΜΑΚΟΣ Β. uses Βαγγέλης nickname for registered Ευάγγελος; surname, club and all same-event pairings agree."
    }
   ]
  }
