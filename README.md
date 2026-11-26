@@ -92,7 +92,9 @@ Public POFΕPA pages and XLSX workbooks
   → scripts/build.py → index.html + dist/ (offline/static website)
 ```
 
-The repository is local and has no configured GitHub remote or deployed URL. It includes GitHub Actions validation and a manually triggered Pages workflow. To publish after creating/pushing a GitHub repository, select **GitHub Actions** as the Pages source in repository settings, then run **Publish GitHub Pages**. Ordinary pushes run validation only.
+[Source repository](https://github.com/thanospolimeridis/pofepa-stats) · [Website](https://thanospolimeridis.github.io/pofepa-stats/) · [Offline edition](https://thanospolimeridis.github.io/pofepa-stats/offline.html)
+
+GitHub Pages uses GitHub Actions, following `greek-tt-stats`: pushes to `main` validate the data, build the site twice to check reproducibility, and publish `dist/`. Other branches run validation only. Use `develop` for new work and move reviewed releases to `main` when they should be published. The initial release is tagged `v0.1.0`. **Publish GitHub Pages** can also be triggered manually on `main` to redeploy the current release.
 
 No API keys, cookies or secrets are required. Production builds run offline against the committed dataset; only the collector contacts POFΕPA.
 
