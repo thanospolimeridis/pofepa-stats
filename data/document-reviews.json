@@ -1,0 +1,2377 @@
+[
+  {
+    "url": "http://files.ping-pong.gr/2026-2027/ST2-202627.pdf",
+    "sha256": "0a3c3556bb1766113dd7b9faab3bbc8e7f6bcdc0523c65eda1d325c06956c60e",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "no_reported_results",
+    "notes": "Published schedule/draw contains no reported match scores.",
+    "expected_fixtures": 0,
+    "fixture_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-ANEX-2026-27.pdf",
+    "sha256": "274c9dcd1fcc9d33c5a30e2b050d037835d7fbec9f962e5b1d73b5b5d31320b9",
+    "pages": 3,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 18,
+    "fixture_digest": "01ba7c6bf451987aabc02de3bb5e0fc190aad145773ba46c9357a0f1f85157a9"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2026-2027/CUP-KMAK-ANEX-2026-27.pdf",
+    "sha256": "bcf651d52f9f7c61692eb3d8c508d4866dc40835d6cbf4fdd29ccad894c2d4d6",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 13,
+    "fixture_digest": "e167b458b7fb69adf1ee998bbb5673353509cd0e29fbdbccbc2f7e0d7f0b43ac"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2026-2027/CUP-DMAK-ANEX-2026-27.pdf",
+    "sha256": "2f4d92afb5c9e135c552ded51d70c778f8af8cd05451510f7dd2b76ada84a545",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 7,
+    "fixture_digest": "a6fea3d824a858888c6ddf309941aa8edabcb9ffddb94b1000d1005fe9aebc9a"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-A1A2-2026-27.pdf",
+    "sha256": "ea0ce4ce37f4d189febc6e19c31f76b036230f4a5c9bfb6182a7e8c211dd3888",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 1,
+    "fixture_digest": "5357edc83e97acb9583943b8af3c1749fc3c8b08f8bb8a5b6f487f6bb14d4db2"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-BC-2026-27.pdf",
+    "sha256": "7abf085048bf380bfaf0002e7914d44742c470139a9fe7684c770d9397c09dc5",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 23,
+    "fixture_digest": "abceeb5015a7d7fd4648bd8cc99787cc6b126e3f02c06b7395bedaa0d70c87cf"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-DEST-2026-27.pdf",
+    "sha256": "53bb5edf82dd69a0ae20a5c5c8bf4edb2f8e35dd1481dadbe6569406daf61601",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 43,
+    "fixture_digest": "5463d39d8ce8d95efd324790a52f85afa29c49aa22998ebf22316511df1783b5"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2026-2027/CUP-KMAK-2026-27.pdf",
+    "sha256": "0da21e66c8ef5696d782169c9385cee50ffc71180ee95bb249aa046d1b4c6fa2",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΜΕΓΑΣ ΑΛΕΞΑΝΔΡΟΣ ΕΥΟΣΜΟΥ",
+        "away": "A.T.T.A.K.",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          309.6199951171875,
+          348.973388671875,
+          323.6567687988281,
+          359.8111877441406
+        ]
+      }
+    ],
+    "expected_fixtures": 16,
+    "fixture_digest": "7edfc50614ba74b28500eac24efef99951e800ce50e5c6b1e02966a7777f353a"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2026-2027/CUP-KRITI-2026-27.pdf",
+    "sha256": "be1f669c819184752f524da35d7bb11f9a6aa053f60af32e281e31b89089a71a",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 3,
+    "fixture_digest": "3e9d81d81919c973aba347c6451c4de1f6bba200c151e765c1d2a07d55da7ea4"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/PLAY-OFF-ATTIKH-2025-2026.pdf",
+    "sha256": "3ae5c779fbf8b7fdb2d507206e1603bd2085cf7a0f9526fb32bffb4bdde62507",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 24,
+    "fixture_digest": "318720ac2f35ddb28d7436fd0c74d66fb079b9dbf6d29d0db6e894b706d1d7ed"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/PLAY-OFF-CRETE-2025-2026.pdf",
+    "sha256": "4230a0f5668b4d42ab6c29d903f8b7b09e5396cd02943704dc726f0fb028aec4",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 4,
+    "fixture_digest": "790472e6fc31889dd5d3f9bbdb43f1bc08bbe3f477adf9a1f5b3050ef32009ea"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-ANEX-ATTIKI-202526.pdf",
+    "sha256": "226db897aa8b85ba3879b1d308d0bc1cae975d3564a3ebec73df2800e3690014",
+    "pages": 3,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 45,
+    "fixture_digest": "e50db076dc3bb1c6e569d5e8a6e7b2ad3db98a5dd3c65d6f8466256b02066b6f"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-ANEX-KMAK-202526.pdf",
+    "sha256": "8a3963637cf18ca69e0b2675a3472d5770663754d9799c102410f3b7c1f4099e",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 19,
+    "fixture_digest": "838e989d080d0bc4b7cc83f5929c5b33e882ae62683bdf8152e1239ca6b5ba45"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-ANEX-DMAK-202526.pdf",
+    "sha256": "2c8166441d5f41f4290db844db33ae880139cc7443cba669a6f8a7391cc3d083",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 6,
+    "fixture_digest": "78ac17bd1da863c10b40246a02ef462dca512b0a3e4a28f539762a350885854a"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-A1A2-2025-26.pdf",
+    "sha256": "3c7afd887843fcaea881c04f17dedbfe4cfb5107f22076545cd1158c48e78140",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 30,
+    "fixture_digest": "fced8286c960b6956e296e8ac0e32ac15b05809c7dd9399dec7e264728bc6661"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-BC-2025-26.pdf",
+    "sha256": "4b13ffa5e60b5f31492688b3ef644b27c60f41ab41c49aa17f266f31408ced43",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 28,
+    "fixture_digest": "9f24a73c304bf64fb1fd4b2486390ba71a0e3a10363d6974e9af07f1987c2fcd"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-DE-2025-26.pdf",
+    "sha256": "3859fea1d5781ed054ad0662c0efb76b65724da900472fca0a123493594d5a4b",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΝΕΤΟΙ ΤΑΤΑΥΛΑ",
+        "away": "NOSPINATALL",
+        "score": [
+          4,
+          3
+        ],
+        "page": 1,
+        "bbox": [
+          174.3800048828125,
+          573.4161987304688,
+          188.772216796875,
+          584.5216064453125
+        ]
+      }
+    ],
+    "expected_fixtures": 41,
+    "fixture_digest": "ab25322d3b7bca80c7e7415ae31a0c3dc2aa87e72518b151e4027074a1e73fd0"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-KMAK-2025-26.pdf",
+    "sha256": "61a0a302e696dc21f3c51507d5fadc52b60e0f5364ca8f4afadf74b02fcb030c",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 24,
+    "fixture_digest": "1962bc79e786a04563d7f79b8974ad58d125f4b606d826829047c52bd5ee8d85"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-DYTELL-2025-26.pdf",
+    "sha256": "93bbd57ae44b68ffcb15e9c01a68227abf9c9c52669c1d64691950a92b738661",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "no_reported_results",
+    "notes": "Published schedule/draw contains no reported match scores.",
+    "expected_fixtures": 0,
+    "fixture_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-KRITI-2025-26.pdf",
+    "sha256": "e4cb4e530fb0853c92f63eb74e06bf237c49b4c0a2851b49eaf29a6c9043c495",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΓΣΧ ΝΕΑΡΧΟΣ ΤΤ VETERANS",
+        "away": "ΤΤ ΙΕΡΑΠΕΤΡΑ 1",
+        "score": [
+          4,
+          0
+        ],
+        "page": 1,
+        "bbox": [
+          177.86000061035156,
+          148.75521850585938,
+          189.70831298828125,
+          157.85360717773438
+        ]
+      }
+    ],
+    "expected_fixtures": 9,
+    "fixture_digest": "b9b3ac82a82b1625efc9b5e0e07533015516677b96784a2f4c5d64017ebfcaad"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-DMAK-2025-26.pdf",
+    "sha256": "7e4f988365c08255f7f96b0b1bed2ceb5caa7841e90d603b324a3e3a1326aeca",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΦΑΛΤΣΑΡΙΣΜΕΝΟΙ ΓΙΑΝΝΙΩΤΕΣ",
+        "away": "ΕΠΙΤΡΑΠΕΖΙΟΙ ΑΝΤΙΣΦΑΙΡΙΣΤΕΣ ΙΩΑΝΝΙΝΩΝ",
+        "score": [
+          0,
+          4
+        ],
+        "page": 1,
+        "bbox": [
+          317.6600036621094,
+          194.04620361328125,
+          332.05218505859375,
+          205.15159606933594
+        ]
+      }
+    ],
+    "expected_fixtures": 10,
+    "fixture_digest": "fc6b72ef6fee9890891ae67f3c9cda17461d27cda76e42e47949ed0106f10453"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-AMAK-2025-26.pdf",
+    "sha256": "47a053b4e152a0babd3cffd1dd70228830c62599f4588683925dddb92ffdaea0",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "notes": "The 4-0 advance against ΑΝΕΥ ΑΓΩΝΟΣ is a bye, not a played fixture.",
+    "expected_fixtures": 14,
+    "fixture_digest": "3fd841727395ca0c7a0d3733da08e89327742cc706e61345e6665e573aa9bed7"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-THESSALY-2025-26.pdf",
+    "sha256": "28fd49e1d02c8f8db569cbb3e242fa61c601321a52dd9d00f86d0ebc143800bf",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 10,
+    "fixture_digest": "e872e32149a05da924d078e7e6e9c8fc3065e16eea26b772c0e707f7159d51b0"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2025-2026/CUP-AIGAIO-2025-26.pdf",
+    "sha256": "2fb40c02d0a2ef0f605c21ffe2194734dc8571706839a0c32253be833b56cd75",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 2,
+    "fixture_digest": "0a4d22435c6f47994cb10844dac620888f2a6c51c29cacb198b3b65901f3d3fd"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/PLAY-OFF-ATTIKH-2024-2025.pdf",
+    "sha256": "9c792da4175b91286accbe12b6cad956950dbab21b9cf43c3827f36d21144422",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 15,
+    "fixture_digest": "02690cd7f72e553bfbaa827233a44661cb72ce42142d2ef0dccf3d92892a0bf5"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-IND-ATTIKH-2024-2025.pdf",
+    "sha256": "dfbe27dab81aa5beb96ebc49e2826fd8fec6c3da96e600e56d876a691b142e51",
+    "pages": 3,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "name_corrections": {
+      "APACHE 6 ΧΟΛΑΡΓΟ": "APACHE 6 ΧΟΛΑΡΓΟΥ",
+      "APACHE 9 ΧΟΛΑΡΓ": "APACHE 9 ΧΟΛΑΡΓΟΥ"
+    },
+    "expected_fixtures": 48,
+    "fixture_digest": "515d1c19b8f556bbc30f36ce35ae5135a389b6c1863e1f57d9e1f74bc073df67"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-IND-KMAK-2024-2025.pdf",
+    "sha256": "7dce75491bd4771607bf2113fb9f4b141e35b773326dd227aa22c2257547411d",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 21,
+    "fixture_digest": "c0b0d91813bf8e401df9b8a36d9418db40d75fe6e77afa1ccab9e0329bacf75e"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-A1A2-2024-25.pdf",
+    "sha256": "c185c853319447e6d9365d33de5fbef57fd13aa121234fc2707d69446f76eca8",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 33,
+    "fixture_digest": "bcd3a27db501bbc333fe07ce29ec54b336b50e9db941fa59a4f1cd14b83d6e2c"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-BC-2024-25.pdf",
+    "sha256": "88973395e00d0cbe5a6235ee2e0cdc10b98a16f989ccc3d1c5fdd223f5047a78",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 32,
+    "fixture_digest": "09616c846dd81b0cad5896d8065ab7bf4d37053164a1d7c23202a9bfa9e91472"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-DE-2024-25.pdf",
+    "sha256": "68e1b4095c08e8c9319e8e597ec57c83b738e5330df7536da64f72f4d07b901e",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 35,
+    "fixture_digest": "7d4192f60761247b24b9a1142e7670dbd0ff29b130592e9e3b5cf564b6fe9cc3"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-KMAK-2024-25.pdf",
+    "sha256": "eb008e8113f41e976c00b372b091097b6856f8216a94dbed254a4790674c17fc",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 22,
+    "fixture_digest": "e0a935908f27ac8cca642582d0dc922cc5e320d64ecf4fa093cafc49f1f6980d"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-DELL-2024-25.pdf",
+    "sha256": "2ffbc103e0cc8505cf0fdcde6b44dd5cc587029d87b04e18af3224eb37954fee",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "source_conflict",
+    "issues": [
+      {
+        "page": 2,
+        "reason": "winner_not_in_pair",
+        "score": "4-1",
+        "teams": [
+          "RACKETALLICA ΑΜΑΛΙΑΔΑΣ",
+          "ΒΙΛΛΕΑΡΔΟΥΙΝΟΙ ΑΝΔΡΑΒΙΔΑΣ"
+        ],
+        "printed_winner": "ΦΟΙΝΙΚΕΣ ΠΑΤΡΑΣ 1991"
+      },
+      {
+        "page": 2,
+        "reason": "winner_not_in_pair",
+        "score": "4-0 (α.α.)",
+        "teams": [
+          "ΦΟΙΝΙΞ ΧΑΝΣ",
+          "ΒΕΤΕΡΑΝΟΙ ΑΝΟΔΟΣ ΠΑΤΡΩΝ"
+        ],
+        "printed_winner": "ΑΤΡΟΜΗΤΟΙ"
+      }
+    ],
+    "notes": "Two placement scores excluded: their printed winners are absent from the corresponding pair.",
+    "expected_fixtures": 10,
+    "fixture_digest": "8a945192bcab67e21286a504908be48337a7862629c27e13ead88a3bcc374247"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-KRHTH-2024-25.pdf",
+    "sha256": "d37cbd8a9a082fe24f54916b3db72abebc5701cba5984bd09198a2b32755e1dc",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 5,
+    "fixture_digest": "1f2dc782c9cab08bcd42a3c04714b73ed3896147a1ca7bec3e861e330dd44cb5"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-DMAK-2024-25.pdf",
+    "sha256": "8d16e6f79aeeacf1532cb8ea41bd771dc1b6d95704d4d7728443ab81a427d3e5",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 8,
+    "fixture_digest": "8a83186bbfa8b4f2c1220d604e527e98f8e6ed92e9121b7f718e969112490ea4"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-AMAK-2024-25.pdf",
+    "sha256": "6921caf89a365a3d5daa255f0c6d7a172c682aa05ae6b10cc897d58d37f3ded1",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 12,
+    "fixture_digest": "dd1ca6953a76f5cb9f11b17e981b9232dda6edb8211aea2f688833f2ca8f773f"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-PELOP-2024-25.pdf",
+    "sha256": "39b36a25017f4ec3c5762029ccd506c4d9f181fe0de220dfa107f9202557869e",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 3,
+    "fixture_digest": "e054008407e9ca946826add0745385ab24838e2892edb9dda27b0d5839a6490b"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2024-2025/CUP-AIGAIO-2024-2025.pdf",
+    "sha256": "4c3d4af951f5f08ba3b785664bc14d89685456ab9405bb7c1d1164b09e8133d3",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 10,
+    "fixture_digest": "fca5f35deb28be1ed487281b5c6296a06d033268324cbcc4e010493b24702fbb"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/PLAY-OFF-ATTIKH-2023-2024.pdf",
+    "sha256": "541cf7223d1bab9b55f4d066ac812240e7d4a1cfcc175141e66f6cb0ff110976",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 15,
+    "fixture_digest": "b6bac7e228ba29d32166ee84dcb6447e996332c9c0bdbbfc66caad5fb1be6f32"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/CUP-IND-ATTIKH-2023-2024.pdf",
+    "sha256": "9494fcf8bd4c29ff4e571bae207b802f63655c1b817ef08a904d38a1cb691c5b",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 26,
+    "fixture_digest": "fe385ffff966700219b59faafa562bef9a27e3925085d449c3a05357a10a9f15"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/CUP-IND-KMAK-2023-2024.pdf",
+    "sha256": "69836374d3bf2f3e7f22db81cb3c348cb4fc998858a5897231a671471ea1e165",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 13,
+    "fixture_digest": "c20ca884f213928315bc0cadcaa7eb16faf59e7f1b88d344ba61eee28518ec99"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-A1-A2-2023-2024.pdf",
+    "sha256": "eef00e97550a8bdc36cab8af6238a404e07ebd7bbca8473897cef3caaafda4f3",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "RED LIONS",
+        "away": "ΒΕΤΕΡΑΝΟΙ ΑΘΗΝΑΪΚΟΥ",
+        "score": [
+          4,
+          2
+        ],
+        "page": 1,
+        "bbox": [
+          188.5399932861328,
+          123.61996459960938,
+          203.14590454101562,
+          134.6599578857422
+        ]
+      }
+    ],
+    "expected_fixtures": 33,
+    "fixture_digest": "6563c9697cef677581e0e1100211b727034eb3dd97fbc5131a05eb5f4e857af6"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-B-C-2023-2024.pdf",
+    "sha256": "50dc901215786c7673bb640f8c7ac3089a3a29164f3c33f91f0728e7eca472d2",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΠΙΝΓΚΠΟΝΓΝΙΣΤΕΣ",
+        "away": "APACHE 6 ΧΟΛAΡΓΟΥ",
+        "score": [
+          3,
+          4
+        ],
+        "page": 1,
+        "bbox": [
+          311.17999267578125,
+          427.8937683105469,
+          322.7373962402344,
+          436.8583679199219
+        ]
+      }
+    ],
+    "expected_fixtures": 28,
+    "fixture_digest": "331beaefe060c8b643892754d0b6907d7d2335f6d0ad802d33111c7d00c352fe"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-D-E-2023-2024.pdf",
+    "sha256": "8b2f833871ee911a09c4f6a16f2d9382b5784fec776170cc2fac7c42ec806e83",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 29,
+    "fixture_digest": "dc020e414512d26775b9dfaa4418548b21e9ea52dfaefdb40abeaa8984ad0341"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/CUP-KMAK-2023-2024.pdf",
+    "sha256": "fb9f0b29fba43ad1192212ab9c9ad72430f9b86732e8b265e6d870a65b4b1492",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 22,
+    "fixture_digest": "aa938d01eff68e1a39a46ba944c82abf0d754dce27e3bfc24720c4dc04c081c4"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/CUP-DELL-2023-2024.pdf",
+    "sha256": "8c3253e852869471a9f3e2ffb45675c3dce6bbd50a6a69a52712f764f83ab3df",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 2,
+    "fixture_digest": "7e48b790fd867219138f6b7283fae3edf8e287fc7561bc95c7cb1b9c03902233"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/CUP-KRHTH-2023-2024.pdf",
+    "sha256": "2417a8b43a1f0e5b58b91651dddf6fb75b5a2c37a3a000c3dbd063592b8c1a58",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 7,
+    "fixture_digest": "7e3be00a00dfe96d5e2c2257d41477829fa2e39eb83d78d768eef1e1f93b70a4"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/CUP-DMAK-2023-2024.pdf",
+    "sha256": "79a12df307aad4dbbb00c209578f954130710e9bf2e69a55eb7edade3b0402b9",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 7,
+    "fixture_digest": "a621cf08dcfcca448b4c8415fe112713015362258d38e63fb40fc1d1dd3fb46a"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/CUP-AMAK-2023-2024.pdf",
+    "sha256": "c2b39ed40852acd96019dd3ada12486bc938f7544a1e75f3e9fff076beed21c8",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 11,
+    "fixture_digest": "18dc8ce7bce39aa1f016611ef9b4e11d1a8a7bdb1e069cca8326592d1f80a684"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2023-2024/CUP-PELOP-2023-2024.pdf",
+    "sha256": "bd766d916519ca36e6d403dc97a267cd254b7017a3a4d21e217f97aa3142794d",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 6,
+    "fixture_digest": "de85015bf41428dc858cc371835cbcac88f47dd68221ff36c42b123029c97c68"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2022-2023/DRAW-PLAYOFF-ATTIKI-2022-2023.pdf",
+    "sha256": "1b4f60b3a1b5edfbefb9f68932e18a43d097eaab3d7e5f6a9eb666211bd81f59",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 18,
+    "fixture_digest": "d4295ebff06a16b21ddf3c3156a0c792610f33d5e7f7e69d63a98b92b2efa98e"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2022-2023/PLAYOFFS-DMAK-2022-23.pdf",
+    "sha256": "688e69b46d0668878279f1f720352352fa48f2326e6bb435be16e33d94976bf0",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 4,
+    "fixture_digest": "928ae534d2835d8e41040a6f1aaefb638056a0bcfeb42d4d92dc6b4986aa8ec0"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2022-2023/CUP-ATTIKI-2022-2023.pdf",
+    "sha256": "9e132cb65afa4bbb8d82c559172048076dc138159c8855ca8c7b8d66385af4c6",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΚΤΩΡ",
+        "away": "ΠΑΝΘΕΟ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          387.7699890136719,
+          264.3208312988281,
+          391.51611328125,
+          267.2644348144531
+        ],
+        "round": "Τελικός"
+      },
+      {
+        "home": "ΑΜΦΙΘΕΑ",
+        "away": "ΒΕΤ. ΔΗΜΟΥ 3Β",
+        "score": [
+          4,
+          2
+        ],
+        "page": 1,
+        "bbox": [
+          377.57000732421875,
+          299.3608093261719,
+          381.3161315917969,
+          302.3044128417969
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket. Semifinal scores repeated beside the final are corroboration, not extra matches.",
+    "expected_fixtures": 72,
+    "fixture_digest": "dca99d799a929c1de9ee0f19aa838f31b1aa63563bbb86ee7850bf3c69da9f65"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2022-2023/CUP-KMAK-2022-2023.pdf",
+    "sha256": "c1318835c4032f00310ff331f24a48725314774d62507b0356ac620489d8fd72",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΟΙ ΑΡΧΟΝΤΕΣ",
+        "away": "25ο",
+        "score": [
+          4,
+          0
+        ],
+        "page": 1,
+        "bbox": [
+          620.3800048828125,
+          348.822998046875,
+          628.1781616210938,
+          354.843994140625
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 27,
+    "fixture_digest": "03905bc0decb5db5467dc680ea2b20e44bd11607f963dae2eaa7d886ded9dc4e"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2022-2023/CUP-DYTELL-2022-2023.pdf",
+    "sha256": "b01b0b67f2c803dabc8c296b41fddfbd3ff9b7906bd536130f49a51604d37c83",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΓΙΑ ΣΚΕΠΗ",
+        "away": "ΑΤΡΟΜΗΤΟΙ ΓΑΛΗΝΗΣ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          549.1900024414062,
+          246.22999572753906,
+          562.8123779296875,
+          256.54998779296875
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 8,
+    "fixture_digest": "220db8d72f154e32848be21f6944b1245ff15e9ea84b6f88cf42d1b7d2cb09e2"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2022-2023/CUP-KRHTH-2022-2023.pdf",
+    "sha256": "965bf1084399f4a01089003f7f947ec21e3e011cebeb3c452967300fefa98341",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 3,
+    "fixture_digest": "057b27082ce3995c0ca9d843351ebd0ff37e319a780801b8f7f728e6ede7358e"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2022-2023/CUP-DYTMAK-2022-2023.pdf",
+    "sha256": "3a69f6101e450fa41e3ef5eb69e8478ba826bb37b5856e5b65a9f88dcceb42ed",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΕΡΑΤΟΙ ΚΟΖΑΝΗΣ",
+        "away": "ΑΛΛΑ ΚΟΛΠΑ ΠΤΟΛΕΜΑΪΔΑΣ",
+        "score": [
+          0,
+          4
+        ],
+        "page": 1,
+        "bbox": [
+          250.3699951171875,
+          646.0,
+          263.99237060546875,
+          656.3200073242188
+        ]
+      }
+    ],
+    "expected_fixtures": 12,
+    "fixture_digest": "11aabae5d2dd857aeb1c8f3cef453e19790164321ddbd757ea8935d90a9560fa"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2022-2023/CUP-AMAK-THRAKI-2022-2023.pdf",
+    "sha256": "475568ec089d5efffb580d17bf3c0b841a71b09c32a0d02eeb6a097f5cdd2a9c",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΜΑΧΗΤΕΣ ΞΑΝΘΗΣ",
+        "away": "ΒΕΤΕΡΑΝΟΙ ΔΡΑΜΑΣ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          435.5299987792969,
+          200.33001708984375,
+          450.13592529296875,
+          211.37001037597656
+        ]
+      },
+      {
+        "home": "ΒΕΤΕΡΑΝΟΙ ΔΡΑΜΑΣ",
+        "away": "ΑΕΤΟΙ ΚΟΜΟΤΗΝΗΣ",
+        "score": [
+          4,
+          3
+        ],
+        "page": 1,
+        "bbox": [
+          295.3699951171875,
+          248.08999633789062,
+          309.9759216308594,
+          259.1300048828125
+        ]
+      },
+      {
+        "home": "ΜΑΧΗΤΕΣ ΞΑΝΘΗΣ",
+        "away": "UNDERGROUND ΑΛΕΞΑΝΔΡΟΥΠΟΛΗΣ",
+        "score": [
+          1,
+          4
+        ],
+        "page": 1,
+        "bbox": [
+          603.7899780273438,
+          308.83001708984375,
+          620.9130249023438,
+          319.8700256347656
+        ],
+        "round": "Τελικός"
+      },
+      {
+        "home": "ΑΛΕΞΑΝΔΡΟΥΠΟΛΗ T.T.C.",
+        "away": "ΚΕΝΤΑΥΡΟΙ ΚΑΒΑΛΑΣ",
+        "score": [
+          4,
+          0
+        ],
+        "page": 1,
+        "bbox": [
+          295.3699951171875,
+          355.2699890136719,
+          309.9759216308594,
+          366.30999755859375
+        ]
+      },
+      {
+        "home": "ΑΛΕΞΑΝΔΡΟΥΠΟΛΗ T.T.C.",
+        "away": "UNDERGROUND ΑΛΕΞ/ΛΗΣ",
+        "score": [
+          0,
+          4
+        ],
+        "page": 1,
+        "bbox": [
+          435.5299987792969,
+          416.95001220703125,
+          450.13592529296875,
+          427.9900207519531
+        ]
+      },
+      {
+        "home": "ΑΔΑΜΑΣΤΟΙ ΚΟΜΟΤΗΝΗΣ",
+        "away": "UNDERGROUND ΑΛΕΞ/ΛΗΣ",
+        "score": [
+          3,
+          4
+        ],
+        "page": 1,
+        "bbox": [
+          295.3699951171875,
+          463.6600036621094,
+          309.9759216308594,
+          474.70001220703125
+        ]
+      }
+    ],
+    "expected_fixtures": 6,
+    "fixture_digest": "d734180112602604e3fa4c1505b2674ff6c6fcdef9a636b0bd6ad5ca6b0a33cf"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2022-2023/CUP-PELLOPONHSOS-2022-2023.pdf",
+    "sha256": "456dd820a43efde462473ac9b21cb50b10ff4725f486ac2f9771e915f7ac67be",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "duplicate_pages": [
+      1
+    ],
+    "notes": "The page-1 bracket repeats the page-2 placement results. Import the fixture list once; keep both pages as evidence.",
+    "expected_fixtures": 14,
+    "fixture_digest": "9fffc2a1a7aa72460c4486e32ade1304e7b70660dae4c17660eb8c7bd675ff85"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2022-2023/Play_Offs_Omadikon_2022-2023.pdf",
+    "sha256": "b72b1888c516fd5353cf9846cd7711fcd24d40f5bea8b849822c15a5ad2e8c4c",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 8,
+    "fixture_digest": "d33c0acc3d905d2695e27a7095204f36d6183976dcff72e3c26bba4441650918"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2022-2023/RESULTS-OMANEX-2022-2023.pdf",
+    "sha256": "b9f8f06963f958cf884d1c8d82aae430b566441b2007a9ab749455d977ed7c4c",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 13,
+    "fixture_digest": "30d7c45cae679aee6896498a2996067f4a9a2c0c8964fe3c5f7c441ea581b5e4"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2020-2021/DRAW-PLAYOFF-ATTIKI-2020-2022.pdf",
+    "sha256": "73d170e6f5ae364ce5dadd2702892aa33db515c8c625ca73eda98a64d39324c3",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 18,
+    "fixture_digest": "0d2d8f88435b437b99474f61329da264d6e5f976f8e72e747adf54a124280eef"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2020-2021/PLAYOFFS-DMAK-2022.pdf",
+    "sha256": "a64d6b7dc7c2e7af86b67cb4458921d79769348c10356d12199f12d4e2d95f04",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 4,
+    "fixture_digest": "6860366a9ea7ef22399ff1a1aa6bb5471dd1167a3ceb7da5431cab4d0408e798"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2020-2021/CUP-ATTIKI-2020-2021.pdf",
+    "sha256": "df47b407fd65404260921f122039da63cf6cf5851e281fe2d4e341064e6cbf17",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΚΤΩΡ",
+        "away": "ΠΑΝΘΕΟ",
+        "score": [
+          5,
+          2
+        ],
+        "page": 1,
+        "bbox": [
+          386.7099914550781,
+          269.01220703125,
+          390.7588806152344,
+          272.089599609375
+        ],
+        "round": "Τελικός"
+      },
+      {
+        "home": "ΑΜΦΙΘΕΑ",
+        "away": "ΒΕΤ. ΤΑΥΡΟΥ 2",
+        "score": [
+          5,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          376.75,
+          278.9950256347656,
+          381.05499267578125,
+          282.34002685546875
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket. Semifinal scores repeated beside the final are corroboration, not extra matches.",
+    "expected_fixtures": 77,
+    "fixture_digest": "a1bf11344d2284a9ed0e406d3b4d6103a7eeec31c2011fc6c0242d046440b903"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2020-2021/CUP-KMAK-2020-2021.pdf",
+    "sha256": "ee1a07aabb76afe3d236bfdfe8d4f99768ab38f2d84fdb571cac0340e1691850",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "25ο",
+        "away": "ΝΕΜΕΣΙΣ ΩΡΑΙΟΚΑΣΤΡΟΥ",
+        "score": [
+          5,
+          0
+        ],
+        "page": 1,
+        "bbox": [
+          387.19000244140625,
+          424.41998291015625,
+          408.099853515625,
+          431.2599792480469
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 24,
+    "fixture_digest": "d77dfdb66b6e9eea1355f5e3b45659ae077f11601d5e9f5bf6e4187db4475117"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2020-2021/CUP-DYTELL-2020-2021.pdf",
+    "sha256": "0f160ae736c8765911ea7486f19cb639ea02f67dd790f002b9b6fdf79c506358",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "Α.Σ. ΙΦΙΤΟΣ ΠΑΤΡΩΝ",
+        "away": "ΑΤΡΟΜΗΤΟΙ ΓΑΛΗΝΗΣ",
+        "score": [
+          4,
+          0
+        ],
+        "page": 1,
+        "bbox": [
+          492.54998779296875,
+          324.6274108886719,
+          508.32940673828125,
+          336.80322265625
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 8,
+    "fixture_digest": "a71d27d6d8a9378935ac60cba8b05f0616efb13136f19dd2221dddfa7cdcaa89"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2020-2021/CUP-KRITI-2020-2021.pdf",
+    "sha256": "155fd4a9d1add02fe97ee08d22cb06197368c574fd75319866c1fa1336fd2413",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "BALLS OF FURY",
+        "away": "ΗΡΑΚΛΕΙΟ Ο.Α.Α.",
+        "score": [
+          5,
+          0
+        ],
+        "page": 1,
+        "bbox": [
+          541.3900146484375,
+          370.17999267578125,
+          575.5284423828125,
+          381.3399963378906
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 12,
+    "fixture_digest": "7afe625b6238856e53470efc206e3d99b0443106d66efdc4da3947f630e300ce"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2020-2021/CUP-DMAK-2020-2021.pdf",
+    "sha256": "3e6793f822e63f1ff8c3b271aba959ad9349ef2c705722cc22bdd9955d28ea9d",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "name_corrections": {
+      "ΠΕΚΙΝΕΖΟΙ ΛΔΤΚ": "ΠΕΚΙΝΕΖΟΙ ΛΕΥΚΑΔΑΣ",
+      "ΑΠΡΟΠΟΝΗΤΟΙ ΚΟΕΑΝΖ": "ΑΠΡΟΠΟΝΗΤΟΙ ΚΟΖΑΝΗΣ",
+      "ΤΡΙΤΩΝΕΣ": "ΤΡΙΤΩΝΕΣ ΚΟΝΙΤΣΑΣ",
+      "ΠΕΡΙΠΛΑΝΩΜΕΝΟΙ ΑΡΓΟΣ ΟΡΔ": "ΠΕΡΙΠΛΑΝΩΜΕΝΟΙ ΑΡΓΟΣ ΟΡΕΣΤΙΚΟΥ"
+    },
+    "expected_fixtures": 20,
+    "fixture_digest": "42f878fc30aeb637ddfdea589e0cf8ddeee80cbe745dca1f4f2c86d6873e57ff"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2020-2021/CUP-AMAK-2020-2021.pdf",
+    "sha256": "517583eabc3969a5cca328dae3b84ee9f4036837f72ab0ae2a6fcd18a16d75dd",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "UNDERGROUND ΑΛΕΞ/ΠΟΛΗΣ",
+        "away": "ΚΕΝΤΑΥΡΟΙ ΚΑΒΑΛΑΣ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          494.7099914550781,
+          324.6274108886719,
+          510.4894104003906,
+          336.80322265625
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 7,
+    "fixture_digest": "0a48ebad5e62beeac3ebe5b030be7e3cbbf2ec2298082d4afb13158e6e3ff83a"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2020-2021/CUP-PELOP-2020-2021.pdf",
+    "sha256": "e2a04c945239a012382acc176e84f87977bb5d0e0355c91cdf957609058c83dd",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 16,
+    "fixture_digest": "3ad7d601620f717811f3c3f40d254b7be58806747a8217ab7ece8f8a36ba22ac"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2019-2020/RESULTS-ATTIKI-CUP-2019-2020.pdf",
+    "sha256": "e5ac6d2691a0405d813a137723cfa6a8d2055a1ea67fc58cb6f961edce9fda3d",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΜΑΚΑΜΠΗ 3",
+        "away": "SPINFINITY Α.Σ. ΠΑΠΑΣΙΔΕΡΗ",
+        "score": [
+          3,
+          4
+        ],
+        "page": 1,
+        "bbox": [
+          167.4199981689453,
+          484.0414123535156,
+          176.22056579589844,
+          490.8652038574219
+        ]
+      },
+      {
+        "home": "ΑΚΤΩΡ",
+        "away": "ΠΑΝΘΕΟ",
+        "score": [
+          4,
+          2
+        ],
+        "page": 2,
+        "bbox": [
+          766.4199829101562,
+          10.901403427124023,
+          775.2205200195312,
+          17.725202560424805
+        ],
+        "round": "Τελικός"
+      },
+      {
+        "home": "ΑΜΦΙΘΕΑ",
+        "away": "ΑΚΤΩΡ 2",
+        "score": [
+          4,
+          2
+        ],
+        "page": 2,
+        "bbox": [
+          697.2999877929688,
+          18.821386337280273,
+          706.1005249023438,
+          25.645185470581055
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 78,
+    "fixture_digest": "fc4e40a50397a60661cb010da1d177f6ce637500537ec99121c6289755af14af"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2019-2020/RESULTS-KMAK-CUP-2019-2020.pdf",
+    "sha256": "160cdd360b388291800c5b493efeebaeb2ce32a2846f171e0f5d92cb02d67d8d",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΡΧΟΝΤΕΣ",
+        "away": "SPINACOLADA",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          379.3900146484375,
+          458.9272155761719,
+          387.747802734375,
+          465.349609375
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 23,
+    "fixture_digest": "06a181ed05ab0212cc567a79c58a0732645208fc77bfb79d15ad54fdce60365e"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2019-2020/RESULTS-KRITI-CUP-2019-2020.pdf",
+    "sha256": "6cbaaa1ecdd6328cc06ee9bb53ce84a661f76ca4bb7b49c3670358da81d1c60c",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 6,
+    "fixture_digest": "d5a7d0f5f162a85cc981979dde2b4696f7caa8b298659290f11536d5ed0e99bc"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2019-2020/RESULTS-PELOP-CUP-2019-2020.pdf",
+    "sha256": "7ed8c0cfe011f952e31a2b07c1e08ed9d2910af794e0bd3eb24545fa42c0e700",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 6,
+    "fixture_digest": "dc74e376421954a5c0be339c7921aa882c717dec7fcab3523627de56066beb6c"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2018-2019/RESULTS-PLAYOFFS-ATTIKI.pdf",
+    "sha256": "0b48536d5cc7111bfb15708647651f6e591d2447a8d4877616d09009f84c08fe",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 13,
+    "fixture_digest": "ff3bc3a49720d90daf596db1e9983ce7fedf4fd1be0dace88c61e796e8727476"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2018-2019/RESULTS-PLAYOFFS-KMAK.pdf",
+    "sha256": "f9b8cf008eb8e90e2f2d64d4c7bd42b2c50b11a73680b5be646c71a17452e033",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 12,
+    "fixture_digest": "726b49d51087bfbf5badd8ba46149bcb4e951b8e906cd194b2122fbeb38e8686"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2018-2019/RESULTS-PLAYOFFS-KRITI.pdf",
+    "sha256": "85a106e9644230a41fe373af5a53139fb4ba4245a50bc7a0491ba5166b20db57",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 6,
+    "fixture_digest": "232ec965951fe6717503b3f923984bbca25d9f92526e79f9becdeddd410b735b"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2018-2019/RESULTS-ATTIKI-CUP.pdf",
+    "sha256": "a59095c539e7a674aa4251ff0b464605b4bace1ea0e78d947e1e0e6c18e5a48d",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΠΑΝΘΕΟ",
+        "away": "ΑΚΤΩΡ",
+        "score": [
+          4,
+          3
+        ],
+        "page": 2,
+        "bbox": [
+          759.9400024414062,
+          10.901403427124023,
+          768.7405395507812,
+          17.725202560424805
+        ],
+        "round": "Τελικός"
+      },
+      {
+        "home": "ΒΕΤ. ΛΟΥΤΡΑΚΙΟΥ",
+        "away": "ΑΜΦΙΘΕΑ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 2,
+        "bbox": [
+          690.8200073242188,
+          18.821386337280273,
+          699.6205444335938,
+          25.645185470581055
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 71,
+    "fixture_digest": "f0ddbdac28933cee772f862136760ab05dccb38075ad9c58d5d4f63a3a5f675d"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2018-2019/RESULTS-KMAK-CUP.pdf",
+    "sha256": "236dfd084ec362e100032b16e25d65e1fd800fe390335dde84a9b35c84dd37ed",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΡΧΟΝΤΕΣ",
+        "away": "SPINACOLADA",
+        "score": [
+          4,
+          2
+        ],
+        "page": 1,
+        "bbox": [
+          381.30999755859375,
+          458.9272155761719,
+          389.66778564453125,
+          465.349609375
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 27,
+    "fixture_digest": "ebe5c68ee88d4c410afb06d186c83a6e1e29c1412aced84208bc204e424d295a"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2018-2019/RESULTS-DYTELL-CUP.pdf",
+    "sha256": "88851097eaf1c0030656d04616457d1192c53466b4d256a92debccdfe5197826",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 16,
+    "fixture_digest": "0a9f22510357ebb233d6baee8738758c12bc11f183f25dc41877e3b0fb336542"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2018-2019/RESULTS-KRITI-CUP.pdf",
+    "sha256": "7e5f5fa0e9734c9d4acc2212c26dfed9c229e6fd59609c7f78eb84b9e56adb12",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΧΑΝΔΑΚΑΣ",
+        "away": "ΚΛΑΔΙΣΣΟΣ ΧΑΝΙΩΝ",
+        "score": [
+          4,
+          0
+        ],
+        "page": 1,
+        "bbox": [
+          440.1400146484375,
+          406.093994140625,
+          450.5008239746094,
+          414.1219787597656
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 18,
+    "fixture_digest": "053b12162307d89a53c6a4b5b936fb8e770281dc36743a55f4a2815a4b7b5ecc"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2018-2019/RESULTS-DMAK-CUP.pdf",
+    "sha256": "c343aeae62de058741b79420fe196711139b00d4631a02af7d2b53b77bb50e9d",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 14,
+    "fixture_digest": "42410a765f8cf574a2d4cfa86579bcc62070a4354b84f87bde83b8345c8c0ef6"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2018-2019/RESULTS-AMAK-CUP.pdf",
+    "sha256": "a963d796ea6c92a5f38a77bfe86de3733e224aef00b8cd5f87d467df1ff8cfd9",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΔΑΜΑΣΤΟΙ ΚΟΜΟΤΗΝΗΣ",
+        "away": "ΑΕΤΟΙ ΚΟΜΟΤΗΝΗΣ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          529.8699951171875,
+          322.7362060546875,
+          544.26220703125,
+          333.84161376953125
+        ],
+        "round": "Μικρός τελικός"
+      },
+      {
+        "home": "ΑΠΑΙΧΤΟΙ ΚΑΒΑΛΑΣ",
+        "away": "UNDERGROUND ΑΛΕΞ/ΠΟΛΗΣ",
+        "score": [
+          4,
+          2
+        ],
+        "page": 1,
+        "bbox": [
+          666.6699829101562,
+          322.7362060546875,
+          681.0621948242188,
+          333.84161376953125
+        ],
+        "round": "Τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 9,
+    "fixture_digest": "8bca93202d7cc5f59ca1cfd4a4cfb2f0f2260c36dfa0f5469694d35a6a2dc257"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2018-2019/RESULTS-PELOP-CUP.pdf",
+    "sha256": "b939ef490cd3ab516f82b38d163cd16b8333679fcbaebca72fc148eac0bb741f",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "notes": "The explicit fixture scores and final placings agree; the score matrices have reversed outcomes for two pairs. Use the explicit fixture list.",
+    "additional_fixtures": [
+      {
+        "home": "ΟΕΑ ΚΑΛΑΜΑΤΑΣ",
+        "away": "ΦΑΡΗΣ ΚΑΛΑΜΑΤΑΣ",
+        "score": [
+          1,
+          4
+        ],
+        "page": 1,
+        "round": "Τελικός"
+      },
+      {
+        "home": "ΠΕΥΚΙΑΣ ΞΥΛΟΚΑΣΤΡΟΥ",
+        "away": "ΔΑΙΔΑΛΟΣ ΚΟΡΙΝΘΙΑΣ",
+        "score": [
+          3,
+          4
+        ],
+        "page": 1,
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "expected_fixtures": 6,
+    "fixture_digest": "2b71859b488c24d852e5d0af9cd0381e179b1d6703b355b55996170767985b9a"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2017-2018/RESULTS-ATTIKI-PLAYOFFS.pdf",
+    "sha256": "0d8bc27fded144d3ed85877cd46ee2d0ccfb4091e7dd73ea0921e7c2ac696a48",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 18,
+    "fixture_digest": "a48c686b7d60617d743256a293595365b34b670da8f50daec64d344efff5e09a"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2017-2018/RESULTS-KMAK-PLAYOFFS.pdf",
+    "sha256": "2278bb6271af6975b191b704aae924220538f3902091d9583fefb75c73a70c0e",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 15,
+    "fixture_digest": "ec32820bae4c5850662c8d4524019df41f7171ac914a3d666eaac7feb7cbe20d"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2017-2018/RESULTS-KRITI-PLAYOFFS.pdf",
+    "sha256": "8cfb8272e163ccb4e9b292c9db69b9ca993a417e236b30f8afda56291072c367",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 11,
+    "fixture_digest": "b0496fbbefd43db75f37a8280838302a131c7a1f0f5b963f77b57e1150743c60"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2017-2018/RESULTS-ATTIKH-CUP.pdf",
+    "sha256": "9b25eafddbafe762be90f6c1439d8fc98efe8447e5eaaf87ff6536de7aad5d55",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΠΑΝΘΕΟ",
+        "away": "ΑΚΤΩΡ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 2,
+        "bbox": [
+          712.1699829101562,
+          41.988975524902344,
+          721.017333984375,
+          48.901973724365234
+        ],
+        "round": "Τελικός"
+      },
+      {
+        "home": "ΒΕΤ. ΔΗΜΟΥ ΒΟΥΛΑΣ",
+        "away": "APACHE 1",
+        "score": [
+          4,
+          1
+        ],
+        "page": 2,
+        "bbox": [
+          163.85000610351562,
+          227.01199340820312,
+          171.95321655273438,
+          233.2559814453125
+        ]
+      }
+    ],
+    "expected_fixtures": 74,
+    "fixture_digest": "ee308a5289313b5637d2ffc9c367a59bd1dfe75f51c3d32d5f9a3bc7bde3ce95"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2017-2018/RESULTS-KMAK-CUP.pdf",
+    "sha256": "c061da037337e12d0707961ecff6c5e97cc68a4b18dc101372dc8764261e70d9",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "SPINACOLADA",
+        "away": "ΑΡΧΟΝΤΕΣ",
+        "score": [
+          4,
+          3
+        ],
+        "page": 1,
+        "bbox": [
+          547.530029296875,
+          277.4219970703125,
+          558.5499877929688,
+          285.89599609375
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 21,
+    "fixture_digest": "4bda7ce99cfcf18935482f0cdd2d994529eba6a28bf52ce0eeeb4c7d08272ac8"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2017-2018/RESULTS-DYTELL-CUP.pdf",
+    "sha256": "ffc53e78749433f10edfd94066f58b666a036e567e4811240893987c952871d6",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 16,
+    "fixture_digest": "ca2a67f21bb7835f2097836b7df9776b0a1a194ed8ca393136a4603a408f62fc"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2017-2018/RESULTS-KRITI-CUP.pdf",
+    "sha256": "d9a894a364c0dff1ee0caa1f47b2bcdbcfce48f7ed13e2eb6fdd4e1e4df25b85",
+    "pages": 4,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΧΑΝΙΑ",
+        "away": "D.P.R.",
+        "score": [
+          4,
+          1
+        ],
+        "page": 3,
+        "bbox": [
+          345.70001220703125,
+          210.4300079345703,
+          360.239990234375,
+          221.58001708984375
+        ]
+      },
+      {
+        "home": "Ο.Ρ.Φ.Ε.ΑΣ",
+        "away": "ΚΛΑΔΙΣΣΟΣ",
+        "score": [
+          1,
+          4
+        ],
+        "page": 3,
+        "bbox": [
+          345.70001220703125,
+          294.8500061035156,
+          360.239990234375,
+          306.0
+        ]
+      },
+      {
+        "home": "Ο.Α.Α. ΗΡΑΚΛΕΙΟ",
+        "away": "ΚΛΑΔΙΣΣΟΣ",
+        "score": [
+          4,
+          2
+        ],
+        "page": 3,
+        "bbox": [
+          575.1500244140625,
+          336.4700012207031,
+          589.6900634765625,
+          347.6199951171875
+        ],
+        "round": "Μικρός τελικός"
+      },
+      {
+        "home": "ΑΙΓΑΓΡΟΙ",
+        "away": "ΤΑΛΩΣ ΧΑΝΙΩΝ",
+        "score": [
+          4,
+          0
+        ],
+        "page": 3,
+        "bbox": [
+          345.70001220703125,
+          379.47003173828125,
+          360.239990234375,
+          390.6200256347656
+        ]
+      },
+      {
+        "home": "ΧΑΝΔΑΚΑΣ",
+        "away": "Ο.Α.Α. ΗΡΑΚΛΕΙΟ",
+        "score": [
+          1,
+          4
+        ],
+        "page": 3,
+        "bbox": [
+          345.70001220703125,
+          466.1000061035156,
+          360.239990234375,
+          477.25
+        ]
+      },
+      {
+        "home": "ΧΑΝΙΑ",
+        "away": "ΑΙΓΑΓΡΟΙ",
+        "score": [
+          4,
+          3
+        ],
+        "page": 4,
+        "round": "Τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 32,
+    "fixture_digest": "f5b884d83ccb310369f76b4f2648502701054223ad3b8fe45bbca55cc9faf8de"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2017-2018/RESULTS-DMAK-CUP.pdf",
+    "sha256": "a4f35514ec5244cbc4f05f14b8bf5eb701f61a5908b2e23a02ed566c51e0774a",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 11,
+    "fixture_digest": "87ce281698a5dba943868009859fb1ba5fb9a1e48203f8a42a14164b3aef62cf"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2017-2018/RESULTS-AMAK-CUP.pdf",
+    "sha256": "882d793f3d1fc6356aab2278f474f1a1392580581c80a33a33e8dfd9d0d742fb",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΔΑΜΑΣΤΟΙ ΚΟΜΟΤΗΝΗΣ",
+        "away": "ΑΕΤΟΙ ΚΟΜΟΤΗΝΗΣ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          498.1300048828125,
+          288.3740234375,
+          511.4332275390625,
+          298.63201904296875
+        ],
+        "round": "Μικρός τελικός"
+      },
+      {
+        "home": "ΑΠΑΙΧΤΟΙ ΚΑΒΑΛΑΣ",
+        "away": "UNDERGROUND ΑΛΕΞ/ΠΟΛΗΣ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          626.1500244140625,
+          288.3740234375,
+          639.4531860351562,
+          298.63201904296875
+        ],
+        "round": "Τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 7,
+    "fixture_digest": "fa051ba2fe9155a8ebe217d1ac1ef0a13c6e0fe65746342c38a70e265a24b042"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2017-2018/RESULTS-PELOP-CUP.pdf",
+    "sha256": "90b3d82cb2ef88ed3f2ec00459130080c4d256a59c968809e155191f5756bac9",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 10,
+    "fixture_digest": "1282be9dbf567047d167f86df900b1704618093cc60b171eedffc664d1a2f97e"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2016-2017/DRAW-PLAYOFFS.pdf",
+    "sha256": "2b3cd3025bae82839eb63d3731614eed7745f7d8334290404a579f37d0241c1e",
+    "pages": 4,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 43,
+    "fixture_digest": "c2a7e6630570d63a4fac3ae8eaeb771b3d3cf64e4e84dd95699eb7654c8463d6"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2016-2017/RESULTS-KMAK-PLAYOFFS.pdf",
+    "sha256": "2b38993d43497f81b2d8301354dc72100f1ebce696ff4c98025513aebd820a30",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 5,
+    "fixture_digest": "9de60208a10d1b6e5f12bec725e33c4516ff00e3138ce1fa09ea5dc1d156f196"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2016-2017/RESULTS-ATTIKH-CUP.pdf",
+    "sha256": "cbd5a21a5238d3640b4d1e511a30baa09f0daa68bd3215cc6875e91dcb225121",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΒΕΤ. ΑΓΙΑΣ ΒΑΡΒΑΡΑΣ",
+        "away": "ΒΕΤ. ΑΟ ΤΑΤΑΥΛΑ",
+        "score": [
+          4,
+          3
+        ],
+        "page": 2,
+        "bbox": [
+          562.3499755859375,
+          41.550987243652344,
+          570.7715454101562,
+          48.01798629760742
+        ],
+        "round": "Μικρός τελικός"
+      },
+      {
+        "home": "ΑΚΤΩΡ",
+        "away": "ΠΑΝΘΕΟ 16",
+        "score": [
+          4,
+          0
+        ],
+        "page": 2,
+        "bbox": [
+          699.969970703125,
+          41.550987243652344,
+          708.3915405273438,
+          48.01798629760742
+        ],
+        "round": "Τελικός"
+      },
+      {
+        "home": "ΒΕΤ. ΑΓΙΑΣ ΒΑΡΒΑΡΑΣ",
+        "away": "ΠΑΝΘΕΟ 16",
+        "score": [
+          1,
+          4
+        ],
+        "page": 2,
+        "bbox": [
+          633.75,
+          272.0509948730469,
+          642.1715698242188,
+          278.5179748535156
+        ],
+        "round": "Ημιτελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 81,
+    "fixture_digest": "e0858366662a295dfb8a0df79b087c2ad63ab93c0c13a0b3f4c95118b6ece321"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2016-2017/RESULTS-KMAK-CUP.pdf",
+    "sha256": "c944d1b69ad40d53be8126f32ac0881b481f4a4622afd7ac49f876b6fef52eb9",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΡΧΟΝΤΕΣ",
+        "away": "ΔΟΞΑ ΕΥΟΣΜΟΥ",
+        "score": [
+          4,
+          0
+        ],
+        "page": 1,
+        "bbox": [
+          520.719970703125,
+          327.5740051269531,
+          534.0231323242188,
+          337.8320007324219
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 22,
+    "fixture_digest": "dad5cc2a9cdae5a300c693ff3f27819a8637d029a6cc40ed0b40ab9d4b1eee14"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2016-2017/RESULTS-DMAK-CUP.pdf",
+    "sha256": "6a5307a48585bf9e086e78f31466e082a06fec269b818c209e5500851b867da2",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 8,
+    "fixture_digest": "39954dc8ed4aab0df48ede38fc6141e3dba4959a1b3d7203e7ec7b4894866ba3"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2016-2017/RESULTS-AMAK-CUP.pdf",
+    "sha256": "bc01c095c908c1128961363939877369566bcdb44b32b3d19adc356ec69f29c5",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΕΘΝΙΚΟΣ ΑΛΕΞ/ΠΟΛΗΣ",
+        "away": "ΒΕΤΕΡΑΝΟΙ ΔΡΑΜΑΣ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          501.3299865722656,
+          288.3740234375,
+          514.6331787109375,
+          298.63201904296875
+        ],
+        "round": "Μικρός τελικός"
+      },
+      {
+        "home": "ΑΠΑΙΧΤΟΙ ΚΑΒΑΛΑΣ",
+        "away": "ΑΕΤΟΙ ΚΟΜΟΤΗΝΗΣ",
+        "score": [
+          4,
+          2
+        ],
+        "page": 1,
+        "bbox": [
+          629.3499755859375,
+          288.3740234375,
+          642.6531372070312,
+          298.63201904296875
+        ],
+        "round": "Τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 8,
+    "fixture_digest": "d081778a1495b054c19762f99bbde9a4116b18b1c5a1030f9575184f8530b6e9"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2016-2017/RESULTS-PELOP-CUP.pdf",
+    "sha256": "d268f5c10125ab5cc5879e6cf11a7bf2256e551b955fcc191a7ea4241e8a6b51",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 6,
+    "fixture_digest": "664a0b7aebb3478dedae4be44c79d3f13c0b8ad41ef047a9c4c8e1f2d6b50a3a"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2016-2017/RESULTS-DYTELL-CUP.pdf",
+    "sha256": "e97e88f8cacbbf3431a2210ab64f11f4415e0b189cbd95e21a98401fc028e65d",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΒΕΤ. ΑΟ ΓΑΛΗΝΗ ΠΑΤΡΑ",
+        "away": "ΦΟΙΝΙΚΑΣ 2010",
+        "score": [
+          4,
+          0
+        ],
+        "page": 1,
+        "bbox": [
+          528.3300170898438,
+          323.6499938964844,
+          542.8941040039062,
+          334.6499938964844
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 10,
+    "fixture_digest": "10756408892bf883edeaea0bb42c894e52e1f837416d69032d977da44dc9469c"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2016-2017/RESULTS-KRHTH-CUP.pdf",
+    "sha256": "1ad33a6c7767a35000e4780dc6e85bd5d9e4b993a5588f08b16741cda21f1bab",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 16,
+    "fixture_digest": "1ea978c219e0b90d56639394b930899b22497bafd6bd8d55c9d2b5531abe8850"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2015-2016/APOTELESMATA-PLAYOFFS-ATTIKH.pdf",
+    "sha256": "733517fe46e95cdd4887338c769b2997539fd1abcf0bcc4a28f6efd97d1f7eaf",
+    "pages": 3,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 20,
+    "fixture_digest": "4f445cc451e17c6adc24fb19f48cd8f3e585595fb027ca6aa705c3d552dc67fb"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-ATTIKHS.pdf",
+    "sha256": "ac99aefe6f152a71c971b7ab86153fd62da19503b9a1f603055d3291745a10b1",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΠΑΝΘΕΟ 11",
+        "away": "ΑΜΦΙΘΕΑ",
+        "score": [
+          4,
+          2
+        ],
+        "page": 2,
+        "bbox": [
+          567.3499755859375,
+          41.550987243652344,
+          575.7715454101562,
+          48.01798629760742
+        ],
+        "round": "Μικρός τελικός"
+      },
+      {
+        "home": "ΑΚΤΩΡ",
+        "away": "ΠΑΝΘΕΟ",
+        "score": [
+          4,
+          3
+        ],
+        "page": 2,
+        "bbox": [
+          702.3800048828125,
+          41.550987243652344,
+          710.8015747070312,
+          48.01798629760742
+        ],
+        "round": "Τελικός"
+      },
+      {
+        "home": "ΑΜΦΙΘΕΑ",
+        "away": "ΠΑΝΘΕΟ",
+        "score": [
+          3,
+          4
+        ],
+        "page": 2,
+        "bbox": [
+          636.1500244140625,
+          272.0509948730469,
+          644.5715942382812,
+          278.5179748535156
+        ],
+        "round": "Ημιτελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 73,
+    "fixture_digest": "848e2f55d2c8c059183f77f7f5289a144c3470ddd1471898c3520c9596c32379"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-KMAK.pdf",
+    "sha256": "a7569b52a211d13c24ff610c0b4f54e3525820a292a48390f788ea4b8f540fa0",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΡΧΟΝΤΕΣ",
+        "away": "ΔΟΞΑ ΕΥΟΣΜΟΥ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          501.1300048828125,
+          317.5740051269531,
+          514.4332275390625,
+          327.8320007324219
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 20,
+    "fixture_digest": "60a40e6c62b6c7f65f32ed9a4ff64e8ad0e8aee22835c29a288212198c3a9eeb"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-DMAK.pdf",
+    "sha256": "e4a0610159a4be1c24634a502a1592e3db119266242bfacd2ea44dcce19044d2",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 8,
+    "fixture_digest": "20ba1e3d882e371b31508f10dbf99845e49627badcc10402e598151a26369e44"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-AMAK.pdf",
+    "sha256": "e3dd2df9ca17c84a400a2b9e9b3195add9e7c584ededa104793e520b7965480d",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 7,
+    "fixture_digest": "55e4cdbff79b0d279073705cd26d170624e20907790b2859bec2bdfa9f5767ce"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-PELOP.pdf",
+    "sha256": "c99201da2fa88eddc38fe25d7681bf693585a0938fc595ab2bfd4124b0cbd4cc",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "name_corrections": {
+      "ΠΙΝΓΚΝΠΟΝΓΚΝSTARSΝΚΑΛΑΜΑΣΑ΢": "ΠΙΝΓΚ ΠΟΝΓΚ STARS ΚΑΛΑΜΑΤΑΣ",
+      "ΘΤǼΛΛΑΝΣΡΙΠΟΛΗ΢": "ΘΥΕΛΛΑ ΤΡΙΠΟΛΗΣ",
+      "ΦΑΡΗ΢ΝΚΑΛΑΜΑΣΑ΢": "ΦΑΡΗΣ ΚΑΛΑΜΑΤΑΣ",
+      "ǻΑΙǻΑΛΟ΢ΝΚΟΡΙΝΘΙΑ΢": "ΔΑΙΔΑΛΟΣ ΚΟΡΙΝΘΙΑΣ",
+      "ΚǼΡΑΤΝΟ΢ΝΚΑΛΑΜΑΣΑ΢": "ΚΕΡΑΥΝΟΣ ΚΑΛΑΜΑΤΑΣ",
+      "ΠǼΤΚΙΑ΢ΝΞΤΛΟΚΑ΢ΣΡΟΤ": "ΠΕΥΚΙΑΣ ΞΥΛΟΚΑΣΤΡΟΥ",
+      "ΝΑΤ΢ΙΜǼǻΩΝ": "ΝΑΥΣΙΜΕΔΩΝ"
+    },
+    "additional_fixtures": [
+      {
+        "home": "ΠΙΝΓΚ ΠΟΝΓΚ STARS ΚΑΛΑΜΑΤΑΣ",
+        "away": "ΚΕΡΑΥΝΟΣ ΚΑΛΑΜΑΤΑΣ",
+        "score": [
+          4,
+          0
+        ],
+        "page": 1,
+        "round": "Τελικός"
+      },
+      {
+        "home": "ΦΑΡΗΣ ΚΑΛΑΜΑΤΑΣ",
+        "away": "ΠΕΥΚΙΑΣ ΞΥΛΟΚΑΣΤΡΟΥ",
+        "score": [
+          4,
+          2
+        ],
+        "page": 1,
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "expected_fixtures": 11,
+    "fixture_digest": "73869c2dd67cf2a5b8e6917719a3af1867f4e56da556d081173600ccc49d8da5"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-DYTELL.pdf",
+    "sha256": "2518ecd545f0c1e14c3be3cb594c1e07776032ff7a03d92402e24c1cd3331966",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "notes": "The final and third-place rows name different entrants than semifinal advancement suggests. Retain the explicit fixture rows as printed; do not infer different entrants.",
+    "expected_fixtures": 16,
+    "fixture_digest": "1bd759ce0061cedbeb3bed764b063ffc507b974c1ae38c7a9be5cd09190c03a6"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-KRHTH.pdf",
+    "sha256": "7a1947d4df43700bb36840b1fbc239a4e24bd7bae581c9865ed311339e93ff83",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 16,
+    "fixture_digest": "78f7356d9d42631ec3a42345ce63d582b050370e7064536760224dfb86243902"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2014-2015/RESULTS-PLAYOFFS-ATTIKHS-2014-2015.pdf",
+    "sha256": "025074f276c07a224a5fa461957c29c3a520b3f8948c2376b892415b5f0b1451",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 18,
+    "fixture_digest": "08e802aca04841fbac022079882ddfd6e94fbb12e448aa695b37dcefefd5f9bb"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-ATTIKHS-2014-2015.pdf",
+    "sha256": "3e4999e17849673a8d190869e967bd0a29425d36e9a6bfbd06f1e9337f90d2d6",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 62,
+    "fixture_digest": "ab1010255a8520b616c13c2de8a1100fb3869dd7701519c922378d178a9a349d"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-KMAK-2014-2015.pdf",
+    "sha256": "0bd87a503cc110b5051cf7c84eb27f9d353b8af01717063ca90ac55601b8db3c",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΔΟΞΑ ΕΥΟΣΜΟΥ 2010",
+        "away": "PONG VIVEURS",
+        "score": [
+          5,
+          2
+        ],
+        "page": 1,
+        "bbox": [
+          524.3300170898438,
+          317.3740234375,
+          537.6331787109375,
+          327.63201904296875
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 18,
+    "fixture_digest": "54831800a185f30b22b662eb8e8ac93264874fae687553443a8fb4f686691fe8"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/kypello_dmak.pdf",
+    "sha256": "6e7e85a5b3f20ed9da3fb1ea8941e54bdc9e8e5d7eb982c6bb73d9a5c77c08dd",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 6,
+    "fixture_digest": "74f5f3481024978b904b94e87927a79b7c7f0303a7b7a70b57ac22ce3ecfa8e7"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-AMAK.pdf",
+    "sha256": "6253f4788cc11fbde4806150196a96b16c886553fff2dc54d5b699ba8732f0e9",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΦΑΡΟΣ ΑΛΕΞ/ΠΟΛΗΣ",
+        "away": "ΑΔΑΜΑΣΤΟΙ ΚΟΜΟΤΗΝΗΣ",
+        "score": [
+          4,
+          0
+        ],
+        "page": 1,
+        "bbox": [
+          403.1000061035156,
+          437.8240051269531,
+          416.4032287597656,
+          448.0820007324219
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 8,
+    "fixture_digest": "579e7c194eae6c133a245478c2d3a8a171f3c385abfd6f5808512b24178c4809"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/kypello_pelop.pdf",
+    "sha256": "943c2bd0610a120d70805fd26d8e1edfcf9927ffe98bb37bf97befe5564a9171",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 16,
+    "fixture_digest": "50d5baca0572ee40b8b77d816f78d0dc2264922e2ed4163125c1e09068630c71"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-DELL.pdf",
+    "sha256": "053608f00eb6b18c920885b69a3e30b1f606888b1c7985b9ec31f9d4dea542b3",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 11,
+    "fixture_digest": "01f425ad547dcceb9cc5087b06e0ef1ccd5d33ecab640e9633eceeb7091a4492"
+  },
+  {
+    "url": "http://files.ping-pong.gr/2013-2014/RESULTS-PLAYOFFS-2013-2014.pdf",
+    "sha256": "dca2b09b8e526073305f753433bbbd95483ca6cec9a338a82fc1fc865170552e",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 12,
+    "fixture_digest": "a3f77e204f6e1132185c0d378b20ce60b9f797dc49d4f9a4eea07d88b8d99e5a"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apot_kyp_attikh.pdf",
+    "sha256": "c7d20a4cd8f1d93d8bc006b1405a47bcbba6c2c7ba4b107e94db7b2cde745821",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΑΚΤΩΡ",
+        "away": "ΠΑΝΘΕΟ",
+        "score": [
+          4,
+          1
+        ],
+        "page": 1,
+        "bbox": [
+          1030.800048828125,
+          751.5549926757812,
+          1043.8050537109375,
+          761.5989990234375
+        ],
+        "round": "Τελικός"
+      },
+      {
+        "home": "ΓΛΥΦΑΔΑ",
+        "away": "ΠΟΝΤΙΟΙ ΜΕΛΙΣΣΙΩΝ",
+        "score": [
+          4,
+          2
+        ],
+        "page": 2,
+        "bbox": [
+          1005.5,
+          46.15498733520508,
+          1018.5050659179688,
+          56.1989860534668
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 55,
+    "fixture_digest": "a4bac4807b24b50e4bb5f11ea723fb8ad5bad2f86cddf37cc44cbc93fbc0ae2a"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/__-.pdf",
+    "sha256": "a30652d62a700c2dd525975f0297c7640ba323d67cca93c5e98c389345d16ac6",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "additional_fixtures": [
+      {
+        "home": "ΕΥΟΣΜΟΣ 2010",
+        "away": "ΘΕΡΜΗ",
+        "score": [
+          4,
+          2
+        ],
+        "page": 1,
+        "bbox": [
+          674.5800170898438,
+          360.0040283203125,
+          687.8831787109375,
+          370.26202392578125
+        ],
+        "round": "Μικρός τελικός"
+      }
+    ],
+    "notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+    "expected_fixtures": 14,
+    "fixture_digest": "68cafaf4e43c86e8390da9a4d00f65143a4e716264ab0c19cbfb92d3cbc3d71c"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_dyt-mak.pdf",
+    "sha256": "b2c753a50e4b7478501441520364e9a0aca54c3e1617cf9dbc68c4ab9b7094a5",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 6,
+    "fixture_digest": "f3b3b27f8fbe89acfb25dd5acb4f772af5bc7ba732631d81361e3a4c45d21704"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_a-mak.pdf",
+    "sha256": "0cbdfa281d6029f2cc622535e75825957563e064033435efc628dc97127c5557",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 8,
+    "fixture_digest": "aa08b9e6d6add8e1936fa218dcebd2d1927ecdb10a72b5b27cd7e456f454502d"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_pelop.pdf",
+    "sha256": "0198de915de219109362d38b32c742303ac069cf86a311a2eda7666f886ea53b",
+    "pages": 2,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 6,
+    "fixture_digest": "a48896c8bf10cccec62e5d011304ce41c7f17718b5be924ede9bf99c6118f486"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_dyt_ell.pdf",
+    "sha256": "7b41bd1a995499730ed437b6fded656acb3a5bb931ae3b69ea8d70be3df45e8c",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "expected_fixtures": 6,
+    "fixture_digest": "48707bc62418a78fadcbc9d108a453cdd61bf7fecbdfa2e1fd89fec2ec08de18"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/5334735_orig.jpg",
+    "sha256": "cd6903be7fed3c158b0cb58d5a5f8269721ec387ecdc20bdfceac3bd0af7f60e",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "standings_only",
+    "notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+    "expected_fixtures": 0,
+    "fixture_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/4921672_orig.jpg",
+    "sha256": "5642da2a86a9cb0140095f229c26a91a91e4d4c1f90c60fa5355a51ac8bdd418",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "standings_only",
+    "notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+    "expected_fixtures": 0,
+    "fixture_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/9305641_orig.jpg",
+    "sha256": "a38e704b2b4b71537df6668d15a3407b82220c7a63b219a4b23ea3594f9350e5",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "standings_only",
+    "notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+    "expected_fixtures": 0,
+    "fixture_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/2043880_orig.jpg",
+    "sha256": "5a5b15e9cd1949e95ad2081617df6c8517a25819a144039404952c818fabe767",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "standings_only",
+    "notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+    "expected_fixtures": 0,
+    "fixture_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/7039928_orig.jpg",
+    "sha256": "40495ce991b9be8e69aa02096e2b255688e2acb58addb42af1299239306fc53b",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "standings_only",
+    "notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+    "expected_fixtures": 0,
+    "fixture_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/6537061_orig.jpg",
+    "sha256": "5c3b7a72ccbf7ff3396e27cb253c2516d3f26e74771be7224233e02d889120b2",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "standings_only",
+    "notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+    "expected_fixtures": 0,
+    "fixture_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "url": "http://files.ping-pong.gr/FA22-23/GAT-ARIc.jpg",
+    "sha256": "68066bde37e15ca2050156145a7ccba0c386ad10607d7c4bb1feb1caf5ce76b4",
+    "pages": 1,
+    "reviewed_at": "2026-11-26",
+    "status": "results_imported",
+    "notes": "Handwritten sheet dated 27/04/2023: three singles corroborate existing April workbook rows. The fourth rubber is doubles; it is retained with the fixture and excluded from singles totals.",
+    "additional_fixtures": [
+      {
+        "home": "ΓΑΤΕΛΟΥΖΟΙ",
+        "away": "ΑΡΙΣΒΑΙΟΣ",
+        "score": [
+          0,
+          4
+        ],
+        "date": "2023-04-27",
+        "page": 1,
+        "sheet_url": "http://files.ping-pong.gr/FA22-23/GAT-ARIc.jpg",
+        "round": "Τελικός Κυπέλλου Βορείου Αιγαίου",
+        "rubbers": [
+          {
+            "kind": "singles",
+            "match": "m-08d7a5914a2614e1",
+            "score": [
+              0,
+              3
+            ],
+            "row": 1
+          },
+          {
+            "kind": "singles",
+            "match": "m-a44ff44252466c22",
+            "score": [
+              0,
+              3
+            ],
+            "row": 2
+          },
+          {
+            "kind": "singles",
+            "match": "m-008206cc0b4deb67",
+            "score": [
+              0,
+              3
+            ],
+            "row": 3
+          },
+          {
+            "kind": "doubles",
+            "home": [
+              "ΜΟΥΤΖΟΥΡΕΛΛΗΣ",
+              "ΣΙΒΡΗΣ"
+            ],
+            "away": [
+              "ΓΕΩΡΓΕΛΛΗΣ",
+              "ΠΑΣΒΟΥΡΗΣ"
+            ],
+            "score": [
+              1,
+              3
+            ],
+            "row": 4
+          }
+        ]
+      }
+    ],
+    "expected_fixtures": 1,
+    "fixture_digest": "a4c15d7eb0d709bd8f0e5c5385e685db37a7e8dc9043c9807321c4cf50b2d598"
+  }
+]

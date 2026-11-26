@@ -1427,10 +1427,7 @@
 {"id":"c-7744cab7772b64b0","name":"ΓΑΣ ΣΠΑΡΤΑΚΟΣ ΔΙΔΥΜΟΤΕΙΧΟΥ Β"}
 {"id":"c-876116c19bace3ab","name":"Ν.Τ.Τ."}
 {"id":"c-bbe1da36e535f8dd","name":"ΙΠΠΟΚΚΡΑΤΗΣ"}
-{"id":"c-db898663616f90b5","name":"ATTACK-t (α.α.)"}
 {"id":"c-addbf7020eb99355","name":"Ε.Α. ΙΩΑΝΝΙΝΩΝ"}
-{"id":"c-b4e6a9db7a1dadc1","name":"ΤΡΙΤΩΝΕΣ ΚΟΝΙΤΣΑΣ *"}
-{"id":"c-1b2fc7b7b8ade1ef","name":"ELITE  ΤΑΥΡΟΥ"}
 {"id":"c-e93939a12f9e5d1a","name":"AMAROUSSION TOP S(P)INNERS"}
 {"id":"c-8972af2fcb36f896","name":"ΑΛΦΑ *"}
 {"id":"c-755acc46b2f48ccc","name":"PING FLOYD"}
@@ -1466,7 +1463,6 @@
 {"id":"c-7133683dff66e2d7","name":"ΝΙΚΗΤΗΣ Ν4"}
 {"id":"c-eb609e3c3b4a0172","name":"ΗΤΤΗΜΕΝΟΣ Ν4"}
 {"id":"c-15690920a2e680e5","name":"SAPERA *"}
-{"id":"c-9bbc8e750907d183","name":"ΑΣΤΡΑΠΗ ΕΥΟΣΜΟΥ (α.α.)"}
 {"id":"c-fc6e5624317f3f1a","name":"Α.Σ. ΡΑΔΑΜΑΝΘΥΣ **"}
 {"id":"c-b0b3ff604fa3182c","name":"ΑΝΑΓΕΝΝΗΣΗ ΗΡΑΚΛΕΙΟΥ *"}
 {"id":"c-4155c1db9720077a","name":"ΒΕΤΕΡΑΝΟΙ ΚΕΦΑΛΛΟΝΙΑΣ - ΙΘΑΚΗΣ"}
@@ -1489,16 +1485,7 @@
 {"id":"c-dbcc5071247e4c25","name":"ΒΕΤΕΡΑΝΟΙ ΔΡΑΜΑΣ *"}
 {"id":"c-90de478c7bf131c3","name":"ΑΙΑΣ *"}
 {"id":"c-a63b33c4f6bd1bdc","name":"ΜΕΓΑΛΑ ΠΑΙΔΙΑ-ΑΠΟΛΛΩΝ Β."}
-{"id":"c-a2a17badfa5866a0","name":"ILISSOS RACKETS* &(α.α.)"}
-{"id":"c-d09d8b704e02045a","name":"ILISSOS RACKETS*"}
-{"id":"c-995f25c1e2d826d9","name":"ROLL THE PONC* (α.α.)"}
-{"id":"c-d77efeae2a1038ff","name":"ROLL THE PONC*"}
-{"id":"c-d814a781d233e79e","name":"ΑΠΕΡΑΝΤΟΙ (α.α.)"}
 {"id":"c-92d50a3697a24ba3","name":"A.T.T.AC.K *"}
-{"id":"c-3ebfe36e49d46ddb","name":"ΑΛΕΞΑΝΔΡΟΥΠΟΛΗ  T.T.C."}
-{"id":"c-644200199bd40bac","name":"UNDERGROUND  ΑΛΕΞ/ΛΗΣ"}
-{"id":"c-f685ff859100bca6","name":"ΑΣΤΕΡΑΣ  ΑΛΕΞ/ΛΗΣ"}
-{"id":"c-6dfdd52dfd40de7d","name":"ΚΥΚΛΩΠΕΣ  ΚΟΜΟΤΗΝΗΣ"}
 {"id":"c-6c19e49300f218ef","name":"GOODFFELLAS"}
 {"id":"c-fd812ae84925e815","name":"ΑΤΛΑΣ Π.Γ.Σ.Σ."}
 {"id":"c-cf259524730f2e2e","name":"ΟΤΙ ΚΑΤΣΙ"}
@@ -1542,65 +1529,9 @@
 {"id":"c-7b3049ab99060173","name":"BALL OF FURY"}
 {"id":"c-5d9aa2b665648a95","name":"Φ.Ε.Α. ΗΡΑΚΛΕΙΟΥ"}
 {"id":"c-7b1753432e212fe4","name":"Φ.Ε.Α.Κ"}
-{"id":"c-4d9671ff55dc1df7","name":"ΚΡΟΚΟΔΕΙΛΟΙ ΦΛΩΡΙΝΑ΢"}
-{"id":"c-76a2ac98cd64ca21","name":"ΠΕΚΙΝΕΖΟΙ ΛΕΥΚΑΔΑ΢"}
 {"id":"c-a81dd974fba93f0c","name":"UNDERGOUND ΑΛΕΞ/ΛΗΣ"}
 {"id":"c-4c0b280ea17cddce","name":"ΒΕΤΕΡΑΝΟΙ ΑΛΕΞ/ΛΗΣ"}
 {"id":"c-5c3d3606c4105a6f","name":"ΦΑΡΗΣ"}
-{"id":"c-8b79dc509ed47106","name":"ΑΚΣΩΡ"}
-{"id":"c-da2cf9415b06b52e","name":"΢ΕΠ ΕΛΕΤ΢ΙΝΑ΢"}
-{"id":"c-59b152c9810c9a4d","name":"ΣΑΤΡΟ΢"}
-{"id":"c-e7808a2aa5652511","name":"ΒΕΣ. ΔΗΜΟΤ 3Β"}
-{"id":"c-319e3cb2ba48a6e3","name":"APACHE 1 ΧΟΛΑΡΓΟΤ"}
-{"id":"c-0deac6fcdb62b576","name":"ΒΕΣ. ΛΟΤΣΡΑΚΙΟΤ"}
-{"id":"c-e6df8d492263ef06","name":"ΠΡΙΓΚΗΠΟΝΗ΢ΙΑ"}
-{"id":"c-c168a82fcd14e1a6","name":"΢ΕΠ ΑΙΓΑΛΕΩ"}
-{"id":"c-0aa389adbfcef08a","name":"ΣΡΑΠΕΖΟΜΑΧΟΙ"}
-{"id":"c-f60296fbd6ed6dc4","name":"ΒΕΣ. ΣΑΤΡΟΤ 2"}
-{"id":"c-a8184bed598a8bea","name":"΢ΤΝΗΘΕΙ΢ ΤΠΟΠΣΟΙ"}
-{"id":"c-1f46d86f9f9feaf2","name":"ΠΡΟΟΔΕΤΣΙΚΗ ΕΚΡ. ΣΟΤΜΠΑ΢"}
-{"id":"c-19ac91f5f0073b50","name":"ΠΑΤΛΟ΢ ΜΕΛΑ΢ 3"}
-{"id":"c-2b48450fd291d677","name":"ΟΙ ΑΡΧΟΝΣΕ΢"}
-{"id":"c-1207e1e88c1a081d","name":"ΠΑΤΛΟ΢ ΜΕΛΑ΢ 2016"}
-{"id":"c-3f0337d2b02ba191","name":"ΝΕΜΕ΢Ι΢ ΩΡΑΙΟΚΑ΢ΣΡΟΤ"}
-{"id":"c-a88e25fc3f03c669","name":"ΣΑ ΜΕΓΑΛΑ ΠΑΙΔΙΑ"}
-{"id":"c-83e7ea40549a4b81","name":"ΠΑΤΛΟ΢ ΜΕΛΑ΢ 1"}
-{"id":"c-9cf74f7ab8da17f4","name":"ΠΑΤΛΟ΢ ΜΕΛΑ΢ 2"}
-{"id":"c-e1e3b7097b067d80","name":"ΒΕΣ. ΑΟ ΓΑΛΗΝΗ ΠΑΣΡΑ΢"}
-{"id":"c-f80bf4686accccd6","name":"RACKETALLICA ΑΜΑΛΙΑΔΑ΢"}
-{"id":"c-13b89e3b6b98fe55","name":"ΒΕΣ. ΑΝΑΓΕΝΝΗ΢ΙΑΚΟΤ"}
-{"id":"c-ae1008d4b1a1fcc3","name":"ΑΣΡΟΜΗΣΟΙ ΓΑΛΗΝΗ΢"}
-{"id":"c-6fa87376a4d86827","name":"ΑΓΙΑ ΢ΚΕΠΗ"}
-{"id":"c-d6d0bc02900a97e2","name":"Π.Κ.Ε. ΟΣΕ ΑΧΑΪΑ΢"}
-{"id":"c-563ca8483d3880a6","name":"Α.΢. ΙΦΙΣΟ΢ ΠΑΣΡΩΝ"}
-{"id":"c-bb3e7d4cfe8ba35d","name":"ΒΙΛΛΕΑΡΔΟΤΙΝΟΙ ΑΝΔΡΑΒΙΔΑ΢"}
-{"id":"c-958153d64d19b19a","name":"ΑΝΟΡΓΑΝΩΣΑ ΜΠΑΛΑΚΙΑ"}
-{"id":"c-4c118d07adb66051","name":"ΚΛΑΔΙ΢΢Ο΢ REBELS"}
-{"id":"c-5aa006a9cc299789","name":"ΦΟΤΡΟΓΑΣΟΙ"}
-{"id":"c-76295459ec973982","name":"Ο.Ρ.Φ.Ε.Α΢"}
-{"id":"c-f1c8b2f9cf585b4f","name":"Φ.Δ.Α. ΚΔΡΚΤΡΑ΢"}
-{"id":"c-122bec86b8aa3ea4","name":"PING PANTHERS ΠΣΟΛΔΜΑΪΓΑ΢"}
-{"id":"c-7225cbfc249537fa","name":"ΠΔΚΗΝΔΕΟΗ ΛΔΤΚΑΓΑ΢"}
-{"id":"c-b6a8b616a6a70d53","name":"Δ.Α. ΗΩΑΝΝΗΝΩΝ"}
-{"id":"c-dfaaa5303991cb9c","name":"ΑΔΡΑΣΟΗ ΚΟΕΑΝΖ΢"}
-{"id":"c-daabae688c248f2a","name":"ΚΡΟΚΟΓΔΗΛΟΗ ΦΛΩΡΗΝΑ΢"}
-{"id":"c-2ce48a3ccecfd8ab","name":"ΑΠΡΟΠΟΝΖΣΟΗ ΚΟΕΑΝΖ΢"}
-{"id":"c-01b3b6c8c7fb6aaa","name":"Φ.Δ.Α. ΗΩΑΝΝΗΝΩΝ"}
-{"id":"c-1ef4ab856a9d390a","name":"ΣΡΗΣΩΝΔ΢ ΚΟΝΗΣ΢Α΢"}
-{"id":"c-2a25f99bb7eaf700","name":"ΠΔΡΗΠΛΑΝΩΜΔΝΟΗ ΑΡΓΟ΢ ΟΡΔ΢ΣΗΚΟΤ"}
-{"id":"c-1b746b2e935a6a8e","name":"ΜΑΧΗΣΕ΢ ΞΑΝΘΗ΢"}
-{"id":"c-80ef3767d264a580","name":"ΑΔΑΜΑ΢ΣΟΙ ΚΟΜΟΣΗΝΗ΢"}
-{"id":"c-07c87f1ca9465e7b","name":"ΒΕΣΕΡΑΝΟΙ ΔΡΑΜΑ΢"}
-{"id":"c-35a9cb74f8eecf15","name":"UNDERGROUND ΑΛΕΞ/ΠΟΛΗ΢"}
-{"id":"c-d805268109e0fbe2","name":"ΑΕΣΟΙ ΚΟΜΟΣΗΝΗ΢"}
-{"id":"c-f8f99ebb6b8ad86b","name":"ΚΕΝΣΑΤΡΟΙ ΚΑΒΑΛΑ΢"}
-{"id":"c-9da696212576a3b0","name":"ΟΕΑ ΚΑΛΑΜΑΣΑ΢"}
-{"id":"c-e2808b8861b3f49d","name":"ΑΙΑΝΣΑ΢"}
-{"id":"c-a3c613eeea6f58ad","name":"ΑΕΚ ΣΡΙΠΟΛΗ΢"}
-{"id":"c-b85b459d992d32fe","name":"ΦΑΡΗ΢ 2"}
-{"id":"c-f37fd275fa9a5210","name":"ΦΑΡΗ΢ ΚΑΛΑΜΑΣΑ΢"}
-{"id":"c-2cdb120554e8d731","name":"ΠΕΤΚΙΑ΢ ΞΤΛΟΚΑ΢ΣΡΟΤ"}
-{"id":"c-07d39cc0f131c9e4","name":"ΑΙΑ΢"}
 {"id":"c-95cf5a9e987467b3","name":"ΤAVROS DREAM TEAM"}
 {"id":"c-6dec68fc03bc72d0","name":"ΜΑΡΟΥΣΙ ΡΙΝΚ PONG"}
 {"id":"c-b40b29b9fee8efd5","name":"ABBA-LEE"}
@@ -1614,7 +1545,6 @@
 {"id":"c-0f6b5be45022cf35","name":"APACHE 1 ΧΟΛΑΡΓΟΥ (Ν5)"}
 {"id":"c-e0d1550dae633195","name":"ΤΡΑΠΕΖΟΜΑΧΟΙ (Ν1)"}
 {"id":"c-0635713edb2c00a5","name":"BARCEΛΙΩΜΑ (Ν19)"}
-{"id":"c-36a5892e24517c6f","name":"SPINALONGA  (Ν7)"}
 {"id":"c-0565643327ac24dd","name":"ΒΕΤΕΡΑΝΟ ΑΓΙΑΣ ΒΑΡΒΑΡΑΣ"}
 {"id":"c-db99701879a2d971","name":"ΤΡΕΛΑ ΝΕΡΑ"}
 {"id":"c-3fa10ad51951cc84","name":"PONG VOYΑGE"}
@@ -1637,7 +1567,6 @@
 {"id":"c-4e00d7c4b8b3e498","name":"UNDERGROUND"}
 {"id":"c-10b378182cc51498","name":"ΒΕΕΤΡΑΝΟΙ ΔΡΑΜΑΣ"}
 {"id":"c-3129c5f117cc3a58","name":"ΠΑΥΛΟΣ ΜΕΛΑΣ 2 (N4)"}
-{"id":"c-98f0149702104d71","name":"10 SPEEDPONG"}
 {"id":"c-a8b87b49a7aa95f4","name":"Ο.Α.Α. ΗΡΑΚΛΕΙΟ"}
 {"id":"c-995625b864eb6f68","name":"PRINT POINT ΧΑΝΙΩΝ"}
 {"id":"c-b0f4ae9ab5852a5c","name":"ΤΟΡ MASTERS ΕΛΛΗΝΙΚΟΥ"}
@@ -1648,7 +1577,6 @@
 {"id":"c-9682ae8fece30bca","name":"ΑΚΤΩΤΗΡΙ ΧΑΝΙΩΝ"}
 {"id":"c-11a532606a811fe6","name":"Φ.Ε.π.Α. ΡΕΘΥΜΝΟΥ"}
 {"id":"c-d1c3f186e932cab7","name":"ΜΙΝΩΤΡΑΥΡΟΙ ΗΡΑΚΛΕΙΟΥ"}
-{"id":"c-f08004c9ca231969","name":"10 SPEED PONG"}
 {"id":"c-266b3e4bb8808c3f","name":"ΕΘΝΙΚΟΣ ΑΛΕΞ/ΠΟΛΗΣ"}
 {"id":"c-9bbf26dd9a2caff8","name":"ΜΙΝΩΤΑΥΡΟΙ ΗΡΑΚΛΕΟΥ"}
 {"id":"c-4d5b0fe384cd5b18","name":"OUZMASTERS"}
@@ -1680,9 +1608,6 @@
 {"id":"c-d5e52bfacbc2e5fd","name":"ΒΙΡΟΥΟΖΟΙ"}
 {"id":"c-355f06931a3d3fe2","name":"ΑΛΕΞΑΝΔΡΟΥΠΟΛΗΣ"}
 {"id":"c-bbd215e6e30133de","name":"ΧΧΧΧ"}
-{"id":"c-d74857b5346ea6ab","name":"Δ. Π. ΜΕΛΑ"}
-{"id":"c-7d12ba56e9f8b3dc","name":"2010"}
-{"id":"c-c47026db6018c1c4","name":"BIΡTOYOZOI"}
 {"id":"c-7b952b29f76c8a1e","name":"ΕΥΣΟΜΟΣ 2010"}
 {"id":"c-38240912abe981fb","name":"ΦΕΑ. ΙΩΑΝΝΙΝΩΝ"}
 {"id":"c-5b84aa5d662fabac","name":"ΑΓ. ΒΑΡΒΑΡΑ/ΠΕΡΑΜΑ"}
@@ -1735,3 +1660,283 @@
 {"id":"c-4cf59ba35c5c63ac","name":"BCA COLLEGE*"}
 {"id":"c-33fa0f684ff9cbd5","name":"THE INDEPENDENTS *"}
 {"id":"c-e81dfbd183a16b2c","name":"ΦΑΡΗΣ ΚΑΛΑΜΑΤΑΣ **"}
+{"id":"c-96d98a3b43cf6b19","name":"APACHE 11"}
+{"id":"c-95f72796626a1c75","name":"ΣΠΙΝΟΣΑΥΡΟΙ T.T.C."}
+{"id":"c-ae6da6f7658080e8","name":"A.E.E.A."}
+{"id":"c-fce33097f28bf5e6","name":"A.T.T.A.K."}
+{"id":"c-1ca1999c030f30d6","name":"PINGI PONGIANS ΑΡΗΣ ΝΙΚΑΙΑΣ (Γ1/1)"}
+{"id":"c-b3c53588398fe14d","name":"NEED4SPIN (Γ2/2)"}
+{"id":"c-fac109c66e5900ea","name":"APACHE 9 ΧΟΛΑΡΓΟΥ (Γ2/1)"}
+{"id":"c-ecbad44ebb6d5f53","name":"ΑΣΤΕΡΑΣ ΕΥΕΛΠΙΔΩΝ (Γ1/2)"}
+{"id":"c-6de2fec934e53d66","name":"BALL BREAKERS (Δ1/1)"}
+{"id":"c-769cbcf680c7a873","name":"ΝΕΑ ΣΜΥΡΝΗ (Δ2/2)"}
+{"id":"c-33bc8c8864ffa596","name":"ΕΛΕΥΣΙΝΙΟΙ ΜΥΣΤΗΡΙΟΙ 2 (Δ2/1)"}
+{"id":"c-fd47ed7a5d95475d","name":"ΤΡΕΛΑ ΝΕΡΑ ΧΑΛΚΙΔΑΣ (Δ1/2)"}
+{"id":"c-ad180f789c65fc27","name":"SOUTHERN UNITED (Ε1/1)"}
+{"id":"c-1f9116b6fa1a19ff","name":"APACHE 3 ΧΟΛΑΡΓΟΥ (Ε4/1)"}
+{"id":"c-acbab6257c43ebbb","name":"PING PONG CREW (Ε2/1)"}
+{"id":"c-8b92419a27832598","name":"APACHE 11 ΧΟΛΑΡΓΟΥ (Ε3/1)"}
+{"id":"c-4a81c3a3af7993ac","name":"DAFNI SILVER BLADES (Ε1/2)"}
+{"id":"c-be1de2f9f9d114bf","name":"NOSPINATALL (Ε4/2)"}
+{"id":"c-3560d37e56cef2e2","name":"SUGAREFIS BOYS (Ε2/2)"}
+{"id":"c-72f30fb458d849bf","name":"SOUTH SPINNERS (Ε3/2)"}
+{"id":"c-331579a7a483a1f8","name":"ΑΙΓΑΡΟΙ ΧΑΝΙΩΝ"}
+{"id":"c-3e62ab6cf4eca4e0","name":"RED HOT CHILLI PONGERS"}
+{"id":"c-4a78221a45e3807f","name":"ΒΕΤ. ΕΛΕΥΣΙΝΑΣ"}
+{"id":"c-69887a2460f496cc","name":"ΒΕΤ. ΚΕΦΑΛΟΝΙΑΣ-ΙΘΑΚΗΣ"}
+{"id":"c-6418576b34c74f72","name":"ΑΡΗΣ ΝΙΚΑΙΑΣ ΤΤ ΑΡΕΝΑ"}
+{"id":"c-ee10c15b81157d43","name":"ΡΑΔΑΜΑΝΘΥΣ 2"}
+{"id":"c-6babccf10b63698c","name":"LEGENDERY TT"}
+{"id":"c-0c114473bc4af421","name":"ΤΡΕΛΛΑ ΠΟΝΓΚΟ"}
+{"id":"c-610a4698741c9967","name":"AMAROUSSION TOP SPINNERS"}
+{"id":"c-9a724b8f5a74580e","name":"SPIΝFINITY ΜΙΘΡΙΔΑΤΗΣ"}
+{"id":"c-937e0dab83ec4e46","name":"ΠΡΟΟΔΟΣ 2"}
+{"id":"c-5681ec2d5737f381","name":"ΑΚΕΖ ΑΔΙΑΒΑΣΤΟΙ"}
+{"id":"c-859b3e9b8bf09825","name":"Α.Τ.Α.Κ."}
+{"id":"c-78bad0a3a23ee4c3","name":"POLYGYROS"}
+{"id":"c-626964d6288311c1","name":"NAOUSSA VETERANS"}
+{"id":"c-19508e348a9196b4","name":"APANATS ΦΙΛΩΤΑ"}
+{"id":"c-59fe2c7bc8279ae6","name":"ΓΑΣ ΣΠΑΡΤΑΚΟΣ Β'"}
+{"id":"c-d1a334b6f0b03a3a","name":"ΓΑΣ ΣΠΑΡΤΑΚΟΣ Α'"}
+{"id":"c-29a0d4dfe76e92d9","name":"ΑΣ ΡΑΔΑΜΑΝΘΥΣ 2 (Γ1/1)"}
+{"id":"c-d42aa3b7e951c8ef","name":"ΤΡΑΠΕΖΟΥΝΤΑ (Γ2/2)"}
+{"id":"c-336cec11e5786bff","name":"ATN TEAM (Γ2/1)"}
+{"id":"c-de0cae423dc2dc28","name":"ΠΙΝΓΚΠΟΝΓΚΝΙΣΤΕΣ (Γ1/2)"}
+{"id":"c-5b043a8b2e2fef77","name":"LOS SPINEIROS (Δ1/1)"}
+{"id":"c-3976006cfe82140f","name":"APACHE 6 ΧΟΛΑΡΓΟΥ (Δ2/2)"}
+{"id":"c-56994bea11bf57b7","name":"Α.Π.Σ. ΙΛΙΟΝ (Δ2/1)"}
+{"id":"c-68691695adb0825f","name":"APACHE 8 ΧΟΛΑΡΓΟΥ (Δ1/2)"}
+{"id":"c-aac9243eeccdde0f","name":"ΝΕΑ ΣΜΥΡΝΗ (Ε1/1)"}
+{"id":"c-116fb842db11a8ea","name":"SEN7JUNIORS (E3/1)"}
+{"id":"c-4957e18f0baa0893","name":"BALL BREAKERS (E2/1)"}
+{"id":"c-33143dc8106ed9f1","name":"A.KE.Z. ΑΔΙΑΦΟΡΟΙ"}
+{"id":"c-8698f4d43eef2a23","name":"BET. ΓΑΣ ΕΛΕΥΣΙΝΑΣ"}
+{"id":"c-3876fe78afe4f3b5","name":"ΒΕΤ. ΚΕΦΑΛΟΝΝΙΑΣ - ΙΘΑΚΗΣ"}
+{"id":"c-d2303e349b8a5dbd","name":"APACHE 1 ΧΟΑΛΡΓΟΥ"}
+{"id":"c-0e34782fb8c0524e","name":"PINGFLOYD"}
+{"id":"c-9fee9a4d5c17a47e","name":"ΠΙΝΓΚΠΟΝΓΝΙΣΤΕΣ"}
+{"id":"c-7dfaca0a9be6ae68","name":"FIRE BALLS"}
+{"id":"c-26751919eb0aadb4","name":"ΠΟΝΤΙΟΙ ΜΕΛΙΣΣΙΩΝ 201"}
+{"id":"c-21b879cf358d9139","name":"A.T.Τ.AC.K"}
+{"id":"c-730c85d2331c45aa","name":"ΕΠΙΤΡΑΠΕΖΙΟΙ ΑΝΤΙΣΦΑΙΡΙΣΤΕΣ"}
+{"id":"c-5a888a30ffac0599","name":"ΓΑΣ ΣΠΑΡΤΑΚΟΣ ΔΙΔΥΜΟΤ."}
+{"id":"c-33a28ec286bb8b35","name":"ΑΛΕΞΑΝΔΡΟΥΠΟΛΗ Τ.Τ.C."}
+{"id":"c-51972ed99b060fd6","name":"ΑΛΕΞΑΝΔΡΟΥΠΟΛΗ T.T.C"}
+{"id":"c-77a12ca398843512","name":"ΑΣΤΕΡΑΣ ΑΛΕΞ/ΛΗΣ"}
+{"id":"c-0e9044df1d5f4b5b","name":"ΜΕΤΑΜΟΡΦΩΣΗ (Γ1/1)"}
+{"id":"c-5be6cd4491b8c8b9","name":"PING FLOYD (Γ2/2)"}
+{"id":"c-f06ba57d30d46505","name":"ΚΑΡΕΑΣ (Γ2/1)"}
+{"id":"c-e5bbf31321393690","name":"ΕΛΕΥΣΙΝΙΟΙ ΜΥΣΤΗΡΙΟΙ (Γ1/2)"}
+{"id":"c-a15d684fda167a14","name":"ΕΣΠΕΡΟΣ (Δ1/1)"}
+{"id":"c-de53b89f96a2a2b6","name":"ΜΑΓΚΟΥΦΑΝΑ (Δ2/2)"}
+{"id":"c-dddb6159b402bdea","name":"SUP...ΑΚΗΔΕΣ (Δ2/1)"}
+{"id":"c-1494885a77c79007","name":"ΑΚΑΡΕΑ (Δ1/2)"}
+{"id":"c-7d49749cc3324761","name":"ΠΑΝΑΘΗΝΑΪΚΟΣ 1908 (Ε1/1)"}
+{"id":"c-4a0e27956aab30a6","name":"SPINFINITY 2 (E3/1)"}
+{"id":"c-7d165fb892b67c9e","name":"12ο SPIN ΧΑΛΑΝΔΡΙ (E2/1)"}
+{"id":"c-47df1c9b84e24876","name":"ΒΕΤΕΡΑΝΟΙ ΕΛΕΥΣΙΝΑΣ"}
+{"id":"c-453051b23b1a2318","name":"ASTRAXAN"}
+{"id":"c-c96ef21a9470f996","name":"APACHE 4 ΧΟΛAΡΓΟΥ"}
+{"id":"c-bdeefaf87c89cb05","name":"APACHE 9 ΧΟΛAΡΓΟΥ"}
+{"id":"c-0bccdf54efdf18c0","name":"APACHE 2 ΧΟΛAΡΓΟΥ"}
+{"id":"c-f3d1cf338e0871e3","name":"APACHE 6 ΧΟΛAΡΓΟΥ"}
+{"id":"c-7f593495251e7b5f","name":"ROLL THE PONG"}
+{"id":"c-62b81cf4baaedf34","name":"ΒΕΤΕΡΑΝΟΙ ΦΟΙΝΙΚΑ ΑΓ. ΣΟΦΙΑΣ"}
+{"id":"c-9933128f5f93ae6c","name":"TEAM ΔΙΟΝΥΣΟΣ"}
+{"id":"c-a8867983c0fb8f94","name":"12o SPIN ΧΑΛΑΝΔΡΙ"}
+{"id":"c-f3adc256ec0700cb","name":"A.T.T.A.C.K."}
+{"id":"c-60db50238577e99f","name":"A.T.T.A.C.K.-t"}
+{"id":"c-019faf79681ebdb7","name":"ΑΛΛΑ ΚΟΛΠΑ ΠΤΟΛΕΜΑΪΔΟΣ"}
+{"id":"c-5eaf3a8a27681fa0","name":"BLADE WALKERS (Γ1/1)"}
+{"id":"c-d2d1c2448049574f","name":"PLAY4FAN (Γ2/2)"}
+{"id":"c-1e7ce2e7dc549e07","name":"APACHE 1 ΧΟΛΑΡΓΟΥ (Γ2/1)"}
+{"id":"c-0fd780277191e93d","name":"ΑΤΛΑΣ ΠΓΣΣ (Γ1/2)"}
+{"id":"c-7ad508ef9d05ab66","name":"ΚΑΡΕΑΣ (Δ1/1)"}
+{"id":"c-4e475453b0b0248a","name":"ΑΣ ΡΑΔΑΜΑΝΘΥΣ 2 (Δ2/2)"}
+{"id":"c-fe46921440d5c322","name":"ΕΛΕΥΣΙΝΙΟΙ ΜΥΣΤΗΡΙΟΙ (Δ2/1)"}
+{"id":"c-ab51e45a2fb0cfdf","name":"OUZOMASTERS ΧΑΛΚΙΔΑΣ (Δ1/2)"}
+{"id":"c-2de18f2d109d460f","name":"ΑΔΙΑΒΑΣΤΟΙ ΖΩΓΡΑΦΟΥ (E1/1)"}
+{"id":"c-6cd418cf9cb1e771","name":"ΑΣ ΠΡΟΟΔΟΣ 2 (E2/2)"}
+{"id":"c-7180d6947d8b3e15","name":"ΕΣΠΕΡΟΣ (E2/1)"}
+{"id":"c-7b2459941c48563e","name":"ΑΚΑΡΕΑ (E1/2)"}
+{"id":"c-23571f5b023d83f8","name":"ΑΡΗΣ ΝΚΑΙΑΣ ΤΤ ARENA"}
+{"id":"c-e9ee33965816f818","name":"ΑΝΑΓΕΝΝΗΣΗ ΗΡΑΚΛΕΟΙΥ"}
+{"id":"c-a312f7a8f5167f86","name":"ΑΟ ΗΡΑΚΛΕΙΟΥ"}
+{"id":"c-996b1a61e131ca68","name":"ΑNΕΤΟΙ ΤΑΤΑΥΛΑ"}
+{"id":"c-fcdd8942b16a5606","name":"LAST MINUTE (N8)"}
+{"id":"c-783e8149753e0fb3","name":"ΜΕΓΑΣ ΑΛΕΞΑΝΔΡΟΣ (Ν4)"}
+{"id":"c-7ed26f5babbfe72d","name":"THERMINATORS 2019 (Ν2)"}
+{"id":"c-cda319bb05f2ba1a","name":"SPEEDPONG (Ν5)"}
+{"id":"c-fb317f9702d5d6d9","name":"ΑΙΑΝΤΑΣ Άργους"}
+{"id":"c-048173090b3a278f","name":"ΑΡΗΣ ΝΙΚΑΙΑΣ TT"}
+{"id":"c-5d5710cef9e444f3","name":"APACHE 2 ΧΟΛΑΡΓΟΥ (Γ1/1)"}
+{"id":"c-9309d875b1f94035","name":"ΤΡΕΛΑ ΝΕΡΑ ΧΑΛΚΙΔΑΣ (Γ2/2)"}
+{"id":"c-e6042d59fcec6017","name":"YOU PONG (Γ2/1)"}
+{"id":"c-b8e3147ebe3aafee","name":"SPINADORE (Γ1/2)"}
+{"id":"c-e289777fe70e1aaa","name":"PING FLOYD (Δ1/1)"}
+{"id":"c-5793e38c0cf2660a","name":"ΑΤΛΑΣ Π.Γ.Σ.Σ. (Δ2/2)"}
+{"id":"c-50633608faa6b581","name":"BLADE WALKERS (Δ2/1)"}
+{"id":"c-fc09c299f6b082c3","name":"ΜΕΤΑΜΟΡΦΩΣΗ (Δ1/2)"}
+{"id":"c-b3700de51926c9a7","name":"ΚΑΡΕΑΣ (E1/1)"}
+{"id":"c-e825c1886ae0d462","name":"OUZOMASTERS (E2/2)"}
+{"id":"c-86f42b48c93e6a3f","name":"ΕΛΕΥΣΙΝΙΟΙ ΜΥΣΤΗΡΙΟΙ (E2/1)"}
+{"id":"c-18cd42744d050af0","name":"SUP…ΑΚΗΔΕΣ (E1/2)"}
+{"id":"c-eb9baee4cef591b9","name":"ΒΕΤ. ΑΟ ΦΟΙΝΙΚΑ ΑΓ. ΣΟΦΙΑΣ"}
+{"id":"c-5b838cc2451e31f7","name":"ΠΙΝΓΚΠΟΝΓΚΙΣΤΕΣ"}
+{"id":"c-1f899438e666ddd3","name":"ΒΕΤ ΤΑΥΡΟΥ 2"}
+{"id":"c-daf69ee6a4edc7cb","name":"Π.Κ.Ε. ΟΤΕ ΑΧΑΪΑΣ"}
+{"id":"c-21e614ccca92f098","name":"ΠΕΡΙΠΛΑΝΩΜΕΝΟΙ ΑΡΓΟΣ ΟΡΕΣΤΙΚΟΥ"}
+{"id":"c-5c04c7c4b4fe413e","name":"Θέσεις 7-8 ΦΑΡΗΣ 2"}
+{"id":"c-81beda424920e9ca","name":"Θέσεις 5-6 THE RAMS"}
+{"id":"c-e647ac23e1b7c961","name":"Θέσεις 3-4 ΑΕΚ ΤΡΙΠΟΛΗΣ"}
+{"id":"c-291e45e77894f69e","name":"Θέσεις 1-2 ΦΑΡΗΣ ΚΑΛΑΜΑΤΑΣ"}
+{"id":"c-3ed9dc2901477ea5","name":"ΑΣΤΕΡΑΣ ΕΥΕΛΠΙΔΩΝ (Ν16)"}
+{"id":"c-32a1034cef19592a","name":"ΤΑΥΡΟΙ ΕΝ ΔΡΑΣΕΙ (Ν3)"}
+{"id":"c-2a76c5f18a97ae05","name":"Α.Σ. ΡΑΔΑΜΑΝΘΥΣ (Ν12)"}
+{"id":"c-5e650c7230c31fcf","name":"Α.Σ. ΠΑΠΑΣΙΔΕΡΗΣ (Ν8)"}
+{"id":"c-5c161f7939d22d97","name":"DAFNI SILVER BLADES (Ν17)"}
+{"id":"c-bf69595bd49d2878","name":"BLADE WALKERS (Ν11)"}
+{"id":"c-2e4eb981eb4c1e0c","name":"ΒΕΤ. ΔΗΜΟΥ ΒΟΥΛΑΣ (Ν4)"}
+{"id":"c-aa107f821da67106","name":"ΔΑΦΝΗ 2006 (Ν10)"}
+{"id":"c-b14655dc7caff58d","name":"ΠΡΩΤΑΘΛΗΤΕΣ ΒΕΤΕΡΑΝΟΙ (Ν2)"}
+{"id":"c-ea3b18dcae59db84","name":"SPINADORE (Ν18)"}
+{"id":"c-d096d940b4c7a931","name":"SPATA T.T. 1 (Ν15)"}
+{"id":"c-5758429c64cbe25d","name":"ΒΕΤ. ΑΓΙΑΣ ΣΟΦΙΑΣ"}
+{"id":"c-3f1d04a93030819b","name":"ΑΡΗΣ ΝΙΚΑΙΑΣ MAVRIDIS"}
+{"id":"c-9e0dcee3ae1259e6","name":"GOLDEN BOYS (Ν20)"}
+{"id":"c-0950b068e513846a","name":"TAVROS DREAM TEAM (Ν21)"}
+{"id":"c-2b331253bdcd3f5d","name":"APACHE 2 ΧΟΛΑΡΓΟΥ (Ν6)"}
+{"id":"c-fc69bacf7c1c8530","name":"SPINFINITY Α.Σ. ΠΑΠΑΣΙΔΕΡΗΣ (Ν13"}
+{"id":"c-a948469e0b58a0f0","name":"SPINALONGA (Ν7)"}
+{"id":"c-7e56d9afcc398e27","name":"SPINFINITY Α.Σ. ΠΑΠΑΣΙΔΕΡΗ"}
+{"id":"c-463fbb154306c47c","name":"ΑΕΚ (Γ1/1)"}
+{"id":"c-9900dbce58d161fc","name":"ΑΕΚ 1 (Γ2/2)"}
+{"id":"c-8b2d51ab68da8906","name":"Γ.Σ. ΜΑΚΑΜΠΗ (Γ2/1)"}
+{"id":"c-ca69002b8ae3b14a","name":"ΑΔΙΑΦΟΡΟΙ ΑΚ ΖΩΓΡΑΦΟΥ (Γ1/2)"}
+{"id":"c-1b58e249719391e6","name":"ΝΕΑ ΒΟΥΛΑ (Δ1/1)"}
+{"id":"c-6bd997f42d8143e6","name":"ΠΑΝΑΘΗΝΑΪΚΟΣ 1908 (Δ4/1)"}
+{"id":"c-b3840a4042270f05","name":"Α.Σ. ΠΑΠΑΣΙΔΕΡΗΣ (Δ2/1)"}
+{"id":"c-2b956725e3410431","name":"ΧΑΛΑΡΟΙ Α.Κ. ΖΩΓΡΑΦΟΥ (Δ3/1)"}
+{"id":"c-6605ff57fbcb452e","name":"ΔΑΦΝΗ 2006 (Ν1)"}
+{"id":"c-7d4f855321eb9ee9","name":"GOODFELLAS (Ν13)"}
+{"id":"c-361aafde87a41fef","name":"CINCO (Ν6)"}
+{"id":"c-6cdeb0b01f1b91bf","name":"ΕΦΟΡΙΑΚΟΙ (Ν20)"}
+{"id":"c-c394c988604f661f","name":"GOLDEN BOYS (Ν10)"}
+{"id":"c-42f487867a480650","name":"Α.Σ. ΡΑΔΑΜΑΝΘΥΣ (Ν8)"}
+{"id":"c-3a043b0f33a660bb","name":"ΜΑΚΑΜΠΗ 2 (Ν12)"}
+{"id":"c-368bf1c11862fb8e","name":"BARCEΛΙΩΜΑ (Ν3)"}
+{"id":"c-9307a49fa0ed379d","name":"ΑΝΕΤΟΙ ΤΑΤΑΥΛΑ (Ν23)"}
+{"id":"c-dd4ad19e54975cd1","name":"Π.ΑΝ.Ι.Κ (Ν11)"}
+{"id":"c-7496b6bc5a91a5f7","name":"ROSSONERI (Ν7)"}
+{"id":"c-1c5b2b26199d36ed","name":"ΤΑΥΡΟΣ (Ν18)"}
+{"id":"c-6ae057379c8c745c","name":"ΔΕ ΚΟΙΛΕΡΣ (Ν19)"}
+{"id":"c-342d636a7c72d0eb","name":"TOP MASTERS (Ν17)"}
+{"id":"c-63a706060681d257","name":"Σ.Υ.Τ.Ε. 1 (Ν2)"}
+{"id":"c-ab84ce44816187d0","name":"ΠΑΝΕΛΛΗΝΙΟΣ 2 (Ν22)"}
+{"id":"c-e40a068c8b263ae8","name":"APACHE 1 ΧΟΛΑΡΓΟΥ (N4)"}
+{"id":"c-4bf4eb540e4df088","name":"ASTROVETS (Ν5)"}
+{"id":"c-2b947599e687d4b5","name":"ΑΕΚ (Ν9)"}
+{"id":"c-c2f3291590928ee0","name":"SPIN HALL 1 (Ν24)"}
+{"id":"c-c565d244a9788082","name":"V.A.N2 (Ν21)"}
+{"id":"c-3a91f93d06996133","name":"ΕΘΝΙΚΟΣ ΒΕΤ. ΑΛΕΞΑΝΔΡΟΥΠΟΛΗΣ"}
+{"id":"c-0508bcdaa54ca111","name":"ΤΑΥΡΟΣ (Β5)"}
+{"id":"c-136f7818a289307c","name":"ΘΗΡΕΑΣ (Β8)"}
+{"id":"c-938e046ef2939ccc","name":"ΑΣΣΟΙ ΕΛΕΥΣΙΝΑΣ (Β6)"}
+{"id":"c-4839bce8b188c9fa","name":"ΑΙΩΝΙΟΙ ΕΦΗΒΟΙ (Β7)"}
+{"id":"c-fa10da7601f535f7","name":"Α.Σ. ΠΡΟΟΔΟΣ (Γ1/1)"}
+{"id":"c-f319957056291e2d","name":"SPINMASTERS (Γ2/2)"}
+{"id":"c-8251f517458e9365","name":"ΣΕΠ ΑΙΓΑΛΕΩ 2 (Γ2/1)"}
+{"id":"c-d4c214bf2bfb902f","name":"CINCO (Γ1/2)"}
+{"id":"c-d8b09ee1e2f3441e","name":"ΑΔΙΑΦΟΡΟΙ Α.Κ. ΖΩΓΡΑΦΟΥ (Δ1/1)"}
+{"id":"c-fa04cc318acf3aeb","name":"ΠΟΝΤΙΟΙ ΜΕΛΙΣΣΙΩΝ (Δ4/1)"}
+{"id":"c-6a1158c51a250a3c","name":"BARCEΛΙΩΜΑ (Δ2/1)"}
+{"id":"c-c396b278a47c12d3","name":"APACHE 1 ΧΟΛΑΡΓΟΥ (Δ3/1)"}
+{"id":"c-930f92ceec343e02","name":"TOP MASTERS (Ν15)"}
+{"id":"c-1d35771ad943b998","name":"CINCO (Ν2)"}
+{"id":"c-d2b51aa82d614c3e","name":"ΑΓΙΟΣ ΚΟΣΜΑΣ (Ν20)"}
+{"id":"c-71ca86f14e94e095","name":"SPIN HALL 1 (Ν10)"}
+{"id":"c-a3f48ac4b9fd63d6","name":"ΒΕΤ. ΔΗΜΟΥ ΒΟΥΛΑΣ (Ν22)"}
+{"id":"c-818cbf7130cf832f","name":"ASTROVETS (Ν14)"}
+{"id":"c-4171eaa876b2222d","name":"ΠΟΝΤΙΟΙ ΜΕΛΙΣΣΙΩΝ (Ν6)"}
+{"id":"c-92f7739cb77cf5e4","name":"ΙΩΝΕΣ Ν. ΣΜΥΡΝΗΣ (Ν9)"}
+{"id":"c-7d427cbe0dddaa23","name":"ΣΥΝΠΑΙΚΤΕΣ (Ν17)"}
+{"id":"c-43346603e0400e2a","name":"ΣΠΙΝΑΛΟΓΚΑ (Ν3)"}
+{"id":"c-fde5c4b4eb853d8c","name":"ΠΑΝΕΛΛΗΝΙΟΣ 2 (Ν24)"}
+{"id":"c-39b87b2e0f750394","name":"BARCEΛΙΩΜΑ (Ν4)"}
+{"id":"c-7949e538e22c0e4b","name":"ΒΕΤ. ΝΕΑΣ ΙΩΝΙΑΣ (Ν23)"}
+{"id":"c-9e8e2d3b7ef2ea38","name":"ΔΑΦΝΗ 2006 (Ν7)"}
+{"id":"c-4df98d54d3d10cef","name":"ΠΑΝΕΛΛΗΝΙΟΣ 1 (Ν13)"}
+{"id":"c-7eef58e55297e488","name":"ΠΑΝΑΘΗΝΑΪΚΟΣ 1908 (Ν8)"}
+{"id":"c-b4b2730eb5ef5c7c","name":"Α.Σ. ΠΡΟΟΔΟΣ (Ν21)"}
+{"id":"c-913aeae194562c8c","name":"ROSSONERI (Ν18)"}
+{"id":"c-7c82a8f4cc640744","name":"SPIN HALL REDS (Ν19)"}
+{"id":"c-217a2b3bf3dba17f","name":"ΑΝΕΤΟΙ ΤΑΤΑΥΛΑ (Ν5)"}
+{"id":"c-43d4bec3870ad7ac","name":"MIDDLE EARTH 2013 (Ν11)"}
+{"id":"c-517493e6d1e6cc67","name":"ΕΛ (Ν12)"}
+{"id":"c-8be9be717177c262","name":"SPATA T.T. 1 (Ν1)"}
+{"id":"c-840389c52466fe46","name":"ΒΕΤ. ΑΟ ΤΑΤΑΥΛΑ ΑΜΦΙΘΕΑ"}
+{"id":"c-773ccfd774b45c93","name":"ΠΡΟΟΔΕΥΤΙΚΗ ΕΚΡ."}
+{"id":"c-3a1abd3e28e7bb3e","name":"ΑΕΤΟΙ ΕΥΟΣΜΟΥ (N2)"}
+{"id":"c-525780a7144424e0","name":"BEERPONGERS RELOADED (N1)"}
+{"id":"c-6c2827015c44459e","name":"POISSONS (N5)"}
+{"id":"c-45efa88802af80f7","name":"ΠΑΥΛΟΣ ΜΕΛΑΣ 3 (Ν3)"}
+{"id":"c-f1fe4bd0fcc86aed","name":"ΠΟΛΥΝΙΚΟΣ ΘΕΡΜΗΣ (N6)"}
+{"id":"c-e37817b80fbde5a5","name":"Β2 PING PONG GANGSTERS ΚΑΛΑΜΑΤΑΣ"}
+{"id":"c-20d87ea73cd23223","name":"Δ1 ΠΕΥΚΙΑΣ ΞΥΛΟΚΑΣΤΡΟΥ"}
+{"id":"c-eee5a7f90924330d","name":"Δ2 ΑΕΚ ΤΡΙΠΟΛΗΣ 1929"}
+{"id":"c-73268b6c094405cc","name":"Β1 ΦΑΡΗΣ ΚΑΛΑΜΑΤΑΣ"}
+{"id":"c-fbba22f1f0bd3227","name":"Γ1 ΑΕΚ ΤΡΙΠΟΛΗΣ ΤΤ"}
+{"id":"c-b137fcb311ad9acd","name":"Α2 ΔΑΙΔΑΛΟΣ ΚΟΡΙΝΘΙΑΣ"}
+{"id":"c-e43d4e538ff4ddd1","name":"ΘΗΡΕΑΣ (Α12)"}
+{"id":"c-b7e878e18fa1e1ac","name":"ΕΞΟΡΙΣΤΟΙ 1 Ν. ΙΩΝΙΑΣ (Β5)"}
+{"id":"c-8e47edfa162ace75","name":"ΑΛΦΑ (Α13)"}
+{"id":"c-79c866da8c4cd723","name":"ΠΡΙΓΚΗΠΟΝΗΣΙΑ (Β4)"}
+{"id":"c-ac9c435e5142b532","name":"ΒΕΤΕΡΑΝΟΙ ΑΘΗΝΑΪΚΟΥ (Γ1/1)"}
+{"id":"c-ac82892f86d9888b","name":"ΠΑΛΑΙΟ ΦΑΛΗΡΟ (Γ2/2)"}
+{"id":"c-63e687d76f9aa9e4","name":"Α.Σ. ΑΛΦΑ (Γ2/1)"}
+{"id":"c-9b4c2657ee92d0b7","name":"ΑΙΩΝΙΟΙ ΕΦΗΒΟΙ (Γ1/2)"}
+{"id":"c-075e713098aaf889","name":"ΕΞΟΡΙΣΤΟΙ 2 Ν. ΙΩΝΙΑΣ (Γ2/13)"}
+{"id":"c-1b010a0aabdf8ad0","name":"ΑΔΙΑΦΟΡΟΙ ΑΚ ΖΩΓΡΑΦΟΥ (Δ3/3)"}
+{"id":"c-12c138fa612fd3dc","name":"ΧΑΛΑΡΟΙ ΑΚ ΖΩΓΡΑΦΟΥ (Δ1/3)"}
+{"id":"c-bed5c5a8a7863bdc","name":"ΠΟΝΤΙΟΙ ΜΕΛΙΣΣΙΩΝ (Δ2/3)"}
+{"id":"c-260d854cb408a038","name":"ΝΕΟ ΦΑΛΗΡΟ (Γ1/13)"}
+{"id":"c-b5ba0edae61c510d","name":"ΑΝΕΞΑΡΤΗΤΟΙ ΑΘΗΝΑΪΚΟΥ (Δ1/1)"}
+{"id":"c-d6f58c6e7639468d","name":"PING PONG ΔΑΦΝΗ (Δ1/2)"}
+{"id":"c-d7b4e1e8d63ce98f","name":"ΠΑΝΕΛΛΗΝΙΟΣ 2 (Δ2/1)"}
+{"id":"c-3968ff236d92a67c","name":"ΜΑΚΑΜΠΗ 3 (Δ2/2)"}
+{"id":"c-8117a8a70208f5e9","name":"WARRIORS (Δ3/1)"}
+{"id":"c-d90c9628f12e616d","name":"MIDDLE EARTH (Δ3/2)"}
+{"id":"c-02067150d4008969","name":"ΚΑΛΑ ΠΑΙΔΙΑ (Β11)"}
+{"id":"c-399f27378fa05eb7","name":"ΤΟΡ MASTERS (Γ2/3)"}
+{"id":"c-fcfb679f99d2b83d","name":"SPINMASTERS (Β12)"}
+{"id":"c-92e91f4e262166fd","name":"ΑΣΣΟΙ ΕΛΕΥΣΙΝΑΣ (Γ1/3)"}
+{"id":"c-35e27ab21fd83603","name":"KING PONK"}
+{"id":"c-737fdab9cd604c40","name":"EL"}
+{"id":"c-7fb38d4a36be0815","name":"DAPA DOOPA (Π2)"}
+{"id":"c-43462da2a5b98a88","name":"Σ.Υ.Τ.Ε. 1 (Π19)"}
+{"id":"c-66783016c7158de5","name":"ΒΕΤ. ΑΘΗΝΑΪΚΟΥ (Π8)"}
+{"id":"c-9d40e1cc390f3aee","name":"ΑΝΕΞ. ΑΟ ΤΑΤΑΥΛΑ (Π15)"}
+{"id":"c-fb51e64aed6ef3a1","name":"ΛΕΟΝΤΕΣ (Π5)"}
+{"id":"c-29ebb9f139ee55f5","name":"ASTROVETS (Π7)"}
+{"id":"c-b0f4870985593b64","name":"ΑΣΣΟΙ ΕΛΕΥΣΙΝΑΣ (Π9)"}
+{"id":"c-5bd968363fe5a55d","name":"ΓΝΟ ΑΡΗΣ ΝΙΚΑΙΑΣ (Π17)"}
+{"id":"c-93469ee04aeaf04f","name":"HOT SHOTS (Π10)"}
+{"id":"c-b9f3e7fa7a6cd528","name":"ΕΣΠΕΡΟΣ (Π16)"}
+{"id":"c-99b977c511122a15","name":"ΠΡΙΓΚΗΠΟΝΗΣΙΑ (Π11)"}
+{"id":"c-5f280ff29a2c641a","name":"ΑΗΤΤΗΤΟΙ ΑΜΑΡΟΥΣΙΟΥ (Π12)"}
+{"id":"c-696d71a659df60a3","name":"ΕΞΟΡΙΣΤΟΙ 2 Ν. ΙΩΝΙΑΣ (Π4)"}
+{"id":"c-5263953c8a3fdf30","name":"ΤΑ ΚΑΛΑ ΠΑΙΔΙΑ (Π6)"}
+{"id":"c-15db25bdb899f004","name":"ΘΗΡΕΑΣ (Π18)"}
+{"id":"c-f41d534b190999b6","name":"ΒΕΤ. ΕΛΛΗΝΙΚΟΥ (Π13)"}
+{"id":"c-979d0858c1279a72","name":"ΠΑΝΑΘΗΝΑΪΚΟΣ 1908 (Π14)"}
+{"id":"c-c3d3653e8f9170f3","name":"ΕΞΟΡΙΣΤΟΙ 1 Ν. ΙΩΝΙΑΣ (Π3)"}
+{"id":"c-b7c72025b244ca74","name":"ΑΛΦΑ (Π20)"}
+{"id":"c-71abcb05977af3f2","name":"ΑΙΩΝΙΟΙ ΕΦΗΒΟΙ (Π1)"}
+{"id":"c-43817513b9f3679e","name":"ΠΡΟΟΔ. ΕΚΡ. ΤΟΥΜΠΑΣ"}
+{"id":"c-d9026b341cc53b38","name":"SPEED PONG (Π3)"}
+{"id":"c-01276d81f6afeeee","name":"PING HAPPY (Π2)"}
+{"id":"c-cc4c2f3e9c6f6187","name":"Α' Ημιτελικός ΧΑΝΙΑ"}
+{"id":"c-f2c5f29a142b3fdc","name":"Β' Ημιτελικός Φ.Επ.Α. ΡΕΘΥΜΝΟΥ"}
+{"id":"c-39a77577b75456ac","name":"Μεγάλος τελικός ΧΑΝΙΑ"}
+{"id":"c-120b477126b4c69b","name":"ΒΕΤ. ΔΗΜΟΥ. 3Β"}
+{"id":"c-763e7a4c9e5015b8","name":"ΑΣ ΑΛΦΑ 2"}

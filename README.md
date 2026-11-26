@@ -6,7 +6,7 @@ An independent Greek/English POFΕPA table tennis archive, following [Greek TT A
 
 ## Historical coverage
 
-All **270 distinct Excel workbooks** linked in the official ranking archive are imported, covering **October 2011–October 2026** and **742,275 ranking records**. Every published regional and age-category position is retained. The archive contains over **136,000 completed singles matches**, together with historical team results from HTML pages and supported PDF tables and knockout brackets. Exact current counts, exclusions, source hashes and unparsed documents are available on the website's **Coverage & sources** page and in `dist/coverage.json`.
+All **270 distinct Excel workbooks** linked in the official ranking archive are imported, covering **October 2011–October 2026** and **742,275 ranking records**. Every published regional and age-category position is retained. The archive contains over **136,000 completed singles matches**, together with historical team results from HTML pages, 124 reviewed PDFs and a handwritten match sheet. The document review adds 1,601 team results, bringing reported team results to 17,118. Six older images contain standings only. Exact current counts, exclusions, source hashes and unparsed documents are available on the website's **Coverage & sources** page and in `dist/coverage.json`.
 
 The results menu is inventoried for every listed season, from 2007–2008 through 2026–2027. The two earliest season pages currently link no results; the imported team pages start in 2009–2010. Some source documents contain ambiguous layouts or incomplete score fields. Those sections remain explicitly listed for review; this does not claim that every match ever played is recoverable.
 
@@ -40,6 +40,9 @@ python3 -m unittest discover -s tests -v
 node tests/smoke.js
 python3 scripts/check_reproducible_build.py
 python3 scripts/audit_sources.py
+python3 scripts/audit_documents.py
+# Refresh the reviewed documents without rebuilding unchanged workbook data:
+python3 scripts/refresh_documents.py --offline
 ```
 
 The collector discovers all linked workbooks and result seasons rather than maintaining a fixed month list. `--refresh` refetches sources; `--cache PATH` selects the raw cache; `--output PATH` stages a separate collection. Validation must pass before the output is atomically replaced. The source-cell audit requires the original ignored `capture/` downloads.
@@ -52,7 +55,7 @@ The collector discovers all linked workbooks and result seasons rather than main
 - Older spreadsheets use grouped dates and team headings, numeric text scores, combined score cells and different column layouts. The importer retains the worksheet, result row and context row numbers used to interpret each result.
 - Only completed 3–0, 3–1 and 3–2 singles scores enter statistics. Invalid dates, implausible years, bonus entries and nonstandard outcomes are excluded with reasons. Scores and dates are never invented.
 - Repeated result exports are deduplicated while preserving every source row. Repeated games within one source remain separate. Repeated ranking entries remain as published and are flagged.
-- Team fixtures retain reported totals and source-page references. Schedule deadlines are not treated as dates played. PDF bracket results require drawn connectors and a named winner matching one of the two teams.
+- Team fixtures retain reported totals and source-page references. Schedule deadlines are not treated as dates played. PDF brackets use drawn connectors, named winners and source-bound visual transcriptions. Repeated grids and bracket pages count once; real repeats in later rounds remain separate.
 
 See [SOURCES.md](docs/SOURCES.md) for the source contract and known anomalies.
 

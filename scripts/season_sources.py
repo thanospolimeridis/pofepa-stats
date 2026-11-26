@@ -18,6 +18,8 @@ def content_links(html, base):
     for a in main.find_all('a', href=True):
         url = urljoin(base, a['href'])
         label = ' '.join(a.get_text(' ', strip=True).replace('\u200b', '').split())
+        if not label and a.find('img') and re.search(r'\.(?:jpe?g|png)$',url,re.I):
+            label = 'Πίνακας αποτελεσμάτων · ' + url.rsplit('/',1)[-1]
         if label:
             found.setdefault(url, label)
     return [(label, url) for url, label in found.items()]

@@ -143,10 +143,10 @@
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
- "fixtures": 18774,
- "reported_fixtures": 15517,
+ "fixtures": 20375,
+ "reported_fixtures": 17118,
  "ranking_rows": 742275,
- "events": 913,
+ "events": 920,
  "match_date_min": "2011-10-26",
  "match_date_max": "2026-10-31",
  "excluded_rows": {
@@ -440,720 +440,52 @@
   {
    "season": "2008-2009",
    "url": "https://www.pofepa.gr/2008-2009.html",
-   "linked_sources": 0
+   "linked_sources": 3
   },
   {
    "season": "2007-2008",
    "url": "https://www.pofepa.gr/2007-2008.html",
-   "linked_sources": 0
+   "linked_sources": 3
   }
  ],
  "deferred": [
   {
-   "label": "ΣΤ'",
-   "url": "http://files.ping-pong.gr/2026-2027/ST2-202627.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "12ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
-   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-ANEX-2026-27.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 18
-  },
-  {
-   "label": "4ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
-   "url": "http://files.ping-pong.gr/2026-2027/CUP-KMAK-ANEX-2026-27.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 13
-  },
-  {
-   "label": "2ο Κύπελλο Ομάδων Ανεξαρτήτων Δυτικής Μακεδονίας-Ηπείρου-Ιονίων Νήσων",
-   "url": "http://files.ping-pong.gr/2026-2027/CUP-DMAK-ANEX-2026-27.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 7
-  },
-  {
-   "label": "Α1-Α2",
-   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-A1A2-2026-27.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Α1-Α2",
-   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-A1A2-2026-27.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Β-Γ",
-   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-BC-2026-27.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Β-Γ",
-   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-BC-2026-27.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δ-Ε-ΣΤ",
-   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-DEST-2026-27.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 21
-  },
-  {
-   "label": "Κεντρική Μακεδονία",
-   "url": "http://files.ping-pong.gr/2026-2027/CUP-KMAK-2026-27.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Κεντρική Μακεδονία",
-   "url": "http://files.ping-pong.gr/2026-2027/CUP-KMAK-2026-27.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Κρήτη",
-   "url": "http://files.ping-pong.gr/2026-2027/CUP-KRITI-2026-27.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 3
-  },
-  {
-   "label": "Play offs",
-   "url": "http://files.ping-pong.gr/2025-2026/PLAY-OFF-ATTIKH-2025-2026.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Play off (final four)",
-   "url": "http://files.ping-pong.gr/2025-2026/PLAY-OFF-CRETE-2025-2026.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Play off (final four)",
-   "url": "http://files.ping-pong.gr/2025-2026/PLAY-OFF-CRETE-2025-2026.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "11ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-ANEX-ATTIKI-202526.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 33
-  },
-  {
-   "label": "3ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-ANEX-KMAK-202526.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 15
-  },
-  {
-   "label": "1ο Κύπελλο Ομάδων Ανεξαρτήτων Δυτικής Μακεδονίας-Ηπείρου-Ιονίων Νήσων",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-ANEX-DMAK-202526.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 6
-  },
-  {
-   "label": "Α1-Α2",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-A1A2-2025-26.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Α1-Α2",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-A1A2-2025-26.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Β-Γ",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-BC-2025-26.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Β-Γ",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-BC-2025-26.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δ-Ε",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-DE-2025-26.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δ-Ε",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-DE-2025-26.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Κεντρική Μακεδονία",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-KMAK-2025-26.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Κεντρική Μακεδονία",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-KMAK-2025-26.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Ελλάδα",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-DYTELL-2025-26.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δυτική Ελλάδα",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-DYTELL-2025-26.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Κρήτη",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-KRITI-2025-26.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 7
-  },
-  {
-   "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-DMAK-2025-26.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-DMAK-2025-26.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Ανατολική Μακεδονία & Θράκη",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-AMAK-2025-26.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Ανατολική Μακεδονία & Θράκη",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-AMAK-2025-26.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Θεσσαλία",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-THESSALY-2025-26.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Νησιά Βόρειου Αιγαίου",
-   "url": "http://files.ping-pong.gr/2025-2026/CUP-AIGAIO-2025-26.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 2
-  },
-  {
-   "label": "Play offs",
-   "url": "http://files.ping-pong.gr/2024-2025/PLAY-OFF-ATTIKH-2024-2025.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "10ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-IND-ATTIKH-2024-2025.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 36
-  },
-  {
-   "label": "2ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-IND-KMAK-2024-2025.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 17
-  },
-  {
-   "label": "Α1-Α2",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-A1A2-2024-25.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Α1-Α2",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-A1A2-2024-25.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Β-Γ",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-BC-2024-25.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Β-Γ",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-BC-2024-25.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δ-Ε",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-DE-2024-25.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δ-Ε",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-DE-2024-25.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Κεντρική Μακεδονία",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-KMAK-2024-25.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Κεντρική Μακεδονία",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-KMAK-2024-25.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Ελλάδα",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-DELL-2024-25.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δυτική Ελλάδα",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-DELL-2024-25.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Κρήτη",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-KRHTH-2024-25.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 3
-  },
-  {
-   "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-DMAK-2024-25.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-DMAK-2024-25.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Ανατολική Μακεδονία & Θράκη",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-AMAK-2024-25.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 3
-  },
-  {
-   "label": "Πελοπόννησος",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-PELOP-2024-25.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Νησιά Βόρειου Αιγαίου",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-AIGAIO-2024-2025.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Νησιά Βόρειου Αιγαίου",
-   "url": "http://files.ping-pong.gr/2024-2025/CUP-AIGAIO-2024-2025.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Play offs",
-   "url": "http://files.ping-pong.gr/2023-2024/PLAY-OFF-ATTIKH-2023-2024.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "9ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-IND-ATTIKH-2023-2024.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 18
-  },
-  {
-   "label": "1ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-IND-KMAK-2023-2024.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 9
-  },
-  {
-   "label": "Α1-Α2",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-A1-A2-2023-2024.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Α1-Α2",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-A1-A2-2023-2024.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Β-Γ",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-B-C-2023-2024.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Β-Γ",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-B-C-2023-2024.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δ-Ε",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-D-E-2023-2024.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δ-Ε",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-D-E-2023-2024.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Κεντρική Μακεδονία",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-KMAK-2023-2024.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Κεντρική Μακεδονία",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-KMAK-2023-2024.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Ελλάδα",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-DELL-2023-2024.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δυτική Ελλάδα",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-DELL-2023-2024.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Κρήτη",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-KRHTH-2023-2024.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Κρήτη",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-KRHTH-2023-2024.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-DMAK-2023-2024.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-DMAK-2023-2024.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Ανατολική Μακεδονία & Θράκη",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-AMAK-2023-2024.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 8
-  },
-  {
-   "label": "Πελοπόννησος",
-   "url": "http://files.ping-pong.gr/2023-2024/CUP-PELOP-2023-2024.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 4
-  },
-  {
-   "label": "Play offs",
-   "url": "http://files.ping-pong.gr/2022-2023/DRAW-PLAYOFF-ATTIKI-2022-2023.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Αττική",
-   "url": "http://files.ping-pong.gr/2022-2023/CUP-ATTIKI-2022-2023.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 14
-  },
-  {
-   "label": "Κρήτη",
-   "url": "http://files.ping-pong.gr/2022-2023/CUP-KRHTH-2022-2023.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Κρήτη",
-   "url": "http://files.ping-pong.gr/2022-2023/CUP-KRHTH-2022-2023.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
-   "url": "http://files.ping-pong.gr/2022-2023/CUP-DYTMAK-2022-2023.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 11
-  },
-  {
-   "label": "Ανατολική Μακεδονία & Θράκη",
-   "url": "http://files.ping-pong.gr/2022-2023/CUP-AMAK-THRAKI-2022-2023.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Νησιά Βόρειου Αιγαίου",
-   "url": "http://files.ping-pong.gr/FA22-23/GAT-ARIc.jpg",
-   "season": "2022-2023",
-   "reason": "image_result"
-  },
-  {
-   "label": "Πανελλήνιο Πρωτάθλημα - play offs ομαδικών",
-   "url": "http://files.ping-pong.gr/2022-2023/Play_Offs_Omadikon_2022-2023.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 4
-  },
-  {
-   "label": "8ο Κύπελλο Ομάδων Ανεξάρτητων",
-   "url": "http://files.ping-pong.gr/2022-2023/RESULTS-OMANEX-2022-2023.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 9
-  },
-  {
-   "label": "Play offs",
-   "url": "http://files.ping-pong.gr/2020-2021/DRAW-PLAYOFF-ATTIKI-2020-2022.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Κρήτη",
-   "url": "http://files.ping-pong.gr/2019-2020/RESULTS-KRITI-CUP-2019-2020.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Play offs",
-   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-PLAYOFFS-ATTIKI.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
-   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-DMAK-CUP.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 12
-  },
-  {
-   "label": "Ανατολική Μακεδονία & Θράκη",
-   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-AMAK-CUP.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Πελοπόννησος",
-   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-PELOP-CUP.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 4
-  },
-  {
-   "label": "Play offs",
-   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-ATTIKI-PLAYOFFS.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Play offs",
-   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-KMAK-PLAYOFFS.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Αττική",
-   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-ATTIKH-CUP.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Αττική",
-   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-ATTIKH-CUP.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
-   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-DMAK-CUP.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 9
-  },
-  {
-   "label": "Πελοπόννησος",
-   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-PELOP-CUP.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 7
-  },
-  {
-   "label": "Play offs",
-   "url": "http://files.ping-pong.gr/2016-2017/DRAW-PLAYOFFS.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Αττική",
-   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-ATTIKH-CUP.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Μακεδονία & Ήπειρος",
-   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-DMAK-CUP.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δυτική Μακεδονία & Ήπειρος",
-   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-DMAK-CUP.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Πελοπόννησος",
-   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-PELOP-CUP.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Ελλάδα",
-   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-DYTELL-CUP.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Play offs",
-   "url": "http://files.ping-pong.gr/2015-2016/APOTELESMATA-PLAYOFFS-ATTIKH.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Αττική & Νότια Ελλάδα",
-   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-ATTIKHS.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Μακεδονία & Ήπειρος",
-   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-DMAK.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δυτική Μακεδονία & Ήπειρος",
-   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-DMAK.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Πελοπόννησος",
-   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-PELOP.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Ελλάδα",
-   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-DYTELL.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 12
-  },
-  {
-   "label": "Play offs",
-   "url": "http://files.ping-pong.gr/2014-2015/RESULTS-PLAYOFFS-ATTIKHS-2014-2015.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Αττική & Νότια Ελλάδα",
-   "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-ATTIKHS-2014-2015.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Αττική & Νότια Ελλάδα",
-   "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-ATTIKHS-2014-2015.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Μακεδονία & Ήπειρος",
-   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/kypello_dmak.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Ανατολική Μακεδονία & Θράκη",
-   "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-AMAK.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 7
-  },
-  {
-   "label": "Πελοπόννησος",
-   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/kypello_pelop.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Πελοπόννησος",
-   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/kypello_pelop.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Ελλάδα",
-   "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-DELL.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Δυτική Ελλάδα",
-   "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-DELL.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Play Offs",
-   "url": "http://files.ping-pong.gr/2013-2014/RESULTS-PLAYOFFS-2013-2014.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Αττική & Νότια Ελλάδα",
-   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apot_kyp_attikh.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 0
-  },
-  {
-   "label": "Αττική & Νότια Ελλάδα",
-   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apot_kyp_attikh.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Κεντρική Μακεδονία",
-   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/__-.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 13
-  },
-  {
-   "label": "Δυτική Μακεδονία & Ήπειρος",
-   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_dyt-mak.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Ανατολική Μακεδονία & Θράκη",
-   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_a-mak.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 6
-  },
-  {
-   "label": "Πελοπόννησος",
-   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_pelop.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "Δυτική Ελλάδα",
-   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_dyt_ell.pdf",
-   "reason": "pdf_bracket_requires_review",
-   "parsed_fixtures": 6
-  },
-  {
    "label": "2012-13 K-MAKP",
    "url": "https://www.pofepa.gr/2012-13-k-makp.html",
-   "reason": "no_supported_fixture_table"
+   "reason": "empty_source"
   },
   {
    "label": "Δυτική Μακεδονία & Ήπειρος",
    "url": "https://www.pofepa.gr/",
    "season": "2010-2011",
-   "reason": "image_result"
+   "reason": "invalid_result_link"
   },
   {
-   "label": "2008-2009",
-   "url": "https://www.pofepa.gr/2008-2009.html",
-   "reason": "no_linked_results"
-  },
-  {
-   "label": "2007-2008",
-   "url": "https://www.pofepa.gr/2007-2008.html",
-   "reason": "no_linked_results"
+   "label": "Δυτική Ελλάδα",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-DELL-2024-25.pdf",
+   "reason": "document_source_conflict",
+   "detail": [
+    {
+     "page": 2,
+     "reason": "winner_not_in_pair",
+     "score": "4-1",
+     "teams": [
+      "RACKETALLICA ΑΜΑΛΙΑΔΑΣ",
+      "ΒΙΛΛΕΑΡΔΟΥΙΝΟΙ ΑΝΔΡΑΒΙΔΑΣ"
+     ],
+     "printed_winner": "ΦΟΙΝΙΚΕΣ ΠΑΤΡΑΣ 1991"
+    },
+    {
+     "page": 2,
+     "reason": "winner_not_in_pair",
+     "score": "4-0 (α.α.)",
+     "teams": [
+      "ΦΟΙΝΙΞ ΧΑΝΣ",
+      "ΒΕΤΕΡΑΝΟΙ ΑΝΟΔΟΣ ΠΑΤΡΩΝ"
+     ],
+     "printed_winner": "ΑΤΡΟΜΗΤΟΙ"
+    }
+   ]
   }
  ],
  "workbook_inventory": [
@@ -4127,6 +3459,2119 @@
    ],
    "imported": true,
    "source": "s-1509655a764a13de"
+  }
+ ],
+ "document_reviews": [
+  {
+   "source": "s-79d55245e6c9175c",
+   "url": "http://files.ping-pong.gr/2026-2027/ST2-202627.pdf",
+   "season": "2026-2027",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 36,
+   "bracket_parsed": 0,
+   "text_characters": 4788,
+   "warnings": [],
+   "review_status": "no_reported_results",
+   "review_issues": [],
+   "review_notes": "Published schedule/draw contains no reported match scores.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 0
+  },
+  {
+   "source": "s-9ae5d73e22dc8050",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-ANEX-2026-27.pdf",
+   "season": "2026-2027",
+   "pages": 3,
+   "has_bracket": true,
+   "bracket_candidates": 51,
+   "bracket_parsed": 0,
+   "text_characters": 6115,
+   "warnings": [
+    {
+     "page": 2,
+     "table": 3,
+     "reason": "conflicting_matrix_scores",
+     "pair": [
+      "1",
+      "3"
+     ]
+    },
+    {
+     "page": 2,
+     "table": 3,
+     "reason": "conflicting_matrix_scores",
+     "pair": [
+      "2",
+      "3"
+     ]
+    }
+   ],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 18
+  },
+  {
+   "source": "s-f2e1501fe83fdc04",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-KMAK-ANEX-2026-27.pdf",
+   "season": "2026-2027",
+   "pages": 2,
+   "has_bracket": true,
+   "bracket_candidates": 38,
+   "bracket_parsed": 0,
+   "text_characters": 4320,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 13
+  },
+  {
+   "source": "s-96bd6d0c9e74537e",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-DMAK-ANEX-2026-27.pdf",
+   "season": "2026-2027",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 23,
+   "bracket_parsed": 0,
+   "text_characters": 2352,
+   "warnings": [
+    {
+     "page": 1,
+     "table": 3,
+     "reason": "conflicting_matrix_scores",
+     "pair": [
+      "3",
+      "4"
+     ]
+    }
+   ],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 7
+  },
+  {
+   "source": "s-f31eef764bb7abea",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-A1A2-2026-27.pdf",
+   "season": "2026-2027",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 1,
+   "bracket_parsed": 1,
+   "text_characters": 1075,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 1
+  },
+  {
+   "source": "s-5e84205e29bcc9f8",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-BC-2026-27.pdf",
+   "season": "2026-2027",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 23,
+   "bracket_parsed": 23,
+   "text_characters": 4428,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 23
+  },
+  {
+   "source": "s-367d8baa7f33b4f5",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-DEST-2026-27.pdf",
+   "season": "2026-2027",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 43,
+   "bracket_parsed": 43,
+   "text_characters": 15933,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 43
+  },
+  {
+   "source": "s-6d844be585ef6d05",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-KMAK-2026-27.pdf",
+   "season": "2026-2027",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 16,
+   "bracket_parsed": 15,
+   "text_characters": 2726,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 16
+  },
+  {
+   "source": "s-076a3ed10707b3f2",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-KRITI-2026-27.pdf",
+   "season": "2026-2027",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 3,
+   "bracket_parsed": 3,
+   "text_characters": 1599,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 3
+  },
+  {
+   "source": "s-8e4ea14f7df8e32b",
+   "url": "http://files.ping-pong.gr/2025-2026/PLAY-OFF-ATTIKH-2025-2026.pdf",
+   "season": "2025-2026",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 72,
+   "bracket_parsed": 0,
+   "text_characters": 6061,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 24
+  },
+  {
+   "source": "s-738699cf0bd23e21",
+   "url": "http://files.ping-pong.gr/2025-2026/PLAY-OFF-CRETE-2025-2026.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 0,
+   "bracket_parsed": 0,
+   "text_characters": 533,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 4
+  },
+  {
+   "source": "s-22012c0953117b99",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-ANEX-ATTIKI-202526.pdf",
+   "season": "2025-2026",
+   "pages": 3,
+   "has_bracket": true,
+   "bracket_candidates": 92,
+   "bracket_parsed": 0,
+   "text_characters": 7109,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 45
+  },
+  {
+   "source": "s-287b2ee7e397e85a",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-ANEX-KMAK-202526.pdf",
+   "season": "2025-2026",
+   "pages": 2,
+   "has_bracket": true,
+   "bracket_candidates": 33,
+   "bracket_parsed": 0,
+   "text_characters": 4859,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 19
+  },
+  {
+   "source": "s-6f365de857360db3",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-ANEX-DMAK-202526.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 12,
+   "bracket_parsed": 0,
+   "text_characters": 2211,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-1b4660977e791f20",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-A1A2-2025-26.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 30,
+   "bracket_parsed": 30,
+   "text_characters": 4687,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 30
+  },
+  {
+   "source": "s-c1403594e1618a7e",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-BC-2025-26.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 28,
+   "bracket_parsed": 28,
+   "text_characters": 5289,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 28
+  },
+  {
+   "source": "s-379e9a81ca5f1856",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-DE-2025-26.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 40,
+   "bracket_parsed": 40,
+   "text_characters": 7408,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 41
+  },
+  {
+   "source": "s-872537db429e91ee",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-KMAK-2025-26.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 24,
+   "bracket_parsed": 24,
+   "text_characters": 5064,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 24
+  },
+  {
+   "source": "s-5845cb56098bcf02",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-DYTELL-2025-26.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 0,
+   "bracket_parsed": 0,
+   "text_characters": 477,
+   "warnings": [],
+   "review_status": "no_reported_results",
+   "review_issues": [],
+   "review_notes": "Published schedule/draw contains no reported match scores.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 0
+  },
+  {
+   "source": "s-3384e8b2d8608a1d",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-KRITI-2025-26.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 9,
+   "bracket_parsed": 8,
+   "text_characters": 2154,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 9
+  },
+  {
+   "source": "s-af9651d5376c7c3d",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-DMAK-2025-26.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 10,
+   "bracket_parsed": 9,
+   "text_characters": 3107,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 10
+  },
+  {
+   "source": "s-001e5833392bfd40",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-AMAK-2025-26.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 15,
+   "bracket_parsed": 14,
+   "text_characters": 2727,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "The 4-0 advance against ΑΝΕΥ ΑΓΩΝΟΣ is a bye, not a played fixture.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 14
+  },
+  {
+   "source": "s-8edb382cac657e21",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-THESSALY-2025-26.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 27,
+   "bracket_parsed": 0,
+   "text_characters": 1605,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 10
+  },
+  {
+   "source": "s-3f6d2a5a4093d7f4",
+   "url": "http://files.ping-pong.gr/2025-2026/CUP-AIGAIO-2025-26.pdf",
+   "season": "2025-2026",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 2,
+   "bracket_parsed": 2,
+   "text_characters": 404,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 2
+  },
+  {
+   "source": "s-9e24fc6e3c3d39e6",
+   "url": "http://files.ping-pong.gr/2024-2025/PLAY-OFF-ATTIKH-2024-2025.pdf",
+   "season": "2024-2025",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 37,
+   "bracket_parsed": 0,
+   "text_characters": 4215,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 15
+  },
+  {
+   "source": "s-b6a76f8ec9c63a4f",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-IND-ATTIKH-2024-2025.pdf",
+   "season": "2024-2025",
+   "pages": 3,
+   "has_bracket": true,
+   "bracket_candidates": 127,
+   "bracket_parsed": 0,
+   "text_characters": 8817,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 48
+  },
+  {
+   "source": "s-a54e614a09c32aad",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-IND-KMAK-2024-2025.pdf",
+   "season": "2024-2025",
+   "pages": 2,
+   "has_bracket": true,
+   "bracket_candidates": 43,
+   "bracket_parsed": 0,
+   "text_characters": 4545,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 21
+  },
+  {
+   "source": "s-4492badfa1c772ad",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-A1A2-2024-25.pdf",
+   "season": "2024-2025",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 33,
+   "bracket_parsed": 33,
+   "text_characters": 7507,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 33
+  },
+  {
+   "source": "s-7305243f4051816c",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-BC-2024-25.pdf",
+   "season": "2024-2025",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 32,
+   "bracket_parsed": 32,
+   "text_characters": 8261,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 32
+  },
+  {
+   "source": "s-a0fb1f7ba5e87af6",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-DE-2024-25.pdf",
+   "season": "2024-2025",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 35,
+   "bracket_parsed": 35,
+   "text_characters": 7610,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 35
+  },
+  {
+   "source": "s-e3aedda175b73e3d",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-KMAK-2024-25.pdf",
+   "season": "2024-2025",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 22,
+   "bracket_parsed": 22,
+   "text_characters": 5168,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 22
+  },
+  {
+   "source": "s-3454a7be86f46887",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-DELL-2024-25.pdf",
+   "season": "2024-2025",
+   "pages": 2,
+   "has_bracket": true,
+   "bracket_candidates": 12,
+   "bracket_parsed": 10,
+   "text_characters": 2466,
+   "warnings": [],
+   "review_status": "source_conflict",
+   "review_issues": [
+    {
+     "page": 2,
+     "reason": "winner_not_in_pair",
+     "score": "4-1",
+     "teams": [
+      "RACKETALLICA ΑΜΑΛΙΑΔΑΣ",
+      "ΒΙΛΛΕΑΡΔΟΥΙΝΟΙ ΑΝΔΡΑΒΙΔΑΣ"
+     ],
+     "printed_winner": "ΦΟΙΝΙΚΕΣ ΠΑΤΡΑΣ 1991"
+    },
+    {
+     "page": 2,
+     "reason": "winner_not_in_pair",
+     "score": "4-0 (α.α.)",
+     "teams": [
+      "ΦΟΙΝΙΞ ΧΑΝΣ",
+      "ΒΕΤΕΡΑΝΟΙ ΑΝΟΔΟΣ ΠΑΤΡΩΝ"
+     ],
+     "printed_winner": "ΑΤΡΟΜΗΤΟΙ"
+    }
+   ],
+   "review_notes": "Two placement scores excluded: their printed winners are absent from the corresponding pair.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 10
+  },
+  {
+   "source": "s-25579974a88e3c08",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-KRHTH-2024-25.pdf",
+   "season": "2024-2025",
+   "pages": 2,
+   "has_bracket": true,
+   "bracket_candidates": 5,
+   "bracket_parsed": 5,
+   "text_characters": 1689,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 5
+  },
+  {
+   "source": "s-11d3a720bbbc4acc",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-DMAK-2024-25.pdf",
+   "season": "2024-2025",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 8,
+   "bracket_parsed": 8,
+   "text_characters": 1671,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 8
+  },
+  {
+   "source": "s-892a98473e2c6708",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-AMAK-2024-25.pdf",
+   "season": "2024-2025",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 12,
+   "bracket_parsed": 12,
+   "text_characters": 2518,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 12
+  },
+  {
+   "source": "s-9893e8fd55375e58",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-PELOP-2024-25.pdf",
+   "season": "2024-2025",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 3,
+   "bracket_parsed": 0,
+   "text_characters": 643,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 3
+  },
+  {
+   "source": "s-74f527609c822145",
+   "url": "http://files.ping-pong.gr/2024-2025/CUP-AIGAIO-2024-2025.pdf",
+   "season": "2024-2025",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 12,
+   "bracket_parsed": 4,
+   "text_characters": 2045,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 10
+  },
+  {
+   "source": "s-5678840cd74f7bb7",
+   "url": "http://files.ping-pong.gr/2023-2024/PLAY-OFF-ATTIKH-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 38,
+   "bracket_parsed": 0,
+   "text_characters": 4252,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 15
+  },
+  {
+   "source": "s-a95091e768bea663",
+   "url": "http://files.ping-pong.gr/2023-2024/CUP-IND-ATTIKH-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 2,
+   "has_bracket": true,
+   "bracket_candidates": 53,
+   "bracket_parsed": 0,
+   "text_characters": 5431,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 26
+  },
+  {
+   "source": "s-222c6d5c8584b10a",
+   "url": "http://files.ping-pong.gr/2023-2024/CUP-IND-KMAK-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 2,
+   "has_bracket": true,
+   "bracket_candidates": 27,
+   "bracket_parsed": 0,
+   "text_characters": 2633,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 13
+  },
+  {
+   "source": "s-bbcc969e882a4228",
+   "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-A1-A2-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 33,
+   "bracket_parsed": 32,
+   "text_characters": 6699,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 33
+  },
+  {
+   "source": "s-fc2b8b386711fb4b",
+   "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-B-C-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 28,
+   "bracket_parsed": 27,
+   "text_characters": 5026,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 28
+  },
+  {
+   "source": "s-6af0ac2fff220482",
+   "url": "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-D-E-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 29,
+   "bracket_parsed": 29,
+   "text_characters": 5384,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 29
+  },
+  {
+   "source": "s-589c25c55a556470",
+   "url": "http://files.ping-pong.gr/2023-2024/CUP-KMAK-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 22,
+   "bracket_parsed": 22,
+   "text_characters": 4711,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 22
+  },
+  {
+   "source": "s-70c92aeadae3a47f",
+   "url": "http://files.ping-pong.gr/2023-2024/CUP-DELL-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 2,
+   "bracket_parsed": 2,
+   "text_characters": 873,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 2
+  },
+  {
+   "source": "s-13e85c0deb21ee93",
+   "url": "http://files.ping-pong.gr/2023-2024/CUP-KRHTH-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 7,
+   "bracket_parsed": 7,
+   "text_characters": 1778,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 7
+  },
+  {
+   "source": "s-e615c8da00f38822",
+   "url": "http://files.ping-pong.gr/2023-2024/CUP-DMAK-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 7,
+   "bracket_parsed": 7,
+   "text_characters": 1562,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 7
+  },
+  {
+   "source": "s-87a8ed9979cbdc1c",
+   "url": "http://files.ping-pong.gr/2023-2024/CUP-AMAK-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 11,
+   "bracket_parsed": 11,
+   "text_characters": 2426,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 11
+  },
+  {
+   "source": "s-6c6aee5831603d00",
+   "url": "http://files.ping-pong.gr/2023-2024/CUP-PELOP-2023-2024.pdf",
+   "season": "2023-2024",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 7,
+   "bracket_parsed": 0,
+   "text_characters": 1784,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-e38e578bf241cc3c",
+   "url": "http://files.ping-pong.gr/2022-2023/DRAW-PLAYOFF-ATTIKI-2022-2023.pdf",
+   "season": "2022-2023",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 48,
+   "bracket_parsed": 0,
+   "text_characters": 4549,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 18
+  },
+  {
+   "source": "s-97a34c1c4b9d4d7d",
+   "url": "http://files.ping-pong.gr/2022-2023/PLAYOFFS-DMAK-2022-23.pdf",
+   "season": "2022-2023",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 4,
+   "bracket_parsed": 4,
+   "text_characters": 598,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 4
+  },
+  {
+   "source": "s-8ac1d2e68c6abcde",
+   "url": "http://files.ping-pong.gr/2022-2023/CUP-ATTIKI-2022-2023.pdf",
+   "season": "2022-2023",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 74,
+   "bracket_parsed": 70,
+   "text_characters": 37543,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket. Semifinal scores repeated beside the final are corroboration, not extra matches.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 72
+  },
+  {
+   "source": "s-51cb33864e69a954",
+   "url": "http://files.ping-pong.gr/2022-2023/CUP-KMAK-2022-2023.pdf",
+   "season": "2022-2023",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 26,
+   "bracket_parsed": 26,
+   "text_characters": 7558,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 27
+  },
+  {
+   "source": "s-e9722749c3f117a2",
+   "url": "http://files.ping-pong.gr/2022-2023/CUP-DYTELL-2022-2023.pdf",
+   "season": "2022-2023",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 7,
+   "bracket_parsed": 7,
+   "text_characters": 1435,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 8
+  },
+  {
+   "source": "s-f7fd8593a5729084",
+   "url": "http://files.ping-pong.gr/2022-2023/CUP-KRHTH-2022-2023.pdf",
+   "season": "2022-2023",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 3,
+   "bracket_parsed": 3,
+   "text_characters": 582,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 3
+  },
+  {
+   "source": "s-1a8e6e54b95e47b4",
+   "url": "http://files.ping-pong.gr/2022-2023/CUP-DYTMAK-2022-2023.pdf",
+   "season": "2022-2023",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 12,
+   "bracket_parsed": 11,
+   "text_characters": 2030,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 12
+  },
+  {
+   "source": "s-9ecdc5cf816ad080",
+   "url": "http://files.ping-pong.gr/2022-2023/CUP-AMAK-THRAKI-2022-2023.pdf",
+   "season": "2022-2023",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 0,
+   "bracket_parsed": 0,
+   "text_characters": 1414,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-6492018ba8ee75ae",
+   "url": "http://files.ping-pong.gr/2022-2023/CUP-PELLOPONHSOS-2022-2023.pdf",
+   "season": "2022-2023",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 36,
+   "bracket_parsed": 5,
+   "text_characters": 3444,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "The page-1 bracket repeats the page-2 placement results. Import the fixture list once; keep both pages as evidence.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 14
+  },
+  {
+   "source": "s-d7de6d7827232949",
+   "url": "http://files.ping-pong.gr/FA22-23/GAT-ARIc.jpg",
+   "season": "2022-2023",
+   "pages": 1,
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Handwritten sheet dated 27/04/2023: three singles corroborate existing April workbook rows. The fourth rubber is doubles; it is retained with the fixture and excluded from singles totals.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 1
+  },
+  {
+   "source": "s-6506a8d5f78bffbf",
+   "url": "http://files.ping-pong.gr/2022-2023/Play_Offs_Omadikon_2022-2023.pdf",
+   "season": "2022-2023",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 8,
+   "bracket_parsed": 8,
+   "text_characters": 1827,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 8
+  },
+  {
+   "source": "s-dce9261bed615a28",
+   "url": "http://files.ping-pong.gr/2022-2023/RESULTS-OMANEX-2022-2023.pdf",
+   "season": "2022-2023",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 19,
+   "bracket_parsed": 0,
+   "text_characters": 2993,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 13
+  },
+  {
+   "source": "s-6d97756879bd044a",
+   "url": "http://files.ping-pong.gr/2020-2021/DRAW-PLAYOFF-ATTIKI-2020-2022.pdf",
+   "season": "2020-2021",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 48,
+   "bracket_parsed": 0,
+   "text_characters": 4553,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 18
+  },
+  {
+   "source": "s-62b84eccb946e3ae",
+   "url": "http://files.ping-pong.gr/2020-2021/PLAYOFFS-DMAK-2022.pdf",
+   "season": "2020-2021",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 4,
+   "bracket_parsed": 4,
+   "text_characters": 597,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 4
+  },
+  {
+   "source": "s-b011b7e34f5c6991",
+   "url": "http://files.ping-pong.gr/2020-2021/CUP-ATTIKI-2020-2021.pdf",
+   "season": "2020-2021",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 78,
+   "bracket_parsed": 75,
+   "text_characters": 36066,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket. Semifinal scores repeated beside the final are corroboration, not extra matches.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 77
+  },
+  {
+   "source": "s-5345d1e9f320015a",
+   "url": "http://files.ping-pong.gr/2020-2021/CUP-KMAK-2020-2021.pdf",
+   "season": "2020-2021",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 23,
+   "bracket_parsed": 23,
+   "text_characters": 4430,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 24
+  },
+  {
+   "source": "s-ffa8bca02cfcaf4b",
+   "url": "http://files.ping-pong.gr/2020-2021/CUP-DYTELL-2020-2021.pdf",
+   "season": "2020-2021",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 7,
+   "bracket_parsed": 7,
+   "text_characters": 1148,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 8
+  },
+  {
+   "source": "s-0b2b25982ababfc1",
+   "url": "http://files.ping-pong.gr/2020-2021/CUP-KRITI-2020-2021.pdf",
+   "season": "2020-2021",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 11,
+   "bracket_parsed": 11,
+   "text_characters": 1816,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 12
+  },
+  {
+   "source": "s-dd3a32d260f4e5e9",
+   "url": "http://files.ping-pong.gr/2020-2021/CUP-DMAK-2020-2021.pdf",
+   "season": "2020-2021",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 72,
+   "bracket_parsed": 0,
+   "text_characters": 3750,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 20
+  },
+  {
+   "source": "s-ff9b768219f90ed6",
+   "url": "http://files.ping-pong.gr/2020-2021/CUP-AMAK-2020-2021.pdf",
+   "season": "2020-2021",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 6,
+   "bracket_parsed": 6,
+   "text_characters": 900,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 7
+  },
+  {
+   "source": "s-d4006eb0d2a637c0",
+   "url": "http://files.ping-pong.gr/2020-2021/CUP-PELOP-2020-2021.pdf",
+   "season": "2020-2021",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 22,
+   "bracket_parsed": 0,
+   "text_characters": 2486,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 16
+  },
+  {
+   "source": "s-55640baf978a634b",
+   "url": "http://files.ping-pong.gr/2019-2020/RESULTS-ATTIKI-CUP-2019-2020.pdf",
+   "season": "2019-2020",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 76,
+   "bracket_parsed": 75,
+   "text_characters": 15658,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 78
+  },
+  {
+   "source": "s-9c51fa8c2567729a",
+   "url": "http://files.ping-pong.gr/2019-2020/RESULTS-KMAK-CUP-2019-2020.pdf",
+   "season": "2019-2020",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 22,
+   "bracket_parsed": 22,
+   "text_characters": 4136,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 23
+  },
+  {
+   "source": "s-e2d5d319678d6459",
+   "url": "http://files.ping-pong.gr/2019-2020/RESULTS-KRITI-CUP-2019-2020.pdf",
+   "season": "2019-2020",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 6,
+   "bracket_parsed": 6,
+   "text_characters": 1106,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-d1b50ef75d312690",
+   "url": "http://files.ping-pong.gr/2019-2020/RESULTS-PELOP-CUP-2019-2020.pdf",
+   "season": "2019-2020",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 11,
+   "bracket_parsed": 0,
+   "text_characters": 1403,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-16ff5ee67a36d0a3",
+   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-PLAYOFFS-ATTIKI.pdf",
+   "season": "2018-2019",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 34,
+   "bracket_parsed": 0,
+   "text_characters": 3437,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 13
+  },
+  {
+   "source": "s-2aa975860436c854",
+   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-PLAYOFFS-KMAK.pdf",
+   "season": "2018-2019",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 22,
+   "bracket_parsed": 0,
+   "text_characters": 2348,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 12
+  },
+  {
+   "source": "s-5200be109bbfa73a",
+   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-PLAYOFFS-KRITI.pdf",
+   "season": "2018-2019",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 15,
+   "bracket_parsed": 0,
+   "text_characters": 1166,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-c1687ab254f605e6",
+   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-ATTIKI-CUP.pdf",
+   "season": "2018-2019",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 69,
+   "bracket_parsed": 69,
+   "text_characters": 13577,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 71
+  },
+  {
+   "source": "s-0cc4f52cacbde33b",
+   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-KMAK-CUP.pdf",
+   "season": "2018-2019",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 26,
+   "bracket_parsed": 26,
+   "text_characters": 4410,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 27
+  },
+  {
+   "source": "s-61da415457f45957",
+   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-DYTELL-CUP.pdf",
+   "season": "2018-2019",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 32,
+   "bracket_parsed": 0,
+   "text_characters": 3260,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 16
+  },
+  {
+   "source": "s-3e15a2f507451b06",
+   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-KRITI-CUP.pdf",
+   "season": "2018-2019",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 17,
+   "bracket_parsed": 17,
+   "text_characters": 3374,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 18
+  },
+  {
+   "source": "s-5360ff2078cbbb76",
+   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-DMAK-CUP.pdf",
+   "season": "2018-2019",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 42,
+   "bracket_parsed": 0,
+   "text_characters": 2449,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 14
+  },
+  {
+   "source": "s-5a4da998bc6c6ceb",
+   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-AMAK-CUP.pdf",
+   "season": "2018-2019",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 7,
+   "bracket_parsed": 7,
+   "text_characters": 1186,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 9
+  },
+  {
+   "source": "s-004820d3750ecc52",
+   "url": "http://files.ping-pong.gr/2018-2019/RESULTS-PELOP-CUP.pdf",
+   "season": "2018-2019",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 8,
+   "bracket_parsed": 0,
+   "text_characters": 2066,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "The explicit fixture scores and final placings agree; the score matrices have reversed outcomes for two pairs. Use the explicit fixture list.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-af805eb2e9858ff7",
+   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-ATTIKI-PLAYOFFS.pdf",
+   "season": "2017-2018",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 52,
+   "bracket_parsed": 0,
+   "text_characters": 4742,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 18
+  },
+  {
+   "source": "s-4c0dc421f69174c4",
+   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-KMAK-PLAYOFFS.pdf",
+   "season": "2017-2018",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 28,
+   "bracket_parsed": 0,
+   "text_characters": 1721,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 15
+  },
+  {
+   "source": "s-373dc48731eb1d3d",
+   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-KRITI-PLAYOFFS.pdf",
+   "season": "2017-2018",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 7,
+   "bracket_parsed": 0,
+   "text_characters": 2279,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 11
+  },
+  {
+   "source": "s-4a4689fda87bc913",
+   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-ATTIKH-CUP.pdf",
+   "season": "2017-2018",
+   "pages": 2,
+   "has_bracket": true,
+   "bracket_candidates": 72,
+   "bracket_parsed": 71,
+   "text_characters": 14428,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 74
+  },
+  {
+   "source": "s-f02f0fd8a9aef65f",
+   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-KMAK-CUP.pdf",
+   "season": "2017-2018",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 20,
+   "bracket_parsed": 20,
+   "text_characters": 3744,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 21
+  },
+  {
+   "source": "s-375030c5383dcbf9",
+   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-DYTELL-CUP.pdf",
+   "season": "2017-2018",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 32,
+   "bracket_parsed": 0,
+   "text_characters": 3262,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 16
+  },
+  {
+   "source": "s-48230a1868c751ce",
+   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-KRITI-CUP.pdf",
+   "season": "2017-2018",
+   "pages": 4,
+   "has_bracket": false,
+   "bracket_candidates": 90,
+   "bracket_parsed": 6,
+   "text_characters": 5720,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 32
+  },
+  {
+   "source": "s-4d895ff50c180dee",
+   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-DMAK-CUP.pdf",
+   "season": "2017-2018",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 27,
+   "bracket_parsed": 0,
+   "text_characters": 2217,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 11
+  },
+  {
+   "source": "s-fca99ea793dc8476",
+   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-AMAK-CUP.pdf",
+   "season": "2017-2018",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 6,
+   "bracket_parsed": 6,
+   "text_characters": 965,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 7
+  },
+  {
+   "source": "s-1df35a03494f4ada",
+   "url": "http://files.ping-pong.gr/2017-2018/RESULTS-PELOP-CUP.pdf",
+   "season": "2017-2018",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 10,
+   "bracket_parsed": 10,
+   "text_characters": 2813,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 10
+  },
+  {
+   "source": "s-8c6b7c40f360286d",
+   "url": "http://files.ping-pong.gr/2016-2017/DRAW-PLAYOFFS.pdf",
+   "season": "2016-2017",
+   "pages": 4,
+   "has_bracket": false,
+   "bracket_candidates": 93,
+   "bracket_parsed": 0,
+   "text_characters": 10242,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 43
+  },
+  {
+   "source": "s-fae99da876f2aac5",
+   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-KMAK-PLAYOFFS.pdf",
+   "season": "2016-2017",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 13,
+   "bracket_parsed": 0,
+   "text_characters": 1128,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 5
+  },
+  {
+   "source": "s-6a8d680fd3602911",
+   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-ATTIKH-CUP.pdf",
+   "season": "2016-2017",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 79,
+   "bracket_parsed": 78,
+   "text_characters": 12178,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 81
+  },
+  {
+   "source": "s-0dac29b1e81ad7eb",
+   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-KMAK-CUP.pdf",
+   "season": "2016-2017",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 21,
+   "bracket_parsed": 21,
+   "text_characters": 2934,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 22
+  },
+  {
+   "source": "s-709d615885b4f88f",
+   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-DMAK-CUP.pdf",
+   "season": "2016-2017",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 13,
+   "bracket_parsed": 0,
+   "text_characters": 1822,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 8
+  },
+  {
+   "source": "s-0f99576c293a08a3",
+   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-AMAK-CUP.pdf",
+   "season": "2016-2017",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 7,
+   "bracket_parsed": 7,
+   "text_characters": 956,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 8
+  },
+  {
+   "source": "s-0e861e695000913e",
+   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-PELOP-CUP.pdf",
+   "season": "2016-2017",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 10,
+   "bracket_parsed": 0,
+   "text_characters": 1108,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-61942f67cd3bffcb",
+   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-DYTELL-CUP.pdf",
+   "season": "2016-2017",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 9,
+   "bracket_parsed": 9,
+   "text_characters": 2166,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 10
+  },
+  {
+   "source": "s-229e6478e79cdfd2",
+   "url": "http://files.ping-pong.gr/2016-2017/RESULTS-KRHTH-CUP.pdf",
+   "season": "2016-2017",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 57,
+   "bracket_parsed": 0,
+   "text_characters": 3671,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 16
+  },
+  {
+   "source": "s-fe631da930dab7c5",
+   "url": "http://files.ping-pong.gr/2015-2016/APOTELESMATA-PLAYOFFS-ATTIKH.pdf",
+   "season": "2015-2016",
+   "pages": 3,
+   "has_bracket": false,
+   "bracket_candidates": 45,
+   "bracket_parsed": 0,
+   "text_characters": 5279,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 20
+  },
+  {
+   "source": "s-c3a3dcdc39edcc8e",
+   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-ATTIKHS.pdf",
+   "season": "2015-2016",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 71,
+   "bracket_parsed": 70,
+   "text_characters": 12522,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 73
+  },
+  {
+   "source": "s-b6c508f37db6b2bb",
+   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-KMAK.pdf",
+   "season": "2015-2016",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 19,
+   "bracket_parsed": 19,
+   "text_characters": 2780,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 20
+  },
+  {
+   "source": "s-928794d9adb14b04",
+   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-DMAK.pdf",
+   "season": "2015-2016",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 13,
+   "bracket_parsed": 0,
+   "text_characters": 1822,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 8
+  },
+  {
+   "source": "s-ff63dc2eac717099",
+   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-AMAK.pdf",
+   "season": "2015-2016",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 7,
+   "bracket_parsed": 7,
+   "text_characters": 939,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 7
+  },
+  {
+   "source": "s-f9aeeb6439a62918",
+   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-PELOP.pdf",
+   "season": "2015-2016",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 28,
+   "bracket_parsed": 0,
+   "text_characters": 2665,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 11
+  },
+  {
+   "source": "s-54b2d0f2ef02ca11",
+   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-DYTELL.pdf",
+   "season": "2015-2016",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 39,
+   "bracket_parsed": 0,
+   "text_characters": 2886,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "The final and third-place rows name different entrants than semifinal advancement suggests. Retain the explicit fixture rows as printed; do not infer different entrants.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 16
+  },
+  {
+   "source": "s-3612786347f39ca3",
+   "url": "http://files.ping-pong.gr/2015-2016/KYPELLO-KRHTH.pdf",
+   "season": "2015-2016",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 34,
+   "bracket_parsed": 0,
+   "text_characters": 3042,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 16
+  },
+  {
+   "source": "s-89f77755cc77f45d",
+   "url": "http://files.ping-pong.gr/2014-2015/RESULTS-PLAYOFFS-ATTIKHS-2014-2015.pdf",
+   "season": "2014-2015",
+   "pages": 2,
+   "has_bracket": false,
+   "bracket_candidates": 52,
+   "bracket_parsed": 0,
+   "text_characters": 3557,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 18
+  },
+  {
+   "source": "s-b803a40a27404cb5",
+   "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-ATTIKHS-2014-2015.pdf",
+   "season": "2014-2015",
+   "pages": 2,
+   "has_bracket": true,
+   "bracket_candidates": 62,
+   "bracket_parsed": 62,
+   "text_characters": 10738,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 62
+  },
+  {
+   "source": "s-f4dc774c7e49a7c2",
+   "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-KMAK-2014-2015.pdf",
+   "season": "2014-2015",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 17,
+   "bracket_parsed": 17,
+   "text_characters": 2858,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 18
+  },
+  {
+   "source": "s-c6ac76e793e6fa97",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/kypello_dmak.pdf",
+   "season": "2014-2015",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 16,
+   "bracket_parsed": 0,
+   "text_characters": 1200,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-7ed26212a43b343c",
+   "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-AMAK.pdf",
+   "season": "2014-2015",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 7,
+   "bracket_parsed": 7,
+   "text_characters": 1098,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 8
+  },
+  {
+   "source": "s-0b70bf64d80e67a4",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/kypello_pelop.pdf",
+   "season": "2014-2015",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 32,
+   "bracket_parsed": 0,
+   "text_characters": 2875,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 16
+  },
+  {
+   "source": "s-7431cb79649da4d2",
+   "url": "http://files.ping-pong.gr/2014-2015/KYPELLO-DELL.pdf",
+   "season": "2014-2015",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 18,
+   "bracket_parsed": 0,
+   "text_characters": 2340,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 11
+  },
+  {
+   "source": "s-8d199f919fe2b7b0",
+   "url": "http://files.ping-pong.gr/2013-2014/RESULTS-PLAYOFFS-2013-2014.pdf",
+   "season": "2013-2014",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 37,
+   "bracket_parsed": 0,
+   "text_characters": 2058,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 12
+  },
+  {
+   "source": "s-70935c1a47775d74",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apot_kyp_attikh.pdf",
+   "season": "2013-2014",
+   "pages": 2,
+   "has_bracket": true,
+   "bracket_candidates": 52,
+   "bracket_parsed": 52,
+   "text_characters": 8556,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 55
+  },
+  {
+   "source": "s-5cf953c77581868f",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/__-.pdf",
+   "season": "2013-2014",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 14,
+   "bracket_parsed": 13,
+   "text_characters": 2190,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "Third-place entrants checked against the losing semifinalists in the published bracket.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 14
+  },
+  {
+   "source": "s-b109c5409d1b355c",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_dyt-mak.pdf",
+   "season": "2013-2014",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 6,
+   "bracket_parsed": 6,
+   "text_characters": 960,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-ba9f643ba24024d8",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_a-mak.pdf",
+   "season": "2013-2014",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 6,
+   "bracket_parsed": 0,
+   "text_characters": 1726,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 8
+  },
+  {
+   "source": "s-93dac39e020ffbf2",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_pelop.pdf",
+   "season": "2013-2014",
+   "pages": 1,
+   "has_bracket": false,
+   "bracket_candidates": 6,
+   "bracket_parsed": 6,
+   "text_characters": 1093,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-9ce1a1671d69d200",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_dyt_ell.pdf",
+   "season": "2013-2014",
+   "pages": 1,
+   "has_bracket": true,
+   "bracket_candidates": 8,
+   "bracket_parsed": 0,
+   "text_characters": 1843,
+   "warnings": [],
+   "review_status": "results_imported",
+   "review_issues": [],
+   "review_notes": "",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 6
+  },
+  {
+   "source": "s-8c8d22aea60e4e5b",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/5334735_orig.jpg",
+   "season": "2008-2009",
+   "pages": 1,
+   "review_status": "standings_only",
+   "review_issues": [],
+   "review_notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 0
+  },
+  {
+   "source": "s-160585d96a31e2e7",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/4921672_orig.jpg",
+   "season": "2008-2009",
+   "pages": 1,
+   "review_status": "standings_only",
+   "review_issues": [],
+   "review_notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 0
+  },
+  {
+   "source": "s-77127da3830c6e3b",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/9305641_orig.jpg",
+   "season": "2008-2009",
+   "pages": 1,
+   "review_status": "standings_only",
+   "review_issues": [],
+   "review_notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 0
+  },
+  {
+   "source": "s-2882288881e65452",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/2043880_orig.jpg",
+   "season": "2007-2008",
+   "pages": 1,
+   "review_status": "standings_only",
+   "review_issues": [],
+   "review_notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 0
+  },
+  {
+   "source": "s-8b841dedaee9155e",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/7039928_orig.jpg",
+   "season": "2007-2008",
+   "pages": 1,
+   "review_status": "standings_only",
+   "review_issues": [],
+   "review_notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 0
+  },
+  {
+   "source": "s-94506e26eccac426",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/6537061_orig.jpg",
+   "season": "2007-2008",
+   "pages": 1,
+   "review_status": "standings_only",
+   "review_issues": [],
+   "review_notes": "Team standings and cumulative totals only; individual fixtures cannot be recovered from these totals.",
+   "reviewed_at": "2026-11-26",
+   "fixtures": 0
   }
  ]
 }

@@ -2,6 +2,9 @@
 
 ## Prototype updates — 2026-11-26
 
+- Review 124 PDFs and seven images; add 1,601 team results, preserve document evidence and disclose contradictory source labels.
+- Confirm three existing singles from the handwritten final, retain its doubles result, and show document coverage on the sources page.
+
 - Import every linked historical XLS/XLSX ranking workbook, preserving region and age-bracket positions from 2011–2026.
 - Import historical singles and team results, including supported PDF tables and brackets, with source anomalies and unresolved sections disclosed.
 - Show all linked rankings and matches on athlete pages; remove athlete region and age selectors.

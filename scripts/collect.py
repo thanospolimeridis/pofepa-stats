@@ -19,7 +19,7 @@ from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 from workbooks import inventory as workbook_inventory, open_book, canonical_list, result_rows
 from season_sources import seasons, content_links
-from pdf_results import extract_pdf
+from reviewed_documents import extract_document
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://www.pofepa.gr/"
@@ -397,6 +397,7 @@ def collect(cache, as_of):
     _, season_path = cache.get(SEASON, "season.html")
     visited = set()
     deferred = []
+    document_reviews = []
     season_inventory = []
     for season_name, season_url in seasons(season_path.read_text(), BASE):
         season_sid, path = cache.get(season_url, "season.html" if season_url == SEASON else None)
@@ -408,17 +409,18 @@ def collect(cache, as_of):
             if not safe_url(url) or url in visited:
                 continue
             visited.add(url)
-            if not url.endswith((".html", ".pdf")):
-                deferred.append({"label": label, "url": url, "season": season_name, "reason": "image_result"})
+            if not url.lower().endswith((".html", ".pdf", ".jpg", ".jpeg", ".png")):
+                deferred.append({"label": label, "url": url, "season": season_name, "reason": "invalid_result_link"})
                 continue
             try:
                 sid, path = cache.get(url, "a1.html" if url == BASE + "2026-2027-a1.html" else None)
                 eid = uid("e-", url)
-                if url.endswith(".pdf"):
+                if not url.endswith(".html"):
                     title = label
-                    parsed, pdf_info = extract_pdf(path, sid, eid, uid)
-                    if pdf_info["has_bracket"]:
-                        deferred.append({"label": title, "url": url, "reason": "pdf_bracket_requires_review", "parsed_fixtures": len(parsed)})
+                    parsed, pdf_info = extract_document(path, sid, eid, uid)
+                    document_reviews.append({"source":sid,"url":url,"season":season_name,**pdf_info})
+                    if pdf_info['review_status'] in ('pending','source_conflict'):
+                        deferred.append({"label":title,"url":url,"reason":"document_"+pdf_info['review_status'],"detail":pdf_info.get('review_issues',[])})
                 else:
                     html = path.read_text()
                     page = BeautifulSoup(html, "html.parser")
@@ -428,7 +430,7 @@ def collect(cache, as_of):
                 for f in parsed:
                     f["clubs"] = [club_id(f["home"]), club_id(f["away"])]
                 fixtures.extend(parsed)
-                if not parsed:
+                if not parsed and url.endswith('.html'):
                     deferred.append({"label": title, "url": url, "reason": "no_supported_fixture_table"})
             except (OSError, ValueError) as exc:
                 deferred.append({"label": label, "url": url, "reason": "source_unavailable", "detail": str(exc)})
@@ -444,9 +446,13 @@ def collect(cache, as_of):
         "match_date_min": min((m["date"] for m in matches), default=None), "match_date_max": max((m["date"] for m in matches), default=None),
         "excluded_rows": dict(Counter(i["reason"] for i in issues)),
         "identity_methods": dict(Counter(v for m in matches for v in m["identity"])),
-        "identity_conflicts": identity_conflicts, "season_inventory": season_inventory, "deferred": deferred, "workbook_inventory": inventory}
-    return {"schema": 1, "coverage": coverage, "sources": list(cache.sources.values()), "players": list(players.values()),
+        "identity_conflicts": identity_conflicts, "season_inventory": season_inventory, "deferred": deferred, "workbook_inventory": inventory,
+        "document_reviews":document_reviews}
+    result = {"schema": 1, "coverage": coverage, "sources": list(cache.sources.values()), "players": list(players.values()),
         "clubs": list(clubs.values()), "events": list(events.values()), "snapshots": snapshots, "matches": matches, "fixtures": fixtures, "issues": issues}
+    from refresh_documents import corroborate_singles
+    corroborate_singles(result)
+    return result
 
 
 def main():

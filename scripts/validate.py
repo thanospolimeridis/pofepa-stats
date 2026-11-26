@@ -40,5 +40,17 @@ def validate(data):
     for fixture in data["fixtures"]:
         require(fixture["event"] in indices["events"] and fixture["source"] in indices["sources"], "Invalid fixture reference")
         require((fixture["status"] == "reported") == (fixture["score"] is not None), "Fixture status mismatch")
+        require(all(c in indices['clubs'] for c in fixture['clubs']), 'Invalid fixture clubs')
+        require(fixture['home'] and fixture['away'], 'Missing fixture team')
+        if fixture['score'] is not None:
+            require(len(fixture['score'])==2 and all(type(s) is int and 0<=s<=99 for s in fixture['score']), 'Invalid team score')
+        for rubber in fixture.get('rubbers',[]):
+            require(rubber['kind'] in ('singles','doubles'), 'Invalid rubber type')
+            if rubber['kind']=='singles':require(rubber['match'] in indices['matches'],'Missing corroborated singles match')
+    for match in data['matches']:
+        for proof in match.get('document_evidence',[]):
+            require(proof['source'] in indices['sources'] and proof['fixture'] in indices['fixtures'],'Invalid document evidence')
+    for review in data['coverage'].get('document_reviews',[]):
+        require(review['source'] in indices['sources'],'Missing reviewed source')
     for k in ("matches", "players", "fixtures", "events"):
         require(data["coverage"][k] == len(data[k]), f"Coverage mismatch: {k}")

@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def audit():
     data = load()
     paths = {hashlib.sha256(p.read_bytes()).hexdigest(): p for p in (ROOT / 'capture').iterdir()
-             if p.is_file() and p.suffix in ('.xls', '.xlsx', '.pdf', '.html')}
+             if p.is_file() and p.suffix in ('.xls', '.xlsx', '.pdf', '.html', '.jpg', '.jpeg', '.png')}
     players = {p['id']: p for p in data['players']}
     clubs = {c['id']: c['name'] for c in data['clubs']}
     snapshots, evidence = defaultdict(list), defaultdict(list)
