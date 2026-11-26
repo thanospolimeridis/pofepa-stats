@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 1669,
-  "imported_sheets": 1339,
-  "held": 330,
-  "pending": 11842,
+  "reviewed": 1769,
+  "imported_sheets": 1420,
+  "held": 349,
+  "pending": 11742,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -8882,12 +8882,202 @@
     "reason": "missing_date",
     "details": "Date field entirely blank. ΑΝΕΞΑΡΤΗΤΟΙ ΤΑΤΑΥΛΑ–ΕΛΕΥΣΙΝΙΟΙ ΜΥΣΤΗΡΙΟΙ 5–3; home ΕΥΑΓΓΕΛΙΟΥ 122,ΚΟΣΜΙΔΗΣ registration overwritten,ΦΑΚΑΡΟΣ 449; away ΠΕΤΡΙΤΣ 1843,ΙΚΟΝΙΔΗΣ 245,ΙΑΚΩΒΟΥ 178; away Y changes to ΚΩΝΣΤΑΝΤΙΝΙΔΗΣ row 6. Rubber totals 03 30 03 30 23 30 32 30. No date inferred from workbook.",
     "details_el": "Η ημερομηνία είναι εντελώς κενή. Δεν εισάγεται αυθαίρετη ημερομηνία από άλλο αρχείο."
+   },
+   {
+    "source": "s-0f562d33b644f9c7",
+    "url": "http://files.ping-pong.gr/FA25-26/ATA-EFR.jpg",
+    "fixture": "f-ff026df828ee87ac",
+    "sha256": "4def1b50f6bce050ac3fe1687e56b597d18686471c7c9f48b810ccd414feb443",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 7 Tsoulchas–Misirlis explicit 1–3 versus threelegalgames 6–11,6–11,9–11 and workbook 0–3.",
+    "details_el": "Η 7 η γραμμή Τσούλχας–Μισιρλής γράφει 1–3, ενώ τρίασετ και βιβλίο δίνουν 0–3."
+   },
+   {
+    "source": "s-a2ff24f17045469f",
+    "url": "http://files.ping-pong.gr/FA25-26/STV-ADV.jpg",
+    "fixture": "f-b68fa22e03ced022",
+    "sha256": "97fd7bf0da199ed10c98b2ea7735e3fdfecf4aa864b855d793f407b48633452a",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 5 Pagidas–Pappas explicit 0–3 but games 7–11,4–11,11–8 includehomewin; no fourthgame recorded.",
+    "details_el": "Η 5 η γραμμή Παγίδας–Παππάς γράφει 0–3 αλλάσετ 7–11,4–11,11–8 περιλαμβάνουν νίκη γηπεδούχου."
+   },
+   {
+    "source": "s-033a1ef6e2ecb7e5",
+    "url": "http://files.ping-pong.gr/FA25-26/AVG-NES.jpg",
+    "fixture": "f-966c898ad4f7e13b",
+    "sha256": "96904f5967caa088d08468d7c55dd97a8a199e66fc3b38866d876f0c9eb36233",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "Explicit 31 October 2026 conflicts 2025–26 fixture. Also row 3 total 1–3 but pointcells 11–6,5–11,6–11,13–5 include twoapparenthomewins and invalidfinal 13–5.",
+    "details_el": "Το φύλλογράφει 31/10/2026 αντίσεζόν 2025–26. Επιπλέον η 3 ηγραμμή 1–3 έχειδύο νίκεςγηπεδούχου στασετ."
+   },
+   {
+    "source": "s-6e41c233d418502f",
+    "url": "http://files.ping-pong.gr/FA25-26/SPC-6BK.jpg",
+    "fixture": "f-17f57a7b040f7419",
+    "sha256": "56421cda78c9d24b382ba5d6c666e27ffba07d2d850b9682578e94ae4b9317fa",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 8 Paparidis–Alafostergios explicit 3–1 versus apparentfourlegalgames 4–11,14–12,9–11,12–10 giving 2–2. Workbook 3–1 doesnotresolve.",
+    "details_el": "Η 8 ηγραμμή Παπαρίδης–Αλαφοστέργιος γράφει 3–1 αλλά τατέσσερασετ φαίνεταιναδίνουν 2–2."
+   },
+   {
+    "source": "s-bf373364670d6be2",
+    "url": "http://files.ping-pong.gr/FA25-26/AML-ABK.jpg",
+    "fixture": "f-7e19b8e6a7abb030",
+    "sha256": "3d4a66f46b6ba15dd1e828479b980b6bcf6e7ee4dbe18493da1d3ce23ea4609f",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_substitution",
+    "details": "Explicit Αλλαγή Παναγιωτοπούλου Κωστα note but no unambiguousrowassignment. Workbookuses originalstarters; clarificationrequired.",
+    "details_el": "Ρητήσημείωση Αλλαγή Παναγιωτοπούλου Κώστα χωρίς σαφήγραμμή συμμετοχής. Απαιτείται διευκρίνιση."
+   },
+   {
+    "source": "s-4da488bb6170f453",
+    "url": "http://files.ping-pong.gr/FA25-26/L08-MTL.jpg",
+    "fixture": "f-792695ee2bb2f5d7",
+    "sha256": "4516ea99f8138af6c291eb9fcb9080e1a7d0146078ec30efd2f5fc8e814191ae",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_identity",
+    "details": "Konstantopoulos 1825 written givenprefixBa… couldVasilis orVaggelis, existingprofileEvangelos. Similar 876 explicitVAS conflict unresolved; independentreadrequired.",
+    "details_el": "Το αρχικόΒα… τουΚωνσταντόπουλου 1825 είναιασαφές Βασίλης/Βαγγέλης έναντιΕυάγγελος. Απαιτείται διευκρίνιση."
+   },
+   {
+    "source": "s-74545bf81a4a6356",
+    "url": "http://files.ping-pong.gr/FA25-26/KPG-BR2.jpg",
+    "fixture": "f-bdfb3f7698984a2b",
+    "sha256": "55f9ec2ede1510be0879603190ee719837e3cd651e39ebf040259b50046e1aaf",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "Sourceexplicit 31/10/21, allnine identicalpair/scores workbook 31 October 2025. Cannot silentlycorrect source year.",
+    "details_el": "Το φύλλογράφει 31/10/21 ενώεννέαίδιααποτελέσματα υπάρχουν 31/10/2025. Δενδιορθώνεταισιωπηράτοέτος."
+   },
+   {
+    "source": "s-dd028bb066e158f4",
+    "url": "http://files.ping-pong.gr/FA25-26/FLE-PLN.jpg",
+    "fixture": "f-686952073f7f73ce",
+    "sha256": "f567d06c7499aa716cf99399020af05325ac95a72a00ddc03fdddf33cdd153fd",
+    "reviewed_at": "2026-11-26",
+    "reason": "fixture_mismatch",
+    "details": "Queuefixture is malformed mergedmultiplehomeclubs with noaway/result. ActualsheetFilipposEvosmou–Polynikis 5–1,7 November 2025; allsix workbookrubbers exist. Reconcilefixture beforeimport.",
+    "details_el": "Ηεγγραφήαγώνα συγχωνεύειπολλέςομάδες χωρίςαντίπαλο/σκορ. ΤοφύλλοείναιΦίλιπποςΕυόσμου–Πολυνίκης 5–1 στις 7/11/2025. Απαιτείταισυμφιλίωσηαγώνα."
+   },
+   {
+    "source": "s-3a32c8f144e37ede",
+    "url": "http://files.ping-pong.gr/FA25-26/HRO-SNR.jpg",
+    "fixture": "f-7afc93c723403f13",
+    "sha256": "d43e46c1d6dc600f20bda3381dfd7fd850a628879c8eafea4cea3b022ad3d981",
+    "reviewed_at": "2026-11-26",
+    "reason": "fixture_mismatch",
+    "details": "Malformedfixture multiplehomeclubs/noaway/result; actualHeraklionOAA–Spinners 5–4,11 November 2025. Reconcilefixturebeforeimport.",
+    "details_el": "Ηεγγραφήαγώναέχειπολλέςομάδεςχωρίςαντίπαλο/σκορ. ΤοφύλλοείναιΗράκλειοΟΑΑ–Spinners 5–4,11/11/2025."
+   },
+   {
+    "source": "s-0b9dc910943343f2",
+    "url": "http://files.ping-pong.gr/FA25-26/CDR-CHN.jpg",
+    "fixture": "f-74a4b4daa7797155",
+    "sha256": "481ad1c143d21a2b81e5cbd820b15eb8d2cfc5513d201592a431df0867606c44",
+    "reviewed_at": "2026-11-26",
+    "reason": "fixture_mismatch",
+    "details": "Malformedfixture mergedclubs/noaway/result. ActualCretanDentists–Chania 5–0,28 January 2026, allfive workbookrubbers exist. Fixture reconciliationrequired.",
+    "details_el": "Ηεγγραφήαγώνασυγχωνεύειομάδεςχωρίςαντίπαλο/σκορ. ΤοφύλλοείναιCretanDentists–Χανιά 5–0,28/1/2026."
+   },
+   {
+    "source": "s-3df166c40a602108",
+    "url": "http://files.ping-pong.gr/FA25-26/MGP-XRV.jpg",
+    "fixture": "f-57b57b2f3a7704bb",
+    "sha256": "ad9ca3c837a509e3172edace0ae0022c0477fd11b870716c8bbbd2f38ac1ae02",
+    "reviewed_at": "2026-11-26",
+    "reason": "cross_date_duplicate",
+    "details": "Source 2 November 2025 allfivepair/scores exist 1 February 2026. Row 5 explicitlyMatthiopoulos differsstartingZ; row 2 fourhomewinninggames inconsistent 3–0. Reconciledate/participant/points beforeimport.",
+    "details_el": "Τοφύλλο 2/11/2025 έχειπέντείδιααποτελέσματατην 1/2/2026. Επιπλέονη 5 ηγραμμήαναφέρειΜατθιόπουλοαντίΓράντζα καιη 2 ητέσσερασετ."
+   },
+   {
+    "source": "s-82fbdcc56b9c8db1",
+    "url": "http://files.ping-pong.gr/FA25-26/AEK-APK.jpg",
+    "fixture": "f-cbe0e256502562c1",
+    "sha256": "28e67ec027e02a785269b45edf82712d3bbf30228582eafd8ddae3e3227756c7",
+    "reviewed_at": "2026-11-26",
+    "reason": "score-conflict",
+    "details": "Row 1 Χίου–Τσίγκας is written 1–3 and workbook 1–3, but four legal games 12–14,11–7,7–11,11–3 establish 2–2. The fourth game/total needs clarification.",
+    "details_el": "Η γραμμή 1 γράφει 1–3 ενώ τα τέσσερα σετ δίνουν 2–2. Απαιτείται διευκρίνιση."
+   },
+   {
+    "source": "s-f95685fd53fa80ec",
+    "url": "http://files.ping-pong.gr/FA25-26/KLP-VKI.jpg",
+    "fixture": "f-602c86842df2d793",
+    "sha256": "ff2dd4b93d0de1dba74e6472e9fe9f69d047a694544e511b49519f2619a3d1f6",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous-substitution",
+    "details": "Explicit away changes list Καρακατσίδης 1160 and Κοντοπούλος. Only Κοντοπούλος is assigned to row 6; Καρακατσίδης participation is unassigned.",
+    "details_el": "Η αλλαγή Καρακατσίδη δεν αντιστοιχίζεται σε αγώνα."
+   },
+   {
+    "source": "s-6ab6b23caf36bd4f",
+    "url": "http://files.ping-pong.gr/FA25-26/MTF-RHC.jpg",
+    "fixture": "f-e0d20970b7a5b220",
+    "sha256": "08d5e8b2e17a46be998a23cc753b1d46467de26bf3964565fedcb92276bf02d7",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous-substitution",
+    "details": "Explicit changes include Μηλιάς 1847 and Γεωργίου 120. Μηλιάς is assigned to row 7 but Γεωργίου participation is unassigned.",
+    "details_el": "Η αλλαγή Γεωργίου 120 δεν αντιστοιχίζεται σε αγώνα."
+   },
+   {
+    "source": "s-faf1802b002c115c",
+    "url": "http://files.ping-pong.gr/FA25-26/BWK-CNC.jpg",
+    "fixture": "f-a118c6b92d1fa49c",
+    "sha256": "443f77c40121830cf5df750e5053029f9ae8d2dd44cdb6e13066f51548d65471",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous-substitution",
+    "details": "Explicit changes list Τσελίκη and Κουτσούμπας without assigned rows; Γαμπρούλιας and Ζαχαρέκας are assigned. Remaining participation requires clarification.",
+    "details_el": "Οι αλλαγές Τσελίκη και Κουτσούμπα δεν αντιστοιχίζονται σε αγώνες."
+   },
+   {
+    "source": "s-f2f4e9cdf07dc76b",
+    "url": "http://files.ping-pong.gr/FA25-26/ATL-PST.jpg",
+    "fixture": "f-9bb16b6ff70f6597",
+    "sha256": "5cc403afbd99acd9b7bf2733163e4c6022d9603a7101272cedcf34a40fbf79c9",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous-substitution",
+    "details": "Explicit changes include home Λάγαλος and away Κριαράς 1039 with no assigned rows. Λαβούτας 1037 is explicitly assigned row 6.",
+    "details_el": "Οι αλλαγές Λάγαλος και Κριαράς δεν αντιστοιχίζονται σε αγώνες."
+   },
+   {
+    "source": "s-460d43865eaedc78",
+    "url": "http://files.ping-pong.gr/FA25-26/MKB-XLR.jpg",
+    "fixture": "f-4ebf0ae7e74636c1",
+    "sha256": "489f7aadaa643ae2dc74eea9749f04d285b04124a2f5f48aae8a1f1e3b2e0f1f",
+    "reviewed_at": "2026-11-26",
+    "reason": "score-conflict",
+    "details": "Source row 3 Νεγρίν–Μαρνουτσίδης on 14 Oct 2025 explicitly 3–1 with four legal games, but existing workbook result is 3–0.",
+    "details_el": "Η γραμμή 3 δίνει 3–1 ενώ το αρχείο γράφει 3–0."
+   },
+   {
+    "source": "s-e525cf3a9c2cd321",
+    "url": "http://files.ping-pong.gr/FA25-26/OUZ-AP6.jpg",
+    "fixture": "f-33c16081087653f4",
+    "sha256": "33ffbaac11cf3c5ba228880dcfb60d2122872f8a982a6811045726ae5d2270a1",
+    "reviewed_at": "2026-11-26",
+    "reason": "identity-conflict",
+    "details": "Row 6 is corrected to Στρατής 460 versus Κράλλης 3–2, while the workbook attributes that result to Κάτρης 461. Both are distinct home players.",
+    "details_el": "Η γραμμή 6 γράφει Στρατής ενώ το αρχείο αποδίδει τον αγώνα στον Κάτρη."
+   },
+   {
+    "source": "s-a10123448fee484d",
+    "url": "http://files.ping-pong.gr/FA25-26/PAO-MK2.jpg",
+    "fixture": "f-bb8e8e60f937aac2",
+    "sha256": "2e83228155a5c66558bfc79c1db19112b8678bb6b2d096a6ca166e49d29fb0cc",
+    "reviewed_at": "2026-11-26",
+    "reason": "identity-conflict",
+    "details": "Source names Ζακ Ταραμπούλους 2662, while the two corresponding workbook results belong to provisional u-d 8 a 46411 c 4 a 9 cd 18. Identity history requires reconciliation before linking the registered profile; Ηλίας 712 is a separate listed reserve.",
+    "details_el": "Ο Ζακ 2662 έχει προσωρινό προφίλ στο αρχείο. Απαιτείται ταυτοποίηση χωρίς συγχώνευση με τον Ηλία 712."
    }
   ],
   "imported": 939,
-  "corroborated": 7818,
-  "excluded_team_walkovers": 6,
-  "excluded_walkovers": 253,
+  "corroborated": 8348,
+  "excluded_team_walkovers": 7,
+  "excluded_walkovers": 258,
   "reviews": [
    {
     "source": "s-adfb32f236e751d3",
@@ -21070,6 +21260,738 @@
     "corroborated": 6,
     "walkover": 3,
     "notes": "Away Y absent throughout; explicit administrative 3–0 awards excluded from athlete statistics."
+   },
+   {
+    "source": "s-878ab44f99c6e26f",
+    "url": "http://files.ping-pong.gr/FA25-26/MK3-INS.jpg",
+    "fixture": "f-1dd47b697c4fe96b",
+    "date": "2025-11-08",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "Sokorelis source 737 erroneous; surname/team/allthree eventpairings verify 747; wrongregistration omitted."
+   },
+   {
+    "source": "s-aa5db2b3b6bb91f0",
+    "url": "http://files.ping-pong.gr/FA25-26/S7J-SHC.jpg",
+    "fixture": "f-0598d636d25b4a60",
+    "date": "2025-11-12",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "Row 3/8 overwrittenpointcells remain incomplete; explicitrubber totals and progression/book agree, no point-levelscores imported."
+   },
+   {
+    "source": "s-8d8aad9504ba34aa",
+    "url": "http://files.ping-pong.gr/FA25-26/AP4-5ST.jpg",
+    "fixture": "f-66db9b7000e3e4d3",
+    "date": "2025-11-07",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-1893a08f84210b01",
+    "url": "http://files.ping-pong.gr/FA25-26/SLG-ES5.jpg",
+    "fixture": "f-8d1b29598bf08c40",
+    "date": "2025-11-05",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "walkover": 2,
+    "notes": "AwayY absent rows 2/6 excluded. Explicit Choriatellis substitute row 5. Overdrawnpointcells row 1 last/row 3 third not imported; explicit totals and eventbook agree."
+   },
+   {
+    "source": "s-c52683f2d822ac13",
+    "url": "http://files.ping-pong.gr/FA25-26/BBR-ILM.jpg",
+    "fixture": "f-63020cace6296491",
+    "date": "2025-11-04",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Dejan givenname+2625 and both exactsameeventpairs identify existing MilosavljevicDejan. Reserveheading only, no substitutions."
+   },
+   {
+    "source": "s-ce9e443206247e8b",
+    "url": "http://files.ping-pong.gr/FA25-26/NSM-PM18.jpg",
+    "fixture": "f-d968137f4c97b60b",
+    "date": "2025-11-09",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-2ca0ff92104d3333",
+    "url": "http://files.ping-pong.gr/FA25-26/TPG-DIO.jpg",
+    "fixture": "f-d5317f474eb63b02",
+    "date": "2025-11-11",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Explicit Mord­elet substitute row 5."
+   },
+   {
+    "source": "s-b433aee54a564da4",
+    "url": "http://files.ping-pong.gr/FA25-26/A19-PR2.jpg",
+    "fixture": "f-2de889e5ddf1ac74",
+    "date": "2025-10-29",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "Actual 29 October 2025 retained; allfive workbookrubbers agree. ReserveMpalas notused."
+   },
+   {
+    "source": "s-63805abcdaa77049",
+    "url": "http://files.ping-pong.gr/FA25-26/12S-FRB.jpg",
+    "fixture": "f-1b0497178b07cf5a",
+    "date": "2025-11-07",
+    "season": "2025-2026",
+    "corroborated": 9,
+    "notes": "Date explicitly corrected 7 November 2025 above crossedoutdate. Iordanidis source 2659 conflicts 2632; clearname/team/allthree exact sameeventopponents verify 2632. MakosB nicknameVaggelis compatibleofficialEvangelos plus 1376 and threepairings."
+   },
+   {
+    "source": "s-e537e4e8d653ce02",
+    "url": "http://files.ping-pong.gr/FA25-26/BMB-MGF.jpg",
+    "fixture": "f-7c060811d95f8238",
+    "date": "2025-11-14",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "AwayZ clearlycorrectedRigas 2617 beforefirst participation. Explicit Meligkonis substitute row 5. Row 9 namesonly unscored after 5–3 excluded."
+   },
+   {
+    "source": "s-3592f36c2f041d4d",
+    "url": "http://files.ping-pong.gr/FA25-26/EM2-AEH.jpg",
+    "fixture": "f-ef10c0c6fee5ed7b",
+    "date": "2025-11-04",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Explicit Rokas home row 4 and Skatzis awayrow 5 substitutions."
+   },
+   {
+    "source": "s-3611183589a95e19",
+    "url": "http://files.ping-pong.gr/FA25-26/RSP-007.jpg",
+    "fixture": "f-66f527d5523961eb",
+    "date": "2025-11-06",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Source wrongregistrations forParasoglou 2648/Gkouskos 2515/Ioannidis 1321/Kyriakou 2518; clear names/team and allsameeventopponents verifyexistingprofiles. Kargakos 924 clearreserve butwrong 925 playedrow; explicit substitution. Row 5 home total overwritten 0/1; completegames 9–11,11–9,7–11,7–11 establish 1–3 with workbookcorroboration."
+   },
+   {
+    "source": "s-daf238512aa5de70",
+    "url": "http://files.ping-pong.gr/FA25-26/SFM-ABL.jpg",
+    "fixture": "f-efde484c7d71911e",
+    "date": "2025-10-30",
+    "season": "2025-2026",
+    "corroborated": 9,
+    "notes": "Explicit Pagonis replacesDoxiadis rows 6/8 and Papadatos awayrow 9. Bazouras source 1086 erroneous; existing 1089 surname/team/allthree exactsameeventopponents verify. Actual 30 October 2025 retained."
+   },
+   {
+    "source": "s-8d2e30187fdeacb0",
+    "url": "http://files.ping-pong.gr/FA25-26/AN1-DRS.jpg",
+    "fixture": "f-adfef8d682ef0950",
+    "date": "2025-11-01",
+    "season": "2025-2026",
+    "corroborated": 9,
+    "notes": "Man­tzorakis source 2521 vsverified 1521; Lykakis/Zeeris source 2542/2543 vs 2642/2643. Allclear surnames/team/three exactsameeventopponents verify existingprofiles; wrongregistrations omitted. Skordili listedreserveonly notused."
+   },
+   {
+    "source": "s-057906d7bca8bd50",
+    "url": "http://files.ping-pong.gr/FA25-26/PTL-RL2.jpg",
+    "fixture": "f-dfea0f56fda9c6c0",
+    "date": "2025-10-30",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Zonomesis/Loukas handwritten 1467/1468 versus existing 2467/2468; clear names/team and allsameeventpairings verifyexistingprofiles, wrongregistrationomitted. Reservesnotused."
+   },
+   {
+    "source": "s-e1e3b7ab7cac0537",
+    "url": "http://files.ping-pong.gr/FA25-26/DSB-PNR.jpg",
+    "fixture": "f-6faad320c3c6fecd",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-86aeb48fea7a60c2",
+    "url": "http://files.ping-pong.gr/FA25-26/SPD-SG2.jpg",
+    "fixture": "f-bd633b6abe9cb08d",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Explicit Papageorgakopoulos awayZ substitute rows 5/7; existingMitropoulos 1747 variantverified sameeventopponent."
+   },
+   {
+    "source": "s-bec3c56c07823d52",
+    "url": "http://files.ping-pong.gr/FA25-26/ES2-ATD.jpg",
+    "fixture": "f-3830fb04909b3793",
+    "date": "2025-11-08",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-0c4974544839eb46",
+    "url": "http://files.ping-pong.gr/FA25-26/AP10-SUD.jpg",
+    "fixture": "f-43a88f7549ac76e5",
+    "date": "2025-11-08",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "Lowresolution source enlarged; allfive rubbertotals/namepairs and date independently readable and workbookcorroborated. Somepointcells incomplete/illegible notimported. Chatzakos overwrittenregistration andKarageorgos crampednumber omitted; names/exacteventverify."
+   },
+   {
+    "source": "s-6ab6caf7cbeeb707",
+    "url": "http://files.ping-pong.gr/FA25-26/ATK-ECG.jpg",
+    "fixture": "f-6fd41fa16e43b055",
+    "date": "2025-10-31",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Explicit Psaroudakis replacesVeniera row 5. Actual 31 October 2025 retained, allseven exacteventbook."
+   },
+   {
+    "source": "s-d99c85b9356cf97c",
+    "url": "http://files.ping-pong.gr/FA25-26/PM1-PM2.jpg",
+    "fixture": "f-0cd3390a5c8ea221",
+    "date": "2025-10-23",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "Explicit Trendafili substituted row 5, originalVasileiadis crossed. Actual 23 October 2025 retained; allfive workbookpairsverify."
+   },
+   {
+    "source": "s-1ab51fcb7034cf55",
+    "url": "http://files.ping-pong.gr/FA25-26/ELE-PM4.jpg",
+    "fixture": "f-4cb78a251d9d7efb",
+    "date": "2025-10-29",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "Explicit Massiou replacesChytas row 6 and Passias replacesDemitsoglou row 7."
+   },
+   {
+    "source": "s-aa054117f3e9b8ef",
+    "url": "http://files.ping-pong.gr/FA25-26/TTV-ASE.jpg",
+    "fixture": "f-3ceca84adcb9b35f",
+    "date": "2025-10-31",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Adamidis listedreserveonly notused; allseven exactsameeventworkbook."
+   },
+   {
+    "source": "s-240046eadb2f8383",
+    "url": "http://files.ping-pong.gr/FA25-26/NDL-ATK.jpg",
+    "fixture": "f-541fe6bbf2141fa6",
+    "date": "2025-11-04",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "Explicit Efraimidou row 7 and Tsirogiannis row 8 substitutions; Stekoulis crossedoutreservenotused. All 8 sameeventpairsverify."
+   },
+   {
+    "source": "s-647909484caab8e4",
+    "url": "http://files.ping-pong.gr/FA25-26/NAU-P4A.jpg",
+    "fixture": "f-1a998ec245027d2b",
+    "date": "2025-11-05",
+    "season": "2025-2026",
+    "team_walkover": 1,
+    "notes": "AwayPongers 4 All explicitly didnotattend and declared inabilitytoplay; whole-team award 5–0, no individualplayedmatches."
+   },
+   {
+    "source": "s-2e723013b83af5dd",
+    "url": "http://files.ping-pong.gr/FA25-26/KVE-PET.jpg",
+    "fixture": "f-32230a21ff336a3d",
+    "date": "2025-10-30",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "Lowresolution source enlarged foractualdate 30 October 2025, names andrubbertotals. All 8 exactsameeventbook; illegiblepointcells notimported."
+   },
+   {
+    "source": "s-4e95f496967cddef",
+    "url": "http://files.ping-pong.gr/FA25-26/AP5-THD.jpg",
+    "fixture": "f-3a0ec883be48e3b3",
+    "date": "2025-10-31",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "Row 5 corrected 3–2 totals corroborated by completefivegames 3–11,5–11,11–8,11–6,12–10 andbook. Reservesnotused."
+   },
+   {
+    "source": "s-ad1f8208080d789e",
+    "url": "http://files.ping-pong.gr/FA25-26/TBL-SEB.jpg",
+    "fixture": "f-084c0be17bfa2d48",
+    "date": "2025-11-08",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-384071365b08b073",
+    "url": "http://files.ping-pong.gr/FA25-26/OPX-PAM.jpg",
+    "fixture": "f-5dc0e541d90510cf",
+    "date": "2025-11-05",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-271b3ef8e7b05417",
+    "url": "http://files.ping-pong.gr/FA25-26/HRM-MG1.jpg",
+    "fixture": "f-40d09e2da03b34c9",
+    "date": "2025-11-01",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Explicit Berdelis substitute row 6."
+   },
+   {
+    "source": "s-34b4d73d1d503cc4",
+    "url": "http://files.ping-pong.gr/FA25-26/BPG-ATC.jpg",
+    "fixture": "f-bad83e8c72021ac4",
+    "date": "2025-11-10",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "Rapanakis/Deligiorgis inconsistent handwritten 1252/752/1752 and 972; clear names/team/allthree sameeventpairings identify 1752/922, no wrongregistrationimported. Row 7 home total heavilyoverdrawn; complete 2–11,12–10,5–11,9–11 establish 1–3 andbookagrees. ReserveTeille notused."
+   },
+   {
+    "source": "s-0ef5177f77641de7",
+    "url": "http://files.ping-pong.gr/FA25-26/SPD-PPC.jpg",
+    "fixture": "f-385e7f0ed63ee1d4",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "Explicit Perdikis substitutionrow 5. Segkos reserveunused."
+   },
+   {
+    "source": "s-20124da3824d3daf",
+    "url": "http://files.ping-pong.gr/FA25-26/SF3-EM3.jpg",
+    "fixture": "f-7f9d6a0232035a8b",
+    "date": "2025-11-01",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Stergiou wrongsource 1919 vsverified 1917; Tsanava first 1779 corrected 1789 row 6. Names/team/sameeventpairsverify. Row 4 fifthpointcell overdrawn/invalid 18–12, but clear 3–2 total/progression/book agree; no gamepointsimported."
+   },
+   {
+    "source": "s-41c3e78b94b21611",
+    "url": "http://files.ping-pong.gr/FA25-26/AP11-NS2.jpg",
+    "fixture": "f-0506bd06018685a3",
+    "date": "2025-11-05",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Explicit Papadopoulos 1564 replacesNtolaptsis row 6. Lydakis/Patanis unusedreserves."
+   },
+   {
+    "source": "s-54ba87905b492f99",
+    "url": "http://files.ping-pong.gr/FA25-26/T96-FPL.jpg",
+    "fixture": "f-d045a4dbc8079c35",
+    "date": "2025-11-13",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Lebaut GreekphoneticlabelLEMPO with 2695 and exacteventpairingsverify."
+   },
+   {
+    "source": "s-a0a4438178f36a26",
+    "url": "http://files.ping-pong.gr/FA25-26/SFS-WFT.jpg",
+    "fixture": "f-8cb291547323b10e",
+    "date": "2025-10-27",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Row 4 Kokkinidis clearlyrewritten above crossedname;1655 reinforced. Explicit Poltoranin row 7. Row 5 pointcells obliterated/incomplete, explicit 2–3/progression/book agree; no points imported."
+   },
+   {
+    "source": "s-e54706ae59cc54e1",
+    "url": "http://files.ping-pong.gr/FA25-26/FLR-T10.jpg",
+    "fixture": "f-0d1bb28eeee37f84",
+    "date": "2025-10-24",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "Explicit PapaloisV awayrows 4/8 andTsagkaris homerows 6/8. Row 7 overwrittenhome 3 independently corroboratedfivelegalgames andbook."
+   },
+   {
+    "source": "s-28ec687ac50b6e6f",
+    "url": "http://files.ping-pong.gr/FA25-26/SSP-ANX.jpg",
+    "fixture": "f-1a39a4c6e88dcaca",
+    "date": "2025-11-05",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "Explicit Fitsakis row 4 andGiavroglou row 5 substitutions. Giavroglou wrongsource 2245 vs 2295; clearname/team/exactopponentverify, wrongregistrationomitted."
+   },
+   {
+    "source": "s-237eefd875d87b6d",
+    "url": "http://files.ping-pong.gr/FA25-26/ATS-AP3.jpg",
+    "fixture": "f-8eb0a0a6942f8eb8",
+    "date": "2025-11-09",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Explicit AlexopoulosT (Tasos nicknameAnastasios)2436 substitutesTheofanakis row 5; sameeventpairconfirms."
+   },
+   {
+    "source": "s-9a8fd97a0ae0a398",
+    "url": "http://files.ping-pong.gr/FA25-26/NSA-AP7.jpg",
+    "fixture": "f-b8bea2dbc3774629",
+    "date": "2025-10-22",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Source 22 October omitsyear; printed 2025–26 season and allsix workbookrubbers establish 2025. ExplicitVasileiadou awayrow 6."
+   },
+   {
+    "source": "s-df7afe9c050dcd6c",
+    "url": "http://files.ping-pong.gr/FA25-26/RTP-NGP.jpg",
+    "fixture": "f-ef64a685c0db29b9",
+    "date": "2025-11-09",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "Explicit Chatzian­toniou substitutionrow 4; homeVerveridis unusedreserve."
+   },
+   {
+    "source": "s-05c4827748a93331",
+    "url": "http://files.ping-pong.gr/FA25-26/AN4-BRS.jpg",
+    "fixture": "f-600bca7781ab075a",
+    "date": "2025-11-04",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Zarganitis listedreserveonly notused."
+   },
+   {
+    "source": "s-3228080da15b2cff",
+    "url": "http://files.ping-pong.gr/FA25-26/VAG-FNX.jpg",
+    "fixture": "f-dd639e3f48dece0b",
+    "date": "2025-11-04",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "Papadimitriou first 88/later 89 inconsistent; clearname/team/bothsameeventopponents verifyexisting 88. Zafeiropoulos reserveunused."
+   },
+   {
+    "source": "s-216648b47e79f39f",
+    "url": "http://files.ping-pong.gr/FA25-26/TTN-VAP.jpg",
+    "fixture": "f-1ece2e66bc3402ec",
+    "date": "2025-11-09",
+    "season": "2025-2026",
+    "corroborated": 9,
+    "notes": "Explicit Papai­oannou replacesTatani rows 5/9 and Sideri replacesAggeloudis row 8. Row 2 corrected 3–0 corroboratedthreegames; teamcells perrubber notcumulative."
+   },
+   {
+    "source": "s-0c572cd08df2e318",
+    "url": "http://files.ping-pong.gr/FA25-26/RCL-F91.jpg",
+    "fixture": "f-58d5dfebf8f49a36",
+    "date": "2025-11-05",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "Explicit Damalas replacesDimakopoulos row 5; year 2025 additionallywritten aboveheader. Kolliopoulos 1573 correctedabove initialnumber."
+   },
+   {
+    "source": "s-98ebc14310ccae6a",
+    "url": "http://files.ping-pong.gr/FA25-26/ATR-ERM.jpg",
+    "fixture": "f-ed6b25db4d3076c9",
+    "date": "2025-11-09",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Kaipi source 788 missinginitial 1, Dimitrakopoulos source 2358 vs 2308; names/team/alltwo sameeventpairings verifyexistingprofiles. ReservesKotsis/Kalatzis unused."
+   },
+   {
+    "source": "s-a831b549208cfcc2",
+    "url": "http://files.ping-pong.gr/FA25-26/GTL-SPT.jpg",
+    "fixture": "f-415818dcc6a4383c",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-dea68c33ca843084",
+    "url": "http://files.ping-pong.gr/FA25-26/ADK-APK.jpg",
+    "fixture": "f-bd2bb7682ccc5b54",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 9,
+    "notes": "Explicit Kekeris replacesMavridis row 9. Teamprogression errors rows 3/4 but clearindividualrubbers and final 5–4 agree with allnine workbookrubbers."
+   },
+   {
+    "source": "s-c7d765170d6ea49c",
+    "url": "http://files.ping-pong.gr/FA25-26/VOL-FNF.jpg",
+    "fixture": "f-a21a11173a371eb9",
+    "date": "2026-05-10",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "Actual 10 May 2026 retained despitequeueplacement; allfive exactsameeventworkbook. Row 1 correctedaway 1 corroboratedfourgames andbook."
+   },
+   {
+    "source": "s-48292f60133eaaaf",
+    "url": "http://files.ping-pong.gr/FA25-26/AEK-KVK.jpg",
+    "fixture": "f-039c2f3175d546f9",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "Corrected row 5 explicitly substitutes Μπατζόγλου 603. All five dated pairs/results match the workbook; the unused next row is crossed out."
+   },
+   {
+    "source": "s-3c3dd2d9c5ac39d7",
+    "url": "http://files.ping-pong.gr/FA25-26/ADK-KVK.jpg",
+    "fixture": "f-2520185fb0b868b1",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "The explicit substitution note and row 5 identify Μαυρίδης replacing Καρσλιάδης. All eight dated names/teams/pairs and scores match the workbook."
+   },
+   {
+    "source": "s-19b6d392129da959",
+    "url": "http://files.ping-pong.gr/FA25-26/MXX-ANT.jpg",
+    "fixture": "f-330993e0978d0490",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "All six explicit rubber totals, date and team progression match the workbook. Some row 2/3 point cells are overwritten or malformed; only the independently corroborated rubber totals are retained, without reconstructing points."
+   },
+   {
+    "source": "s-85b484b2986b3deb",
+    "url": "http://files.ping-pong.gr/FA25-26/ANA-ANT.jpg",
+    "fixture": "f-dedf5269bd2d492c",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "All eight dated pairs/results and team progression match the workbook."
+   },
+   {
+    "source": "s-11fa8c4a9bec6d81",
+    "url": "http://files.ping-pong.gr/FA25-26/MXX-ANA.jpg",
+    "fixture": "f-4ae4c6983d2dc966",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "All six dated pairs/results and team progression match the workbook."
+   },
+   {
+    "source": "s-797c2fa0c54ad75e",
+    "url": "http://files.ping-pong.gr/FA25-26/UDG-ALX.jpg",
+    "fixture": "f-51587f5df074e6cb",
+    "date": "2025-11-09",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "All five exact dated names/teams/pairs and scores match the workbook. No registrations are supplied."
+   },
+   {
+    "source": "s-12a0650e0ee997e6",
+    "url": "http://files.ping-pong.gr/FA25-26/ATA-ASA.jpg",
+    "fixture": "f-0af5c10fd00c63a0",
+    "date": "2025-11-09",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "All six dated pairs/results and 5–1 progression match the workbook."
+   },
+   {
+    "source": "s-e9169740feaec08a",
+    "url": "http://files.ping-pong.gr/FA25-26/UND-ASE.jpg",
+    "fixture": "f-9a8f64f73ad7f9d6",
+    "date": "2025-11-09",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "All five dated pairs/results agree with the workbook. Ακούδης has handwritten 134 rather than 184; exact surname/team and two corresponding results establish existing 184 without asserting the different number."
+   },
+   {
+    "source": "s-4c733c2d84e65173",
+    "url": "http://files.ping-pong.gr/FA25-26/ATA-ALX.jpg",
+    "fixture": "f-478f5941454a2f4f",
+    "date": "2025-11-09",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "All five dated pairs/results and 5–0 progression match the workbook. Ζυμταρούδης is identified by exact surname/team and both results; the handwritten registration is indistinct, so not asserted."
+   },
+   {
+    "source": "s-0fb47d3c50ec1a63",
+    "url": "http://files.ping-pong.gr/FA25-26/SDB-KLK.jpg",
+    "fixture": "f-43fee2674361cc9a",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "All five exact dated names/teams/pairs and scores match the workbook. Away registrations are not provided."
+   },
+   {
+    "source": "s-11a9d7b03682b659",
+    "url": "http://files.ping-pong.gr/FA25-26/SPD-SDB.jpg",
+    "fixture": "f-878b154cfee7db55",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Row 6 explicitly substitutes Αλεξανδράκης. All six exact dated names/teams/pairs and scores match the workbook; the other listed home reserve is unused."
+   },
+   {
+    "source": "s-16b6bf44ba09ff48",
+    "url": "http://files.ping-pong.gr/FA25-26/SPD-KLK.jpg",
+    "fixture": "f-364509bb40148df4",
+    "date": "2025-11-02",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "The note and row 5 explicitly substitute Αβδελιάδης 2672 for Αλεξανδράκης. All six dated pairs/results match the workbook."
+   },
+   {
+    "source": "s-ba0b707bccfad54a",
+    "url": "http://files.ping-pong.gr/FA25-26/VTT-PFL.jpg",
+    "fixture": "f-21e116b82540c1d1",
+    "date": "2025-10-30",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "All six dated pairs/results and 5–1 progression agree with the workbook."
+   },
+   {
+    "source": "s-033dcfa32f680309",
+    "url": "http://files.ping-pong.gr/FA25-26/ADF-ATH.jpg",
+    "fixture": "f-f427d7d7e33762d3",
+    "date": "2025-10-29",
+    "season": "2025-2026",
+    "corroborated": 9,
+    "notes": "All nine dated pairs/results match the workbook. Row 8 corrected 3–0 is supported by three clear home-winning games and the team progression."
+   },
+   {
+    "source": "s-eb8ed5f4aa7d11ac",
+    "url": "http://files.ping-pong.gr/FA25-26/ANT-P4F.jpg",
+    "fixture": "f-014f6cc2b18b2bcf",
+    "date": "2025-10-22",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Row 4 and the change note explicitly substitute Μπαρτσακούλιας. All seven dated pairs/results match the workbook. Registration 2213 identifies the existing disambiguated Αχιλλέας Γιαταγαντζίδης profile."
+   },
+   {
+    "source": "s-30355821f929cbf8",
+    "url": "http://files.ping-pong.gr/FA25-26/RDL-PNT.jpg",
+    "fixture": "f-b9286424b461d574",
+    "date": "2025-10-29",
+    "season": "2025-2026",
+    "walkover": 2,
+    "corroborated": 4,
+    "notes": "Home A is absent with crossed games in rows 1/5; administrative 0–3 rubbers are excluded from athlete statistics. The four actually played dated pairs/results match the workbook. Γιαλούρης is listed as an unused away reserve."
+   },
+   {
+    "source": "s-001603f50f21cf06",
+    "url": "http://files.ping-pong.gr/FA25-26/AKT-DIO.jpg",
+    "fixture": "f-abe4e3791f864bf3",
+    "date": "2025-10-17",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "Row 4 explicitly substitutes Κωστόπουλος 1088. Five dated pairs/results match the workbook."
+   },
+   {
+    "source": "s-ebe175226c7ffab0",
+    "url": "http://files.ping-pong.gr/FA25-26/AMF-ANK.jpg",
+    "fixture": "f-0b0d59e32a517288",
+    "date": "2025-10-21",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "All six dated pairs/results match the workbook and 5–1 progression."
+   },
+   {
+    "source": "s-e3582f5644586129",
+    "url": "http://files.ping-pong.gr/FA25-26/ELF-V3V.jpg",
+    "fixture": "f-9f2f012f3303ed8c",
+    "date": "2025-10-17",
+    "season": "2025-2026",
+    "corroborated": 9,
+    "notes": "All nine dated pairs/results match the workbook and 5–4 progression."
+   },
+   {
+    "source": "s-20eae116dad53ddf",
+    "url": "http://files.ping-pong.gr/FA25-26/EM1-KAR.jpg",
+    "fixture": "f-c2b9af12b70a831c",
+    "date": "2025-10-22",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Six dated pairs/results match the workbook. Additional names in the notes are unused reserves without a substitution instruction."
+   },
+   {
+    "source": "s-5b6c261feced936e",
+    "url": "http://files.ping-pong.gr/FA25-26/PFL-TZM.jpg",
+    "fixture": "f-c8af0d7174112724",
+    "date": "2025-10-19",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Row 4 explicitly substitutes Καραβασίλης 1687. Six exact dated names/teams/pairs and scores match the workbook. Ψάρρος is identified by surname and both results; its handwritten number is not asserted."
+   },
+   {
+    "source": "s-2ca31bfd16c370aa",
+    "url": "http://files.ping-pong.gr/FA25-26/OFN-S7T.jpg",
+    "fixture": "f-155594a86adc5106",
+    "date": "2025-10-27",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Rows 6/7 explicitly identify both away substitutes. All seven dated pairs/results match the workbook."
+   },
+   {
+    "source": "s-e47f33e14776eb3e",
+    "url": "http://files.ping-pong.gr/FA25-26/LEO-SPR.jpg",
+    "fixture": "f-01747e79a156fe6e",
+    "date": "2025-10-27",
+    "season": "2025-2026",
+    "corroborated": 4,
+    "walkover": 1,
+    "notes": "Away Y is absent; row 2 administrative 3–0 has no games and is excluded from athlete statistics. Four played results match the workbook. Ζμπι is the sheet nickname for registered 309."
+   },
+   {
+    "source": "s-26ce0fae2ad1ecd3",
+    "url": "http://files.ping-pong.gr/FA25-26/SWD-ATT.jpg",
+    "fixture": "f-e44418dfec42fd7c",
+    "date": "2025-10-13",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Rows 5/7 explicitly substitute Φάκαρος 449. All seven dated results match the workbook."
+   },
+   {
+    "source": "s-c827304992172085",
+    "url": "http://files.ping-pong.gr/FA25-26/ATN-ASV.jpg",
+    "fixture": "f-7bd1216b2bae3b25",
+    "date": "2025-10-21",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "Row 6 explicitly substitutes Πετράκη 35. Eight dated results match the workbook; row 5 overwritten 3–2 is supported by five complete legal games and workbook. Αντωνίου is an unused reserve."
+   },
+   {
+    "source": "s-ba71d574b26a7067",
+    "url": "http://files.ping-pong.gr/FA25-26/TDT-KRG.jpg",
+    "fixture": "f-4da324c5bcf1c493",
+    "date": "2025-10-30",
+    "season": "2025-2026",
+    "corroborated": 9,
+    "notes": "Rows 7/9 explicitly identify the substitutes. All nine dated names/teams/pairs/results match the workbook. Τζώρτζης has a different handwritten registration 1867, not asserted; exact surname/team and corresponding result identify 1873."
+   },
+   {
+    "source": "s-937137eb191a77dc",
+    "url": "http://files.ping-pong.gr/FA25-26/AIG-RSN.jpg",
+    "fixture": "f-70ec6cab28e7927b",
+    "date": "2025-10-15",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Six dated pairs/results match the workbook. The two listed reserves are unused."
+   },
+   {
+    "source": "s-b549103e6c008ffc",
+    "url": "http://files.ping-pong.gr/FA25-26/TPZ-RD2.jpg",
+    "fixture": "f-1a851adc28cfea65",
+    "date": "2025-10-19",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "Rows 5/8 explicitly substitute Λευκόπουλος and Δερεδάκης. Eight dated pairs/results match the workbook."
+   },
+   {
+    "source": "s-409939540ae82d19",
+    "url": "http://files.ping-pong.gr/FA25-26/AP2-PRD.jpg",
+    "fixture": "f-4e0d6dd70bec2115",
+    "date": "2025-10-19",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Six dated pairs/results match the workbook. Τζήκας is identified by exact surname/team/results; its handwritten number is indistinct and not asserted."
+   },
+   {
+    "source": "s-d22bf98373cf3873",
+    "url": "http://files.ping-pong.gr/FA25-26/VAV-ESP.jpg",
+    "fixture": "f-29001d7a8b9c2c2a",
+    "date": "2025-10-21",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Six dated pairs/results match the workbook."
+   },
+   {
+    "source": "s-bf1c15be4b3a4ff6",
+    "url": "http://files.ping-pong.gr/FA25-26/PPA-SUP.jpg",
+    "fixture": "f-b61524acd5a7b361",
+    "date": "2025-10-18",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Seven dated pairs/results match the workbook and 5–2 progression."
+   },
+   {
+    "source": "s-f877176df8608cd2",
+    "url": "http://files.ping-pong.gr/FA25-26/AP8-ASE.jpg",
+    "fixture": "f-6d204f61fd5d4365",
+    "date": "2025-10-21",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": "Rows 4/7 explicitly substitute Περιτογιάννης 2586. Eight dated results match the workbook; Παπαθεοδώρου is an unused reserve."
    }
   ]
  }
