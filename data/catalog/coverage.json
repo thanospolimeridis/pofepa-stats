@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 406,
-  "imported_sheets": 333,
-  "held": 73,
-  "pending": 13105,
+  "reviewed": 426,
+  "imported_sheets": 348,
+  "held": 78,
+  "pending": 13085,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6312,11 +6312,61 @@
     "reason": "conflicting_participant",
     "details": "The SIX ΜΠΑΚ–ATTACK-t 5-3 fixture links BWK-ATTpo.jpg, which is the 14 May BLADE WALKERS–ΑΝΕΞΑΡΤΗΤΟΙ ΤΑΤΑΥΛΑ 5-4 sheet. Different teams and score; cannot attribute its rows to the linked fixture.",
     "details_el": "Ο σύνδεσμος SIX ΜΠΑΚ–ATTACK-t 5–3 ανοίγει φύλλο BLADE WALKERS–ΑΝΕΞΑΡΤΗΤΟΙ ΤΑΤΑΥΛΑ 5–4 της 14ης Μαΐου. Απαιτείται ο σωστός σύνδεσμος."
+   },
+   {
+    "source": "s-d9b520924bd1df6f",
+    "url": "http://files.ping-pong.gr/FA25-26/KVK-KLKpo.jpg",
+    "fixture": "f-63cdda1190f44ffc",
+    "sha256": "c033eaf6199289c7dcf4e9835230065bcdb57394b1fcd5b1589759e719bc1ee0",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "The 10 May sheet row 7 ΤΣΑΛΑΜΑΝΗΣ–ΠΑΡΑΣΧΟΥ appears to show 3-3 in the score columns, but its four games, running totals and workbook support 1-3. Held for clarification of the invalid written score.",
+    "details_el": "Στο έβδομο αποτέλεσμα ΤΣΑΛΑΜΑΝΗΣ–ΠΑΡΑΣΧΟΥ της 10ης Μαΐου αναγράφεται 3–3, ενώ τα σετ, το συνολικό σκορ και το βιβλίο υποστηρίζουν 1–3. Απαιτείται διευκρίνιση."
+   },
+   {
+    "source": "s-558b69f708c3d27e",
+    "url": "http://files.ping-pong.gr/FA25-26/RBL-PVVpo.jpg",
+    "fixture": "f-981e8feb08699a7e",
+    "sha256": "9168b61b13c3535cc82a6a4c64710bd8e92914662985806c1e0fe77b87f85b0b",
+    "reviewed_at": "2026-11-26",
+    "reason": "incomplete_date",
+    "details": "The RED BLADES–PONG VIVEURS sheet gives 13/05 without a year. Its four played results correspond to 13 May 2026 in the workbook; the sheet also has two absent roster positions. Held until the year is confirmed; no individual walkover results are added.",
+    "details_el": "Το φύλλο RED BLADES–PONG VIVEURS αναφέρει 13/05 χωρίς έτος. Οι τέσσερις παιγμένοι αγώνες αντιστοιχούν στις 13 Μαΐου 2026 στο βιβλίο. Απαιτείται επιβεβαίωση έτους."
+   },
+   {
+    "source": "s-5fc61b8d456567a7",
+    "url": "http://files.ping-pong.gr/FA25-26/PLG-RBLpo.jpg",
+    "fixture": "f-ff73ed0b69213bba",
+    "sha256": "2cb5b3f2b43924cc12bccd9e8277bb8c81c3a9f493a847e3858d14010afffcfe",
+    "reviewed_at": "2026-11-26",
+    "reason": "unplayed_team_fixture",
+    "details": "The 12 May 2026 POLYGYROS TT–RED BLADES sheet explicitly says RED BLADES did not attend. It records only a team 5-0, with all individual scores blank and no away roster. Retained outside the individual-match import; no singles or per-rubber scores can be transcribed. The team result already exists.",
+    "details_el": "Το φύλλο της 12ης Μαΐου 2026 αναφέρει ότι οι RED BLADES δεν προσήλθαν. Υπάρχει μόνο ομαδικό 5–0, χωρίς ατομικά σκορ ή αντίπαλους αθλητές. Το ομαδικό αποτέλεσμα διατηρείται, χωρίς προσθήκη ατομικών αγώνων."
+   },
+   {
+    "source": "s-142cc57e1edf161f",
+    "url": "http://files.ping-pong.gr/FA25-26/THB-OMUpo.jpg",
+    "fixture": "f-46c3ce4b2a25f700",
+    "sha256": "bac18caaff7ebd7936f71ddc5afe29ae9c54648b84bb8fe195d4e81b8438d80b",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "THERMI BLOCKERS–OLDMAN UNITED is dated 15/5/25 on the sheet, whereas the 2025–26 source page and all nine corresponding workbook results refer to 15 May 2026. Held to avoid cross-year duplicates or silently correcting the handwritten year.",
+    "details_el": "Το φύλλο THERMI BLOCKERS–OLDMAN UNITED αναγράφει 15/5/25, ενώ η σελίδα περιόδου και οι εννέα αντίστοιχοι αγώνες του βιβλίου αναφέρουν 15 Μαΐου 2026. Απαιτείται διευκρίνιση έτους."
+   },
+   {
+    "source": "s-de80e3bccf75a646",
+    "url": "http://files.ping-pong.gr/FA25-26/LMN-FLEpo.jpg",
+    "fixture": "f-95e9f3c6037adafa",
+    "sha256": "565ba04361e1756d3a9eb8895a134555f7e802379f11acbd11d261e287c43000",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "The 5 May 2026 LAST MINUTE–ΦΙΛΙΠΠΟΣ sheet row 7 ΑΝΔΡΕΑΔΗΣ–ΚΟΥΤΡΙΟΣ is written 3-2, matching the workbook, but only four games are recorded (11-9, 11-6, 9-11, 11-6), which give 3-1. Held pending clarification.",
+    "details_el": "Στο έβδομο αποτέλεσμα ΑΝΔΡΕΑΔΗΣ–ΚΟΥΤΡΙΟΣ της 5ης Μαΐου 2026 αναγράφεται 3–2, αλλά τα τέσσερα καταγεγραμμένα σετ δίνουν 3–1. Απαιτείται διευκρίνιση."
    }
   ],
   "imported": 907,
-  "corroborated": 1292,
-  "excluded_walkovers": 27,
+  "corroborated": 1383,
+  "excluded_walkovers": 35,
   "reviews": [
    {
     "source": "s-adfb32f236e751d3",
@@ -9332,6 +9382,145 @@
     "walkover": 2,
     "corroborated": 5,
     "notes": "Home A slot is explicitly absent; rows 1 and 5 advance the away team total without games. These walkovers are excluded from athlete records."
+   },
+   {
+    "source": "s-4419e6c2b8dd52da",
+    "url": "http://files.ping-pong.gr/FA25-26/PLG-S40po.jpg",
+    "fixture": "f-8ffe4e13d6c695a2",
+    "date": "2026-05-21",
+    "season": "2025-2026",
+    "corroborated": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-4ea167f3b255ab24",
+    "url": "http://files.ping-pong.gr/FA25-26/25o-AEEpo.jpg",
+    "fixture": "f-a8ecba7cd288dbd1",
+    "date": "2026-05-20",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-10a1a0f8e1e68a72",
+    "url": "http://files.ping-pong.gr/FA25-26/ATR-F91po.jpg",
+    "fixture": "f-2b12948eb154feb5",
+    "date": "2026-05-17",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-ebcb92a6b41d53b1",
+    "url": "http://files.ping-pong.gr/FA25-26/SPG-PM3po.jpg",
+    "fixture": "f-e2afb2ae6fa32709",
+    "date": "2026-05-16",
+    "season": "2025-2026",
+    "walkover": 2,
+    "corroborated": 6,
+    "notes": "Home A is crossed out and both associated rows are 0-3 without games; excluded as walkovers."
+   },
+   {
+    "source": "s-115713068db12c2f",
+    "url": "http://files.ping-pong.gr/FA25-26/ASA-KVKpo.jpg",
+    "fixture": "f-8e5f736e052deab3",
+    "date": "2026-05-10",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-87b8b8c7e5d45f79",
+    "url": "http://files.ping-pong.gr/FA25-26/KLK-SDBpo.jpg",
+    "fixture": "f-d2bf69002030ec75",
+    "date": "2026-05-10",
+    "season": "2025-2026",
+    "corroborated": 4,
+    "walkover": 2,
+    "notes": "Away Z is absent; rows 3 and 5 advance home total with no games and are excluded from athlete statistics."
+   },
+   {
+    "source": "s-39d922ca7379c0d2",
+    "url": "http://files.ping-pong.gr/FA25-26/UND-AEKpo.jpg",
+    "fixture": "f-f538b363a1dd659f",
+    "date": "2026-05-10",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Row 5 explicitly substitutes ΒΛΑΣΑΚΟΥΔΗΣ for ΔΑΛΑΤΣΗΣ."
+   },
+   {
+    "source": "s-5aa8230a5ed0afc5",
+    "url": "http://files.ping-pong.gr/FA25-26/SPD-APKpo.jpg",
+    "fixture": "f-1fc25c8d43807aa4",
+    "date": "2026-05-10",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Written substitution: ΣΟΦΙΑΝΟΣ replaces ΜΑΡΚΟΠΟΥΛΟΣ in row 6. Final 2-5 is shown by the running totals."
+   },
+   {
+    "source": "s-3e61d21c779807e6",
+    "url": "http://files.ping-pong.gr/FA25-26/APK-UNDpo.jpg",
+    "fixture": "f-02bbb9146f7e10cb",
+    "date": "2026-05-10",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "Official 2-5 ends at row 7. Row 8 has two games but no completed score or team total and is excluded."
+   },
+   {
+    "source": "s-1ae130c1dbb72b02",
+    "url": "http://files.ping-pong.gr/FA25-26/AEK-SPDpo.jpg",
+    "fixture": "f-15c1d636af3bebe7",
+    "date": "2026-05-10",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-e69541f053069416",
+    "url": "http://files.ping-pong.gr/FA25-26/KLS-THEpo.jpg",
+    "fixture": "f-6e6cc9596dd1499c",
+    "date": "2026-05-10",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "walkover": 2,
+    "notes": ""
+   },
+   {
+    "source": "s-705d00199d596562",
+    "url": "http://files.ping-pong.gr/FA25-26/PM3-KLSpo.jpg",
+    "fixture": "f-1cdad54a0b271d33",
+    "date": "2026-05-07",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "ΕΡΜΕΙΔΗΣ explicitly replaces ΔΗΜΗΤΡΙΑΔΗΣ in row 5."
+   },
+   {
+    "source": "s-db3e51a30194b77d",
+    "url": "http://files.ping-pong.gr/FA25-26/THE-SPGpo.jpg",
+    "fixture": "f-91dc9d67358acc32",
+    "date": "2026-05-03",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "walkover": 2,
+    "notes": ""
+   },
+   {
+    "source": "s-d49bc3354e978ac0",
+    "url": "http://files.ping-pong.gr/FA25-26/VAG-ERApo.jpg",
+    "fixture": "f-2435921038268d8f",
+    "date": "2026-04-30",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "ΘΕΟΔΩΡΟΥ ΔΙΟΝΥΣΙΟΣ is listed as substitute and replaces ΖΗΚΟΣ Κ. in row 7."
+   },
+   {
+    "source": "s-29f7c1b250ebbc72",
+    "url": "http://files.ping-pong.gr/FA25-26/S40-PVVpo.jpg",
+    "fixture": "f-955c258342607e83",
+    "date": "2026-04-19",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": ""
    }
   ]
  }
