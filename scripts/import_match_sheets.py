@@ -10,10 +10,12 @@ from pathlib import Path
 from collect import Cache, key, uid, parse_fixture_tables
 from dataset import load, save
 from validate import validate
+from reconcile_match_sheets import reconcile
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / 'data/match-sheet-reviews.json'
 ISSUES = ROOT / 'data/match-sheet-issues.json'
+UNAVAILABLE = ROOT / 'data/match-sheet-unavailable.json'
 
 
 def discover(data, cache):
@@ -40,12 +42,42 @@ def discover(data, cache):
     return data
 
 
-def import_reviews(data, cache, reviews=None, issues=None):
+def same_day_identity(review, fixture, roster, person, player, proof, by_pair):
+    """Permit evidence attachment to an existing provisional's first-day results.
+
+    Every played row must already exist exactly once, with the same date,
+    opponents, score and oriented clubs. This path cannot introduce singles.
+    """
+    if not proof or proof['date'] != review['date'] or not player.get('provisional') or player.get('club') not in fixture['clubs']:
+        return False
+    matched_ids = set()
+    for row in review['rows']:
+        if row.get('status', 'played') != 'played':
+            continue
+        ids = [roster[k].get('id') for k in row['players']]
+        if None in ids:
+            return False
+        candidates = by_pair.get((review['date'], tuple(sorted(ids))), [])
+        if len(candidates) != 1:
+            return False
+        match = candidates[0]
+        forward = match['p1'] == ids[0]
+        if match['score'] != (row['score'] if forward else row['score'][::-1]) or match['clubs'] != (fixture['clubs'] if forward else fixture['clubs'][::-1]):
+            return False
+        if player['id'] in ids:
+            matched_ids.add(match['id'])
+    return proof['id'] in matched_ids
+
+
+def import_reviews(data, cache, reviews=None, issues=None, unavailable=None):
+    if unavailable is None:
+        unavailable = json.loads(UNAVAILABLE.read_text()) if reviews is None and UNAVAILABLE.exists() else {}
     if issues is None:
         issues = json.loads(ISSUES.read_text()) if reviews is None and ISSUES.exists() else {}
     reviews = reviews if reviews is not None else json.loads(MANIFEST.read_text())
     if set(reviews) & set(issues):
         raise ValueError('A match sheet cannot be both imported and held for review')
+    reconcile(data, cache, reviews)
     fixtures = {f['id']: f for f in data['fixtures']}
     players = {p['id']: p for p in data['players']}
     sources = {s['id']: s for s in data['sources']}
@@ -102,7 +134,9 @@ def import_reviews(data, cache, reviews=None, issues=None):
             available = [(period, source) for period, source in ranking_proofs[p['id']] if period <= review['date'][:7]]
             if not available:
                 prior = matches_by_id.get(person.get('identity_match'))
-                if not prior or p['id'] not in (prior['p1'],prior['p2']) or prior['date'] >= review['date'] or p.get('club') not in f['clubs']:
+                earlier = prior and p['id'] in (prior['p1'], prior['p2']) and prior['date'] < review['date'] and p.get('club') in f['clubs']
+                corroboration_only = person.get('identity_basis') == 'same_day_workbook' and same_day_identity(review, f, roster, person, p, prior, by_pair)
+                if not earlier and not corroboration_only:
                     raise ValueError(f'No contemporary ranking or prior-result identity: {url}')
                 identity_sources[p['id']] = sorted({e['source'] for e in prior['evidence']})
             else:
@@ -185,9 +219,29 @@ def import_reviews(data, cache, reviews=None, issues=None):
              match_date_min=min(m['date'] for m in data['matches']), match_date_max=max(m['date'] for m in data['matches']),
              identity_methods=dict(Counter(v for m in data['matches'] for v in m['identity'])))
     linked = {f['sheet_url'] for f in data['fixtures'] if f.get('sheet_url')}
+    unavailable_records = []
+    for url, item in unavailable.items():
+        if url not in linked or fixtures[item['fixture']]['sheet_url'] != url or url in reviews or url in issues or item.get('http_status') not in (404, 410) or not item.get('reason'):
+            raise ValueError(f'Invalid unavailable sheet record: {url}')
+        if date.fromisoformat(item['checked_at']) > date.fromisoformat(c['as_of']):
+            raise ValueError(f'Future unavailable sheet check: {url}')
+        unavailable_records.append({'url': url, **item})
+    season_links = defaultdict(set)
+    for fixture in data['fixtures']:
+        if fixture.get('sheet_url'):
+            season_links[events[fixture['event']]['season']].add(fixture['sheet_url'])
+    season_coverage = {}
+    for season, urls in sorted(season_links.items(), reverse=True):
+        accepted = len(urls & set(reviews))
+        held_count = len(urls & set(issues))
+        season_coverage[season] = {'linked': len(urls), 'reviewed': accepted + held_count,
+            'accepted': accepted, 'held': held_count, 'unavailable': len(urls & set(unavailable)),
+            'pending': len(urls - set(reviews) - set(issues) - set(unavailable))}
     c['match_sheets'] = {'linked': len(linked), 'reviewed': len(report) + len(held),
                          'imported_sheets': len(report), 'held': len(held),
-                         'pending': len(linked - set(reviews) - set(issues)), 'issues': held,
+                         'pending': len(linked - set(reviews) - set(issues) - set(unavailable)), 'issues': held,
+                         'unavailable': len(unavailable_records), 'unavailable_sources': unavailable_records,
+                         'seasons': season_coverage,
                          'imported': sum(r.get('imported', 0) for r in report),
                          'corroborated': sum(r.get('corroborated', 0) for r in report),
                          'excluded_team_walkovers': sum(r.get('team_walkover', 0) for r in report),

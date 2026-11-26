@@ -1,0 +1,9 @@
+{
+  "http://files.ping-pong.gr/FA25-26/PM18-AEH.jpg": {
+    "fixture": "f-988ae648d63e161d",
+    "checked_at": "2026-11-26",
+    "http_status": 404,
+    "reason": "The linked source returns HTTP404; likely filename variants also return404. No individual results inferred.",
+    "reason_el": "Το συνδεδεμένο φύλλο επιστρέφει HTTP404. Δεν συνάγονται ατομικά αποτελέσματα."
+  }
+}
