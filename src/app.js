@@ -30,8 +30,8 @@ window.pofepaReady = (async () => {
   const competitionRegionName=id=>{const region=competitionRegions.find(r=>r.id===id);return region?L(region.el,region.en):'';};
   const typeName=t=>t==='BET'?L('Βετεράνοι','Veterans'):t==='ANE'?L('Ανεξάρτητοι','Independent'):t==='WOMEN'?L('Γυναίκες','Women'):L('Γενικός πίνακας','Overall ranking');
   const listName=s=>/^BET |^ANE /.test(s)?typeName(s.split(' ')[0])+' · '+s.slice(4):s==='ΓΥΝΑΙΚΩΝ'?L('Γυναίκες · όλες οι ηλικίες','Women · all ages'):s==='ΓΕΝΙΚΟΣ'?L('Γενικός πίνακας','Overall ranking'):s;
-  const navItems=[['home','Αρχική','Overview'],['matches','Αγώνες','Matches'],['players','Αθλητές','Players'],['rankings','Κατατάξεις','Rankings'],['teams','Ομάδες','Teams'],['events','Διοργανώσεις','Events'],['h2h','Σύγκριση','Head to head']];
-  function route(){const [path,query='']=(location.hash.slice(1)||'home').split('?');const [name,rawId]=path.split('/');const params=new URLSearchParams(query),redirect=id=>db.player_redirects?.[id]||id;const id=name==='player'?redirect(rawId):rawId;for(const k of ['p1','p2'])if(params.has(k))params.set(k,redirect(params.get(k)));return {name,id,params};}
+  const navItems=[['home','Αρχική','Overview'],['matches','Αγώνες','Matches'],['players','Αθλητές','Players'],['rankings','Κατατάξεις','Rankings'],['events','Διοργανώσεις','Events'],['h2h','Σύγκριση','Head to head']];
+  function route(){const [path,query='']=(location.hash.slice(1)||'home').split('?');const [requestedName,rawId]=path.split('/');const name=requestedName==='teams'?'events':requestedName;const params=new URLSearchParams(query),redirect=id=>db.player_redirects?.[id]||id;const id=name==='player'?redirect(rawId):rawId;for(const k of ['p1','p2'])if(params.has(k))params.set(k,redirect(params.get(k)));return {name,id,params};}
   let current=route();
   const param=(name,fallback='')=>current.params.get(name)||fallback;
   const href=(path,params={})=>'#'+path+(Object.keys(params).length?'?'+new URLSearchParams(params):'');
@@ -143,11 +143,8 @@ window.pofepaReady = (async () => {
   function eventDetail(id){const e=events.get(id);if(!e)return notFound();const rows=(e.kind==='singles'?db.matches:db.fixtures).filter(m=>m.event===id);
     return breadcrumb(L('Διοργανώσεις','Competitions'),'events')+pageHead(e.name,e.season+(e.competition_region&&e.competition_region!=='unspecified'?' · '+competitionRegionName(e.competition_region):''),sourceLink(e.sources[0]))+scopeNote()+(e.kind==='fixtures'?`<div class="notice">${L('Οι ημερομηνίες ορισμού δεν είναι επιβεβαιωμένες ημερομηνίες αγώνα. Δεν συμπεραίνουμε ατομικά αποτελέσματα από το ομαδικό σκορ.','Listed deadlines are not confirmed match dates. Singles results are not inferred from team scores.')}</div>`:'')+paged(rows,r=>e.kind==='singles'?matchTable(r):fixtureTable(r));
   }
-  function teamList(){const rows=db.clubs.filter(c=>search(c.name,param('q'))).sort((a,b)=>a.name.localeCompare(b.name,'el'));
-    return pageHead(L('Ομάδες','Teams'),L('Ονομασίες όπως καταγράφονται στις πηγές. Παραλλαγές ονομάτων δεν συγχωνεύονται αυτόματα.','Names as recorded by the sources. Spelling variants are not automatically merged.'))+`<div class="toolbar">${field('q',L('Αναζήτηση ομάδας','Search teams'),param('q'))}</div>`+paged(rows,rs=>table([L('Ομάδα','Team'),L('Αθλητές τελευταίου πίνακα','Players in latest ranking'),L('Συναντήσεις στο αρχείο','Archived fixtures')],rs.map(c=>`<tr><td>${cLink(c.id)}</td><td class="number">${num(latestGeneral.rows.filter(r=>r[3]===c.id).length)}</td><td class="number">${num(db.fixtures.filter(f=>f.clubs.includes(c.id)).length)}</td></tr>`).join('')));
-  }
   function teamDetail(id){const c=clubs.get(id);if(!c)return notFound();const roster=latestGeneral.rows.filter(r=>r[3]===id),fixtures=db.fixtures.filter(f=>f.clubs.includes(id));
-    return breadcrumb(L('Ομάδες','Teams'),'teams')+pageHead(c.name,L('Η σύνθεση βασίζεται στην τελευταία πανελλαδική κατάταξη.','Roster follows the latest national ranking.'))+`<div class="section-title"><h2>${L('Αθλητές','Players')} · ${month(latestPeriod)}</h2></div><div class="panel">${roster.length?rankingTable(roster,latestGeneral):empty()}</div><div class="section-title"><h2>${L('Ομαδικές συναντήσεις','Team fixtures')}</h2></div>`+paged(fixtures,fixtureTable);
+    return breadcrumb(L('Διοργανώσεις','Competitions'),'events')+pageHead(c.name,L('Η σύνθεση βασίζεται στην τελευταία πανελλαδική κατάταξη.','Roster follows the latest national ranking.'))+`<div class="section-title"><h2>${L('Αθλητές','Players')} · ${month(latestPeriod)}</h2></div><div class="panel">${roster.length?rankingTable(roster,latestGeneral):empty()}</div><div class="section-title"><h2>${L('Ομαδικές συναντήσεις','Team fixtures')}</h2></div>`+paged(fixtures,fixtureTable);
   }
   const playerOption=p=>p.name+' · '+(p.registration?'ΔΑΙ '+p.registration:p.id);
   function compare(){const a=players.get(param('p1')),b=players.get(param('p2')),rows=h2h(db.matches,a?.id,b?.id),same=a&&b&&a.id===b.id;
@@ -160,7 +157,7 @@ window.pofepaReady = (async () => {
   }
   function about(){return matchSheetCoverage()+aboutBase()+documentReviews()+`<section class="panel panel-pad"><h2>${L('ΔΑΙ με διαφορετικά ονόματα','Registration numbers with changed names')}</h2><p>${L('Οι παρακάτω παραλλαγές διατηρούνται σε χωριστά προφίλ μέχρι να ελεγχθούν, ακόμη και όταν φαίνονται σαν απλά ορθογραφικά λάθη.','These variants remain separate profiles pending review, even when they appear to be spelling corrections.')}</p>${table(['ΔΑΙ',L('Ονόματα στις πηγές','Names in source')],db.coverage.identity_conflicts.map(c=>`<tr><td>${E(c.registration)}</td><td>${c.names.map(E).join('<br>')}</td></tr>`).join(''))}</section>`;}
   function notFound(){return pageHead(L('Η σελίδα δεν βρέθηκε','Page not found'))+`<a class="button" href="#home">${L('Επιστροφή στην αρχική','Back to overview')}</a>`;}
-  function header(){const active={player:'players',team:'teams',event:'events'}[current.name]||current.name;
+  function header(){const active={player:'players',team:'events',event:'events'}[current.name]||current.name;
     return `<header class="topbar"><div class="wrap top-inner"><a class="brand" href="#home"><span class="brandmark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m19 18 8 9" stroke="#f4ab61" stroke-width="5"/><ellipse cx="13" cy="12" rx="10" ry="9" fill="#8adfd2"/><circle cx="27" cy="5" r="3" fill="white"/></svg></span><span><b>POFEPA <span>STATS</span></b><small>${L('ΑΓΩΝΕΣ & ΑΘΛΗΤΕΣ','MATCHES & PLAYERS')}</small></span></a><nav class="nav" aria-label="${L('Κύρια πλοήγηση','Main navigation')}">${navItems.map(([r,el,en])=>`<a href="#${r}" class="${active===r?'active':''}" ${active===r?'aria-current="page"':''}>${L(el,en)}</a>`).join('')}<button class="lang" id="lang" aria-label="${L('Switch to English','Αλλαγή σε Ελληνικά')}">${L('EN','ΕΛ')}</button></nav></div></header>`;
   }
   const snapshotMap=map(db.snapshots);
@@ -170,7 +167,7 @@ window.pofepaReady = (async () => {
     playerHistories.set(id,record.history.map(([sid,row])=>({...snapshotMap.get(sid),row})));
   }
   async function prepareView(r){if(!db.lazy)return db.matches;
-    if(['teams','team'].includes(r.name)||(r.name==='matches'&&r.params.get('view')==='teams')||(r.name==='event'&&events.get(r.id)?.kind==='fixtures')){
+    if(r.name==='team'||(r.name==='matches'&&r.params.get('view')==='teams')||(r.name==='event'&&events.get(r.id)?.kind==='fixtures')){
       if(!db.fixtures&&db.archives?.fixtures)db.fixtures=await fetchData(db.archives.fixtures);
     }
     if(r.name==='about'&&db.archives?.about){
@@ -203,7 +200,7 @@ window.pofepaReady = (async () => {
     let loaded;try{loaded=await pending;}catch(error){if(serial===renderSerial)renderError(error);return;}
     if(serial!==renderSerial)return;db.matches=loaded;
 
-    const view={home,rankings,players:playerList,player:()=>playerDetail(current.id),matches:matchList,events:eventList,event:()=>eventDetail(current.id),teams:teamList,team:()=>teamDetail(current.id),h2h:compare,about}[current.name]||notFound;
+    const view={home,rankings,players:playerList,player:()=>playerDetail(current.id),matches:matchList,events:eventList,event:()=>eventDetail(current.id),team:()=>teamDetail(current.id),h2h:compare,about}[current.name]||notFound;
     let body;try{body=view();}catch(error){renderError(error,true);return;}
     document.title=(players.get(current.id)?.name||events.get(current.id)?.name||clubs.get(current.id)?.name||navItems.find(n=>n[0]===current.name)?.[lang==='el'?1:2]||L('Κάλυψη & πηγές','Coverage & sources'))+' · POFEPA Stats';
     app.innerHTML=header()+(current.name==='home'?body:`<main id="main" class="wrap main">${body}</main>`)+`<footer class="footer"><div class="wrap footer-inner"><div><b>POFEPA STATS</b> · ${db.version==='prototype'?L('Πρωτότυπο','Prototype'):'v'+E(db.version)}<br>${L('Ανεξάρτητο αρχείο · όχι επίσημη υπηρεσία ΠΟΦΕΠΑ.','Independent archive · not an official POFΕPA service.')}</div><div>${link('about',L('Κάλυψη & πηγές','Coverage & sources'))}${external('https://www.pofepa.gr/','pofepa.gr')}${external('https://thanospolimeridis.github.io/greek-tt-stats/','Greek TT Archive')}</div></div></footer>`;

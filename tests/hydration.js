@@ -126,11 +126,11 @@ async function retryAndCache(route,archive,verifyHydrated) {
   assert(app.app.innerHTML.includes(Pofepa.escape(athlete.name)));
   assert(app.app.innerHTML.includes('id="athlete-matches"'));
   assert(app.app.innerHTML.includes('id="athlete-rankings"'));
-  await app.navigate('teams');
-  assert(app.app.innerHTML.includes('<tbody><tr>'),'Offline teams route must render its fixture-backed records');
+  await app.navigate('matches?view=teams');
+  assert(app.app.innerHTML.includes('<tbody><tr>'),'Offline team-fixtures route must render its fixture-backed records');
   await app.navigate('about');
   assert(app.app.innerHTML.includes(full.sources[0].sha256),'Offline about route must retain full sources');
   assert.equal(app.errors.length,0,app.errors.map(String).join('\n'));
-  assert.equal(networkCalls,0,'Offline athlete, teams and about routes must make no network requests');
-  console.log('Passed fixtures/about failure-retry-cache hydration and compressed offline athlete/teams/about rendering.');
+  assert.equal(networkCalls,0,'Offline athlete, team-fixtures and about routes must make no network requests');
+  console.log('Passed fixtures/about failure-retry-cache hydration and compressed offline athlete/team-fixtures/about rendering.');
 })().catch(error => {console.error(error);process.exitCode=1;});

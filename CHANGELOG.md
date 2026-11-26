@@ -2,6 +2,8 @@
 
 ## Prototype updates — 2026-11-26
 
+- Remove the separate Teams directory and navigation entry; retain contextual team details and redirect old directory links to Competitions.
+
 - Group competitions under POFΕPA's original regional headings, retain historical source context, and add region/season filters with the latest team competitions shown first.
 - Move the athlete ranking chart and match breakdown above match history, with section shortcuts following the page order.
 

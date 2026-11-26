@@ -27,7 +27,7 @@ for(const language of ['el','en']) for(const route of routes){
   assert(!app.innerHTML.includes('undefined'),route+' leaks undefined');
   assert(!app.innerHTML.includes('Unable to load'),route+' failed to load its archive');
   assert(!app.innerHTML.includes('NaN'),route+' leaks NaN');
-  const fixtureRoute=route==='teams'||route.startsWith('team/')||route.startsWith('matches?view=teams')||route==='event/'+fixtureEvent.id;
+  const fixtureRoute=route.startsWith('team/')||route.startsWith('matches?view=teams')||route==='event/'+fixtureEvent.id;
   assert.equal(requests.includes('data/fixtures.json.gz'),fixtureRoute,route+' fixture download scope');
   assert.equal(requests.includes('data/about.json.gz'),route==='about',route+' source-report download scope');
   if(route.startsWith('player/p-859')){assert(!app.innerHTML.includes('data-filter="region"'));assert(!app.innerHTML.includes('data-filter="list"'));assert(app.innerHTML.includes('id="athlete-rankings"'));assert(!app.innerHTML.includes('data-page-key="rpage"'));assert(!app.innerHTML.includes('All rankings'));assert(!app.innerHTML.includes('Όλες οι κατατάξεις'));}
@@ -43,7 +43,7 @@ for(const language of ['el','en']) for(const route of routes){
     assert(!app.innerHTML.includes('<h3>'),'Combined chart must have no regional or national subheadings');
   }
   if(route==='rankings?region=north&class=BET&age=40-49')assert(app.innerHTML.includes('ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ'));
-  if(route==='events'){
+  if(route==='events'||route==='teams'){
     assert.equal((app.innerHTML.match(/class="competition-group"/g)||[]).length,9,'Current season must expose the nine original regional groups');
     assert(app.innerHTML.includes('id="competition-crete"'));
     assert(app.innerHTML.includes('id="competition-central-macedonia"'));
