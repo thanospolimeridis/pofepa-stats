@@ -1,0 +1,71 @@
+{
+ "format": 1,
+ "keys": [
+  {
+   "key": "schema",
+   "type": "value",
+   "value": 1
+  },
+  {
+   "key": "coverage",
+   "type": "object",
+   "file": "coverage.json"
+  },
+  {
+   "key": "sources",
+   "type": "list",
+   "files": [
+    "sources-000.jsonl"
+   ]
+  },
+  {
+   "key": "players",
+   "type": "list",
+   "files": [
+    "players-000.jsonl"
+   ]
+  },
+  {
+   "key": "clubs",
+   "type": "list",
+   "files": [
+    "clubs-000.jsonl"
+   ]
+  },
+  {
+   "key": "events",
+   "type": "list",
+   "files": [
+    "events-000.jsonl"
+   ]
+  },
+  {
+   "key": "snapshots",
+   "type": "list",
+   "files": [
+    "snapshots-000.jsonl"
+   ]
+  },
+  {
+   "key": "matches",
+   "type": "list",
+   "files": [
+    "matches-000.jsonl"
+   ]
+  },
+  {
+   "key": "fixtures",
+   "type": "list",
+   "files": [
+    "fixtures-000.jsonl"
+   ]
+  },
+  {
+   "key": "issues",
+   "type": "list",
+   "files": [
+    "issues-000.jsonl"
+   ]
+  }
+ ]
+}

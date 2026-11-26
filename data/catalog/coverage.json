@@ -1,0 +1,1535 @@
+{
+ "as_of": "2026-11-26",
+ "ranking_periods": [
+  "2026-01",
+  "2026-02",
+  "2026-03",
+  "2026-04",
+  "2026-05",
+  "2026-06",
+  "2026-09",
+  "2026-10"
+ ],
+ "matches": 12814,
+ "players": 3181,
+ "ranked_players": 3113,
+ "provisional_players": 68,
+ "fixtures": 1262,
+ "reported_fixtures": 294,
+ "ranking_rows": 88170,
+ "events": 39,
+ "match_date_min": "2026-01-01",
+ "match_date_max": "2026-10-31",
+ "excluded_rows": {
+  "overlapping_source_result": 357,
+  "nonstandard_score": 36,
+  "bonus": 476,
+  "invalid_participants": 12
+ },
+ "identity_methods": {
+  "unique_name_in_month": 7619,
+  "exact_name_and_team": 17774,
+  "team_mismatch": 129,
+  "name_not_found": 38,
+  "ambiguous_name": 68
+ },
+ "identity_conflicts": [
+  {
+   "registration": "1375",
+   "names": [
+    "ΚΑΡΤΣΩΝΗΣ ΧΑΡΗΣ",
+    "ΚΑΡΤΣΩΝΗΣ ΧΑΡΙΛΑΟΣ"
+   ]
+  },
+  {
+   "registration": "2356",
+   "names": [
+    "ΜΠΟΥΝΤΑΚΗΣ ΣΤΑΥΡΟΣ",
+    "ΜΠΟΥΤΑΚΗΣ ΣΤΑΥΡΟΣ"
+   ]
+  },
+  {
+   "registration": "2718",
+   "names": [
+    "ΠΑΠΑΓΕΩΡΓΙΟΥ ΗΛΙΑΣ",
+    "ΠΑΠΑΓΕΩΡΓΙΟΥ-ΝΑΝΤΙΜ"
+   ]
+  },
+  {
+   "registration": "2851",
+   "names": [
+    "ΡΟΥΜΕΛΙΩΤΗΣ ΝΙΚΟΛΑΟΣ",
+    "ΡΩΜΑΝΟΣ ΙΩΑΝΝΗΣ"
+   ]
+  }
+ ],
+ "deferred": [
+  {
+   "label": "ΣΤ'",
+   "url": "http://files.ping-pong.gr/2026-2027/ST2-202627.pdf",
+   "reason": "document_or_other_season"
+  },
+  {
+   "label": "Α' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2026-2027",
+   "url": "https://www.pofepa.gr/2026-27-kmaka.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "Β' ΚΑΤΗΓΟΡΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2026-2027",
+   "url": "https://www.pofepa.gr/2026-27-kmakb.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "Γ' ΚΑΤΗΓΟΡΙΑ (Α' όμιλος) ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2026-2027",
+   "url": "https://www.pofepa.gr/2026-27-kmakc1.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "Γ' ΚΑΤΗΓΟΡΙΑ (Β' όμιλος) ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ 2026-2027",
+   "url": "https://www.pofepa.gr/2026-27-kmakc2.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "ΔΥΤΙΚΗ ΕΛΛΑΔΑ 2025-2026",
+   "url": "https://www.pofepa.gr/2026-27-dytell.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "ΚΡΗΤΗ ΑΝΑΤΟΛΙΚΟΣ ΟΜΙΛΟΣ 2026-2027",
+   "url": "https://www.pofepa.gr/2026-27-crete-a.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "ΚΡΗΤΗ ΔΥΤΙΚΟΣ ΟΜΙΛΟΣ 2025-2026",
+   "url": "https://www.pofepa.gr/2026-27-crete-d.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "ΠΟΦΕΠΑ - ΔΥΤΙΚΗ ΜΑΚΕΔΟΝΙΑ - ΗΠΕΙΡΟΣ - ΙΟΝΙΑ ΝΗΣΙΑ",
+   "url": "https://www.pofepa.gr/2026-27-d-mak.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "Ανατολικός όμιλος",
+   "url": "https://www.pofepa.gr/2025-26-a-mak-a.html",
+   "reason": "document_or_other_season"
+  },
+  {
+   "label": "ΠΟΦΕΠΑ - ΑΝΑΤΟΛΙΚΗ ΜΑΚΕΔΟΝΙΑ & ΘΡΑΚΗ 2025-2026 - Δυτικός",
+   "url": "https://www.pofepa.gr/2026-27-a-mak-d.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "ΠΕΛΟΠΟΝΝΗΣΟΣ 2026-2027",
+   "url": "https://www.pofepa.gr/2026-27-pelop.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "ΘΕΣΣΑΛΙΑ 2026-2027",
+   "url": "https://www.pofepa.gr/2026-27-thessaly.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "ΝΗΣΙΑ ΒΟΡΕΙΟΥ ΑΙΓΑΙΟΥ 2026-2027",
+   "url": "https://www.pofepa.gr/2026-27-aigaio.html",
+   "reason": "no_supported_fixture_table"
+  },
+  {
+   "label": "12ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-ANEX-2026-27.pdf",
+   "reason": "document_or_other_season"
+  },
+  {
+   "label": "4ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-KMAK-ANEX-2026-27.pdf",
+   "reason": "document_or_other_season"
+  },
+  {
+   "label": "2ο Κύπελλο Ομάδων Ανεξαρτήτων Δυτικής Μακεδονίας-Ηπείρου-Ιονίων Νήσων",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-DMAK-ANEX-2026-27.pdf",
+   "reason": "document_or_other_season"
+  },
+  {
+   "label": "Α1-Α2",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-A1A2-2026-27.pdf",
+   "reason": "document_or_other_season"
+  },
+  {
+   "label": "Β-Γ",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-BC-2026-27.pdf",
+   "reason": "document_or_other_season"
+  },
+  {
+   "label": "Δ-Ε-ΣΤ",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-DEST-2026-27.pdf",
+   "reason": "document_or_other_season"
+  },
+  {
+   "label": "Κεντρική Μακεδονία",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-KMAK-2026-27.pdf",
+   "reason": "document_or_other_season"
+  },
+  {
+   "label": "Κρήτη",
+   "url": "http://files.ping-pong.gr/2026-2027/CUP-KRITI-2026-27.pdf",
+   "reason": "document_or_other_season"
+  }
+ ],
+ "workbook_inventory": [
+  {
+   "label": "ΟΚΤ/2026",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2026.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΣΕΠ/2026",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_9_2026.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΙΟΥ/2026 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_pan_6_2026.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΜΑΙ/2026 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_meikto_5_2026v2.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΑΠΡ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_meikto_4_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_mikto_4_2024v6.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_mikto_4_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2022 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_meikto_4_2022v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_meikto_4_2019.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_meikto_4_2018.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_meikto_4_2017v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_meikto_5_2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_meikto_4_2015v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΟΥ/2026 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_6_2026v2.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΜΑΙ/2026",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_5_2026_v2.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΑΠΡ/2026 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_4_2026.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΜΑΡ/2026 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_3_2026v2.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΦΕΒ/2026",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_2_2026.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΙΑΝ/2026",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_1_2026.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΔΕΚ/2025 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12_2025v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2025 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11_2025v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_9_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "IOY/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_6_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_5_2025v3.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2025 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_4_2025_v4.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_3_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_2_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_1_2025v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2024 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12_2024v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11_2024v3.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2024 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2024v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2024 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_9_2024v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΟΥ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_6_2024.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_5_2024.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_4_2024v4.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_3_2024v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_2_2024.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_1_2024v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2023 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12_2023v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_9_2023v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΟΥ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_6_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2023 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_5_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_04_2023v4.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_03_2023v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2023 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_02_2023v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_01_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2022 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12_2022v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_09_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΟΥ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_06_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_05_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_04_2022v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2022 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_03_2022v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_02_2022v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_01_2022v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2021",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12_2021v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2021",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11_2021.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2021 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2021v3.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2021",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_09_2021v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΥΓ/2021",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_08_2021.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2020 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2020v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2020",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_09_2020.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2020 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_03_2020v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2020 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_02_2020v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2020",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_01_2020v4.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12_2019.xlsx",
+   "imported": false
+  },
+  {
+   "label": "NOE/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11_2019.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2019v3.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_09_2019.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΟΥ/2019 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_06_2019v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_05_2019.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_04_2019.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_03_2019v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_02_2019.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_01_2019.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12_2018v3.xls",
+   "imported": false
+  },
+  {
+   "label": "NOE/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11_2018v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2018v3.xls",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_09_2018.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΟΥΛ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_07_2018.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΟΥΝ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_06_2018.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_05_2018v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_04_2018.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_03_2018.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_02_2018v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_01_2018v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2017 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12_2017v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11_2017.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2017v32.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΥΓ-ΣΕΠ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_09_2017.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_05_2017v2.xls",
+   "imported": false
+  },
+  {
+   "label": "- ΑΠΡ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_04_2017v4.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_03_2017v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_02_2017v3.xls",
+   "imported": false
+  },
+  {
+   "label": "IAN/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_01_2017v3.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12_2016v3.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11_2016v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_09_2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙOY/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_06_2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2016 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_05_2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_04_2016.xls",
+   "imported": false
+  },
+  {
+   "label": "- ΜΑΡ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_03_2016v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_02_2016v3.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_01_2016v3.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12_2015v1.xls",
+   "imported": false
+  },
+  {
+   "label": "NOE/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11_2015v3.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2015.xls",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_09_2015.xls",
+   "imported": false
+  },
+  {
+   "label": "MAI/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_5_2015v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_4_2015v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_3_2015v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_2_2015.xls",
+   "imported": false
+  },
+  {
+   "label": "IAN/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_1_2015.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12_2014v21.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11_2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10_2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_09_2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_05_2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_04_2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_03_2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_02_2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_01-2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_09-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΟΥΝ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_06-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_05-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_04-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_03-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_02-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_01-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_05-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_04-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_03-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_02-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_01-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2011",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_12-2011.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2011",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_11-2011.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2011",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_10-2011.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΟΥ/2026 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_6_2026v2.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΜΑΙ/2026 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_5_2026v2.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΑΠΡ/2026",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_4_2026.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΜΑΡ/2026",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_3_2026v3.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΙΑΝ/2026",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_1_2026.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΦΕΒ/2026",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_2_2026.xlsx",
+   "imported": true
+  },
+  {
+   "label": "ΔΕΚ/2025 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12_2025v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_9_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_5_2025v3.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_4_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_3_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_2_2025.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2025",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_1_2025v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12_2024.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11_2024.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10_2024.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2024 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_9_2024v3.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_5_2024v3.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_4_2024v6.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2024 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_3_2024v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_2_2024.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2024",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_1_2024.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_9_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_5_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_4_2023v3.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_03_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_02_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2023",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_1_2023.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_05_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_04_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_03_2022v3.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_02_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2022",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_01_2022.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2021",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12_2021.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2021",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11_2021.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2021",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10_2021.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2021",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_09_2021.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2020",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10_2020.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2020",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_09_2020.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2020",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_03_2020.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2020",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_02_2020.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2020",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_01_2020.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12_2019.xlsx",
+   "imported": false
+  },
+  {
+   "label": "NOE/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11_2019.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10_2019v2.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_09_2019.xlsx",
+   "imported": false
+  },
+  {
+   "label": "ΙΟΥ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_06-2019.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2019 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_05-2019v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_04-2019v3.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_03-2019v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_02-2019v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2019",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_01-2019.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12-2018v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11-2018v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10-2018v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΟΥ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_06-2018v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_05-2018.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_04-2018.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_03-2018.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_02-2018v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2018",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_01-2018.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12-2017v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11-2017.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10-2017.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΥΓ-ΣΕΠ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_09-2017.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_05-2017v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_04-2017v3.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_03-2017.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_02-2017.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2017",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_01-2017.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12-2016v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11-2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10-2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΣΕΠ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_09-2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙOY/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_06-2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2016 -",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_05-2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_04-2016v3.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_03-2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_02-2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2016",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_01-2016.xls",
+   "imported": false
+  },
+  {
+   "label": "",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_05-2016.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12-2015.xls",
+   "imported": false
+  },
+  {
+   "label": "NOE/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11-2015.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10-2015.xls",
+   "imported": false
+  },
+  {
+   "label": "MAI/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_5-2015.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_4-2015v3.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_3-2015v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_2-2015.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2015",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_1-2015.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12-2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11-2014-v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10-2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_05-2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_04-2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_03-2014-v2.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_02-2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2014",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_01-2014.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_05-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_04-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_03-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_02-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2013",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_01-2013.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΟΚΤ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_10-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΙ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_05-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΑΠΡ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_04-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΜΑΡ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_03-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΦΕΒ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_02-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΙΑΝ/2012",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_01-2012.xls",
+   "imported": false
+  },
+  {
+   "label": "ΔΕΚ/2011",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_12-2011.xls",
+   "imported": false
+  },
+  {
+   "label": "ΝΟΕ/2011",
+   "url": "https://www.pofepa.gr/uploads/5/7/2/5/5725823/rl_be_11-2014-v3.xls",
+   "imported": false
+  }
+ ]
+}

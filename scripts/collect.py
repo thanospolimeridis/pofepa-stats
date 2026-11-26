@@ -1,0 +1,371 @@
+#!/usr/bin/env python3
+"""Collect public POFΕPA sources. Cached, replayable, no inferred game scores."""
+from __future__ import annotations
+
+import argparse
+import calendar
+from collections import Counter, defaultdict
+from datetime import date, datetime, timezone
+import hashlib
+import json
+import math
+from pathlib import Path
+import re
+import time
+import unicodedata
+from urllib.parse import urljoin, urlparse
+from urllib.request import Request, urlopen
+
+from bs4 import BeautifulSoup
+import openpyxl
+
+ROOT = Path(__file__).resolve().parents[1]
+BASE = "https://www.pofepa.gr/"
+RANKINGS = BASE + "piiotanualphakappaepsilonsigmaf-alphaxiiotaomicronlambdaomicrongammaetasigmaetasigmaf.html"
+SEASON = BASE + "2026-2027.html"
+# June 2026 regional DAI/name pairs reconcile exactly with the combined list.
+# Retain region on every snapshot; a regional position is never a national one.
+WORKBOOKS = [
+    ("2026-05", "national", "rl_meikto_5_2026v2.xlsx"),
+    ("2026-06", "national", "rl_pan_6_2026.xlsx"),
+    ("2026-09", "national", "rl_9_2026.xlsx"),
+    ("2026-10", "national", "rl_10_2026.xlsx"),
+    *[(f"2026-{month:02}", "south", filename) for month, filename in enumerate([
+        "rl_1_2026.xlsx", "rl_2_2026.xlsx", "rl_3_2026v2.xlsx", "rl_4_2026.xlsx", "rl_5_2026_v2.xlsx", "rl_6_2026v2.xlsx"], 1)],
+    *[(f"2026-{month:02}", "north", filename) for month, filename in enumerate([
+        "rl_be_1_2026.xlsx", "rl_be_2_2026.xlsx", "rl_be_3_2026v3.xlsx", "rl_be_4_2026.xlsx", "rl_be_5_2026v2.xlsx", "rl_be_6_2026v2.xlsx"], 1)],
+]
+
+
+def clean(value):
+    return " ".join(str(value if value is not None else "").replace("\u200b", "").replace("\ufeff", "").split())
+
+
+def key(value):
+    # Case, accents and spaces only. Never fuzzy-match different spellings.
+    return "".join(c for c in unicodedata.normalize("NFD", clean(value).upper()) if not unicodedata.combining(c))
+
+
+def uid(prefix, value):
+    return prefix + hashlib.sha256(value.encode()).hexdigest()[:16]
+
+
+def sha(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def safe_url(value):
+    p = urlparse(value)
+    return p.scheme in ("http", "https") and p.hostname in ("www.pofepa.gr", "pofepa.gr", "files.ping-pong.gr") and not p.username
+
+
+def score_status(a, b, opponent=""):
+    if "BONUS" in key(opponent):
+        return "bonus"
+    if type(a) in (int, float) and type(b) in (int, float) and math.isfinite(a) and math.isfinite(b) and a == int(a) and b == int(b):
+        if (a == 3 and 0 <= b < 3) or (b == 3 and 0 <= a < 3):
+            return "completed"
+    return "nonstandard_score"
+
+
+class Cache:
+    def __init__(self, directory, offline=False, refresh=False):
+        self.path = directory
+        self.path.mkdir(parents=True, exist_ok=True)
+        self.offline, self.refresh = offline, refresh
+        self.sources = {}
+
+    def get(self, url, filename=None):
+        if not safe_url(url):
+            raise ValueError(f"Unapproved source URL: {url}")
+        filename = filename or uid("", url) + Path(urlparse(url).path).suffix
+        path = self.path / filename
+        meta_path = path.with_suffix(path.suffix + ".meta.json")
+        if (self.refresh or not path.exists()) and not self.offline:
+            request = Request(url, headers={"User-Agent": "pofepa-stats/0.1 (public sports archive)"})
+            with urlopen(request, timeout=45) as response:
+                body = response.read()
+            path.write_bytes(body)
+            meta_path.write_text(json.dumps({"url": url, "retrieved_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}), encoding="utf-8")
+            time.sleep(.15)
+        if not path.exists():
+            raise FileNotFoundError(f"Missing cached source: {url}")
+        body = path.read_bytes()
+        if meta_path.exists():
+            metadata = json.loads(meta_path.read_text())
+            if metadata["url"] != url:
+                raise ValueError(f"Cache URL mismatch: {path}")
+        else:
+            metadata = {"url": url, "retrieved_at": datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat(timespec="seconds")}
+        sid = uid("s-", url)
+        self.sources[sid] = {"id": sid, **metadata, "sha256": sha(body), "bytes": len(body)}
+        return sid, path
+
+
+def ranking_rows(sheet):
+    iterator = sheet.iter_rows(values_only=True)
+    header = [clean(v) for v in next(iterator)]
+    required = ["Νέα θέση", "Ονοματεπώνυμο", "Βαθμοί", "Κατηγορία", "Ομάδα", "ΔΑΙ"]
+    if not all(h in header for h in required):
+        raise ValueError(f"Unrecognized ranking header: {sheet.title}: {header}")
+    columns = [header.index(h) for h in required]
+    for row_number, row in enumerate(iterator, 2):
+        if not any(v is not None and clean(v) for v in row):
+            continue
+        values = [row[i] if i < len(row) else None for i in columns]
+        rank, name, points, category, club, registration = values
+        if not name or not registration or not str(registration).strip().isdigit():
+            raise ValueError(f"Missing identity in {sheet.title} row {row_number}")
+        if not isinstance(points, (int, float)) or not str(rank).isdigit():
+            raise ValueError(f"Invalid ranking in {sheet.title} row {row_number}")
+        yield row_number, int(rank), clean(name), float(points), clean(category), clean(club), str(int(registration))
+
+
+def resolve_player(name, club, candidates):
+    found = candidates.get(key(name), [])
+    if club and key(club) not in ("-", "—"):
+        same_club = [p for p in found if key(p["club"]) == key(club)]
+        if len({p["id"] for p in same_club}) == 1:
+            return same_club[0]["id"], "exact_name_and_team"
+        # A conflicting recorded club is not silently ignored.
+        return None, "team_mismatch" if found else "name_not_found"
+    if len({p["id"] for p in found}) == 1:
+        # This is an explicit provisional association, not a source-supplied ID.
+        return found[0]["id"], "unique_name_in_month"
+    return None, "ambiguous_name" if found else "name_not_found"
+
+
+def registry_id(dai, name, registry):
+    """Quarantine changed names under one DAI until reviewed, even typos."""
+    return "p-" + dai + ("-" + uid("", key(name))[:8] if len(registry[dai]) > 1 else "")
+
+
+def parse_fixture_tables(html, source_id, source_url, event_id):
+    soup = BeautifulSoup(html, "html.parser")
+    fixtures = []
+    for table_index, table in enumerate(soup.select("table")):
+        rows = table.find_all("tr")
+        if not rows:
+            continue
+        header = rows[0].get_text(" ", strip=True)
+        if "Γηπεδούχος" not in header or "Φιλοξενούμενος" not in header:
+            continue
+        heading = table.find_previous(["h2", "h3"])
+        round_name = clean(heading.get_text(" ")) if heading else ""
+        for row_index, tr in enumerate(rows[1:], 2):
+            cells = tr.find_all(["td", "th"], recursive=False)
+            if len(cells) < 3:
+                continue
+            home, away, result = [clean(c.get_text(" ")) for c in cells[:3]]
+            if not home or not away:
+                continue
+            score = re.match(r"^(\d+)\s*[-–:]\s*(\d+)(?:\s|$)", result)
+            parsed_score = [int(score[1]), int(score[2])] if score else None
+            # Team formats differ by region. Preserve reported totals without
+            # pretending these are played singles or deducing a match date.
+            links = [urljoin(source_url, a["href"]) for a in cells[2].find_all("a", href=True)]
+            fixtures.append({"id": uid("f-", f"{event_id}:{table_index}:{row_index}"), "event": event_id,
+                "home": home, "away": away, "score": parsed_score, "status": "reported" if score else "scheduled",
+                "round": round_name, "schedule_note": result if not score else "",
+                "deadline": clean(cells[3].get_text(" ")) if len(cells) > 3 else "",
+                "source": source_id, "sheet_url": next((u for u in links if safe_url(u)), "")})
+    return fixtures
+
+
+def collect(cache, as_of):
+    sources, players, clubs, events, snapshots, matches, fixtures, issues = {}, {}, {}, {}, [], [], [], []
+    def club_id(name):
+        if not name or name in ("-", "—"):
+            return ""
+        cid = uid("c-", name)  # no undocumented club alias merges
+        clubs[cid] = {"id": cid, "name": name}
+        return cid
+
+    _, ranking_index = cache.get(RANKINGS, "rankings.html")
+    rsoup = BeautifulSoup(ranking_index.read_text(), "html.parser")
+    inventory = []
+    for a in (rsoup.select_one("#wsite-content") or rsoup).find_all("a", href=True):
+        url = urljoin(BASE, a["href"])
+        if re.search(r"\.(xlsx?|pdf)$", url, re.I) and safe_url(url):
+            inventory.append({"label": clean(a.get_text(" ")), "url": url, "imported": False})
+    candidates_by_period = defaultdict(lambda: defaultdict(list))
+    workbook_objects = []
+    registry = defaultdict(set)
+    for period, region, filename in sorted(WORKBOOKS, key=lambda item: (item[0], item[1] == "national", item[1])):
+        url = BASE + "uploads/5/7/2/5/5725823/" + filename
+        if not any(i["url"] == url for i in inventory):
+            raise ValueError(f"Configured workbook no longer linked: {url}")
+        sid, path = cache.get(url, filename)
+        for i in inventory:
+            if i["url"] == url:
+                i["imported"] = True
+        book = openpyxl.load_workbook(path, read_only=True, data_only=True)
+        workbook_objects.append((period, region, sid, book))
+        for rownum, rank, name, points, category, club, dai in ranking_rows(book["ΓΕΝΙΚΟΣ"]):
+            registry[dai].add(key(name))
+    identity_conflicts = [{"registration": dai, "names": sorted(names)} for dai, names in sorted(registry.items()) if len(names) > 1]
+    for period, region, sid, book in workbook_objects:
+        candidates = defaultdict(list)
+        for rownum, rank, name, points, category, club, dai in ranking_rows(book["ΓΕΝΙΚΟΣ"]):
+            pid = registry_id(dai, name, registry)
+            old = players.get(pid)
+            aliases = sorted(set((old or {}).get("aliases", []) + ([old["name"]] if old and old["name"] != name else [])))
+            players[pid] = {"id": pid, "registration": dai, "name": name, "aliases": aliases,
+                "club": club_id(club), "category": category, "period": period, "provisional": False, "identity_conflict": len(registry[dai]) > 1}
+            candidates_by_period[period][key(name)].append({"id": pid, "club": club, "source": sid})
+        for sheet in book:
+            if sheet.title == "ΑΠΟΤΕΛΕΣΜΑΤΑ":
+                continue
+            rows = []
+            for rownum, rank, name, points, category, club, dai in ranking_rows(sheet):
+                pid = registry_id(dai, name, registry)
+                if pid not in players:
+                    raise ValueError(f"Category player absent from general list: {pid}")
+                rows.append([pid, rank, points, club_id(club), category, rownum])
+            snapshots.append({"id": f"{region}:{period}:{sheet.title}", "region": region, "period": period, "list": sheet.title, "source": sid, "rows": rows})
+
+    records_by_fingerprint = defaultdict(list)
+    for period, region, sid, book in workbook_objects:
+        if "ΑΠΟΤΕΛΕΣΜΑΤΑ" not in book.sheetnames:
+            book.close()
+            continue
+        this_source = Counter()
+        for rownum, row in enumerate(book["ΑΠΟΤΕΛΕΣΜΑΤΑ"].iter_rows(values_only=True), 1):
+            if not any(v is not None for v in row):
+                continue
+            if len(row) < 8:
+                raise ValueError(f"Unexpected results row {rownum}")
+            raw_date, first, second, a, b, first_club, second_club, event_name = row[:8]
+            first, second, first_club, second_club, event_name = map(clean, (first, second, first_club, second_club, event_name))
+            status = score_status(a, b, second)
+            if status != "completed":
+                issues.append({"source": sid, "sheet": "ΑΠΟΤΕΛΕΣΜΑΤΑ", "row": rownum, "reason": status, "score": [a, b]})
+                continue
+            try:
+                played = raw_date.date() if isinstance(raw_date, datetime) else datetime.strptime(clean(raw_date), "%d/%m/%Y").date()
+            except (ValueError, TypeError):
+                issues.append({"source": sid, "row": rownum, "reason": "invalid_date"})
+                continue
+            if played > as_of:
+                issues.append({"source": sid, "row": rownum, "reason": "future_result"})
+                continue
+            if not first or not second or not event_name or key(first) == key(second):
+                issues.append({"source": sid, "row": rownum, "reason": "invalid_participants"})
+                continue
+            season_match = re.search(r"(20\d{2})-(20\d{2}|\d{2})", event_name)
+            if season_match:
+                season = season_match[1] + "-" + (season_match[2] if len(season_match[2]) == 4 else "20" + season_match[2])
+            else:
+                season = f"{played.year if played.month >= 8 else played.year - 1}-{played.year + 1 if played.month >= 8 else played.year}"
+            eid = uid("e-", event_name + season)
+            events.setdefault(eid, {"id": eid, "name": event_name, "season": season, "region": region, "regions": [], "kind": "singles", "sources": []})
+            if region not in events[eid]["regions"]:
+                events[eid]["regions"].append(region)
+            events[eid]["region"] = region if len(events[eid]["regions"]) == 1 else "multi"
+            if sid not in events[eid]["sources"]:
+                events[eid]["sources"].append(sid)
+            ids, methods, identity_sources = [], [], []
+            for name, club in [(first, first_club), (second, second_club)]:
+                candidates = candidates_by_period[period]
+                pid, method = resolve_player(name, club, candidates)
+                evidence = sorted({p["source"] for p in candidates.get(key(name), []) if p["id"] == pid and (method != "exact_name_and_team" or key(p["club"]) == key(club))})
+                if not pid:
+                    # Unresolved identities stay scoped to this source and event.
+                    pid = uid("u-", f"{sid}:{eid}:{key(name)}:{key(club)}")
+                    players[pid] = {"id": pid, "registration": "", "name": name, "aliases": [], "club": club_id(club), "category": "", "period": period, "provisional": True}
+                ids.append(pid)
+                methods.append(method)
+                identity_sources.append(evidence)
+            if ids[0] == ids[1]:
+                issues.append({"source": sid, "row": rownum, "reason": "self_match"})
+                continue
+            # Deduplicate a physical result without resolving an ambiguous player:
+            # date, competition, both names/IDs, source team and oriented score
+            # must agree. Keep unresolved profiles separate outside that result.
+            identity_keys = [pid if not pid.startswith("u-") else f"unresolved:{key(name)}:{key(club)}"
+                             for pid, name, club in zip(ids, [first, second], [first_club, second_club])]
+            fingerprint = json.dumps([played.isoformat(), eid, sorted([(identity_keys[0], int(a)), (identity_keys[1], int(b))])])
+            this_source[fingerprint] += 1
+            if this_source[fingerprint] <= len(records_by_fingerprint[fingerprint]):
+                original = records_by_fingerprint[fingerprint][this_source[fingerprint] - 1]
+                original["evidence"].append({"source": sid, "row": rownum, "region": region})
+                if region not in original["regions"]:
+                    original["regions"].append(region)
+                issues.append({"source": sid, "row": rownum, "reason": "overlapping_source_result"})
+                continue
+            match = {"id": uid("m-", f"{sid}:{rownum}"), "date": played.isoformat(), "event": eid, "region": region, "regions": [region],
+                "p1": ids[0], "p2": ids[1], "names": [first, second], "score": [int(a), int(b)],
+                "clubs": [club_id(first_club), club_id(second_club)], "identity": methods, "identity_sources": identity_sources,
+                "source": sid, "row": rownum, "evidence": [{"source": sid, "row": rownum, "region": region}]}
+            matches.append(match)
+            records_by_fingerprint[fingerprint].append(match)
+        book.close()
+
+    _, season_path = cache.get(SEASON, "season.html")
+    soup = BeautifulSoup(season_path.read_text(), "html.parser")
+    main = soup.select_one("#wsite-content") or soup
+    visited = set()
+    deferred = []
+    for anchor in main.find_all("a", href=True):
+        url = urljoin(BASE, anchor["href"])
+        label = clean(anchor.get_text(" "))
+        if not label or not safe_url(url) or url in visited:
+            continue
+        visited.add(url)
+        if not re.search(r"/2026-(2027|27)-[^/]+\.html$", url):
+            deferred.append({"label": label, "url": url, "reason": "document_or_other_season"})
+            continue
+        try:
+            sid, path = cache.get(url, "a1.html" if url == BASE + "2026-2027-a1.html" else None)
+            html = path.read_text()
+            page = BeautifulSoup(html, "html.parser")
+            title = clean(page.title.get_text()).split(" - ΠΑΝΕΛ")[0] if page.title else label
+            eid = uid("e-", url)
+            parsed = parse_fixture_tables(html, sid, url, eid)
+            events[eid] = {"id": eid, "name": title, "season": "2026-2027", "kind": "fixtures", "sources": [sid]}
+            for f in parsed:
+                f["clubs"] = [club_id(f["home"]), club_id(f["away"])]
+            fixtures.extend(parsed)
+            if not parsed:
+                deferred.append({"label": title, "url": url, "reason": "no_supported_fixture_table"})
+        except (OSError, ValueError) as exc:
+            deferred.append({"label": label, "url": url, "reason": "source_unavailable", "detail": str(exc)})
+
+    referenced_players = {m[p] for m in matches for p in ("p1", "p2")}
+    players = {pid: p for pid, p in players.items() if not p["provisional"] or pid in referenced_players}
+    matches.sort(key=lambda m: (m["date"], m["id"]), reverse=True)
+    coverage = {"as_of": as_of.isoformat(), "ranking_periods": sorted(set(s["period"] for s in snapshots)),
+        "matches": len(matches), "players": len(players), "ranked_players": sum(not p["provisional"] for p in players.values()),
+        "provisional_players": sum(p["provisional"] for p in players.values()), "fixtures": len(fixtures),
+        "reported_fixtures": sum(f["status"] == "reported" for f in fixtures),
+        "ranking_rows": sum(len(s["rows"]) for s in snapshots), "events": len(events),
+        "match_date_min": min((m["date"] for m in matches), default=None), "match_date_max": max((m["date"] for m in matches), default=None),
+        "excluded_rows": dict(Counter(i["reason"] for i in issues)),
+        "identity_methods": dict(Counter(v for m in matches for v in m["identity"])),
+        "identity_conflicts": identity_conflicts, "deferred": deferred, "workbook_inventory": inventory}
+    return {"schema": 1, "coverage": coverage, "sources": list(cache.sources.values()), "players": list(players.values()),
+        "clubs": list(clubs.values()), "events": list(events.values()), "snapshots": snapshots, "matches": matches, "fixtures": fixtures, "issues": issues}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--offline", action="store_true")
+    parser.add_argument("--refresh", action="store_true", help="Re-fetch configured source scope")
+    parser.add_argument("--as-of", default=date.today().isoformat())
+    parser.add_argument("--cache", type=Path, default=ROOT / "capture")
+    parser.add_argument("--output", type=Path, default=ROOT / "data/catalog.json")
+    args = parser.parse_args()
+    if args.offline and args.refresh:
+        parser.error("--offline and --refresh are mutually exclusive")
+    data = collect(Cache(args.cache, args.offline, args.refresh), date.fromisoformat(args.as_of))
+    from validate import validate
+    validate(data)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    temporary = args.output.with_suffix(".tmp")
+    temporary.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    temporary.replace(args.output)
+    print(json.dumps({k: v for k, v in data["coverage"].items() if k not in ("workbook_inventory", "deferred")}, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()
