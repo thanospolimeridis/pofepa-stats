@@ -2,6 +2,7 @@
 
 ## Prototype updates — 2026-11-26
 
+- Expose reviewed match corrections and their evidence in match history and CSV exports; show readable match cards on narrow screens.
 - Bring athlete match history above ranking charts, add accessible section shortcuts, and paginate matches and rankings in compact ten-row pages while retaining all history.
 
 - Complete review of every available 2025–26 match sheet, publish per-season coverage, and track unavailable source files separately.

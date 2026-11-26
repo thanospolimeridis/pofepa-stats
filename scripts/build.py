@@ -36,7 +36,7 @@ def build():
     data['dataset_sha256'] = hashlib.sha256(encode(data)).hexdigest()
     data['ranking_index'] = 'https://www.pofepa.gr/piiotanualphakappaepsilonsigmaf-alphaxiiotaomicronlambdaomicrongammaetasigmaetasigmaf.html'
     html = (ROOT / 'src/template.html').read_text()
-    for marker, filename in [('STYLE', 'style.css'), ('CORE', 'core.js'), ('APP', 'app.js')]:
+    for marker, filename in [('STYLE', 'style.css'), ('CORE', 'core.js'), ('EVIDENCE', 'evidence.js'), ('APP', 'app.js')]:
         html = html.replace(f'/*{marker}*/', (ROOT / 'src' / filename).read_text())
     dist = ROOT / 'dist'
     if dist.exists():

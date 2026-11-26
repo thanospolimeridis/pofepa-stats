@@ -1,6 +1,6 @@
 /* Run all routes against the real data plus domain edge cases, without a browser dependency. */
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
-const C=require('../src/core.js');
+const C=require('../src/core.js'),Evidence=require('../src/evidence.js');
 const rows=[{p1:'a',p2:'b',score:[3,2]},{p1:'b',p2:'a',score:[3,0]},{p1:'c',p2:'a',score:[1,3]}];
 assert.deepEqual(C.stats(rows,'a'),{played:3,wins:2,losses:1,winRate:2/3,gamesWon:6,gamesLost:6,deciding:1,decidingWins:1});
 assert.equal(C.stats([], 'a').winRate,null);
@@ -18,7 +18,7 @@ routes.push('player/p-1912','player/p-2926','player/p-313');
 (async()=>{
 for(const language of ['el','en']) for(const route of routes){
   const app={innerHTML:'',addEventListener(){}},skip={addEventListener(){}};
-  const context={Pofepa:C,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>skip},location:{hash:'#'+route},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=>language},URLSearchParams,Intl,console,setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(fs.readFileSync('dist/'+path.split('?')[0]))};
+  const context={Pofepa:C,PofepaEvidence:Evidence,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>skip},location:{hash:'#'+route},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=>language},URLSearchParams,Intl,console,setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(fs.readFileSync('dist/'+path.split('?')[0]))};
   vm.runInNewContext(fs.readFileSync('src/app.js','utf8'),context,{timeout:10000});
   await context.window.pofepaReady;
   assert(app.innerHTML.includes('<main'),route+' main is missing');
@@ -39,7 +39,7 @@ const newEvent=record.matches.find(m=>m.date==='2026-10-31').event;
 stale.events=stale.events.filter(e=>e.id!==newEvent);
 const handlers={},errors=[];let reloaded=false;
 const app={innerHTML:'',addEventListener:(name,fn)=>{handlers[name]=fn;}};
-const context={Pofepa:C,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>({addEventListener(){}})},location:{hash:'#player/p-1912',reload:()=>{reloaded=true;}},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=> 'en'},URLSearchParams,Intl,console:{error:error=>errors.push(error)},setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(path.split('?')[0]===manifest.bootstrap?zlib.gzipSync(JSON.stringify(stale)):fs.readFileSync('dist/'+path.split('?')[0]))};
+const context={Pofepa:C,PofepaEvidence:Evidence,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>({addEventListener(){}})},location:{hash:'#player/p-1912',reload:()=>{reloaded=true;}},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=> 'en'},URLSearchParams,Intl,console:{error:error=>errors.push(error)},setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(path.split('?')[0]===manifest.bootstrap?zlib.gzipSync(JSON.stringify(stale)):fs.readFileSync('dist/'+path.split('?')[0]))};
 vm.runInNewContext(fs.readFileSync('src/app.js','utf8'),context,{timeout:10000});
 await context.window.pofepaReady;
 assert.equal(errors.length,1,'Stale index should exercise the rendering failure');

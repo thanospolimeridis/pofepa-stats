@@ -46,6 +46,8 @@ python3 scripts/collect.py --offline --as-of 2026-11-26
 python3 scripts/build.py
 python3 -m unittest discover -s tests -v
 node tests/smoke.js
+node tests/evidence.js
+node tests/export.js
 python3 scripts/check_reproducible_build.py
 python3 scripts/audit_sources.py
 python3 scripts/audit_documents.py
@@ -59,6 +61,7 @@ The collector discovers all linked workbooks and result seasons rather than main
 
 ## Identity and evidence
 
+- Reviewed corrections expand beside the match to show the original record, corrected result, supporting match sheet, review note and document hash. Match CSV exports include structured source references and correction provenance.
 - Ranking DAI registration numbers identify athletes. Conflicting names under a number remain separate, with the conflict disclosed.
 - Earlier lists omit DAI. An exact name and team, or a unique exact name among registered profiles, can associate the historical entry. Names appearing more than once in historical general lists remain separate.
 - Match records link against the same month's ranking lists. Exact name plus team is preferred; unique exact names with blank or differing teams are provisional associations. Ambiguous or unmatched names remain separate profiles. No fuzzy spelling matching is used.
