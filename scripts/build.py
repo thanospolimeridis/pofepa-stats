@@ -10,6 +10,7 @@ import shutil
 
 from dataset import load, encode, save
 from validate import validate
+from competition_regions import attach_regions
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -59,6 +60,7 @@ def bootstrap_data(data):
 def build():
     data = load()
     validate(data)
+    attach_regions(data)
     data['player_redirects'] = json.loads((ROOT / 'data/player-redirects.json').read_text())
     data['version'] = (ROOT / 'VERSION').read_text().strip()
     data['dataset_sha256'] = hashlib.sha256(encode(data)).hexdigest()

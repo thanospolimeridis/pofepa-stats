@@ -19,6 +19,7 @@ from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 from workbooks import inventory as workbook_inventory, open_book, canonical_list, result_rows
 from season_sources import seasons, content_links
+from competition_regions import regional_links
 from reviewed_documents import extract_document
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -412,6 +413,7 @@ def collect(cache, as_of):
     for season_name, season_url in seasons(season_path.read_text(), BASE):
         season_sid, path = cache.get(season_url, "season.html" if season_url == SEASON else None)
         links = content_links(path.read_text(), season_url)
+        regions = regional_links(path.read_text(), season_url)
         season_inventory.append({"season": season_name, "url": season_url, "linked_sources": len(links)})
         if not links:
             deferred.append({"label": season_name, "url": season_url, "reason": "no_linked_results"})
@@ -437,6 +439,8 @@ def collect(cache, as_of):
                     title = clean(page.title.get_text()).split(" - ΠΑΝΕΛ")[0] if page.title else label
                     parsed = parse_fixture_tables(html, sid, url, eid)
                 events[eid] = {"id": eid, "name": title, "season": season_name, "kind": "fixtures", "sources": [sid]}
+                if url in regions:
+                    events[eid]['competition_region'] = regions[url]['region']
                 for f in parsed:
                     f["clubs"] = [club_id(f["home"]), club_id(f["away"])]
                 fixtures.extend(parsed)

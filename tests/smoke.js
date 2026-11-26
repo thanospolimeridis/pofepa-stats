@@ -15,6 +15,7 @@ db.version='test';db.ranking_index='https://www.pofepa.gr/';
 const event=db.events.find(e=>e.kind==='singles'), fixtureEvent=db.events.find(e=>e.kind==='fixtures');
 const routes=['home','rankings','rankings?region=north&class=BET&age=40-49','rankings?region=south&class=ANE&age=70%2B','rankings?class=WOMEN','rankings?class=GENERAL','rankings?region=nonsense','players','players?q=polymeridis','players?q=nevermatch123','player/p-859','player/p-859?region=north','player/missing','matches','matches?view=teams&status=reported','matches?view=teams&status=scheduled','events','event/'+event.id,'event/'+fixtureEvent.id,'teams','team/'+db.clubs[0].id,'h2h','h2h?p1=p-859&p2=p-7','h2h?p1=p-859&p2=p-859','about','bad-route'];
 routes.push('player/p-1912','player/p-2926','player/p-313','player/p-1692');
+routes.push('events?region=crete&season=2025-2026','events?region=central-macedonia&season=2026-2027','events?season=all&kind=all','events?kind=singles');
 (async()=>{
 for(const language of ['el','en']) for(const route of routes){
   const app={innerHTML:'',addEventListener(){}},skip={addEventListener(){}},requests=[];
@@ -42,6 +43,18 @@ for(const language of ['el','en']) for(const route of routes){
     assert(!app.innerHTML.includes('<h3>'),'Combined chart must have no regional or national subheadings');
   }
   if(route==='rankings?region=north&class=BET&age=40-49')assert(app.innerHTML.includes('ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ'));
+  if(route==='events'){
+    assert.equal((app.innerHTML.match(/class="competition-group"/g)||[]).length,9,'Current season must expose the nine original regional groups');
+    assert(app.innerHTML.includes('id="competition-crete"'));
+    assert(app.innerHTML.includes('id="competition-central-macedonia"'));
+    assert(!app.innerHTML.includes('id="competition-unspecified"'));
+  }
+  if(route==='events?region=crete&season=2025-2026'){
+    assert.equal((app.innerHTML.match(/class="competition-group"/g)||[]).length,1);
+    assert(app.innerHTML.includes('id="competition-crete"'));
+    assert(app.innerHTML.includes('Play off (final four)'),'Generic document title must inherit the source region');
+    assert(!app.innerHTML.includes('Α1-Α2'),'Attica cup must not leak into Crete');
+  }
 }
 console.log(`Passed domain checks and ${routes.length*2} route/language renders.`);
 

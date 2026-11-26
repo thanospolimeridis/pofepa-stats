@@ -24,6 +24,8 @@ Athlete pages show **all linked matches** and one chronological ranking-points c
 
 ## Build and preview
 
+Competitions follow the original results site's regional groups. The latest season's team competitions open first, with region, season and record-type filters. `data/competition-regions.json` preserves the source-page heading, link label and page hash for historical competition links; regenerate it from the cached season pages with `.venv/bin/python scripts/competition_regions.py`. New collections retain the same regional context. Workbook coverage regions are not treated as competition geography; records without a specified competition region remain separately accessible.
+
 ```sh
 python3 scripts/build.py
 python3 -m http.server 8000 --directory dist

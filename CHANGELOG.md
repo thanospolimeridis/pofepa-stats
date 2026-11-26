@@ -2,6 +2,7 @@
 
 ## Prototype updates — 2026-11-26
 
+- Group competitions under POFΕPA's original regional headings, retain historical source context, and add region/season filters with the latest team competitions shown first.
 - Move the athlete ranking chart and match breakdown above match history, with section shortcuts following the page order.
 
 - Combine athlete ranking points into one chronological chart without regional or national labels; preserve distinct published values and collapse identical points for the same month. Remove the redundant full ranking table from athlete pages.
