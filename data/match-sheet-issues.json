@@ -774,5 +774,133 @@
     "reason": "conflicting_score",
     "details": "Row 7 (ΤΣΟΥΛΧΑΣ–ΣΑΛΑΜΑΛΙΚΗΣ) explicitly records 0-3, but four game scores 8-11,17-15,6-11,11-13 indicate 1-3, which is also the workbook result. The sheet total 17-12 uses the erroneous 0-3. No workbook result was overwritten.",
     "details_el": "Η γραμμή 7 (ΤΣΟΥΛΧΑΣ–ΣΑΛΑΜΑΛΙΚΗΣ) γράφει 0-3, αλλά τα τέσσερα σετ 8-11,17-15,6-11,11-13 δίνουν 1-3, όπως και το αρχείο αποτελεσμάτων. Το συνολικό 17-12 χρησιμοποιεί το λανθασμένο 0-3. Δεν αντικαταστάθηκε αποτέλεσμα του αρχείου."
+  },
+  "http://files.ping-pong.gr/FA25-26/12S-AEH.jpg": {
+    "fixture": "f-68c5f56aab117478",
+    "sha256": "2558bc8acf6fc36ca2aeedb1e5140879756895ef1fe5ac097d4fdbe5e124b7e3",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_date",
+    "details": "The date field contains only ΤΡΙΤΗ (Tuesday), with no calendar date. The nine results are legible and match workbook entries on 21 April 2026, but a dated source is needed before binding this sheet.",
+    "details_el": "Το πεδίο ημερομηνίας γράφει μόνο ΤΡΙΤΗ χωρίς ημερομηνία. Τα εννέα αποτελέσματα συμφωνούν με το βιβλίο της 21 ης Απριλίου 2026, αλλά χρειάζεται χρονολογημένη πηγή."
+  },
+  "http://files.ping-pong.gr/FA25-26/DSB-AP10.jpg": {
+    "fixture": "f-014800b7536cec30",
+    "sha256": "0d3f65d9b4c4cd33823b3c6e98744751722bc00d0d9662927187fadcf8e7eda5",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_date",
+    "details": "The DAFNI SILVER BLADES–APACHE 10 sheet has a blank date field. All six results agree with workbook entries on 20 April 2026, but the sheet itself supplies no calendar date.",
+    "details_el": "Το φύλλο DAFNI SILVER BLADES–APACHE 10 δεν έχει ημερομηνία. Τα έξι αποτελέσματα συμφωνούν με το βιβλίο της 20 ής Απριλίου 2026, αλλά χρειάζεται χρονολογημένη πηγή."
+  },
+  "http://files.ping-pong.gr/FA25-26/THB-SEB.jpg": {
+    "fixture": "f-26e67d2ee49452e7",
+    "sha256": "fff3466cd622fd5d675959bb45cf712583d18b4b070facf9a8a69b5010eb9297",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_substitution",
+    "details": "24 April 2026 sheet lists ΑΛΛΑΓΗ: ΛΕΤΣΙΟΣ ΠΑΝΑΓ. but no played row names him; all seven played rows retain original home trio ΠΑΝΤΟΣ, ΚΑΡΕΚΛΑ, ΓΙΑΝΝΑΚΟΠΟΥΛΟΣ, matching the workbook. Unable to determine whether the note lists an unused reserve or an untranscribed actual substitution.",
+    "details_el": "Το φύλλο της 24 ηςΑπριλίου 2026 αναφέρει αλλαγή ΛΕΤΣΙΟΣ ΠΑΝΑΓ., αλλά κανένας ατομικός αγώνας δεν τον κατονομάζει. Απαιτείται διευκρίνιση εάν ήταν αχρησιμοποίητος αναπληρωματικός ή πραγματοποιήθηκε αλλαγή."
+  },
+  "http://files.ping-pong.gr/FA25-26/APK-ATVff.jpg": {
+    "fixture": "f-2c0618aa0824e196",
+    "sha256": "594fdc4438cac823345afb60b2b4cc7db7aee775e3207cd7d721d9e2ccaee798",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_teams",
+    "details": "5 April 2026 sheet lists ΑΠΡΟΠΟΝΗΤΟΙ ΚΟΖΑΝΗΣ home and ΑΙΘΕΡΟΒΑΜΟΝΕΣ away, ending 3-5 with ΑΙΘΕΡΟΒΑΜΟΝΕΣ declared winner. Team-results fixture reverses team order but keeps 3-5, contradicting winner/orientation. Five played rubbers plus three explicit home-C walkovers are legible; source fixture requires correction before import.",
+    "details_el": "Το φύλλο 5 Απριλίου 2026 αναφέρει ΑΠΡΟΠΟΝΗΤΟΙ–ΑΙΘΕΡΟΒΑΜΟΝΕΣ 3–5, με νικητές τους ΑΙΘΕΡΟΒΑΜΟΝΕΣ. Ο πίνακας αντιστρέφει τις ομάδες αλλά κρατά το 3–5. Απαιτείται διευκρίνιση της σειράς ομάδων και του νικητή."
+  },
+  "http://files.ping-pong.gr/FA25-26/IPP-KLN.jpg": {
+    "fixture": "f-34e2d395fb3b44aa",
+    "sha256": "39a417034319af94f93dd4d2644c75e83f960dbc8f16ad7fdaafc887bb49199f",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The signed sheet is dated 2026-04-19, but the matching played rubbers are recorded on 2026-05-01 in the results workbook. Reimporting them on the sheet date would duplicate existing results; the date conflict requires source reconciliation. No workbook result was changed.",
+    "details_el": "Το υπογεγραμμένο φύλλο έχει ημερομηνία 19/04/2026, αλλά οι ίδιοι ατομικοί αγώνες καταγράφονται την 01/05/2026 στο αρχείο αποτελεσμάτων. Η εισαγωγή με τη διαφορετική ημερομηνία θα δημιουργούσε διπλές εγγραφές. Απαιτείται συμφωνία των πηγών· δεν τροποποιήθηκαν αποτελέσματα."
+  },
+  "http://files.ping-pong.gr/FA25-26/KVR-FNF.jpg": {
+    "fixture": "f-c692de28522b3b43",
+    "sha256": "6b514811d92382ee8b971c4f4c0f0a2fcd5522fb8b5235b1c0a90bf5be13de77",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The linked sheet clearly gives 2025-12-14, whereas the same six pairings and scores are already recorded on 2026-05-01 in the results workbook. This may be an incorrectly linked earlier sheet or a workbook date error; do not create duplicate results or overwrite dates without reconciliation.",
+    "details_el": "Το συνδεδεμένο φύλλο γράφει σαφώς 14/12/2025, ενώ τα ίδια έξι ζευγάρια και σκορ υπάρχουν ήδη στο αρχείο αποτελεσμάτων με ημερομηνία 01/05/2026. Ενδέχεται να έχει συνδεθεί παλαιότερο φύλλο ή να είναι λανθασμένη η ημερομηνία του αρχείου. Δεν δημιουργήθηκαν διπλές εγγραφές ούτε άλλαξαν ημερομηνίες."
+  },
+  "http://files.ping-pong.gr/FA25-26/EAI-APKff.jpg": {
+    "fixture": "f-3902e0c56ede565b",
+    "sha256": "3f2f513bb3fee79d6a195ced25bca2803b917a16225ff8624a57431e1ddf5205",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "The sheet clearly finishes 5-2, with five played rubbers 13,30,13,30,30 plus two home walkover wins in rows 2 and 6; its five played results match the workbook. The linked team-results fixture instead records 5-1. Importer validation rejects this inconsistent team total; no result was changed.",
+    "details_el": "Το φύλλο τελειώνει σαφώς 5-2: πέντε παιγμένοι αγώνες με σκορ 1-3,3-0,1-3,3-0,3-0 και δύο νίκες άνευ αγώνος στις γραμμές 2 και 6. Οι πέντε παιγμένοι αγώνες συμφωνούν με το αρχείο αποτελεσμάτων, αλλά η συνδεδεμένη ομαδική συνάντηση γράφει 5-1. Η ασυμφωνία εμποδίζει την επαλήθευση· δεν άλλαξε αποτέλεσμα."
+  },
+  "http://files.ping-pong.gr/FA25-26/SWV-FLE.jpg": {
+    "fixture": "f-834f505c99394371",
+    "sha256": "3a1bbf70f3a8cab7ff76cddbb9c2246ef9570a816aa6cdf04551a76df07abc30",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The sheet explicitly dates 30 March 2025; all six matching workbook results are 30 March 2026. Prior-season search finds no matching 2025 rubbers and a different 4-0 team fixture, but that does not independently establish a year typo. Hold adjacent-year conflict pending source reconciliation; full transcription retained separately.",
+    "details_el": "Το φύλλο γράφει 30/03/2025, ενώ οι έξι ίδιοι αγώνες του αρχείου αποτελεσμάτων έχουν ημερομηνία 30/03/2026. Δεν βρέθηκαν αντίστοιχοι αγώνες το 2025 και η παλαιότερη ομαδική συνάντηση έχει διαφορετικό σκορ 4-0, αλλά αυτά δεν αποδεικνύουν ανεξάρτητα λάθος στο έτος. Η εγγραφή αναμένει συμφωνία των πηγών."
+  },
+  "http://files.ping-pong.gr/FA25-26/ATR-VLD.jpg": {
+    "fixture": "f-68abb6566a016d16",
+    "sha256": "6f9e3ceb015cada907eda4790d0433d41f7c846f73c08939eda20de8da901caf",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "4 April 2026 row 6 ΓΙΑΝΝΟΠΟΥΛΟΣ–ΣΑΦΡΙΔΗΣ is written 3-0, but four games (11-4, 5-11, 13-11, 11-3) and the workbook support 3-1. Held pending clarification.",
+    "details_el": "Στις 4 Απριλίου 2026, το έκτο αποτέλεσμα ΓΙΑΝΝΟΠΟΥΛΟΣ–ΣΑΦΡΙΔΗΣ αναγράφεται 3–0, ενώ τα τέσσερα σετ και το βιβλίο δίνουν 3–1. Απαιτείται διευκρίνιση."
+  },
+  "http://files.ping-pong.gr/FA25-26/IE2-GRG.jpg": {
+    "fixture": "f-cc1aef79229a9c4e",
+    "sha256": "313aeec9b9972feb4e56ac6608288c48e591f81d3dafe9bb8b0283abecd7544a",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_date",
+    "details": "The ΙΕΡΑΠΕΤΡΑ 2–ΓΕΡΓΕΡΗ image has no date, team labels, rubber totals or final result. Played game cells alone do not establish a complete dated review.",
+    "details_el": "Η εικόνα ΙΕΡΑΠΕΤΡΑ 2–ΓΕΡΓΕΡΗ δεν έχει ημερομηνία, ονόματα ομάδων, αποτελέσματα αγώνων ή τελικό σκορ. Χρειάζεται πλήρες χρονολογημένο φύλλο."
+  },
+  "http://files.ping-pong.gr/FA25-26/KLN-GSM.jpg": {
+    "fixture": "f-0fc19575f11ff3a8",
+    "sha256": "9baa44c6a102aadf921c6d3ba8bcd77a1ee0f0f58d22b024b48e8b26b13d0def",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The sheet is dated 29 March 2026, but all seven pair/score combinations already occur in the workbook on 3 May 2026. Held to avoid duplicating the same team encounter under a different date.",
+    "details_el": "Το φύλλο γράφει 29 Μαρτίου 2026, αλλά και τα επτά ίδια ζεύγη και σκορ υπάρχουν στο βιβλίο στις 3 Μαΐου 2026. Χρειάζεται διευκρίνιση ημερομηνίας για αποφυγή διπλοεγγραφών."
+  },
+  "http://files.ping-pong.gr/FA25-26/SPN-IPP.jpg": {
+    "fixture": "f-8c0eabbdc94e258e",
+    "sha256": "b77b9fbbaf7bc50a4c2d4c23e959d28a2b2a5f775907055b16f467ef24fe6a02",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The sheet is dated 29 March 2026, while the same five played pair/score combinations are recorded in the workbook on 2 April 2026. Held pending source date reconciliation; three additional rows are walkovers.",
+    "details_el": "Το φύλλο γράφει 29 Μαρτίου 2026, ενώ τα πέντε ίδια παιγμένα αποτελέσματα καταχωρίζονται στο βιβλίο στις 2 Απριλίου 2026. Χρειάζεται διευκρίνιση ημερομηνίας· τρεις ακόμη γραμμές είναι άνευ αγώνα."
+  },
+  "http://files.ping-pong.gr/FA25-26/XRV-KVR.jpg": {
+    "fixture": "f-def39329adfee8b9",
+    "sha256": "f16d76da4f349114587c88ca7b7ee93e361fbc08e7f3578c90960aea39eafb39",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The image reads 7/2/2025, whereas all six matching player/score rows occur in the workbook on 7 February 2026 and this is linked from a 2025–26 fixture. The year must be clarified, not silently corrected.",
+    "details_el": "Η εικόνα γράφει 7/2/2025, ενώ τα έξι ίδια αποτελέσματα υπάρχουν στο βιβλίο στις 7 Φεβρουαρίου 2026 και ο σύνδεσμος ανήκει στη σεζόν 2025–26. Απαιτείται επιβεβαίωση του έτους."
+  },
+  "http://files.ping-pong.gr/FA25-26/MGP-VOL.jpg": {
+    "fixture": "f-01d0dd1f26a1c0ca",
+    "sha256": "d0d3f14a6ee261eb683712d342856a497443b378d5eed66a90d9a08072045f78",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "9 May 2026 row 1 ΑΓΙΑΝΟΓΛΟΥ–ΠΕΤΡΟΠΟΥΛΟΣ has an ambiguous corrected away score that resembles 0, while four games and workbook support 3-1. Held until the written rubber total is clarified.",
+    "details_el": "Στις 9 Μαΐου 2026, το πρώτο αποτέλεσμα ΑΓΙΑΝΟΓΛΟΥ–ΠΕΤΡΟΠΟΥΛΟΣ έχει δυσανάγνωστη διόρθωση στο σκορ του φιλοξενούμενου. Τα τέσσερα σετ και το βιβλίο δίνουν 3–1. Απαιτείται διευκρίνιση."
+  },
+  "http://files.ping-pong.gr/FA25-26/ETH-V3V.jpg": {
+    "fixture": "f-b503d36205981230",
+    "sha256": "ee43e1137e9b3475f4ea209d19b7d4649cd3557e043b18f56f202c08d0b17602",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "17 April 2026 ETHNIKOS TTC–Veterans 3 B sheet ends 5-2 over seven rubbers, whereas the linked fixture records 5-1. All four played individual results agree with the workbook; three away-Z absences are walkovers. Row 6 is 3-1 from four game scores and the 15-7 final set total. Team result conflict needs reconciliation before accepting this sheet.",
+    "details_el": "Το φύλλο της 17 ηςΑπριλίου 2026 καταγράφει 5–2 σε επτά αγώνες, ενώ ο συνδεδεμένος ομαδικός αγώνας αναφέρει 5–1. Οι τέσσερις παιγμένοι αγώνες συμφωνούν με το βιβλίο και οι τρεις υπόλοιποι είναι άνευ αγώνα. Απαιτείται συμφωνία του ομαδικού σκορ."
+  },
+  "http://files.ping-pong.gr/FA25-26/VKI-RHC.jpg": {
+    "fixture": "f-b1e06893d2638f0d",
+    "sha256": "897edf62365e4733a2d5a54f2c7416fae6561ee185a69bbf35d941a56c777cad",
+    "reviewed_at": "2026-11-26",
+    "reason": "missing_date",
+    "details": "VΚI–RED HOT CHILI PONGERS sheet has a completely blank date field. Seven played rubbers are legible, final 2-5. No played date inferred from the fixture round or results workbook.",
+    "details_el": "Το φύλλο Βετεράνοι Κεφαλονιάς-Ιθάκης–RED HOT CHILI PONGERS έχει κενό πεδίο ημερομηνίας. Επτά αγώνες διακρίνονται με τελικό 2–5, αλλά απαιτείται τεκμηρίωση της πραγματικής ημερομηνίας."
   }
 }

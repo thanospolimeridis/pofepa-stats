@@ -71,7 +71,8 @@
    "key": "fixtures",
    "type": "list",
    "files": [
-    "fixtures-000.jsonl"
+    "fixtures-000.jsonl",
+    "fixtures-001.jsonl"
    ]
   },
   {
