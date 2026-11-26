@@ -390,5 +390,29 @@
     "reason": "unresolved_identity",
     "details": "Home starters ΓΙΑΧΑΕΦ Γ. (2984) and ΓΙΑΧΑΕΦ Λ. (2985) have no confirmed existing profiles. Do not attach their results to another ΓΙΑΧΑΕΒ athlete.",
     "details_el": "Οι ΓΙΑΧΑΕΦ Γ. (2984) και ΓΙΑΧΑΕΦ Λ. (2985) δεν έχουν επιβεβαιωμένα υπάρχοντα προφίλ. Δεν αποδίδονται τα αποτελέσματά τους σε άλλον αθλητή ΓΙΑΧΑΕΒ."
+  },
+  "http://files.ping-pong.gr/FA26-27/ATR-F91.jpg": {
+    "fixture": "f-027fe5eef33835f9",
+    "sha256": "8a47ab15623d4368c81c8cdd6a50343d250c8ecd8708e2b62257f5682b93ccf1",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The participant written as ΝΙΚΟΣ ΦΙΛΙΠΠΟΥ with registration 2804 could not be matched to an existing ranking or prior-result profile.",
+    "details_el": "Ο αθλητής ΝΙΚΟΣ ΦΙΛΙΠΠΟΥ με γραμμένο ΔΑΙ 2804 δεν συνδέθηκε με υπάρχον προφίλ κατάταξης ή προηγούμενου αποτελέσματος."
+  },
+  "http://files.ping-pong.gr/FA26-27/SPN-GRG.jpg": {
+    "fixture": "f-1abe6526ed1fcc5f",
+    "sha256": "3df1de9e069f85ab00720a9796418934cce9dd703115100fe2246c1010d04666",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Two ΓΕΡΓΕΡΗ participants are written only as ΜΙΧΑΛΗΣ and ΖΑΧΟΣ Ι, without registrations or enough identity evidence.",
+    "details_el": "Δύο αθλητές της ΓΕΡΓΕΡΗΣ γράφονται μόνο ως ΜΙΧΑΛΗΣ και ΖΑΧΟΣ Ι, χωρίς ΔΑΙ ή επαρκή στοιχεία ταυτοποίησης."
+  },
+  "http://files.ping-pong.gr/FA26-27/AIG-CDR.jpg": {
+    "fixture": "f-180dc83e50ffc8df",
+    "sha256": "53cb08f8bec998c1fb71cbd7a2f54e4199b2154b12b0c6b6d55c58d71fd26f0a",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΜΟΥΧΤΟΥΡΗΣ has no first name or registration. The existing ΝΙΚΟΛΑΟΣ ΜΟΥΧΤΟΥΡΗΣ profile is associated with another team; no CRETAN DENTISTS identity evidence was found.",
+    "details_el": "Ο ΜΟΥΧΤΟΥΡΗΣ δεν έχει μικρό όνομα ή ΔΑΙ. Το υπάρχον προφίλ ΝΙΚΟΛΑΟΣ ΜΟΥΧΤΟΥΡΗΣ ανήκει σε άλλη ομάδα και δεν βρέθηκε τεκμηρίωση σύνδεσης με CRETAN DENTISTS."
   }
 }

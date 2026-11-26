@@ -139,14 +139,14 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 137263,
+ "matches": 137352,
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
  "fixtures": 20375,
  "reported_fixtures": 17118,
  "ranking_rows": 742275,
- "events": 939,
+ "events": 941,
  "match_date_min": "2011-10-26",
  "match_date_max": "2026-11-24",
  "excluded_rows": {
@@ -160,8 +160,8 @@
   "bonus": 1807
  },
  "identity_methods": {
-  "sheet_registration": 1163,
-  "reviewed_sheet_name_and_team": 417,
+  "sheet_registration": 1201,
+  "reviewed_sheet_name_and_team": 557,
   "unique_name_in_month": 45112,
   "exact_name_and_team": 182512,
   "unique_name_team_differs": 32029,
@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 187,
-  "imported_sheets": 138,
-  "held": 49,
-  "pending": 13324,
+  "reviewed": 205,
+  "imported_sheets": 153,
+  "held": 52,
+  "pending": 13306,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6072,9 +6072,39 @@
     "reason": "unresolved_identity",
     "details": "Home starters ΓΙΑΧΑΕΦ Γ. (2984) and ΓΙΑΧΑΕΦ Λ. (2985) have no confirmed existing profiles. Do not attach their results to another ΓΙΑΧΑΕΒ athlete.",
     "details_el": "Οι ΓΙΑΧΑΕΦ Γ. (2984) και ΓΙΑΧΑΕΦ Λ. (2985) δεν έχουν επιβεβαιωμένα υπάρχοντα προφίλ. Δεν αποδίδονται τα αποτελέσματά τους σε άλλον αθλητή ΓΙΑΧΑΕΒ."
+   },
+   {
+    "source": "s-efbf179ca35e06f6",
+    "url": "http://files.ping-pong.gr/FA26-27/ATR-F91.jpg",
+    "fixture": "f-027fe5eef33835f9",
+    "sha256": "8a47ab15623d4368c81c8cdd6a50343d250c8ecd8708e2b62257f5682b93ccf1",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The participant written as ΝΙΚΟΣ ΦΙΛΙΠΠΟΥ with registration 2804 could not be matched to an existing ranking or prior-result profile.",
+    "details_el": "Ο αθλητής ΝΙΚΟΣ ΦΙΛΙΠΠΟΥ με γραμμένο ΔΑΙ 2804 δεν συνδέθηκε με υπάρχον προφίλ κατάταξης ή προηγούμενου αποτελέσματος."
+   },
+   {
+    "source": "s-0a7dd15e586c9859",
+    "url": "http://files.ping-pong.gr/FA26-27/SPN-GRG.jpg",
+    "fixture": "f-1abe6526ed1fcc5f",
+    "sha256": "3df1de9e069f85ab00720a9796418934cce9dd703115100fe2246c1010d04666",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Two ΓΕΡΓΕΡΗ participants are written only as ΜΙΧΑΛΗΣ and ΖΑΧΟΣ Ι, without registrations or enough identity evidence.",
+    "details_el": "Δύο αθλητές της ΓΕΡΓΕΡΗΣ γράφονται μόνο ως ΜΙΧΑΛΗΣ και ΖΑΧΟΣ Ι, χωρίς ΔΑΙ ή επαρκή στοιχεία ταυτοποίησης."
+   },
+   {
+    "source": "s-a57900bb1a1bc5f2",
+    "url": "http://files.ping-pong.gr/FA26-27/AIG-CDR.jpg",
+    "fixture": "f-180dc83e50ffc8df",
+    "sha256": "53cb08f8bec998c1fb71cbd7a2f54e4199b2154b12b0c6b6d55c58d71fd26f0a",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΜΟΥΧΤΟΥΡΗΣ has no first name or registration. The existing ΝΙΚΟΛΑΟΣ ΜΟΥΧΤΟΥΡΗΣ profile is associated with another team; no CRETAN DENTISTS identity evidence was found.",
+    "details_el": "Ο ΜΟΥΧΤΟΥΡΗΣ δεν έχει μικρό όνομα ή ΔΑΙ. Το υπάρχον προφίλ ΝΙΚΟΛΑΟΣ ΜΟΥΧΤΟΥΡΗΣ ανήκει σε άλλη ομάδα και δεν βρέθηκε τεκμηρίωση σύνδεσης με CRETAN DENTISTS."
    }
   ],
-  "imported": 790,
+  "imported": 879,
   "corroborated": 129,
   "excluded_walkovers": 16,
   "reviews": [
@@ -7328,6 +7358,141 @@
     "date": "2026-10-27",
     "season": "2026-2027",
     "corroborated": 9,
+    "notes": ""
+   },
+   {
+    "source": "s-be00940523b0c81a",
+    "url": "http://files.ping-pong.gr/FA26-27/KLN-MKM.jpg",
+    "fixture": "f-2bc86a60306eaff5",
+    "date": "2026-11-21",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": "Actual date written on the sheet is 21 November; all six registration numbers identify the participants."
+   },
+   {
+    "source": "s-5dd97343424c411a",
+    "url": "http://files.ping-pong.gr/FA26-27/ELE-FRT.jpg",
+    "fixture": "f-30f30ce74b3631a8",
+    "date": "2026-11-09",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-2f490a79bc584e93",
+    "url": "http://files.ping-pong.gr/FA26-27/RCL-GLN.jpg",
+    "fixture": "f-a54a9d17ae52ee45",
+    "date": "2026-11-09",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": "Row 5 corrected total is 1-3, also confirmed by its four game scores and the 5-15 game total."
+   },
+   {
+    "source": "s-3ad97788d5d14151",
+    "url": "http://files.ping-pong.gr/FA26-27/RSF-NRX.jpg",
+    "fixture": "f-f92e0b8d67fd2c45",
+    "date": "2026-11-07",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-c883027ab7eceaa1",
+    "url": "http://files.ping-pong.gr/FA26-27/PVV-THB.jpg",
+    "fixture": "f-11e5c9f2c3c57cab",
+    "date": "2026-11-06",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-8675a72ebdbe1e09",
+    "url": "http://files.ping-pong.gr/FA26-27/LMN-ASE.jpg",
+    "fixture": "f-cd77f7522172e774",
+    "date": "2026-11-06",
+    "season": "2026-2027",
+    "imported": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-c90eced57b69f308",
+    "url": "http://files.ping-pong.gr/FA26-27/RBL-PLG.jpg",
+    "fixture": "f-0657809ca3d30b4f",
+    "date": "2026-11-05",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": "Five completed rows; row 6 has no final score and is crossed out. ΘΕΟΔΩΡΙΔΗΣ has no printed registration and resolves by name and team."
+   },
+   {
+    "source": "s-e76f5aea3fd00e02",
+    "url": "http://files.ping-pong.gr/FA26-27/PET-MAE.jpg",
+    "fixture": "f-0a1928e46188e738",
+    "date": "2026-11-05",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-959c82609f22614d",
+    "url": "http://files.ping-pong.gr/FA26-27/PM3-SWV.jpg",
+    "fixture": "f-a86973a4f7c07ba9",
+    "date": "2026-11-05",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-85f912d9469f06dc",
+    "url": "http://files.ping-pong.gr/FA26-27/LBH-ECG.jpg",
+    "fixture": "f-c13acce4f9c5a0c9",
+    "date": "2026-11-05",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": "ΠΑΛΤΣΙΔΗΣ replaces ΛΥΜΠΟΥΔΗΣ in row 4, as written in the match row and substitution note."
+   },
+   {
+    "source": "s-0c233204334c5b31",
+    "url": "http://files.ping-pong.gr/FA26-27/THE-25o.jpg",
+    "fixture": "f-1adbf86b23bedd00",
+    "date": "2026-11-04",
+    "season": "2026-2027",
+    "imported": 8,
+    "notes": "Sheet gives 4/11; year comes from the linked 2026-2027 fixture."
+   },
+   {
+    "source": "s-518bd546a198b01f",
+    "url": "http://files.ping-pong.gr/FA26-27/NAU-FLE.jpg",
+    "fixture": "f-321177b10e320729",
+    "date": "2026-11-04",
+    "season": "2026-2027",
+    "imported": 7,
+    "notes": "ΛΑΖΑΡΙΔΗΣ replaces ΜΑΛΙΣΟΒΑΣ in rows 5 and 7, confirmed by the substitution note."
+   },
+   {
+    "source": "s-b8fe43cba488afbd",
+    "url": "http://files.ping-pong.gr/FA26-27/6BK-APR.jpg",
+    "fixture": "f-f316ae2c437da42f",
+    "date": "2026-11-04",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-c0a3ecdd448c65cc",
+    "url": "http://files.ping-pong.gr/FA26-27/KVE-PM4.jpg",
+    "fixture": "f-1397f9729b3038a5",
+    "date": "2026-11-04",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-d5e84874d4b14278",
+    "url": "http://files.ping-pong.gr/FA26-27/BBL-ATK.jpg",
+    "fixture": "f-1f5c5bbfbccf8eba",
+    "date": "2026-11-04",
+    "season": "2026-2027",
+    "imported": 8,
     "notes": ""
    }
   ]
