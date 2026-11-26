@@ -161,14 +161,19 @@ window.pofepaReady = (async () => {
     return db.recent_matches;
   }
   let renderSerial=0;
+  function renderError(error,reload=false){
+    app.innerHTML=header()+`<main id="main" class="wrap main"><h1>${L('Αδυναμία φόρτωσης','Unable to load data')}</h1><p>${reload?L('Ανανεώστε τη σελίδα για να φορτώσετε ξανά το αρχείο.','Reload the page to load the archive again.'):L('Δοκιμάστε ξανά.','Please retry.')}</p><button id="${reload?'reload':'retry'}">${reload?L('Ανανέωση σελίδας','Reload page'):L('Επανάληψη','Retry')}</button></main>`;
+    console.error(error);
+  }
   async function render(){const serial=++renderSerial;current=route();document.documentElement.lang=lang;
     const pending=prepareView(current);
     if(db.lazy)app.innerHTML=header()+`<main id="main" class="wrap main"><p role="status">${L('Φόρτωση αρχείου…','Loading archive…')}</p></main>`;
-    let loaded;try{loaded=await pending;}catch(error){if(serial===renderSerial)app.innerHTML=header()+`<main id="main" class="wrap main"><h1>${L('Αδυναμία φόρτωσης','Unable to load data')}</h1><p>${L('Δοκιμάστε ξανά.','Please retry.')}</p><button id="retry">${L('Επανάληψη','Retry')}</button></main>`;console.error(error);return;}
+    let loaded;try{loaded=await pending;}catch(error){if(serial===renderSerial)renderError(error);return;}
     if(serial!==renderSerial)return;db.matches=loaded;
 
     const view={home,rankings,players:playerList,player:()=>playerDetail(current.id),matches:matchList,events:eventList,event:()=>eventDetail(current.id),teams:teamList,team:()=>teamDetail(current.id),h2h:compare,about}[current.name]||notFound;
-    const body=view();document.title=(players.get(current.id)?.name||events.get(current.id)?.name||clubs.get(current.id)?.name||navItems.find(n=>n[0]===current.name)?.[lang==='el'?1:2]||L('Κάλυψη & πηγές','Coverage & sources'))+' · POFEPA Stats';
+    let body;try{body=view();}catch(error){renderError(error,true);return;}
+    document.title=(players.get(current.id)?.name||events.get(current.id)?.name||clubs.get(current.id)?.name||navItems.find(n=>n[0]===current.name)?.[lang==='el'?1:2]||L('Κάλυψη & πηγές','Coverage & sources'))+' · POFEPA Stats';
     app.innerHTML=header()+(current.name==='home'?body:`<main id="main" class="wrap main">${body}</main>`)+`<footer class="footer"><div class="wrap footer-inner"><div><b>POFEPA STATS</b> · ${db.version==='prototype'?L('Πρωτότυπο','Prototype'):'v'+E(db.version)}<br>${L('Ανεξάρτητο αρχείο · όχι επίσημη υπηρεσία ΠΟΦΕΠΑ.','Independent archive · not an official POFΕPA service.')}</div><div>${link('about',L('Κάλυψη & πηγές','Coverage & sources'))}${external('https://www.pofepa.gr/','pofepa.gr')}${external('https://thanospolimeridis.github.io/greek-tt-stats/','Greek TT Archive')}</div></div></footer>`;
   }
   async function updateFilter(name,value){const focus=document.activeElement?.id;let pos;try{pos=document.activeElement.selectionStart;}catch{}
@@ -182,6 +187,7 @@ window.pofepaReady = (async () => {
   app.addEventListener('change',event=>{if(event.target.matches('select[data-filter]'))updateFilter(event.target.dataset.filter,event.target.value);});
   app.addEventListener('click',event=>{const button=event.target.closest('button');if(!button)return;
     if(button.id==='retry')render();
+    if(button.id==='reload')location.reload();
     if(button.id==='lang'){lang=lang==='el'?'en':'el';try{localStorage.setItem('pofepa-lang',lang);}catch{}render();}
     if(button.dataset.page!==undefined)updateFilter(button.dataset.pageKey||'page',button.dataset.page);
     if(button.dataset.export)exportData(button.dataset.export,button.dataset.id);
