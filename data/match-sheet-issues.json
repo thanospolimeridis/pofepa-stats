@@ -318,5 +318,21 @@
     "reason": "conflicting_participant",
     "details": "Row 5 names ΜΠΡΙΣΚΟΛΑΣ ΧΑΡΑΛΑΜΠΟΣ (405), but the existing October workbook records ΜΠΡΙΣΚΟΛΑΣ ΓΕΩΡΓΙΟΣ (2496) against the same opponent with the same result. Hold the sheet rather than adding a duplicate or changing an existing identity.",
     "details_el": "Η γραμμή 5 γράφει ΜΠΡΙΣΚΟΛΑΣ ΧΑΡΑΛΑΜΠΟΣ (405), ενώ το Excel αναφέρει ΜΠΡΙΣΚΟΛΑΣ ΓΕΩΡΓΙΟΣ (2496) με ίδιο αντίπαλο και σκορ. Εκκρεμεί επίλυση της διαφοράς."
+  },
+  "http://files.ping-pong.gr/FA26-27/SF2-TMX.jpg": {
+    "sha256": "fdf42ed658e916dada9352e4dbe813c037f0c4f1d21db46024d3a4c75a861c8d",
+    "fixture": "f-3f5ff7f092eb698f",
+    "reviewed_at": "2026-11-26",
+    "reason": "missing_date",
+    "details": "The date field is blank; the round range and deadline do not establish the actual playing date.",
+    "details_el": "Το πεδίο ημερομηνίας είναι κενό. Η αγωνιστική και η προθεσμία δεν τεκμηριώνουν την πραγματική ημερομηνία διεξαγωγής."
+  },
+  "http://files.ping-pong.gr/FA26-27/MB2-FRB.jpg": {
+    "sha256": "d790ed4cc4eb97fa2344358875ccbaeaf9faf15655d9a1b687369f4f2250373c",
+    "fixture": "f-c68db18a8cafd915",
+    "reviewed_at": "2026-11-26",
+    "reason": "uncertain_date",
+    "details": "The sheet is dated 7/10 but is linked from round 3 (26 October–1 November), with a 12 November deadline. No matching October workbook results corroborate that date; confirm whether October or November was intended. ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ has no verified registration profile for the handwritten 2662.",
+    "details_el": "Το φύλλο γράφει 7/10 αλλά συνδέεται με την 3η αγωνιστική (26/10–1/11) και προθεσμία 12/11. Δεν υπάρχουν αντίστοιχα αποτελέσματα στο Excel Οκτωβρίου. Εκκρεμούν επιβεβαίωση μήνα και ταυτοποίηση του ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ (χειρόγραφο 2662)."
   }
 }
