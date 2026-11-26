@@ -2,11 +2,13 @@
 
 ## Prototype updates — 2026-11-26
 
+- Move the athlete ranking chart and match breakdown above match history, with section shortcuts following the page order.
+
 - Combine athlete ranking points into one chronological chart without regional or national labels; preserve distinct published values and collapse identical points for the same month. Remove the redundant full ranking table from athlete pages.
 
 - Defer team fixtures and detailed source reports until their pages are opened, reducing the compressed initial data package by 68.6% while retaining the complete offline archive.
 - Expose reviewed match corrections and their evidence in match history and CSV exports; show readable match cards on narrow screens.
-- Bring athlete match history above the ranking chart, add accessible section shortcuts, and paginate matches in compact ten-row pages while retaining all history.
+- Add accessible athlete section shortcuts and paginate matches in compact ten-row pages while retaining all history.
 
 - Complete review of every available 2025–26 match sheet, publish per-season coverage, and track unavailable source files separately.
 - Correct source-verified dates, scores and participants while preserving original workbook records; reconcile explicit no-play awards without removing played retirements.

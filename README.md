@@ -20,7 +20,7 @@ The results menu is inventoried for every listed season, from 2007–2008 throug
 
 Rankings remain separated into **North Greece**, **Attica & South Greece**, and **Nationwide**, then into the source's age brackets. September 2026 onward uses the unified national rankings. Historical age-sheet titles are normalized (`ΑΝΕΞΑΡΤΗΤΟΙ` → `ANE`, `ΒΕΤΕΡΑΝΟΙ` → `BET`), with original worksheet names retained for evidence. Positions are never recalculated from a filtered overall ranking. Tied positions and unranked source entries are preserved. Birth years are not published.
 
-Athlete pages show **all linked matches** and one chronological ranking-points chart, combining published general-ranking points without regional or national labels. Identical month/value pairs appear once; distinct published values are preserved. There are no region or age selectors or detailed ranking tables on athlete pages. Match statistics default to all seasons, with recent matches first, section shortcuts and ten matches per page. The dedicated rankings page retains every region and age category.
+Athlete pages show **all linked matches** and one chronological ranking-points chart, combining published general-ranking points without regional or national labels. Identical month/value pairs appear once; distinct published values are preserved. There are no region or age selectors or detailed ranking tables on athlete pages. The ranking chart and match breakdown appear above match history, with section shortcuts in the same order. Match statistics default to all seasons, and match history shows the newest results first with ten matches per page. The dedicated rankings page retains every region and age category.
 
 ## Build and preview
 
