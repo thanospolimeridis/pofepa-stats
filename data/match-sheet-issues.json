@@ -1,0 +1,98 @@
+{
+  "http://files.ping-pong.gr/FA26-27/TPZ-PRD.jpg": {
+    "fixture": "f-995ba332d95664bc",
+    "sha256": "4b172d43474f34827e652062509ee7c8772130ccbf0f4160c58744aff3bb07a8",
+    "reviewed_at": "2026-11-26",
+    "reason": "incomplete_roster",
+    "details": "The away Y position is blank and two administrative rubbers need explicit absent-player handling. No singles imported from this sheet yet.",
+    "details_el": "Κενή θέση Υ και δύο αγώνες άνευ αγώνα. Εκκρεμεί ο έλεγχος των συμμετεχόντων."
+  },
+  "http://files.ping-pong.gr/FA26-27/XLR-TNX.jpg": {
+    "fixture": "f-a3bbd240b96ef88e",
+    "sha256": "0f286040c5945ae8edb9c8c5a58a2cd83d1af4df8ec370d95436380a00bd95d8",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Two handwritten participants could not yet be matched confidently to existing athlete profiles.",
+    "details_el": "Δύο χειρόγραφες ταυτότητες δεν έχουν συνδεθεί με βεβαιότητα."
+  },
+  "http://files.ping-pong.gr/FA26-27/EM2-AP1.jpg": {
+    "fixture": "f-8f8b267d2d871669",
+    "sha256": "2eb80b885034f83b274b344977937948faebe97a97504a7885c72835f5e76565",
+    "reviewed_at": "2026-11-26",
+    "reason": "future_date",
+    "details": "The sheet is dated 13/12, later than the 26 November source check. The scheduled round cannot establish an alternative play date.",
+    "details_el": "Το φύλλο γράφει 13/12, μετά την ημερομηνία ελέγχου. Δεν χρησιμοποιείται η ημερομηνία του προγράμματος."
+  },
+  "http://files.ping-pong.gr/FA26-27/LGD-RSP.jpg": {
+    "fixture": "f-f74ee350c849d4aa",
+    "sha256": "cd798a435e8cc1771b7b4c1db8592c391fb758aa09e9383dfeda20dc5fdf7234",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_rubbers",
+    "details": "Eight scored rubbers are written for a reported 5–2 team result; a rubber score also conflicts with its game points.",
+    "details_el": "Οκτώ ατομικά σκορ για ομαδικό αποτέλεσμα 5–2 και ασυμφωνία επιμέρους πόντων."
+  },
+  "http://files.ping-pong.gr/FA26-27/PM18-AP6.jpg": {
+    "fixture": "f-6440982973bdfda7",
+    "sha256": "e2e401b5178623447609475ba06b21de6bebc11335e6cf5eb2cecfc1b2d30eb9",
+    "reviewed_at": "2026-11-26",
+    "reason": "missing_day",
+    "details": "Only November 2026 is written in the date field; the actual day is missing.",
+    "details_el": "Αναφέρεται μόνο Νοέμβριος 2026, χωρίς ημέρα διεξαγωγής."
+  },
+  "http://files.ping-pong.gr/FA26-27/WFT-12S.jpg": {
+    "fixture": "f-93f44e932e010560",
+    "sha256": "0dfd9f141473eb9ef6381b1bef07010aa2c2cc68b6fc92cd8676d66b2c758ffa",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "The first rubber is recorded as 3–2 while its written game points indicate 2–3.",
+    "details_el": "Το πρώτο ατομικό σκορ είναι 3–2, αλλά οι γραμμένοι πόντοι δείχνουν 2–3."
+  },
+  "http://files.ping-pong.gr/FA26-27/PPC-AN4.jpg": {
+    "fixture": "f-93564fb460d6cdda",
+    "sha256": "b88d1b1435a9c42ca762a25e02c978be400d0ea4b1d36111c190b5421f61dd88",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_date",
+    "details": "The handwritten November day is unclear. Confirm the actual date before import.",
+    "details_el": "Δεν διακρίνεται με βεβαιότητα η χειρόγραφη ημέρα του Νοεμβρίου."
+  },
+  "http://files.ping-pong.gr/FA26-27/THB-INS.jpg": {
+    "fixture": "f-51f46656d09a2a5b",
+    "sha256": "74027f9ea670dd1300ce27a8058d8ca1ab1f53f423aad6548d544d6857e9ecd8",
+    "reviewed_at": "2026-11-26",
+    "reason": "future_date",
+    "details": "The sheet appears dated 28/11/2026, later than the 26 November source check.",
+    "details_el": "Το φύλλο φαίνεται να γράφει 28/11/2026, μετά την ημερομηνία ελέγχου."
+  },
+  "http://files.ping-pong.gr/FA26-27/L08-ATD.jpg": {
+    "fixture": "f-f83edeaf9e12b5d6",
+    "sha256": "4d7b37af7ee234ebdc8d80fcdbff71a2da1c92dee8f0a64d90ddf1fe89e422bd",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The opening home player could not yet be matched confidently to an existing athlete profile.",
+    "details_el": "Δεν έχει επιβεβαιωθεί η ταυτότητα του πρώτου αθλητή της γηπεδούχου."
+  },
+  "http://files.ping-pong.gr/FA26-27/SFS-FLR.jpg": {
+    "fixture": "f-67cd49c76550d1a3",
+    "sha256": "155506c2bede523b0ef539962fe2094827029be656031ba16388611bcab8e887",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_date",
+    "details": "The day is indistinct in the low-resolution sheet; confirm it before importing the seven rubbers.",
+    "details_el": "Η ημέρα δεν διακρίνεται στην εικόνα χαμηλής ανάλυσης."
+  },
+  "http://files.ping-pong.gr/FA26-27/T96-AVG.jpg": {
+    "fixture": "f-54de8901a3d79b97",
+    "sha256": "fb90065ad7afe68699a46e10ff309726b07726eb2e0cd7212b9baf22d8931bc0",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΚΟΝΙΔΑΡΗΣ could not be found in the current roster or existing match profiles; the handwritten registration needs confirmation.",
+    "details_el": "Εκκρεμεί η επιβεβαίωση της ταυτότητας και του ΔΑΙ του ΚΟΝΙΔΑΡΗ."
+  },
+  "http://files.ping-pong.gr/FA26-27/AVG-SDR.jpg": {
+    "fixture": "f-48d212594b4b9b2d",
+    "sha256": "fd97eee965a312b9a2f5532788d827eeb77a97a0eb01598d07ee918d743ea9cd",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΚΟΝΙΔΑΡΗΣ could not be found in the current roster or existing match profiles; the handwritten registration needs confirmation.",
+    "details_el": "Εκκρεμεί η επιβεβαίωση της ταυτότητας και του ΔΑΙ του ΚΟΝΙΔΑΡΗ."
+  }
+}

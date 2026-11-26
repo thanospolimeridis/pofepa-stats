@@ -13,6 +13,7 @@ from validate import validate
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / 'data/match-sheet-reviews.json'
+ISSUES = ROOT / 'data/match-sheet-issues.json'
 
 
 def discover(data, cache):
@@ -39,13 +40,18 @@ def discover(data, cache):
     return data
 
 
-def import_reviews(data, cache, reviews=None):
+def import_reviews(data, cache, reviews=None, issues=None):
+    if issues is None:
+        issues = json.loads(ISSUES.read_text()) if reviews is None and ISSUES.exists() else {}
     reviews = reviews if reviews is not None else json.loads(MANIFEST.read_text())
+    if set(reviews) & set(issues):
+        raise ValueError('A match sheet cannot be both imported and held for review')
     fixtures = {f['id']: f for f in data['fixtures']}
     players = {p['id']: p for p in data['players']}
     sources = {s['id']: s for s in data['sources']}
     events = {e['id']: e for e in data['events']}
     by_pair = defaultdict(list)
+    matches_by_id = {m['id']:m for m in data['matches']}
     for m in data['matches']:
         by_pair[(m['date'], tuple(sorted((m['p1'], m['p2']))))].append(m)
     ranking_proofs = defaultdict(list)
@@ -71,17 +77,31 @@ def import_reviews(data, cache, reviews=None):
             p = players[person['id']]
             if person.get('registration') and person['registration'] != p['registration']:
                 raise ValueError(f'Match-sheet registration mismatch: {url}')
-            if not person['label'] or not ranking_proofs[p['id']]:
+            if not person['label']:
                 raise ValueError(f'Missing identity evidence: {url}')
             available = [(period, source) for period, source in ranking_proofs[p['id']] if period <= review['date'][:7]]
             if not available:
-                raise ValueError(f'No contemporary ranking identity: {url}')
-            latest = max(period for period, _ in available)
-            identity_sources[p['id']] = sorted({source for period, source in available if period == latest})
+                prior = matches_by_id.get(person.get('identity_match'))
+                if not prior or p['id'] not in (prior['p1'],prior['p2']) or prior['date'] >= review['date'] or p.get('club') not in f['clubs']:
+                    raise ValueError(f'No contemporary ranking or prior-result identity: {url}')
+                identity_sources[p['id']] = sorted({e['source'] for e in prior['evidence']})
+            else:
+                latest = max(period for period, _ in available)
+                identity_sources[p['id']] = sorted({source for period, source in available if period == latest})
         scores = [0, 0]
+        row_numbers = set()
         rubbers, counts = [], Counter()
         for row in review['rows']:
             number = row['row']
+            if not isinstance(number, int) or not 1 <= number <= 9 or number in row_numbers:
+                raise ValueError(f'Invalid or repeated match-sheet row: {url}')
+            row_numbers.add(number)
+            if row.get('status', 'played') not in ('played', 'walkover') or row.get('kind', 'singles') != 'singles':
+                raise ValueError(f'Unsupported match-sheet row type: {url}')
+            if len(row['players']) != 2 or any(k not in roster for k in row['players']):
+                raise ValueError(f'Invalid match-sheet participants: {url}')
+            if len({roster[k]['id'] for k in row['players']}) != 2:
+                raise ValueError(f'Identical match-sheet participants: {url}')
             score = list(row['score'])
             if sorted(score) not in ([0, 3], [1, 3], [2, 3]):
                 raise ValueError(f'Invalid match-sheet score: {url} row {number}')
@@ -125,6 +145,15 @@ def import_reviews(data, cache, reviews=None):
         f.update(date=review['date'], rubbers=rubbers, match_sheet_source=sid)
         report.append({'source': sid, 'url': url, 'fixture': f['id'], 'date': review['date'],
                        'season': events[f['event']]['season'], **counts, 'notes': review.get('notes', '')})
+    held = []
+    for url, issue in issues.items():
+        sid, path = cache.get(url)
+        if hashlib.sha256(path.read_bytes()).hexdigest() != issue['sha256']:
+            raise ValueError(f'Held match sheet changed: {url}')
+        if fixtures[issue['fixture']]['sheet_url'] != url or not issue['reason']:
+            raise ValueError(f'Invalid held match sheet: {url}')
+        sources[sid] = cache.sources[sid]
+        held.append({'source': sid, 'url': url, **issue})
     data['sources'] = list(sources.values())
     data['events'] = list(events.values())
     data['matches'].sort(key=lambda m: (m['date'], m['id']), reverse=True)
@@ -133,7 +162,9 @@ def import_reviews(data, cache, reviews=None):
              match_date_min=min(m['date'] for m in data['matches']), match_date_max=max(m['date'] for m in data['matches']),
              identity_methods=dict(Counter(v for m in data['matches'] for v in m['identity'])))
     linked = {f['sheet_url'] for f in data['fixtures'] if f.get('sheet_url')}
-    c['match_sheets'] = {'linked': len(linked), 'reviewed': len(report), 'pending': len(linked - set(reviews)),
+    c['match_sheets'] = {'linked': len(linked), 'reviewed': len(report) + len(held),
+                         'imported_sheets': len(report), 'held': len(held),
+                         'pending': len(linked - set(reviews) - set(issues)), 'issues': held,
                          'imported': sum(r.get('imported', 0) for r in report),
                          'corroborated': sum(r.get('corroborated', 0) for r in report),
                          'excluded_walkovers': sum(r.get('walkover', 0) for r in report), 'reviews': report}

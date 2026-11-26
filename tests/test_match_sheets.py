@@ -74,6 +74,42 @@ class MatchSheetTests(unittest.TestCase):
         self.review['rows'][0]['score']=[1,3]
         with self.assertRaisesRegex(ValueError,'totals disagree'):self.run_import()
 
+    def test_prior_result_can_support_an_existing_provisional_identity(self):
+        self.run_import()
+        prior=copy.deepcopy(self.data['matches'][0])
+        prior.update(id='m-prior', date='2026-10-20', origin='workbook')
+        self.data['matches']=[prior]
+        self.data['snapshots'][0]['rows']=self.data['snapshots'][0]['rows'][1:]
+        self.data['players'][0].update(club='c-a', provisional=True)
+        self.review['players']['1'].pop('registration')
+        self.review['players']['1']['identity_match']='m-prior'
+        self.run_import()
+        self.assertEqual(len(self.data['matches']),2)
+        self.assertTrue(self.data['players'][0]['provisional'])
+        self.assertEqual(self.data['matches'][0]['p1'],'p-1')
+        self.review['players']['1']['identity_match']='missing'
+        with self.assertRaisesRegex(ValueError,'prior-result identity'):self.run_import()
+
+    def test_duplicate_rows_and_identical_participants_fail_closed(self):
+        self.review['rows'][1]['row']=1
+        with self.assertRaisesRegex(ValueError,'repeated match-sheet row'):self.run_import()
+        self.review['rows'][1]['row']=2
+        self.review['rows'][0]['players']=['1','1']
+        with self.assertRaisesRegex(ValueError,'Identical match-sheet participants'):self.run_import()
+
+    def test_held_sheet_is_visible_but_does_not_import_matches(self):
+        issue={'sha256':self.source['sha256'],'fixture':'f-1','reason':'Missing actual date'}
+        # Keep a pre-existing result so ordinary dataset date bounds remain defined.
+        self.run_import()
+        count=len(self.data['matches'])
+        import_reviews(self.data,self.cache,{}, {self.url:issue})
+        c=self.data['coverage']['match_sheets']
+        self.assertEqual((c['reviewed'],c['held'],c['pending']),(1,1,0))
+        self.assertEqual(c['imported_sheets'],0)
+        self.assertEqual(len(self.data['matches']),count)
+        with self.assertRaisesRegex(ValueError,'both imported and held'):
+            import_reviews(self.data,self.cache,{self.url:self.review},{self.url:issue})
+
     def test_historical_score_links_preserve_blank_rows_and_nested_breaks(self):
         html='<h2>Round</h2><table><tr><td>A<br>B<br>C</td><td>-<br>-<br>-</td><td>X<br>Y<br>Z</td><td><a href="one.jpg">5-1       </a><br><a href="two.jpg">2-5<br></a> -</td></tr></table>'
         rows=parse_fixture_tables(html,'s','https://www.pofepa.gr/test.html','e')
