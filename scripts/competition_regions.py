@@ -44,6 +44,16 @@ def named_region(text):
             return region
 
 
+def competition_type(label, url, section=''):
+    text = normalized(label)
+    if 'ΚΥΠΕΛ' in text or re.search(r'(?:cup|kyp)', url, re.I):
+        return 'cup'
+    # Some season pages put national championship playoffs below the cup column.
+    if 'ΠΡΩΤΑΘΛ' in text or 'PLAY' in text:
+        return 'league'
+    return 'cup' if 'ΚΥΠΕΛ' in normalized(section) else 'league'
+
+
 def regional_links(html, base):
     from bs4 import BeautifulSoup, NavigableString
     soup = BeautifulSoup(html, 'html.parser')
@@ -52,6 +62,9 @@ def regional_links(html, base):
     # Context belongs to one content column, never the navigation or next column.
     for block in main.select('.paragraph'):
         region, heading = None, ''
+        column = block.find_parent(class_='wsite-multicol-col')
+        title = block.find_previous('h2')
+        section = title.get_text(' ', strip=True) if title and (not column or title in column.descendants) else ''
         for node in block.descendants:
             if isinstance(node, NavigableString):
                 if node.find_parent('a'):
@@ -68,7 +81,8 @@ def regional_links(html, base):
                 selected = explicit or region
                 if selected:
                     found.setdefault(urljoin(base, node['href']), {
-                        'region': selected, 'heading': label if explicit else heading, 'label': label})
+                        'region': selected, 'heading': label if explicit else heading, 'label': label,
+                        'competition_type': competition_type(label, urljoin(base, node['href']), section)})
                 if explicit:
                     region, heading = explicit, label
     return found
@@ -87,6 +101,13 @@ def attach_regions(data):
         else:
             # Workbook coverage is not the competition's geographical region.
             event['competition_region'] = event.get('competition_region') or named_region(event['name']) or 'unspecified'
+        if event['kind'] == 'fixtures':
+            # These old links say only "Κύπελλο" after an unrelated regional
+            # heading; their source URLs explicitly identify the Attica cup.
+            if any(re.search(r'/20(?:09-10|10-11)-kyp-attikh\.html$', source_urls[s]) for s in event['sources']):
+                event['competition_region'] = 'attica-south'
+            event['competition_type'] = ('cup' if any(r.get('competition_type') == 'cup' for r in refs)
+                                         else competition_type(event['name'], ' '.join(source_urls[s] for s in event['sources'])))
 
 
 def generate():

@@ -82,2322 +82,2709 @@
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α1 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-2027-a2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α2 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-2027-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-2027-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-2027-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-2027-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-2027-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-2027-e1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-2027-e2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-2027-st1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "ΣΤ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "http://files.ping-pong.gr/2026-2027/ST2-202627.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "ΣΤ'",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-2027-st2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-kmaka.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-kmakb.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-kmakc1.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-kmakc2.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-dytell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-crete-a.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Ανατολικός όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-crete-d.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Δυτικός όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2025-26-a-mak-a.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολικός όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-a-mak-d.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Δυτικός όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-thessaly.html": {
       "region": "thessaly",
       "heading": "Θεσσαλία",
       "label": "Θεσσαλία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2026-27-aigaio.html": {
       "region": "north-aegean",
       "heading": "Νησιά Βόρειου Αιγαίου",
       "label": "Νησιά Βόρειου Αιγαίου",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-ANEX-2026-27.pdf": {
       "region": "attica-south",
       "heading": "12ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
       "label": "12ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "http://files.ping-pong.gr/2026-2027/CUP-KMAK-ANEX-2026-27.pdf": {
       "region": "central-macedonia",
       "heading": "4ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
       "label": "4ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "http://files.ping-pong.gr/2026-2027/CUP-DMAK-ANEX-2026-27.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "2ο Κύπελλο Ομάδων Ανεξαρτήτων Δυτικής Μακεδονίας-Ηπείρου-Ιονίων Νήσων",
       "label": "2ο Κύπελλο Ομάδων Ανεξαρτήτων Δυτικής Μακεδονίας-Ηπείρου-Ιονίων Νήσων",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-A1A2-2026-27.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Α1-Α2",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-BC-2026-27.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Β-Γ",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "http://files.ping-pong.gr/2026-2027/CUP-ATTIKI-DEST-2026-27.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Δ-Ε-ΣΤ",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "http://files.ping-pong.gr/2026-2027/CUP-KMAK-2026-27.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "http://files.ping-pong.gr/2026-2027/CUP-KRITI-2026-27.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2026-2027.html"
     },
     "https://www.pofepa.gr/2025-2026-a1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α1 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-2026-a2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α2 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-2026-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-2026-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-2026-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-2026-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-2026-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-2026-e1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-2026-e2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-2026-e3.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Γ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-2026-e4.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Δ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/PLAY-OFF-ATTIKH-2025-2026.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-kmaka.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-kmakb.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-kmakc.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Γ' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-dytell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-crete-a.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Ανατολικός όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-crete-w.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Δυτικός όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/PLAY-OFF-CRETE-2025-2026.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Play off (final four)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-a-mak-e.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολικός όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-a-mak-w.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Δυτικός όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-a-mak-ff.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Φάση Final Four",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-thessaly.html": {
       "region": "thessaly",
       "heading": "Θεσσαλία",
       "label": "Θεσσαλία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2025-26-aigaio.html": {
       "region": "north-aegean",
       "heading": "Νησιά Βόρειου Αιγαίου",
       "label": "Νησιά Βόρειου Αιγαίου",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-ANEX-ATTIKI-202526.pdf": {
       "region": "attica-south",
       "heading": "11ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
       "label": "11ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-ANEX-KMAK-202526.pdf": {
       "region": "central-macedonia",
       "heading": "3ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
       "label": "3ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-ANEX-DMAK-202526.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "1ο Κύπελλο Ομάδων Ανεξαρτήτων Δυτικής Μακεδονίας-Ηπείρου-Ιονίων Νήσων",
       "label": "1ο Κύπελλο Ομάδων Ανεξαρτήτων Δυτικής Μακεδονίας-Ηπείρου-Ιονίων Νήσων",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-A1A2-2025-26.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Α1-Α2",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-BC-2025-26.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Β-Γ",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-DE-2025-26.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Δ-Ε",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-KMAK-2025-26.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-DYTELL-2025-26.pdf": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-KRITI-2025-26.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-DMAK-2025-26.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-AMAK-2025-26.pdf": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-THESSALY-2025-26.pdf": {
       "region": "thessaly",
       "heading": "Θεσσαλία",
       "label": "Θεσσαλία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "http://files.ping-pong.gr/2025-2026/CUP-AIGAIO-2025-26.pdf": {
       "region": "north-aegean",
       "heading": "Νησιά Βόρειου Αιγαίου",
       "label": "Νησιά Βόρειου Αιγαίου",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2025-2026.html"
     },
     "https://www.pofepa.gr/2024-2025-a1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α1 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-2025-a2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α2 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-2025-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-2025-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-2025-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-2025-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-2025-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-e1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-2025-e2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-2025-e3.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Γ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/PLAY-OFF-ATTIKH-2024-2025.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-kmaka.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-kmakb.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-kmakc.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Γ' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-dytell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-krhth.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-a-mak-a.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολικός όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-a-mak-w.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Δυτικός όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-a-mak-ff.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Φάση Final Four",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-thessaly.html": {
       "region": "thessaly",
       "heading": "Θεσσαλία",
       "label": "Θεσσαλία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2024-25-aigaio.html": {
       "region": "north-aegean",
       "heading": "Νησιά Βόρειου Αιγαίου",
       "label": "Νησιά Βόρειου Αιγαίου",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-IND-ATTIKH-2024-2025.pdf": {
       "region": "attica-south",
       "heading": "10ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
       "label": "10ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-IND-KMAK-2024-2025.pdf": {
       "region": "central-macedonia",
       "heading": "2ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
       "label": "2ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-A1A2-2024-25.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Α1-Α2",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-BC-2024-25.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Β-Γ",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-DE-2024-25.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Δ-Ε",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-KMAK-2024-25.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-DELL-2024-25.pdf": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-KRHTH-2024-25.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-DMAK-2024-25.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-AMAK-2024-25.pdf": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-PELOP-2024-25.pdf": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "http://files.ping-pong.gr/2024-2025/CUP-AIGAIO-2024-2025.pdf": {
       "region": "north-aegean",
       "heading": "Νησιά Βόρειου Αιγαίου",
       "label": "Νησιά Βόρειου Αιγαίου",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2024-2025.html"
     },
     "https://www.pofepa.gr/2023-24-a1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α1 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-a2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α2 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-e1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-e2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-e3.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Γ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/PLAY-OFF-ATTIKH-2023-2024.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-kmaka.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-kmakb.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-kmakc.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Γ' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-dytell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-krhth.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-thessaly.html": {
       "region": "thessaly",
       "heading": "Θεσσαλία",
       "label": "Θεσσαλία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2023-24-aigaio.html": {
       "region": "north-aegean",
       "heading": "Νησιά Βόρειου Αιγαίου",
       "label": "Νησιά Βόρειου Αιγαίου",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/CUP-IND-ATTIKH-2023-2024.pdf": {
       "region": "attica-south",
       "heading": "9ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
       "label": "9ο Κύπελλο Ομάδων Ανεξαρτήτων Αττικής",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/CUP-IND-KMAK-2023-2024.pdf": {
       "region": "central-macedonia",
       "heading": "1ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
       "label": "1ο Κύπελλο Ομάδων Ανεξαρτήτων Κεντρικής Μακεδονίας",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-A1-A2-2023-2024.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Α1-Α2",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-B-C-2023-2024.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Β-Γ",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/CUP-ATTIKI-D-E-2023-2024.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Δ-Ε",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/CUP-KMAK-2023-2024.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/CUP-DELL-2023-2024.pdf": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/CUP-KRHTH-2023-2024.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/CUP-DMAK-2023-2024.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/CUP-AMAK-2023-2024.pdf": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "http://files.ping-pong.gr/2023-2024/CUP-PELOP-2023-2024.pdf": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2023-2024.html"
     },
     "https://www.pofepa.gr/2022-23-a1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α1 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-a2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α2 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-e1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-e2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/2022-2023/DRAW-PLAYOFF-ATTIKI-2022-2023.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-kmaka.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-kmakb.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-kmakc.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Γ' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-dytell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-krhth.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-d-maka.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Α' Όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-d-makb.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Β' Όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/2022-2023/PLAYOFFS-DMAK-2022-23.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-thessaly.html": {
       "region": "thessaly",
       "heading": "Θεσσαλία",
       "label": "Θεσσαλία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2022-23-aigaio.html": {
       "region": "north-aegean",
       "heading": "Νησιά Βόρειου Αιγαίου",
       "label": "Νησιά Βόρειου Αιγαίου",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/2022-2023/CUP-ATTIKI-2022-2023.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Αττική",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/2022-2023/CUP-KMAK-2022-2023.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/2022-2023/CUP-DYTELL-2022-2023.pdf": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/2022-2023/CUP-KRHTH-2022-2023.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/2022-2023/CUP-DYTMAK-2022-2023.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/2022-2023/CUP-AMAK-THRAKI-2022-2023.pdf": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/2022-2023/CUP-PELLOPONHSOS-2022-2023.pdf": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/FA22-23/GAT-ARIc.jpg": {
       "region": "north-aegean",
       "heading": "Νησιά Βόρειου Αιγαίου",
       "label": "Νησιά Βόρειου Αιγαίου",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/2022-2023/Play_Offs_Omadikon_2022-2023.pdf": {
       "region": "nationwide",
       "heading": "Πανελλήνιο Πρωτάθλημα - play offs ομαδικών",
       "label": "Πανελλήνιο Πρωτάθλημα - play offs ομαδικών",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "http://files.ping-pong.gr/2022-2023/RESULTS-OMANEX-2022-2023.pdf": {
       "region": "nationwide",
       "heading": "Πανελλήνιο Πρωτάθλημα - play offs ομαδικών",
       "label": "8ο Κύπελλο Ομάδων Ανεξάρτητων",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2022-20231.html"
     },
     "https://www.pofepa.gr/2020-21-a1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α1 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-a2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α2 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-e1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-e2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "http://files.ping-pong.gr/2020-2021/DRAW-PLAYOFF-ATTIKI-2020-2022.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-kmaka.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-kmakb.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-kmakc.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Γ' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-dytell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-krhth.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-d-maka.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Α' Όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-d-makb.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Β' Όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "http://files.ping-pong.gr/2020-2021/PLAYOFFS-DMAK-2022.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2020-21-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "http://files.ping-pong.gr/2020-2021/CUP-ATTIKI-2020-2021.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Αττική",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "http://files.ping-pong.gr/2020-2021/CUP-KMAK-2020-2021.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "http://files.ping-pong.gr/2020-2021/CUP-DYTELL-2020-2021.pdf": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "http://files.ping-pong.gr/2020-2021/CUP-KRITI-2020-2021.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "http://files.ping-pong.gr/2020-2021/CUP-DMAK-2020-2021.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "http://files.ping-pong.gr/2020-2021/CUP-AMAK-2020-2021.pdf": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "http://files.ping-pong.gr/2020-2021/CUP-PELOP-2020-2021.pdf": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2020-2021.html"
     },
     "https://www.pofepa.gr/2019-20-a1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α1 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-a2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α2 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-e1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Ε' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-e2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "﻿ Ε' Κατηγορία (Β' όμιλος) ﻿",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-a-kmak.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-b-kmak.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-c-kmak.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Γ' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-a-dytell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-b-dytell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-krhth.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-d-maka.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Α' Όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-d-makb.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Β' Όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2019-20-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "http://files.ping-pong.gr/2019-2020/RESULTS-ATTIKI-CUP-2019-2020.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Αττική",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "http://files.ping-pong.gr/2019-2020/RESULTS-KMAK-CUP-2019-2020.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "http://files.ping-pong.gr/2019-2020/RESULTS-KRITI-CUP-2019-2020.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "http://files.ping-pong.gr/2019-2020/RESULTS-PELOP-CUP-2019-2020.pdf": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2019-2020.html"
     },
     "https://www.pofepa.gr/2018-19-a1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α1 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-a2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α2 Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-d3.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Γ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-d4.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "﻿ Δ' Κατηγορία (Δ' όμιλος) ﻿",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "http://files.ping-pong.gr/2018-2019/RESULTS-PLAYOFFS-ATTIKI.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-kmak-a.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-kmak-b.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-kmak-c.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Γ' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "http://files.ping-pong.gr/2018-2019/RESULTS-PLAYOFFS-KMAK.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-dytell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-kriti-a.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-kriti-b.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "http://files.ping-pong.gr/2018-2019/RESULTS-PLAYOFFS-KRITI.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2018-19-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "http://files.ping-pong.gr/2018-2019/RESULTS-ATTIKI-CUP.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Αττική",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "http://files.ping-pong.gr/2018-2019/RESULTS-KMAK-CUP.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "http://files.ping-pong.gr/2018-2019/RESULTS-DYTELL-CUP.pdf": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "http://files.ping-pong.gr/2018-2019/RESULTS-KRITI-CUP.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "http://files.ping-pong.gr/2018-2019/RESULTS-DMAK-CUP.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "http://files.ping-pong.gr/2018-2019/RESULTS-AMAK-CUP.pdf": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "http://files.ping-pong.gr/2018-2019/RESULTS-PELOP-CUP.pdf": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2018-2019.html"
     },
     "https://www.pofepa.gr/2017-18-a.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-d3.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Γ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-d4.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Δ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "http://files.ping-pong.gr/2017-2018/RESULTS-ATTIKI-PLAYOFFS.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-kmak-a.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-kmak-b1.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-kmak-b2.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "http://files.ping-pong.gr/2017-2018/RESULTS-KMAK-PLAYOFFS.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-dytell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-kriti-a1.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Α' όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-kriti-a2.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Β' όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "http://files.ping-pong.gr/2017-2018/RESULTS-KRITI-PLAYOFFS.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2017-18-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "http://files.ping-pong.gr/2017-2018/RESULTS-ATTIKH-CUP.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Αττική",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "http://files.ping-pong.gr/2017-2018/RESULTS-KMAK-CUP.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "http://files.ping-pong.gr/2017-2018/RESULTS-DYTELL-CUP.pdf": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "http://files.ping-pong.gr/2017-2018/RESULTS-KRITI-CUP.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "http://files.ping-pong.gr/2017-2018/RESULTS-DMAK-CUP.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
       "label": "Δυτική Μακεδονία - Ήπειρος - Ιόνια Νησιά",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "http://files.ping-pong.gr/2017-2018/RESULTS-AMAK-CUP.pdf": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "http://files.ping-pong.gr/2017-2018/RESULTS-PELOP-CUP.pdf": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2017-2018.html"
     },
     "https://www.pofepa.gr/2016-17-a.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-g1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-g2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-d3.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Γ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "http://files.ping-pong.gr/2016-2017/DRAW-PLAYOFFS.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-kmak-a.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-kmak-b.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "http://files.ping-pong.gr/2016-2017/RESULTS-KMAK-PLAYOFFS.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-dytell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2016-17-krhth.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "http://files.ping-pong.gr/2016-2017/RESULTS-ATTIKH-CUP.pdf": {
       "region": "attica-south",
       "heading": "Αττική",
       "label": "Αττική",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "http://files.ping-pong.gr/2016-2017/RESULTS-KMAK-CUP.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "http://files.ping-pong.gr/2016-2017/RESULTS-DMAK-CUP.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "http://files.ping-pong.gr/2016-2017/RESULTS-AMAK-CUP.pdf": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "http://files.ping-pong.gr/2016-2017/RESULTS-PELOP-CUP.pdf": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "http://files.ping-pong.gr/2016-2017/RESULTS-DYTELL-CUP.pdf": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "http://files.ping-pong.gr/2016-2017/RESULTS-KRHTH-CUP.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2016-20171.html"
     },
     "https://www.pofepa.gr/2015-16-a.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-g1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-g2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-d3.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Γ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "http://files.ping-pong.gr/2015-2016/APOTELESMATA-PLAYOFFS-ATTIKH.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-kmak-a.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-kmak-b.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-dyt-ellada.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2015-16-krhth.html": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "http://files.ping-pong.gr/2015-2016/KYPELLO-ATTIKHS.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Αττική & Νότια Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "http://files.ping-pong.gr/2015-2016/KYPELLO-KMAK.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "http://files.ping-pong.gr/2015-2016/KYPELLO-DMAK.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "http://files.ping-pong.gr/2015-2016/KYPELLO-AMAK.pdf": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "http://files.ping-pong.gr/2015-2016/KYPELLO-PELOP.pdf": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "http://files.ping-pong.gr/2015-2016/KYPELLO-DYTELL.pdf": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "http://files.ping-pong.gr/2015-2016/KYPELLO-KRHTH.pdf": {
       "region": "crete",
       "heading": "Κρήτη",
       "label": "Κρήτη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2015-2016.html"
     },
     "https://www.pofepa.gr/2014-15-a.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-g1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-g2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-d1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-d2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-d3.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Δ' Κατηγορία (Γ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "http://files.ping-pong.gr/2014-2015/RESULTS-PLAYOFFS-ATTIKHS-2014-2015.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Play offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-kappamualphakappa-alpha.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-kmak-b.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2014-15-dyt-ellada.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "http://files.ping-pong.gr/2014-2015/KYPELLO-ATTIKHS-2014-2015.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Αττική & Νότια Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "http://files.ping-pong.gr/2014-2015/KYPELLO-KMAK-2014-2015.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/uploads/5/7/2/5/5725823/kypello_dmak.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "http://files.ping-pong.gr/2014-2015/KYPELLO-AMAK.pdf": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/uploads/5/7/2/5/5725823/kypello_pelop.pdf": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "http://files.ping-pong.gr/2014-2015/KYPELLO-DELL.pdf": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2014-20151.html"
     },
     "https://www.pofepa.gr/2013-14-a.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/2013-14-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/2013-14-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/2013-14-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/2013-14-c3.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Γ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/2013-14-c4.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Δ' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "http://files.ping-pong.gr/2013-2014/RESULTS-PLAYOFFS-2013-2014.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Play Offs",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/2013-14-k-mak.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/2013-14-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/2013-14-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/2013-14-pelop.html": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/2013-14-d-ell.html": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apot_kyp_attikh.pdf": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Αττική & Νότια Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/uploads/5/7/2/5/5725823/__-.pdf": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_dyt-mak.pdf": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_a-mak.pdf": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_pelop.pdf": {
       "region": "peloponnese",
       "heading": "Πελοπόννησος",
       "label": "Πελοπόννησος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/uploads/5/7/2/5/5725823/apotelesmata_kyp_dyt_ell.pdf": {
       "region": "western-greece",
       "heading": "Δυτική Ελλάδα",
       "label": "Δυτική Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2013-20141.html"
     },
     "https://www.pofepa.gr/2012-13-a.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-k-mak1.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Α' όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-k-mak2.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Β' όμιλος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-k-makp.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "PLAY OFFS",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-kyp-attikh.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Αττική & Νότια Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-kyp-k-mak.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-kyp-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2012-13-kyp-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2012-2013.html"
     },
     "https://www.pofepa.gr/2011-12-a.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Α' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2011-2012.html"
     },
     "https://www.pofepa.gr/2011-12-b.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Β' Κατηγορία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2011-2012.html"
     },
     "https://www.pofepa.gr/2011-12-c1.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Α' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2011-2012.html"
     },
     "https://www.pofepa.gr/2011-12-c2.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Γ' Κατηγορία (Β' όμιλος)",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2011-2012.html"
     },
     "https://www.pofepa.gr/2011-12-k-mak.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2011-2012.html"
     },
     "https://www.pofepa.gr/2011-12-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2011-2012.html"
     },
     "https://www.pofepa.gr/2011-12-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2011-2012.html"
     },
     "https://www.pofepa.gr/2011-12-kyp-attikh.html": {
       "region": "attica-south",
       "heading": "Αττική & Νότια Ελλάδα",
       "label": "Αττική & Νότια Ελλάδα",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2011-2012.html"
     },
     "https://www.pofepa.gr/2011-12-kyp-k-mak.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2011-2012.html"
     },
     "https://www.pofepa.gr/2011-12-kyp-d-mak.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Δυτική Μακεδονία & Ήπειρος",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2011-2012.html"
     },
     "https://www.pofepa.gr/2010-11-a.html": {
       "region": "attica-south",
       "heading": "Α' Κατηγορία Αττικής & Ν. Ελλάδας",
       "label": "Α' Κατηγορία Αττικής & Ν. Ελλάδας",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2010-2011.html"
     },
     "https://www.pofepa.gr/2010-11-b.html": {
       "region": "attica-south",
       "heading": "Β' Κατηγορία Αττικής & Ν. Ελλάδας",
       "label": "Β' Κατηγορία Αττικής & Ν. Ελλάδας",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2010-2011.html"
     },
     "https://www.pofepa.gr/2010-11-c.html": {
       "region": "attica-south",
       "heading": "Γ' Κατηγορία Αττικής & Ν. Ελλάδας",
       "label": "Γ' Κατηγορία Αττικής & Ν. Ελλάδας",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2010-2011.html"
     },
     "https://www.pofepa.gr/2010-11-a-mak.html": {
       "region": "eastern-macedonia-thrace",
       "heading": "Ανατολική Μακεδονία & Θράκη",
       "label": "Ανατολική Μακεδονία & Θράκη",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2010-2011.html"
     },
     "https://www.pofepa.gr/2010-11-k-mak.html": {
       "region": "central-macedonia",
       "heading": "Κεντρική Μακεδονία",
       "label": "Κεντρική Μακεδονία",
+      "competition_type": "league",
       "page": "https://www.pofepa.gr/2010-2011.html"
     },
     "https://www.pofepa.gr/2010-11-kyp-attikh.html": {
       "region": "western-macedonia-epirus-ionian",
       "heading": "Δυτική Μακεδονία & Ήπειρος",
       "label": "Κύπελλο 2010-2011",
+      "competition_type": "cup",
       "page": "https://www.pofepa.gr/2010-2011.html"
     }
   }

@@ -11,6 +11,7 @@ import shutil
 from dataset import load, encode, save
 from validate import validate
 from competition_regions import attach_regions
+from cup_draws import attach_draws
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -42,7 +43,7 @@ def bootstrap_data(data):
     The full catalog and offline archive retain their original data contract.
     This shallow projection never removes fields from their source objects.
     """
-    result = {key: value for key, value in data.items() if key not in ('fixtures', 'issues')}
+    result = {key: value for key, value in data.items() if key not in ('fixtures', 'issues', 'cup_draws')}
     result['bootstrap_schema'] = BOOTSTRAP_SCHEMA
     result['archives'] = dict(ROUTE_ARCHIVES)
     result['sources'] = [{key: source[key] for key in ('id', 'url')} for source in data['sources']]
@@ -61,6 +62,7 @@ def build():
     data = load()
     validate(data)
     attach_regions(data)
+    attach_draws(data)
     data['player_redirects'] = json.loads((ROOT / 'data/player-redirects.json').read_text())
     data['version'] = (ROOT / 'VERSION').read_text().strip()
     data['dataset_sha256'] = hashlib.sha256(encode(data)).hexdigest()
@@ -72,6 +74,7 @@ def build():
     if dist.exists():
         shutil.rmtree(dist)
     (dist / 'data').mkdir(parents=True)
+    shutil.copytree(ROOT / 'data/cup-draws', dist / 'data/cup-draws')
     offline = html.replace('/*DATA*/', encode({'compressed': base64.b64encode(gzip.compress(encode(data), mtime=0)).decode()}).decode())
     (ROOT / 'index.html').write_text(offline)
     (dist / 'offline.html').write_text(offline)

@@ -24,8 +24,52 @@
     }
     return [...groups.values()];
   }
+  function cupBracket(fixtures) {
+    // One competition, in published source order. A feeder is an existing
+    // fixture ID, never a fabricated match or an inference from row position.
+    // Groups and placement matches retain their source rows outside the draw.
+    // Explicit bye slots stay in the draw with bye=true and their original
+    // null score; they advance a named team without becoming a played match.
+    const rounds=[], groups=[], placement=[];
+    const vacant=name => /^(?:[xχ]{2,}|bye|βυε|βyε|ανευ αγωνοσ)$/i.test(fold(String(name||'').trim()));
+    const team=(f,i) => {
+      const name=String((i===0?f.home:f.away)||'').trim().replace(/\s+/g,' ');
+      return !name || vacant(name) ? null : f.clubs?.[i] || 'name:'+name;
+    };
+    const advance=f => {
+      const keys=[team(f,0),team(f,1)];
+      const bye=/^(?:bye|βυε|βyε|ανευ αγωνοσ)$/i.test(fold(String(f.schedule_note||'').trim())) && keys.filter(Boolean).length===1;
+      let side=bye ? (keys[0]?0:1) : null;
+      if (!bye && f.status==='reported' && keys[0] && keys[1] && keys[0]!==keys[1] &&
+          Array.isArray(f.score) && f.score.length===2 && f.score.every(n=>Number.isInteger(n)&&n>=0) && f.score[0]!==f.score[1]) side=f.score[0]>f.score[1]?0:1;
+      return {key:side===null?null:keys[side],winner:side===null?null:f.clubs?.[side]||null,bye};
+    };
+    const isFinal=label=>/^(?:τελικοσ(?:\s|$)|final(?:\s|$))/.test(fold(label)) && !/final four/.test(fold(label));
+    let previous=null;
+    for (const group of fixtureRounds(fixtures)) {
+      const label=fold(group.label);
+      if (/ομιλ|πουλ|\bpool\b|\bgroup\b/.test(label)) { groups.push(group); previous=null; continue; }
+      if (/μικρο.*τελικ|καταταξ|θεσεισ|\bthird\b|\b3rd\b|\bconsolation\b|\bplacement\b/.test(label)) { placement.push(group); continue; }
+      const matches=group.rows.map(fixture=>{
+        const {winner,bye}=advance(fixture);
+        return {fixture,feeders:[null,null],winner,bye};
+      });
+      // Match both ends uniquely. A repeated team or a tied/unreported result
+      // leaves an unconnected slot rather than guessing the advancement.
+      if (previous) for (const match of matches) for (let side=0;side<2;side++) {
+        const key=team(match.fixture,side);
+        if (!key || group.rows.reduce((n,f)=>n+[0,1].filter(i=>team(f,i)===key).length,0)!==1) continue;
+        const candidates=previous.matches.filter(m=>m.fixture.event===match.fixture.event && advance(m.fixture).key===key);
+        if (candidates.length===1 && candidates[0].fixture.id!==match.fixture.id) match.feeders[side]=candidates[0].fixture.id;
+      }
+      const round={label:group.label,matches};
+      rounds.push(round); previous=round;
+    }
+    const finals=rounds.filter(r=>isFinal(r.label)).flatMap(r=>r.matches);
+    return {rounds,groups,placement,champion:finals.length===1?finals[0].winner:null};
+  }
   const escape = value => String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const api={fold,romanize,search,stats,h2h,fixtureRounds,escape};
+  const api={fold,romanize,search,stats,h2h,fixtureRounds,cupBracket,escape};
   if(typeof module!=='undefined' && module.exports) module.exports=api;
   else root.Pofepa=api;
 })(globalThis);

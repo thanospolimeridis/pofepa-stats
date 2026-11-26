@@ -2,6 +2,9 @@
 
 ## Prototype updates — 2026-11-26
 
+- Separate cups from leagues within each region. Show source-faithful cup draws with zoom, match-sheet links, byes and progression to the winner; load each draw only on demand and preserve the full offline archive.
+- Connect confirmed winners in historical HTML cup rounds, keeping group and placement stages separate. Restore eight omitted 2012–13 Central Macedonia first-round team results by preserving spaces within BR-delimited team names.
+
 - Group league fixtures under their published round headings, retaining complete rounds across pagination and showing unnamed PDF rounds explicitly.
 
 - Remove the separate Teams directory and navigation entry; retain contextual team details and redirect old directory links to Competitions.

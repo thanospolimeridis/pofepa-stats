@@ -11,6 +11,8 @@ assert.equal(bootstrap.bootstrap_schema,2);
 assert.deepEqual(bootstrap.archives,{fixtures:'data/fixtures.json.gz',about:'data/about.json.gz'});
 assert.equal(manifest.revision,createHash('sha256').update(bootstrapBytes).digest('hex').slice(0,16),'revision must cover the bootstrap schema/content');
 assert(!Object.hasOwn(bootstrap,'fixtures'),'fixtures must be deferred');
+assert(!Object.hasOwn(bootstrap,'cup_draws'),'cup drawings must be deferred');
+for(const event of bootstrap.events.filter(e=>e.draw_archive))assert.deepEqual(archive(event.draw_archive),full.cup_draws[event.id],'hosted and offline cup drawings must match');
 assert(!Object.hasOwn(bootstrap,'issues'),'audit issues must be deferred');
 assert.deepEqual(archive(bootstrap.archives.fixtures),full.fixtures,'fixture details and correction audit must remain intact');
 assert.deepEqual(archive(bootstrap.archives.about),{sources:full.sources,coverage:full.coverage},'full source and coverage audit must be available');

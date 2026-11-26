@@ -29,6 +29,7 @@ jobs:
       - run: node tests/bootstrap.js
       - run: node tests/hydration.js
       - run: node tests/smoke.js
+      - run: node tests/cup-bracket.js
       - run: python scripts/check_reproducible_build.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

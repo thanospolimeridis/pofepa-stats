@@ -46,6 +46,15 @@ class CompetitionRegionTests(unittest.TestCase):
         self.assertNotIn('unspecified', {e['competition_region'] for e in current})
         cup = next(e for e in current if e['name'] == 'Α1-Α2')
         self.assertEqual(cup['competition_region'], 'attica-south')
+        self.assertEqual(cup['competition_type'], 'cup')
+        self.assertEqual(sum(e.get('competition_type') == 'cup' for e in data['events']), 113)
+        by_id = {e['id']: e for e in data['events']}
+        self.assertEqual(by_id['e-5cf953c77581868f']['competition_type'], 'cup')
+        for eid in ('e-abed920a9f792f0d', 'e-6506a8d5f78bffbf'):
+            self.assertEqual(by_id[eid]['competition_type'], 'league')
+        for eid in ('e-a6dcea0ba29a77cc', 'e-ec08bc9719630027'):
+            self.assertEqual(by_id[eid]['competition_type'], 'cup')
+            self.assertEqual(by_id[eid]['competition_region'], 'attica-south')
         for e in data['events']:
             if e['kind'] == 'fixtures' and e['season'] >= '2011-2012':
                 self.assertNotEqual(e['competition_region'], 'unspecified', e['id'])

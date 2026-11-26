@@ -20,6 +20,7 @@ const event=db.events.find(e=>e.kind==='singles'), fixtureEvent=db.events.find(e
 const routes=['home','rankings','rankings?region=north&class=BET&age=40-49','rankings?region=south&class=ANE&age=70%2B','rankings?class=WOMEN','rankings?class=GENERAL','rankings?region=nonsense','players','players?q=polymeridis','players?q=nevermatch123','player/p-859','player/p-859?region=north','player/missing','matches','matches?view=teams&status=reported','matches?view=teams&status=scheduled','events','event/'+event.id,'event/'+fixtureEvent.id,'teams','team/'+db.clubs[0].id,'h2h','h2h?p1=p-859&p2=p-7','h2h?p1=p-859&p2=p-859','about','bad-route'];
 routes.push('player/p-1912','player/p-2926','player/p-313','player/p-1692');
 routes.push('events?region=crete&season=2025-2026','events?region=central-macedonia&season=2026-2027','events?season=all&kind=all','events?kind=singles');
+routes.push('event/e-872537db429e91ee','event/e-076a3ed10707b3f2','event/e-c3a3dcdc39edcc8e','event/e-df9707fab1c9c47f','event/e-5d1c3230f89cd9aa','event/e-d7de6d7827232949','events?competition=cup');
 routes.push('event/e-517d2fa8e574a147','event/e-517d2fa8e574a147?page=1','event/e-517d2fa8e574a147?page=99');
 const fixtures=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/data/fixtures.json.gz')));
 (async()=>{
@@ -38,7 +39,15 @@ for(const language of ['el','en']) for(const route of routes){
   const fixtureRoute=route.startsWith('team/')||route.startsWith('matches?view=teams')||isFixtureEvent;
   assert.equal(requests.includes('data/fixtures.json.gz'),fixtureRoute,route+' fixture download scope');
   assert.equal(requests.includes('data/about.json.gz'),route==='about',route+' source-report download scope');
-  if(isFixtureEvent){
+  const cup=db.events.find(e=>e.id===eventId&&e.competition_type==='cup');
+  const drawRequests=requests.filter(p=>p.startsWith('data/cup-draws/'));
+  assert.deepEqual(drawRequests,cup?.draw_archive?[cup.draw_archive]:[],route+' only downloads its own draw');
+  if(cup){
+    assert(!app.innerHTML.includes('class="fixture-round"'),'Cups must not use league rounds');
+    if(cup.draw_archive){const draw=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/'+cup.draw_archive)));assert.equal((app.innerHTML.match(/class="draw-image"/g)||[]).length,draw.pages.length,'Every original draw page is shown');assert(app.innerHTML.includes('data-draw-zoom'));}
+    else{const model=C.cupBracket(fixtures.filter(f=>f.event===eventId));assert.equal((app.innerHTML.match(/class="knockout-match"/g)||[]).length,model.rounds.reduce((n,r)=>n+r.matches.length,0),'Keep every published knockout fixture');}
+  }
+  if(isFixtureEvent&&!cup){
     const groups=C.fixtureRounds(fixtures.filter(f=>f.event===eventId));
     const requested=Number(new URLSearchParams(route.split('?')[1]).get('page'))||0;
     const page=Math.min(requested,Math.max(0,Math.ceil(groups.length/4)-1));
@@ -49,6 +58,7 @@ for(const language of ['el','en']) for(const route of routes){
     for(const group of visible)assert(app.innerHTML.includes(C.escape(group.label)),'Published round/date label must be retained');
     assert(!app.innerHTML.includes('<th scope="col">'+(language==='el'?'Αγωνιστική':'Round')+'</th>'),'Round belongs in the section heading');
   }
+  if(route==='events?competition=cup'){assert(app.innerHTML.includes('data-competition-type="cup"'));assert(!app.innerHTML.includes('data-competition-type="league"'));}
   if(route.startsWith('player/p-859')){assert(!app.innerHTML.includes('data-filter="region"'));assert(!app.innerHTML.includes('data-filter="list"'));assert(app.innerHTML.includes('id="athlete-rankings"'));assert(!app.innerHTML.includes('data-page-key="rpage"'));assert(!app.innerHTML.includes('All rankings'));assert(!app.innerHTML.includes('Όλες οι κατατάξεις'));}
   if(route==='player/p-1692'){
     const charts=[...app.innerHTML.matchAll(/<svg class="chart"[\s\S]*?<\/svg>/g)];

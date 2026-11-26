@@ -24,16 +24,16 @@ Athlete pages show **all linked matches** and one chronological ranking-points c
 
 ## Build and preview
 
-Competitions follow the original results site's regional groups. The latest season's team competitions open first, with region, season and record-type filters. Each league groups fixtures under the source's round headings; pagination shows four complete rounds at a time. `data/competition-regions.json` preserves the source-page heading, link label and page hash for historical competition links; regenerate it from the cached season pages with `.venv/bin/python scripts/competition_regions.py`. New collections retain the same regional context. Workbook coverage regions are not treated as competition geography; records without a specified competition region remain separately accessible.
+Competitions follow the original results site's regional groups. The latest season's team competitions open first, with region, season and record-type filters. Leagues and cups have separate sections within each region. Each league groups fixtures under the source's round headings; pagination shows four complete rounds at a time. Cup pages show the original vector draw with zoom, horizontal scrolling, byes, advancement through the final and source match-sheet links. Historical HTML cups use published stage tables to connect confirmed winners; group and placement matches remain separate. `data/competition-regions.json` preserves the source-page heading, link label and page hash for historical competition links; regenerate it from the cached season pages with `.venv/bin/python scripts/competition_regions.py`. New collections retain the same regional context. Workbook coverage regions are not treated as competition geography; records without a specified competition region remain separately accessible.
 
 ```sh
 python3 scripts/build.py
 python3 -m http.server 8000 --directory dist
 ```
 
-Open `http://localhost:8000`. The generated root `index.html` and `dist/offline.html` contain the complete compressed archive and can be saved for offline use. The hosted site loads ranking, athlete and competition data on demand; team fixtures and detailed source reports load only on their respective pages. The compressed initial data package is approximately 631 KB, down from 2.01 MB. A modern browser with `DecompressionStream` support is required.
+Open `http://localhost:8000`. The generated root `index.html` and `dist/offline.html` contain the complete compressed archive and can be saved for offline use. The hosted site loads ranking, athlete and competition data on demand; team fixtures and detailed source reports load only on their respective pages. Cup drawings load only when their competition is opened and are also included in the offline edition. The compressed initial data package is approximately 631 KB, down from 2.01 MB. A modern browser with `DecompressionStream` support is required.
 
-The committed dataset is `data/catalog.json.gz`. Builds require Python 3.10+ and make no network requests. Generated files and raw downloads are ignored by Git.
+The committed dataset is `data/catalog.json.gz`. Builds require Python 3.10+ and make no network requests. Generated build files and raw downloads are ignored by Git. The small, compressed source-bound cup assets in `data/cup-draws/` are committed so deployment needs no source downloads or PDF conversion.
 
 ## Collect, validate and reproduce
 
@@ -52,6 +52,7 @@ node tests/evidence.js
 node tests/export.js
 node tests/bootstrap.js
 node tests/hydration.js
+node tests/cup-bracket.js
 python3 scripts/check_reproducible_build.py
 python3 scripts/audit_sources.py
 python3 scripts/audit_documents.py
@@ -59,6 +60,8 @@ python3 scripts/audit_match_sheets.py
 python3 scripts/import_match_sheets.py --offline --discover
 # Refresh the reviewed documents without rebuilding unchanged workbook data:
 python3 scripts/refresh_documents.py --offline
+# Regenerate source-bound vector cup assets after reviewed cup PDFs change:
+python3 scripts/cup_draws.py
 ```
 
 The collector discovers all linked workbooks and result seasons rather than maintaining a fixed month list. `--refresh` refetches sources; `--cache PATH` selects the raw cache; `--output PATH` stages a separate collection. Validation must pass before the output is atomically replaced. The source-cell audit requires the original ignored `capture/` downloads.

@@ -28,6 +28,7 @@ window.pofepaReady = (async () => {
   const regionName=r=>({national:L('Πανελλαδικά','Nationwide'),south:L('Αττική & Νότια Ελλάδα','Attica & South Greece'),north:L('Βόρεια Ελλάδα','North Greece'),multi:L('Πολλαπλές περιφερειακές πηγές','Multiple regional sources')}[r]||'');
   const competitionRegions=[...(db.competition_regions||[]),{id:'unspecified',el:'Χωρίς καθορισμένη περιφέρεια',en:'Region not specified'}];
   const competitionRegionName=id=>{const region=competitionRegions.find(r=>r.id===id);return region?L(region.el,region.en):'';};
+  const eventTitle=e=>e.competition_type==='cup'&&!search(e.name,'κυπελλ')?L('Κύπελλο · ','Cup · ')+e.name:e.name;
   const typeName=t=>t==='BET'?L('Βετεράνοι','Veterans'):t==='ANE'?L('Ανεξάρτητοι','Independent'):t==='WOMEN'?L('Γυναίκες','Women'):L('Γενικός πίνακας','Overall ranking');
   const listName=s=>/^BET |^ANE /.test(s)?typeName(s.split(' ')[0])+' · '+s.slice(4):s==='ΓΥΝΑΙΚΩΝ'?L('Γυναίκες · όλες οι ηλικίες','Women · all ages'):s==='ΓΕΝΙΚΟΣ'?L('Γενικός πίνακας','Overall ranking'):s;
   const navItems=[['home','Αρχική','Overview'],['matches','Αγώνες','Matches'],['players','Αθλητές','Players'],['rankings','Κατατάξεις','Rankings'],['events','Διοργανώσεις','Events'],['h2h','Σύγκριση','Head to head']];
@@ -63,6 +64,28 @@ window.pofepaReady = (async () => {
         const label=!group.label?L('Δεν αναφέρεται αγωνιστική','Round not specified'):/^PDF\b/i.test(group.label)?L('Δεν αναφέρεται αγωνιστική','Round not specified')+' · '+group.label:group.label;
         return `<section class="fixture-round" aria-labelledby="fixture-round-${index}"><div class="round-heading"><h2 id="fixture-round-${index}" tabindex="-1">${E(label)}</h2><span>${num(group.rows.length)} ${L('συναντήσεις','fixtures')}</span></div>${fixtureTable(group.rows,{showRound:false})}</section>`;
       }).join(''),'page',4,L('αγωνιστικές / φάσεις','rounds / stages'));
+  }
+  function cupDraw(e,rows){
+    const draw=db.cup_draws?.[e.id];
+    if(!draw)return historicalCup(rows);
+    return `<section class="cup-draw" aria-labelledby="cup-draw-title"><div class="section-title"><h2 id="cup-draw-title">${L('Ταμπλό κυπέλλου','Cup draw')}</h2></div><p class="chart-note">${L('Η αρχική κλήρωση, με τις προκρίσεις, τα BYE και τον τελικό όπως δημοσιεύθηκαν. Μετακινηθείτε οριζόντια για να ακολουθήσετε την πορεία κάθε ομάδας.','The original draw, with advancement, byes and the final as published. Scroll horizontally to follow each team’s path.')}</p>`+
+      draw.pages.map((page,index)=>`<figure class="panel draw-page"><figcaption class="draw-toolbar"><strong>${L('Ταμπλό','Draw')} ${num(index+1)} / ${num(draw.pages.length)}</strong><div class="draw-controls"><label for="draw-zoom-${index}">${L('Προβολή','View')}</label><select id="draw-zoom-${index}" data-draw-zoom="${index}"><option value="fit">${L('Προσαρμογή πλάτους','Fit width')}</option><option value="1.4" selected>${L('Ανάγνωση','Reading size')}</option><option value="2">${L('Μεγέθυνση','Enlarge')}</option></select><button class="button secondary" data-draw-end="${index}">${L('Κύλιση δεξιά →','Scroll right →')}</button>${sourceLink(page.source)}</div></figcaption><div class="draw-viewport" id="draw-viewport-${index}" tabindex="0" role="region" aria-label="${L('Ταμπλό κυπέλλου, οριζόντια κύλιση','Cup draw, horizontally scrollable')} ${index+1}"><div class="draw-canvas" id="draw-canvas-${index}" data-width="${page.width}" style="width:${Math.round(page.width*1.4)}px"><img id="draw-image-${index}" class="draw-image" width="${page.width}" height="${page.height}" src="data:image/svg+xml,${E(encodeURIComponent(page.svg))}" alt="${E(eventTitle(e))} · ${E(e.season)} · ${L('πρωτότυπο ταμπλό, σελίδα','original draw, page')} ${page.page}" ${index?'loading="lazy"':''}>${(page.links||[]).map((link,li)=>`<a class="draw-link" href="${E(link.url)}" target="_blank" rel="noopener noreferrer" style="left:${link.bbox[0]/page.width*100}%;top:${link.bbox[1]/page.height*100}%;width:${(link.bbox[2]-link.bbox[0])/page.width*100}%;height:${(link.bbox[3]-link.bbox[1])/page.height*100}%" aria-label="${L('Φύλλο αγώνα','Match sheet')} ${li+1}" title="${L('Άνοιγμα φύλλου αγώνα','Open match sheet')}"></a>`).join('')}</div></div></figure>`).join('')+
+      `</section><details class="panel panel-pad cup-results"><summary>${L('Αποτελέσματα συναντήσεων','Match results')} (${num(rows.length)})</summary>${rows.length?fixtureTable(rows,{showRound:false}):empty(L('Δεν έχουν δημοσιευθεί αποτελέσματα.','No results published yet.'))}</details>`;
+  }
+  function historicalCup(rows){
+    const bracket=Pofepa.cupBracket(rows),rounds=bracket.rounds;
+    const height=Math.max(1,...rounds.map(r=>r.matches.length))*116+70,positions=new Map();
+    rounds.forEach((r,col)=>r.matches.forEach((m,i)=>positions.set(m.fixture.id,{x:col*292+16,y:54+(i+.5)*(height-70)/r.matches.length-46})));
+    let edges=rounds.flatMap(r=>r.matches.flatMap(m=>m.feeders.map((id,slot)=>{
+      const a=positions.get(id),b=positions.get(m.fixture.id);if(!a||!b)return '';
+      const x=a.x+244,y=a.y+46,end=b.y+23+slot*44;
+      return `<path d="M${x} ${y} H${x+16} V${end} H${b.x}"/>`;
+    }))).join('');
+    if(bracket.champion){const final=rounds.at(-1)?.matches.find(m=>m.winner===bracket.champion),p=final&&positions.get(final.fixture.id);if(p)edges+=`<path d="M${p.x+244} ${p.y+46} H${rounds.length*292+16}"/>`;}
+    const champion=bracket.champion?`<section class="cup-champion" style="left:${rounds.length*292+16}px;top:${height/2-20}px"><h3>${L('Κυπελλούχος','Cup winner')}</h3>${cLink(bracket.champion)}</section>`:'';
+    const board=rounds.length?`<section class="panel" aria-labelledby="cup-draw-title"><div class="draw-toolbar"><h2 id="cup-draw-title">${L('Ταμπλό κυπέλλου','Cup draw')}</h2><span class="chart-note">${L('Προκρίσεις από τα δημοσιευμένα αποτελέσματα. Οριζόντια κύλιση →','Advancement from published results. Scroll horizontally →')}</span></div><div class="draw-viewport" tabindex="0" role="region" aria-label="${L('Γύροι κυπέλλου','Cup rounds')}"><div class="knockout-board" style="width:${(rounds.length+(bracket.champion?1:0))*292+16}px;height:${height}px"><svg class="knockout-lines" width="100%" height="100%" aria-hidden="true">${edges}</svg>${rounds.map((round,col)=>`<section aria-label="${E(round.label)}"><h3 class="knockout-round" style="left:${col*292+16}px">${E(round.label)}</h3>${round.matches.map(m=>{const f=m.fixture,p=positions.get(f.id);return `<article class="knockout-match" style="left:${p.x}px;top:${p.y}px" aria-label="${E(f.home+' / '+f.away)}">${f.clubs.map((id,i)=>`<div class="knockout-team ${m.winner===id?'winner':''}"><span>${cLink(id)}</span><strong>${f.score?f.score[i]:'—'}</strong></div>`).join('')}<span class="knockout-source">${m.bye?'BYE · ':''}${f.sheet_url?external(f.sheet_url,L('Φύλλο αγώνα','Match sheet')):sourceLink(f.source)}</span></article>`;}).join('')}</section>`).join('')}${champion}</div></div></section>`:'';
+    const stages=(items,label)=>items.length?`<section class="panel"><div class="round-heading"><h2>${label}</h2></div>${items.map(g=>`<h3 class="cup-stage">${E(g.label)}</h3>${fixtureTable(g.rows,{showRound:false})}`).join('')}</section>`:'';
+    return board+stages(bracket.placement,L('Αγώνες κατάταξης','Placement matches'))+stages(bracket.groups,L('Φάση ομίλων','Group stage'));
   }
   function rubberDetails(rows){return `<details><summary>${L('Επιμέρους αγώνες','Individual results')} (${rows.length})</summary>${rows.map(r=>`<p>${r.status==='walkover'?E(r.names.join(' / '))+' ('+L('άνευ αγώνα','walkover')+')':r.kind==='singles'?r.players.map(pLink).join(' / '):E((r.home||r.names||[]).join(' / '))+' — '+E((r.away||[]).join(' / '))+' ('+L('διπλό','doubles')+')'} <b>${r.score.join('–')}</b></p>`).join('')}</details>`;}
   function matchSheetCoverage(){
@@ -136,20 +159,24 @@ window.pofepaReady = (async () => {
   }
   function eventList(){
     const seasons=[...new Set(db.events.map(e=>e.season))].sort().reverse();
-    const season=param('season',seasons[0]),kind=param('kind','fixtures'),region=param('region');
-    const rows=db.events.filter(e=>(kind==='all'||e.kind===kind)&&(season==='all'||e.season===season)&&(!region||e.competition_region===region)&&search(e.name+' '+competitionRegionName(e.competition_region),param('q')));
+    const season=param('season',seasons[0]),kind=param('kind','fixtures'),region=param('region'),competition=param('competition');
+    const rows=db.events.filter(e=>(kind==='all'||e.kind===kind)&&(season==='all'||e.season===season)&&(!region||e.competition_region===region)&&(!competition||e.competition_type===competition)&&search(eventTitle(e)+' '+competitionRegionName(e.competition_region),param('q')));
     const order=id=>{const n=competitionRegions.findIndex(r=>r.id===id);return n<0?competitionRegions.length:n;};
     rows.sort((a,b)=>order(a.competition_region)-order(b.competition_region)||b.season.localeCompare(a.season));
     const grouped=rs=>competitionRegions.map(region=>{
       const group=rs.filter(e=>(e.competition_region||'unspecified')===region.id);if(!group.length)return '';
-      return `<section class="competition-group" aria-labelledby="competition-${E(region.id)}"><h2 id="competition-${E(region.id)}">${E(competitionRegionName(region.id))}</h2>`+table([L('Διοργάνωση','Competition'),L('Περίοδος','Season'),L('Κάλυψη','Coverage'),L('Εγγραφές','Records')],group.map(e=>`<tr><td class="player-cell">${link('event/'+e.id,e.name)}</td><td>${e.season}</td><td>${e.kind==='singles'?L('Ατομικά αποτελέσματα','Singles results'):L('Ομαδικές συναντήσεις','Team fixtures')}</td><td class="number">${num(e.match_count??(e.kind==='singles'?db.matches:db.fixtures).filter(m=>m.event===e.id).length)}</td></tr>`).join(''))+'</section>';
+      const sections=[['league',L('Πρωταθλήματα','Leagues')],['cup',L('Κύπελλα','Cups')],['singles',L('Ατομικά αποτελέσματα','Singles results')]].map(([type,label])=>{
+        const competitions=group.filter(e=>(e.competition_type||e.kind)===type);if(!competitions.length)return '';
+        return `<div class="competition-kind" data-competition-type="${type}"><h3>${label}</h3>`+table([L('Διοργάνωση','Competition'),L('Περίοδος','Season'),L('Προβολή','View'),L('Συναντήσεις','Matches')],competitions.map(e=>`<tr><td class="player-cell">${link('event/'+e.id,eventTitle(e))}</td><td>${e.season}</td><td>${e.kind==='singles'?L('Ατομικά αποτελέσματα','Singles results'):e.competition_type==='cup'?L('Αποτελέσματα κυπέλλου','Cup results'):L('Ανά αγωνιστική','By matchday')}</td><td class="number">${num(e.match_count??(e.kind==='singles'?db.matches:db.fixtures).filter(m=>m.event===e.id).length)}</td></tr>`).join(''))+'</div>';
+      }).join('');
+      return `<section class="competition-group" aria-labelledby="competition-${E(region.id)}"><h2 id="competition-${E(region.id)}">${E(competitionRegionName(region.id))}</h2>${sections}</section>`;
     }).join('');
     return pageHead(L('Διοργανώσεις','Competitions'),L('Οι διοργανώσεις ανά περιφέρεια, όπως οργανώνονται στις σελίδες αποτελεσμάτων του ΠΟΦΕΠΑ.','Competitions by region, following the organisation of POFΕPA’s results pages.'))+
-      `<div class="toolbar">${field('q',L('Αναζήτηση','Search'),param('q'))}${select('season',L('Περίοδος','Season'),[['all',L('Όλες οι περίοδοι','All seasons')],...seasons.map(s=>[s,s])],season)}${select('region',L('Περιφέρεια','Region'),[['',L('Όλες οι περιφέρειες','All regions')],...competitionRegions.map(r=>[r.id,competitionRegionName(r.id)])],region)}${select('kind',L('Δεδομένα','Records'),[['fixtures',L('Ομαδικές διοργανώσεις','Team competitions')],['singles',L('Ατομικά αποτελέσματα','Singles results')],['all',L('Όλα','All')]],kind)}</div>`+
+      `<div class="toolbar">${field('q',L('Αναζήτηση','Search'),param('q'))}${select('season',L('Περίοδος','Season'),[['all',L('Όλες οι περίοδοι','All seasons')],...seasons.map(s=>[s,s])],season)}${select('region',L('Περιφέρεια','Region'),[['',L('Όλες οι περιφέρειες','All regions')],...competitionRegions.map(r=>[r.id,competitionRegionName(r.id)])],region)}${select('kind',L('Δεδομένα','Records'),[['fixtures',L('Ομαδικές διοργανώσεις','Team competitions')],['singles',L('Ατομικά αποτελέσματα','Singles results')],['all',L('Όλα','All')]],kind)}${kind!=='singles'?select('competition',L('Τύπος διοργάνωσης','Competition type'),[['',L('Πρωταθλήματα & κύπελλα','Leagues & cups')],['league',L('Πρωταθλήματα','Leagues')],['cup',L('Κύπελλα','Cups')]],competition):''}</div>`+
       (kind!=='fixtures'?`<p class="chart-note">${L('Όπου η πηγή δεν ορίζει συγκεκριμένη περιφέρεια διοργάνωσης, το αρχείο εμφανίζεται χωριστά.','Records without a specific competition region in the source are listed separately.')}</p>`:'')+paged(rows,grouped);
   }
   function eventDetail(id){const e=events.get(id);if(!e)return notFound();const rows=(e.kind==='singles'?db.matches:db.fixtures).filter(m=>m.event===id);
-    return breadcrumb(L('Διοργανώσεις','Competitions'),'events')+pageHead(e.name,e.season+(e.competition_region&&e.competition_region!=='unspecified'?' · '+competitionRegionName(e.competition_region):''),sourceLink(e.sources[0]))+scopeNote()+(e.kind==='fixtures'?`<div class="notice">${L('Οι ημερομηνίες ορισμού δεν είναι επιβεβαιωμένες ημερομηνίες αγώνα. Δεν συμπεραίνουμε ατομικά αποτελέσματα από το ομαδικό σκορ.','Listed deadlines are not confirmed match dates. Singles results are not inferred from team scores.')}</div>`:'')+(e.kind==='fixtures'?fixturesByRound(rows):paged(rows,matchTable));
+    return breadcrumb(L('Διοργανώσεις','Competitions'),'events')+pageHead(eventTitle(e),e.season+(e.competition_region&&e.competition_region!=='unspecified'?' · '+competitionRegionName(e.competition_region):''),sourceLink(e.sources[0]))+(e.competition_type==='cup'?cupDraw(e,rows)+scopeNote():scopeNote()+(e.kind==='fixtures'?`<div class="notice">${L('Οι ημερομηνίες ορισμού δεν είναι επιβεβαιωμένες ημερομηνίες αγώνα. Δεν συμπεραίνουμε ατομικά αποτελέσματα από το ομαδικό σκορ.','Listed deadlines are not confirmed match dates. Singles results are not inferred from team scores.')}</div>`:'')+(e.kind==='fixtures'?fixturesByRound(rows):paged(rows,matchTable)));
   }
   function teamDetail(id){const c=clubs.get(id);if(!c)return notFound();const roster=latestGeneral.rows.filter(r=>r[3]===id),fixtures=db.fixtures.filter(f=>f.clubs.includes(id));
     return breadcrumb(L('Διοργανώσεις','Competitions'),'events')+pageHead(c.name,L('Η σύνθεση βασίζεται στην τελευταία πανελλαδική κατάταξη.','Roster follows the latest national ranking.'))+`<div class="section-title"><h2>${L('Αθλητές','Players')} · ${month(latestPeriod)}</h2></div><div class="panel">${roster.length?rankingTable(roster,latestGeneral):empty()}</div><div class="section-title"><h2>${L('Ομαδικές συναντήσεις','Team fixtures')}</h2></div>`+paged(fixtures,fixtureTable);
@@ -177,6 +204,10 @@ window.pofepaReady = (async () => {
   async function prepareView(r){if(!db.lazy)return db.matches;
     if(r.name==='team'||(r.name==='matches'&&r.params.get('view')==='teams')||(r.name==='event'&&events.get(r.id)?.kind==='fixtures')){
       if(!db.fixtures&&db.archives?.fixtures)db.fixtures=await fetchData(db.archives.fixtures);
+    }
+    if(r.name==='event'&&events.get(r.id)?.draw_archive){
+      db.cup_draws||={};
+      if(!db.cup_draws[r.id])db.cup_draws[r.id]=await fetchData(events.get(r.id).draw_archive);
     }
     if(r.name==='about'&&db.archives?.about){
       const archive=await fetchData(db.archives.about);
@@ -215,15 +246,16 @@ window.pofepaReady = (async () => {
   }
   async function updateFilter(name,value){const focus=document.activeElement?.id;let pos;try{pos=document.activeElement.selectionStart;}catch{}
     const params=new URLSearchParams(current.params);value?params.set(name,value):params.delete(name);if(name!=='page')params.delete('page');params.delete('rpage');
-    if(name==='region'&&current.name==='rankings'){params.delete('period');params.delete('list');}if(name==='class')params.delete('age');
+    if(name==='region'&&current.name==='rankings'){params.delete('period');params.delete('list');}if(name==='class')params.delete('age');if(name==='kind'&&value==='singles')params.delete('competition');
     history.replaceState(null,'',href(current.name+(current.id?'/'+current.id:''),Object.fromEntries(params)));await render();
     if(focus){const el=document.getElementById(focus);el?.focus();try{el?.setSelectionRange(pos,pos);}catch{}}
   }
   let searchTimer;
   app.addEventListener('input',event=>{if(event.target.matches('input[data-filter]')){clearTimeout(searchTimer);const {filter}=event.target.dataset,value=event.target.value;searchTimer=setTimeout(()=>updateFilter(filter,value),160);}});
-  app.addEventListener('change',event=>{if(event.target.matches('select[data-filter]'))updateFilter(event.target.dataset.filter,event.target.value);});
+  app.addEventListener('change',event=>{if(event.target.matches('select[data-draw-zoom]')){const image=document.getElementById('draw-canvas-'+event.target.dataset.drawZoom);image.style.width=event.target.value==='fit'?'100%':Math.round(Number(image.dataset.width)*Number(event.target.value))+'px';}if(event.target.matches('select[data-filter]'))updateFilter(event.target.dataset.filter,event.target.value);});
   function jumpToSection(id){const section=document.getElementById(id);if(section){section.focus({preventScroll:true});section.scrollIntoView({block:'start'});}}
   app.addEventListener('click',event=>{const button=event.target.closest('button');if(!button)return;
+    if(button.dataset.drawEnd!==undefined){const viewport=document.getElementById('draw-viewport-'+button.dataset.drawEnd);viewport.scrollTo({left:viewport.scrollLeft+viewport.clientWidth*.8,behavior:'auto'});return;}
     if(button.dataset.jump){jumpToSection(button.dataset.jump);return;}
     if(button.id==='retry')render();
     if(button.id==='reload')location.reload();

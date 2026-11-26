@@ -173,7 +173,7 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
             cells = rows[0].find_all('td', recursive=False)
             if len(rows) != 1 or len(cells) < 4:
                 continue
-            def lines(cell, preserve_blank=False, retain_links=False):
+            def lines(cell, preserve_blank=False, retain_links=False, split_spacing=True):
                 copy = BeautifulSoup(str(cell), 'html.parser')
                 if retain_links:
                     for anchor in copy.find_all('a', href=True):
@@ -187,7 +187,7 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
                     br.insert_before('\x1e')
                 output = []
                 for segment in copy.get_text().split('\x1e'):
-                    pieces = [clean(line) for line in re.split(r'\n| {5,}|\xa0{3,}', segment) if clean(line)]
+                    pieces = [clean(line) for line in (re.split(r'\n| {5,}|\xa0{3,}', segment) if split_spacing else [segment]) if clean(line)]
                     output.extend(pieces or ([''] if preserve_blank else []))
                 return output
             offset = 0
@@ -212,6 +212,14 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
                 if homes and len(homes) == len(aways) == len(results):
                     columns = [homes, [], aways, results]
                     break
+            if columns is None and all(cells[offset+i].find('br') for i in range(4)):
+                # A real team name can contain wide spacing (e.g. the 2012–13
+                # cup's "Δ. Π. ΜΕΛΑ             2010"). Only after the legacy
+                # layouts fail, trust explicit BR boundaries if all four
+                # columns, including the separator dashes, agree exactly.
+                explicit = [lines(cells[offset+i], retain_links=i==3, split_spacing=False) for i in range(4)]
+                if explicit[0] and len({len(col) for col in explicit}) == 1 and all(value in ('-', '–', '—') for value in explicit[1]):
+                    columns = explicit
             if columns is None:
                 continue
             heading = table.find_previous(['h2', 'h3'])
@@ -441,6 +449,7 @@ def collect(cache, as_of):
                 events[eid] = {"id": eid, "name": title, "season": season_name, "kind": "fixtures", "sources": [sid]}
                 if url in regions:
                     events[eid]['competition_region'] = regions[url]['region']
+                    events[eid]['competition_type'] = regions[url]['competition_type']
                 for f in parsed:
                     f["clubs"] = [club_id(f["home"]), club_id(f["away"])]
                 fixtures.extend(parsed)
