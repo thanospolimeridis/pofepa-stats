@@ -599,14 +599,6 @@
     "details": "The RED BLADES–PONG VIVEURS sheet gives 13/05 without a year. Its four played results correspond to 13 May 2026 in the workbook; the sheet also has two absent roster positions. Held until the year is confirmed; no individual walkover results are added.",
     "details_el": "Το φύλλο RED BLADES–PONG VIVEURS αναφέρει 13/05 χωρίς έτος. Οι τέσσερις παιγμένοι αγώνες αντιστοιχούν στις 13 Μαΐου 2026 στο βιβλίο. Απαιτείται επιβεβαίωση έτους."
   },
-  "http://files.ping-pong.gr/FA25-26/PLG-RBLpo.jpg": {
-    "fixture": "f-ff73ed0b69213bba",
-    "sha256": "2cb5b3f2b43924cc12bccd9e8277bb8c81c3a9f493a847e3858d14010afffcfe",
-    "reviewed_at": "2026-11-26",
-    "reason": "unplayed_team_fixture",
-    "details": "The 12 May 2026 POLYGYROS TT–RED BLADES sheet explicitly says RED BLADES did not attend. It records only a team 5-0, with all individual scores blank and no away roster. Retained outside the individual-match import; no singles or per-rubber scores can be transcribed. The team result already exists.",
-    "details_el": "Το φύλλο της 12ης Μαΐου 2026 αναφέρει ότι οι RED BLADES δεν προσήλθαν. Υπάρχει μόνο ομαδικό 5–0, χωρίς ατομικά σκορ ή αντίπαλους αθλητές. Το ομαδικό αποτέλεσμα διατηρείται, χωρίς προσθήκη ατομικών αγώνων."
-  },
   "http://files.ping-pong.gr/FA25-26/THB-OMUpo.jpg": {
     "fixture": "f-46c3ce4b2a25f700",
     "sha256": "bac18caaff7ebd7936f71ddc5afe29ae9c54648b84bb8fe195d4e81b8438d80b",

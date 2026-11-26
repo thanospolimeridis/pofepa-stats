@@ -139,14 +139,14 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 137380,
+ "matches": 137385,
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
  "fixtures": 20375,
  "reported_fixtures": 17118,
  "ranking_rows": 742275,
- "events": 941,
+ "events": 942,
  "match_date_min": "2011-10-26",
  "match_date_max": "2026-11-24",
  "excluded_rows": {
@@ -160,8 +160,8 @@
   "bonus": 1807
  },
  "identity_methods": {
-  "sheet_registration": 1219,
-  "reviewed_sheet_name_and_team": 595,
+  "sheet_registration": 1227,
+  "reviewed_sheet_name_and_team": 597,
   "unique_name_in_month": 45112,
   "exact_name_and_team": 182512,
   "unique_name_team_differs": 32029,
@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 426,
-  "imported_sheets": 348,
-  "held": 78,
-  "pending": 13085,
+  "reviewed": 446,
+  "imported_sheets": 369,
+  "held": 77,
+  "pending": 13065,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6334,16 +6334,6 @@
     "details_el": "Το φύλλο RED BLADES–PONG VIVEURS αναφέρει 13/05 χωρίς έτος. Οι τέσσερις παιγμένοι αγώνες αντιστοιχούν στις 13 Μαΐου 2026 στο βιβλίο. Απαιτείται επιβεβαίωση έτους."
    },
    {
-    "source": "s-5fc61b8d456567a7",
-    "url": "http://files.ping-pong.gr/FA25-26/PLG-RBLpo.jpg",
-    "fixture": "f-ff73ed0b69213bba",
-    "sha256": "2cb5b3f2b43924cc12bccd9e8277bb8c81c3a9f493a847e3858d14010afffcfe",
-    "reviewed_at": "2026-11-26",
-    "reason": "unplayed_team_fixture",
-    "details": "The 12 May 2026 POLYGYROS TT–RED BLADES sheet explicitly says RED BLADES did not attend. It records only a team 5-0, with all individual scores blank and no away roster. Retained outside the individual-match import; no singles or per-rubber scores can be transcribed. The team result already exists.",
-    "details_el": "Το φύλλο της 12ης Μαΐου 2026 αναφέρει ότι οι RED BLADES δεν προσήλθαν. Υπάρχει μόνο ομαδικό 5–0, χωρίς ατομικά σκορ ή αντίπαλους αθλητές. Το ομαδικό αποτέλεσμα διατηρείται, χωρίς προσθήκη ατομικών αγώνων."
-   },
-   {
     "source": "s-142cc57e1edf161f",
     "url": "http://files.ping-pong.gr/FA25-26/THB-OMUpo.jpg",
     "fixture": "f-46c3ce4b2a25f700",
@@ -6364,9 +6354,10 @@
     "details_el": "Στο έβδομο αποτέλεσμα ΑΝΔΡΕΑΔΗΣ–ΚΟΥΤΡΙΟΣ της 5ης Μαΐου 2026 αναγράφεται 3–2, αλλά τα τέσσερα καταγεγραμμένα σετ δίνουν 3–1. Απαιτείται διευκρίνιση."
    }
   ],
-  "imported": 907,
-  "corroborated": 1383,
-  "excluded_walkovers": 35,
+  "imported": 912,
+  "corroborated": 1483,
+  "excluded_team_walkovers": 2,
+  "excluded_walkovers": 41,
   "reviews": [
    {
     "source": "s-adfb32f236e751d3",
@@ -9521,6 +9512,200 @@
     "season": "2025-2026",
     "corroborated": 6,
     "notes": ""
+   },
+   {
+    "source": "s-b461b11ec4d84239",
+    "url": "http://files.ping-pong.gr/FA25-26/BWK-ATTpo.jpg",
+    "linked_url": "http://files.ping-pong.gr/FA25-26/BWK-ATT.jpg",
+    "fixture": "f-b0a3760f9cfd04ac",
+    "date": "2026-05-14",
+    "season": "2025-2026",
+    "corroborated": 9,
+    "notes": "Original BWK-ATT.jpg returns404. Recovered BWK-ATTpo.jpg is linked incorrectly from SIX ΜΠΑΚ–ATTACK-t, but visibly records this BLADE WALKERS–ΑΝΕΞΑΡΤΗΤΟΙ ΤΑΤΑΥΛΑ fixture:14May2026,5-4,all9workbook results. ΚΩΝΣΤΑΝΤΙΝΟΥ replaces ΤΣΑΛΙΚΗΣ in rows5/9. Row1 Σ. and registration1529 map to existing ΠΑΝΑΓΙΩΤΗΣ-ΣΠΥΡΙΔΩΝ result, without merging registration variants."
+   },
+   {
+    "source": "s-5fc61b8d456567a7",
+    "url": "http://files.ping-pong.gr/FA25-26/PLG-RBLpo.jpg",
+    "fixture": "f-ff73ed0b69213bba",
+    "date": "2026-05-12",
+    "season": "2025-2026",
+    "team_walkover": 1,
+    "notes": "The sheet explicitly states RED BLADES did not attend. Only overall 5-0 is recorded; all individual rows are blank. No singles or per-rubber scores are inferred."
+   },
+   {
+    "source": "s-247ae29ce526ca8a",
+    "url": "http://files.ping-pong.gr/FA25-26/ATH-VTT.jpg",
+    "fixture": "f-b286a4597bfcc7d0",
+    "date": "2026-05-12",
+    "season": "2025-2026",
+    "team_walkover": 1,
+    "notes": "Away team did not attend; sheet closed at 20:45. Overall 5-0 only, no individual rows played or inferred."
+   },
+   {
+    "source": "s-68202a7bbf6817bd",
+    "url": "http://files.ping-pong.gr/FA25-26/ASV-ATL.jpg",
+    "fixture": "f-3940322ecdd6406c",
+    "date": "2026-05-12",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-4cc49d1c4d725722",
+    "url": "http://files.ping-pong.gr/FA25-26/ETH-DIO.jpg",
+    "fixture": "f-cde06af8bd643b7f",
+    "date": "2026-05-11",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Row 4 and substitute annotation identify ΚΑΤΣΑΦΑΔΟΣ replacing ΣΤΑΜΝΙΔΗΣ."
+   },
+   {
+    "source": "s-3f2fe7732936a0df",
+    "url": "http://files.ping-pong.gr/FA25-26/ATN-RSN.jpg",
+    "fixture": "f-9ca4eff12c2735a8",
+    "date": "2026-05-10",
+    "season": "2025-2026",
+    "walkover": 2,
+    "corroborated": 5,
+    "notes": "Home A absent. ΒΟΥΤΣΙΝΑΣ registration is unclear on the scan; identity verified by name/team and matching workbook results."
+   },
+   {
+    "source": "s-3242bccabda84262",
+    "url": "http://files.ping-pong.gr/FA25-26/PFL-P4F.jpg",
+    "fixture": "f-389a3528fa9ec802",
+    "date": "2026-05-09",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-750848fe76cc7423",
+    "url": "http://files.ping-pong.gr/FA25-26/RDL-ANK.jpg",
+    "fixture": "f-bd2227a180987b1a",
+    "date": "2026-05-08",
+    "season": "2025-2026",
+    "corroborated": 4,
+    "walkover": 1,
+    "notes": "Away Y is absent; row 2 advances team total without played games."
+   },
+   {
+    "source": "s-63ee8de955d017bb",
+    "url": "http://files.ping-pong.gr/FA25-26/LEO-SWD.jpg",
+    "fixture": "f-bd18b48b9885a4c7",
+    "date": "2026-05-08",
+    "season": "2025-2026",
+    "corroborated": 4,
+    "walkover": 1,
+    "notes": ""
+   },
+   {
+    "source": "s-fcd6342dda83e5ac",
+    "url": "http://files.ping-pong.gr/FA25-26/AKT-V3V.jpg",
+    "fixture": "f-32c9e77b436c8c01",
+    "date": "2026-05-07",
+    "season": "2025-2026",
+    "corroborated": 4,
+    "walkover": 2,
+    "notes": ""
+   },
+   {
+    "source": "s-35aaf09cc6b07071",
+    "url": "http://files.ping-pong.gr/FA25-26/ART-PAN.jpg",
+    "fixture": "f-4615a19cdb4328a1",
+    "date": "2026-05-06",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-01c32c24b6bb30d6",
+    "url": "http://files.ping-pong.gr/FA25-26/KLP-RHC.jpg",
+    "fixture": "f-72ceabf145259140",
+    "date": "2026-05-06",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": "Final score field reverses 5-1, but running totals and winner identify away RED HOT CHILI PONGERS 1-5, matching the linked fixture."
+   },
+   {
+    "source": "s-9fcf26c17496922e",
+    "url": "http://files.ping-pong.gr/FA25-26/SLM-SPR.jpg",
+    "fixture": "f-248708ed796b2f1d",
+    "date": "2026-05-06",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": "ΤΖΑΡΑΣ is written with transposed registration782 instead of catalog872; mapped by reviewed name, team and existing results. ΖΜΠΙ is the team nickname of DRZEWAZEWSKI ZBGNIEW; no registration assertion for unclear digits."
+   },
+   {
+    "source": "s-16f8bc2b7420ac47",
+    "url": "http://files.ping-pong.gr/FA25-26/AIG-PRD.jpg",
+    "fixture": "f-0764658f3d27172f",
+    "date": "2026-05-06",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-3d54fdf4dc934a60",
+    "url": "http://files.ping-pong.gr/FA25-26/KAR-TMX.jpg",
+    "fixture": "f-ea2ed66208743aa7",
+    "date": "2026-05-05",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-64a346e2829832d5",
+    "url": "http://files.ping-pong.gr/FA25-26/MFR-CNC.jpg",
+    "fixture": "f-9d82005b48ae67b4",
+    "date": "2026-05-05",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-c0d9f601a908738c",
+    "url": "http://files.ping-pong.gr/FA25-26/PST-KRG.jpg",
+    "fixture": "f-15741c4c26649d2a",
+    "date": "2026-05-05",
+    "season": "2025-2026",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-ae4044239763debc",
+    "url": "http://files.ping-pong.gr/FA25-26/VKI-EM1.jpg",
+    "fixture": "f-06257824a706e2dc",
+    "date": "2026-05-04",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "ΚΟΥΦΟΣ replaces ΡΕΜΠΕΛΟΣ in row5, explicitly noted as a substitution."
+   },
+   {
+    "source": "s-f4d99f29ce34e291",
+    "url": "http://files.ping-pong.gr/FA25-26/PFL-S7T.jpg",
+    "fixture": "f-f279c6cf87345ed0",
+    "date": "2026-05-02",
+    "season": "2025-2026",
+    "corroborated": 7,
+    "notes": "CHUYEVSKYY replaces ΗΡΙΩΤΗΣ in row6; substitution explicitly annotated."
+   },
+   {
+    "source": "s-d5dfb7886c9bf999",
+    "url": "http://files.ping-pong.gr/FA25-26/TDT-RD2.jpg",
+    "fixture": "f-b927a305a250682e",
+    "date": "2026-04-30",
+    "season": "2025-2026",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-50aeb57790cfbbe9",
+    "url": "http://files.ping-pong.gr/FA25-26/TPZ-ESP.jpg",
+    "fixture": "f-0bde3e428bca583c",
+    "date": "2026-04-30",
+    "season": "2025-2026",
+    "imported": 5,
+    "notes": "ΛΕΥΚΟΠΟΥΛΟΣ1245 explicitly replaces starting B ΤΑΝΤΣΟΥΡΑ in row4. Starting C is ΤΑΝΤΣΟΥΡΑ Ε.1244; starting B handwritten2413 maps to ΔΗΜΗΤΡΙΟΣ. No same-pair results near this date exist in the workbook; all five played rubbers are new."
    }
   ]
  }

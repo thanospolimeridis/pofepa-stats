@@ -61,7 +61,11 @@ def import_reviews(data, cache, reviews=None, issues=None):
                 ranking_proofs[row[0]].append((snapshot['period'], snapshot['source']))
     report = []
     for url, review in reviews.items():
-        sid, path = cache.get(url)
+        document_url = review.get('document_url', url)
+        if document_url != url and not review.get('notes'):
+            raise ValueError(f'Missing recovered-source explanation: {url}')
+        sid, path = cache.get(document_url)
+        source_location = {'url': document_url, **({'linked_url': url} if document_url != url else {})}
         if hashlib.sha256(path.read_bytes()).hexdigest() != review['sha256']:
             raise ValueError(f'Reviewed match sheet changed: {url}')
         sources[sid] = cache.sources[sid]
@@ -71,6 +75,18 @@ def import_reviews(data, cache, reviews=None, issues=None):
         played = date.fromisoformat(review['date'])
         if played > date.fromisoformat(data['coverage']['as_of']):
             raise ValueError(f'Future match-sheet date: {url}')
+        sheet_status = review.get('status', 'played')
+        if sheet_status not in ('played', 'team_walkover'):
+            raise ValueError(f'Unsupported match-sheet status: {url}')
+        if sheet_status == 'team_walkover':
+            if review['rows'] or review['players'] or sorted(review['team_score']) != [0, 5] or not review.get('notes'):
+                raise ValueError(f'Invalid whole-team walkover: {url}')
+            f.update(date=review['date'], rubbers=[], match_sheet_source=sid,
+                     match_sheet_status='team_walkover')
+            report.append({'source': sid, **source_location, 'fixture': f['id'], 'date': review['date'],
+                           'season': events[f['event']]['season'], 'team_walkover': 1,
+                           'notes': review['notes']})
+            continue
         roster = review['players']
         identity_sources = {}
         for roster_key, person in roster.items():
@@ -147,7 +163,7 @@ def import_reviews(data, cache, reviews=None, issues=None):
         if scores != review['team_score']:
             raise ValueError(f'Rubber totals disagree with team score: {url}: {scores}')
         f.update(date=review['date'], rubbers=rubbers, match_sheet_source=sid)
-        report.append({'source': sid, 'url': url, 'fixture': f['id'], 'date': review['date'],
+        report.append({'source': sid, **source_location, 'fixture': f['id'], 'date': review['date'],
                        'season': events[f['event']]['season'], **counts, 'notes': review.get('notes', '')})
     held = []
     for url, issue in issues.items():
@@ -171,6 +187,7 @@ def import_reviews(data, cache, reviews=None, issues=None):
                          'pending': len(linked - set(reviews) - set(issues)), 'issues': held,
                          'imported': sum(r.get('imported', 0) for r in report),
                          'corroborated': sum(r.get('corroborated', 0) for r in report),
+                         'excluded_team_walkovers': sum(r.get('team_walkover', 0) for r in report),
                          'excluded_walkovers': sum(r.get('walkover', 0) for r in report), 'reviews': report}
     validate(data)
     return data

@@ -50,6 +50,29 @@ class MatchSheetTests(unittest.TestCase):
         self.run_import()
         self.assertEqual(before,self.data)
 
+    def test_whole_team_no_show_creates_no_individual_results(self):
+        self.run_import()
+        original_matches=copy.deepcopy(self.data['matches'])
+        self.data['fixtures'][0]['score']=[5,0]
+        self.review.update(status='team_walkover', team_score=[5,0], players={}, rows=[],
+                           notes='Away team did not attend; all rubber fields are blank.')
+        self.run_import()
+        self.assertEqual(self.data['matches'],original_matches)
+        self.assertEqual(self.data['fixtures'][0]['rubbers'],[])
+        self.assertEqual(self.data['fixtures'][0]['match_sheet_status'],'team_walkover')
+        coverage=self.data['coverage']['match_sheets']
+        self.assertEqual((coverage['imported'],coverage['corroborated'],coverage['excluded_walkovers']),(0,0,0))
+        self.assertEqual(coverage['excluded_team_walkovers'],1)
+        before=copy.deepcopy(self.data)
+        self.run_import()
+        self.assertEqual(before,self.data)
+
+    def test_whole_team_no_show_rejects_rubbers_or_non_walkover_total(self):
+        self.review['status']='team_walkover'
+        with self.assertRaisesRegex(ValueError,'Invalid whole-team walkover'):self.run_import()
+        self.review.update(players={},rows=[],notes='No attendance')
+        with self.assertRaisesRegex(ValueError,'Invalid whole-team walkover'):self.run_import()
+
     def test_absent_roster_slot_is_allowed_only_for_a_walkover(self):
         self.review['players']['4']={'label':'Absent player'}
         self.run_import()
@@ -77,6 +100,20 @@ class MatchSheetTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'sheet changed'):self.run_import()
         self.path.write_bytes(b'reviewed public sheet');self.review['players']['1']['registration']='999'
         with self.assertRaisesRegex(ValueError,'registration mismatch'):self.run_import()
+
+    def test_recovered_source_retains_original_fixture_link_and_actual_document(self):
+        from unittest.mock import patch
+        recovered='https://www.pofepa.gr/recovered-sheet.jpg'
+        self.review['document_url']=recovered
+        with self.assertRaisesRegex(ValueError,'recovered-source explanation'):self.run_import()
+        self.review['notes']='Original link is broken; this separately linked sheet matches teams, date and score.'
+        self.source['url']=recovered
+        with patch.object(self.cache,'get',wraps=self.cache.get) as get:
+            self.run_import()
+            get.assert_called_once_with(recovered)
+        self.assertEqual(self.data['fixtures'][0]['sheet_url'],self.url)
+        report=self.data['coverage']['match_sheets']['reviews'][0]
+        self.assertEqual((report['url'],report['linked_url']),(recovered,self.url))
 
     def test_team_total_must_reconcile(self):
         self.review['rows'][0]['score']=[1,3]
