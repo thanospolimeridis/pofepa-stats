@@ -422,5 +422,29 @@
     "reason": "unresolved_identity",
     "details": "The sheet identifies ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ with registration 2662, but that registration has no resolved athlete profile. The same-day workbook uses provisional u-ded023a5b8bec5dd without a contemporary ranking or earlier match identity proof. Preserve the seven existing workbook results and hold this source until the identity can be independently resolved.",
     "details_el": "Ο ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ αναγράφεται με ΔΑΙ 2662 χωρίς αντίστοιχο ταυτοποιημένο προφίλ ή προγενέστερη τεκμηρίωση. Οι επτά υπάρχοντες αγώνες του αρχείου διατηρούνται· το φύλλο αναμένει επιβεβαίωση ταυτότητας."
+  },
+  "http://files.ping-pong.gr/FA26-27/EM3-MB3.jpg": {
+    "fixture": "f-f7843b3a004a4d2d",
+    "sha256": "0b4df39f5f8199e5c9e04b30839ff2a40a9db76b59a081b5dbc3caa7227c5d4b",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "The ninth rubber is totalled 3–0, but the workbook records ΤΣΑΝΑΒΑ–ΤΡΕΒΕΖΑΣ as 3–1 and four game scores are written. Preserve the existing nine workbook matches until this inconsistency is resolved.",
+    "details_el": "Το ένατο ατομικό σκορ γράφει 3–0, ενώ το αρχείο αποτελεσμάτων γράφει 3–1 και εμφανίζονται τέσσερα σετ. Διατηρούνται τα υπάρχοντα αποτελέσματα."
+  },
+  "http://files.ping-pong.gr/FA26-27/BPG-BSS.jpg": {
+    "fixture": "f-44f4802f4d2523e0",
+    "sha256": "a0614eda7b41bde769cba9b3890cf1374fd39d6a4dcb6cd26324078e7799c0a7",
+    "reviewed_at": "2026-11-26",
+    "reason": "future_date",
+    "details": "The sheet is explicitly dated 12/12/2026, after the 26 November review. The five matching workbook results use 12/10/2026; this conflict does not establish permission to replace the written date.",
+    "details_el": "Το φύλλο γράφει 12/12/2026, μετά τον έλεγχο, ενώ τα πέντε ίδια αποτελέσματα στο αρχείο έχουν 12/10/2026. Εκκρεμεί επιβεβαίωση της ημερομηνίας."
+  },
+  "http://files.ping-pong.gr/FA26-27/XML-GPS.jpg": {
+    "fixture": "f-88d7d1e17a77c967",
+    "sha256": "62144460ef4f62511ed17c965185189ae89701a1623f734b975cefc10cbc3d66",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Two G.P.S. (M) participants have handwritten registrations 10578 and 10557 but no matching athlete profiles or contemporary ranking identities were found. The other two singles already exist in the workbook.",
+    "details_el": "Δεν έχουν επιβεβαιωθεί δύο αθλητές της G.P.S. (M), με χειρόγραφους ΔΑΙ 10578 και 10557. Τα δύο ατομικά αποτελέσματα των επιβεβαιωμένων αθλητών υπάρχουν ήδη."
   }
 }
