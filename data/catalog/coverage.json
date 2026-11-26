@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 256,
-  "imported_sheets": 203,
+  "reviewed": 276,
+  "imported_sheets": 223,
   "held": 53,
-  "pending": 13255,
+  "pending": 13235,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6115,7 +6115,7 @@
    }
   ],
   "imported": 891,
-  "corroborated": 439,
+  "corroborated": 585,
   "excluded_walkovers": 22,
   "reviews": [
    {
@@ -7957,6 +7957,186 @@
     "season": "2026-2027",
     "corroborated": 6,
     "notes": "ΜΑΚΟΣ is unnumbered on the sheet; the FIREBALLS roster and both matching workbook results identify ΕΥΑΓΓΕΛΟΣ ΜΑΚΟΣ 1376."
+   },
+   {
+    "source": "s-827fbc50b3371973",
+    "url": "http://files.ping-pong.gr/FA26-27/PLD-PR2.jpg",
+    "fixture": "f-8e44ce5d6da3babf",
+    "date": "2026-10-27",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "ΣΟΥΓΙΟΥΛΤΖΟΓΛΟΥ registration is indistinct; the name, team and three identical workbook results establish 2685. ΒΕΛΙΣΣΑΡΙΔΗΣ replaces ΣΤΙΑΠΗΣ Φ in row 5."
+   },
+   {
+    "source": "s-055fbb4cda4e85fa",
+    "url": "http://files.ping-pong.gr/FA26-27/AN1-SSV.jpg",
+    "fixture": "f-0983da6c836db3b0",
+    "date": "2026-10-27",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "The listed substitution ΠΟΘΗΤΟΣ ΡΟΥΜΕΛΙΩΤΗΣ appears explicitly in row 8. Use the current ΝΙΚΟΛΑΟΣ variant for registration 2851 in rows 1 and 4; ΝΤΟΥΡΛΑΡΗΣ is resolved by team and matching workbook results."
+   },
+   {
+    "source": "s-86f13c0b78032199",
+    "url": "http://files.ping-pong.gr/FA26-27/ATS-ILR.jpg",
+    "fixture": "f-27a70824b22bb5a0",
+    "date": "2026-10-26",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": ""
+   },
+   {
+    "source": "s-f6ead479c68cc9d4",
+    "url": "http://files.ping-pong.gr/FA26-27/PWS-KPG.jpg",
+    "fixture": "f-0854b8ec4b287c90",
+    "date": "2026-10-26",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-abc57b768fdecd74",
+    "url": "http://files.ping-pong.gr/FA26-27/EFR-SF3.jpg",
+    "fixture": "f-c79c3abdd976c599",
+    "date": "2026-10-25",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": ""
+   },
+   {
+    "source": "s-b588d03a776c66ba",
+    "url": "http://files.ping-pong.gr/FA26-27/AP6-SSP.jpg",
+    "fixture": "f-ce36f0576852d8fa",
+    "date": "2026-10-24",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "Use current ΣΚΟΥΦΑΡΙΔΗΣ ΧΡΗΣΤΟΣ Κ. variant for 2293. ΒΑΣΙΛΕΙΟΥ registration handwriting is indistinct; matching workbook results and name resolve 2937."
+   },
+   {
+    "source": "s-fdeed0de10682234",
+    "url": "http://files.ping-pong.gr/FA26-27/A19-T10.jpg",
+    "fixture": "f-4646119e6942dacd",
+    "date": "2026-10-24",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-348f5306493bb47a",
+    "url": "http://files.ping-pong.gr/FA26-27/THB-SG2.jpg",
+    "fixture": "f-be2bc1269354c825",
+    "date": "2026-10-23",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "Sheet date is blank; all six exact workbook rows establish 23 October 2026. Use the current ΜΗΤΡΟΠΟΥΛΟΣ variant for 1747. ΠΑΠΑΛΑΣ registration is indistinct and resolved by name and workbook results. ΠΑΠΑΓΕΩΡΓΑΚΟΠΟΥΛΟΣ substitutes in row 6."
+   },
+   {
+    "source": "s-fdad63dfab148b92",
+    "url": "http://files.ping-pong.gr/FA26-27/AP5-ADK.jpg",
+    "fixture": "f-bff9058a3809b982",
+    "date": "2026-10-22",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "Low-resolution image: written names, date and five row totals are independently corroborated by the workbook. Do not certify indistinct printed registrations."
+   },
+   {
+    "source": "s-f655abf7648e1c20",
+    "url": "http://files.ping-pong.gr/FA26-27/HWK-AML.jpg",
+    "fixture": "f-015e0a1b43b0b5bd",
+    "date": "2026-10-20",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "ΚΑΤΣΙΚΗΣ registration is indistinct; name and two exact workbook results establish 83. The unnumbered substitute ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ is confirmed by the workbook row and team roster."
+   },
+   {
+    "source": "s-db053898a249a02c",
+    "url": "http://files.ping-pong.gr/FA26-27/PM18-12S.jpg",
+    "fixture": "f-cc8141980de9d01f",
+    "date": "2026-10-19",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "Row 4 has overwritten marks; its 3-1 workbook result agrees with the final 16-16 set aggregate and 4-5 team result. Row 9 names ΝΑΤΣΙΟΣ but repeats ΜΗΤΡΟΓΙΑΝΝΗΣ registration 2205; preserve the explicit name and workbook pairing with 1811. Printed competition year is stale; the handwritten date and linked fixture establish 2026-2027."
+   },
+   {
+    "source": "s-7f9464c81ee0d80e",
+    "url": "http://files.ping-pong.gr/FA26-27/DSB-ILM.jpg",
+    "fixture": "f-e71e20675f75d589",
+    "date": "2026-10-19",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "Overwritten day is established as 19 October by all seven matching workbook results. The printed 656 beside ΚΥΡΙΑΚΟΥ Φ belongs to a different athlete; use the written name, team roster and both exact workbook pairs to resolve ΚΥΡΙΑΚΗΣ ΦΙΛΙΠΠΟΣ 1358. Other indistinct registrations are resolved by the same workbook evidence. Row 6 explicitly substitutes ΠΑΥΛΑΚΟΣ ΠΑΥΛΟΣ 2818."
+   },
+   {
+    "source": "s-6f1b7199dc5bf956",
+    "url": "http://files.ping-pong.gr/FA26-27/SFD-INS.jpg",
+    "fixture": "f-fc886068aa03d83a",
+    "date": "2026-10-19",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-d737fa5cc5fd27cc",
+    "url": "http://files.ping-pong.gr/FA26-27/AP3-BMB.jpg",
+    "fixture": "f-09a221c3084e570a",
+    "date": "2026-10-18",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "Unnumbered away roster is independently resolved by all six exact workbook results and the team roster; the listed reserve does not appear in a played row."
+   },
+   {
+    "source": "s-ca4a541514e9de32",
+    "url": "http://files.ping-pong.gr/FA26-27/WFT-ADV.jpg",
+    "fixture": "f-e595b944ba46c5b3",
+    "date": "2026-10-16",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-932c075160da4b2c",
+    "url": "http://files.ping-pong.gr/FA26-27/PPC-ES5.jpg",
+    "fixture": "f-28f6a074472bdeab",
+    "date": "2026-10-16",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "The handwritten date reads 16 October and is corroborated by all seven workbook results. ΣΑΛΑΜΑΛΙΚΗΣ has inconsistent/indistinct handwritten registrations; use name, team and exact workbook pairs to establish 2227."
+   },
+   {
+    "source": "s-c54aa4142bee3ee3",
+    "url": "http://files.ping-pong.gr/FA26-27/NSA-AN4.jpg",
+    "fixture": "f-82dfc3c1928f7d80",
+    "date": "2026-10-15",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "The unnumbered away roster and ΓΙΑΝΝΑΚΟΠΟΥΛΟΣ indistinct registration are resolved by all nine exact workbook results and team associations."
+   },
+   {
+    "source": "s-328b0c549e995f43",
+    "url": "http://files.ping-pong.gr/FA26-27/L08-FLR.jpg",
+    "fixture": "f-cccaa55850c85d72",
+    "date": "2026-10-14",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "ΚΑΠΡΑΛΟΣ and ΤΣΑΓΚΑΡΗΣ registrations are transposed on the sheet. Their names and all nine workbook pairings resolve 2457 and 2456 respectively; do not use the transposed numbers as identity proof."
+   },
+   {
+    "source": "s-dc7aaf79e952af7c",
+    "url": "http://files.ping-pong.gr/FA26-27/DSH-NS2.jpg",
+    "fixture": "f-ba6f9e11aafa6d79",
+    "date": "2026-10-13",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": ""
+   },
+   {
+    "source": "s-c19f0364fc645377",
+    "url": "http://files.ping-pong.gr/FA26-27/DIO-TBL.jpg",
+    "fixture": "f-5b703ef8d3a9456a",
+    "date": "2026-10-13",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
    }
   ]
  }
