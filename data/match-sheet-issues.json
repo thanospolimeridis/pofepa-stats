@@ -494,5 +494,21 @@
     "reason": "unresolved_identity",
     "details": "ΜΠΟΥΡΟΥΣ is explicitly numbered 2412 (ΣΤΥΛΙΑΝΟΣ), whereas the two workbook rubbers name 2822 (ΠΕΤΡΟΣ). Both profiles belong to THE CHAMPIONS, so surname and team cannot resolve the conflict. Preserve the five existing results.",
     "details_el": "Ο ΜΠΟΥΡΟΥΣ γράφεται με ΔΑΙ 2412 (ΣΤΥΛΙΑΝΟΣ), αλλά το αρχείο τον συνδέει με 2822 (ΠΕΤΡΟΣ). Και οι δύο ανήκουν στην ίδια ομάδα και απαιτείται επιβεβαίωση."
+  },
+  "http://files.ping-pong.gr/FA26-27/ELM-MFR.jpg": {
+    "fixture": "f-782044814b33e823",
+    "sha256": "ba9375b4370b1462acadee32a3d6591bdd27d9033c82e06545dbdbedcdfb8a5a",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The sheet lists ΔΕΚΑΒΑΛΑΣ ΑΘ. with registration 526, but that registration belongs to ΙΩΑΝΝΗΣ in the catalog. Two rubbers involving this player are absent from the workbook; the identity cannot be resolved confidently. ΚΟΝΤΟΠΟΥΛΟΣ also carries a different registration system (10587).",
+    "details_el": "Το όνομα ΔΕΚΑΒΑΛΑΣ ΑΘ. δεν συμφωνεί με τον καταχωρισμένο ΙΩΑΝΝΗ με αριθμό 526. Δύο σχετικά αποτελέσματα λείπουν από το βιβλίο και η ταυτότητα χρειάζεται επιβεβαίωση."
+  },
+  "http://files.ping-pong.gr/FA26-27/ATN-ATT.jpg": {
+    "fixture": "f-985799daa8fec434",
+    "sha256": "a78c0952a4019a5479498a6f969a19057e5af71bed3bbe0bbd666fea1b40cb5f",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The sheet reads 21 October 2026, but all eight exact player pairs and scores already exist in the workbook on 2 October 2026. Held to avoid duplicating an entire team match under a different date.",
+    "details_el": "Το φύλλο αναγράφει 21/10/2026, αλλά και τα οκτώ ίδια αποτελέσματα υπάρχουν στο βιβλίο στις 2/10/2026. Χρειάζεται επιβεβαίωση ημερομηνίας για να μην προστεθούν διπλοί αγώνες."
   }
 }

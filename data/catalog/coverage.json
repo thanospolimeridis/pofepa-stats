@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 326,
-  "imported_sheets": 264,
-  "held": 62,
-  "pending": 13185,
+  "reviewed": 346,
+  "imported_sheets": 282,
+  "held": 64,
+  "pending": 13165,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6202,10 +6202,30 @@
     "reason": "unresolved_identity",
     "details": "ΜΠΟΥΡΟΥΣ is explicitly numbered 2412 (ΣΤΥΛΙΑΝΟΣ), whereas the two workbook rubbers name 2822 (ΠΕΤΡΟΣ). Both profiles belong to THE CHAMPIONS, so surname and team cannot resolve the conflict. Preserve the five existing results.",
     "details_el": "Ο ΜΠΟΥΡΟΥΣ γράφεται με ΔΑΙ 2412 (ΣΤΥΛΙΑΝΟΣ), αλλά το αρχείο τον συνδέει με 2822 (ΠΕΤΡΟΣ). Και οι δύο ανήκουν στην ίδια ομάδα και απαιτείται επιβεβαίωση."
+   },
+   {
+    "source": "s-425aaec71c348647",
+    "url": "http://files.ping-pong.gr/FA26-27/ELM-MFR.jpg",
+    "fixture": "f-782044814b33e823",
+    "sha256": "ba9375b4370b1462acadee32a3d6591bdd27d9033c82e06545dbdbedcdfb8a5a",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The sheet lists ΔΕΚΑΒΑΛΑΣ ΑΘ. with registration 526, but that registration belongs to ΙΩΑΝΝΗΣ in the catalog. Two rubbers involving this player are absent from the workbook; the identity cannot be resolved confidently. ΚΟΝΤΟΠΟΥΛΟΣ also carries a different registration system (10587).",
+    "details_el": "Το όνομα ΔΕΚΑΒΑΛΑΣ ΑΘ. δεν συμφωνεί με τον καταχωρισμένο ΙΩΑΝΝΗ με αριθμό 526. Δύο σχετικά αποτελέσματα λείπουν από το βιβλίο και η ταυτότητα χρειάζεται επιβεβαίωση."
+   },
+   {
+    "source": "s-eff169025502342c",
+    "url": "http://files.ping-pong.gr/FA26-27/ATN-ATT.jpg",
+    "fixture": "f-985799daa8fec434",
+    "sha256": "a78c0952a4019a5479498a6f969a19057e5af71bed3bbe0bbd666fea1b40cb5f",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The sheet reads 21 October 2026, but all eight exact player pairs and scores already exist in the workbook on 2 October 2026. Held to avoid duplicating an entire team match under a different date.",
+    "details_el": "Το φύλλο αναγράφει 21/10/2026, αλλά και τα οκτώ ίδια αποτελέσματα υπάρχουν στο βιβλίο στις 2/10/2026. Χρειάζεται επιβεβαίωση ημερομηνίας για να μην προστεθούν διπλοί αγώνες."
    }
   ],
   "imported": 900,
-  "corroborated": 831,
+  "corroborated": 951,
   "excluded_walkovers": 25,
   "reviews": [
    {
@@ -8600,6 +8620,168 @@
     "season": "2026-2027",
     "corroborated": 6,
     "notes": "All unnumbered names are resolved by team and six exact workbook pairs."
+   },
+   {
+    "source": "s-42c583b18b243eb1",
+    "url": "http://files.ping-pong.gr/FA26-27/PL7-ATH.jpg",
+    "fixture": "f-de74b7e73f1f043f",
+    "date": "2026-10-15",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "Unnumbered ΣΕΝΣΕΒΕΝ and the indistinct registration digits are supported by all five exact workbook results."
+   },
+   {
+    "source": "s-6b8400d14dedc65c",
+    "url": "http://files.ping-pong.gr/FA26-27/SF2-PRT.jpg",
+    "fixture": "f-a095690aab5b30a8",
+    "date": "2026-10-12",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "ΜΠΙΜΠΙΚΟΣ substitutes in row 4. The abbreviated ΠΑΠ/ΚΟΣ and ROSE ZHANG resolve by registration and exact workbook results."
+   },
+   {
+    "source": "s-5ff3e42f7c7f6d29",
+    "url": "http://files.ping-pong.gr/FA26-27/V3V-KAR.jpg",
+    "fixture": "f-9310aa6f6eac6d86",
+    "date": "2026-10-09",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "All five unnumbered pairs match the workbook. Row 1 corrected 3–1 is supported by its four games and final 15–5 aggregate."
+   },
+   {
+    "source": "s-888191d0ad57cc4b",
+    "url": "http://files.ping-pong.gr/FA26-27/AGK-TMX.jpg",
+    "fixture": "f-4481089d13554e78",
+    "date": "2026-10-09",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-8fafcc077fc851b2",
+    "url": "http://files.ping-pong.gr/FA26-27/SPM-ASV.jpg",
+    "fixture": "f-f1c09f4bcc3a12df",
+    "date": "2026-10-09",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "All five names and scores corroborate the workbook."
+   },
+   {
+    "source": "s-cfed6c483d01deda",
+    "url": "http://files.ping-pong.gr/FA26-27/ATL-BWK.jpg",
+    "fixture": "f-295d181a01609391",
+    "date": "2026-10-08",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "The two substitutes and all six scores match the workbook. ΤΣΑΛΙΚΗΣ resolves to the contemporary ΠΑΝΑΓΙΩΤΗΣ-ΣΠΥΡΙΔΩΝ variant."
+   },
+   {
+    "source": "s-e702a61f6619f497",
+    "url": "http://files.ping-pong.gr/FA26-27/SWD-SLM.jpg",
+    "fixture": "f-46618b5fca2e4da3",
+    "date": "2026-10-08",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "Registrations and all seven workbook results establish identities despite abbreviated handwritten names."
+   },
+   {
+    "source": "s-97e6333dcecb8bf5",
+    "url": "http://files.ping-pong.gr/FA26-27/ADF-ETH.jpg",
+    "fixture": "f-a1c6860f5da6179f",
+    "date": "2026-10-07",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-92f5a110a36ff0f4",
+    "url": "http://files.ping-pong.gr/FA26-27/TPZ-ESP.jpg",
+    "fixture": "f-77e165bbeefaf2c5",
+    "date": "2026-10-06",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-b96c0f04a1c5ea34",
+    "url": "http://files.ping-pong.gr/FA26-27/ANK-AKT.jpg",
+    "fixture": "f-0c98c5303bd8345e",
+    "date": "2026-10-05",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "All six unnumbered names, pairings and scores agree with the workbook."
+   },
+   {
+    "source": "s-7eabfce520a259b1",
+    "url": "http://files.ping-pong.gr/FA26-27/PRD-TDT.jpg",
+    "fixture": "f-f33ec5d8f2f18c7b",
+    "date": "2026-10-04",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "All eight unnumbered pairs and scores match the workbook."
+   },
+   {
+    "source": "s-904d74bf05191cf8",
+    "url": "http://files.ping-pong.gr/FA26-27/PFL-CNC.jpg",
+    "fixture": "f-8c9de865de6c7bc4",
+    "date": "2026-10-04",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "The substitute in row 8 and all eight results match the workbook."
+   },
+   {
+    "source": "s-ad43f781e65d90e4",
+    "url": "http://files.ping-pong.gr/FA26-27/AMZ-PTH.jpg",
+    "fixture": "f-d54805a9208e20b3",
+    "date": "2026-10-01",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "ΠΑΠΑΔΗΜΑΣ replaces ΠΑΠΑΔΙΑΣ in row 5; all five results match the workbook."
+   },
+   {
+    "source": "s-0d7a10125bc75c31",
+    "url": "http://files.ping-pong.gr/FA26-27/N4S-AP2.jpg",
+    "fixture": "f-67de445f5f7f60ac",
+    "date": "2026-10-01",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "ΤΖΗΚΑΣ resolves to the contemporary ΑΓΓΕΛΟΣ profile; all eight results match the workbook."
+   },
+   {
+    "source": "s-4554a957aecaca60",
+    "url": "http://files.ping-pong.gr/FA26-27/RHC-RDL.jpg",
+    "fixture": "f-34282b055102cd23",
+    "date": "2026-09-30",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "All nine workbook pairs resolve the unnumbered home roster and indistinct away digits. The explicit row totals agree with the workbook."
+   },
+   {
+    "source": "s-dbffecc5bbc3fb43",
+    "url": "http://files.ping-pong.gr/FA26-27/VKI-VTT.jpg",
+    "fixture": "f-112f7f27ec8d484d",
+    "date": "2026-09-30",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "All nine unnumbered names, pairs and scores match the workbook."
+   },
+   {
+    "source": "s-d9943ece37c05e10",
+    "url": "http://files.ping-pong.gr/FA26-27/ELF-ART.jpg",
+    "fixture": "f-9fc609d95000a08f",
+    "date": "2026-09-28",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-216a7c6240ba5772",
+    "url": "http://files.ping-pong.gr/FA26-27/ASE-VAV.jpg",
+    "fixture": "f-34a7040c0ff5deba",
+    "date": "2026-09-28",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "ΠΑΠΑΘΕΟΔΩΡΟΥ substitutes in the deciding row. All nine results match the workbook."
    }
   ]
  }
