@@ -3,7 +3,7 @@ window.pofepaReady = (async () => {
   const payload=JSON.parse(document.getElementById('site-data').textContent);
   const downloads=new Map();
   async function unpack(bytes){return JSON.parse(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text());}
-  function fetchData(path){if(!downloads.has(path))downloads.set(path,(async()=>{const response=await fetch(path);if(!response.ok)throw new Error('Data download failed: '+response.status);return unpack(await response.arrayBuffer());})().catch(error=>{downloads.delete(path);throw error;}));return downloads.get(path);}
+  function fetchData(path){if(!downloads.has(path))downloads.set(path,(async()=>{const requestPath=payload.revision?path+(path.includes('?')?'&':'?')+'data='+payload.revision:path;const response=await fetch(requestPath,{cache:'no-cache'});if(!response.ok)throw new Error('Data download failed: '+response.status);return unpack(await response.arrayBuffer());})().catch(error=>{downloads.delete(path);throw error;}));return downloads.get(path);}
   const db=payload.bootstrap?await fetchData(payload.bootstrap):payload.compressed?await unpack(Uint8Array.from(atob(payload.compressed),c=>c.charCodeAt(0))):payload;
   const playerHistories=new Map();
 

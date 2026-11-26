@@ -82,7 +82,7 @@ def build():
     data['lazy'] = True
     data.pop('issues')
     save(data, dist / 'data/bootstrap.json.gz')
-    (dist / 'index.html').write_text(html.replace('/*DATA*/', '{"bootstrap":"data/bootstrap.json.gz"}'))
+    (dist / 'index.html').write_text(html.replace('/*DATA*/', encode({'bootstrap': 'data/bootstrap.json.gz', 'revision': data['dataset_sha256'][:16]}).decode()))
     (dist / '.nojekyll').touch()
     (dist / 'coverage.json').write_bytes(encode(data['coverage']))
     (dist / 'provenance.json').write_bytes(encode({'dataset_sha256': data['dataset_sha256'], 'sources': data['sources']}))

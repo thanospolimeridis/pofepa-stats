@@ -10,13 +10,14 @@ assert(C.search('ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ','πολυμερίδ�
 assert(C.search('ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ','polymeridis'));
 assert.equal(C.escape('<script>'), '&lt;script&gt;');
 const db=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/data/bootstrap.json.gz')));
+const manifest=JSON.parse(fs.readFileSync('dist/index.html','utf8').match(/<script type="application\/json" id="site-data">(.*?)<\/script>/s)[1]);
 db.version='test';db.ranking_index='https://www.pofepa.gr/';
 const event=db.events.find(e=>e.kind==='singles'), fixtureEvent=db.events.find(e=>e.kind==='fixtures');
 const routes=['home','rankings','rankings?region=north&class=BET&age=40-49','rankings?region=south&class=ANE&age=70%2B','rankings?class=WOMEN','rankings?class=GENERAL','rankings?region=nonsense','players','players?q=polymeridis','players?q=nevermatch123','player/p-859','player/p-859?region=north','player/missing','matches','matches?view=teams&status=reported','matches?view=teams&status=scheduled','events','event/'+event.id,'event/'+fixtureEvent.id,'teams','team/'+db.clubs[0].id,'h2h','h2h?p1=p-859&p2=p-7','h2h?p1=p-859&p2=p-859','about','bad-route'];
 (async()=>{
 for(const language of ['el','en']) for(const route of routes){
   const app={innerHTML:'',addEventListener(){}},skip={addEventListener(){}};
-  const context={Pofepa:C,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify({bootstrap:'data/bootstrap.json.gz'})}:app,documentElement:{},querySelector:()=>skip},location:{hash:'#'+route},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=>language},URLSearchParams,Intl,console,setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(fs.readFileSync('dist/'+path))};
+  const context={Pofepa:C,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>skip},location:{hash:'#'+route},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=>language},URLSearchParams,Intl,console,setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(fs.readFileSync('dist/'+path.split('?')[0]))};
   vm.runInNewContext(fs.readFileSync('src/app.js','utf8'),context,{timeout:10000});
   await context.window.pofepaReady;
   assert(app.innerHTML.includes('<main'),route+' main is missing');
