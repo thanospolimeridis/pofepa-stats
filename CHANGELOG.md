@@ -2,11 +2,14 @@
 
 ## Prototype updates — 2026-11-26
 
+- Complete review of every available 2025–26 match sheet, publish per-season coverage, and track unavailable source files separately.
+- Correct source-verified dates, scores and participants while preserving original workbook records; reconcile explicit no-play awards without removing played retirements.
+
 - Reject a reviewed walkover when the same athletes and date are already counted as played, requiring source reconciliation before acceptance.
 - Record whole-team no-shows without inventing individual results, and retain both original and recovered URLs when a match sheet is linked from the wrong fixture.
 
 - Offer a page reload when an older open tab cannot render newly published archive data.
-- Retain historical match-sheet links and add 939 reviewed singles to athlete pages, with substitutions, walkover exclusions and visible import progress. Corroborate 9,858 existing workbook results and record 341 sheets excluded from the singles import separately.
+- Retain historical match-sheet links and add 939 reviewed singles to athlete pages, with substitutions, walkover exclusions and visible import progress. Corroborate 10,083 existing workbook results and record 303 sheets excluded from the singles import separately.
 
 - Review 124 PDFs and seven images; add 1,601 team results, preserve document evidence and disclose contradictory source labels.
 - Confirm three existing singles from the handwritten final, retain its doubles result, and show document coverage on the sources page.

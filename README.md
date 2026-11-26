@@ -6,9 +6,11 @@ An independent Greek/English POFΕPA table tennis archive, following [Greek TT A
 
 ## Match-sheet imports
 
-Linked team-result sheets are being reviewed newest first. The reviewed batches cover **1651 sheets from the 2025–26 and 2026–27 seasons**, adding **939 played singles** directly to athlete histories and corroborating 9,858 existing workbook results. 315 individual walkovers and 11 whole-team no-shows are excluded from player statistics. Another 341 inspected sheets remain outside the singles import because they need clarification or record an unplayed team fixture. The archive now retains **13,511 match-sheet links**, of which **11,518 have not yet been reviewed**; the website reports the reviewed and pending counts explicitly. Unavailable source links (1) are tracked separately.
+Linked team-result sheets are being reviewed newest first. The reviewed batches cover **1689 sheets from the 2025–26 and 2026–27 seasons**, adding **939 played singles** directly to athlete histories and corroborating 10,083 existing workbook results. 329 individual walkovers and 11 whole-team no-shows are excluded from player statistics. Another 303 inspected sheets remain outside the singles import because they need clarification or record an unplayed team fixture. The archive now retains **13,511 match-sheet links**, of which **11,518 have not yet been reviewed**; the website reports the reviewed and pending counts explicitly. Unavailable source links (1) are tracked separately.
 
 `data/match-sheet-issues.json` records held sheets and the reason each remains unimported. `data/match-sheet-reviews.json` records the source hash, actual date, row scores, substitutions and checked athlete identities. Replaying a sheet corroborates an existing result instead of creating a duplicate. Explicit sheet-backed corrections retain the complete original workbook record for audit. Unavailable links are tracked separately in `data/match-sheet-unavailable.json`.
+
+The 2025–26 review is complete: every available linked sheet has been inspected. Unresolved source conflicts remain listed for clarification, and the unavailable sheet is tracked separately. Older seasons still have a review backlog.
 
 ## Historical coverage
 

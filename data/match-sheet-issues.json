@@ -583,14 +583,6 @@
     "details": "The 10 May sheet row 7 ΤΣΑΛΑΜΑΝΗΣ–ΠΑΡΑΣΧΟΥ appears to show 3-3 in the score columns, but its four games, running totals and workbook support 1-3. Held for clarification of the invalid written score.",
     "details_el": "Στο έβδομο αποτέλεσμα ΤΣΑΛΑΜΑΝΗΣ–ΠΑΡΑΣΧΟΥ της 10ης Μαΐου αναγράφεται 3–3, ενώ τα σετ, το συνολικό σκορ και το βιβλίο υποστηρίζουν 1–3. Απαιτείται διευκρίνιση."
   },
-  "http://files.ping-pong.gr/FA25-26/RBL-PVVpo.jpg": {
-    "fixture": "f-981e8feb08699a7e",
-    "sha256": "9168b61b13c3535cc82a6a4c64710bd8e92914662985806c1e0fe77b87f85b0b",
-    "reviewed_at": "2026-11-26",
-    "reason": "incomplete_date",
-    "details": "The RED BLADES–PONG VIVEURS sheet gives 13/05 without a year. Its four played results correspond to 13 May 2026 in the workbook; the sheet also has two absent roster positions. Held until the year is confirmed; no individual walkover results are added.",
-    "details_el": "Το φύλλο RED BLADES–PONG VIVEURS αναφέρει 13/05 χωρίς έτος. Οι τέσσερις παιγμένοι αγώνες αντιστοιχούν στις 13 Μαΐου 2026 στο βιβλίο. Απαιτείται επιβεβαίωση έτους."
-  },
   "http://files.ping-pong.gr/FA25-26/THB-OMUpo.jpg": {
     "fixture": "f-46c3ce4b2a25f700",
     "sha256": "bac18caaff7ebd7936f71ddc5afe29ae9c54648b84bb8fe195d4e81b8438d80b",
@@ -783,22 +775,6 @@
     "details": "5 April 2026 sheet lists ΑΠΡΟΠΟΝΗΤΟΙ ΚΟΖΑΝΗΣ home and ΑΙΘΕΡΟΒΑΜΟΝΕΣ away, ending 3-5 with ΑΙΘΕΡΟΒΑΜΟΝΕΣ declared winner. Team-results fixture reverses team order but keeps 3-5, contradicting winner/orientation. Five played rubbers plus three explicit home-C walkovers are legible; source fixture requires correction before import.",
     "details_el": "Το φύλλο 5 Απριλίου 2026 αναφέρει ΑΠΡΟΠΟΝΗΤΟΙ–ΑΙΘΕΡΟΒΑΜΟΝΕΣ 3–5, με νικητές τους ΑΙΘΕΡΟΒΑΜΟΝΕΣ. Ο πίνακας αντιστρέφει τις ομάδες αλλά κρατά το 3–5. Απαιτείται διευκρίνιση της σειράς ομάδων και του νικητή."
   },
-  "http://files.ping-pong.gr/FA25-26/IPP-KLN.jpg": {
-    "fixture": "f-34e2d395fb3b44aa",
-    "sha256": "39a417034319af94f93dd4d2644c75e83f960dbc8f16ad7fdaafc887bb49199f",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "The signed sheet is dated 2026-04-19, but the matching played rubbers are recorded on 2026-05-01 in the results workbook. Reimporting them on the sheet date would duplicate existing results; the date conflict requires source reconciliation. No workbook result was changed.",
-    "details_el": "Το υπογεγραμμένο φύλλο έχει ημερομηνία 19/04/2026, αλλά οι ίδιοι ατομικοί αγώνες καταγράφονται την 01/05/2026 στο αρχείο αποτελεσμάτων. Η εισαγωγή με τη διαφορετική ημερομηνία θα δημιουργούσε διπλές εγγραφές. Απαιτείται συμφωνία των πηγών· δεν τροποποιήθηκαν αποτελέσματα."
-  },
-  "http://files.ping-pong.gr/FA25-26/KVR-FNF.jpg": {
-    "fixture": "f-c692de28522b3b43",
-    "sha256": "6b514811d92382ee8b971c4f4c0f0a2fcd5522fb8b5235b1c0a90bf5be13de77",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "The linked sheet clearly gives 2025-12-14, whereas the same six pairings and scores are already recorded on 2026-05-01 in the results workbook. This may be an incorrectly linked earlier sheet or a workbook date error; do not create duplicate results or overwrite dates without reconciliation.",
-    "details_el": "Το συνδεδεμένο φύλλο γράφει σαφώς 14/12/2025, ενώ τα ίδια έξι ζευγάρια και σκορ υπάρχουν ήδη στο αρχείο αποτελεσμάτων με ημερομηνία 01/05/2026. Ενδέχεται να έχει συνδεθεί παλαιότερο φύλλο ή να είναι λανθασμένη η ημερομηνία του αρχείου. Δεν δημιουργήθηκαν διπλές εγγραφές ούτε άλλαξαν ημερομηνίες."
-  },
   "http://files.ping-pong.gr/FA25-26/EAI-APKff.jpg": {
     "fixture": "f-3902e0c56ede565b",
     "sha256": "3f2f513bb3fee79d6a195ced25bca2803b917a16225ff8624a57431e1ddf5205",
@@ -830,22 +806,6 @@
     "reason": "unclear_date",
     "details": "The ΙΕΡΑΠΕΤΡΑ 2–ΓΕΡΓΕΡΗ image has no date, team labels, rubber totals or final result. Played game cells alone do not establish a complete dated review.",
     "details_el": "Η εικόνα ΙΕΡΑΠΕΤΡΑ 2–ΓΕΡΓΕΡΗ δεν έχει ημερομηνία, ονόματα ομάδων, αποτελέσματα αγώνων ή τελικό σκορ. Χρειάζεται πλήρες χρονολογημένο φύλλο."
-  },
-  "http://files.ping-pong.gr/FA25-26/KLN-GSM.jpg": {
-    "fixture": "f-0fc19575f11ff3a8",
-    "sha256": "9baa44c6a102aadf921c6d3ba8bcd77a1ee0f0f58d22b024b48e8b26b13d0def",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "The sheet is dated 29 March 2026, but all seven pair/score combinations already occur in the workbook on 3 May 2026. Held to avoid duplicating the same team encounter under a different date.",
-    "details_el": "Το φύλλο γράφει 29 Μαρτίου 2026, αλλά και τα επτά ίδια ζεύγη και σκορ υπάρχουν στο βιβλίο στις 3 Μαΐου 2026. Χρειάζεται διευκρίνιση ημερομηνίας για αποφυγή διπλοεγγραφών."
-  },
-  "http://files.ping-pong.gr/FA25-26/SPN-IPP.jpg": {
-    "fixture": "f-8c0eabbdc94e258e",
-    "sha256": "b77b9fbbaf7bc50a4c2d4c23e959d28a2b2a5f775907055b16f467ef24fe6a02",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "The sheet is dated 29 March 2026, while the same five played pair/score combinations are recorded in the workbook on 2 April 2026. Held pending source date reconciliation; three additional rows are walkovers.",
-    "details_el": "Το φύλλο γράφει 29 Μαρτίου 2026, ενώ τα πέντε ίδια παιγμένα αποτελέσματα καταχωρίζονται στο βιβλίο στις 2 Απριλίου 2026. Χρειάζεται διευκρίνιση ημερομηνίας· τρεις ακόμη γραμμές είναι άνευ αγώνα."
   },
   "http://files.ping-pong.gr/FA25-26/XRV-KVR.jpg": {
     "fixture": "f-def39329adfee8b9",
@@ -975,14 +935,6 @@
     "details": "The sheet twice labels ΛΥΔΑΚΗΣ Κ. with registration 2408, but that catalog/workbook athlete is ΛΥΔΑΚΗΣ ΔΗΜΗΤΡΙΟΣ. The given-name initial conflicts even though registration and surname match.",
     "details_el": "Το φύλλο αναγράφει δύο φορές ΛΥΔΑΚΗΣ Κ. με αριθμό 2408, ενώ το αντίστοιχο προφίλ και το αρχείο αποτελεσμάτων γράφουν ΛΥΔΑΚΗΣ ΔΗΜΗΤΡΙΟΣ. Το αρχικό μικρού ονόματος αντιφάσκει παρά τη συμφωνία αριθμού και επωνύμου."
   },
-  "http://files.ping-pong.gr/FA25-26/KPG-AN4.jpg": {
-    "fixture": "f-a87217f9ddb2c4f5",
-    "sha256": "c1bac77061fce34314234e44e9181733efbc43aad920bd6cbf493558350d52d5",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "The sheet is dated 2026-03-31, but all six corresponding workbook results are dated 2026-04-01. Importing on the sheet date would duplicate existing results.",
-    "details_el": "Το φύλλο έχει ημερομηνία 31/03/2026, αλλά οι έξι αντίστοιχοι αγώνες καταγράφονται την 01/04/2026. Η εισαγωγή με την ημερομηνία του φύλλου θα δημιουργούσε διπλές εγγραφές."
-  },
   "http://files.ping-pong.gr/FA25-26/KLS-S40.jpg": {
     "fixture": "f-a2a519ff4d2e24f8",
     "sha256": "d0533fae5b5692f47e2fdcade4fe50898a5168f0f60bb40029a88d2095cd4759",
@@ -1039,14 +991,6 @@
     "details": "20 March 2026 note ΑΛΛΑΓΗ NEED 4 SPIN ΧΟΥΖΟΥΡΗΣ 1620 does not identify a changed row. Every played row retains the original three away players and matches workbook. Hold until reserve versus actual substitution is clarified.",
     "details_el": "Η σημείωση αλλαγής ΧΟΥΖΟΥΡΗΣ 1620 δεν αντιστοιχεί σε συγκεκριμένο αγώνα. Απαιτείται διευκρίνιση αν πραγματοποιήθηκε αλλαγή ή επρόκειτο για αναπληρωματικό."
   },
-  "http://files.ping-pong.gr/FA25-26/DSH-PNR.jpg": {
-    "fixture": "f-0a9a864aa39e1d88",
-    "sha256": "6dc1992dfc0b0d907bc0f9661d45dc9f8a07c962927eecebb9445de1b365c1a3",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Sheet explicitly dates 8 March 2026, but all five pair/score combinations already occur 9 March 2026 in the workbook. Held to avoid cross-date duplicates or silently replacing source dates.",
-    "details_el": "Το φύλλο αναφέρει 8 Μαρτίου 2026, ενώ οι πέντε αντίστοιχοι αγώνες του βιβλίου είναι στις 9 Μαρτίου 2026. Απαιτείται διευκρίνιση της ημερομηνίας."
-  },
   "http://files.ping-pong.gr/FA25-26/NES-SG2.jpg": {
     "fixture": "f-18a4c705174d1d96",
     "sha256": "f156173d889fa647eb9489c08b9516c57f1617d2b4c94b899cddea053731e794",
@@ -1079,14 +1023,6 @@
     "details": "Row 7 ΧΑΡΜΠΗΣ–ΚΟΛΛΥΡΗΣ writes 3–0 but its three game scores read 11–3,11–7,1–11. Workbook 3–0 cannot resolve this contradiction.",
     "details_el": "Η γραμμή 7 ΧΑΡΜΠΗΣ–ΚΟΛΛΥΡΗΣ γράφει 3–0 αλλά τα τρία σετ διαβάζονται 11–3,11–7,1–11. Απαιτείται διευκρίνιση."
   },
-  "http://files.ping-pong.gr/FA25-26/AP3-BSR.jpg": {
-    "fixture": "f-414a3fbf2fefde5b",
-    "sha256": "0321b660de89030afff36bb7d59315dd8fefafd51628ab312d8c5706b242a83f",
-    "reviewed_at": "2026-11-26",
-    "reason": "cross_date_duplicate",
-    "details": "Sheet dates all six rubbers 3 March 2026, but identical pairings and scores already exist 2 March 2026. Do not duplicate or silently change dates.",
-    "details_el": "Το φύλλο γράφει 3/3/2026 αλλά οι ίδιοι έξι αγώνες με ίδια αποτελέσματα υπάρχουν στις 2/3/2026. Απαιτείται διευκρίνιση ημερομηνίας."
-  },
   "http://files.ping-pong.gr/FA25-26/MXX-AEK.jpg": {
     "fixture": "f-6ba58594f0d711a7",
     "sha256": "db44e4a523e0f0145104dd9154c1c971bf70783349a0dc932bed08a7393e4398",
@@ -1111,30 +1047,6 @@
     "details": "Date field completely blank. Nine rows and two explicit home substitutions transcribed separately; cannot infer day from round or workbook.",
     "details_el": "Το πεδίο ημερομηνίας είναι κενό. Οι εννέα αγώνες και οι δύο αλλαγές έχουν καταγραφεί χωριστά."
   },
-  "http://files.ping-pong.gr/FA25-26/CDR-AIG.jpg": {
-    "fixture": "f-8fabd360b9a4851b",
-    "sha256": "4059b3c6d812d7b6ce274433989d9a61bb7448178b16c7e139aadfee1f7cc8eb",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Printed 29 March 2026; identical seven workbook results 2026-04-02. Away registrations displaced but names verified; details preserved in draft. Hold duplicate cross-date records.",
-    "details_el": "Το φύλλο αναγράφει 29/03/2026 αλλά οι ίδιες επτά αναμετρήσεις εμφανίζονται στις 02/04/2026. Απαιτείται συμφωνία της ημερομηνίας."
-  },
-  "http://files.ping-pong.gr/FA25-26/VAG-ATR.jpg": {
-    "fixture": "f-36614a084c170493",
-    "sha256": "e4444d03a8d5ed4257d85d7a16aec5d46c96e03aa275fe219152a295e2bba509",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Printed 28 February 2026; identical eight workbook results 2026-03-01. Hold to avoid cross-date duplication.",
-    "details_el": "Το φύλλο αναγράφει 28/02/2026 αλλά οι ίδιες οκτώ αναμετρήσεις εμφανίζονται στις 01/03/2026."
-  },
-  "http://files.ping-pong.gr/FA25-26/GSM-SPT.jpg": {
-    "fixture": "f-c6b51735de4b6ce6",
-    "sha256": "1f9cf1f1816311d9d63846270faa8f4cab195bccb2668d4a0749bd0063df17c8",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Printed 1/3/2026; identical six workbook results 2026-04-01. Hold to avoid cross-date duplication.",
-    "details_el": "Το φύλλο αναγράφει 01/03/2026 αλλά οι ίδιες έξι αναμετρήσεις εμφανίζονται στις 01/04/2026."
-  },
   "http://files.ping-pong.gr/FA25-26/GLZ-KLN.jpg": {
     "fixture": "f-accdc157837e8cae",
     "sha256": "b6666a48b3741188621d4717d25fdb7f1d052ef9c6d98213e841baeb5f2f6e9c",
@@ -1150,14 +1062,6 @@
     "reason": "conflicting_date",
     "details": "Printed 14/3/2025 conflicts explicit season 2025-2026 and identical five played workbook matches 2026-03-14. Preserve handwritten year, hold pending reconciliation rather than silently correcting. Two absent-position walkovers and row 5 substitution preserved.",
     "details_el": "Το έτος 2025 στο φύλλο διαφέρει από την περίοδο 2025–2026 και τους αντίστοιχους αγώνες της 14/03/2026."
-  },
-  "http://files.ping-pong.gr/FA25-26/VKI-CNC.jpg": {
-    "fixture": "f-470c3c0ba941fde0",
-    "sha256": "04bcb1ef036cc03897832ccca145dd30cce66eedfd96d4680a532800fa701aa9",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Header 6/2/202 has incomplete year and February month; matching workbook results 2026-03-06. Starting ΧΑΤΖΗΚΥΡΙΑΚΟΣ/ΚΟΥΦΟΣ printed registrations swapped; verified identities preserved in draft.",
-    "details_el": "Η ημερομηνία 6/2/202 έχει ελλιπές έτος και διαφέρει από τους αντίστοιχους αγώνες της 06/03/2026. Οι αριθμοί μητρώου των δύο πρώτων γηπεδούχων είναι αντεστραμμένοι."
   },
   "http://files.ping-pong.gr/FA25-26/MK2-PPA.jpg": {
     "fixture": "f-434f712b1aff32a3",
@@ -1295,22 +1199,6 @@
     "details": "Written 14 February 2025 conflicts with 2025–26 season; similar event pairings are in workbook 1 March 2026. Do not infer a corrected year or date.",
     "details_el": "Η γραπτή 14/2/2025 διαφωνεί με την περίοδο 2025–26. Παρόμοιοι αγώνες υπάρχουν 1/3/2026· δεν διορθώνεται αυθαίρετα η ημερομηνία."
   },
-  "http://files.ping-pong.gr/FA25-26/SPN-GTL.jpg": {
-    "fixture": "f-cff52ea9fe3863f4",
-    "sha256": "32d6d4f53d822eb2956d5cab3aaf18f2c20b752ced82121dad5997fb00842495",
-    "reviewed_at": "2026-11-26",
-    "reason": "cross_date_duplicate",
-    "details": "Every sheet pairing and score dated 15 February 2026 already appears together in workbook on 1 April 2026. Resolve event date; do not duplicate or silently move results.",
-    "details_el": "Όλοι οι αγώνες του φύλλου 15/2/2026 υπάρχουν με ίδια αποτελέσματα στο αρχείο σε διαφορετική ημερομηνία του Απριλίου 2026. Απαιτείται συμφωνία ημερομηνιών."
-  },
-  "http://files.ping-pong.gr/FA25-26/IPP-GSM.jpg": {
-    "fixture": "f-db9d8f9d1a7055a7",
-    "sha256": "a2aa4852b00e6d33519322a0170e7c763f787254fe3d366ca15396bfb24bec23",
-    "reviewed_at": "2026-11-26",
-    "reason": "cross_date_duplicate",
-    "details": "Every sheet pairing and score dated 15 February 2026 already appears together in workbook on 2 April 2026. Resolve event date; do not duplicate or silently move results.",
-    "details_el": "Όλοι οι αγώνες του φύλλου 15/2/2026 υπάρχουν με ίδια αποτελέσματα στο αρχείο σε διαφορετική ημερομηνία του Απριλίου 2026. Απαιτείται συμφωνία ημερομηνιών."
-  },
   "http://files.ping-pong.gr/FA25-26/PM3-PLG.jpg": {
     "fixture": "f-65b7f8a00a6e390b",
     "sha256": "cfd3db66d740560cd90df78795cda38ff8534547a15a470c56351c06b34ae94f",
@@ -1319,30 +1207,6 @@
     "details": "Sheet original awayZ explicitlyΜΟΥΣΤΑΚΑΣ Ι.754, row 5 only surname with no away substitution annotation. Workbook row 5 ΕΡΜΕΙΔΗΣ 999 instead facesΜΟΥΣΤΑΚΑΣ ΔΗΜΗΤΡΙΟΣ 2797. Clarify opponent identity, no new match inferred.",
     "details_el": "Η αρχική θέσηΖ γράφειΜΟΥΣΤΑΚΑΣ Ι.754, αλλά στη γραμμή 5 υπάρχει μόνο επώνυμο χωρίς αλλαγή φιλοξενούμενου. Το αρχείο δίνει αντίπαλοΜΟΥΣΤΑΚΑΣ ΔΗΜΗΤΡΙΟΣ 2797. Απαιτείται ταυτοποίηση."
   },
-  "http://files.ping-pong.gr/FA25-26/ANA-MXX.jpg": {
-    "fixture": "f-201bbb73af6c696c",
-    "sha256": "efae6af7380d23e459b03d5ef4ccf185230b6424b42af1930a330f01e76fd91d",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Sheet explicitly dated 2026-02-22, but all 7 individual results already occur in the workbook on 2026-03-01. Hold for date reconciliation; do not create cross-date duplicates.",
-    "details_el": "Το φύλλο αναγράφει 2026-02-22, αλλά οι ίδιες 7 αναμετρήσεις εμφανίζονται στο βιβλίο στις 01/03/2026. Εκκρεμεί συμφωνία της ημερομηνίας."
-  },
-  "http://files.ping-pong.gr/FA25-26/TTC-UND.jpg": {
-    "fixture": "f-eaac38701504281f",
-    "sha256": "f43b72fa552e63dd0f73a6a9dbbfaabeffa59f5b2da35839e56c75787453fb8f",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Sheet explicitly dated 2026-02-15, but all 8 individual results already occur in the workbook on 2026-03-01. Hold for date reconciliation; do not create cross-date duplicates.",
-    "details_el": "Το φύλλο αναγράφει 2026-02-15, αλλά οι ίδιες 8 αναμετρήσεις εμφανίζονται στο βιβλίο στις 01/03/2026. Εκκρεμεί συμφωνία της ημερομηνίας."
-  },
-  "http://files.ping-pong.gr/FA25-26/TTC-ATV.jpg": {
-    "fixture": "f-b394ae216077b8bc",
-    "sha256": "d0b1729a3bdcb2778460913c890451f847a2640c7c6e7a2c95066f002d93438e",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Sheet explicitly dated 2026-02-15, but all 7 individual results already occur in the workbook on 2026-03-01. Hold for date reconciliation; do not create cross-date duplicates.",
-    "details_el": "Το φύλλο αναγράφει 2026-02-15, αλλά οι ίδιες 7 αναμετρήσεις εμφανίζονται στο βιβλίο στις 01/03/2026. Εκκρεμεί συμφωνία της ημερομηνίας."
-  },
   "http://files.ping-pong.gr/FA25-26/ATL-TPZ.jpg": {
     "fixture": "f-325fcf7998873f8f",
     "sha256": "de167c8619b32cd80a4cc12c03b23696808b44957f282ef5fe65290bcd7767ae",
@@ -1350,14 +1214,6 @@
     "reason": "unclear_substitution",
     "details": "Explicit ΑΛΛΑΓΕΣ note lists home ΛΑΓΑΡΟΣ 227 and away ΠΕΡΟΥΚΙΔΗΣ, but all played row names remain original and neither change is attributed to a rubber. Hold until source reconciliation.",
     "details_el": "Η σημείωση ΑΛΛΑΓΕΣ αναφέρει ΛΑΓΑΡΟ 227 και ΠΕΡΟΥΚΙΔΗ, αλλά κανένας αγώνας δεν προσδιορίζει τις αλλαγές."
-  },
-  "http://files.ping-pong.gr/FA25-26/MKB-ATN.jpg": {
-    "fixture": "f-19a6f04dd6979267",
-    "sha256": "74114c15bac9dc0284a696c07b6cccc15eb07420510c5b9774792bcc445567ce",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Sheet explicitly dated 2026-02-18, but all 8 individual results already occur in the workbook on 2026-03-01. Hold for date reconciliation; do not create cross-date duplicates.",
-    "details_el": "Το φύλλο αναγράφει 2026-02-18, αλλά οι ίδιες 8 αναμετρήσεις εμφανίζονται στο βιβλίο στις 01/03/2026. Εκκρεμεί συμφωνία της ημερομηνίας."
   },
   "http://files.ping-pong.gr/FA25-26/PRD-KRG.jpg": {
     "fixture": "f-5191710185ad39b0",
@@ -1390,14 +1246,6 @@
     "reason": "ambiguous_date",
     "details": "Sheet date field says Wednesday only, without calendar date. Workbook has 25 February 2026; cannot establish actual date from source. Full transcription preserved.",
     "details_el": "Το φύλλο γράφει μόνο Τετάρτη χωρίς ημερομηνία. Η ημερομηνία 25/2/2026 του βιβλίου δεν τεκμηριώνεται στο φύλλο."
-  },
-  "http://files.ping-pong.gr/FA25-26/NES-SUD.jpg": {
-    "fixture": "f-3c1ee5d0ab5a7250",
-    "sha256": "098575fa4b6a84a18a51a2384ef6e60d6eb8cfeb40e71ff9b3a2a4b1743c182e",
-    "reviewed_at": "2026-11-26",
-    "reason": "date_conflict",
-    "details": "Sheet explicitly 17 February 2026; same player pairings and scores occur in workbook 1 March 2026. Hold to avoid cross-date duplicate event. Full transcription preserved.",
-    "details_el": "Το φύλλο γράφει 17/2/2026, ενώ οι ίδιες αναμετρήσεις υπάρχουν στο βιβλίο 1/3/2026. Αναμονή για αποφυγή διπλοεγγραφών."
   },
   "http://files.ping-pong.gr/FA25-26/AN1-SPD.jpg": {
     "fixture": "f-b93f767fdaea5731",
@@ -1446,22 +1294,6 @@
     "reason": "conflicting_year",
     "details": "Sheet explicitly 15 January 2025 while fixture season 2025–26 and exact played pairs/scores appear 15 January 2026. Adjacent-year error cannot be silently corrected. Full draft preserves source date.",
     "details_el": "Το φύλλο γράφει 15/1/2025 ενώ περίοδος και βιβλίο δείχνουν 2026. Δεν διορθώνεται σιωπηρά το έτος."
-  },
-  "http://files.ping-pong.gr/FA25-26/DIO-PTH.jpg": {
-    "fixture": "f-2fdb529955a9348c",
-    "sha256": "1302a04b6c21332928511d3ceab14be22b2cd14ea4ab8074f2a33966c70c6614",
-    "reviewed_at": "2026-11-26",
-    "reason": "date_conflict",
-    "details": "Sheet date 29 January and printed 2025–2026 season; all five exact pairings/scores recorded 1 February 2026 in workbook. Hold to avoid cross-date duplicates; full draft preserved.",
-    "details_el": "Το φύλλο γράφει 29/1 στην περίοδο 2025–2026, αλλά και οι πέντε αγώνες υπάρχουν 1/2/2026. Αναμονή συμφωνίας ημερομηνίας."
-  },
-  "http://files.ping-pong.gr/FA25-26/SPR-RHC.jpg": {
-    "fixture": "f-48138e98a714d5ad",
-    "sha256": "b3e8526387bb53828053502f51d60734d0008ff04af1f6df34e52e5080f75618",
-    "reviewed_at": "2026-11-26",
-    "reason": "date_conflict",
-    "details": "Sheet date 14 February 2026; all five exact pairings/scores in workbook 14 January 2026. Hold cross-date duplicates. Full draft preserved.",
-    "details_el": "Το φύλλο γράφει 14/2/2026 ενώ και οι πέντε αγώνες βρίσκονται 14/1/2026 στο βιβλίο. Αναμονή συμφωνίας ημερομηνίας."
   },
   "http://files.ping-pong.gr/FA25-26/PNK-AP8.jpg": {
     "fixture": "f-b40496a5a7d67b6a",
@@ -1599,22 +1431,6 @@
     "details": "Draft: first and fourth away names both only ΑΓΓΕΛΑΚΗΣ without first name or registration; workbook uses 1116 ΚΩΝΣΤΑΝΤΙΝΟΣ row 1 and 1932 ΕΜΜΑΝΟΥΗΛ row 4. No visible substitution attribution.",
     "details_el": "Οι δύο εγγραφές ΑΓΓΕΛΑΚΗΣ δεν έχουν μικρό όνομα ή μητρώο και το βιβλίο τις αποδίδει σε διαφορετικούς αθλητές."
   },
-  "http://files.ping-pong.gr/FA25-26/GLZ-IPP.jpg": {
-    "fixture": "f-65daa4b41b575f9f",
-    "sha256": "a42e98bb74f6a41d958a7826a8dabc1732a8b36bfc6896c0e9b92d76c3410bed",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Draft: date 18 January 2026; all five results already workbook 1 May 2026. Hold date reconciliation.",
-    "details_el": "Το φύλλο αναγράφει 18/01/2026 αλλά τα ίδια αποτελέσματα έχουν 01/05/2026 στο βιβλίο."
-  },
-  "http://files.ping-pong.gr/FA25-26/KLN-SPN.jpg": {
-    "fixture": "f-1457a0927d4b8954",
-    "sha256": "a66ce02695f7201cfad72b8f474322b736a39443b08df55aac25c3eed76ec10c",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Draft: date 29 March 2026; three played results workbook 2 May 2026. Absent Z rows 3/5 blank score but clear home team win increments, administrative 3-0.",
-    "details_el": "Το φύλλο αναγράφει 29/03/2026 αλλά τα ίδια αποτελέσματα έχουν 02/05/2026 στο βιβλίο."
-  },
   "http://files.ping-pong.gr/FA25-26/PLG-THE.jpg": {
     "fixture": "f-aab921da36da7b42",
     "sha256": "90b9f529bc56277df5fe21d91899e632584343ffd874c8b24e1307f17f42ddbe",
@@ -1630,14 +1446,6 @@
     "reason": "conflicting_score",
     "details": "Draft: row 9 explicit 3-2 contradicts four complete games 11-7,11-9,9-11,11-9 and workbook 3-1.",
     "details_el": "Το σκορ της 9 ης αναμέτρησης 3-2 διαφωνεί με τα τέσσερα σετ 3-1 και το βιβλίο."
-  },
-  "http://files.ping-pong.gr/FA25-26/AEK-APR.jpg": {
-    "fixture": "f-1098034398ad7b13",
-    "sha256": "7c29161deb3e975a66bf21cdfc6ef5037fd296e8545a63ecaca49f8f77530a5d",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Draft: source 26 January 2026, all six workbook results 2 February 2026. Row 6 ΔΙΔΑΣΚΑΛΟΥ 225 explicit substitution.",
-    "details_el": "Το φύλλο αναγράφει 26/01/2026 αλλά τα ίδια αποτελέσματα έχουν 02/02/2026 στο βιβλίο."
   },
   "http://files.ping-pong.gr/FA25-26/DIO-VTT.jpg": {
     "fixture": "f-9fea1cf6956d0b18",
@@ -1767,14 +1575,6 @@
     "details": "Header explicitly 3 February 2025 on 2025–26 linked sheet, outside that season. Six rubbers and substitutions ΤΟΥΜΠΑΣ/ΕΦΡΑΙΜΙΔΟΥ readable but date must be reconciled before import.",
     "details_el": "Η επικεφαλίδα αναφέρει 3 Φεβρουαρίου 2025, εκτός της περιόδου 2025–26. Απαιτείται επιβεβαίωση ημερομηνίας ή σωστού συνδέσμου."
   },
-  "http://files.ping-pong.gr/FA25-26/SUD-PTH.jpg": {
-    "fixture": "f-06869b2cac9c59f5",
-    "sha256": "fc778c336f160b6c540c225634140f1db8f4fdc00fa3dd5ad0ba4decf4531c62",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Source header reads 18 January 2026 in two independent visual reviews, whereas all five identical workbook matches are 13 January 2026. Do not add cross-date duplicates.",
-    "details_el": "Η ημερομηνία του φύλλου διαβάζεται 18 Ιανουαρίου 2026 ενώ οι πέντε ίδιοι αγώνες υπάρχουν στις 13 Ιανουαρίου 2026. Απαιτείται διευκρίνιση ημερομηνίας."
-  },
   "http://files.ping-pong.gr/FA25-26/SPC-ATT.jpg": {
     "fixture": "f-47b49d7ae70a647f",
     "sha256": "5808a2ae905289dcc896b6d99a16db9971419423ad54d04f1636cc08a00e8174",
@@ -1879,14 +1679,6 @@
     "details": "The sheet names ΧΟΥΠΑΤΕΛΗΣ 2448 and ΖΑΧΑΡΙΟΥ 140 under an explicit ΑΛΛΑΓΗ SPINALONGA note without attributing their participation to any rubber. The played rows retain the starting names; substitution attribution needs clarification.",
     "details_el": "Η σημείωση αλλαγής αναφέρει Χουπατέλη και Ζαχαρίου χωρίς αντιστοίχιση σε επιμέρους αγώνα. Απαιτείται διευκρίνιση."
   },
-  "http://files.ping-pong.gr/FA25-26/EFR-OTK.jpg": {
-    "fixture": "f-822d3c23ac9192db",
-    "sha256": "dda762ac6d0b37f1eda0e9564068229c7faeb56d9bbaf95bf1ad2840eb4c4cb5",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Draft: source 19 December 2025 but all six same-pair/scores workbook 18 December 2025; hold cross-date reconciliation.",
-    "details_el": "Το φύλλο αναγράφει 19/12/2025 ενώ τα ίδια αποτελέσματα έχουν 18/12/2025 στο βιβλίο."
-  },
   "http://files.ping-pong.gr/FA25-26/INS-ESP.jpg": {
     "fixture": "f-2b81076648116498",
     "sha256": "21ddc519e11b12d4ac3eb69911cbcefde44b48220b5bbb99134f6a59cd3eee8c",
@@ -1935,14 +1727,6 @@
     "details": "Explicit row 4 ΜΠΙΖΑΚΗΣ 1969 replaces ΜΠΟΥΚΟΥΒΑΛΑΣ 479 and ΣΩΤΗΡΙΑΔΗΣ 2660 replaces ΠΑΝΑΓΟΠΟΥΛΟΣ 2659. Draft held: row 1 third game reads 22-24, contradicting explicit 3-0/workbook. Two independent visual checks cannot establish a corrected 26-24.",
     "details_el": "Το τρίτο σετ της 1 ης αναμέτρησης φαίνεται 22-24, ασύμβατο με το συνολικό 3-0. Δύο ανεξάρτητοι έλεγχοι δεν επιβεβαιώνουν πιθανή διόρθωση 26-24."
   },
-  "http://files.ping-pong.gr/FA25-26/VAP-VLD.jpg": {
-    "fixture": "f-5b62012672066dd0",
-    "sha256": "f04ec9f8f480d801bbf02fa987d43b08361d78cb8ec8e42d8f11c19c41548006",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Sheet date 23 January 2026 independently visually confirmed; all four played workbook results are 18 January 2026. Home C absent, rows 3,6 administrative 0–3. No date rewritten.",
-    "details_el": "Το φύλλο γράφει 23/1/2026, ενώ οι τέσσερις παιγμένες αναμετρήσεις του αρχείου έχουν 18/1/2026."
-  },
   "http://files.ping-pong.gr/FA25-26/CDR-NRX.jpg": {
     "fixture": "f-29e25f890683eb4c",
     "sha256": "d272f80b9e5fed2800f958b16bc85e80b6d977c26926edd28fefc8fd6ac4e52b",
@@ -1966,14 +1750,6 @@
     "reason": "missing_date",
     "details": "Day heavily overwritten before /01/26; independent enlarged inspection cannot confidently resolve. No date inferred from workbook.",
     "details_el": "Η ημέρα πριν από/01/26 είναι αλλοιωμένη και δεν διαβάζεται αξιόπιστα."
-  },
-  "http://files.ping-pong.gr/FA25-26/AEK-APS.jpg": {
-    "fixture": "f-b7ff2a705547800d",
-    "sha256": "32b9b6c3402d85e336a4c0bab17992a0380e175c02fef1d0f1c6fdd0266274e4",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Explicit 18 January 2026 sheet date; eight identical-pair/scores workbook records dated 1 February 2026. Full transcription preserved; no duplicate results added.",
-    "details_el": "Το φύλλο γράφει 18/1/2026 ενώ οι οκτώ αντίστοιχες εγγραφές έχουν 1/2/2026."
   },
   "http://files.ping-pong.gr/FA25-26/AKP-AEK.jpg": {
     "fixture": "f-9a84130345316a96",
@@ -2014,14 +1790,6 @@
     "reason": "conflicting_score",
     "details": "Row 5 HUANG–ΛΥΚΟΥΡΙΝΟΣ explicit 2–3 but complete games 11–8,12–10,11–2,8–11,8–11 give 3–2.",
     "details_el": "Το 2–3 στην 5 η αναμέτρηση αντιφάσκει με τρία κερδισμένα αρχικά σετ."
-  },
-  "http://files.ping-pong.gr/FA25-26/KLN-IPP.jpg": {
-    "fixture": "f-b71a87925b1e989f",
-    "sha256": "a4e5c64a2698a250b0d1e1d09257ae7fe2b69e4c7dab71deeb4e1a9caebcf67e",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Sheet 14 December 2025 but all five identical-pair/score results exist together on 1 May 2026 (m-e 60 fd 778074 f 929 c,m-c 2 bd 6 d 79 a 28 e 15 fa,m-b 0 a 392 ffd 7415 bf 1,m-8 fa 9 d 688 b 38 b 6 c 2 f,m-814483 f 5644 dd 036). Held rather than creating duplicates; full draft preserved.",
-    "details_el": "Το φύλλο γράφει 14/12/2025 ενώ οι πέντε ίδιες αναμετρήσεις υπάρχουν με ημερομηνία 1/5/2026."
   },
   "http://files.ping-pong.gr/FA25-26/PM1-ECG.jpg": {
     "fixture": "f-c758d893f9802943",
@@ -2095,14 +1863,6 @@
     "details": "Source explicitly 27 November 2026 while 2025–26 fixture and all six workbookresults 27 November 2025. Adjacent-year discrepancy requires clarification.",
     "details_el": "Το φύλλο γράφει 27/11/2026, ενώ διοργάνωση και βιβλίο δείχνουν 27/11/2025. Απαιτείται διευκρίνιση έτους."
   },
-  "http://files.ping-pong.gr/FA25-26/RCL-FNX.jpg": {
-    "fixture": "f-182d381ae8d31f30",
-    "sha256": "13ae7cdf048868a6233fb59aeba57bd38557129f8a8f17bb3f30448740a8a45c",
-    "reviewed_at": "2026-11-26",
-    "reason": "cross_date_duplicate",
-    "details": "Source 30 November 2025 has allfive samepair/scores alreadyrecorded 1 January 2026. Requires workbookdate reconciliation before adding sourceboundresults.",
-    "details_el": "Το φύλλο 30/11/2025 έχει τα ίδια πέντε αποτελέσματα που υπάρχουν την 1/1/2026. Απαιτείται συμφιλίωση ημερομηνίας, χωρίς διπλοεγγραφή."
-  },
   "http://files.ping-pong.gr/FA25-26/GSM-KLN.jpg": {
     "fixture": "f-e4985c53703f00db",
     "sha256": "31caee4f59e030df5ae213b348a85b0614da6ab7d7fd656ddeb2362fe9bd8aa5",
@@ -2110,14 +1870,6 @@
     "reason": "conflicting_date",
     "details": "Sourceexplicit 30 November 2026 versus 2025–26 fixture/workbook 1 March 2026. Sevenother matchingpair/scores indicateexistingevent; row 4 source 3–0 differsbook 3–1. Date and score reconciliationrequired.",
     "details_el": "Το φύλλογράφει 30/11/2026, το βιβλίο 1/3/2026. Επιπλέον η 4 η γραμμήείναι 3–0 αντί 3–1. Απαιτείται συμφιλίωση ημερομηνίας/σκορ."
-  },
-  "http://files.ping-pong.gr/FA25-26/IPP-SPN.jpg": {
-    "fixture": "f-fd662caee3c1068d",
-    "sha256": "843ff4ad2e0715058b5dfce984788e52ef0d0df64aa311198b3ad9f943994ecf",
-    "reviewed_at": "2026-11-26",
-    "reason": "cross_date_duplicate",
-    "details": "Source 30 November 2025 allfiveplayedpair/scores alreadyrecorded 1 April 2026. ThreeawayXabsenceawardsalsoidentified. Reconcileexistingeventdate beforeimport.",
-    "details_el": "Τα πέντε παιγμένα αποτελέσματα του φύλλου 30/11/2025 υπάρχουντην 1/4/2026. Απαιτείται συμφιλίωση ημερομηνίας χωρίς διπλοεγγραφές."
   },
   "http://files.ping-pong.gr/FA25-26/LMN-PLN.jpg": {
     "fixture": "f-9ce75433eea4bd03",
@@ -2135,14 +1887,6 @@
     "details": "Row 4 Vasileiou–Pappas written 3–2 but fourlegalgames 5–11,11–7,11–5,11–9 and workbook 3–1.",
     "details_el": "Η 4 η γραμμή Βασιλείου–Παππάς γράφει 3–2 αλλά τέσσερα σετ και βιβλίο δείχνουν 3–1."
   },
-  "http://files.ping-pong.gr/FA25-26/VOL-MGP.jpg": {
-    "fixture": "f-a75e09158892437e",
-    "sha256": "3de8106b36a010597dacde6c08d163406190e9713ec77d26d228d5621c7b2386",
-    "reviewed_at": "2026-11-26",
-    "reason": "cross_date_duplicate",
-    "details": "Sourceclearly 21 March 2026 but allseven samepair/scores exist 1 April 2026; date reconciliationrequired beforeimport, no duplicateevent.",
-    "details_el": "Το φύλλογράφει 21/3/2026 αλλά επτάίδια αποτελέσματα υπάρχουντην 1/4/2026. Απαιτείται συμφιλίωση ημερομηνίας."
-  },
   "http://files.ping-pong.gr/FA25-26/ATA-UND.jpg": {
     "fixture": "f-ea6b218d7b7beee5",
     "sha256": "ecdcda4ea34bde0462488f5eece697fbae949901166f33fff42a54f4c96f5b9c",
@@ -2159,14 +1903,6 @@
     "details": "Row 5 away name heavilyoverwritten Christou/Zymtaroudis and number 2376, not unambiguousstartingZ 2371; workbook creditsChristou. Source participant requires clarification.",
     "details_el": "Το όνομαφιλοξενούμενου στην 5 ηγραμμή είναι αλλοιωμένο Χρήστου/Ζυμταρούδης με 2376 αντί 2371. Απαιτείται διευκρίνιση αθλητή."
   },
-  "http://files.ping-pong.gr/FA25-26/TRN-EAI.jpg": {
-    "fixture": "f-e541c8a6e18d459b",
-    "sha256": "5bb138e5b507e24914ee528af9647b31304a07d299aa2bccffdf450f78331eb2",
-    "reviewed_at": "2026-11-26",
-    "reason": "cross_date_duplicate",
-    "details": "Source 30 November 2025 allseven played pair/scores alreadyrecorded 1 January 2026. Reconcile event date before import.",
-    "details_el": "Τα επτά αποτελέσματα του φύλλου 30/11/2025 υπάρχουντην 1/1/2026. Απαιτείται συμφιλίωση ημερομηνίας."
-  },
   "http://files.ping-pong.gr/FA25-26/6BK-TTV.jpg": {
     "fixture": "f-37f7f269ab0e0557",
     "sha256": "a3f0f771a344a7494115268af630ea280d74e8b494bd63c826aec2ccd8f32b54",
@@ -2174,14 +1910,6 @@
     "reason": "missing_date",
     "details": "Datefield blank. Eight samepair/scores exist 12 November 2025, but no source date established; workbook date not silently adopted.",
     "details_el": "Κενό πεδίο ημερομηνίας. Οκτώ ίδιααποτελέσματα υπάρχουν 12/11/2025, αλλά δεν υιοθετείται ημερομηνία χωρίς τεκμηρίωση φύλλου."
-  },
-  "http://files.ping-pong.gr/FA25-26/ETH-ATH.jpg": {
-    "fixture": "f-58bc3205202c42e5",
-    "sha256": "d2b0ccaaf5b276ec2f0692333e203a91a0b8fb3cbde90f6ceb022e2faa78e49d",
-    "reviewed_at": "2026-11-26",
-    "reason": "date-conflict",
-    "details": "The sheet date is 11/11/25, whereas all five matching workbook rubbers are dated 17 November 2025. The source day must be reconciled before adding evidence or creating apparent duplicate singles.",
-    "details_el": "Το φύλλο αναγράφει 11/11/25, ενώ οι πέντε ίδιοι αγώνες στο αρχείο έχουν ημερομηνία 17 Νοεμβρίου. Απαιτείται διευκρίνιση."
   },
   "http://files.ping-pong.gr/FA25-26/RDL-P4F.jpg": {
     "fixture": "f-6fb167c31546faa7",
@@ -2222,14 +1950,6 @@
     "reason": "conflicting_score",
     "details": "Draft: row 1 explicit 1-3 differs workbook 0-3; row 3 explicit 0-3/workbook 0-3 contradicts final written game 12-10. ΜΙΧΟΠΟΥΛΟΣ printed 040 in second rubber incorrectly, verified 90 by name/team/workbook.",
     "details_el": "Η 1 η αναμέτρηση έχει 1-3 αντί 0-3 στο βιβλίο. Στην 3 η αναμέτρηση το τρίτο σετ 12-10 διαφωνεί με 0-3."
-  },
-  "http://files.ping-pong.gr/FA25-26/MAN-PGM.jpg": {
-    "fixture": "f-77e92eedb177d036",
-    "sha256": "35014cdb804d4e0b86ccdba072da8a3dbb8084e0dfe1b9b4f8de30bf251214c1",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Draft: source header 13 November 2025 differs matching workbook 12 November 2025. Explicit row 5 ΜΥΛΩΝΑΣ 1083 replaces ΧΑΤΖΗΓΕΩΡΓΙΟΥ 619.",
-    "details_el": "Το φύλλο αναγράφει 13/11/2025 ενώ τα ίδια αποτελέσματα έχουν 12/11/2025 στο βιβλίο."
   },
   "http://files.ping-pong.gr/FA25-26/ABL-EM2.jpg": {
     "fixture": "f-b7ca4a775c5b49b5",
@@ -2567,14 +2287,6 @@
     "details": "Draft: row 1 rubric written 0-1 invalid vs three games 8-11,6-11,5-11 and workbook 0-3. Draft preserves game-derived 0-3 pending reconciliation. Explicit ΠΑΛΤΣΙΔΗΣ 1006 and ΠΕΤΡΙΔΗΣ 2603 substitutions.",
     "details_el": "Η 1 η αναμέτρηση έχει μη έγκυρο σκορ 0-1 αντί των τριών χαμένων σετ."
   },
-  "http://files.ping-pong.gr/FA25-26/APS-FLR.jpg": {
-    "fixture": "f-b79977de48fa3052",
-    "sha256": "a554089ce6becd56fff265a4db2873a503412ff642f5b73dc204961c922979e9",
-    "reviewed_at": "2026-11-26",
-    "reason": "conflicting_date",
-    "details": "Draft: source explicitly 24 October 2025 differs allfive workbook results 14 October 2025. Explicit ΤΣΑΓΚΑΡΗΣ 2456 and ΣΚΟΥΛΑΣ 2657 substitutions.",
-    "details_el": "Το φύλλο αναγράφει 24/10/2025 ενώ τα ίδια αποτελέσματα έχουν 14/10/2025 στο βιβλίο."
-  },
   "http://files.ping-pong.gr/FA25-26/KPG-ATS.jpg": {
     "fixture": "f-66c3f6c406d2ef8f",
     "sha256": "26e4cff20381e6aa03014935ef7c4a5c3bb81c41451ace1c25a06f17b5a40056",
@@ -2639,14 +2351,6 @@
     "details": "Row 1 Πλιάνος–Περγάλης explicitly 3–2 but four clear games 11–6,11–1,8–11,11–5 establish 3–1.",
     "details_el": "Η γραμμή 1 γράφει 3–2 αλλά τα τέσσερα σετ δίνουν 3–1."
   },
-  "http://files.ping-pong.gr/FA25-26/ES2-VTS.jpg": {
-    "fixture": "f-6d50c8a4b26eb404",
-    "sha256": "9870c69b0d7a871976e7f4a85469c147b5ecdb19592aa3c855b9d0667a31e823",
-    "reviewed_at": "2026-11-26",
-    "reason": "date-conflict",
-    "details": "Sheet explicitly 31 Jan 2026, but the same five results are already recorded 1 Feb 2026. Date reconciliation is required before importing to avoid duplicates.",
-    "details_el": "Το φύλλο γράφει 31 Ιαν 2026 ενώ οι ίδιοι αγώνες είναι καταχωρισμένοι 1 Φεβ 2026."
-  },
   "http://files.ping-pong.gr/FA25-26/SSP-NS2.jpg": {
     "fixture": "f-59bc3e9a81046b5a",
     "sha256": "83abfe1840578f1039de8e21057a8c34de6fabd7d412713c2a8a40bcb8846125",
@@ -2694,14 +2398,6 @@
     "reason": "conflicting_score",
     "details": "Kasapas–Koutris row 3 explicit 2–3 contradicts complete legal game cells 11–4,11–9,11–3,8–11,8–11 (3–2). Full draft retained.",
     "details_el": "Η 3 η γραμμή γράφει 2–3 αλλά τα πέντε καταγεγραμμένα σετ δίνουν 3–2. Διατηρείται πλήρης μεταγραφή."
-  },
-  "http://files.ping-pong.gr/FA25-26/TBL-PPA.jpg": {
-    "fixture": "f-776e14f1f7c691f2",
-    "sha256": "cdadc285e658b998bde93c8a868d1fb355ba39b47d44c76ee708b2f6a7a4a651",
-    "reviewed_at": "2026-11-26",
-    "reason": "cross_date_duplicate",
-    "details": "Sheet dated 10 February 2026 but all five played pair/score combinations already exist 1 March 2026; do not create duplicate athlete matches. Away Tripounas/Kavalaris numbers are also reversed. Full source-date draft retained.",
-    "details_el": "Το φύλλο γράφει 10/2/2026 αλλά οι πέντε παιγμένοι αγώνες υπάρχουν την 1/3/2026. Δεν εισάγονται διπλότυπα."
   },
   "http://files.ping-pong.gr/FA25-26/AP6-EFR.jpg": {
     "fixture": "f-f455dc799aac0f09",
