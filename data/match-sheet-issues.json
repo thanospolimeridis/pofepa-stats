@@ -1446,5 +1446,77 @@
     "reason": "ambiguous_substitute_opponent",
     "details": "Sheet original awayZ explicitlyΜΟΥΣΤΑΚΑΣ Ι.754, row 5 only surname with no away substitution annotation. Workbook row 5 ΕΡΜΕΙΔΗΣ 999 instead facesΜΟΥΣΤΑΚΑΣ ΔΗΜΗΤΡΙΟΣ 2797. Clarify opponent identity, no new match inferred.",
     "details_el": "Η αρχική θέσηΖ γράφειΜΟΥΣΤΑΚΑΣ Ι.754, αλλά στη γραμμή 5 υπάρχει μόνο επώνυμο χωρίς αλλαγή φιλοξενούμενου. Το αρχείο δίνει αντίπαλοΜΟΥΣΤΑΚΑΣ ΔΗΜΗΤΡΙΟΣ 2797. Απαιτείται ταυτοποίηση."
+  },
+  "http://files.ping-pong.gr/FA25-26/ANA-MXX.jpg": {
+    "fixture": "f-201bbb73af6c696c",
+    "sha256": "efae6af7380d23e459b03d5ef4ccf185230b6424b42af1930a330f01e76fd91d",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "Sheet explicitly dated 2026-02-22, but all 7 individual results already occur in the workbook on 2026-03-01. Hold for date reconciliation; do not create cross-date duplicates.",
+    "details_el": "Το φύλλο αναγράφει 2026-02-22, αλλά οι ίδιες 7 αναμετρήσεις εμφανίζονται στο βιβλίο στις 01/03/2026. Εκκρεμεί συμφωνία της ημερομηνίας."
+  },
+  "http://files.ping-pong.gr/FA25-26/TTC-UND.jpg": {
+    "fixture": "f-eaac38701504281f",
+    "sha256": "f43b72fa552e63dd0f73a6a9dbbfaabeffa59f5b2da35839e56c75787453fb8f",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "Sheet explicitly dated 2026-02-15, but all 8 individual results already occur in the workbook on 2026-03-01. Hold for date reconciliation; do not create cross-date duplicates.",
+    "details_el": "Το φύλλο αναγράφει 2026-02-15, αλλά οι ίδιες 8 αναμετρήσεις εμφανίζονται στο βιβλίο στις 01/03/2026. Εκκρεμεί συμφωνία της ημερομηνίας."
+  },
+  "http://files.ping-pong.gr/FA25-26/TTC-ATV.jpg": {
+    "fixture": "f-b394ae216077b8bc",
+    "sha256": "d0b1729a3bdcb2778460913c890451f847a2640c7c6e7a2c95066f002d93438e",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "Sheet explicitly dated 2026-02-15, but all 7 individual results already occur in the workbook on 2026-03-01. Hold for date reconciliation; do not create cross-date duplicates.",
+    "details_el": "Το φύλλο αναγράφει 2026-02-15, αλλά οι ίδιες 7 αναμετρήσεις εμφανίζονται στο βιβλίο στις 01/03/2026. Εκκρεμεί συμφωνία της ημερομηνίας."
+  },
+  "http://files.ping-pong.gr/FA25-26/V3V-PFL.jpg": {
+    "fixture": "f-1c0549e6ee0eb7ff",
+    "sha256": "05731aa81fdb75b1ec488f25745769b030d3b09f92206e587683e5c45c535a24",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΜΑΡΤΟΣ ΘΕΟΔΩΡΟΣ has handwritten registration resembling 2777, while registered same name is 2707 and the three matching workbook rubbers use provisional u-c 7023654024 c 29 e 2. Hold identity reconciliation; no provisional-to-registered merge or duplicated matches. Row 7 ΜΠΙΣΤΟΛΑΣ 2284 substitution is explicit.",
+    "details_el": "Ο ΜΑΡΤΟΣ ΘΕΟΔΩΡΟΣ έχει ασαφή αριθμό μητρώου στο φύλλο και προσωρινή ταυτότητα στο βιβλίο. Εκκρεμεί συμφωνία με τον εγγεγραμμένο αθλητή 2707."
+  },
+  "http://files.ping-pong.gr/FA25-26/ATL-TPZ.jpg": {
+    "fixture": "f-325fcf7998873f8f",
+    "sha256": "de167c8619b32cd80a4cc12c03b23696808b44957f282ef5fe65290bcd7767ae",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_substitution",
+    "details": "Explicit ΑΛΛΑΓΕΣ note lists home ΛΑΓΑΡΟΣ 227 and away ΠΕΡΟΥΚΙΔΗΣ, but all played row names remain original and neither change is attributed to a rubber. Hold until source reconciliation.",
+    "details_el": "Η σημείωση ΑΛΛΑΓΕΣ αναφέρει ΛΑΓΑΡΟ 227 και ΠΕΡΟΥΚΙΔΗ, αλλά κανένας αγώνας δεν προσδιορίζει τις αλλαγές."
+  },
+  "http://files.ping-pong.gr/FA25-26/MKB-ATN.jpg": {
+    "fixture": "f-19a6f04dd6979267",
+    "sha256": "74114c15bac9dc0284a696c07b6cccc15eb07420510c5b9774792bcc445567ce",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "Sheet explicitly dated 2026-02-18, but all 8 individual results already occur in the workbook on 2026-03-01. Hold for date reconciliation; do not create cross-date duplicates.",
+    "details_el": "Το φύλλο αναγράφει 2026-02-18, αλλά οι ίδιες 8 αναμετρήσεις εμφανίζονται στο βιβλίο στις 01/03/2026. Εκκρεμεί συμφωνία της ημερομηνίας."
+  },
+  "http://files.ping-pong.gr/FA25-26/PRD-KRG.jpg": {
+    "fixture": "f-5191710185ad39b0",
+    "sha256": "e6cdeca08d1365f08bd50320df2d3ec4584115069da93e1a175010aad401bc12",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_retirement",
+    "details": "1 March 2026 note ΓΑΒΡΙΗΛ τραυματισμός and last row FLIS–ΓΑΒΡΙΗΛ 3–0 with 11–0 games may indicate an injury award; workbook counts it as played. Source does not establish whether play began, so status reconciliation is required.",
+    "details_el": "Η σημείωση ΓΑΒΡΙΗΛ τραυματισμός και τα 11–0 της τελευταίας γραμμής χρειάζονται διευκρίνιση ως προς το αν ο αγώνας διεξήχθη ή κατακυρώθηκε."
+  },
+  "http://files.ping-pong.gr/FA25-26/PPA-ATN.jpg": {
+    "fixture": "f-5fda3dcc754f1b22",
+    "sha256": "0472fe51a840fc091c8999154064a10c8527e429f0a1cdd0fad773e0342b64e3",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_substitution",
+    "details": "2 March 2026 explicit ΑΛΛΑΓΕΣ note ΠΑΠΑΔΟΝΑΣΛΑΚΗΣ 2047 for home but all played rows keep starting trio. Away ΜΑΤΗΣ 794 clearly plays row 6. Home substitution versus unused reserve remains unresolved.",
+    "details_el": "Η σημείωση ΑΛΛΑΓΕΣ αναφέρει γηπεδούχο αναπληρωματικό χωρίς αντίστοιχη γραμμή αγώνα. Η αλλαγή ΜΑΤΗΣ 794 είναι σαφής στην έκτη γραμμή. Απαιτείται διευκρίνιση της γηπεδούχου σύνθεσης."
+  },
+  "http://files.ping-pong.gr/FA25-26/TBL-MB2.jpg": {
+    "fixture": "f-062ef85df90e7106",
+    "sha256": "83d3f5605dd9f636270aa395ab87eaa8d98b0488e933d61b5b45de688dfa003a",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score_and_identity",
+    "details": "5 March 2026 row 8 ΚΩΝΣΤΑΝΤΙΝΙΔΗΣ–ΤΑΡΑΜΠΟΥΛΟΥΣ corrects away name from ΜΑΤΑΘΙΑΣ but workbook has a second same-day ΚΩΝΣΤΑΝΤΙΝΙΔΗΣ–ΜΑΤΑΘΙΑΣ. Written 1–3 conflicts with four legible games 11–6,7–11,8–11,12–10 giving 2–2 and obscured fifth. Ταραμπουλους Ζακ 2662 has existing provisional identity, not registered 2662. Reconcile row 8 opponent/score before import.",
+    "details_el": "Η όγδοη γραμμή διορθώνει τον αντίπαλο σε ΤΑΡΑΜΠΟΥΛΟΥΣ, ενώ το αρχείο εμφανίζει δεύτερο αγώνα με ΜΑΤΑΘΙΑΣ. Το 1–3 δεν συμφωνεί με τα τέσσερα ευανάγνωστα σετ 2–2. Απαιτείται διευκρίνιση αντιπάλου και σκορ."
   }
 }
