@@ -139,7 +139,7 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 137352,
+ "matches": 137364,
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
@@ -161,7 +161,7 @@
  },
  "identity_methods": {
   "sheet_registration": 1201,
-  "reviewed_sheet_name_and_team": 557,
+  "reviewed_sheet_name_and_team": 581,
   "unique_name_in_month": 45112,
   "exact_name_and_team": 182512,
   "unique_name_team_differs": 32029,
@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 205,
-  "imported_sheets": 153,
+  "reviewed": 216,
+  "imported_sheets": 164,
   "held": 52,
-  "pending": 13306,
+  "pending": 13295,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6104,8 +6104,8 @@
     "details_el": "Ο ΜΟΥΧΤΟΥΡΗΣ δεν έχει μικρό όνομα ή ΔΑΙ. Το υπάρχον προφίλ ΝΙΚΟΛΑΟΣ ΜΟΥΧΤΟΥΡΗΣ ανήκει σε άλλη ομάδα και δεν βρέθηκε τεκμηρίωση σύνδεσης με CRETAN DENTISTS."
    }
   ],
-  "imported": 879,
-  "corroborated": 129,
+  "imported": 891,
+  "corroborated": 185,
   "excluded_walkovers": 16,
   "reviews": [
    {
@@ -7494,6 +7494,105 @@
     "season": "2026-2027",
     "imported": 8,
     "notes": ""
+   },
+   {
+    "source": "s-db34aa5bd638e1ae",
+    "url": "http://files.ping-pong.gr/FA26-27/GSM-GLZ.jpg",
+    "fixture": "f-ac8f384051e50838",
+    "date": "2026-11-01",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": "ΒΛΟΤΙΝΟΥ ΑΝΤΩΝΙΑ is confirmed for ΓΑΤΕΛΟΥΖΟΙ by the 12 October workbook result against ΓΕΩΡΓΕΛΛΗΣ, despite her latest ranking listing ΣΠΙΝΑΤΕΣ."
+   },
+   {
+    "source": "s-ac1fa595691aaace",
+    "url": "http://files.ping-pong.gr/FA26-27/IPK-CHM.jpg",
+    "fixture": "f-302c7e797f83405a",
+    "date": "2026-10-31",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-cbb2ba8c43785901",
+    "url": "http://files.ping-pong.gr/FA26-27/ATT-TTV.jpg",
+    "fixture": "f-b58d16737e1ea51f",
+    "date": "2026-10-30",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "ΠΙΠΕΡΙΔΟΥ replaces ΧΑΤΣΑΤΡΙΑΝ in row 5; the change is named in the substitution note."
+   },
+   {
+    "source": "s-4c41f0a2160c2a8c",
+    "url": "http://files.ping-pong.gr/FA26-27/PLN-BGP.jpg",
+    "fixture": "f-4a4bb9efc222957b",
+    "date": "2026-10-29",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "Reserve names are listed but no substitution appears in the six completed match rows."
+   },
+   {
+    "source": "s-a4bbb7a1b5d3d2f4",
+    "url": "http://files.ping-pong.gr/FA26-27/SPM-SRD.jpg",
+    "fixture": "f-e59fdcd7c0f99ed0",
+    "date": "2026-10-29",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-27a87601c904108a",
+    "url": "http://files.ping-pong.gr/FA26-27/SPG-PM2.jpg",
+    "fixture": "f-0e59285a56f392a3",
+    "date": "2026-10-29",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "Date is blank. All eight results match the 29 October workbook fixture, including ΞΑΝΘΟΠΟΥΛΟΣ replacing ΤΑΡΑΣ. Workbook identities distinguish ΠΑΤΑΡΙΔΗΣ ΣΠΥΡΙΔΩΝ (760)."
+   },
+   {
+    "source": "s-d1358b438ee99b60",
+    "url": "http://files.ping-pong.gr/FA26-27/VLD-AIG.jpg",
+    "fixture": "f-b9bec9fc0942f824",
+    "date": "2026-10-29",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "Date is blank. All six results and substitutions match the 29 October workbook fixture, establishing the actual date."
+   },
+   {
+    "source": "s-b4fc7c3fbdad79d5",
+    "url": "http://files.ping-pong.gr/FA26-27/AEK-FRK.jpg",
+    "fixture": "f-c78233ba5104bdb7",
+    "date": "2026-10-25",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "ΚΑΤΣΑΟΥΝΑΣ replaces ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ in row 6. Existing same-date workbook results verify the identities, including ΛΥΚΟΥΡΙΝΟΣ playing for ΑΕΚ ΤΡΙΠΟΛΗΣ."
+   },
+   {
+    "source": "s-13711c0daa64d9da",
+    "url": "http://files.ping-pong.gr/FA26-27/APR-SNT.jpg",
+    "fixture": "f-c070a5a4ed1e7d3d",
+    "date": "2026-10-23",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "The photograph cuts off the date. All seven participant pairs and scores match the 23 October workbook fixture, which establishes the actual date."
+   },
+   {
+    "source": "s-8959c9311eba7353",
+    "url": "http://files.ping-pong.gr/FA26-27/S40-OMU.jpg",
+    "fixture": "f-fa17035fa8f8b190",
+    "date": "2026-10-21",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "Starting initials distinguish ΑΘΑΝΑΣΙΟΣ and ΙΩΑΝΝΗΣ ΚΙΛΚΙΣΛΗΣ; Γ is the familiar Γιάννης. Actual date is 21 October, earlier than the nominal round."
+   },
+   {
+    "source": "s-731e74f1d2339290",
+    "url": "http://files.ping-pong.gr/FA26-27/BLK-PFK.jpg",
+    "fixture": "f-bb18aa66d2e6fcb4",
+    "date": "2026-10-04",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "Sheet explicitly dates the fixture 4 October despite its placement in a later round. All five results match that workbook date; identities of ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ Ν. and substitute ΚΩΝΣΤΑΝΤΙΝΟΥ ΠΕΤΡΟΣ are confirmed there."
    }
   ]
  }
