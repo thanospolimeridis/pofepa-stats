@@ -17,14 +17,18 @@ const routes=['home','rankings','rankings?region=north&class=BET&age=40-49','ran
 routes.push('player/p-1912','player/p-2926','player/p-313');
 (async()=>{
 for(const language of ['el','en']) for(const route of routes){
-  const app={innerHTML:'',addEventListener(){}},skip={addEventListener(){}};
+  const app={innerHTML:'',addEventListener(){}},skip={addEventListener(){}},requests=[];
   const context={Pofepa:C,PofepaEvidence:Evidence,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>skip},location:{hash:'#'+route},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=>language},URLSearchParams,Intl,console,setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(fs.readFileSync('dist/'+path.split('?')[0]))};
+  const fetchArchive=context.fetch;context.fetch=async path=>{requests.push(path.split('?')[0]);return fetchArchive(path);};
   vm.runInNewContext(fs.readFileSync('src/app.js','utf8'),context,{timeout:10000});
   await context.window.pofepaReady;
   assert(app.innerHTML.includes('<main'),route+' main is missing');
   assert(!app.innerHTML.includes('undefined'),route+' leaks undefined');
   assert(!app.innerHTML.includes('Unable to load'),route+' failed to load its archive');
   assert(!app.innerHTML.includes('NaN'),route+' leaks NaN');
+  const fixtureRoute=route==='teams'||route.startsWith('team/')||route.startsWith('matches?view=teams')||route==='event/'+fixtureEvent.id;
+  assert.equal(requests.includes('data/fixtures.json.gz'),fixtureRoute,route+' fixture download scope');
+  assert.equal(requests.includes('data/about.json.gz'),route==='about',route+' source-report download scope');
   if(route.startsWith('player/p-859')){assert(!app.innerHTML.includes('data-filter="region"'));assert(!app.innerHTML.includes('data-filter="list"'));assert(app.innerHTML.includes('data-page-key="rpage"'));}
   if(route==='rankings?region=north&class=BET&age=40-49')assert(app.innerHTML.includes('ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ'));
 }

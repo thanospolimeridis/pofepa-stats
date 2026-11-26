@@ -28,6 +28,34 @@ def player_stats(rows, pid):
     return result
 
 
+BOOTSTRAP_SCHEMA = 2
+ROUTE_ARCHIVES = {
+    'fixtures': 'data/fixtures.json.gz',
+    'about': 'data/about.json.gz',
+}
+
+
+def bootstrap_data(data):
+    """Keep route-independent indexes while deferring fixture and audit records.
+
+    The full catalog and offline archive retain their original data contract.
+    This shallow projection never removes fields from their source objects.
+    """
+    result = {key: value for key, value in data.items() if key not in ('fixtures', 'issues')}
+    result['bootstrap_schema'] = BOOTSTRAP_SCHEMA
+    result['archives'] = dict(ROUTE_ARCHIVES)
+    result['sources'] = [{key: source[key] for key in ('id', 'url')} for source in data['sources']]
+    coverage = data['coverage']
+    result['coverage'] = {key: value for key, value in coverage.items()
+                          if not isinstance(value, (dict, list)) or key == 'ranking_periods'}
+    if 'match_sheets' in coverage:
+        result['coverage']['match_sheets'] = {
+            key: value for key, value in coverage['match_sheets'].items()
+            if not isinstance(value, (dict, list)) or key == 'seasons'
+        }
+    return result
+
+
 def build():
     data = load()
     validate(data)
@@ -80,9 +108,13 @@ def build():
     data['recent_matches'] = data['matches'][:6]
     data['matches'] = data['recent_matches']
     data['lazy'] = True
-    data.pop('issues')
-    save(data, dist / 'data/bootstrap.json.gz')
-    (dist / 'index.html').write_text(html.replace('/*DATA*/', encode({'bootstrap': 'data/bootstrap.json.gz', 'revision': data['dataset_sha256'][:16]}).decode()))
+    save(data['fixtures'], dist / ROUTE_ARCHIVES['fixtures'])
+    save({'sources': data['sources'], 'coverage': data['coverage']}, dist / ROUTE_ARCHIVES['about'])
+    bootstrap = bootstrap_data(data)
+    save(bootstrap, dist / 'data/bootstrap.json.gz')
+    # Include the lazy-data schema and projection in cache identity, not only the catalog.
+    revision = hashlib.sha256(encode(bootstrap)).hexdigest()[:16]
+    (dist / 'index.html').write_text(html.replace('/*DATA*/', encode({'bootstrap': 'data/bootstrap.json.gz', 'revision': revision}).decode()))
     (dist / '.nojekyll').touch()
     (dist / 'coverage.json').write_bytes(encode(data['coverage']))
     (dist / 'provenance.json').write_bytes(encode({'dataset_sha256': data['dataset_sha256'], 'sources': data['sources']}))

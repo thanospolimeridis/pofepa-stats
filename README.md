@@ -29,7 +29,7 @@ python3 scripts/build.py
 python3 -m http.server 8000 --directory dist
 ```
 
-Open `http://localhost:8000`. The generated root `index.html` and `dist/offline.html` contain the complete compressed archive and can be saved for offline use. The hosted site loads only the required ranking, athlete or competition data. A modern browser with `DecompressionStream` support is required.
+Open `http://localhost:8000`. The generated root `index.html` and `dist/offline.html` contain the complete compressed archive and can be saved for offline use. The hosted site loads ranking, athlete and competition data on demand; team fixtures and detailed source reports load only on their respective pages. The compressed initial data package is approximately 631 KB, down from 2.01 MB. A modern browser with `DecompressionStream` support is required.
 
 The committed dataset is `data/catalog.json.gz`. Builds require Python 3.10+ and make no network requests. Generated files and raw downloads are ignored by Git.
 
@@ -48,6 +48,8 @@ python3 -m unittest discover -s tests -v
 node tests/smoke.js
 node tests/evidence.js
 node tests/export.js
+node tests/bootstrap.js
+node tests/hydration.js
 python3 scripts/check_reproducible_build.py
 python3 scripts/audit_sources.py
 python3 scripts/audit_documents.py

@@ -2,6 +2,7 @@
 
 ## Prototype updates — 2026-11-26
 
+- Defer team fixtures and detailed source reports until their pages are opened, reducing the compressed initial data package by 68.6% while retaining the complete offline archive.
 - Expose reviewed match corrections and their evidence in match history and CSV exports; show readable match cards on narrow screens.
 - Bring athlete match history above ranking charts, add accessible section shortcuts, and paginate matches and rankings in compact ten-row pages while retaining all history.
 

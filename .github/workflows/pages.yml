@@ -26,6 +26,8 @@ jobs:
       - run: python scripts/build.py
       - run: node tests/evidence.js
       - run: node tests/export.js
+      - run: node tests/bootstrap.js
+      - run: node tests/hydration.js
       - run: node tests/smoke.js
       - run: python scripts/check_reproducible_build.py
       - uses: actions/configure-pages@v5

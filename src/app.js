@@ -160,6 +160,14 @@ window.pofepaReady = (async () => {
     playerHistories.set(id,record.history.map(([sid,row])=>({...snapshotMap.get(sid),row})));
   }
   async function prepareView(r){if(!db.lazy)return db.matches;
+    if(['teams','team'].includes(r.name)||(r.name==='matches'&&r.params.get('view')==='teams')||(r.name==='event'&&events.get(r.id)?.kind==='fixtures')){
+      if(!db.fixtures&&db.archives?.fixtures)db.fixtures=await fetchData(db.archives.fixtures);
+    }
+    if(r.name==='about'&&db.archives?.about){
+      const archive=await fetchData(db.archives.about);
+      db.sources=archive.sources;db.coverage=archive.coverage;
+      for(const source of db.sources)sources.set(source.id,source);
+    }
     if(r.name==='player'){await loadPlayer(r.id);return db.recent_matches;}
     if(r.name==='h2h'){const id=r.params.get('p1');await loadPlayer(id);return matchesByPlayer.get(id)||[];}
     if(r.name==='matches'&&r.params.get('view')!=='teams')return fetchData('data/matches.json.gz');
