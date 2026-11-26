@@ -414,5 +414,13 @@
     "reason": "unresolved_identity",
     "details": "ΜΟΥΧΤΟΥΡΗΣ has no first name or registration. The existing ΝΙΚΟΛΑΟΣ ΜΟΥΧΤΟΥΡΗΣ profile is associated with another team; no CRETAN DENTISTS identity evidence was found.",
     "details_el": "Ο ΜΟΥΧΤΟΥΡΗΣ δεν έχει μικρό όνομα ή ΔΑΙ. Το υπάρχον προφίλ ΝΙΚΟΛΑΟΣ ΜΟΥΧΤΟΥΡΗΣ ανήκει σε άλλη ομάδα και δεν βρέθηκε τεκμηρίωση σύνδεσης με CRETAN DENTISTS."
+  },
+  "http://files.ping-pong.gr/FA26-27/TNX-MB2.jpg": {
+    "fixture": "f-69c2db8de46a91d2",
+    "sha256": "29e032463ec56e4e26a1e0b98c9f35d48f5efe174f4fccfc83644d0a1203fd3d",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The sheet identifies ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ with registration 2662, but that registration has no resolved athlete profile. The same-day workbook uses provisional u-ded023a5b8bec5dd without a contemporary ranking or earlier match identity proof. Preserve the seven existing workbook results and hold this source until the identity can be independently resolved.",
+    "details_el": "Ο ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ αναγράφεται με ΔΑΙ 2662 χωρίς αντίστοιχο ταυτοποιημένο προφίλ ή προγενέστερη τεκμηρίωση. Οι επτά υπάρχοντες αγώνες του αρχείου διατηρούνται· το φύλλο αναμένει επιβεβαίωση ταυτότητας."
   }
 }

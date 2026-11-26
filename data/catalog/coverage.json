@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 236,
-  "imported_sheets": 184,
-  "held": 52,
-  "pending": 13275,
+  "reviewed": 256,
+  "imported_sheets": 203,
+  "held": 53,
+  "pending": 13255,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6102,11 +6102,21 @@
     "reason": "unresolved_identity",
     "details": "ΜΟΥΧΤΟΥΡΗΣ has no first name or registration. The existing ΝΙΚΟΛΑΟΣ ΜΟΥΧΤΟΥΡΗΣ profile is associated with another team; no CRETAN DENTISTS identity evidence was found.",
     "details_el": "Ο ΜΟΥΧΤΟΥΡΗΣ δεν έχει μικρό όνομα ή ΔΑΙ. Το υπάρχον προφίλ ΝΙΚΟΛΑΟΣ ΜΟΥΧΤΟΥΡΗΣ ανήκει σε άλλη ομάδα και δεν βρέθηκε τεκμηρίωση σύνδεσης με CRETAN DENTISTS."
+   },
+   {
+    "source": "s-5e227f10950be523",
+    "url": "http://files.ping-pong.gr/FA26-27/TNX-MB2.jpg",
+    "fixture": "f-69c2db8de46a91d2",
+    "sha256": "29e032463ec56e4e26a1e0b98c9f35d48f5efe174f4fccfc83644d0a1203fd3d",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The sheet identifies ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ with registration 2662, but that registration has no resolved athlete profile. The same-day workbook uses provisional u-ded023a5b8bec5dd without a contemporary ranking or earlier match identity proof. Preserve the seven existing workbook results and hold this source until the identity can be independently resolved.",
+    "details_el": "Ο ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ αναγράφεται με ΔΑΙ 2662 χωρίς αντίστοιχο ταυτοποιημένο προφίλ ή προγενέστερη τεκμηρίωση. Οι επτά υπάρχοντες αγώνες του αρχείου διατηρούνται· το φύλλο αναμένει επιβεβαίωση ταυτότητας."
    }
   ],
   "imported": 891,
-  "corroborated": 318,
-  "excluded_walkovers": 16,
+  "corroborated": 439,
+  "excluded_walkovers": 22,
   "reviews": [
    {
     "source": "s-adfb32f236e751d3",
@@ -7773,6 +7783,180 @@
     "season": "2026-2027",
     "corroborated": 6,
     "notes": ""
+   },
+   {
+    "source": "s-31eb800986e2a8cc",
+    "url": "http://files.ping-pong.gr/FA26-27/LGT-AP11.jpg",
+    "fixture": "f-f23b6956c9ba9668",
+    "date": "2026-10-30",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "The photograph crops off the date header. All six exact pairs and scores in the workbook establish 30 October 2026. The unnumbered away roster is resolved by those same results and names."
+   },
+   {
+    "source": "s-07be0e9485b8b5f8",
+    "url": "http://files.ping-pong.gr/FA26-27/EM2-SUP.jpg",
+    "fixture": "f-0c0950eb47e90fcc",
+    "date": "2026-10-26",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "The date handwriting is consistent with 26 October and all seven exact workbook rows independently establish that date."
+   },
+   {
+    "source": "s-2374cb0ed6f70b65",
+    "url": "http://files.ping-pong.gr/FA26-27/OUZ-RSP.jpg",
+    "fixture": "f-c2a041efbbc2337a",
+    "date": "2026-10-24",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "Row 4 explicitly replaces ΜΠΕΛΛΟΣ with ΛΙΑΚΟΠΟΥΛΟΥ 1137; the workbook confirms this substitution."
+   },
+   {
+    "source": "s-e4b44eba5a21ff8c",
+    "url": "http://files.ping-pong.gr/FA26-27/SLG-ELT.jpg",
+    "fixture": "f-be2e66cef306eb68",
+    "date": "2026-10-24",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "ΜΠΑΛΑΦΑΣ handwritten registration is indistinct; the name and both matching workbook results resolve 1544. Row 6 explicitly names ΤΡΙΑΝΤΑΦΥΛΛΙΔΗΣ 428 as substitute."
+   },
+   {
+    "source": "s-c16511f466d90558",
+    "url": "http://files.ping-pong.gr/FA26-27/TPZ-SPM.jpg",
+    "fixture": "f-e4a6bccb40525ba2",
+    "date": "2026-10-22",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "Away players without printed registrations are resolved by their names and all five exact workbook results. Row 5 set points confirm the overwritten 3-1 total."
+   },
+   {
+    "source": "s-3d3ede253c092293",
+    "url": "http://files.ping-pong.gr/FA26-27/5ST-BST.jpg",
+    "fixture": "f-2c06a0e43e6b5ba0",
+    "date": "2026-10-22",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "ΓΑΤΟΣ registration is overwritten; the name, club and both identical workbook results resolve 2281. No listed reserve appears in a played row."
+   },
+   {
+    "source": "s-ebd2159ddd84ca85",
+    "url": "http://files.ping-pong.gr/FA26-27/SHC-MAN.jpg",
+    "fixture": "f-cecca0821867dfab",
+    "date": "2026-10-22",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "Unnumbered ΣΠΥΡΟΠΟΥΛΟΣ is resolved by the club and all matching workbook results. ΜΥΛΩΝΑΣ replaces ΧΑΤΖΗΓΕΩΡΓΙΟΥ in rows 6 and 9."
+   },
+   {
+    "source": "s-57f0ff681f36727f",
+    "url": "http://files.ping-pong.gr/FA26-27/N4S-AGK.jpg",
+    "fixture": "f-adce705ff427595e",
+    "date": "2026-10-21",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-8144f477639f08e8",
+    "url": "http://files.ping-pong.gr/FA26-27/XLR-HGH.jpg",
+    "fixture": "f-0eaff1c3affd3e35",
+    "date": "2026-10-21",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "Row 8 has names but no score and is excluded."
+   },
+   {
+    "source": "s-cbef0ac9cb6ce371",
+    "url": "http://files.ping-pong.gr/FA26-27/YPG-SFM.jpg",
+    "fixture": "f-34947b61fc08320c",
+    "date": "2026-10-20",
+    "season": "2026-2027",
+    "walkover": 2,
+    "corroborated": 5,
+    "notes": "The home A slot is explicitly absent. Rows 1 and 5 are marked α.α. and have no played set scores; exclude both walkovers from athlete statistics."
+   },
+   {
+    "source": "s-582c561805ff291e",
+    "url": "http://files.ping-pong.gr/FA26-27/PPN-AP1.jpg",
+    "fixture": "f-c8c24eba79809b97",
+    "date": "2026-10-20",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "The names listed under changes do not appear in the played rows. Preserve the nine explicitly written row participants, all matching the workbook."
+   },
+   {
+    "source": "s-335f85c45f055348",
+    "url": "http://files.ping-pong.gr/FA26-27/EFR-BBR.jpg",
+    "fixture": "f-87bd282f8fe6f787",
+    "date": "2026-10-20",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "ΝΤΕΓΙΑΝ is the printed given-name form of MILOSAVLJEVIC DEJAN, verified by registration 2625 and existing workbook results."
+   },
+   {
+    "source": "s-88e55f02c729c67b",
+    "url": "http://files.ping-pong.gr/FA26-27/ABL-ATB.jpg",
+    "fixture": "f-408d8cc231c19bd7",
+    "date": "2026-10-20",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "Home row 3 name is overwritten but registration 1554 and the matching workbook row establish ΣΤΕΦΑΝΟΠΟΥΛΟΣ ΑΛΕΞΑΝΔΡΟΣ. Substitutions are explicitly written in rows 4 and 5."
+   },
+   {
+    "source": "s-2d5196daed26e3d7",
+    "url": "http://files.ping-pong.gr/FA26-27/OTK-STV.jpg",
+    "fixture": "f-04eb4d8f25b96543",
+    "date": "2026-10-19",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "Low-resolution source: the enlarged image preserves legible names and row totals. All eight pairings, scores and the date are independently corroborated by workbook results. ΜΑΝΔΑΛΙΑΣ replaces ΠΑΓΙΔΑΣ in rows 4 and 8."
+   },
+   {
+    "source": "s-11188ca422abc2f2",
+    "url": "http://files.ping-pong.gr/FA26-27/PGM-AKR.jpg",
+    "fixture": "f-e379e4796d4369fe",
+    "date": "2026-10-15",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-c5a4b2e5446490b9",
+    "url": "http://files.ping-pong.gr/FA26-27/TPG-MGF.jpg",
+    "fixture": "f-423a6a4888cfe7b7",
+    "date": "2026-10-15",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "walkover": 2,
+    "notes": "Away Y is absent. Rows 2 and 6 show dashes in the names and set scores; exclude both walkovers. The named home reserve does not appear in a played row."
+   },
+   {
+    "source": "s-69d6f95f3d1f95d3",
+    "url": "http://files.ping-pong.gr/FA26-27/PST-NSM.jpg",
+    "fixture": "f-4e66fd4eca1c414a",
+    "date": "2026-10-14",
+    "season": "2026-2027",
+    "corroborated": 4,
+    "walkover": 2,
+    "notes": "Away Y is explicitly absent, with blank names and set cells in rows 2 and 6; exclude both walkovers. ΠΑΓΚΑΛΗΣ and ΒΑΣΑΓΙΑΝΝΗΣ handwritten registrations are indistinct; names, team and exact workbook results resolve 2482 and 414."
+   },
+   {
+    "source": "s-5a1ae01355067560",
+    "url": "http://files.ping-pong.gr/FA26-27/SUD-SNS.jpg",
+    "fixture": "f-ee71bdf59cd28ce9",
+    "date": "2026-10-13",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "The enlarged date header reads 13/10/26, independently confirmed by six workbook results. Use the current ΛΑΝΙΤΗΣ ΤΙΜΟΘΕΟΣ profile variant for registration 1145. Row 7 has names but no score and is excluded."
+   },
+   {
+    "source": "s-89c1dbd5202c31a3",
+    "url": "http://files.ping-pong.gr/FA26-27/FRB-ATT.jpg",
+    "fixture": "f-086896bf64de4675",
+    "date": "2026-10-12",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "ΜΑΚΟΣ is unnumbered on the sheet; the FIREBALLS roster and both matching workbook results identify ΕΥΑΓΓΕΛΟΣ ΜΑΚΟΣ 1376."
    }
   ]
  }
