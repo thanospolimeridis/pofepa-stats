@@ -50,6 +50,14 @@ class MatchSheetTests(unittest.TestCase):
         self.run_import()
         self.assertEqual(before,self.data)
 
+    def test_absent_roster_slot_is_allowed_only_for_a_walkover(self):
+        self.review['players']['4']={'label':'Absent player'}
+        self.run_import()
+        self.assertEqual(len(self.data['matches']),1)
+        self.assertEqual(self.data['fixtures'][0]['rubbers'][1]['names'][1],'Absent player')
+        self.review['rows'][1]['status']='played'
+        with self.assertRaisesRegex(ValueError,'Absent participant'):self.run_import()
+
     def test_reversed_existing_result_is_corroborated_once(self):
         self.run_import()
         m=self.data['matches'][0]

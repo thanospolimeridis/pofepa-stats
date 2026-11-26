@@ -73,7 +73,11 @@ def import_reviews(data, cache, reviews=None, issues=None):
             raise ValueError(f'Future match-sheet date: {url}')
         roster = review['players']
         identity_sources = {}
-        for person in roster.values():
+        for roster_key, person in roster.items():
+            if not person.get('id'):
+                if not person.get('label') or any(roster_key in r['players'] and r.get('status', 'played') != 'walkover' for r in review['rows']):
+                    raise ValueError(f'Absent participant in a played match: {url}')
+                continue
             p = players[person['id']]
             if person.get('registration') and person['registration'] != p['registration']:
                 raise ValueError(f'Match-sheet registration mismatch: {url}')
@@ -100,7 +104,7 @@ def import_reviews(data, cache, reviews=None, issues=None):
                 raise ValueError(f'Unsupported match-sheet row type: {url}')
             if len(row['players']) != 2 or any(k not in roster for k in row['players']):
                 raise ValueError(f'Invalid match-sheet participants: {url}')
-            if len({roster[k]['id'] for k in row['players']}) != 2:
+            if row.get('status', 'played') == 'played' and len({roster[k]['id'] for k in row['players']}) != 2:
                 raise ValueError(f'Identical match-sheet participants: {url}')
             score = list(row['score'])
             if sorted(score) not in ([0, 3], [1, 3], [2, 3]):
@@ -184,7 +188,7 @@ def main():
         discover(data, cache)
     import_reviews(data, cache)
     save(data, args.output)
-    print(json.dumps({k:v for k,v in data['coverage']['match_sheets'].items() if k!='reviews'}))
+    print(json.dumps({k:v for k,v in data['coverage']['match_sheets'].items() if k not in ('reviews', 'issues')}))
 
 
 if __name__ == '__main__':

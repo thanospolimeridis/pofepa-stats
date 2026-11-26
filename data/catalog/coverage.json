@@ -139,14 +139,14 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 136747,
+ "matches": 136838,
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
  "fixtures": 20375,
  "reported_fixtures": 17118,
  "ranking_rows": 742275,
- "events": 929,
+ "events": 937,
  "match_date_min": "2011-10-26",
  "match_date_max": "2026-11-24",
  "excluded_rows": {
@@ -160,8 +160,8 @@
   "bonus": 1807
  },
  "identity_methods": {
-  "sheet_registration": 410,
-  "reviewed_sheet_name_and_team": 138,
+  "sheet_registration": 478,
+  "reviewed_sheet_name_and_team": 252,
   "unique_name_in_month": 45112,
   "exact_name_and_team": 182512,
   "unique_name_team_differs": 32029,
@@ -5578,21 +5578,11 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 52,
-  "imported_sheets": 40,
-  "held": 12,
-  "pending": 13459,
+  "reviewed": 89,
+  "imported_sheets": 61,
+  "held": 28,
+  "pending": 13422,
   "issues": [
-   {
-    "source": "s-ae4855d5b8eb27f7",
-    "url": "http://files.ping-pong.gr/FA26-27/TPZ-PRD.jpg",
-    "fixture": "f-995ba332d95664bc",
-    "sha256": "4b172d43474f34827e652062509ee7c8772130ccbf0f4160c58744aff3bb07a8",
-    "reviewed_at": "2026-11-26",
-    "reason": "incomplete_roster",
-    "details": "The away Y position is blank and two administrative rubbers need explicit absent-player handling. No singles imported from this sheet yet.",
-    "details_el": "Κενή θέση Υ και δύο αγώνες άνευ αγώνα. Εκκρεμεί ο έλεγχος των συμμετεχόντων."
-   },
    {
     "source": "s-0233d63549960870",
     "url": "http://files.ping-pong.gr/FA26-27/XLR-TNX.jpg",
@@ -5702,11 +5692,181 @@
     "reason": "unresolved_identity",
     "details": "ΚΟΝΙΔΑΡΗΣ could not be found in the current roster or existing match profiles; the handwritten registration needs confirmation.",
     "details_el": "Εκκρεμεί η επιβεβαίωση της ταυτότητας και του ΔΑΙ του ΚΟΝΙΔΑΡΗ."
+   },
+   {
+    "source": "s-640ca7fe1719fe24",
+    "url": "http://files.ping-pong.gr/FA26-27/FRK-PGS.jpg",
+    "fixture": "f-49aa29922ce1af07",
+    "sha256": "b3a953fb0d2c31b4b36d1586aebde02514d47ac6fa77e8c64800e012798764bb",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous_existing_rows",
+    "details": "Two identical 3–0 workbook rows exist for the same pair on 4 October (rows 165 and 167). The sheet cannot be assigned uniquely without reconciling those entries.",
+    "details_el": "Υπάρχουν δύο ίδιες εγγραφές 3–0 για το ίδιο ζευγάρι στις 4 Οκτωβρίου (γραμμές 165 και 167). Χρειάζεται έλεγχος πριν συνδεθεί το φύλλο."
+   },
+   {
+    "source": "s-702318aecfa0453a",
+    "url": "http://files.ping-pong.gr/FA26-27/BPG-SRS.jpg",
+    "fixture": "f-6969df0b3d0a807d",
+    "sha256": "610bfe86625dd1d9976f3f6aca1a9cc89887b7bda630b72470a0d98a1ef2ea29",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΛΥΡΩΝΗΣ has a handwritten registration absent from the ranking roster. Confirm the participant before linking to an existing profile.",
+    "details_el": "Χρειάζεται επιβεβαίωση της ταυτότητας του ΛΥΡΩΝΗ και του χειρόγραφου ΔΑΙ."
+   },
+   {
+    "source": "s-2de23416fade38c7",
+    "url": "http://files.ping-pong.gr/FA26-27/SF1-BSS.jpg",
+    "fixture": "f-b8ba2ca33c2af355",
+    "sha256": "6446aa3ce90bfc7dc30e30b6b7e24556561e9b9833ba94ba8d364e0221908172",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Two corrected names and registrations are not resolved against existing profiles. The date and printed template also contain corrections.",
+    "details_el": "Εκκρεμούν δύο διορθωμένες ταυτότητες και οι χειρόγραφες διορθώσεις της ημερομηνίας."
+   },
+   {
+    "source": "s-564043c89797a877",
+    "url": "http://files.ping-pong.gr/FA26-27/FPL-BSB.jpg",
+    "fixture": "f-2dcb1db9cd70424b",
+    "sha256": "c3374d4c325da10fbcbec840cd9bdb9475af38b43dabeb30be77c16e25502f08",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The home C participant’s written name and registration do not match an established profile.",
+    "details_el": "Το όνομα και ο ΔΑΙ του αθλητή στη θέση C δεν έχουν επιβεβαιωθεί."
+   },
+   {
+    "source": "s-aed6064b17618019",
+    "url": "http://files.ping-pong.gr/FA26-27/ATD-ML2.jpg",
+    "fixture": "f-f35e9e35f63447b5",
+    "sha256": "64bccb13a1c93060b50f493c2ea9ae03522d88c7fa27595c6ea4411d39db6f70",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΓΑΤΣΙΝΟΥ and the away Y participant require identity checks; the handwritten registrations are absent from current profiles.",
+    "details_el": "Εκκρεμεί ο έλεγχος ταυτότητας της ΓΑΤΣΙΝΟΥ και του φιλοξενούμενου αθλητή στη θέση Υ."
+   },
+   {
+    "source": "s-d86800b9c3dd4505",
+    "url": "http://files.ping-pong.gr/FA26-27/RNB-GPS.jpg",
+    "fixture": "f-26b9f0b1b2453836",
+    "sha256": "b804f3087524b54dbec452cab354ba226b340d37a677a21e8fce63936004e858",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The away registrations use a different number range; the home substitute also needs identity verification.",
+    "details_el": "Διαφορετικό εύρος αριθμών των φιλοξενούμενων και εκκρεμής ταυτότητα αναπληρωματικού."
+   },
+   {
+    "source": "s-022658550a87d805",
+    "url": "http://files.ping-pong.gr/FA26-27/AEE-BSR.jpg",
+    "fixture": "f-04dac4da8a6f8d73",
+    "sha256": "66039fbb09c3a210f2dba6c0956115123c19a7aaa1075eeb9337e674b2b3df24",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΧΡΗΣΤΟΥ and ΒΑΖΕΛΑΚΗΣ need identity verification; their written registrations are absent from current profiles.",
+    "details_el": "Εκκρεμεί επιβεβαίωση των ΧΡΗΣΤΟΥ και ΒΑΖΕΛΑΚΗ και των γραμμένων ΔΑΙ."
+   },
+   {
+    "source": "s-940c5635a26a669b",
+    "url": "http://files.ping-pong.gr/FA26-27/PLG-S40.jpg",
+    "fixture": "f-2c7a576fd1a1aea8",
+    "sha256": "d104d7c1ef0ba2cdb721802809e30e777be4a0d3db1b2167dd820b4fb733f53c",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous_name",
+    "details": "The home surname ΜΟΥΣΤΑΚΑΣ matches two current team members and no first name or registration is supplied.",
+    "details_el": "Το ΜΟΥΣΤΑΚΑΣ αντιστοιχεί σε δύο αθλητές της ίδιας ομάδας, χωρίς μικρό όνομα ή ΔΑΙ."
+   },
+   {
+    "source": "s-10957f7f20895c52",
+    "url": "http://files.ping-pong.gr/FA26-27/MAE-NAU.jpg",
+    "fixture": "f-417ee3bf1b69c794",
+    "sha256": "51e9a914eec263b99308f01d9bc41d904197b4d6c349947adba246e8eab4fef3",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The away Y handwritten name is not resolved confidently against the roster.",
+    "details_el": "Δεν έχει επιβεβαιωθεί η ταυτότητα του φιλοξενούμενου αθλητή στη θέση Υ."
+   },
+   {
+    "source": "s-2c6ae4b1a86bcc8e",
+    "url": "http://files.ping-pong.gr/FA26-27/SNT-PLN.jpg",
+    "fixture": "f-b587990f7d69ec49",
+    "sha256": "02aa90a6dc8c023ec83c0b6caab3fcbcb74d197cffbe49d9098a99535f955ed3",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_date",
+    "details": "The handwritten day is overwritten. Confirm the actual play date.",
+    "details_el": "Η ημέρα έχει γραφτεί πάνω σε διόρθωση και χρειάζεται επιβεβαίωση."
+   },
+   {
+    "source": "s-b3ef6db618aa18fa",
+    "url": "http://files.ping-pong.gr/FA26-27/NDL-SRD.jpg",
+    "fixture": "f-d192e1a1d954cd60",
+    "sha256": "5c1cdb99bb9e7e0df1073320c50429749c3a175eb4a2c1b44dc5ad4fb8ca4025",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_date",
+    "details": "The handwritten day is indistinct in the date field.",
+    "details_el": "Η χειρόγραφη ημέρα δεν διακρίνεται με βεβαιότητα."
+   },
+   {
+    "source": "s-fbb73ff0173154db",
+    "url": "http://files.ping-pong.gr/FA26-27/ECG-SPG.jpg",
+    "fixture": "f-93bd980abdf191d9",
+    "sha256": "f630d8ae374055d501a8c9771541b999b346e145a875c2316c0eda23596a4223",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΑΜΑΝΑΤΙΔΗΣ is not confidently linked to an existing athlete profile.",
+    "details_el": "Δεν έχει επιβεβαιωθεί η ταυτότητα του ΑΜΑΝΑΤΙΔΗ."
+   },
+   {
+    "source": "s-fcba65bc1cf2b27c",
+    "url": "http://files.ping-pong.gr/FA26-27/SPG-ASE.jpg",
+    "fixture": "f-d9aea5d88bd94067",
+    "sha256": "4f4a011c5e0553d547ce687274337b2dd35a43841226ffdd67f43ac00174103c",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΑΜΑΝΑΤΙΔΗΣ is not confidently linked to an existing athlete profile. The incomplete eighth row must not count as a played rubber.",
+    "details_el": "Δεν έχει επιβεβαιωθεί ο ΑΜΑΝΑΤΙΔΗΣ. Η ημιτελής όγδοη γραμμή δεν προσμετράται ως ολοκληρωμένος αγώνας."
+   },
+   {
+    "source": "s-633826d941fc632a",
+    "url": "http://files.ping-pong.gr/FA26-27/GRG-IER.jpg",
+    "fixture": "f-0934e9a65c25c103",
+    "sha256": "65ad8aba65951024d8ebfbc2986178a6fde074c5b1e97935db97c8abfd75cd40",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The home C participant’s written registration is absent from existing profiles.",
+    "details_el": "Εκκρεμεί η επιβεβαίωση της ταυτότητας του γηπεδούχου αθλητή στη θέση C."
+   },
+   {
+    "source": "s-42118e4744a17b70",
+    "url": "http://files.ping-pong.gr/FA26-27/MLT-KKV.jpg",
+    "fixture": "f-2ce7418ac54ddc33",
+    "sha256": "e282454c92a420ca4a4073963f70d6f5353504eec61eb41fac1cd403ab889677",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The away team’s handwritten identities and substitutions need verification against existing profiles.",
+    "details_el": "Εκκρεμεί ο έλεγχος των ταυτοτήτων και των αλλαγών της φιλοξενούμενης ομάδας."
+   },
+   {
+    "source": "s-9766b5ad7fcd0a46",
+    "url": "http://files.ping-pong.gr/FA26-27/FRK-PFK.jpg",
+    "fixture": "f-e08f00ad5d6507fa",
+    "sha256": "300f9a12a99722cf2e2ca82bdd6b8264f4cf24d554f13871706986b06467e7f3",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous_name",
+    "details": "The away ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ Π. and substitute ΚΩΝΣΤΑΝΤΙΝΟΥ need identity confirmation.",
+    "details_el": "Εκκρεμεί η επιβεβαίωση του ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΥ Π. και του αναπληρωματικού ΚΩΝΣΤΑΝΤΙΝΟΥ."
+   },
+   {
+    "source": "s-60dbedb7eeed1ab3",
+    "url": "http://files.ping-pong.gr/FA26-27/GLZ-IPP.jpg",
+    "fixture": "f-e3fa4a5f121b5f79",
+    "sha256": "a093fa4e1b5b1c99eaa26aa4a1d9c4c09a901ff4af212e44ef630ba68f9a69cb",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The home C rows contain unclear names or substitutions. Confirm which athlete played rows 3, 6 and 8.",
+    "details_el": "Χρειάζεται επιβεβαίωση των ονομάτων ή αλλαγών στη θέση C, στις γραμμές 3, 6 και 8."
    }
   ],
-  "imported": 274,
-  "corroborated": 0,
-  "excluded_walkovers": 2,
+  "imported": 365,
+  "corroborated": 34,
+  "excluded_walkovers": 8,
   "reviews": [
    {
     "source": "s-adfb32f236e751d3",
@@ -6068,6 +6228,199 @@
     "date": "2026-11-21",
     "season": "2026-2027",
     "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-be71c9b6f6db118c",
+    "url": "http://files.ping-pong.gr/FA26-27/PAM-PLT.jpg",
+    "fixture": "f-a8f212f5744a96ff",
+    "date": "2026-11-12",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-5662884747b850ad",
+    "url": "http://files.ping-pong.gr/FA26-27/NET-NES.jpg",
+    "fixture": "f-71a8752519100d38",
+    "date": "2026-11-13",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-5b09196eb7924425",
+    "url": "http://files.ping-pong.gr/FA26-27/ATR-AD2.jpg",
+    "fixture": "f-e0f2fd59c0906a29",
+    "date": "2026-11-20",
+    "season": "2026-2027",
+    "imported": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-5c5b84a5c00bd3c8",
+    "url": "http://files.ping-pong.gr/FA26-27/XML-PNR.jpg",
+    "fixture": "f-5a91b7d902f1165f",
+    "date": "2026-11-11",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-926faa57cd3649c2",
+    "url": "http://files.ping-pong.gr/FA26-27/THB-RBL.jpg",
+    "fixture": "f-cbf0c0af32efa815",
+    "date": "2026-11-18",
+    "season": "2026-2027",
+    "imported": 4,
+    "walkover": 1,
+    "notes": "The home C slot is crossed out and row 3 contains dashes: no athlete identity or played singles is created for that walkover."
+   },
+   {
+    "source": "s-e85a8acbf09d8d21",
+    "url": "http://files.ping-pong.gr/FA26-27/OMU-THE.jpg",
+    "fixture": "f-357e8d96b2f58c52",
+    "date": "2026-11-19",
+    "season": "2026-2027",
+    "imported": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-91aa79803d249b90",
+    "url": "http://files.ping-pong.gr/FA26-27/TTV-PM3.jpg",
+    "fixture": "f-e54513d1bba2e2a6",
+    "date": "2026-11-13",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-a79195ffd1fd7955",
+    "url": "http://files.ping-pong.gr/FA26-27/FLE-6BK.jpg",
+    "fixture": "f-8e8e552d5f1ebb97",
+    "date": "2026-11-11",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": "ΛΙΩΝΗΣ is the corrected starting A player; crossed-out ΛΑΖΑΡΙΔΗΣ is not included."
+   },
+   {
+    "source": "s-ae4855d5b8eb27f7",
+    "url": "http://files.ping-pong.gr/FA26-27/TPZ-PRD.jpg",
+    "fixture": "f-995ba332d95664bc",
+    "date": "2026-11-14",
+    "season": "2026-2027",
+    "imported": 6,
+    "walkover": 2,
+    "notes": "Away Y is absent. Rows 2 and 6 have no games; the cumulative team score awards them to the home team. Administrative 3–0 values are excluded from played singles."
+   },
+   {
+    "source": "s-aaed52c230d216f4",
+    "url": "http://files.ping-pong.gr/FA26-27/DXE-APE.jpg",
+    "fixture": "f-d4c25207f430ffa2",
+    "date": "2026-11-10",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-64bff49d0cb7f4d8",
+    "url": "http://files.ping-pong.gr/FA26-27/SRD-KVE.jpg",
+    "fixture": "f-268e7db08d0a7864",
+    "date": "2026-11-10",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-d1fc2109b5ec9a29",
+    "url": "http://files.ping-pong.gr/FA26-27/TBP-SPM.jpg",
+    "fixture": "f-2785da08557baeba",
+    "date": "2026-11-14",
+    "season": "2026-2027",
+    "imported": 4,
+    "walkover": 1,
+    "notes": "Away Y is blank. Row 2 has three 11–0 entries and no opponent: administrative result, excluded. Crossed-out row 6 has no final result and is not imported."
+   },
+   {
+    "source": "s-270dbdd8c3fd6ee0",
+    "url": "http://files.ping-pong.gr/FA26-27/PM2-BLB.jpg",
+    "fixture": "f-3b72f756431b0289",
+    "date": "2026-11-14",
+    "season": "2026-2027",
+    "imported": 5,
+    "walkover": 2,
+    "notes": "Rows 2 and 6 explicitly say ΑΝΕΥ ΑΓΩΝΑ. Substitute ΠΑΤΑΡΙΔΗΣ is identified by the written DAI 760; the abbreviated given name is indistinct."
+   },
+   {
+    "source": "s-681bff38cffaa0e6",
+    "url": "http://files.ping-pong.gr/FA26-27/ASE-LBH.jpg",
+    "fixture": "f-8151fbf037cdaee1",
+    "date": "2026-11-13",
+    "season": "2026-2027",
+    "imported": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-f5ef7f21465de348",
+    "url": "http://files.ping-pong.gr/FA26-27/NTT-ATP.jpg",
+    "fixture": "f-e6bd12ba917c3e15",
+    "date": "2026-10-12",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-a5bc47d4014f502b",
+    "url": "http://files.ping-pong.gr/FA26-27/AIN-FRK.jpg",
+    "fixture": "f-8cf579518eb5d3b3",
+    "date": "2026-10-25",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-98f9d47b5e9f074f",
+    "url": "http://files.ping-pong.gr/FA26-27/ATP-AET.jpg",
+    "fixture": "f-4eac4be355da12dd",
+    "date": "2026-11-15",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-b2d34adce3479ff0",
+    "url": "http://files.ping-pong.gr/FA26-27/AEK-MPK.jpg",
+    "fixture": "f-09e8903551a37b77",
+    "date": "2026-10-25",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-debdfb68d82934a4",
+    "url": "http://files.ping-pong.gr/FA26-27/AIN-ALP.jpg",
+    "fixture": "f-41e5481d366e7423",
+    "date": "2026-10-04",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-f76d6f31a6b5f508",
+    "url": "http://files.ping-pong.gr/FA26-27/AIN-MPK.jpg",
+    "fixture": "f-8aa9bb0677eca69a",
+    "date": "2026-10-25",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-b2ce56ed9dcae392",
+    "url": "http://files.ping-pong.gr/FA26-27/CHM-KAL.jpg",
+    "fixture": "f-964e80a7b0509237",
+    "date": "2026-11-15",
+    "season": "2026-2027",
+    "imported": 8,
     "notes": ""
    }
   ]
