@@ -222,5 +222,61 @@
     "reason": "unresolved_identity",
     "details": "The home C rows contain unclear names or substitutions. Confirm which athlete played rows 3, 6 and 8.",
     "details_el": "Χρειάζεται επιβεβαίωση των ονομάτων ή αλλαγών στη θέση C, στις γραμμές 3, 6 και 8."
+  },
+  "http://files.ping-pong.gr/FA26-27/ALP-APN.jpg": {
+    "fixture": "f-c557dcff191d544b",
+    "sha256": "46c88df20622ffcb5b4d1d4cbe52c1d08b3c2b80f7c67730e18a615d26bdaa53",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_date",
+    "details": "The handwritten day is indistinct (10 or 20 November); the scheduled round cannot establish the actual date.",
+    "details_el": "Η χειρόγραφη ημέρα δεν διαβάζεται με βεβαιότητα (10 ή 20 Νοεμβρίου)."
+  },
+  "http://files.ping-pong.gr/FA26-27/PFK-AEK.jpg": {
+    "fixture": "f-bbba0a10ca304bda",
+    "sha256": "d9b7870fb7750638484751474fa26a0c92b28756815f25dd0d2ea6724837c042",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_substitution",
+    "details": "Asterisks mark several participants and three substitutes are listed without an unambiguous row mapping; ΚΩΝΣΤΑΝΤΙΝΟΥ also lacks a verified identity.",
+    "details_el": "Οι αστερίσκοι και οι τρεις αλλαγές δεν προσδιορίζουν με βεβαιότητα ποιος έπαιξε σε κάθε γραμμή. Εκκρεμεί και η ταυτότητα ΚΩΝΣΤΑΝΤΙΝΟΥ."
+  },
+  "http://files.ping-pong.gr/FA26-27/PGS-NTT.jpg": {
+    "fixture": "f-fd65f083accfecb3",
+    "sha256": "b6f057ecab8e116a1ec5270af89c6f992d636e6088c5d4db4da3b36d95c34418",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_substitution",
+    "details": "The substitution note names ΤΖΑΒΕΛΛΑΣ (1541), but the five row names do not show which participant he replaced.",
+    "details_el": "Η σημείωση αλλαγής αναφέρει ΤΖΑΒΕΛΛΑΣ (1541), αλλά οι γραμμές δεν δείχνουν ποιον αντικατέστησε."
+  },
+  "http://files.ping-pong.gr/FA26-27/PGS-AEK.jpg": {
+    "fixture": "f-f2e193a9a6fd06be",
+    "sha256": "289f9c35bac0c7f03c4ae2a735959668f648f159188cd97168791d2fcf05dd6d",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The first away participant, written ΜΑΡΓΙΩΡΑΣ, has no confidently identified existing profile. Row 4 separately names substitute ΜΠΑΡΜΠΕΡΗΣ.",
+    "details_el": "Δεν έχει ταυτοποιηθεί με βεβαιότητα ο πρώτος φιλοξενούμενος αθλητής (ΜΑΡΓΙΩΡΑΣ). Η γραμμή 4 αναφέρει χωριστά τον ΜΠΑΡΜΠΕΡΗ."
+  },
+  "http://files.ping-pong.gr/FA26-27/TRP-NTT.jpg": {
+    "fixture": "f-66157b863b1640f9",
+    "sha256": "31a6d97ebf7745c2927bd419e250986d0de93e2e004c3b8520d947b536aaff94",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous_existing_rows",
+    "details": "The same first-row match is present twice in the October workbook (rows 446 and 459, reversed participant order but the same 3–2 result). Preserve both existing rows and hold sheet reconciliation until the duplicate is resolved.",
+    "details_el": "Ο πρώτος αγώνας υπάρχει δύο φορές στο Excel Οκτωβρίου (γραμμές 446 και 459, αντίστροφη σειρά αθλητών αλλά ίδιο 3–2). Οι υπάρχουσες γραμμές διατηρούνται μέχρι να αποσαφηνιστεί το διπλότυπο."
+  },
+  "http://files.ping-pong.gr/FA26-27/PFK-NTT.jpg": {
+    "fixture": "f-907be0480d01f938",
+    "sha256": "73fad7d8047fd97a221e510d12e9dca15723425b0351892c3694abaa6cc07b4a",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_substitution",
+    "details": "Multiple asterisks and the ΖΑΡΡΟΣ / ΚΑΡΒΕΛΗΣ substitution note do not give a reliable row mapping; ΚΩΝΣΤΑΝΤΙΝΟΥ remains unidentified.",
+    "details_el": "Οι αστερίσκοι και η σημείωση αλλαγών ΖΑΡΡΟΣ / ΚΑΡΒΕΛΗΣ δεν αντιστοιχούν με βεβαιότητα στις γραμμές. Εκκρεμεί και η ταυτότητα ΚΩΝΣΤΑΝΤΙΝΟΥ."
+  },
+  "http://files.ping-pong.gr/FA26-27/BLK-PGS.jpg": {
+    "fixture": "f-7ba63b819caa6746",
+    "sha256": "448c42d7bcadcff036d494b1ad9a6720f85abb28b6b7f6ff8f3a85dc910610a6",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous_existing_rows",
+    "details": "The first-row 0–3 match occurs twice in the October workbook (rows 199 and 204). Preserve existing rows and hold reconciliation until the duplicate is resolved.",
+    "details_el": "Ο πρώτος αγώνας 0–3 υπάρχει δύο φορές στο Excel Οκτωβρίου (γραμμές 199 και 204). Οι υπάρχουσες γραμμές διατηρούνται μέχρι να αποσαφηνιστεί το διπλότυπο."
   }
 }

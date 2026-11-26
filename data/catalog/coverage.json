@@ -139,14 +139,14 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 136838,
+ "matches": 136900,
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
  "fixtures": 20375,
  "reported_fixtures": 17118,
  "ranking_rows": 742275,
- "events": 937,
+ "events": 939,
  "match_date_min": "2011-10-26",
  "match_date_max": "2026-11-24",
  "excluded_rows": {
@@ -160,8 +160,8 @@
   "bonus": 1807
  },
  "identity_methods": {
-  "sheet_registration": 478,
-  "reviewed_sheet_name_and_team": 252,
+  "sheet_registration": 586,
+  "reviewed_sheet_name_and_team": 268,
   "unique_name_in_month": 45112,
   "exact_name_and_team": 182512,
   "unique_name_team_differs": 32029,
@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 89,
-  "imported_sheets": 61,
-  "held": 28,
-  "pending": 13422,
+  "reviewed": 107,
+  "imported_sheets": 72,
+  "held": 35,
+  "pending": 13404,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -5862,10 +5862,80 @@
     "reason": "unresolved_identity",
     "details": "The home C rows contain unclear names or substitutions. Confirm which athlete played rows 3, 6 and 8.",
     "details_el": "Χρειάζεται επιβεβαίωση των ονομάτων ή αλλαγών στη θέση C, στις γραμμές 3, 6 και 8."
+   },
+   {
+    "source": "s-ca00933c7877ddfd",
+    "url": "http://files.ping-pong.gr/FA26-27/ALP-APN.jpg",
+    "fixture": "f-c557dcff191d544b",
+    "sha256": "46c88df20622ffcb5b4d1d4cbe52c1d08b3c2b80f7c67730e18a615d26bdaa53",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_date",
+    "details": "The handwritten day is indistinct (10 or 20 November); the scheduled round cannot establish the actual date.",
+    "details_el": "Η χειρόγραφη ημέρα δεν διαβάζεται με βεβαιότητα (10 ή 20 Νοεμβρίου)."
+   },
+   {
+    "source": "s-4cc2af247cafb653",
+    "url": "http://files.ping-pong.gr/FA26-27/PFK-AEK.jpg",
+    "fixture": "f-bbba0a10ca304bda",
+    "sha256": "d9b7870fb7750638484751474fa26a0c92b28756815f25dd0d2ea6724837c042",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_substitution",
+    "details": "Asterisks mark several participants and three substitutes are listed without an unambiguous row mapping; ΚΩΝΣΤΑΝΤΙΝΟΥ also lacks a verified identity.",
+    "details_el": "Οι αστερίσκοι και οι τρεις αλλαγές δεν προσδιορίζουν με βεβαιότητα ποιος έπαιξε σε κάθε γραμμή. Εκκρεμεί και η ταυτότητα ΚΩΝΣΤΑΝΤΙΝΟΥ."
+   },
+   {
+    "source": "s-cf2e4b138be000db",
+    "url": "http://files.ping-pong.gr/FA26-27/PGS-NTT.jpg",
+    "fixture": "f-fd65f083accfecb3",
+    "sha256": "b6f057ecab8e116a1ec5270af89c6f992d636e6088c5d4db4da3b36d95c34418",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_substitution",
+    "details": "The substitution note names ΤΖΑΒΕΛΛΑΣ (1541), but the five row names do not show which participant he replaced.",
+    "details_el": "Η σημείωση αλλαγής αναφέρει ΤΖΑΒΕΛΛΑΣ (1541), αλλά οι γραμμές δεν δείχνουν ποιον αντικατέστησε."
+   },
+   {
+    "source": "s-6503e94777c8436e",
+    "url": "http://files.ping-pong.gr/FA26-27/PGS-AEK.jpg",
+    "fixture": "f-f2e193a9a6fd06be",
+    "sha256": "289f9c35bac0c7f03c4ae2a735959668f648f159188cd97168791d2fcf05dd6d",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The first away participant, written ΜΑΡΓΙΩΡΑΣ, has no confidently identified existing profile. Row 4 separately names substitute ΜΠΑΡΜΠΕΡΗΣ.",
+    "details_el": "Δεν έχει ταυτοποιηθεί με βεβαιότητα ο πρώτος φιλοξενούμενος αθλητής (ΜΑΡΓΙΩΡΑΣ). Η γραμμή 4 αναφέρει χωριστά τον ΜΠΑΡΜΠΕΡΗ."
+   },
+   {
+    "source": "s-e5c080814e89a84c",
+    "url": "http://files.ping-pong.gr/FA26-27/TRP-NTT.jpg",
+    "fixture": "f-66157b863b1640f9",
+    "sha256": "31a6d97ebf7745c2927bd419e250986d0de93e2e004c3b8520d947b536aaff94",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous_existing_rows",
+    "details": "The same first-row match is present twice in the October workbook (rows 446 and 459, reversed participant order but the same 3–2 result). Preserve both existing rows and hold sheet reconciliation until the duplicate is resolved.",
+    "details_el": "Ο πρώτος αγώνας υπάρχει δύο φορές στο Excel Οκτωβρίου (γραμμές 446 και 459, αντίστροφη σειρά αθλητών αλλά ίδιο 3–2). Οι υπάρχουσες γραμμές διατηρούνται μέχρι να αποσαφηνιστεί το διπλότυπο."
+   },
+   {
+    "source": "s-41ff2aefe865624d",
+    "url": "http://files.ping-pong.gr/FA26-27/PFK-NTT.jpg",
+    "fixture": "f-907be0480d01f938",
+    "sha256": "73fad7d8047fd97a221e510d12e9dca15723425b0351892c3694abaa6cc07b4a",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_substitution",
+    "details": "Multiple asterisks and the ΖΑΡΡΟΣ / ΚΑΡΒΕΛΗΣ substitution note do not give a reliable row mapping; ΚΩΝΣΤΑΝΤΙΝΟΥ remains unidentified.",
+    "details_el": "Οι αστερίσκοι και η σημείωση αλλαγών ΖΑΡΡΟΣ / ΚΑΡΒΕΛΗΣ δεν αντιστοιχούν με βεβαιότητα στις γραμμές. Εκκρεμεί και η ταυτότητα ΚΩΝΣΤΑΝΤΙΝΟΥ."
+   },
+   {
+    "source": "s-d080b3754923660e",
+    "url": "http://files.ping-pong.gr/FA26-27/BLK-PGS.jpg",
+    "fixture": "f-7ba63b819caa6746",
+    "sha256": "448c42d7bcadcff036d494b1ad9a6720f85abb28b6b7f6ff8f3a85dc910610a6",
+    "reviewed_at": "2026-11-26",
+    "reason": "ambiguous_existing_rows",
+    "details": "The first-row 0–3 match occurs twice in the October workbook (rows 199 and 204). Preserve existing rows and hold reconciliation until the duplicate is resolved.",
+    "details_el": "Ο πρώτος αγώνας 0–3 υπάρχει δύο φορές στο Excel Οκτωβρίου (γραμμές 199 και 204). Οι υπάρχουσες γραμμές διατηρούνται μέχρι να αποσαφηνιστεί το διπλότυπο."
    }
   ],
-  "imported": 365,
-  "corroborated": 34,
+  "imported": 427,
+  "corroborated": 39,
   "excluded_walkovers": 8,
   "reviews": [
    {
@@ -6422,6 +6492,105 @@
     "season": "2026-2027",
     "imported": 8,
     "notes": ""
+   },
+   {
+    "source": "s-4560b7e193c01f2f",
+    "url": "http://files.ping-pong.gr/FA26-27/SAR-AER.jpg",
+    "fixture": "f-322cea94ea7c0582",
+    "date": "2026-11-22",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-1506e02b00dc4c98",
+    "url": "http://files.ping-pong.gr/FA26-27/APN-ATV.jpg",
+    "fixture": "f-b54375854c18335d",
+    "date": "2026-11-22",
+    "season": "2026-2027",
+    "imported": 9,
+    "notes": "ΓΚΟΓΚΙΔΗΣ (1854) replaces ΠΑΝΟΥΚΙΔΗΣ in rows 4 and 8, as written in both rows and the substitute box."
+   },
+   {
+    "source": "s-a83e9fe4c1edcfd3",
+    "url": "http://files.ping-pong.gr/FA26-27/SAR-ATV.jpg",
+    "fixture": "f-7c6d36a38dc08862",
+    "date": "2026-11-22",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-f0a9251f2952e095",
+    "url": "http://files.ping-pong.gr/FA26-27/APN-AER.jpg",
+    "fixture": "f-3ba4c5a28f9d38d9",
+    "date": "2026-11-22",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-e5d48caffb4186eb",
+    "url": "http://files.ping-pong.gr/FA26-27/SAR-APN.jpg",
+    "fixture": "f-b5b683430e5ab0cd",
+    "date": "2026-11-22",
+    "season": "2026-2027",
+    "imported": 7,
+    "notes": "Row 5 corrects the initially written ΦΩΤΙΑΔΗΣ to ΣΚΛΙΑΣ (006); retain the corrected athlete."
+   },
+   {
+    "source": "s-8a5a159f5fd05d16",
+    "url": "http://files.ping-pong.gr/FA26-27/ATV-AEZ.jpg",
+    "fixture": "f-bbe055e7ca610ff6",
+    "date": "2026-11-08",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-52b7f45273d929da",
+    "url": "http://files.ping-pong.gr/FA26-27/ATV-ALP.jpg",
+    "fixture": "f-f2b2a98b42d90490",
+    "date": "2026-11-08",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": "Row 5 substitute ΤΖΙΟΥΦΑΣ is identified by his unique name in ΑΛΛΑ ΚΟΛΠΑ; the printed 1307 differs from the ranking registration 1309."
+   },
+   {
+    "source": "s-828537a49d019177",
+    "url": "http://files.ping-pong.gr/FA26-27/AKP-AEK.jpg",
+    "fixture": "f-fdba75e83d893052",
+    "date": "2026-11-08",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": "Played 8 November, although linked from the December round. Row 5 names both substitutes. ΤΖΙΟΥΦΑΣ is resolved by name and team; the printed 1307 differs from the ranking registration 1309."
+   },
+   {
+    "source": "s-d3848fb9b3952329",
+    "url": "http://files.ping-pong.gr/FA26-27/MLT-IER.jpg",
+    "fixture": "f-6659700d997404e6",
+    "date": "2026-11-01",
+    "season": "2026-2027",
+    "imported": 9,
+    "notes": "Played 1 November despite the January round heading. ΣΟΥΡΑΝΑΚΗΣ is 2738 in the repeated rows and ranking roster; the row 2 registration is indistinct."
+   },
+   {
+    "source": "s-19635863b153b6ea",
+    "url": "http://files.ping-pong.gr/FA26-27/AIN-AEK.jpg",
+    "fixture": "f-515a066da2155200",
+    "date": "2026-10-25",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "The sheet transposes home registrations 489 and 1400: ΨΑΡΡΟΣ is the B player (canonical 1400), ΚΑΛΟΓΕΡΟΠΟΥΛΟΥ the C player (canonical 489). Names and all five pairs agree with the October workbook; retain canonical identities rather than the transposed handwritten numbers."
+   },
+   {
+    "source": "s-598b57b8937f02de",
+    "url": "http://files.ping-pong.gr/FA26-27/PGS-PFK.jpg",
+    "fixture": "f-215471aa3cb7fc56",
+    "date": "2026-11-07",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": "ΚΑΚΛΑΜΑΝΗΣ replaces ΡΕΚΟΥΜΗΣ in row 4; named in the row and substitution note."
    }
   ]
  }
