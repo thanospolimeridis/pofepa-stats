@@ -526,5 +526,37 @@
     "reason": "conflicting_date",
     "details": "The sheet appears dated 28 September 2026, while all nine matching workbook pairs and scores are dated 28 October 2026. Held to avoid duplicating the same team encounter under a different date.",
     "details_el": "Το φύλλο φαίνεται να αναγράφει 28/9/2026, ενώ και τα εννέα ίδια αποτελέσματα στο βιβλίο έχουν ημερομηνία 28/10/2026. Χρειάζεται επιβεβαίωση ημερομηνίας."
+  },
+  "http://files.ping-pong.gr/FA26-27/SG2-DRS.jpg": {
+    "fixture": "f-1edb153f9dfa7bc1",
+    "sha256": "09cc527ed7f5e8c0ee65eea859cad93fb677dc71050151749a0d4fc35cc5ccd5",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 6 is written as 3–0, but five recorded games, the 17–7 set aggregate and the workbook indicate 3–2. Held for score clarification.",
+    "details_el": "Το έκτο αποτέλεσμα γράφει 3–0, αλλά τα πέντε σετ, το σύνολο 17–7 και το βιβλίο δείχνουν 3–2."
+  },
+  "http://files.ping-pong.gr/FA26-27/VTS-T96.jpg": {
+    "fixture": "f-ddc1b8d7c1df1ff4",
+    "sha256": "dd4490ef9bd3196dc41ee6dc8f76e34d904696150f835e1ba1ba195e870bcad9",
+    "reviewed_at": "2026-11-26",
+    "reason": "incomplete_date",
+    "details": "The date field contains only 11, without a month or year. The workbook has matching results on 11 October, but the sheet does not independently establish a complete play date.",
+    "details_el": "Το πεδίο ημερομηνίας περιέχει μόνο 11, χωρίς μήνα ή έτος. Απαιτείται επιβεβαίωση πλήρους ημερομηνίας."
+  },
+  "http://files.ping-pong.gr/FA26-27/AVG-PSG.jpg": {
+    "fixture": "f-429fdf26ff296c66",
+    "sha256": "553b0e1c7e4a215bb05a581edf8b07b7e227529e6087dfae865a36aec7841359",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 2 is written as 0–3, while five recorded games and the existing workbook result show 2–3. Held for clarification rather than silently changing either record.",
+    "details_el": "Το δεύτερο αποτέλεσμα γράφει 0–3, ενώ τα πέντε σετ και το βιβλίο δείχνουν 2–3."
+  },
+  "http://files.ping-pong.gr/FA26-27/007-HRM.jpg": {
+    "fixture": "f-fb37d45ecd832047",
+    "sha256": "3b8663deeaec5456744776fcabb283e50abebde630edd4fbbdd2c8335377f11e",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 5 shows ΚΥΡΙΑΚΟΥ–ΦΟΥΡΤΟΥΛΑΚΗΣ 2–3 across five games, whereas the existing workbook result is 1–3. The same-date pair cannot be imported again or overwritten without clarification.",
+    "details_el": "Το πέμπτο αποτέλεσμα ΚΥΡΙΑΚΟΥ–ΦΟΥΡΤΟΥΛΑΚΗΣ είναι 2–3 στο φύλλο αλλά 1–3 στο βιβλίο. Δεν προστίθεται διπλός αγώνας ούτε αντικαθίσταται το υπάρχον σκορ."
   }
 }

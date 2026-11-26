@@ -139,7 +139,7 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 137373,
+ "matches": 137380,
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
@@ -160,7 +160,7 @@
   "bonus": 1807
  },
  "identity_methods": {
-  "sheet_registration": 1205,
+  "sheet_registration": 1219,
   "reviewed_sheet_name_and_team": 595,
   "unique_name_in_month": 45112,
   "exact_name_and_team": 182512,
@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 366,
-  "imported_sheets": 300,
-  "held": 66,
-  "pending": 13145,
+  "reviewed": 396,
+  "imported_sheets": 326,
+  "held": 70,
+  "pending": 13115,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -6242,10 +6242,50 @@
     "reason": "conflicting_date",
     "details": "The sheet appears dated 28 September 2026, while all nine matching workbook pairs and scores are dated 28 October 2026. Held to avoid duplicating the same team encounter under a different date.",
     "details_el": "Το φύλλο φαίνεται να αναγράφει 28/9/2026, ενώ και τα εννέα ίδια αποτελέσματα στο βιβλίο έχουν ημερομηνία 28/10/2026. Χρειάζεται επιβεβαίωση ημερομηνίας."
+   },
+   {
+    "source": "s-e60dfa41befbb3b9",
+    "url": "http://files.ping-pong.gr/FA26-27/SG2-DRS.jpg",
+    "fixture": "f-1edb153f9dfa7bc1",
+    "sha256": "09cc527ed7f5e8c0ee65eea859cad93fb677dc71050151749a0d4fc35cc5ccd5",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 6 is written as 3–0, but five recorded games, the 17–7 set aggregate and the workbook indicate 3–2. Held for score clarification.",
+    "details_el": "Το έκτο αποτέλεσμα γράφει 3–0, αλλά τα πέντε σετ, το σύνολο 17–7 και το βιβλίο δείχνουν 3–2."
+   },
+   {
+    "source": "s-7dac76c259ad9ea2",
+    "url": "http://files.ping-pong.gr/FA26-27/VTS-T96.jpg",
+    "fixture": "f-ddc1b8d7c1df1ff4",
+    "sha256": "dd4490ef9bd3196dc41ee6dc8f76e34d904696150f835e1ba1ba195e870bcad9",
+    "reviewed_at": "2026-11-26",
+    "reason": "incomplete_date",
+    "details": "The date field contains only 11, without a month or year. The workbook has matching results on 11 October, but the sheet does not independently establish a complete play date.",
+    "details_el": "Το πεδίο ημερομηνίας περιέχει μόνο 11, χωρίς μήνα ή έτος. Απαιτείται επιβεβαίωση πλήρους ημερομηνίας."
+   },
+   {
+    "source": "s-43f6ba3b00a81e6e",
+    "url": "http://files.ping-pong.gr/FA26-27/AVG-PSG.jpg",
+    "fixture": "f-429fdf26ff296c66",
+    "sha256": "553b0e1c7e4a215bb05a581edf8b07b7e227529e6087dfae865a36aec7841359",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 2 is written as 0–3, while five recorded games and the existing workbook result show 2–3. Held for clarification rather than silently changing either record.",
+    "details_el": "Το δεύτερο αποτέλεσμα γράφει 0–3, ενώ τα πέντε σετ και το βιβλίο δείχνουν 2–3."
+   },
+   {
+    "source": "s-d62a7409e59966de",
+    "url": "http://files.ping-pong.gr/FA26-27/007-HRM.jpg",
+    "fixture": "f-fb37d45ecd832047",
+    "sha256": "3b8663deeaec5456744776fcabb283e50abebde630edd4fbbdd2c8335377f11e",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 5 shows ΚΥΡΙΑΚΟΥ–ΦΟΥΡΤΟΥΛΑΚΗΣ 2–3 across five games, whereas the existing workbook result is 1–3. The same-date pair cannot be imported again or overwritten without clarification.",
+    "details_el": "Το πέμπτο αποτέλεσμα ΚΥΡΙΑΚΟΥ–ΦΟΥΡΤΟΥΛΑΚΗΣ είναι 2–3 στο φύλλο αλλά 1–3 στο βιβλίο. Δεν προστίθεται διπλός αγώνας ούτε αντικαθίσταται το υπάρχον σκορ."
    }
   ],
-  "imported": 900,
-  "corroborated": 1076,
+  "imported": 907,
+  "corroborated": 1251,
   "excluded_walkovers": 25,
   "reviews": [
    {
@@ -8964,6 +9004,240 @@
     "season": "2026-2027",
     "corroborated": 8,
     "notes": "All eight unnumbered pairs and scores match the workbook."
+   },
+   {
+    "source": "s-1c7858a8a606831f",
+    "url": "http://files.ping-pong.gr/FA26-27/MTA-HRA.jpg",
+    "fixture": "f-55d664df11bcce80",
+    "date": "2026-11-05",
+    "season": "2026-2027",
+    "imported": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-300e5f6847fd4def",
+    "url": "http://files.ping-pong.gr/FA26-27/SSP-12S.jpg",
+    "fixture": "f-0dea2f7cd1aa17c5",
+    "date": "2026-10-16",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "ΣΚΟΥΦΑΡΙΔΗΣ resolves to the contemporary ΧΡΗΣΤΟΣ Κ. variant. The substitute ΒΑΣΙΛΕΙΟΥ resolves by the exact workbook result to ΦΡΑΓΚΙΣΚΟΣ 2937; the indistinct handwritten substitute number is not used."
+   },
+   {
+    "source": "s-2de4562f7e132106",
+    "url": "http://files.ping-pong.gr/FA26-27/ILM-HWK.jpg",
+    "fixture": "f-f02caf4a4d8b281e",
+    "date": "2026-10-13",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": ""
+   },
+   {
+    "source": "s-1d98eea60d18ceb6",
+    "url": "http://files.ping-pong.gr/FA26-27/PD2-ATS.jpg",
+    "fixture": "f-11b333e08f3a6d3d",
+    "date": "2026-10-10",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "All seven workbook results resolve ΒΙΓΛΑΚΗΣ ΓΕΩΡΓΙΟΣ to 2435; the handwritten registration resembles 2455 and is not used."
+   },
+   {
+    "source": "s-e15e09fe8ffed4b3",
+    "url": "http://files.ping-pong.gr/FA26-27/T10-NSA.jpg",
+    "fixture": "f-abd2dfb2ed9313b2",
+    "date": "2026-10-10",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-f5c821e1b1b6ee46",
+    "url": "http://files.ping-pong.gr/FA26-27/MB3-SDR.jpg",
+    "fixture": "f-02a4f21efb3f0721",
+    "date": "2026-10-10",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-47e20fe35afc7287",
+    "url": "http://files.ping-pong.gr/FA26-27/BMB-PLD.jpg",
+    "fixture": "f-9f408bf420078fb3",
+    "date": "2026-10-09",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "Unnumbered home identities and substitute resolved by exact workbook results."
+   },
+   {
+    "source": "s-db3151b5ab64eb1a",
+    "url": "http://files.ping-pong.gr/FA26-27/INS-KPG.jpg",
+    "fixture": "f-4b4992c5fa586f88",
+    "date": "2026-10-09",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-ca6cb3ef97b3ad2b",
+    "url": "http://files.ping-pong.gr/FA26-27/EM3-AEH.jpg",
+    "fixture": "f-ccf2d321b14a1989",
+    "date": "2026-10-09",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "ΚΥΡΙΤΣΗΣ retains his starting registration 2480 despite a conflicting number repeated in row 4. All nine pairs and the explicit substitutions match the workbook."
+   },
+   {
+    "source": "s-489e415e8d93a340",
+    "url": "http://files.ping-pong.gr/FA26-27/TRB-AP5.jpg",
+    "fixture": "f-22d157f9aa42037e",
+    "date": "2026-10-08",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-bf0c94f7e98ad0c1",
+    "url": "http://files.ping-pong.gr/FA26-27/ILR-SUD.jpg",
+    "fixture": "f-94723512cee1a943",
+    "date": "2026-10-06",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "ΑΝΔΡΕΟΥ ΑΛΕΞΑΝΔΡΟΣ substitutes in row 9; all nine pairs match the workbook."
+   },
+   {
+    "source": "s-07e2b3864ccd0be3",
+    "url": "http://files.ping-pong.gr/FA26-27/ATC-PWS.jpg",
+    "fixture": "f-be4a7739978bbdc0",
+    "date": "2026-10-05",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-6372e9a4ff40c6e1",
+    "url": "http://files.ping-pong.gr/FA26-27/NS2-SFD.jpg",
+    "fixture": "f-4a81daf145a30060",
+    "date": "2026-10-05",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "Row 4 mistakenly repeats 1017 beside ΓΡΥΛΛΗΣ; his starting registration 1557 and exact workbook result establish the identity. No substitution."
+   },
+   {
+    "source": "s-3cb8ebdbe548258c",
+    "url": "http://files.ping-pong.gr/FA26-27/MHL-RTP.jpg",
+    "fixture": "f-c96a2ec75eb61909",
+    "date": "2026-10-04",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "ΒΑΛΑΣΚΑΤΖΗΣ resolves to ΓΕΩΡΓΙΟΣ 2252 through both workbook pairs; the inconsistent written 2253 is not used."
+   },
+   {
+    "source": "s-bc7f9eceab9384f7",
+    "url": "http://files.ping-pong.gr/FA26-27/SFS-L08.jpg",
+    "fixture": "f-b7fca42d8a9ac217",
+    "date": "2026-10-03",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-0730ae233a998efc",
+    "url": "http://files.ping-pong.gr/FA26-27/MG2-RL2.jpg",
+    "fixture": "f-13da07bd34ef95ba",
+    "date": "2026-10-03",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-85bc8335a6d12388",
+    "url": "http://files.ping-pong.gr/FA26-27/SNS-SLG.jpg",
+    "fixture": "f-1de1c44be34b1cd6",
+    "date": "2026-10-02",
+    "season": "2026-2027",
+    "corroborated": 8,
+    "notes": "All eight explicit rubber scores match the workbook and final 11–16 sets. The partly overwritten game points do not replace the rubber totals. ΜΠΑΛΑΦΑΣ resolves to ΓΕΩΡΓΙΟΣ 1544 by all three pairs; the erroneous handwritten number is not used."
+   },
+   {
+    "source": "s-0db0e08088e69633",
+    "url": "http://files.ping-pong.gr/FA26-27/ETV-MGF.jpg",
+    "fixture": "f-d5c93517ffa4342c",
+    "date": "2026-10-02",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": ""
+   },
+   {
+    "source": "s-f8a1430faebf87f8",
+    "url": "http://files.ping-pong.gr/FA26-27/AN4-WFT.jpg",
+    "fixture": "f-bdb672ce929da59e",
+    "date": "2026-10-02",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "ΓΑΛΑΝΑΚΟΣ resolves to ΑΝΔΡΕΑΣ 2728 by all three workbook pairs; the handwritten registration resembles 2227 and is not used. Row 5 is 1–3, supported by its four games."
+   },
+   {
+    "source": "s-6c23c296b8dfa8e4",
+    "url": "http://files.ping-pong.gr/FA26-27/AP10-AP7.jpg",
+    "fixture": "f-be3a27df8efcd76e",
+    "date": "2026-10-01",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": "All five pairs resolve the indistinct registration digits and match the workbook."
+   },
+   {
+    "source": "s-d55bb8966f53759a",
+    "url": "http://files.ping-pong.gr/FA26-27/ES5-A19.jpg",
+    "fixture": "f-9c03ad962f890f66",
+    "date": "2026-09-29",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": "ΣΑΛΑΜΑΛΙΚΗΣ resolves to ΠΑΥΛΟΣ 2227 by name and exact workbook pairs; his indistinct handwritten number is not used."
+   },
+   {
+    "source": "s-eec731aa28f50ae1",
+    "url": "http://files.ping-pong.gr/FA26-27/ATHD-THD.jpg",
+    "fixture": "f-346de534f3d23376",
+    "date": "2026-09-29",
+    "season": "2026-2027",
+    "corroborated": 9,
+    "notes": "ΚΑΡΕΚΛΑ ΕΛΕΥΘΕΡΙΑ resolves to the contemporary registration 2085 through all three workbook pairs; the old handwritten 1551 is not used."
+   },
+   {
+    "source": "s-ccb7052fdbb8d3b6",
+    "url": "http://files.ping-pong.gr/FA26-27/AML-PPC.jpg",
+    "fixture": "f-2e5d9f328d675580",
+    "date": "2026-09-28",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": "The seven names, pairs and scores agree with the workbook dated 28 September."
+   },
+   {
+    "source": "s-ec832324bc0e2955",
+    "url": "http://files.ping-pong.gr/FA26-27/ADV-AP6.jpg",
+    "fixture": "f-dde8c193b4dfcff6",
+    "date": "2026-09-28",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-04c9e186193ba0e0",
+    "url": "http://files.ping-pong.gr/FA26-27/FLR-DIO.jpg",
+    "fixture": "f-a834f52c54728d16",
+    "date": "2026-09-28",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-78d19b192c2e7f00",
+    "url": "http://files.ping-pong.gr/FA26-27/DSB-PM18.jpg",
+    "fixture": "f-4d9ea912caea5412",
+    "date": "2026-09-26",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
    }
   ]
  }
