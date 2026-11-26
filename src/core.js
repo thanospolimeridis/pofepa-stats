@@ -15,8 +15,17 @@
     return {played:rows.length, wins, losses:rows.length-wins, winRate:rows.length ? wins/rows.length : null, gamesWon, gamesLost, deciding, decidingWins};
   }
   const h2h = (matches,a,b) => a && b && a!==b ? matches.filter(m => (m.p1===a && m.p2===b)||(m.p1===b && m.p2===a)) : [];
+  function fixtureRounds(fixtures) {
+    const groups = new Map();
+    for (const fixture of fixtures) {
+      const label = String(fixture.round || '').trim().replace(/\s+/g, ' ');
+      if (!groups.has(label)) groups.set(label, {label, rows:[]});
+      groups.get(label).rows.push(fixture);
+    }
+    return [...groups.values()];
+  }
   const escape = value => String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const api={fold,romanize,search,stats,h2h,escape};
+  const api={fold,romanize,search,stats,h2h,fixtureRounds,escape};
   if(typeof module!=='undefined' && module.exports) module.exports=api;
   else root.Pofepa=api;
 })(globalThis);
