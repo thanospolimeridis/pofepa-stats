@@ -2,6 +2,8 @@
 
 ## Prototype updates — 2026-11-26
 
+- Bring athlete match history above ranking charts, add accessible section shortcuts, and paginate matches and rankings in compact ten-row pages while retaining all history.
+
 - Complete review of every available 2025–26 match sheet, publish per-season coverage, and track unavailable source files separately.
 - Correct source-verified dates, scores and participants while preserving original workbook records; reconcile explicit no-play awards without removing played retirements.
 
