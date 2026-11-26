@@ -47346,5 +47346,5527 @@
       }
     ],
     "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/NAU-ECG.jpg": {
+    "sha256": "0798dc60834a95908689edadfdfa73a762d01f430e3331fbeb1d39505fb9555d",
+    "fixture": "f-bfb3fd312dff09d3",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-05-06",
+    "team_score": [
+      5,
+      0
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2724",
+        "label": "ΣΙΔΗΡΟΠΟΥΛΟΣ ΑΘ."
+      },
+      "A1": {
+        "id": "p-2441",
+        "label": "ΓΕΩΡΓΙΑΔΗΣ Γ."
+      },
+      "A2": {
+        "id": "p-2444",
+        "label": "ΜΕΡΤΖΑΝΗΣ Ι."
+      },
+      "X0": {
+        "id": "p-1943",
+        "label": "ΠΟΥΡΖΙΤΙΔΗΣ Ν."
+      },
+      "X1": {
+        "id": "p-1718",
+        "label": "ΚΙΚΙΟΠΟΥΛΟΣ Ι."
+      },
+      "X2": {
+        "id": "p-1720",
+        "label": "ΚΟΤΖΑΜΠΑΣΗΣ Χ."
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/ASE-NDL.jpg": {
+    "sha256": "1f81a4d18e0b39611faa7d166e9bbed1db72dbdd07b82e312aa42a5aad6fca3e",
+    "fixture": "f-e07d264c71ff5630",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-05-08",
+    "team_score": [
+      5,
+      0
+    ],
+    "status": "team_walkover",
+    "players": {},
+    "rows": [],
+    "notes": "Sheet explicitly states ΑΝΕΥ ΑΓΩΝΟΣ and declares ΑΣΤΡΑΠΗ winner 5-0; no individual results are recorded or inferred."
+  },
+  "http://files.ping-pong.gr/FA25-26/6BK-PM1.jpg": {
+    "sha256": "86a5d82a74fcc7efca0511302449288bbc71106d12a69e21c20bbbce6c1a378b",
+    "fixture": "f-fc30cd5ce28eba5b",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-28",
+    "team_score": [
+      5,
+      1
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2584",
+        "label": "ΑΛΑΦΟΣΤΕΡΓΙΟΣ"
+      },
+      "A1": {
+        "id": "p-1648",
+        "label": "ΞΑΝΘΟΠΟΥΛΟΣ"
+      },
+      "A2": {
+        "id": "p-2630",
+        "label": "ΣΤΕΦΑΝΟΠΟΥΛΟΣ"
+      },
+      "X0": {
+        "id": "p-555",
+        "label": "ΒΑΣΙΛΕΙΑΔΗΣ"
+      },
+      "X1": {
+        "id": "p-2631",
+        "label": "TRENDAFILI"
+      },
+      "X2": {
+        "id": "p-758",
+        "label": "ΒΙΔΟΥΡΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": "Row 6 total cell is blank but its three explicitly recorded games are 11-8, 11-9, 11-6 (3-0), matching the workbook. All six rubbers reconcile to the linked 5-1 fixture."
+  },
+  "http://files.ping-pong.gr/FA25-26/PM4-ATT.jpg": {
+    "sha256": "4b38684df14fe631bbb6e52562afb6cee0191e5f63f532e255984b4349b03bc1",
+    "fixture": "f-ff0ae2f735a2b71e",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-30",
+    "team_score": [
+      5,
+      3
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2629",
+        "label": "ΧΥΤΑΣ"
+      },
+      "A1": {
+        "id": "p-560",
+        "label": "ΛΥΜΠΟΥΔΗΣ"
+      },
+      "A2": {
+        "id": "p-1006",
+        "label": "ΠΑΛΤΣΙΔΗΣ"
+      },
+      "X0": {
+        "id": "p-1372",
+        "label": "ΑΠΟΣΤΟΛΙΔΗΣ"
+      },
+      "X1": {
+        "id": "p-2223",
+        "label": "ΨΑΡΟΥΔΑΚΗΣ"
+      },
+      "X2": {
+        "id": "p-1369",
+        "label": "ΧΑΤΣΑΤΡΙΑΝ"
+      },
+      "X-sub-p-1374": {
+        "id": "p-1374",
+        "label": "ΚΑΛΟΤΕΡΑΚΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X-sub-p-1374"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X-sub-p-1374"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": "Explicit note and rows 4/8 replace ΑΠΟΣΤΟΛΙΔΗΣ with ΚΑΛΟΤΕΡΑΚΗΣ."
+  },
+  "http://files.ping-pong.gr/FA25-26/ATK-PM2.jpg": {
+    "sha256": "6333b8133ed13d59cdf434b9cca510a31f3da0e1a899cb64629a3793c0ec2821",
+    "fixture": "f-d6ae5f74bb7a2383",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-28",
+    "team_score": [
+      5,
+      0
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2675",
+        "label": "ΤΣΙΡΟΓΙΑΝΝΗΣ"
+      },
+      "A1": {
+        "id": "p-2678",
+        "label": "ΓΚΑΓΚΑΒΟΥΖΗΣ"
+      },
+      "A2": {
+        "id": "p-2677",
+        "label": "ΑΠΟΣΤΟΛΙΔΗΣ"
+      },
+      "X0": {
+        "id": "p-32",
+        "label": "ΓΡΗΓΟΡΙΑΔΗΣ"
+      },
+      "X1": {
+        "id": "p-2779",
+        "label": "ΤΡΕΝΤΣΙΟΣ"
+      },
+      "X2": {
+        "id": "p-1874",
+        "label": "ΠΑΤΑΡΙΔΗΣ Γ."
+      },
+      "A-sub-p-2676": {
+        "id": "p-2676",
+        "label": "ΠΟΠΤΣΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A-sub-p-2676",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": "Explicit substitution note ΠΟΠΤΣΗΣ αντί ΓΚΑΓΚΑΒ.; row 4 uses ΠΟΠΤΣΗΣ."
+  },
+  "http://files.ping-pong.gr/FA25-26/ERA-ATRpo.jpg": {
+    "sha256": "990807444a9e3638360cdc2f10effb51ca4494d42d7c5177958bdf6c3968b6ff",
+    "fixture": "f-3906c2f97dad8dec",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-19",
+    "team_score": [
+      5,
+      1
+    ],
+    "players": {
+      "A0": {
+        "id": "p-260",
+        "label": "ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ",
+        "registration": "260"
+      },
+      "A1": {
+        "id": "p-2308",
+        "label": "ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ",
+        "registration": "2308"
+      },
+      "A2": {
+        "id": "p-1224",
+        "label": "ΔΗΜΑΚΗΣ ΙΩΑΝ.",
+        "registration": "1224"
+      },
+      "X0": {
+        "id": "p-1452",
+        "label": "ΓΕΩΡΓΟΠΟΥΛΟΣ Ι.",
+        "registration": "1452"
+      },
+      "X1": {
+        "id": "p-179",
+        "label": "ΓΙΑΝΝΟΠΟΥΛΟΣ Γ.",
+        "registration": "179"
+      },
+      "X2": {
+        "id": "p-65",
+        "label": "ΖΟΡΜΠΑΛΑΣ Σ.",
+        "registration": "65"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/PVV-PLGpo.jpg": {
+    "sha256": "48589f68a7a096e098010df5fd3e32f0dab59375a2ddf001d912e9a01487191b",
+    "fixture": "f-8147c9b14c6b9b8d",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-29",
+    "team_score": [
+      5,
+      0
+    ],
+    "players": {
+      "A0": {
+        "id": "p-503",
+        "label": "ΓΕΡΟΓΙΑΝΝΗΣ Ι."
+      },
+      "A1": {
+        "id": "p-56",
+        "label": "ΑΡΓΥΡΑΚΗΣ Ι."
+      },
+      "A2": {
+        "id": "p-859",
+        "label": "ΠΟΛΥΜΕΡΙΔΗΣ Θ."
+      },
+      "X0": {
+        "id": "p-2494",
+        "label": "ΚΑΛΑΘΑΣ Μ."
+      },
+      "X1": {
+        "id": "p-2796",
+        "label": "ΠΡΩΤΟΓΕΡΟΣ"
+      },
+      "X2": {
+        "id": "p-754",
+        "label": "ΜΟΥΣΤΑΚΑΣ Ι."
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/S40-RBLpo.jpg": {
+    "sha256": "f5011303caa3352475f7e9e09005f357fec4e2487aed1626b70c797143b5e157",
+    "fixture": "f-06597f8512282494",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-27",
+    "team_score": [
+      5,
+      3
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2100",
+        "label": "ΜΠΕΡΕΚΕΤΙΔΗΣ"
+      },
+      "A1": {
+        "id": "p-697",
+        "label": "ΠΗΤΤΑΣ"
+      },
+      "A2": {
+        "id": "p-2032",
+        "label": "ΚΙΛΚΙΣΛΗΣ Α."
+      },
+      "X0": {
+        "id": "p-2048",
+        "label": "ΖΙΟΥΤΗΣ"
+      },
+      "X1": {
+        "id": "p-2049",
+        "label": "ΚΕΣΟΓΛΟΥ"
+      },
+      "X2": {
+        "id": "p-2473",
+        "label": "ΤΣΟΚΑΝΟΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/PM3-THEpo.jpg": {
+    "sha256": "181ad6947b6a9ff3423698751dda9ee4511a4b912f4ec662c42226754473b1eb",
+    "fixture": "f-6a6b541774c3612a",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-21",
+    "team_score": [
+      0,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-507",
+        "label": "ΠΑΡΑΣΚΕΥΟΠΟΥΛΟΣ"
+      },
+      "A1": {
+        "id": "p-999",
+        "label": "ΕΡΜΕΙΔΗΣ"
+      },
+      "A2": {
+        "id": "p-1003",
+        "label": "ΦΕΤΦΑΤΖΙΔΗΣ"
+      },
+      "X0": {
+        "id": "p-889",
+        "label": "ΘΕΟΤΟΚΑΤΟΣ"
+      },
+      "X1": {
+        "id": "p-2355",
+        "label": "KOMAN"
+      },
+      "X2": {
+        "id": "p-2212",
+        "label": "ΛΑΔΑΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/KLS-SPGpo.jpg": {
+    "sha256": "8b1fddb62668232d49745d0ca379f3f950757ff922245549324c4894d09d2160",
+    "fixture": "f-7123bf88d66cb254",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-26",
+    "team_score": [
+      2,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2706",
+        "label": "ΖΑΜΑΝΟΠΟΥΛΟΣ",
+        "registration": "2706"
+      },
+      "A1": {
+        "id": "p-696",
+        "label": "ΠΑΥΛΙΔΗΣ",
+        "registration": "696"
+      },
+      "A2": {
+        "id": "p-1867",
+        "label": "ΖΙΟΥΚΑΣ",
+        "registration": "1867"
+      },
+      "X0": {
+        "id": "p-840",
+        "label": "ΓΙΟΥΡΓΗΣ",
+        "registration": "840"
+      },
+      "X1": {
+        "id": "p-57",
+        "label": "ΔΗΜΗΤΡΙΟΥ"
+      },
+      "X2": {
+        "id": "p-678",
+        "label": "ΤΖΟΑΝΟΣ",
+        "registration": "678"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      }
+    ],
+    "notes": "ΔΗΜΗΤΡΙΟΥ is matched by surname, team and both existing workbook results to ΔΗΜΗΤΡΙΟΥ ΑΝΤΩΝΙΟΣ (57). The handwritten registration resembles 052 and is not used as identity evidence; registration 52 belongs to ΚΕΛΙΑΦΑΝΟΣ."
+  },
+  "http://files.ping-pong.gr/FA25-26/AEE-THBpo.jpg": {
+    "sha256": "535b37abd7844224d94379f4e5c47d4c81ae532efbef952ef15c3391f4125e16",
+    "fixture": "f-fc92230be920dc5e",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-20",
+    "team_score": [
+      5,
+      2
+    ],
+    "players": {
+      "A0": {
+        "id": "p-819",
+        "label": "ΛΑΖΑΡΙΔΗΣ"
+      },
+      "A1": {
+        "id": "p-1765",
+        "label": "ΜΑΛΙΣΟΒΑΣ"
+      },
+      "A2": {
+        "id": "p-640",
+        "label": "ΚΑΡΥΟΦΥΛΛΗΣ"
+      },
+      "X0": {
+        "id": "p-704",
+        "label": "ΒΑΣΙΛΕΙΟΥ"
+      },
+      "X1": {
+        "id": "p-1608",
+        "label": "ΤΕΚΟΣ"
+      },
+      "X2": {
+        "id": "p-1650",
+        "label": "ΠΑΤΙΚΑΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/25o-OMUpo.jpg": {
+    "sha256": "dfbb6dee0d4ddfe9e3c2b315a925d792bd80390b1bf28986c780e39e7e6693f8",
+    "fixture": "f-083b3780ed7ca649",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-23",
+    "team_score": [
+      5,
+      3
+    ],
+    "players": {
+      "A0": {
+        "id": "p-577",
+        "label": "ΚΑΓΙΑΔΑΚΗΣ"
+      },
+      "A1": {
+        "id": "p-739",
+        "label": "ΓΡΑΔΑΡΗΣ Χ."
+      },
+      "A2": {
+        "id": "p-595",
+        "label": "ΤΣΙΑΜΠΑΛΗΣ"
+      },
+      "X0": {
+        "id": "p-2111",
+        "label": "ΚΡΑΒΑΡΙΚ"
+      },
+      "X1": {
+        "id": "p-497",
+        "label": "ΤΣΟΥΡΟΣ"
+      },
+      "X2": {
+        "id": "p-1751",
+        "label": "ΝΤΑΜΠΙΖΑΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/MAE-LMTpo.jpg": {
+    "sha256": "dfe81542eb3f9876a3877f6ea7d3dc83caaa4961e6d8426ee521543d0d778258",
+    "fixture": "f-62b5f161ab9a8da4",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-27",
+    "team_score": [
+      5,
+      2
+    ],
+    "players": {
+      "A0": {
+        "id": "p-8",
+        "label": "ΠΑΝΑΓΙΩΤΙΔΗΣ Θ."
+      },
+      "A1": {
+        "id": "p-33",
+        "label": "ΣΕΡΕΜΕΤΗΣ Γ."
+      },
+      "A2": {
+        "id": "p-496",
+        "label": "ΜΠΕΡΕΖΙΝ Σ."
+      },
+      "X0": {
+        "id": "p-1832",
+        "label": "ΚΑΛΤΣΙΔΗΣ Κ."
+      },
+      "X1": {
+        "id": "p-584",
+        "label": "ΠΕΡΑΚΗΣ Κ."
+      },
+      "X2": {
+        "id": "p-41",
+        "label": "ΑΝΔΡΕΑΔΗΣ Δ."
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/VTT-AMF.jpg": {
+    "sha256": "510adaee1b768775c4821d5174cef762af732e75c0c0b7c58de7b9f91b032d4d",
+    "fixture": "f-ab1afb5443137559",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-05-07",
+    "team_score": [
+      0,
+      5
+    ],
+    "players": {
+      "A0": {
+        "label": "Κενή θέση / απών αθλητής"
+      },
+      "A1": {
+        "id": "p-378",
+        "label": "ΤΕΡΨΙΔΗΣ"
+      },
+      "A2": {
+        "id": "p-1541",
+        "label": "ΤΖΑΒΕΛΑΣ"
+      },
+      "X0": {
+        "id": "p-2421",
+        "label": "ΝΥΚΤΕΡΗΣ"
+      },
+      "X1": {
+        "id": "p-607",
+        "label": "ΡΑΠΤΗΣ"
+      },
+      "X2": {
+        "id": "p-268",
+        "label": "ΜΟΥΧΤΟΥΡΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ],
+        "status": "walkover"
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ],
+        "status": "walkover"
+      }
+    ],
+    "notes": "Home A is absent; rows 1/5 have 0-3 and no games. Excluded from individual statistics."
+  },
+  "http://files.ping-pong.gr/FA25-26/ELF-AKT.jpg": {
+    "sha256": "639d04a70f7f586c5e54a0cc824886fa6cda702297fac04fba61e0358270b923",
+    "fixture": "f-9edc84128e5cb47f",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-21",
+    "team_score": [
+      0,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-627",
+        "label": "ΣΤΑΜΑΤΙΑΔΗΣ"
+      },
+      "A1": {
+        "id": "p-866",
+        "label": "ΜΕΛΕΤΙΟΥ"
+      },
+      "A2": {
+        "id": "p-719",
+        "label": "ΦΛΑΣΚΗΣ"
+      },
+      "X0": {
+        "id": "p-1816",
+        "label": "ΚΥΡΟΥ"
+      },
+      "X1": {
+        "id": "p-1088",
+        "label": "ΚΩΣΤΟΠΟΥΛΟΣ"
+      },
+      "X2": {
+        "id": "p-1572",
+        "label": "ΠΑΠΑΓΕΩΡΓΙΟΥ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/ANK-ETH.jpg": {
+    "sha256": "54947fcb30523eaeff16af3504216a452501d28913970bba7c57036b4e3529ed",
+    "fixture": "f-18a9b936f62316b2",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-25",
+    "team_score": [
+      3,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-130",
+        "label": "ΚΑΡΑΤΖΑΣ"
+      },
+      "A1": {
+        "id": "p-1804",
+        "label": "ΖΑΪΡΗΣ"
+      },
+      "A2": {
+        "id": "p-2101",
+        "label": "ΣΤΑΜΕΛΟΣ"
+      },
+      "X0": {
+        "id": "p-1299",
+        "label": "ΚΑΤΣΑΦΑΔΟΣ"
+      },
+      "X1": {
+        "id": "p-251",
+        "label": "ΠΕΤΡΟΧΕΙΛΟΣ"
+      },
+      "X2": {
+        "id": "p-80",
+        "label": "ΣΤΑΜΝΙΔΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X0"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/PAN-ADF.jpg": {
+    "sha256": "5e6f2c5f6e8683294e04cd4c9cd0482bc64edfada52b7a7675ec2b972d1d249a",
+    "fixture": "f-afda2d0f96980edb",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-21",
+    "team_score": [
+      5,
+      0
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1504",
+        "label": "ΔΙΑΚΟΥΜΑΚΟΣ"
+      },
+      "A1": {
+        "id": "p-2063",
+        "label": "TEILLE"
+      },
+      "A2": {
+        "id": "p-410",
+        "label": "ΤΣΙΟΚΑ"
+      },
+      "X0": {
+        "id": "p-1076",
+        "label": "ΦΡΑΓΚΑΚΗΣ"
+      },
+      "X1": {
+        "id": "p-84",
+        "label": "ΚΑΠΙΡΗΣ"
+      },
+      "X2": {
+        "id": "p-1486",
+        "label": "ΜΑΚΡΥΓΙΑΝΝΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": "Starting C name is overwritten but reads ΤΣΙΟΚΑ; handwritten registration 193 is not used. Identified by name, team and matching workbook result as ΤΣΙΟΚΑ ΝΤΑΝΙΕΛ 410."
+  },
+  "http://files.ping-pong.gr/FA25-26/P4F-ATH.jpg": {
+    "sha256": "b83b47d0a1f2059af9ebef9d03d5f2efa68195f666dc76ec3d6843d485d3ee08",
+    "fixture": "f-9e5b675478919934",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-29",
+    "team_score": [
+      5,
+      1
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2004",
+        "label": "ΠΑΧΗΣ",
+        "registration": "2004"
+      },
+      "A1": {
+        "id": "p-1758",
+        "label": "ΜΠΑΡΤΣΑΚΟΥΛΙΑΣ",
+        "registration": "1758"
+      },
+      "A2": {
+        "id": "p-1216",
+        "label": "ΒΑΣΙΛΕΙΑΔΗΣ",
+        "registration": "1216"
+      },
+      "X0": {
+        "id": "p-194",
+        "label": "ΑΣΛΑΝ"
+      },
+      "X1": {
+        "id": "p-269",
+        "label": "ΔΙΓΕΝΑΚΗΣ"
+      },
+      "X2": {
+        "id": "p-1903",
+        "label": "LU"
+      },
+      "A-sub-p-2019": {
+        "id": "p-2019",
+        "label": "ΝΤΑΒΑΡΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A-sub-p-2019",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      }
+    ],
+    "notes": "ΝΤΑΒΑΡΗΣ 2019 explicitly replaces ΠΑΧΗΣ in row 5."
+  },
+  "http://files.ping-pong.gr/FA25-26/EM1-LEO.jpg": {
+    "sha256": "f78b8e5a740c89870059db48c6203d026eb63b2d20e07348e854cfa7e5e59df8",
+    "fixture": "f-5ea2641f5d29cbd8",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-22",
+    "team_score": [
+      1,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1843",
+        "label": "ΠΕΤΡΙΤΙ"
+      },
+      "A1": {
+        "id": "p-1791",
+        "label": "ΙΑΚΩΒΟΥ"
+      },
+      "A2": {
+        "id": "p-131",
+        "label": "ΒΑΓΙΑΣ"
+      },
+      "X0": {
+        "id": "p-59",
+        "label": "ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ"
+      },
+      "X1": {
+        "id": "p-163",
+        "label": "ΔΕΒΕΤΖΗΣ"
+      },
+      "X2": {
+        "id": "p-10",
+        "label": "ΘΕΟΔΩΡΙΔΗΣ"
+      },
+      "A-sub-p-245": {
+        "id": "p-245",
+        "label": "ΚΩΝΣΤΑΝΤΙΝΙΔΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A-sub-p-245",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      }
+    ],
+    "notes": "ΚΩΝΣΤΑΝΤΙΝΙΔΗΣ 245 replaces ΒΑΓΙΑΣ in row 6. Final winner-oriented 5-1 is correctly home 1-away 5, matching running totals."
+  },
+  "http://files.ping-pong.gr/FA25-26/SWD-BWK.jpg": {
+    "sha256": "0efb1a9e382e2f134281e9da68b172a8083d47304c31686ca66ef5554cdaf27b",
+    "fixture": "f-dd2c94b2abdf2beb",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-20",
+    "team_score": [
+      5,
+      2
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2422",
+        "label": "ΚΑΓΚΑΣ",
+        "registration": "2422"
+      },
+      "A1": {
+        "id": "p-653",
+        "label": "ΚΑΤΡΙΒΕΣΗΣ",
+        "registration": "653"
+      },
+      "A2": {
+        "id": "p-1401",
+        "label": "ΜΠΑΛΤΟΥΝΑΣ",
+        "registration": "1401"
+      },
+      "X0": {
+        "id": "p-1529-690d7825",
+        "label": "ΤΣΑΛΙΚΗΣ"
+      },
+      "X1": {
+        "id": "p-734",
+        "label": "HAMDAD",
+        "registration": "734"
+      },
+      "X2": {
+        "id": "p-2044",
+        "label": "ΓΑΜΠΡΟΥΔΗΣ",
+        "registration": "2044"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": "ΤΣΑΛΙΚΗΣ 1529 matches the existing team/player result profile p-1529-690 d 7825; registration variants remain separate."
+  },
+  "http://files.ping-pong.gr/FA25-26/ATT-SLM.jpg": {
+    "sha256": "23d0d5d9abe806f7d91efb4651e8120b95c5072d830e910a63f84f6cdfb63372",
+    "fixture": "f-70e49bfd9e1527c0",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-21",
+    "team_score": [
+      5,
+      3
+    ],
+    "players": {
+      "A0": {
+        "id": "p-122",
+        "label": "ΕΥΑΓΓΕΛΙΔΗΣ"
+      },
+      "A1": {
+        "id": "p-1866",
+        "label": "ΜΠΑΛΑΦΑΣ"
+      },
+      "A2": {
+        "id": "p-974",
+        "label": "ΚΟΣΜΙΔΗΣ"
+      },
+      "X0": {
+        "id": "p-1683",
+        "label": "ΜΙΧΑΛΑΡΟΣ"
+      },
+      "X1": {
+        "id": "p-872",
+        "label": "ΤΖΑΡΑΣ"
+      },
+      "X2": {
+        "id": "p-1800",
+        "label": "ΧΑΡΤΟΦΥΛΑΚΑΣ"
+      },
+      "A-sub-p-449": {
+        "id": "p-449",
+        "label": "ΦΑΚΑΡΟΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A-sub-p-449",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A-sub-p-449",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      }
+    ],
+    "notes": "ΦΑΚΑΡΟΣ replaces ΚΟΣΜΙΔΗΣ, explicitly annotated and written in rows 6/8."
+  },
+  "http://files.ping-pong.gr/FA25-26/SPR-MFR.jpg": {
+    "sha256": "e1873eb4b0b83b2d314a308b9b304ef5d0bedc57328d89b0633240d10af84c96",
+    "fixture": "f-e46ad77e738e9f22",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-27",
+    "team_score": [
+      1,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1961",
+        "label": "ΚΑΛΛΙΓΕΡΟΣ",
+        "registration": "1961"
+      },
+      "A1": {
+        "id": "p-309",
+        "label": "ΖΜΠΙ",
+        "registration": "309"
+      },
+      "A2": {
+        "id": "p-1270",
+        "label": "ΤΣΙΡΙΚΟΣ",
+        "registration": "1270"
+      },
+      "X0": {
+        "id": "p-1164",
+        "label": "ΛΑΖΑΡΙΔΟΥ",
+        "registration": "1164"
+      },
+      "X1": {
+        "id": "p-1847",
+        "label": "ΜΗΛΙΑΣ",
+        "registration": "1847"
+      },
+      "X2": {
+        "id": "p-903",
+        "label": "ΤΟΥΡΣΟΥΝΙΔΟΥ",
+        "registration": "903"
+      },
+      "X-sub-p-1989": {
+        "id": "p-1989",
+        "label": "ΨΑΡΡΟΥ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X-sub-p-1989"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      }
+    ],
+    "notes": "ΨΑΡΡΟΥ 1989 substitutes for ΛΑΖΑΡΙΔΟΥ in row 4, explicitly noted. ΖΜΠΙ 309 is DRZEWAZEWSKI ZBGNIEW."
+  },
+  "http://files.ping-pong.gr/FA25-26/CNC-PFL.jpg": {
+    "sha256": "28c98829965ab1e4f94994f0226a4d43073383d6e8c135edd97fccc66cb5f7cf",
+    "fixture": "f-2a8ed1e61589260a",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-25",
+    "team_score": [
+      5,
+      3
+    ],
+    "players": {
+      "A0": {
+        "id": "p-26",
+        "label": "ΚΟΥΤΣΟΥΜΠΑΣ"
+      },
+      "A1": {
+        "id": "p-2136",
+        "label": "ΠΑΠΑΖΟΓΛΟΥ"
+      },
+      "A2": {
+        "id": "p-1125",
+        "label": "ΞΥΛΟΥΡΗΣ"
+      },
+      "X0": {
+        "id": "p-2608",
+        "label": "ΛΕΟΝΤΑΡΙΔΗΣ"
+      },
+      "X1": {
+        "id": "p-1803",
+        "label": "ΜΠΑΡΟΥΤΗΣ"
+      },
+      "X2": {
+        "id": "p-1687",
+        "label": "ΚΑΡΑΒΑΣΙΛΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      }
+    ],
+    "notes": "Fixture club labels differ from current catalog membership; all eight explicit player pairings and scores independently match workbook 25 April 2026."
+  },
+  "http://files.ping-pong.gr/FA25-26/RHC-KAR.jpg": {
+    "sha256": "ede2a96885203dd003a32f1718af34aabc0a02a90537ab3f32543f5db2c8d31e",
+    "fixture": "f-adf7b4066c3e6736",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-16",
+    "team_score": [
+      2,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2601",
+        "label": "ΓΚΑΤΖΙΟΣ",
+        "registration": "2601"
+      },
+      "A1": {
+        "id": "p-2486",
+        "label": "ΛΑΚΑΤΑΣ",
+        "registration": "2486"
+      },
+      "A2": {
+        "id": "p-905",
+        "label": "ΧΑΡΙΔΑΣ",
+        "registration": "905"
+      },
+      "X0": {
+        "id": "p-143",
+        "label": "ΒΑΦΕΙΑΔΗΣ",
+        "registration": "143"
+      },
+      "X1": {
+        "id": "p-1743",
+        "label": "ΖΑΦΕΙΡΑΤΟΣ",
+        "registration": "1743"
+      },
+      "X2": {
+        "id": "p-714",
+        "label": "ΧΑΝΕΓΙΑΝ",
+        "registration": "714"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/TMX-VKI.jpg": {
+    "sha256": "adf3a41965a4191d431eb73899d77fc9f0cd6102540a19e201c91c73a065cd01",
+    "fixture": "f-35933d90f32b9795",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-28",
+    "team_score": [
+      1,
+      5
+    ],
+    "players": {
+      "A0": {
+        "label": "Κενή θέση / απών αθλητής"
+      },
+      "A1": {
+        "id": "p-469",
+        "label": "ΓΚΙΤΖΙΑΣ",
+        "registration": "469"
+      },
+      "A2": {
+        "id": "p-364",
+        "label": "ΓΕΡΟΝΤΙΔΗΣ",
+        "registration": "364"
+      },
+      "X0": {
+        "id": "p-394",
+        "label": "ΧΑΤΖΗΚΥΡΙΑΚΟΣ"
+      },
+      "X1": {
+        "id": "p-465",
+        "label": "ΚΟΥΦΟΣ"
+      },
+      "X2": {
+        "id": "p-2647",
+        "label": "ΚΟΝΤΟΠΟΥΛΟΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ],
+        "status": "walkover"
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ],
+        "status": "walkover"
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      }
+    ],
+    "notes": "Home A absent; rows 1/5 show dashes for home player and unplayed game entries. Four played rubbers match existing player/day records despite club naming differences."
+  },
+  "http://files.ping-pong.gr/FA25-26/ATL-VAV.jpg": {
+    "sha256": "ed4eba9d551b5e8cd8d58f7778ae7a5968838655e5ea9d7adb33a270cba47668",
+    "fixture": "f-b669d0116edc1cb2",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-24",
+    "team_score": [
+      5,
+      3
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1784",
+        "label": "ΜΠΕΤΑΣ",
+        "registration": "1784"
+      },
+      "A1": {
+        "id": "p-1837",
+        "label": "ΚΑΛΛΙΤΣΗΣ",
+        "registration": "1837"
+      },
+      "A2": {
+        "id": "p-2363",
+        "label": "ΛΥΜΠΕΡΟΠΟΥΛΟΣ",
+        "registration": "2363"
+      },
+      "X0": {
+        "id": "p-1317",
+        "label": "ΚΑΜΝΕΛΛΗΣ",
+        "registration": "1317"
+      },
+      "X1": {
+        "id": "p-1766",
+        "label": "ΚΟΥΤΡΗΣ",
+        "registration": "1766"
+      },
+      "X2": {
+        "id": "p-1204",
+        "label": "ΧΙΩΤΕΛΛΗΣ",
+        "registration": "1204"
+      },
+      "A-sub-p-776": {
+        "id": "p-776",
+        "label": "ΛΕΣΤΑΚΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A-sub-p-776",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": "ΛΕΣΤΑΚΗΣ 776 explicitly replaces ΜΠΕΤΑΣ in row 5."
+  },
+  "http://files.ping-pong.gr/FA25-26/MKB-AP2.jpg": {
+    "sha256": "311ffd7c4f10fd2479fa2ec1b4fee6efbca5a7b484e2845203af437714a26a12",
+    "fixture": "f-6a3af74639b29619",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-16",
+    "team_score": [
+      1,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1364",
+        "label": "ΑΓΓΕΛΟΥ",
+        "registration": "1364"
+      },
+      "A1": {
+        "id": "p-802",
+        "label": "ΜΠΕΧΑΡ",
+        "registration": "802"
+      },
+      "A2": {
+        "id": "p-716",
+        "label": "ΝΕΓΡΙΝ",
+        "registration": "716"
+      },
+      "X0": {
+        "id": "p-1868",
+        "label": "ΠΑΠΑΣΠΥΡΟΣ",
+        "registration": "1868"
+      },
+      "X1": {
+        "id": "p-1899-1434a93e",
+        "label": "ΤΖΗΚΑΣ"
+      },
+      "X2": {
+        "id": "p-1978",
+        "label": "ΧΑΤΖΗΔΑΚΗΣ",
+        "registration": "1978"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      }
+    ],
+    "notes": "Corrected row 3 shows 2–3 consistent with five game scores and workbook. ΤΖΗΚΑΣ handwritten registration unclear; identified by full team/result profile p-1899-1434 a 93 e."
+  },
+  "http://files.ping-pong.gr/FA25-26/XLR-TPZ.jpg": {
+    "sha256": "6a3ad12e524f2bf6bcfe9b65cfaaa5f45803d9946436c6e20d3503d0d4b2bcb7",
+    "fixture": "f-afc91f601acb56cb",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-22",
+    "team_score": [
+      3,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1047",
+        "label": "ΣΤΑΥΡΑΚΑΣ Σ."
+      },
+      "A1": {
+        "id": "p-1046",
+        "label": "ΜΑΡΝΟΥΤΣΙΔΗΣ",
+        "registration": "1046"
+      },
+      "A2": {
+        "id": "p-2127",
+        "label": "ΚΙΡΤΣΙΟΣ Ν.",
+        "registration": "2127"
+      },
+      "X0": {
+        "id": "p-1244",
+        "label": "ΤΑΝΤΣΟΥΡΑ Ε.",
+        "registration": "1244"
+      },
+      "X1": {
+        "id": "p-1243",
+        "label": "ΠΕΡΟΥΚΙΔΗΣ",
+        "registration": "1243"
+      },
+      "X2": {
+        "id": "p-2413",
+        "label": "ΤΑΝΤΣΟΥΡΑ Δ.",
+        "registration": "2413"
+      },
+      "X-sub-p-1245": {
+        "id": "p-1245",
+        "label": "ΛΕΥΚΟΠΟΥΛΟΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X-sub-p-1245"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X0"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      }
+    ],
+    "notes": "ΛΕΥΚΟΠΟΥΛΟΣ 1245 replaces ΠΕΡΟΥΚΙΔΗΣ in row 6; explicit row and reserve note."
+  },
+  "http://files.ping-pong.gr/FA25-26/ESP-AIG.jpg": {
+    "sha256": "1c386d9661920ac1a2bb1e15331c42f38f08ef3f685bb805ffdb4877d4406b5b",
+    "fixture": "f-c047149fff365f47",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-16",
+    "team_score": [
+      5,
+      1
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2228",
+        "label": "ΧΑΝΟΠΟΥΛΟΣ",
+        "registration": "2228"
+      },
+      "A1": {
+        "id": "p-668",
+        "label": "ΓΕΩΡΓΙΑΔΗΣ",
+        "registration": "668"
+      },
+      "A2": {
+        "id": "p-393",
+        "label": "ΜΟΥΧΘΗΣ",
+        "registration": "393"
+      },
+      "X0": {
+        "id": "p-634",
+        "label": "ΤΣΙΤΟΥΜΗΣ Γ."
+      },
+      "X1": {
+        "id": "p-984",
+        "label": "ΔΕΛΛΑΠΟΡΤΑΣ",
+        "registration": "984"
+      },
+      "X2": {
+        "id": "p-318",
+        "label": "ΣΤΕΡΓΙΟΥ Ε.",
+        "registration": "318"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": "ΤΣΙΤΟΥΜΗΣ handwritten registration resembles 636, not reliable. Full name/team and both workbook results identify ΓΕΩΡΓΙΟΣ 634; erroneous number not used as identity evidence."
+  },
+  "http://files.ping-pong.gr/FA25-26/PRD-TDT.jpg": {
+    "sha256": "26e66ca32df793f2927df84c039d9ed6e7a9a2ca00c596e2890b747210cc15ee",
+    "fixture": "f-43941733f6e03644",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-26",
+    "team_score": [
+      5,
+      3
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1134",
+        "label": "ΜΠΑΡΜΠΕΡΗΣ",
+        "registration": "1134"
+      },
+      "A1": {
+        "id": "p-2033",
+        "label": "FLIS",
+        "registration": "2033"
+      },
+      "A2": {
+        "id": "p-2554",
+        "label": "ΣΚΕΜΒΡΗΣ",
+        "registration": "2554"
+      },
+      "X0": {
+        "id": "p-2460",
+        "label": "ΑΜΠΑΖΗΣ",
+        "registration": "2460"
+      },
+      "X1": {
+        "id": "p-1059",
+        "label": "ΚΑΡΒΕΛΗΣ",
+        "registration": "1059"
+      },
+      "X2": {
+        "id": "p-114",
+        "label": "ΛΥΚΟΥΡΙΝΟΣ",
+        "registration": "114"
+      },
+      "X-sub-p-208": {
+        "id": "p-208",
+        "label": "ΚΟΠΕΛΙΑΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X-sub-p-208"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": "ΚΟΠΕΛΙΑΣ 208 explicitly replaces ΛΥΚΟΥΡΙΝΟΣ in row 7."
+  },
+  "http://files.ping-pong.gr/FA25-26/KRG-ASV.jpg": {
+    "sha256": "7cd13cd39465b8ebb3e6c7d900a1f5e961dc5aeca370e728fadabbe00a114f16",
+    "fixture": "f-5cc59fe0afe06ee6",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-28",
+    "team_score": [
+      4,
+      5
+    ],
+    "players": {
+      "A0": {
+        "label": "Κενή θέση / απών αθλητής"
+      },
+      "A1": {
+        "id": "p-2141",
+        "label": "ΑΓΓΕΛΟΠΟΥΛΟΣ Δ.",
+        "registration": "2141"
+      },
+      "A2": {
+        "id": "p-1873",
+        "label": "ΤΖΩΡΤΖΗΣ Χ.",
+        "registration": "1873"
+      },
+      "X0": {
+        "id": "p-317",
+        "label": "ΜΠΑΡΜΠΕΡΗΣ",
+        "registration": "317"
+      },
+      "X1": {
+        "id": "p-128",
+        "label": "ΛΟΥΚΑ",
+        "registration": "128"
+      },
+      "X2": {
+        "id": "p-1379",
+        "label": "ΓΙΑΝΝΑΚΟΥΡΗΣ",
+        "registration": "1379"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ],
+        "status": "walkover"
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ],
+        "status": "walkover"
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 9,
+        "players": [
+          "A0",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ],
+        "status": "walkover"
+      }
+    ],
+    "notes": "Date 28/04 in 2025–26 season, matching all six played workbook records. Home A absent; rows 1/5/9 explicit administrative wins excluded from athlete statistics."
+  },
+  "http://files.ping-pong.gr/FA25-26/LSP-PNK.jpg": {
+    "sha256": "9a08f99c09a63986aa08b8bf68d3e64f7e4e6b2c8f634696adf4d3cc75580d1e",
+    "fixture": "f-e19690f227e96d1b",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-23",
+    "team_score": [
+      1,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2219",
+        "label": "ΚΑΝΑΒΟΥΤΣΟΣ",
+        "registration": "2219"
+      },
+      "A1": {
+        "id": "p-2217",
+        "label": "ΜΑΡΙΟΛΗΣ",
+        "registration": "2217"
+      },
+      "A2": {
+        "id": "p-2218",
+        "label": "ΠΑΠΑΔΟΠΟΥΛΟΣ",
+        "registration": "2218"
+      },
+      "X0": {
+        "id": "p-830",
+        "label": "ΧΑΡΑΛΑΜΠΟΥΣ",
+        "registration": "830"
+      },
+      "X1": {
+        "id": "p-212",
+        "label": "ΖΕΡΒΟΥΔΗΣ",
+        "registration": "212"
+      },
+      "X2": {
+        "id": "p-1109",
+        "label": "ΛΟΥΚΟΒΙΤΗΣ",
+        "registration": "1109"
+      },
+      "A-sub-p-2172": {
+        "id": "p-2172",
+        "label": "ΛΑΜΠΡΙΝΟΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A-sub-p-2172",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      }
+    ],
+    "notes": "Row 5 explicitly substitutes ΛΑΜΠΡΙΝΟΣ. The substitute list incorrectly repeats 2219 (ΚΑΝΑΒΟΥΤΣΟΣ); the unique surname, team and existing same-day result identify ΛΑΜΠΡΙΝΟΣ ΠΑΓΚΡΑΤΙΟΣ p-2172."
+  },
+  "http://files.ping-pong.gr/FA25-26/HWK-ATN.jpg": {
+    "sha256": "058d48475f868b29444b9f3b829805e6b5ebd18eed3fa7022d58286c4cc9de4e",
+    "fixture": "f-afc940e94d9d9acb",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-24",
+    "team_score": [
+      5,
+      3
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1220",
+        "label": "ΒΑΪΤΣΗΣ Φ."
+      },
+      "A1": {
+        "id": "p-2018",
+        "label": "ΚΤΕΝΙΟΥΔΑΚΗΣ"
+      },
+      "A2": {
+        "id": "p-83",
+        "label": "ΚΑΤΣΙΚΗΣ"
+      },
+      "X0": {
+        "id": "p-1984",
+        "label": "ΠΑΠΑΔΗΜΑΣ"
+      },
+      "X1": {
+        "id": "p-1070",
+        "label": "ΧΑΣΑΠΗΣ"
+      },
+      "X2": {
+        "id": "p-794",
+        "label": "ΜΑΤΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      }
+    ],
+    "notes": "Row 8 has only four game scores entered but an explicit 3-2 rubber score corroborated by the results workbook. No game scores are imported."
+  },
+  "http://files.ping-pong.gr/FA25-26/OTK-OUZ.jpg": {
+    "sha256": "47d9f018261d0440e4398966b89aad1259df568de62f27ba6dfd3e62102a45c4",
+    "fixture": "f-1092cf4a565e2414",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-20",
+    "team_score": [
+      5,
+      1
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1642",
+        "label": "ΜΠΑΡΛΑΣ"
+      },
+      "A1": {
+        "id": "p-961",
+        "label": "ΣΙΑΜΠΟΣ"
+      },
+      "A2": {
+        "id": "p-1189",
+        "label": "ΒΕΝΕΤΗΣ"
+      },
+      "X0": {
+        "id": "p-460",
+        "label": "ΣΤΡΑΤΗΣ"
+      },
+      "X1": {
+        "id": "p-461",
+        "label": "ΚΑΤΡΗΣ"
+      },
+      "X2": {
+        "id": "p-456",
+        "label": "ΜΩΥΣΙΔΗΣ"
+      },
+      "X-sub-p-455": {
+        "id": "p-455",
+        "label": "ΜΠΑΡΙΚΑΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X-sub-p-455"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      }
+    ],
+    "notes": "Row 5 explicitly substitutes ΜΠΑΡΙΚΑΣ for ΜΩΥΣΙΔΗΣ; the substitute list gives 455."
+  },
+  "http://files.ping-pong.gr/FA25-26/TBL-AP8.jpg": {
+    "sha256": "1c4602fbfc76755fc4b89a6ba24c61a8a1688b045295805b66e09397cb7818c2",
+    "fixture": "f-f9a403d0f5af19db",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-17",
+    "team_score": [
+      1,
+      5
+    ],
+    "players": {
+      "A0": {
+        "label": "Κενή θέση / απών αθλητής"
+      },
+      "A1": {
+        "id": "p-1079",
+        "label": "ΤΣΕΜΠΕΡΑΣ",
+        "registration": "1079"
+      },
+      "A2": {
+        "id": "p-1910",
+        "label": "ΚΩΝΣΤΑΝΤΙΝΙΔΗΣ",
+        "registration": "1910"
+      },
+      "X0": {
+        "id": "p-2410",
+        "label": "ΜΕΤΑΞΑΣ Κ.",
+        "registration": "2410"
+      },
+      "X1": {
+        "id": "p-1745",
+        "label": "ΠΑΡΑΣΥΡΗΣ Ι.",
+        "registration": "1745"
+      },
+      "X2": {
+        "id": "p-1707",
+        "label": "ΧΡΙΣΤΟΔΟΥΛΟΥ Σ.",
+        "registration": "1707"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ],
+        "status": "walkover"
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ],
+        "status": "walkover"
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      }
+    ],
+    "notes": "Home A is explicitly absent. Rows 1 and 5 have dashes instead of games and are excluded from athlete records."
+  },
+  "http://files.ping-pong.gr/FA25-26/AP6-ASE.jpg": {
+    "sha256": "debe662f34acbdfe72799da4594688b3b33c5fd284e07c37e55932724d8a2c40",
+    "fixture": "f-77ebde3c073bbe99",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-26",
+    "team_score": [
+      0,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1688",
+        "label": "ΣΙΑΧΟΣ",
+        "registration": "1688"
+      },
+      "A1": {
+        "id": "p-610",
+        "label": "ΦΕΛΟΥΚΑΣ",
+        "registration": "610"
+      },
+      "A2": {
+        "label": "Κενή θέση / απών αθλητής"
+      },
+      "X0": {
+        "id": "p-945",
+        "label": "ΜΩΥΣΗΣ",
+        "registration": "945"
+      },
+      "X1": {
+        "id": "p-312",
+        "label": "ΖΗΚΟΣ",
+        "registration": "312"
+      },
+      "X2": {
+        "id": "p-2620",
+        "label": "AL DAWOODI J.",
+        "registration": "2620"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ],
+        "status": "walkover"
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      }
+    ],
+    "notes": "Home C is explicitly empty; row 3 has no games and is excluded as a walkover."
+  },
+  "http://files.ping-pong.gr/FA25-26/AG2-AGK.jpg": {
+    "sha256": "f1981838d0f18c3e63a0c8a6f0077c6c0b49f8f2880716ffb9d6f41a72041ee5",
+    "fixture": "f-b30f61d88b736fbf",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-24",
+    "team_score": [
+      3,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-967",
+        "label": "ΜΕΤΑΞΑΚΗΣ",
+        "registration": "967"
+      },
+      "A1": {
+        "id": "p-1026",
+        "label": "ZHANG ZHIHUA",
+        "registration": "1026"
+      },
+      "A2": {
+        "id": "p-1950",
+        "label": "ΑΔΑΜΑΚΟΠΟΥΛΟΣ",
+        "registration": "1950"
+      },
+      "X0": {
+        "id": "p-468",
+        "label": "ΣΤΑΜΑΤΙΑΔΗΣ Β.",
+        "registration": "468"
+      },
+      "X1": {
+        "id": "p-331",
+        "label": "ΚΟΥΜΠΗΣ Κ.",
+        "registration": "331"
+      },
+      "X2": {
+        "id": "p-887",
+        "label": "ΣΕΝΣΕΒΕΝ",
+        "registration": "887"
+      },
+      "A-sub-p-1053": {
+        "id": "p-1053",
+        "label": "ΙΟΥΜΠΑΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A-sub-p-1053",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      }
+    ],
+    "notes": "Row 8 explicitly substitutes ΙΟΥΜΠΑΣ; the substitute list gives registration 1053."
+  },
+  "http://files.ping-pong.gr/FA25-26/AKR-HGH.jpg": {
+    "sha256": "685cf4a67e23886f4a09e9eae800800c0432955e505bd26b69b36d5ba5685c37",
+    "fixture": "f-9fec32c2e014df23",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-28",
+    "team_score": [
+      0,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1616",
+        "label": "ΠΙΕΡΡΑΚΟΣ ΗΛ.",
+        "registration": "1616"
+      },
+      "A1": {
+        "id": "p-1957",
+        "label": "ΒΡΑΧΝΑΣ ΑΝΤ.",
+        "registration": "1957"
+      },
+      "A2": {
+        "id": "p-2047",
+        "label": "ΜΠΑΤΖΑΚΑΣ ΑΝΤ.",
+        "registration": "2047"
+      },
+      "X0": {
+        "id": "p-2802",
+        "label": "GUNDUZ",
+        "registration": "2802"
+      },
+      "X1": {
+        "id": "p-85",
+        "label": "ΓΑΛΑΙΟΣ",
+        "registration": "85"
+      },
+      "X2": {
+        "id": "p-2112",
+        "label": "ΜΑΝΩΛΗΣ",
+        "registration": "2112"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/LGT-AP9.jpg": {
+    "sha256": "5ecddaa2a9d0fb7de32447b84788507e20a84ea338ed153c53c0dce20fabaeb3",
+    "fixture": "f-04394a869996bef2",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-27",
+    "team_score": [
+      4,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-831",
+        "label": "ΚΟΥΤΡΟΣ",
+        "registration": "831"
+      },
+      "A1": {
+        "id": "p-118",
+        "label": "ΜΟΣΧΟΝΑΣ",
+        "registration": "118"
+      },
+      "A2": {
+        "id": "p-1356",
+        "label": "ΓΕΡΟΥΚΗΣ",
+        "registration": "1356"
+      },
+      "X0": {
+        "id": "p-1805",
+        "label": "ΜΟΥΝΤΡΑΚΗΣ",
+        "registration": "1805"
+      },
+      "X1": {
+        "id": "p-1548",
+        "label": "ΚΥΡΙΤΣΗΣ",
+        "registration": "1548"
+      },
+      "X2": {
+        "id": "p-346",
+        "label": "ΑΝΔΡΙΤΣΟΣ",
+        "registration": "346"
+      },
+      "A-sub-p-1579": {
+        "id": "p-1579",
+        "label": "ΜΠΟΥΡΤΟΥΛΗΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A-sub-p-1579",
+          "X0"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 9,
+        "players": [
+          "A0",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      }
+    ],
+    "notes": "Sheet gives day/month 27/4; season and the complete same-day workbook results establish year 2026. Row 8 explicitly substitutes ΜΠΟΥΡΤΟΥΛΗΣ (1579)."
+  },
+  "http://files.ping-pong.gr/FA25-26/BBS-N4S.jpg": {
+    "sha256": "e636d986b8899146da760b9eb5e43110a7da3333e737765ba0eea3bd978d5aad",
+    "fixture": "f-cba263212b7ad9a0",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-27",
+    "team_score": [
+      1,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-310",
+        "label": "ΓΙΑΚΑΣ",
+        "registration": "310"
+      },
+      "A1": {
+        "id": "p-2281",
+        "label": "ΓΑΤΟΣ",
+        "registration": "2281"
+      },
+      "A2": {
+        "id": "p-764",
+        "label": "ΚΑΡΑΚΑΝΤΑΣ",
+        "registration": "764"
+      },
+      "X0": {
+        "id": "p-1980",
+        "label": "ΣΤΕΦΑΝΟΠΟΥΛΟΣ",
+        "registration": "1980"
+      },
+      "X1": {
+        "id": "p-1981",
+        "label": "ΝΙΑΟΥΝΑΚΗΣ",
+        "registration": "1981"
+      },
+      "X2": {
+        "id": "p-1983",
+        "label": "ΜΟΥΡΙΚΗΣ",
+        "registration": "1983"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      }
+    ],
+    "notes": "Sheet year is written 1926 in error; the 2025-26 season and six matching results dated 2026-04-27 establish the date."
+  },
+  "http://files.ping-pong.gr/FA25-26/AP1-MAN.jpg": {
+    "sha256": "d500ad281bd08749080716aeeaf67bb840b4e8c99f433b3363fc7513fd7e072a",
+    "fixture": "f-fae1239f1297a3d4",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-23",
+    "team_score": [
+      3,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-1331",
+        "label": "ΠΑΠΑΒΑΣΙΛΕΙΟΥ",
+        "registration": "1331"
+      },
+      "A1": {
+        "id": "p-2244",
+        "label": "ΣΚΟΥΡΗΣ",
+        "registration": "2244"
+      },
+      "A2": {
+        "id": "p-738",
+        "label": "ΧΡΥΣΑΝΘΟΠΟΥΛΟΣ",
+        "registration": "738"
+      },
+      "X0": {
+        "id": "p-532",
+        "label": "ΚΑΝΔΗΡΑΚΗΣ Ι.",
+        "registration": "532"
+      },
+      "X1": {
+        "id": "p-1083",
+        "label": "ΜΥΛΩΝΑΣ",
+        "registration": "1083"
+      },
+      "X2": {
+        "id": "p-1904-d601f9e6",
+        "label": "SHI LEI",
+        "registration": "1904"
+      },
+      "A-sub-p-612": {
+        "id": "p-612",
+        "label": "ΔΑΜΑΣΚΗΝΟΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A-sub-p-612",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      }
+    ],
+    "notes": "Row 8 explicitly substitutes ΔΑΜΑΣΚΗΝΟΣ (612)."
+  },
+  "http://files.ping-pong.gr/FA25-26/ILR-SF2.jpg": {
+    "sha256": "1d217c1dfd0d6d0a0c7893df927997df00ba6cab04f2b5b2862b6bf6b9c8a2b3",
+    "fixture": "f-d78b40269faa8af3",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-29",
+    "team_score": [
+      2,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2681",
+        "label": "ΠΑΥΛΑΚΟΣ Θ.",
+        "registration": "2681"
+      },
+      "A1": {
+        "id": "p-1111",
+        "label": "ΚΛΕΙΔΑΣ ΤΡ.",
+        "registration": "1111"
+      },
+      "A2": {
+        "id": "p-1366",
+        "label": "ΤΣΑΚΑΣ Δ.",
+        "registration": "1366"
+      },
+      "X0": {
+        "id": "p-2257",
+        "label": "ΚΟΚΑ",
+        "registration": "2257"
+      },
+      "X1": {
+        "id": "p-2116",
+        "label": "ΛΙΝΟΣ",
+        "registration": "2116"
+      },
+      "X2": {
+        "id": "p-509",
+        "label": "ΘΑΝΟΣ",
+        "registration": "509"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      }
+    ],
+    "notes": "The final summary box is blank, but row 7 team totals explicitly reach 2-5, matching the team fixture."
+  },
+  "http://files.ping-pong.gr/FA25-26/ATB-PGM.jpg": {
+    "sha256": "24d7d25af24266371d6fd682ae73426fe06d85637fc64c22ce0e7b90baf5f976",
+    "fixture": "f-8c4bd0c2835cfbcd",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-22",
+    "team_score": [
+      5,
+      2
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2061",
+        "label": "ΠΑΠΑΝΤΩΝΙΟΥ",
+        "registration": "2061"
+      },
+      "A1": {
+        "id": "p-2060",
+        "label": "ΒΑΧΛΑΣ",
+        "registration": "2060"
+      },
+      "A2": {
+        "id": "p-2364",
+        "label": "ΝΤΑΤΗΣ",
+        "registration": "2364"
+      },
+      "X0": {
+        "id": "p-339",
+        "label": "ΚΟΤΣΑΜΠΑΣΑΚΗΣ",
+        "registration": "339"
+      },
+      "X1": {
+        "id": "p-289",
+        "label": "ΚΑΤΣΙΕΡΗΣ",
+        "registration": "289"
+      },
+      "X2": {
+        "id": "p-1476",
+        "label": "ΣΤΑΜΑΤΙΟΥ",
+        "registration": "1476"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/YPG-D06.jpg": {
+    "sha256": "a2e297e6e261b6be138f0e20e1d7db654ee98753a351aa72e98a3b5c13c0faa4",
+    "fixture": "f-5200954b9e71ebba",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-21",
+    "team_score": [
+      5,
+      0
+    ],
+    "players": {
+      "A0": {
+        "id": "p-292",
+        "label": "ΣΙΝΟΥΡΗΣ",
+        "registration": "292"
+      },
+      "A1": {
+        "id": "p-1542",
+        "label": "ΠΟΤΗΡΗΣ",
+        "registration": "1542"
+      },
+      "A2": {
+        "id": "p-1302",
+        "label": "ΑΜΕΡΙΚΑΝΟΣ",
+        "registration": "1302"
+      },
+      "X0": {
+        "id": "p-417",
+        "label": "ΑΝΘΟΠΟΥΛΟΣ",
+        "registration": "417"
+      },
+      "X1": {
+        "id": "p-413",
+        "label": "ΜΑΡΙΝΟΣ",
+        "registration": "413"
+      },
+      "X2": {
+        "id": "p-414",
+        "label": "ΒΑΣΑΓΙΑΝΝΗΣ",
+        "registration": "414"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/INS-EFR.jpg": {
+    "sha256": "96c5a86f88356d64ffc2ef8223fc941845de140236a07f0262854a03597368dc",
+    "fixture": "f-151cb5fd72920c3d",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-24",
+    "team_score": [
+      0,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-747",
+        "label": "ΣΟΚΟΡΕΛΗΣ",
+        "registration": "747"
+      },
+      "A1": {
+        "id": "p-970",
+        "label": "ΡΕΠΑΝΙΔΗΣ",
+        "registration": "970"
+      },
+      "A2": {
+        "id": "p-1602",
+        "label": "ΑΝΑΓΝΩΣΤΟΥ",
+        "registration": "1602"
+      },
+      "X0": {
+        "id": "p-1913",
+        "label": "ΜΑΝΩΛΑΡΟΣ",
+        "registration": "1913"
+      },
+      "X1": {
+        "id": "p-1914",
+        "label": "ΜΙΣΙΡΛΗΣ",
+        "registration": "1914"
+      },
+      "X2": {
+        "id": "p-1915",
+        "label": "ΠΑΣΣΙΟΣ",
+        "registration": "1915"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/MK3-ADV.jpg": {
+    "sha256": "85e24a72dd69cb30ef5de1f92183e4a5efc7c7725884a5960dd6192a2abc60db",
+    "fixture": "f-1690c2b74775067b",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-29",
+    "team_score": [
+      1,
+      5
+    ],
+    "players": {
+      "A0": {
+        "id": "p-519",
+        "label": "ΣΑΛΩΜ",
+        "registration": "519"
+      },
+      "A1": {
+        "id": "p-710",
+        "label": "ΜΠΕΝΑΡΝΤΟΥΤ",
+        "registration": "710"
+      },
+      "A2": {
+        "id": "p-709",
+        "label": "ΤΡΕΒΕΖΑΣ",
+        "registration": "709"
+      },
+      "X0": {
+        "id": "p-2409",
+        "label": "ΚΩΣΤΟΠΟΥΛΟΣ",
+        "registration": "2409"
+      },
+      "X1": {
+        "id": "p-2224",
+        "label": "ΠΑΠΑΤΖΙΚΟΣ",
+        "registration": "2224"
+      },
+      "X2": {
+        "id": "p-1930",
+        "label": "ΠΑΠΠΑΣ",
+        "registration": "1930"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      }
+    ],
+    "notes": ""
+  },
+  "http://files.ping-pong.gr/FA25-26/TNX-5ST.jpg": {
+    "sha256": "8007a0f38a63daeec2e5dbf57e489fc6031f5145055c4c7c88345ac5db8c178f",
+    "fixture": "f-dbbb805ea7642d33",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-24",
+    "team_score": [
+      5,
+      4
+    ],
+    "players": {
+      "A0": {
+        "id": "p-492",
+        "label": "ΠΕΡΓΑΛΗΣ"
+      },
+      "A1": {
+        "id": "p-454",
+        "label": "ΠΑΣΧΑΛΙΔΗΣ",
+        "registration": "454"
+      },
+      "A2": {
+        "id": "p-458",
+        "label": "ΠΑΠΑΪΩΑΝΝΟΥ",
+        "registration": "458"
+      },
+      "X0": {
+        "id": "p-3",
+        "label": "ΧΕΛΒΑΤΖΙΑΝ",
+        "registration": "3"
+      },
+      "X1": {
+        "id": "p-76",
+        "label": "ΣΤΑΘΑ",
+        "registration": "76"
+      },
+      "X2": {
+        "id": "p-77",
+        "label": "ΓΕΡΟΓΙΑΝΝΗΣ",
+        "registration": "77"
+      },
+      "X-sub-p-187": {
+        "id": "p-187",
+        "label": "ΦΥΛΑΚΟΥΡΗ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          2
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X-sub-p-187"
+        ],
+        "score": [
+          1,
+          3
+        ]
+      },
+      {
+        "row": 9,
+        "players": [
+          "A0",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": "Row 8 explicitly substitutes ΦΥΛΑΚΟΥΡΗ (187). ΠΕΡΓΑΛΗΣ has inconsistent printed registration 462; the unique name/team and all three same-day workbook results identify p-492."
+  },
+  "http://files.ping-pong.gr/FA25-26/S7J-ILM.jpg": {
+    "sha256": "71f43d7da1c38b0c5b34d74ac88afcfa9750c47db7c35682e37d368bab5fd954",
+    "fixture": "f-3d659ca18e736ae9",
+    "reviewed_at": "2026-11-26",
+    "date": "2026-04-30",
+    "team_score": [
+      5,
+      4
+    ],
+    "players": {
+      "A0": {
+        "id": "p-2324",
+        "label": "ΜΑΡΓΕΛΗ Ο.",
+        "registration": "2324"
+      },
+      "A1": {
+        "id": "p-2449",
+        "label": "ΓΚΙΑΛΙΔΗΣ Ν.",
+        "registration": "2449"
+      },
+      "A2": {
+        "id": "p-1145-8f960397",
+        "label": "ΛΑΝΙΤΗΣ Τ.",
+        "registration": "1145"
+      },
+      "X0": {
+        "id": "p-2072",
+        "label": "ΙΣΑΡΗΣ Δ.",
+        "registration": "2072"
+      },
+      "X1": {
+        "id": "p-2070",
+        "label": "ΣΟΛΟΥΚΟΣ ΑΘ.",
+        "registration": "2070"
+      },
+      "X2": {
+        "id": "p-2818",
+        "label": "ΠΑΥΛΑΚΟΣ Π.",
+        "registration": "2818"
+      },
+      "X-sub-p-2071": {
+        "id": "p-2071",
+        "label": "ΣΤΑΘΟΠΟΥΛΟΣ"
+      }
+    },
+    "rows": [
+      {
+        "row": 1,
+        "players": [
+          "A0",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 2,
+        "players": [
+          "A1",
+          "X1"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 3,
+        "players": [
+          "A2",
+          "X2"
+        ],
+        "score": [
+          2,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "players": [
+          "A1",
+          "X0"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 5,
+        "players": [
+          "A0",
+          "X2"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      },
+      {
+        "row": 6,
+        "players": [
+          "A2",
+          "X1"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 7,
+        "players": [
+          "A1",
+          "X2"
+        ],
+        "score": [
+          3,
+          1
+        ]
+      },
+      {
+        "row": 8,
+        "players": [
+          "A2",
+          "X-sub-p-2071"
+        ],
+        "score": [
+          0,
+          3
+        ]
+      },
+      {
+        "row": 9,
+        "players": [
+          "A0",
+          "X1"
+        ],
+        "score": [
+          3,
+          0
+        ]
+      }
+    ],
+    "notes": "Row 8 explicitly substitutes ΣΤΑΘΟΠΟΥΛΟΣ (2071). ΛΑΝΙΤΗΣ Τ. registration 1145 resolves to the contemporary SEN 7 athlete and matching workbook results; no profile is created."
   }
 }

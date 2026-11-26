@@ -678,5 +678,101 @@
     "reason": "unclear_date",
     "details": "The May 2026 day in the ΠΑΝΘΗΡΕΣ–ΑΚΕΖ AVENGERS sheet is heavily overwritten and cannot be confidently read. Six results are legible but require a verified date before import.",
     "details_el": "Η ημέρα του Μαΐου 2026 στο φύλλο ΠΑΝΘΗΡΕΣ–ΑΚΕΖ AVENGERS είναι διορθωμένη και δυσανάγνωστη. Τα έξι αποτελέσματα χρειάζονται επαληθευμένη ημερομηνία πριν εισαχθούν."
+  },
+  "http://files.ping-pong.gr/FA25-26/KVE-TTV.jpg": {
+    "fixture": "f-1dc0ae8dbad40f86",
+    "sha256": "6925c6fb07cb33aceec628649e8df1262a70571d259bbef263165ad2e4a392bd",
+    "reviewed_at": "2026-11-26",
+    "reason": "missing_date",
+    "details": "The date field is entirely blank. Seven player pairings and scores correspond to workbook 29 May 2026, but the source sheet provides no actual date; do not infer it from the round or workbook.",
+    "details_el": "Το πεδίο ημερομηνίας είναι κενό. Τα επτά αποτελέσματα αντιστοιχούν στο βιβλίο στις 29 Μαΐου 2026, αλλά το φύλλο δεν επιβεβαιώνει την ημερομηνία."
+  },
+  "http://files.ping-pong.gr/FA25-26/PET-SPC.jpg": {
+    "fixture": "f-ddab33214d4bb570",
+    "sha256": "0ecaf281d2b0782e98fbe173997dfb0da7a1e8fd91053e2a4a6ff6e03e8edc14",
+    "reviewed_at": "2026-11-26",
+    "reason": "missing_date",
+    "details": "The date field is blank. Eight workbook results appear 7 May 2026 but no source date can be transcribed. Row 8 also has written 3-1 while four game scores do not reconcile.",
+    "details_el": "Το πεδίο ημερομηνίας είναι κενό. Τα οκτώ αποτελέσματα εμφανίζονται στο βιβλίο στις 7 Μαΐου 2026. Επιπλέον, στο όγδοο αποτέλεσμα τα σετ δεν συμφωνούν με το αναγραφόμενο 3–1."
+  },
+  "http://files.ping-pong.gr/FA25-26/P4A-ELE.jpg": {
+    "fixture": "f-df74b7d83fc07a60",
+    "sha256": "ae862759a5ba9e9a5b5d33af8b18a16902c8dedacf5c3c3d8c4c81a62efd23ca",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "Sheet date is 6 May 2026; all nine corresponding workbook results are 5 May 2026. Rows 2/4/7 have blank game and score cells despite advances in the away team total. Held to avoid cross-date duplicates and guessing whether those were played.",
+    "details_el": "Το φύλλο αναφέρει 6 Μαΐου 2026, ενώ οι εννέα αντίστοιχοι αγώνες του βιβλίου είναι στις 5 Μαΐου 2026. Οι γραμμές 2/4/7 δεν έχουν σετ ή ατομικό σκορ. Απαιτείται διευκρίνιση."
+  },
+  "http://files.ping-pong.gr/FA25-26/PLN-FLEpo.jpg": {
+    "fixture": "f-18bc16a3d35c0f8e",
+    "sha256": "3a042818461c4fafb626af503bf07a03dd1674632a82333783f68557145b739b",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "The 18 April 2026 sheet row 8 ΓΙΑΚΟΜΙΔΗΣ–ΚΟΥΤΡΙΟΣ is written 2-3, but five recorded games (9-11,5-11,11-9,8-11,10-12) give only one home win and four away wins. Held for correction of the contradictory game scores.",
+    "details_el": "Στις 18 Απριλίου 2026, το όγδοο αποτέλεσμα ΓΙΑΚΟΜΙΔΗΣ–ΚΟΥΤΡΙΟΣ αναγράφεται 2–3, αλλά τα πέντε καταγεγραμμένα σετ δεν το υποστηρίζουν. Απαιτείται διευκρίνιση."
+  },
+  "http://files.ping-pong.gr/FA25-26/V3V-RDL.jpg": {
+    "fixture": "f-b122d06c544d0efc",
+    "sha256": "3b2828d4e34744ed062622f054c889078e6d7ad7b785ac63643178b5610d9d0d",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_participant",
+    "details": "The 15 May 2026 sheet labels home A ΠΛΑΚΑΝΤΩΝΑΚΗΣ Δ., while the matching workbook/catalog athlete is ΣΤΑΥΡΟΣ (p-1). Home B ΜΑΡΤΟΣ Θ. is written with registration 2717 (catalog ΝΙΚΟΛΑΪΔΗΣ ΟΡΕΣΤΗΣ), whereas ΜΑΡΤΟΣ ΘΕΟΔΩΡΟΣ is 2707. Held pending identity clarification rather than silently changing the initial and registration.",
+    "details_el": "Στο φύλλο 15 Μαΐου 2026 αναγράφεται ΠΛΑΚΑΝΤΩΝΑΚΗΣ Δ., ενώ το βιβλίο αντιστοιχεί στον ΣΤΑΥΡΟ. Ο ΜΑΡΤΟΣ Θ. έχει γραμμένο ΔΑΙ 2717 αντί 2707. Απαιτείται διευκρίνιση ταυτότητας."
+  },
+  "http://files.ping-pong.gr/FA25-26/DIO-ART.jpg": {
+    "fixture": "f-269b993abb63a0b0",
+    "sha256": "504b332f021f55658e7b914a06a35d81c656f6a4145681428323e4867ad96264",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "28 April 2026 row 5 ΔΑΣΚΑΛΟΠΟΥΛΟΣ–ΜΑΝΩΛΟΠΟΥΛΟΣ is written 3-2 but four games 9-11,11-3,11-9,11-5 give 3-1, matching the workbook. Held for score clarification.",
+    "details_el": "Το πέμπτο αποτέλεσμα ΔΑΣΚΑΛΟΠΟΥΛΟΣ–ΜΑΝΩΛΟΠΟΥΛΟΣ αναγράφεται 3–2, αλλά τα τέσσερα σετ και το βιβλίο υποστηρίζουν 3–1. Απαιτείται διευκρίνιση."
+  },
+  "http://files.ping-pong.gr/FA25-26/S7T-KLP.jpg": {
+    "fixture": "f-d800da38405d9c76",
+    "sha256": "a62bdc7a0ccfec7f67dddd41653a05267f5367157f281fb59d13096686199338",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_substitution",
+    "details": "22 April 2026 sheet includes a handwritten reserve surname followed by ΑΛΛΑΓΗ, but no row identifies that player; all eight rows name the original trio. The conflicting substitution note requires clarification before attaching the sheet to individual results.",
+    "details_el": "Το φύλλο 22 Απριλίου 2026 περιέχει σημείωση αλλαγής χωρίς σαφή αντιστοίχιση σε γραμμή αγώνα. Απαιτείται διευκρίνιση του αθλητή που αγωνίστηκε."
+  },
+  "http://files.ping-pong.gr/FA25-26/RSN-PST.jpg": {
+    "fixture": "f-b6fe64fe6a6f8258",
+    "sha256": "371d716d92fd1818d1e13f8f84b7f0c7d812d0274b31b2a7eea69f71223031fc",
+    "reviewed_at": "2026-11-26",
+    "reason": "unclear_substitution",
+    "details": "24 April 2026 ROSSONERI–ΠΙΝΓΚΠΟΝΙΣΤΕΣ explicitly notes an away substitution ΚΡΙΑΡΑΣ 1039, but all seven rows retain the original away trio. Home substitution ΓΛΑΒΑΣ 5 is clear in row 5. Held pending identification of any away substituted rubber.",
+    "details_el": "Στις 24 Απριλίου 2026 σημειώνεται αλλαγή ΚΡΙΑΡΑΣ 1039 για τους ΠΙΝΓΚΠΟΝΙΣΤΕΣ χωρίς αντίστοιχη γραμμή αγώνα. Η αλλαγή ΓΛΑΒΑΣ 5 των ROSSONERI είναι σαφής. Απαιτείται διευκρίνιση της φιλοξενούμενης σύνθεσης."
+  },
+  "http://files.ping-pong.gr/FA25-26/PPA-ILN.jpg": {
+    "fixture": "f-9e81738fcd331c95",
+    "sha256": "44a045d2759da0f67528f394e13fa49aec408df413fa2f8993b4fed6d2a8dd45",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "21 April 2026 row 1 ΤΡΙΜΠΟΥΝΑΣ–ΧΙΟΝΗΣ is written 2–3 but only four games 11-7,11-13,7-11,8-11 are recorded, supporting workbook 1–3. Row 4 also has four home-winning games against a 3–0 total. Requires source-score clarification.",
+    "details_el": "Το πρώτο αποτέλεσμα ΤΡΙΜΠΟΥΝΑΣ–ΧΙΟΝΗΣ αναγράφεται 2–3, ενώ τα τέσσερα σετ και το βιβλίο δίνουν 1–3. Στη γραμμή 4 υπάρχουν τέσσερα νικηφόρα σετ για σκορ 3–0. Απαιτείται διευκρίνιση."
+  },
+  "http://files.ping-pong.gr/FA25-26/EFR-PAO.jpg": {
+    "fixture": "f-a18badca823fa72f",
+    "sha256": "4b475b646e8f5ce06fa411e29ca44dc786ee5aaeafc506e7089b628f5ea0a588",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 3 (ΠΑΡΑΣΚΕΥΑΣ–RUNTUKAHU DAVID) records 0-3, corroborated by the workbook, but its three entered games are 8-11, 9-11 and 11-3: a home game win contradicts the recorded straight-games loss. The sheet cannot independently corroborate this complete rubber as written. No workbook result was changed.",
+    "details_el": "Η γραμμή 3 (ΠΑΡΑΣΚΕΥΑΣ–RUNTUKAHU DAVID) γράφει 0-3, όπως και το αρχείο αποτελεσμάτων, αλλά τα τρία καταχωρισμένα σετ είναι 8-11, 9-11 και 11-3. Το κερδισμένο σετ του γηπεδούχου αντιφάσκει με το 0-3. Δεν τροποποιήθηκε αποτέλεσμα του αρχείου."
+  },
+  "http://files.ping-pong.gr/FA25-26/MK2-SUP.jpg": {
+    "fixture": "f-388d962bd0e62248",
+    "sha256": "56eabd051374f816b35e734bf3a94006d684f58df9894965c70d3434001b29ea",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΤΑΡΑΜΠΟΥΛΟΥΣ Ζ. is written with registration 2662. No registered catalog profile 2662 exists. The existing same-day workbook athlete u-091978749 de 8289 a (ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ) has no contemporary ranking proof or earlier result required for identity verification; separate same-name provisional profiles cannot be merged without evidence. No new profile was invented.",
+    "details_el": "Ο ΤΑΡΑΜΠΟΥΛΟΥΣ Ζ. αναγράφεται με αριθμό 2662, χωρίς αντίστοιχο καταχωρισμένο προφίλ. Το προσωρινό προφίλ u-091978749 de 8289 a (ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ) των αποτελεσμάτων της ίδιας ημέρας δεν διαθέτει σύγχρονη κατάταξη ή παλαιότερο αποτέλεσμα για επαλήθευση ταυτότητας. Δεν συγχωνεύθηκαν συνώνυμα προσωρινά προφίλ ούτε δημιουργήθηκε νέο."
+  },
+  "http://files.ping-pong.gr/FA25-26/ATT-ES5.jpg": {
+    "fixture": "f-494a018844879034",
+    "sha256": "458a99a2de87e16966395f0f5494546e787f72b845aa397a495c7ac349f08c03",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_score",
+    "details": "Row 7 (ΤΣΟΥΛΧΑΣ–ΣΑΛΑΜΑΛΙΚΗΣ) explicitly records 0-3, but four game scores 8-11,17-15,6-11,11-13 indicate 1-3, which is also the workbook result. The sheet total 17-12 uses the erroneous 0-3. No workbook result was overwritten.",
+    "details_el": "Η γραμμή 7 (ΤΣΟΥΛΧΑΣ–ΣΑΛΑΜΑΛΙΚΗΣ) γράφει 0-3, αλλά τα τέσσερα σετ 8-11,17-15,6-11,11-13 δίνουν 1-3, όπως και το αρχείο αποτελεσμάτων. Το συνολικό 17-12 χρησιμοποιεί το λανθασμένο 0-3. Δεν αντικαταστάθηκε αποτέλεσμα του αρχείου."
   }
 }
