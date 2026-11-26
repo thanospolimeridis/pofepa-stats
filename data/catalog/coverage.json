@@ -143,8 +143,8 @@
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
- "fixtures": 18227,
- "reported_fixtures": 15170,
+ "fixtures": 18774,
+ "reported_fixtures": 15517,
  "ranking_rows": 742275,
  "events": 913,
  "match_date_min": "2011-10-26",
@@ -646,18 +646,8 @@
    "parsed_fixtures": 2
   },
   {
-   "label": "Ε ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ - Α' ΟΜΙΛΟΣ 2024-2025",
-   "url": "https://www.pofepa.gr/2024-25-e1.html",
-   "reason": "no_supported_fixture_table"
-  },
-  {
    "label": "Play offs",
    "url": "http://files.ping-pong.gr/2024-2025/PLAY-OFF-ATTIKH-2024-2025.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "ΘΕΣΣΑΛΙΑ 2024-2025",
-   "url": "https://www.pofepa.gr/2024-25-thessaly.html",
    "reason": "no_supported_fixture_table"
   },
   {
@@ -926,11 +916,6 @@
   {
    "label": "Play offs",
    "url": "http://files.ping-pong.gr/2020-2021/DRAW-PLAYOFF-ATTIKI-2020-2022.pdf",
-   "reason": "no_supported_fixture_table"
-  },
-  {
-   "label": "2019-20 PELOP",
-   "url": "https://www.pofepa.gr/2019-20-pelop.html",
    "reason": "no_supported_fixture_table"
   },
   {

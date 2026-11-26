@@ -150,6 +150,11 @@ class HistoricalTests(unittest.TestCase):
         bad = html.replace('5-1<br>2-5', '2-5')
         self.assertEqual(parse_fixture_tables(bad, 'source', 'https://www.pofepa.gr/test.html', 'event'), [])
 
+    def test_explicit_blank_bye_score_preserves_following_result(self):
+        html = '<h2>1η Αγωνιστική</h2><table><tr><td>A<br>B</td><td>-</td><td>XXX<br>C</td><td><br>5-2<br></td></tr></table>'
+        rows = parse_fixture_tables(html, 'source', 'https://www.pofepa.gr/test.html', 'event')
+        self.assertEqual([(r['home'], r['away'], r['score']) for r in rows], [('A', 'XXX', None), ('B', 'C', [5, 2])])
+
     def test_full_linked_workbook_archive_is_accounted_for(self):
         d = DatasetTests.data
         self.assertEqual(len(d['coverage']['workbook_inventory']), 270)

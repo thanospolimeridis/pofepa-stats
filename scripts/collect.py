@@ -172,17 +172,44 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
             cells = rows[0].find_all('td', recursive=False)
             if len(rows) != 1 or len(cells) < 4:
                 continue
-            def lines(cell):
+            def lines(cell, preserve_blank=False):
                 copy = BeautifulSoup(str(cell), 'html.parser')
                 for br in copy.find_all('br'):
-                    br.insert_before('\n')
-                return [clean(line) for line in re.split(r'\n| {5,}|\xa0{3,}', copy.get_text()) if clean(line)]
-            columns = [lines(c) for c in cells[:4]]
-            if not columns[0] or not all(len(c) == len(columns[0]) for c in columns) or any(x not in ('-', '–', '—') for x in columns[1]):
+                    br.insert_before('\x1e')
+                output = []
+                for segment in copy.get_text().split('\x1e'):
+                    pieces = [clean(line) for line in re.split(r'\n| {5,}|\xa0{3,}', segment) if clean(line)]
+                    output.extend(pieces or ([''] if preserve_blank else []))
+                return output
+            offset = 0
+            first_column = lines(cells[0])
+            if len(cells) >= 5 and first_column and all(re.fullmatch(r'\d{1,2}/\d{1,2}/\d{4}', value) for value in first_column):
+                offset = 1  # A separate date column precedes the team columns.
+            home_lines, away_lines = lines(cells[offset], True), lines(cells[offset + 2], True)
+            for values in (home_lines, away_lines):
+                while values and not values[-1]:
+                    values.pop()
+            score_lines = lines(cells[offset + 3], True)
+            compact_home, compact_away = list(filter(None, home_lines)), list(filter(None, away_lines))
+            candidates = [(compact_home, compact_away, score_lines), (home_lines, away_lines, score_lines),
+                          (compact_home, compact_away, list(filter(None, score_lines)))]
+            columns = None
+            if any(x not in ('-', '–', '—') for x in lines(cells[offset + 1])):
+                continue
+            for homes, aways, results in candidates:
+                results = list(results)
+                while len(results) > len(homes) and not results[-1]:
+                    results.pop()
+                if homes and len(homes) == len(aways) == len(results):
+                    columns = [homes, [], aways, results]
+                    break
+            if columns is None:
                 continue
             heading = table.find_previous(['h2', 'h3'])
             round_name = clean(heading.get_text(' ')) if heading else ''
-            for row_index, (home, _, away, result) in enumerate(zip(*columns), 1):
+            for row_index, (home, away, result) in enumerate(zip(columns[0], columns[2], columns[3]), 1):
+                if not home or not away:
+                    continue
                 score = re.match(r'^(\d+)\s*[-–:]\s*(\d+)(?:\s|$)', result)
                 fixtures.append({'id': uid('f-', f'{event_id}:{table_index}:{row_index}'), 'event': event_id,
                     'home': home, 'away': away, 'score': [int(score[1]), int(score[2])] if score else None,

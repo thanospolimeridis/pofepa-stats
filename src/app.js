@@ -183,7 +183,7 @@ window.pofepaReady = (async () => {
   async function exportData(kind,id){let content,mime,filename;
     if(kind==='data'){content=JSON.stringify(db.lazy?await fetchData('data/catalog.json.gz'):db);mime='application/json';filename='pofepa-data.json';}
     else{let rows=kind==='player'?(matchesByPlayer.get(id)||[]).filter(m=>!param('season')||events.get(m.event).season===param('season')):db.lazy?await fetchData('data/matches.json.gz'):db.matches;
-      if(kind==='matches'&&current.name==='matches')rows=rows.filter(m=>(!param('event')||m.event===param('event'))&&(!param('region')||(m.regions||[m.region]).includes(param('region')))&&search(m.names.join(' '),param('q')));
+      if(kind==='matches'&&current.name==='matches')rows=rows.filter(m=>(!param('season')||events.get(m.event).season===param('season'))&&(!param('event')||m.event===param('event'))&&(!param('region')||(m.regions||[m.region]).includes(param('region')))&&search(m.names.join(' '),param('q')));
       const quote=v=>'"'+String(v??'').replace(/^[=+@-]/,"'$&").replace(/"/g,'""')+'"';
       content='\ufeff'+[['date','player_1','player_2','games_1','games_2','event','region','source','sheet_row','identity_1','identity_2'],...rows.map(m=>[m.date,...m.names,...m.score,events.get(m.event).name,m.region,sources.get(m.source).url,m.row,...m.identity])].map(r=>r.map(quote).join(',')).join('\r\n');mime='text/csv;charset=utf-8';filename='pofepa-matches.csv';}
     const url=URL.createObjectURL(new Blob([content],{type:mime})),a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
