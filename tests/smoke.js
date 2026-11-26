@@ -14,7 +14,7 @@ const manifest=JSON.parse(fs.readFileSync('dist/index.html','utf8').match(/<scri
 db.version='test';db.ranking_index='https://www.pofepa.gr/';
 const event=db.events.find(e=>e.kind==='singles'), fixtureEvent=db.events.find(e=>e.kind==='fixtures');
 const routes=['home','rankings','rankings?region=north&class=BET&age=40-49','rankings?region=south&class=ANE&age=70%2B','rankings?class=WOMEN','rankings?class=GENERAL','rankings?region=nonsense','players','players?q=polymeridis','players?q=nevermatch123','player/p-859','player/p-859?region=north','player/missing','matches','matches?view=teams&status=reported','matches?view=teams&status=scheduled','events','event/'+event.id,'event/'+fixtureEvent.id,'teams','team/'+db.clubs[0].id,'h2h','h2h?p1=p-859&p2=p-7','h2h?p1=p-859&p2=p-859','about','bad-route'];
-routes.push('player/p-1912','player/p-2926','player/p-313');
+routes.push('player/p-1912','player/p-2926','player/p-313','player/p-1692');
 (async()=>{
 for(const language of ['el','en']) for(const route of routes){
   const app={innerHTML:'',addEventListener(){}},skip={addEventListener(){}},requests=[];
@@ -29,7 +29,18 @@ for(const language of ['el','en']) for(const route of routes){
   const fixtureRoute=route==='teams'||route.startsWith('team/')||route.startsWith('matches?view=teams')||route==='event/'+fixtureEvent.id;
   assert.equal(requests.includes('data/fixtures.json.gz'),fixtureRoute,route+' fixture download scope');
   assert.equal(requests.includes('data/about.json.gz'),route==='about',route+' source-report download scope');
-  if(route.startsWith('player/p-859')){assert(!app.innerHTML.includes('data-filter="region"'));assert(!app.innerHTML.includes('data-filter="list"'));assert(app.innerHTML.includes('data-page-key="rpage"'));}
+  if(route.startsWith('player/p-859')){assert(!app.innerHTML.includes('data-filter="region"'));assert(!app.innerHTML.includes('data-filter="list"'));assert(app.innerHTML.includes('id="athlete-rankings"'));assert(!app.innerHTML.includes('data-page-key="rpage"'));assert(!app.innerHTML.includes('All rankings'));assert(!app.innerHTML.includes('Όλες οι κατατάξεις'));}
+  if(route==='player/p-1692'){
+    const charts=[...app.innerHTML.matchAll(/<svg class="chart"[\s\S]*?<\/svg>/g)];
+    assert.equal(charts.length,1,'Athlete history must use one combined chart');
+    const player=db.players.find(p=>p.id==='p-1692');
+    const history=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/'+player.archive)))[player.id].history;
+    const records=history.map(([id,row])=>({snapshot:db.snapshots.find(s=>s.id===id),points:row[2]})).filter(h=>h.snapshot.list==='ΓΕΝΙΚΟΣ'&&h.points!==null);
+    assert(new Set(records.map(h=>h.snapshot.region)).size>1,'Fixture must cover multiple source regions');
+    const unique=new Set(records.map(h=>JSON.stringify([h.snapshot.period,h.points])));
+    assert.equal((charts[0][0].match(/<circle /g)||[]).length,unique.size,'Preserve distinct points and collapse only identical month/value pairs');
+    assert(!app.innerHTML.includes('<h3>'),'Combined chart must have no regional or national subheadings');
+  }
   if(route==='rankings?region=north&class=BET&age=40-49')assert(app.innerHTML.includes('ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ'));
 }
 console.log(`Passed domain checks and ${routes.length*2} route/language renders.`);
