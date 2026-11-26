@@ -510,5 +510,21 @@
     "reason": "conflicting_date",
     "details": "The sheet reads 21 October 2026, but all eight exact player pairs and scores already exist in the workbook on 2 October 2026. Held to avoid duplicating an entire team match under a different date.",
     "details_el": "Το φύλλο αναγράφει 21/10/2026, αλλά και τα οκτώ ίδια αποτελέσματα υπάρχουν στο βιβλίο στις 2/10/2026. Χρειάζεται επιβεβαίωση ημερομηνίας για να μην προστεθούν διπλοί αγώνες."
+  },
+  "http://files.ping-pong.gr/FA26-27/MB2-HGH.jpg": {
+    "fixture": "f-bb0ee2e69b91cf7b",
+    "sha256": "45764a0f0faed81d824fd2e7d7a7b8c2b924851206af22c6aba1d4b5b68f3008",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ is represented only by a provisional workbook profile without a contemporary ranking or earlier result for that exact profile. The sheet writes registration 2662, absent from the registered-player catalog. Held pending identity confirmation.",
+    "details_el": "Ο ΤΑΡΑΜΠΟΥΛΟΥΣ ΖΑΚ έχει προσωρινό προφίλ χωρίς σύγχρονη κατάταξη ή προηγούμενο αγώνα. Ο χειρόγραφος αριθμός 2662 δεν αντιστοιχεί σε καταχωρισμένο αθλητή."
+  },
+  "http://files.ping-pong.gr/FA26-27/AP11-5ST.jpg": {
+    "fixture": "f-e227aa1352c30af2",
+    "sha256": "14ca573faa0257c7f646a04fa87d0cc8c24eccfdaeb0f1ef2f386a4f6a2bf0a8",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_date",
+    "details": "The sheet appears dated 28 September 2026, while all nine matching workbook pairs and scores are dated 28 October 2026. Held to avoid duplicating the same team encounter under a different date.",
+    "details_el": "Το φύλλο φαίνεται να αναγράφει 28/9/2026, ενώ και τα εννέα ίδια αποτελέσματα στο βιβλίο έχουν ημερομηνία 28/10/2026. Χρειάζεται επιβεβαίωση ημερομηνίας."
   }
 }
