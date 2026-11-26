@@ -2,7 +2,7 @@
 
 ## Prototype updates — 2026-11-26
 
-- Retain historical match-sheet links and add 427 reviewed November singles to athlete pages, with substitutions, walkover exclusions and visible import progress. Corroborate 39 existing October results and record 35 sheets needing clarification separately.
+- Retain historical match-sheet links and add 497 reviewed singles to athlete pages, with substitutions, walkover exclusions and visible import progress. Corroborate 63 existing October results and record 40 sheets needing clarification separately.
 
 - Review 124 PDFs and seven images; add 1,601 team results, preserve document evidence and disclose contradictory source labels.
 - Confirm three existing singles from the handwritten final, retain its doubles result, and show document coverage on the sources page.

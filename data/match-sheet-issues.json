@@ -278,5 +278,45 @@
     "reason": "ambiguous_existing_rows",
     "details": "The first-row 0–3 match occurs twice in the October workbook (rows 199 and 204). Preserve existing rows and hold reconciliation until the duplicate is resolved.",
     "details_el": "Ο πρώτος αγώνας 0–3 υπάρχει δύο φορές στο Excel Οκτωβρίου (γραμμές 199 και 204). Οι υπάρχουσες γραμμές διατηρούνται μέχρι να αποσαφηνιστεί το διπλότυπο."
+  },
+  "http://files.ping-pong.gr/FA26-27/INS-DSH.jpg": {
+    "fixture": "f-19da766f3f2a4805",
+    "sha256": "3e1ec55da9f83789b9e34ff48d58ccc19dbdd12978dd42a163c3714245a62d46",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The low-resolution third home name and registration cannot be matched confidently to an existing profile.",
+    "details_el": "Το τρίτο όνομα και ο αριθμός της γηπεδούχου δεν ταυτοποιούνται με βεβαιότητα στην εικόνα χαμηλής ανάλυσης."
+  },
+  "http://files.ping-pong.gr/FA26-27/BSB-SF1.jpg": {
+    "fixture": "f-b4d5e88ea73e36d5",
+    "sha256": "d2b7e0e0707427d193aa329f23b572ae3d2493460166ddbe091bcf3bcb13c70b",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Substitute ΓΑΒΑΛΑΣ, handwritten 2896, has no confirmed existing profile or prior-result identity.",
+    "details_el": "Δεν έχει επιβεβαιωθεί υπάρχον προφίλ ή προηγούμενο αποτέλεσμα για τον αναπληρωματικό ΓΑΒΑΛΑ (χειρόγραφο 2896)."
+  },
+  "http://files.ping-pong.gr/FA26-27/GPS-NGP.jpg": {
+    "fixture": "f-753cc76d93353888",
+    "sha256": "070a2c920e09313739f95933a41b1627b9592f7a00f6fa219cb4bd43f3bc16cf",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Home registrations 10557 and 10578 do not resolve to existing ranking profiles; the handwritten names need identity evidence.",
+    "details_el": "Οι αριθμοί 10557 και 10578 της γηπεδούχου δεν αντιστοιχούν σε υπάρχοντα προφίλ κατάταξης. Εκκρεμεί τεκμηρίωση ταυτότητας."
+  },
+  "http://files.ping-pong.gr/FA26-27/AP8-PRT.jpg": {
+    "fixture": "f-d91593abd29b2341",
+    "sha256": "503441090033a0a235b5367b8cb211375f23c50fc6b4130e8e9c336f1d8d15dc",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Away Y is written ROSE with registration 1026, while the ranking profile is ZHANG ZHIHUA. No verified alias is available; do not infer that they are the same athlete.",
+    "details_el": "Η θέση Υ γράφει ROSE με ΔΑΙ 1026, ενώ το προφίλ κατάταξης είναι ZHANG ZHIHUA. Δεν υπάρχει επιβεβαιωμένη σύνδεση του εναλλακτικού ονόματος."
+  },
+  "http://files.ping-pong.gr/FA26-27/AGK-AP2.jpg": {
+    "fixture": "f-e518ba3a2461cc0c",
+    "sha256": "f21246fd59f37c7a7ac892af58b020889ea62189652980d6be1d72a7ca4869a5",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_participant",
+    "details": "Row 5 names ΜΠΡΙΣΚΟΛΑΣ ΧΑΡΑΛΑΜΠΟΣ (405), but the existing October workbook records ΜΠΡΙΣΚΟΛΑΣ ΓΕΩΡΓΙΟΣ (2496) against the same opponent with the same result. Hold the sheet rather than adding a duplicate or changing an existing identity.",
+    "details_el": "Η γραμμή 5 γράφει ΜΠΡΙΣΚΟΛΑΣ ΧΑΡΑΛΑΜΠΟΣ (405), ενώ το Excel αναφέρει ΜΠΡΙΣΚΟΛΑΣ ΓΕΩΡΓΙΟΣ (2496) με ίδιο αντίπαλο και σκορ. Εκκρεμεί επίλυση της διαφοράς."
   }
 }

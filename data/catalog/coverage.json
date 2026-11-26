@@ -139,7 +139,7 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 136900,
+ "matches": 136970,
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
@@ -160,8 +160,8 @@
   "bonus": 1807
  },
  "identity_methods": {
-  "sheet_registration": 586,
-  "reviewed_sheet_name_and_team": 268,
+  "sheet_registration": 698,
+  "reviewed_sheet_name_and_team": 296,
   "unique_name_in_month": 45112,
   "exact_name_and_team": 182512,
   "unique_name_team_differs": 32029,
@@ -5578,10 +5578,10 @@
  ],
  "match_sheets": {
   "linked": 13511,
-  "reviewed": 107,
-  "imported_sheets": 72,
-  "held": 35,
-  "pending": 13404,
+  "reviewed": 126,
+  "imported_sheets": 86,
+  "held": 40,
+  "pending": 13385,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -5932,10 +5932,60 @@
     "reason": "ambiguous_existing_rows",
     "details": "The first-row 0–3 match occurs twice in the October workbook (rows 199 and 204). Preserve existing rows and hold reconciliation until the duplicate is resolved.",
     "details_el": "Ο πρώτος αγώνας 0–3 υπάρχει δύο φορές στο Excel Οκτωβρίου (γραμμές 199 και 204). Οι υπάρχουσες γραμμές διατηρούνται μέχρι να αποσαφηνιστεί το διπλότυπο."
+   },
+   {
+    "source": "s-6c9bf6d997106513",
+    "url": "http://files.ping-pong.gr/FA26-27/INS-DSH.jpg",
+    "fixture": "f-19da766f3f2a4805",
+    "sha256": "3e1ec55da9f83789b9e34ff48d58ccc19dbdd12978dd42a163c3714245a62d46",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "The low-resolution third home name and registration cannot be matched confidently to an existing profile.",
+    "details_el": "Το τρίτο όνομα και ο αριθμός της γηπεδούχου δεν ταυτοποιούνται με βεβαιότητα στην εικόνα χαμηλής ανάλυσης."
+   },
+   {
+    "source": "s-d59276235ddee4ce",
+    "url": "http://files.ping-pong.gr/FA26-27/BSB-SF1.jpg",
+    "fixture": "f-b4d5e88ea73e36d5",
+    "sha256": "d2b7e0e0707427d193aa329f23b572ae3d2493460166ddbe091bcf3bcb13c70b",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Substitute ΓΑΒΑΛΑΣ, handwritten 2896, has no confirmed existing profile or prior-result identity.",
+    "details_el": "Δεν έχει επιβεβαιωθεί υπάρχον προφίλ ή προηγούμενο αποτέλεσμα για τον αναπληρωματικό ΓΑΒΑΛΑ (χειρόγραφο 2896)."
+   },
+   {
+    "source": "s-ad8f08edc80fcbea",
+    "url": "http://files.ping-pong.gr/FA26-27/GPS-NGP.jpg",
+    "fixture": "f-753cc76d93353888",
+    "sha256": "070a2c920e09313739f95933a41b1627b9592f7a00f6fa219cb4bd43f3bc16cf",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Home registrations 10557 and 10578 do not resolve to existing ranking profiles; the handwritten names need identity evidence.",
+    "details_el": "Οι αριθμοί 10557 και 10578 της γηπεδούχου δεν αντιστοιχούν σε υπάρχοντα προφίλ κατάταξης. Εκκρεμεί τεκμηρίωση ταυτότητας."
+   },
+   {
+    "source": "s-556ee98e7d5e60a9",
+    "url": "http://files.ping-pong.gr/FA26-27/AP8-PRT.jpg",
+    "fixture": "f-d91593abd29b2341",
+    "sha256": "503441090033a0a235b5367b8cb211375f23c50fc6b4130e8e9c336f1d8d15dc",
+    "reviewed_at": "2026-11-26",
+    "reason": "unresolved_identity",
+    "details": "Away Y is written ROSE with registration 1026, while the ranking profile is ZHANG ZHIHUA. No verified alias is available; do not infer that they are the same athlete.",
+    "details_el": "Η θέση Υ γράφει ROSE με ΔΑΙ 1026, ενώ το προφίλ κατάταξης είναι ZHANG ZHIHUA. Δεν υπάρχει επιβεβαιωμένη σύνδεση του εναλλακτικού ονόματος."
+   },
+   {
+    "source": "s-f9ed4077ff104ab9",
+    "url": "http://files.ping-pong.gr/FA26-27/AGK-AP2.jpg",
+    "fixture": "f-e518ba3a2461cc0c",
+    "sha256": "f21246fd59f37c7a7ac892af58b020889ea62189652980d6be1d72a7ca4869a5",
+    "reviewed_at": "2026-11-26",
+    "reason": "conflicting_participant",
+    "details": "Row 5 names ΜΠΡΙΣΚΟΛΑΣ ΧΑΡΑΛΑΜΠΟΣ (405), but the existing October workbook records ΜΠΡΙΣΚΟΛΑΣ ΓΕΩΡΓΙΟΣ (2496) against the same opponent with the same result. Hold the sheet rather than adding a duplicate or changing an existing identity.",
+    "details_el": "Η γραμμή 5 γράφει ΜΠΡΙΣΚΟΛΑΣ ΧΑΡΑΛΑΜΠΟΣ (405), ενώ το Excel αναφέρει ΜΠΡΙΣΚΟΛΑΣ ΓΕΩΡΓΙΟΣ (2496) με ίδιο αντίπαλο και σκορ. Εκκρεμεί επίλυση της διαφοράς."
    }
   ],
-  "imported": 427,
-  "corroborated": 39,
+  "imported": 497,
+  "corroborated": 63,
   "excluded_walkovers": 8,
   "reviews": [
    {
@@ -6591,6 +6641,133 @@
     "season": "2026-2027",
     "imported": 5,
     "notes": "ΚΑΚΛΑΜΑΝΗΣ replaces ΡΕΚΟΥΜΗΣ in row 4; named in the row and substitution note."
+   },
+   {
+    "source": "s-11d46d46d2957dcd",
+    "url": "http://files.ping-pong.gr/FA26-27/MHL-AP7.jpg",
+    "fixture": "f-8c6c1dc1e4b05fb1",
+    "date": "2026-11-01",
+    "season": "2026-2027",
+    "imported": 8,
+    "notes": "Row 7 substitution is named in the row and substitute box."
+   },
+   {
+    "source": "s-4cea6359a91179fa",
+    "url": "http://files.ping-pong.gr/FA26-27/HRM-RTP.jpg",
+    "fixture": "f-6f76058603551998",
+    "date": "2026-11-08",
+    "season": "2026-2027",
+    "imported": 8,
+    "notes": ""
+   },
+   {
+    "source": "s-609ee2403fa93d9e",
+    "url": "http://files.ping-pong.gr/FA26-27/VTS-EM3.jpg",
+    "fixture": "f-e48c9abec0581c37",
+    "date": "2026-11-08",
+    "season": "2026-2027",
+    "imported": 8,
+    "notes": "ΤΣΑΝΑΒΑ replaces ΣΤΕΡΓΙΟΥ in rows 5 and 7. ΣΥΡΙΓΟΣ registration is clear as 1633 in the starting roster and final row; row 6 repeats it unclearly."
+   },
+   {
+    "source": "s-35038a3ca0c4b68a",
+    "url": "http://files.ping-pong.gr/FA26-27/007-PSG.jpg",
+    "fixture": "f-333342fa41e4deaa",
+    "date": "2026-10-31",
+    "season": "2026-2027",
+    "imported": 3,
+    "corroborated": 6,
+    "notes": "The October workbook leaves the home athlete blank in rows 1508, 1512 and 1516. The sheet identifies ΝΙΚΟΛΙΔΑΚΗΣ ΣΤΑΥΡΟΣ (1912) in corresponding rows 1, 5 and 9; the other six singles corroborate existing workbook results."
+   },
+   {
+    "source": "s-9086df97ba834ddf",
+    "url": "http://files.ping-pong.gr/FA26-27/LEO-KAR.jpg",
+    "fixture": "f-0893788c926c9d89",
+    "date": "2026-11-10",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-a890a328d90aeb5f",
+    "url": "http://files.ping-pong.gr/FA26-27/PL7-PAN.jpg",
+    "fixture": "f-78575112069ce87e",
+    "date": "2026-11-10",
+    "season": "2026-2027",
+    "imported": 7,
+    "notes": "No registrations on the sheet; unique surnames checked against both contemporary team rosters."
+   },
+   {
+    "source": "s-0d386f4af789612b",
+    "url": "http://files.ping-pong.gr/FA26-27/EM1-BWK.jpg",
+    "fixture": "f-b449131d1d01246a",
+    "date": "2026-11-13",
+    "season": "2026-2027",
+    "imported": 7,
+    "notes": "ΙΑΚΩΒΟΥ and ΚΩΝΣΤΑΝΤΙΝΟΥ have handwritten numbers inconsistent with the rankings; use their unique names in the named teams (1791 and 596)."
+   },
+   {
+    "source": "s-54a36c3c19f10427",
+    "url": "http://files.ping-pong.gr/FA26-27/AKA-PPN.jpg",
+    "fixture": "f-ea9f86b00514f63b",
+    "date": "2026-11-03",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": "ΜΑΝΟΣ ΣΤΑΥΡΙΔΗΣ is ΕΜΜΑΝΟΥΗΛ ΣΤΑΥΡΙΔΗΣ (1907) on the PINGI PONGIANS roster. ΚΑΖΗΣ is 2231; handwritten digits are indistinct. Row 4 substitution is explicitly named."
+   },
+   {
+    "source": "s-1a9a1e5987079ea0",
+    "url": "http://files.ping-pong.gr/FA26-27/SFM-PGM.jpg",
+    "fixture": "f-f182338ff54e6acf",
+    "date": "2026-10-30",
+    "season": "2026-2027",
+    "corroborated": 6,
+    "notes": ""
+   },
+   {
+    "source": "s-ff9b8f74af34f91d",
+    "url": "http://files.ping-pong.gr/FA26-27/NS2-THB.jpg",
+    "fixture": "f-7cc380d4b5ba1866",
+    "date": "2026-10-30",
+    "season": "2026-2027",
+    "corroborated": 7,
+    "notes": ""
+   },
+   {
+    "source": "s-d243d33ec51c9c43",
+    "url": "http://files.ping-pong.gr/FA26-27/PNL-HLV.jpg",
+    "fixture": "f-a4748faf2b98535b",
+    "date": "2026-10-29",
+    "season": "2026-2027",
+    "corroborated": 5,
+    "notes": ""
+   },
+   {
+    "source": "s-2739f80cc2129f01",
+    "url": "http://files.ping-pong.gr/FA26-27/ATL-TPZ.jpg",
+    "fixture": "f-b467fbc0f7e5130b",
+    "date": "2026-11-12",
+    "season": "2026-2027",
+    "imported": 6,
+    "notes": "Low-resolution home C registration is indistinct; ΚΑΛΛΙΤΣΗΣ is unique in the ATLAS roster (1837). Row 6 substitutes ΑΘΑΝΑΣΟΠΟΥΛΟΣ, named in the row and substitute box."
+   },
+   {
+    "source": "s-0ec1cd225cef335c",
+    "url": "http://files.ping-pong.gr/FA26-27/ATN-MRF.jpg",
+    "fixture": "f-69d75f256c9e30d1",
+    "date": "2026-11-12",
+    "season": "2026-2027",
+    "imported": 5,
+    "notes": "Row 5 corrects the away name to ΔΕΚΑΒΑΛΑΣ, agreeing with the Z position. The named reserve is not recorded in a played row."
+   },
+   {
+    "source": "s-975262f2d0e08ede",
+    "url": "http://files.ping-pong.gr/FA26-27/LSP-VAV.jpg",
+    "fixture": "f-91f63634e5881ad6",
+    "date": "2026-11-02",
+    "season": "2026-2027",
+    "imported": 7,
+    "notes": ""
    }
   ]
  }

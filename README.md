@@ -6,7 +6,7 @@ An independent Greek/English POFΕPA table tennis archive, following [Greek TT A
 
 ## Match-sheet imports
 
-Linked team-result sheets are being reviewed newest first. The reviewed batches cover **72 October–November 2026 sheets**, adding **427 played singles** directly to athlete histories and corroborating 39 existing workbook results. Eight walkovers are excluded from player statistics. Another 35 inspected sheets need clarification of dates, identities, substitutions, scores or duplicate workbook rows. The archive now retains **13,511 match-sheet links**, of which **13,404 have not yet been reviewed**; the website reports the reviewed and pending counts explicitly.
+Linked team-result sheets are being reviewed newest first. The reviewed batches cover **86 October–November 2026 sheets**, adding **497 played singles** directly to athlete histories and corroborating 63 existing workbook results. Eight walkovers are excluded from player statistics. Another 40 inspected sheets need clarification of dates, identities, substitutions, scores or duplicate workbook rows. The archive now retains **13,511 match-sheet links**, of which **13,385 have not yet been reviewed**; the website reports the reviewed and pending counts explicitly.
 
 `data/match-sheet-issues.json` records held sheets and the reason each remains unimported. `data/match-sheet-reviews.json` records the source hash, actual date, row scores, substitutions and checked athlete identities. Replaying a sheet corroborates an existing result instead of creating a duplicate.
 
