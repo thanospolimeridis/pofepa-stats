@@ -1,5 +1,9 @@
 # Changelog
 
+## Prototype updates — 2026-11-27
+
+- Remove the imported-matches statistics notice from the overview, competition, comparison, and athlete pages.
+
 ## Prototype updates — 2026-11-26
 
 - Bring the athlete directory and profiles close to Greek TT Archive: dark profile headers, a full-width combined chart with date ranges, win/loss cards, score and opponent breakdowns, source-linked best wins, and season/competition summaries. Keep ranking comparison data in lazy athlete archives and preserve match correction evidence.
