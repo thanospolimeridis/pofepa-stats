@@ -6,15 +6,15 @@ An independent Greek/English POFΕPA table tennis archive, following [Greek TT A
 
 ## Match-sheet imports
 
-Linked team-result sheets are being reviewed newest first. The reviewed batches cover **1689 sheets from the 2025–26 and 2026–27 seasons**, adding **939 played singles** directly to athlete histories and corroborating 10,083 existing workbook results. 329 individual walkovers and 11 whole-team no-shows are excluded from player statistics. Another 303 inspected sheets remain outside the singles import because they need clarification or record an unplayed team fixture. The archive now retains **13,511 match-sheet links**, of which **11,518 have not yet been reviewed**; the website reports the reviewed and pending counts explicitly. Unavailable source links (1) are tracked separately.
+Linked team-result sheets are being reviewed newest first. The reviewed batches cover **1689 sheets from the 2025–26 and 2026–27 seasons**, adding **939 played singles** directly to athlete histories and corroborating 10,083 existing workbook results. 329 individual walkovers and 11 whole-team no-shows are excluded from player statistics. Another 303 inspected sheets remain outside the singles import because they need clarification or record an unplayed team fixture. The archive now retains **13,562 match-sheet links**, of which **11,569 have not yet been reviewed**; the website reports the reviewed and pending counts explicitly. Unavailable source links (1) are tracked separately.
 
 `data/match-sheet-issues.json` records held sheets and the reason each remains unimported. `data/match-sheet-reviews.json` records the source hash, actual date, row scores, substitutions and checked athlete identities. Replaying a sheet corroborates an existing result instead of creating a duplicate. Explicit sheet-backed corrections retain the complete original workbook record for audit. Unavailable links are tracked separately in `data/match-sheet-unavailable.json`.
 
-The 2025–26 review is complete: every available linked sheet has been inspected. Unresolved source conflicts remain listed for clarification, and the unavailable sheet is tracked separately. Older seasons still have a review backlog.
+Every 2025–26 sheet linked when that review ran has been inspected. Seven more 2025–26 sheets surfaced on 27 November 2026, when rounds hidden by a nested-table page layout were recovered; they await review. Unresolved source conflicts remain listed for clarification, and the unavailable sheet is tracked separately. Older seasons still have a review backlog.
 
 ## Historical coverage
 
-All **270 distinct Excel workbooks** linked in the official ranking archive are imported, covering **October 2011–October 2026** and **742,275 ranking records**. Every published regional and age-category position is retained. The archive contains over **137,000 completed singles matches**, together with historical team results from HTML pages, 124 reviewed PDFs and a handwritten match sheet. The document review adds 1,601 team results, bringing reported team results to 17,118. Six older images contain standings only. Exact current counts, exclusions, source hashes and unparsed documents are available on the website's **Coverage & sources** page and in `dist/coverage.json`.
+All **270 distinct Excel workbooks** linked in the official ranking archive are imported, covering **October 2011–October 2026** and **742,275 ranking records**. Every published regional and age-category position is retained. The archive contains over **137,000 completed singles matches**, together with historical team results from HTML pages, 124 reviewed PDFs and a handwritten match sheet. The document review adds 1,601 team results, bringing reported team results to 17,186. Six older images contain standings only. Exact current counts, exclusions, source hashes and unparsed documents are available on the website's **Coverage & sources** page and in `dist/coverage.json`.
 
 The results menu is inventoried for every listed season, from 2007–2008 through 2026–2027. The two earliest season pages currently link no results; the imported team pages start in 2009–2010. Some source documents contain ambiguous layouts or incomplete score fields. Those sections remain explicitly listed for review; this does not claim that every match ever played is recoverable.
 
@@ -61,6 +61,8 @@ python3 scripts/audit_match_sheets.py
 python3 scripts/import_match_sheets.py --offline --discover
 # Refresh the reviewed documents without rebuilding unchanged workbook data:
 python3 scripts/refresh_documents.py --offline
+# Re-read cached HTML fixture pages after a parser change (results-backed fixtures are never altered):
+python3 scripts/refresh_html_fixtures.py --offline
 # Regenerate source-bound vector cup assets after reviewed cup PDFs change:
 python3 scripts/cup_draws.py
 ```

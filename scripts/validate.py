@@ -1,7 +1,18 @@
 """Validate committed data before it can be built or published (stdlib only)."""
 from datetime import date
 import math
+import re
 from urllib.parse import urlparse
+
+# A published schedule line with a dash opposite a team is a bye: it keeps the
+# dash as printed and has no club. Any other team name must contain a letter,
+# which rejects separator columns merged into a fixture.
+BYE = ("-", "—")
+LETTER = re.compile(r"[^\W\d_]")
+
+
+def fixture_side_ok(name, club, clubs):
+    return (name in BYE and club == "") or (bool(LETTER.search(name or "")) and club in clubs)
 
 
 def validate(data):
@@ -40,8 +51,8 @@ def validate(data):
     for fixture in data["fixtures"]:
         require(fixture["event"] in indices["events"] and fixture["source"] in indices["sources"], "Invalid fixture reference")
         require((fixture["status"] == "reported") == (fixture["score"] is not None), "Fixture status mismatch")
-        require(all(c in indices['clubs'] for c in fixture['clubs']), 'Invalid fixture clubs')
         require(fixture['home'] and fixture['away'], 'Missing fixture team')
+        require(len(fixture['clubs']) == 2 and all(fixture_side_ok(name, club, indices['clubs']) for name, club in zip((fixture['home'], fixture['away']), fixture['clubs'])), 'Invalid fixture team or club')
         if fixture['score'] is not None:
             require(len(fixture['score'])==2 and all(type(s) is int and 0<=s<=99 for s in fixture['score']), 'Invalid team score')
         for rubber in fixture.get('rubbers',[]):

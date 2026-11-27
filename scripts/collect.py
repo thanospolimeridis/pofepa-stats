@@ -141,11 +141,40 @@ def registry_id(dai, name, registry):
     return "p-" + dai + ("-" + uid("", key(name))[:8] if len(registry[dai]) > 1 else "")
 
 
+def direct_rows(table):
+    """A table's own rows. Rows of a nested layout table belong to that table."""
+    return [tr for tr in table.find_all("tr") if tr.find_parent("table") is table]
+
+
+def flat_cells(row):
+    """A row's own cells, with a nested Weebly column table expanded in place.
+
+    Some rounds put the home column beside a nested table that holds the
+    separator, away and score columns. A cell is expanded only when that
+    single-row nested table is its whole content, so text is never split.
+    Returns the cells and the nested tables they came from.
+    """
+    cells, expanded = [], []
+    for cell in row.find_all("td", recursive=False):
+        nested = [t for t in cell.find_all("table") if t.find_parent(["td", "th"]) is cell]
+        inner = direct_rows(nested[0]) if len(nested) == 1 else []
+        if len(inner) == 1 and clean(cell.get_text(" ")) == clean(nested[0].get_text(" ")):
+            inner_cells, inner_tables = flat_cells(inner[0])
+            cells.extend(inner_cells)
+            expanded.extend([nested[0], *inner_tables])
+        else:
+            cells.append(cell)
+    return cells, expanded
+
+
 def parse_fixture_tables(html, source_id, source_url, event_id):
     soup = BeautifulSoup(html, "html.parser")
     fixtures = []
+    consumed = set()  # nested tables already read as part of their parent round
     for table_index, table in enumerate(soup.select("table")):
-        rows = table.find_all("tr")
+        if id(table) in consumed:
+            continue
+        rows = direct_rows(table)
         if not rows:
             continue
         header = rows[0].get_text(" ", strip=True)
@@ -170,7 +199,7 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
                 continue
             # Historical Weebly pages put an entire round in four parallel
             # columns, with <br> separating games. Require exact alignment.
-            cells = rows[0].find_all('td', recursive=False)
+            cells, nested_tables = flat_cells(rows[0])
             if len(rows) != 1 or len(cells) < 4:
                 continue
             def lines(cell, preserve_blank=False, retain_links=False, split_spacing=True):
@@ -222,6 +251,7 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
                     columns = explicit
             if columns is None:
                 continue
+            consumed.update(id(t) for t in nested_tables)
             heading = table.find_previous(['h2', 'h3'])
             round_name = clean(heading.get_text(' ')) if heading else ''
             for row_index, (home, away, result) in enumerate(zip(columns[0], columns[2], columns[3]), 1):

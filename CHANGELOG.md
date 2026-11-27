@@ -11,6 +11,10 @@
 - Download the dataset as the published gzip catalog in both editions, without parsing and re-serialising the whole archive in the page.
 - Return to the previous scroll position on Back/Forward, move focus to the new page's heading after navigation, make the ranking chart a single tab stop with arrow-key navigation, and title missing pages "Page not found".
 - Replace the Head to head datalist of every profile with a player picker: accent-insensitive Greek or Latin search over name, registration and team, keyboard and touch selection, and ranked suggestions.
+- Read league rounds whose columns continue in a nested table. Seven merged fixtures, including one published 5–1 result between a separator column and eight teams, are replaced by their real games, recovering 26 fixtures on seven pages from 2023–24 to 2025–26.
+- Bring the catalog in line with the current HTML parser: 35 more fixtures from rounds missing on four 2013–14 and 2022–23 pages. In all, 61 fixtures and 51 match-sheet links are added; no fixture with match-sheet results changes.
+- Record byes as a dash with no club instead of a team named "-", and reject fixture team names without a letter.
+- Re-point two held 2025–26 match sheets to the fixtures that now link them and note on four held sheets that their fixture is now read correctly. Seven newly linked 2025–26 sheets await review.
 
 ## Prototype updates — 2026-11-26
 

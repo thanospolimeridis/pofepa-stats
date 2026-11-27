@@ -143,8 +143,8 @@
  "players": 9914,
  "ranked_players": 3851,
  "provisional_players": 6063,
- "fixtures": 20383,
- "reported_fixtures": 17126,
+ "fixtures": 20444,
+ "reported_fixtures": 17186,
  "ranking_rows": 742275,
  "events": 945,
  "match_date_min": "2011-10-26",
@@ -5577,11 +5577,11 @@
   }
  ],
  "match_sheets": {
-  "linked": 13511,
+  "linked": 13562,
   "reviewed": 1992,
   "imported_sheets": 1689,
   "held": 303,
-  "pending": 11518,
+  "pending": 11569,
   "issues": [
    {
     "source": "s-0233d63549960870",
@@ -8200,8 +8200,8 @@
     "sha256": "773d9b6f100cc8ebd1bfa6e5941580a4213f42797a17129e02d4b70b023e713b",
     "reviewed_at": "2026-11-26",
     "reason": "conflicting_score",
-    "details": "Row 3 ΖΙΟΥΠΑΣ–ΠΑΗΛΙΔΗΣ printed 3–2 but complete games 11–7,11–6,11–9,9–11,11–4 contain four home wins. Date 28 Nov 2025; sheet 5–1 RED BLADES, linked fixture text includes multiple merged team names and no team score. Opening home KESOGLOU 2049, TSOUCHANOS, ZIOUPAS 2048; away ZIOUKAS 1867, STEFANIDIS 39, PAHLIDIS 696; away substitution row 5 ZAMPOUNOGLOU 2706. Remaining totals 0–3,3–0,3–0,3–2,3–0. Needs source/fixture reconciliation.",
-    "details_el": "Αντίφαση 3–2 με τέσσερα κερδισμένα σετ στην 3 η αναμέτρηση. Επιπλέον η συνδεδεμένη εγγραφή συγχωνεύει ονόματα ομάδων και δεν διαθέτει τελικό σκορ."
+    "details": "Row 3 ΖΙΟΥΠΑΣ–ΠΑΗΛΙΔΗΣ printed 3–2 but complete games 11–7,11–6,11–9,9–11,11–4 contain four home wins. Date 28 Nov 2025; sheet 5–1 RED BLADES, linked fixture text includes multiple merged team names and no team score. Opening home KESOGLOU 2049, TSOUCHANOS, ZIOUPAS 2048; away ZIOUKAS 1867, STEFANIDIS 39, PAHLIDIS 696; away substitution row 5 ZAMPOUNOGLOU 2706. Remaining totals 0–3,3–0,3–0,3–2,3–0. Needs source/fixture reconciliation. Update 27 Nov 2026: the fixture is now read correctly (RED BLADES–ΚΙΛΚΙΣΦΑΙΡΙΣΗ 5–1); the row 3 score conflict remains.",
+    "details_el": "Αντίφαση 3–2 με τέσσερα κερδισμένα σετ στην 3 η αναμέτρηση. Επιπλέον η συνδεδεμένη εγγραφή συγχωνεύει ονόματα ομάδων και δεν διαθέτει τελικό σκορ. Ενημέρωση 27/11/2026: ο αγώνας διαβάζεται πλέον σωστά (RED BLADES–ΚΙΛΚΙΣΦΑΙΡΙΣΗ 5–1)· η αντίφαση στην 3η αναμέτρηση παραμένει."
    },
    {
     "source": "s-4a240801faddf0ab",
@@ -8290,28 +8290,28 @@
     "sha256": "f567d06c7499aa716cf99399020af05325ac95a72a00ddc03fdddf33cdd153fd",
     "reviewed_at": "2026-11-26",
     "reason": "fixture_mismatch",
-    "details": "Queuefixture is malformed mergedmultiplehomeclubs with noaway/result. ActualsheetFilipposEvosmou–Polynikis 5–1,7 November 2025; allsix workbookrubbers exist. Reconcilefixture beforeimport.",
-    "details_el": "Ηεγγραφήαγώνα συγχωνεύειπολλέςομάδες χωρίςαντίπαλο/σκορ. ΤοφύλλοείναιΦίλιπποςΕυόσμου–Πολυνίκης 5–1 στις 7/11/2025. Απαιτείταισυμφιλίωσηαγώνα."
+    "details": "Queuefixture is malformed mergedmultiplehomeclubs with noaway/result. ActualsheetFilipposEvosmou–Polynikis 5–1,7 November 2025; allsix workbookrubbers exist. Reconcilefixture beforeimport. Update 27 Nov 2026: the fixture is now read correctly from the results page; the sheet still awaits a full review.",
+    "details_el": "Ηεγγραφήαγώνα συγχωνεύειπολλέςομάδες χωρίςαντίπαλο/σκορ. ΤοφύλλοείναιΦίλιπποςΕυόσμου–Πολυνίκης 5–1 στις 7/11/2025. Απαιτείταισυμφιλίωσηαγώνα. Ενημέρωση 27/11/2026: ο αγώνας διαβάζεται πλέον σωστά από τη σελίδα αποτελεσμάτων· το φύλλο αναμένει πλήρη έλεγχο."
    },
    {
     "source": "s-3a32c8f144e37ede",
     "url": "http://files.ping-pong.gr/FA25-26/HRO-SNR.jpg",
-    "fixture": "f-7afc93c723403f13",
+    "fixture": "f-5d898577898ce60a",
     "sha256": "d43e46c1d6dc600f20bda3381dfd7fd850a628879c8eafea4cea3b022ad3d981",
     "reviewed_at": "2026-11-26",
     "reason": "fixture_mismatch",
-    "details": "Malformedfixture multiplehomeclubs/noaway/result; actualHeraklionOAA–Spinners 5–4,11 November 2025. Reconcilefixturebeforeimport.",
-    "details_el": "Ηεγγραφήαγώναέχειπολλέςομάδεςχωρίςαντίπαλο/σκορ. ΤοφύλλοείναιΗράκλειοΟΑΑ–Spinners 5–4,11/11/2025."
+    "details": "Malformedfixture multiplehomeclubs/noaway/result; actualHeraklionOAA–Spinners 5–4,11 November 2025. Reconcilefixturebeforeimport. Update 27 Nov 2026: the fixture is now read correctly from the results page; the sheet still awaits a full review.",
+    "details_el": "Ηεγγραφήαγώναέχειπολλέςομάδεςχωρίςαντίπαλο/σκορ. ΤοφύλλοείναιΗράκλειοΟΑΑ–Spinners 5–4,11/11/2025. Ενημέρωση 27/11/2026: ο αγώνας διαβάζεται πλέον σωστά από τη σελίδα αποτελεσμάτων· το φύλλο αναμένει πλήρη έλεγχο."
    },
    {
     "source": "s-0b9dc910943343f2",
     "url": "http://files.ping-pong.gr/FA25-26/CDR-CHN.jpg",
-    "fixture": "f-74a4b4daa7797155",
+    "fixture": "f-30706bdd02b37a14",
     "sha256": "481ad1c143d21a2b81e5cbd820b15eb8d2cfc5513d201592a431df0867606c44",
     "reviewed_at": "2026-11-26",
     "reason": "fixture_mismatch",
-    "details": "Malformedfixture mergedclubs/noaway/result. ActualCretanDentists–Chania 5–0,28 January 2026, allfive workbookrubbers exist. Fixture reconciliationrequired.",
-    "details_el": "Ηεγγραφήαγώνασυγχωνεύειομάδεςχωρίςαντίπαλο/σκορ. ΤοφύλλοείναιCretanDentists–Χανιά 5–0,28/1/2026."
+    "details": "Malformedfixture mergedclubs/noaway/result. ActualCretanDentists–Chania 5–0,28 January 2026, allfive workbookrubbers exist. Fixture reconciliationrequired. Update 27 Nov 2026: the fixture is now read correctly from the results page; the sheet still awaits a full review.",
+    "details_el": "Ηεγγραφήαγώνασυγχωνεύειομάδεςχωρίςαντίπαλο/σκορ. ΤοφύλλοείναιCretanDentists–Χανιά 5–0,28/1/2026. Ενημέρωση 27/11/2026: ο αγώνας διαβάζεται πλέον σωστά από τη σελίδα αποτελεσμάτων· το φύλλο αναμένει πλήρη έλεγχο."
    },
    {
     "source": "s-3df166c40a602108",
@@ -8635,36 +8635,36 @@
     "pending": 0
    },
    "2025-2026": {
-    "linked": 1597,
+    "linked": 1604,
     "reviewed": 1596,
     "accepted": 1363,
     "held": 233,
     "unavailable": 1,
-    "pending": 0
+    "pending": 7
    },
    "2024-2025": {
-    "linked": 1514,
+    "linked": 1524,
     "reviewed": 0,
     "accepted": 0,
     "held": 0,
     "unavailable": 0,
-    "pending": 1514
+    "pending": 1524
    },
    "2023-2024": {
-    "linked": 1369,
+    "linked": 1374,
     "reviewed": 0,
     "accepted": 0,
     "held": 0,
     "unavailable": 0,
-    "pending": 1369
+    "pending": 1374
    },
    "2022-2023": {
-    "linked": 1187,
+    "linked": 1206,
     "reviewed": 0,
     "accepted": 0,
     "held": 0,
     "unavailable": 0,
-    "pending": 1187
+    "pending": 1206
    },
    "2020-2021": {
     "linked": 1007,
@@ -8723,12 +8723,12 @@
     "pending": 616
    },
    "2013-2014": {
-    "linked": 502,
+    "linked": 512,
     "reviewed": 0,
     "accepted": 0,
     "held": 0,
     "unavailable": 0,
-    "pending": 502
+    "pending": 512
    },
    "2012-2013": {
     "linked": 277,
