@@ -16,6 +16,8 @@
 - Bring the catalog in line with the current HTML parser: 35 more fixtures from rounds missing on four 2013–14 and 2022–23 pages. In all, 61 fixtures and 51 match-sheet links are added; no fixture with match-sheet results changes.
 - Record byes as a dash with no club instead of a team named "-", and reject fixture team names without a letter.
 - Re-point two held 2025–26 match sheets to the fixtures that now link them and note on four held sheets that their fixture is now read correctly. Seven newly linked 2025–26 sheets await review.
+- Stop reading individual-event headings in older workbooks as teams: 6,033 singles results no longer carry a category, stage, row header or tournament name as a club, and wrapped team names keep their real team. 121 placeholder clubs drop out.
+- Merge 388 provisional profiles that were split only by those placeholders into 113 (links to the old profiles redirect). 53 match sides now link to a registered profile under the existing rule for results without a team; two sides become provisional because a restored team's spelling differs from the ranking list. Match dates, scores, events and counts are unchanged.
 
 ## Prototype updates — 2026-11-26
 

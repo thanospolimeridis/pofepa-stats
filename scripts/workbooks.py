@@ -87,6 +87,27 @@ def number(value):
     return value
 
 
+# Older sheets head individual-event blocks with a category (ΑΝΕ 18-39,
+# ΒΕΤΕΡΑΝΟΙ 40-49 ΟΜΙΛΟΙ), a stage (ΦΑΣΗ ΟΜΙΛΩΝ, 1-8, ΚΑΤΑΤΑΞΗ 5-14) or a
+# row-number header (α/α) in the cells where team results print two teams.
+# Team names such as "ΒΕΤ. ΑΟ ΤΑΤΑΥΛΑ" or "ΒΕΤΕΡΑΝΟΙ ΔΡΑΜΑΣ" do not match.
+CATEGORY_WORD = r'(?:ΚΑΤΗΓΟΡΙΑ|ΑΝΕΞ(?:ΑΡΤΗΤ\w*)?|ANE|ΑΝΕ|ΒΕΤ(?:ΕΡΑΝ\w*)?|BET|ΓΥΝ(?:ΑΙΚ\w*)?)\.?'
+EVENT_LABEL = re.compile(
+    rf'^(?:{CATEGORY_WORD}\s*)+(?:\d+\s*(?:-\s*\d+|\+))?(?:\s*(?:{CATEGORY_WORD}|ΟΜΙΛΟΙ))*$'
+    r'|^(?:α\.?/?α\.?|\d+\s*-\s*\d+|ΚΑΤΑΤΑΞΗ\b.*|ΦΑΣΗ\s.*|ΟΜΙΛΟΙ|ΗΜΙΤΕΛΙΚΟΙ|ΤΕΛΙΚΟΣ|ΝΟΚ\s*ΑΟΥΤ|`)$',
+    re.I)
+
+
+def team_pair(values):
+    """The two printed team names, or None when the cells head an individual event.
+
+    A team result always names both teams. A single filled cell (a tournament or
+    region heading) or any category/stage label means the block has no teams.
+    """
+    names = [v.strip() if isinstance(v, str) else '' for v in values]
+    return names if all(names) and not any(EVENT_LABEL.match(n) for n in names) else None
+
+
 def result_rows(sheet):
     """Read published score columns and the older grouped-row notation.
 
@@ -115,6 +136,7 @@ def result_rows(sheet):
     event_at = (4 if layout == 'combined' else 5) if compact else club_at + 2
     legacy = isinstance(sheet, LegacySheet)
     last_date, date_row, teams, team_row, event, event_row = None, None, ['', ''], None, '', None
+    team_line = None  # last row holding the current pair's names, including wrapped lines
     for rownum, raw in enumerate(rows, 1):
         row = list(raw) + [None] * 12
         if not any(v is not None and str(v).strip() for v in raw):
@@ -127,7 +149,16 @@ def result_rows(sheet):
         if club_at is not None:
             new_teams = [v.strip() if isinstance(v, str) else '' for v in row[club_at:club_at + 2]]
             if any(new_teams):
-                teams, team_row = new_teams, rownum
+                # Long team names wrap onto the next undated row ("ΚΡΟΚΟΔΕΙΛΟΙ"
+                # above "ΦΛΩΡΙΝΑΣ"); such a line keeps the pair. Otherwise an
+                # individual-event heading starts a block without teams.
+                wrapped = (not explicit_date and team_line == rownum - 1 and all(teams)
+                           and not any(EVENT_LABEL.match(n) for n in new_teams if n))
+                if wrapped:
+                    team_line = rownum
+                else:
+                    pair = team_pair(new_teams)
+                    teams, team_row, team_line = pair or ['', ''], rownum, rownum if pair else None
         raw_event = row[event_at]
         if isinstance(raw_event, str) and raw_event.strip():
             event, event_row = raw_event.strip(), rownum

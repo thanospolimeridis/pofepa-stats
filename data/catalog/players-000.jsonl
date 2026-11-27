@@ -3875,7 +3875,6 @@
 {"id":"u-cbe9172357530cf9","registration":"","name":"ΤΑΣΤΣΙΟΓΛΟΥ ΧΡΗΣΤΟΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-f5f074ec3aebbaac","category":"","period":"2012-03","provisional":true}
 {"id":"u-7b72dd63fe398a6e","registration":"","name":"ΘΕΟΔΩΡΙΔΗΣ ΘΕΟΔΩΡΟΣ Θ.","aliases":[],"club":"c-f8d8e212af071005","category":"","period":"2012-03","provisional":true}
 {"id":"u-d874896e83b1a945","registration":"","name":"ΤΣΟΥΓΑΝΑΤΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-804159686f8221d0","category":"","period":"2012-03","provisional":true}
-{"id":"u-eba0ae986ad3a9df","registration":"","name":"ΙΒΑΝΟΦ ΤΟΝΥ","aliases":[],"club":"c-62c7cd26af6210fb","category":"","period":"2012-03","provisional":true}
 {"id":"u-b1f194a9b72aa401","registration":"","name":"ΙΒΑΝΟΦ ΤΟΝΥ","aliases":[],"club":"","category":"","period":"2012-03","provisional":true}
 {"id":"u-25b050de98804572","registration":"","name":"ΤΣΙΟΚΑΣ ΝΤΑΝΙΕΛ","aliases":[],"club":"","category":"","period":"2012-03","provisional":true}
 {"id":"u-0fc2f32eeb2e64b2","registration":"","name":"ΣΑΛΑΤΑΣ ΝΙΚΟΑΛΟΣ","aliases":[],"club":"","category":"","period":"2012-03","provisional":true}
@@ -4050,35 +4049,22 @@
 {"id":"u-e77fbf428b21b2e2","registration":"","name":"ΜΠΙΣΜΠΙΚΗΣ ΕΥΣΤΑΘΙΟΣ","aliases":[],"club":"c-b37511798131838f","category":"","period":"2013-01","provisional":true}
 {"id":"u-e21a9788ddb11fb8","registration":"","name":"ΚΥΡΙΑΚΟΠΟΥΛΟΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-f8d8e212af071005","category":"","period":"2013-01","provisional":true}
 {"id":"u-79926c6c3ec1b73c","registration":"","name":"ΔΕΛΑΡΟΚΑΣ ΑΘΑΝΑΣΙΙΟΣ","aliases":[],"club":"c-150b9f8cea2846d7","category":"","period":"2013-01","provisional":true}
-{"id":"u-e1f6bd101e4462c4","registration":"","name":"ΚΟΝΤΟΒΑΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
-{"id":"u-23f061f9a4856501","registration":"","name":"ΓΕΩΡΓΟΠΟΥΛΟΣ ΣΩΤΗΡΙΟΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
-{"id":"u-1056487dd40e25fe","registration":"","name":"ΓΕΩΡΓΟΠΟΥΛΟΣ ΣΩΤΗΡΙΟΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
-{"id":"u-112dc33ecd12c67c","registration":"","name":"ΚΟΧΥΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
-{"id":"u-6a7142529416a521","registration":"","name":"ΚΟΥΡΡΗΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
 {"id":"u-a2e6ae4fe5911e5b","registration":"","name":"ΚΟΝΤΟΒΑΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
+{"id":"u-23f061f9a4856501","registration":"","name":"ΓΕΩΡΓΟΠΟΥΛΟΣ ΣΩΤΗΡΙΟΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
+{"id":"u-6fff4eab2a4f65eb","registration":"","name":"ΚΟΥΡΡΗΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
 {"id":"u-f7fe42313b074545","registration":"","name":"ΣΚΟΡΔΑΣ ΙΩΑΝΝΗΣ","aliases":[],"club":"c-dc9b558777a00a92","category":"","period":"2013-01","provisional":true}
 {"id":"u-b56a3f3626bf293e","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"c-519416905ed5f6d0","category":"","period":"2013-01","provisional":true}
 {"id":"u-474493eaa3fc5054","registration":"","name":"ΣΦΥΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-cdce35cc8150a12a","category":"","period":"2013-01","provisional":true}
 {"id":"u-46ef23acc02e44f3","registration":"","name":"ΧΡΥΣΙΚΟΠΟΥΛΟΣ ΧΑΡ.","aliases":[],"club":"c-3561a2397b78edef","category":"","period":"2013-01","provisional":true}
-{"id":"u-46a8c74937a3dd97","registration":"","name":"ΚΡΙΑΡΑΣ ΑΘΑΝΑΣΙΟΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
 {"id":"u-ac8f2be184bf4bf0","registration":"","name":"ΚΡΙΑΡΑΣ ΑΘΑΝΑΣΙΟΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
 {"id":"u-64e7804a16252bb6","registration":"","name":"ΠΑΠΑΓΕΩΡΓΙΟΥ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
-{"id":"u-b8350a7c18acef57","registration":"","name":"ΠΑΠΑΓΕΩΡΓΙΟΥ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
-{"id":"u-3a6981cc0d65bf1b","registration":"","name":"ΒΑΣΙΙΛΑΚΗΣ ΗΛΙΑΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
 {"id":"u-0709d1349bd97b6e","registration":"","name":"ΒΑΣΙΙΛΑΚΗΣ ΗΛΙΑΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
 {"id":"u-ad0540efff0df690","registration":"","name":"ΜΕΝΙΑΔΗΣ ΜΙΧΑΛΗΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
-{"id":"u-2cffc11ec746a433","registration":"","name":"ΜΕΝΙΑΔΗΣ ΜΙΧΑΛΗΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
 {"id":"u-6b901e17c944a4a1","registration":"","name":"ΓΚΙΚΑΣ ΑΘΑΝΑΣΙΟΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
-{"id":"u-d21e7a125b82e47a","registration":"","name":"ΓΚΙΚΑΣ ΑΘΑΝΑΣΙΟΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
 {"id":"u-675fd5fd853de567","registration":"","name":"ΝΟΜΙΚΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
-{"id":"u-68de4e9b4440e535","registration":"","name":"ΝΟΜΙΚΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
-{"id":"u-df7d5745f5901e72","registration":"","name":"DRZEWASZEWSKI ΖBIGNIEW","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
-{"id":"u-e5dcded593ba924f","registration":"","name":"ΚΑΡΚΑΤΖΟΣ ΠΛΑΤΩΝ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
-{"id":"u-22a96c281eb509e4","registration":"","name":"ΚΑΡΚΑΤΖΟΣ ΠΛΑΤΩΝ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
 {"id":"u-84edc76e46f8b8ff","registration":"","name":"DRZEWASZEWSKI ΖBIGNIEW","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
+{"id":"u-e5dcded593ba924f","registration":"","name":"ΚΑΡΚΑΤΖΟΣ ΠΛΑΤΩΝ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
 {"id":"u-66701e49e4bdf78d","registration":"","name":"ΚΑΡΑΒΙΤΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
-{"id":"u-37ff8606c0df596f","registration":"","name":"ΚΑΡΑΒΙΤΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
-{"id":"u-bbeade6094803b84","registration":"","name":"ΚΑΡΑΤΖΑΣ ΠΡΟΔΡΟΜΟΣ","aliases":[],"club":"c-d83a5e16e10a3396","category":"","period":"2013-01","provisional":true}
 {"id":"u-ad2de19326b48580","registration":"","name":"ΚΑΡΑΤΖΑΣ ΠΡΟΔΡΟΜΟΣ","aliases":[],"club":"","category":"","period":"2013-01","provisional":true}
 {"id":"u-4f6c964297db1dc9","registration":"","name":"ΔΑΣΚΑΛΑΚΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-0b63bc22321e5c7d","category":"","period":"2013-01","provisional":true}
 {"id":"u-d12c3a0937c7e1cd","registration":"","name":"ΤΕΡΖΙΔΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-d52abe0c0993fed0","category":"","period":"2013-02","provisional":true}
@@ -4153,21 +4139,14 @@
 {"id":"u-020d1910a094d889","registration":"","name":"ΤΣΙΟΚΑΣ ΝΤΑΝΙΕΛ","aliases":[],"club":"c-84ecb347944cd3bf","category":"","period":"2013-05","provisional":true}
 {"id":"u-515b221939129793","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-024feb0f8d02e9bd","category":"","period":"2013-05","provisional":true}
 {"id":"u-cdcdde2891ea176c","registration":"","name":"ΔΗΜΗΤΡΙΟΥ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-f415e3fea2e5d36e","category":"","period":"2013-05","provisional":true}
-{"id":"u-d57d28e67d81e2f2","registration":"","name":"ΠΕΤΡΑΚΗ ΕΜΜΑΝΟΥΕΛΑ","aliases":[],"club":"c-2cf0d3180f746861","category":"","period":"2013-05","provisional":true}
 {"id":"u-fb35263275a6d7a2","registration":"","name":"ΠΕΤΡΑΚΗ ΕΜΜΑΝΟΥΕΛΑ","aliases":[],"club":"","category":"","period":"2013-05","provisional":true}
 {"id":"u-84dcae511c4ecc25","registration":"","name":"ΤΣΙΑΒΟΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"","category":"","period":"2013-05","provisional":true}
 {"id":"u-d5521a533fcc622b","registration":"","name":"ΑΡΤΕΜΙΑΔΗΣ ΣΩΤΗΡΙΟΣ","aliases":[],"club":"","category":"","period":"2013-05","provisional":true}
-{"id":"u-01eb014d39b7022b","registration":"","name":"ΑΡΤΕΜΙΑΔΗΣ ΣΩΤΗΡΙΟΣ","aliases":[],"club":"c-cfcd5fab0ff1257f","category":"","period":"2013-05","provisional":true}
-{"id":"u-155db7984f4236a2","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2013-05","provisional":true}
 {"id":"u-a07e2b7e8413ce71","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2013-05","provisional":true}
-{"id":"u-f9ed178f1b722d30","registration":"","name":"DRZEWASZEWSKI ΖBIGNIEW","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2013-05","provisional":true}
 {"id":"u-5081186a22041cf4","registration":"","name":"DRZEWASZEWSKI ΖBIGNIEW","aliases":[],"club":"","category":"","period":"2013-05","provisional":true}
 {"id":"u-7f9aa311020495cd","registration":"","name":"ΜΑΚΡΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"","category":"","period":"2013-05","provisional":true}
-{"id":"u-d58c07752b00b3b3","registration":"","name":"ΜΑΚΡΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2013-05","provisional":true}
-{"id":"u-bf80b5ede6119caf","registration":"","name":"ΤΕΡΖΙΔΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-896bb40b53602fdc","category":"","period":"2013-05","provisional":true}
 {"id":"u-badabdbc475126a6","registration":"","name":"ΤΕΡΖΙΔΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2013-05","provisional":true}
 {"id":"u-3a4ec7129be6987c","registration":"","name":"ΔΗΜΗΤΡΙΟΥ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"","category":"","period":"2013-05","provisional":true}
-{"id":"u-b0ee3506baa99dbb","registration":"","name":"ΔΗΜΗΤΡΙΟΥ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-896bb40b53602fdc","category":"","period":"2013-05","provisional":true}
 {"id":"u-e6a6d223a39a5d51","registration":"","name":"ΜΟΣΧΟΠΟΥΛΟΣ ΣΠΥΡΙΔΩΝ","aliases":[],"club":"c-3561a2397b78edef","category":"","period":"2013-05","provisional":true}
 {"id":"u-8068aa4c3754ea03","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"","category":"","period":"2013-06","provisional":true}
 {"id":"u-2fab3f07fb614087","registration":"","name":"DRZEWASZEWSKI ΖBIGNIEW","aliases":[],"club":"","category":"","period":"2013-06","provisional":true}
@@ -4524,15 +4503,9 @@
 {"id":"u-97933857d64a5721","registration":"","name":"ΤΣΙΑΒΟΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-32edf96a0fbc9ca4","category":"","period":"2014-02","provisional":true}
 {"id":"u-31de3afeaf2107c6","registration":"","name":"ΚΑΡΑΚΑΣΙΔΗΣ ΝΙΚΟΑΛΟΣ","aliases":[],"club":"c-2dcb31dd32ca1857","category":"","period":"2014-02","provisional":true}
 {"id":"u-b71ae10ea971e0cf","registration":"","name":"ΑΝΥΦΑΝΤΑΚΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-636355b48fb4c6c8","category":"","period":"2014-02","provisional":true}
-{"id":"u-264883c24a005586","registration":"","name":"ΚΟΧΥΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-fbb1a0458fdc95e7","category":"","period":"2014-02","provisional":true}
 {"id":"u-aa580f7475000643","registration":"","name":"ΣΤΑΜΑΤΙΑΔΗΣ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"","category":"","period":"2014-02","provisional":true}
-{"id":"u-80a2524f8228d055","registration":"","name":"ΣΤΑΜΑΤΙΑΔΗΣ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"c-fbb1a0458fdc95e7","category":"","period":"2014-02","provisional":true}
-{"id":"u-8c70f48d4ade5b52","registration":"","name":"ΟΙΚΟΝΟΜΟΥ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-fbb1a0458fdc95e7","category":"","period":"2014-02","provisional":true}
-{"id":"u-6927d8f8cf9802e9","registration":"","name":"ΠΑΠΑΪΩΝΝΟΥ ΗΛΙΑΣ","aliases":[],"club":"c-fbb1a0458fdc95e7","category":"","period":"2014-02","provisional":true}
 {"id":"u-1785f7916543b0c7","registration":"","name":"ΠΑΠΑΪΩΝΝΟΥ ΗΛΙΑΣ","aliases":[],"club":"","category":"","period":"2014-02","provisional":true}
 {"id":"u-f9bc2a7c93f3fbfc","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2014-02","provisional":true}
-{"id":"u-6a7165c25d47f31f","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-fbb1a0458fdc95e7","category":"","period":"2014-02","provisional":true}
-{"id":"u-fef139f10aa01469","registration":"","name":"ΑΘΑΝΑΣΟΠΟΥΛΟΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-fbb1a0458fdc95e7","category":"","period":"2014-02","provisional":true}
 {"id":"u-4484fc3aa5985a30","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"","category":"","period":"2014-02","provisional":true}
 {"id":"u-d0161db8ea77da70","registration":"","name":"ΚΥΡΙΑΚΟΠΟΥΛΟΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"","category":"","period":"2014-02","provisional":true}
 {"id":"u-41b64a2c2d62c5ca","registration":"","name":"ΣΟΚΟΡΕΛΛΗΣ ΙΩΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2014-02","provisional":true}
@@ -4578,18 +4551,12 @@
 {"id":"u-c97d026af47da7e5","registration":"","name":"ΜΑΚΡΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-2dcb31dd32ca1857","category":"","period":"2014-03","provisional":true}
 {"id":"u-6eb578cba288c2a1","registration":"","name":"ΤΕΡΖΙΔΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-d52abe0c0993fed0","category":"","period":"2014-03","provisional":true}
 {"id":"u-202f52596602a3e5","registration":"","name":"ΦΩΤΙΑΔΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-2af66853af65fa45","category":"","period":"2014-03","provisional":true}
-{"id":"u-2fa7aac373414db3","registration":"","name":"ΛΙΟΛΗΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"c-e0cbfd606d3600dd","category":"","period":"2014-03","provisional":true}
 {"id":"u-a0e330706c00c682","registration":"","name":"ΛΙΟΛΗΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"","category":"","period":"2014-03","provisional":true}
 {"id":"u-3bab9b7b95327f2c","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2014-03","provisional":true}
-{"id":"u-0f76e566f80f37c2","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-00268313f0716663","category":"","period":"2014-03","provisional":true}
-{"id":"u-c3664b99287bc589","registration":"","name":"ΜΑΚΡΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-888203a02f5a6b24","category":"","period":"2014-03","provisional":true}
 {"id":"u-2b4dc203d4c407b2","registration":"","name":"ΜΑΚΡΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"","category":"","period":"2014-03","provisional":true}
 {"id":"u-b0a4030e50e326a1","registration":"","name":"ΑΝΥΦΑΝΤΑΚΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2014-03","provisional":true}
-{"id":"u-84b472ccc1371026","registration":"","name":"ΗΛΙΑΔΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-188689baf8f35dd4","category":"","period":"2014-03","provisional":true}
-{"id":"u-62d41e0477a14300","registration":"","name":"ΑΝΥΦΑΝΤΑΚΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-188689baf8f35dd4","category":"","period":"2014-03","provisional":true}
-{"id":"u-7b2a9986a6fcdc80","registration":"","name":"ΚΑΖΑΚΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"","category":"","period":"2014-03","provisional":true}
-{"id":"u-99deb6964ce75772","registration":"","name":"ΚΑΖΑΚΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-188689baf8f35dd4","category":"","period":"2014-03","provisional":true}
 {"id":"u-3d8df758afca9af3","registration":"","name":"ΗΛΙΑΔΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"","category":"","period":"2014-03","provisional":true}
+{"id":"u-7b2a9986a6fcdc80","registration":"","name":"ΚΑΖΑΚΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"","category":"","period":"2014-03","provisional":true}
 {"id":"u-33f2e75dd2208556","registration":"","name":"ΣΤΑΜΑΤΙΑΔΗΣ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"c-d72cd9a297ac2724","category":"","period":"2014-03","provisional":true}
 {"id":"u-31c655fe1f8a0a76","registration":"","name":"ΚΟΚΟΣΗΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-1e713e25ec8677da","category":"","period":"2014-03","provisional":true}
 {"id":"u-fcb1c7e1b6186031","registration":"","name":"ΚΑΦΟΥΣΙΑΣ ΣΩΤΗΡΗΣ","aliases":[],"club":"c-2c68c28b551dde15","category":"","period":"2014-03","provisional":true}
@@ -4965,19 +4932,18 @@
 {"id":"u-fe6fae3cda67e61c","registration":"","name":"ΠΑΠΑΝΑΓΟΥ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-b0cc5d1fef9f32d2","category":"","period":"2015-01","provisional":true}
 {"id":"u-55df61ff3f343868","registration":"","name":"ΜΑΚΡΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-2dcb31dd32ca1857","category":"","period":"2015-01","provisional":true}
 {"id":"u-e7d7b9ce36699e92","registration":"","name":"ΚΑΡΑΜΙΤΣΙΟΣ ΘΩΜΑΣ","aliases":[],"club":"c-bfc3fd607d3aeec4","category":"","period":"2015-01","provisional":true}
-{"id":"u-69e635e02ddc9c85","registration":"","name":"XXX","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-01","provisional":true}
+{"id":"u-a95fd6364fe4daa5","registration":"","name":"XXX","aliases":[],"club":"","category":"","period":"2015-01","provisional":true}
 {"id":"u-160d46ac48ec1f09","registration":"","name":"ΚΟΛΛΥΡΙΩΤΗΣ ΟΘΩΝΑΣ","aliases":[],"club":"c-f2038234658c04e1","category":"","period":"2015-01","provisional":true}
 {"id":"u-ee42d2d738e876c3","registration":"","name":"ΡΟΥΣΣΟΣ ΙΩΑΝΝΗΣ","aliases":[],"club":"c-c02a4a7a46e33d7b","category":"","period":"2015-01","provisional":true}
 {"id":"u-3c14b11f6b7c17d3","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-5582834fbb16ad3a","category":"","period":"2015-01","provisional":true}
-{"id":"u-594e9bde3d85f566","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-01","provisional":true}
+{"id":"u-2f035cac27d980e5","registration":"","name":"ΧΧΧ","aliases":[],"club":"","category":"","period":"2015-01","provisional":true}
 {"id":"u-14bf56171a7bdef7","registration":"","name":"ΖΗΚΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-002ec6ebc89fff5f","category":"","period":"2015-01","provisional":true}
 {"id":"u-cc771225d44b5219","registration":"","name":"ΒΑΣΙΛΟΠΟΥΛΟΣ ΦΙΛΛΙΠΟΣ","aliases":[],"club":"c-002ec6ebc89fff5f","category":"","period":"2015-01","provisional":true}
 {"id":"u-df000f7e750a6443","registration":"","name":"ΣΙΣΚΟΥ ΧΡΥΣΟΥΛΑ","aliases":[],"club":"c-81c39f59430d48bc","category":"","period":"2015-01","provisional":true}
-{"id":"u-87591a56ef2283f6","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-01","provisional":true}
+{"id":"u-e1f4f04072455423","registration":"","name":"ΧΧΧ","aliases":[],"club":"","category":"","period":"2015-01","provisional":true}
 {"id":"u-cce5382bb3d2e116","registration":"","name":"ΔΑΣΚΑΛΑΚΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-0b63bc22321e5c7d","category":"","period":"2015-01","provisional":true}
 {"id":"u-4fc3f2ea6b385fa6","registration":"","name":"ΤΣΑΡΣΙΤΑΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-519416905ed5f6d0","category":"","period":"2015-01","provisional":true}
 {"id":"u-1dedc273cda1e1bb","registration":"","name":"ΣΜΥΡΝΑΚΗΣ ΣΤΕΛΙΟΣ","aliases":[],"club":"c-32ea5158adb42e0e","category":"","period":"2015-01","provisional":true}
-{"id":"u-2f035cac27d980e5","registration":"","name":"ΧΧΧ","aliases":[],"club":"","category":"","period":"2015-01","provisional":true}
 {"id":"u-f3a56aa40efa17eb","registration":"","name":"ΚΑΡΑΜΠΙΝΗΣ ΔΗΜΗΤΡΗΣ","aliases":[],"club":"","category":"","period":"2015-01","provisional":true}
 {"id":"u-4c61fc7583142e6a","registration":"","name":"ΚΑΡΑΜΠΟΓΙΑΣ ΑΝΑΣΤΑΣΙΟΣ","aliases":[],"club":"","category":"","period":"2015-01","provisional":true}
 {"id":"u-5608a76bed838f42","registration":"","name":"ΤΣΑΡΣΙΤΑΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2015-01","provisional":true}
@@ -5017,9 +4983,9 @@
 {"id":"u-648eed1094850b37","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-f1222560c4db8ef7","category":"","period":"2015-02","provisional":true}
 {"id":"u-5440f0c3ea1fb4c4","registration":"","name":"ΚΥΡΙΑΚΙΔΗΣ ΓΑΒΡΗΛΟΣ","aliases":[],"club":"c-2d065c068142d220","category":"","period":"2015-02","provisional":true}
 {"id":"u-14185f13e4fadf49","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-7fb0f88e053f122d","category":"","period":"2015-02","provisional":true}
-{"id":"u-aa5b552d47982495","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"c-d4741a320a3981df","category":"","period":"2015-02","provisional":true}
+{"id":"u-c6d7719bf8f35ec5","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"","category":"","period":"2015-02","provisional":true}
 {"id":"u-c09dee5dba919c36","registration":"","name":"ΧΧΧ","aliases":[],"club":"","category":"","period":"2015-02","provisional":true}
-{"id":"u-2067c226c1fddf13","registration":"","name":"ΤΣΑΡΣΙΤΑΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-d4741a320a3981df","category":"","period":"2015-02","provisional":true}
+{"id":"u-2aa7dd74282a6348","registration":"","name":"ΤΣΑΡΣΙΤΑΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2015-02","provisional":true}
 {"id":"u-d51d58859581733d","registration":"","name":"WACLAWEK MAJIEJ","aliases":[],"club":"c-edbf73066af1042e","category":"","period":"2015-02","provisional":true}
 {"id":"u-8ef7dabcbcd8ef8c","registration":"","name":"ΔΑΣΚΑΛΑΚΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-edbf73066af1042e","category":"","period":"2015-02","provisional":true}
 {"id":"u-59275f89fe19aa6c","registration":"","name":"ΖΗΚΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-59d6c5db49169065","category":"","period":"2015-02","provisional":true}
@@ -5027,26 +4993,22 @@
 {"id":"u-ee4257c0f1cf4c14","registration":"","name":"ΛΕΣΤΑΚΗΣ ΑΛΕΞΗΣ","aliases":[],"club":"","category":"","period":"2015-02","provisional":true}
 {"id":"u-2eff1d4ab4a5eaf4","registration":"","name":"ΧΑΤΖΗΝΑΣ ΧΡΙΣΤΟΦΟΡΟΣ","aliases":[],"club":"","category":"","period":"2015-02","provisional":true}
 {"id":"u-605aba1c173034f4","registration":"","name":"KRUCZINSKI ALEXANDER","aliases":[],"club":"","category":"","period":"2015-02","provisional":true}
-{"id":"u-03bb298bd5706ef8","registration":"","name":"ΜΑΚΡΗΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-d4741a320a3981df","category":"","period":"2015-02","provisional":true}
-{"id":"u-dffd1f2ce81c0625","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-d4741a320a3981df","category":"","period":"2015-02","provisional":true}
+{"id":"u-67e6b6d1994346b3","registration":"","name":"ΧΧΧ","aliases":[],"club":"","category":"","period":"2015-02","provisional":true}
 {"id":"u-37a920f024dd9325","registration":"","name":"ΑΣΛΑΝ ΜΟΧΑΜΑΝΤ","aliases":[],"club":"c-deb8c65e47da950f","category":"","period":"2015-02","provisional":true}
 {"id":"u-dc646d2393afbf4f","registration":"","name":"ΜΠΕΡΝΑΝΤΟΥΤ ΙΣΑΑΚ","aliases":[],"club":"c-1d72c482afa9902e","category":"","period":"2015-02","provisional":true}
 {"id":"u-c81e0112b15ebebf","registration":"","name":"KRUCZINSKI ALEXANDER","aliases":[],"club":"c-6256c79443311aa8","category":"","period":"2015-02","provisional":true}
 {"id":"u-8e494ed1efa927d1","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-c89a34b35d5ecc3f","category":"","period":"2015-02","provisional":true}
-{"id":"u-0e1b2c8741f617b7","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-f58a130cfcdfbdbf","category":"","period":"2015-02","provisional":true}
+{"id":"u-b4c21990a1dcb136","registration":"","name":"ΧΧΧ","aliases":[],"club":"","category":"","period":"2015-02","provisional":true}
 {"id":"u-ad4fd679f23e8ba6","registration":"","name":"ΜΑΓΚΟΣ ΕΥΣΤΑΘΙΟΣ","aliases":[],"club":"c-cf77cbd18988422d","category":"","period":"2015-02","provisional":true}
 {"id":"u-e0abded59adf219b","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"c-bfec44c590f493bf","category":"","period":"2015-02","provisional":true}
-{"id":"u-49d508b3117819a8","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-f58a130cfcdfbdbf","category":"","period":"2015-02","provisional":true}
 {"id":"u-5b16eb8f223875d8","registration":"","name":"ΖΗΚΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-002ec6ebc89fff5f","category":"","period":"2015-02","provisional":true}
 {"id":"u-6c9ec84d67b01fc4","registration":"","name":"ΒΑΣΙΛΟΠΟΥΛΟΣ ΦΙΛΛΙΠΟΣ","aliases":[],"club":"c-002ec6ebc89fff5f","category":"","period":"2015-02","provisional":true}
 {"id":"u-e6bee1cac1b9ddbe","registration":"","name":"ΣΜΥΡΝΑΚΗΣ ΣΤΕΛΙΟΣ","aliases":[],"club":"c-32ea5158adb42e0e","category":"","period":"2015-02","provisional":true}
 {"id":"u-a530692f85f95539","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ Π.","aliases":[],"club":"c-3b49d86aea840742","category":"","period":"2015-02","provisional":true}
 {"id":"u-87301b6aa3fd10de","registration":"","name":"ΓΕΩΡΓΟΠΟΥΛΟΣ ΣΩΤΗΡΙΟΣ","aliases":[],"club":"c-786ba9fe23665d1c","category":"","period":"2015-02","provisional":true}
-{"id":"u-67e6b6d1994346b3","registration":"","name":"ΧΧΧ","aliases":[],"club":"","category":"","period":"2015-02","provisional":true}
 {"id":"u-c81d2f86e93cc1e2","registration":"","name":"ΚΩΣΤΟΠΟΥΛΟΣ ΠΑΡΗΣ","aliases":[],"club":"c-ad86fde83e5f4ae5","category":"","period":"2015-02","provisional":true}
 {"id":"u-95ecd62fb9e95d36","registration":"","name":"ΓΑΛΟΥΣΗΣ ΑΘΑΝΑΣΙΟΣ","aliases":[],"club":"c-896ee7784fa13076","category":"","period":"2015-02","provisional":true}
 {"id":"u-0101dc37852f729a","registration":"","name":"JAMI HAMDAD","aliases":[],"club":"c-3a9437f139bf5072","category":"","period":"2015-02","provisional":true}
-{"id":"u-b4c21990a1dcb136","registration":"","name":"ΧΧΧ","aliases":[],"club":"","category":"","period":"2015-02","provisional":true}
 {"id":"u-0ae1a93d3495c6aa","registration":"","name":"ΚΑΖΑΚΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-fb60d654da53e858","category":"","period":"2015-03","provisional":true}
 {"id":"u-2f46496591ccc5ed","registration":"","name":"ΜΑΤΣΙΩΡΗΣ ΜΙΧΑΗΛ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
 {"id":"u-4d8e512315ecaf3b","registration":"","name":"ΖΑΝΕΒΑ ΒΑΝΙΑ","aliases":[],"club":"c-32edf96a0fbc9ca4","category":"","period":"2015-03","provisional":true}
@@ -5055,22 +5017,15 @@
 {"id":"u-b2d7c1b6ffbcc2bc","registration":"","name":"ΜΑΚΡΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-2dcb31dd32ca1857","category":"","period":"2015-03","provisional":true}
 {"id":"u-142da1c045532cd5","registration":"","name":"ΣΙΧΛΙΜΙΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-c6736c2efb289c96","category":"","period":"2015-03","provisional":true}
 {"id":"u-673692f03ec42583","registration":"","name":"ΣΙΧΛΙΜΙΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-1c4d46b3c168e05b","category":"","period":"2015-03","provisional":true}
-{"id":"u-b7518037bef569e4","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-03","provisional":true}
-{"id":"u-ecd61ed7ffc4d23e","registration":"","name":"ΑΝΑΣΤΑΣΟΠΟΥΛΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-03","provisional":true}
-{"id":"u-2bb1f231917f6a11","registration":"","name":"ΖΕΡΒΑΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-03","provisional":true}
-{"id":"u-21df6b119309d145","registration":"","name":"ΜΑΚΡΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-03","provisional":true}
-{"id":"u-2ba24c1864764d3a","registration":"","name":"ΟΡΦΑΝΟΥΔΑΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-03","provisional":true}
+{"id":"u-f7672b59ccafd1ec","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
+{"id":"u-738373a1bc126397","registration":"","name":"ΑΝΑΣΤΑΣΟΠΟΥΛΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
 {"id":"u-8359f443156a2231","registration":"","name":"ΜΑΚΡΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
-{"id":"u-04e194e63ace399b","registration":"","name":"ΤΣΟΥΡΟΣ ΜΙΧΑΗΛ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-03","provisional":true}
-{"id":"u-fcb73648a5e9ca71","registration":"","name":"ΜΑΤΣΙΩΡΗΣ ΜΙΧΑΗΛ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-03","provisional":true}
+{"id":"u-9ea17538eeaa7e3d","registration":"","name":"ΟΡΦΑΝΟΥΔΑΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
 {"id":"u-46276c85c0bd45b8","registration":"","name":"ΤΣΟΥΡΟΣ ΜΙΧΑΗΛ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
 {"id":"u-a490338674a51707","registration":"","name":"ΜΑΤΣΙΩΡΗΣ ΜΙΧΑΗΛ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
-{"id":"u-13fd56143d34b3b8","registration":"","name":"ΚΑΖΑΚΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-03","provisional":true}
-{"id":"u-12afd1c94002bd6f","registration":"","name":"ΔΗΜΗΤΡΙΟΥ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-03","provisional":true}
-{"id":"u-fdb1d45de1265766","registration":"","name":"ΗΛΙΑΔΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
 {"id":"u-1cc51a393ee91031","registration":"","name":"ΚΑΖΑΚΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
 {"id":"u-65bb0920022ee431","registration":"","name":"ΔΗΜΗΤΡΙΟΥ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
-{"id":"u-0c229bfa8a47cb92","registration":"","name":"ΑΝΥΦΑΝΤΑΚΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-03","provisional":true}
+{"id":"u-fdb1d45de1265766","registration":"","name":"ΗΛΙΑΔΗΣ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
 {"id":"u-7687ee4b40ff30df","registration":"","name":"ΑΝΥΦΑΝΤΑΚΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
 {"id":"u-e09c6e924273d73d","registration":"","name":"ΤΣΟΥΡΟΣ ΜΙΧΑΗΛ","aliases":[],"club":"c-532da4561f48874a","category":"","period":"2015-03","provisional":true}
 {"id":"u-fb8e3d442253422c","registration":"","name":"ΑΝΥΦΑΝΤΑΚΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-532da4561f48874a","category":"","period":"2015-03","provisional":true}
@@ -5103,7 +5058,7 @@
 {"id":"u-0552ff07f0b456be","registration":"","name":"ΤΣΑΡΣΙΤΑΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
 {"id":"u-2756c02524b706df","registration":"","name":"ΑΣΛΑΝ ΜΟΧΑΜΑΝΤ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
 {"id":"u-76790e86e3990622","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
-{"id":"u-2cd3ce3af0a0f752","registration":"","name":"ΜΑΓΓΟΣ ΣΤΥΛΙΑΝΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-03","provisional":true}
+{"id":"u-6e8dcd7c54576566","registration":"","name":"ΜΑΓΓΟΣ ΣΤΥΛΙΑΝΟΣ","aliases":[],"club":"","category":"","period":"2015-03","provisional":true}
 {"id":"u-56fa1acf8b4755f3","registration":"","name":"WACLAWEK MAJIEJ","aliases":[],"club":"c-457a65873e90283f","category":"","period":"2015-03","provisional":true}
 {"id":"u-0286529cb34d4c2b","registration":"","name":"ΑΣΛΑΝ ΜΟΧΑΜΑΝΤ","aliases":[],"club":"c-deb8c65e47da950f","category":"","period":"2015-03","provisional":true}
 {"id":"u-f0cdfe6ac0173e0b","registration":"","name":"ΔΑΣΚΑΛΑΚΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-457a65873e90283f","category":"","period":"2015-03","provisional":true}
@@ -5276,9 +5231,9 @@
 {"id":"u-5ad49926c412eaf8","registration":"","name":"ΔΕΡΕΔΑΚΗΣ/ΚΟΧΥΛΗΣ","aliases":[],"club":"c-70b5b4e824acf414","category":"","period":"2015-10","provisional":true}
 {"id":"u-9fa8ca5b0a912997","registration":"","name":"ΣΟΛΟΜΩΝ ΣΟΛΟΜΩΝ του ΡΑΦΑΗΛ","aliases":[],"club":"c-5693d9e79629555f","category":"","period":"2015-10","provisional":true}
 {"id":"u-378167be96e8a57d","registration":"","name":"ΧΧΧ","aliases":[],"club":"","category":"","period":"2015-10","provisional":true}
-{"id":"u-2c6e879b2df1d541","registration":"","name":"ΣΟΛΟΜΩΝ/ΦΕΛΛΟΥΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-10","provisional":true}
+{"id":"u-0d47c98e2fc4bed5","registration":"","name":"ΣΟΛΟΜΩΝ/ΦΕΛΛΟΥΣ","aliases":[],"club":"","category":"","period":"2015-10","provisional":true}
 {"id":"u-47f8c5b0ac6ae9e9","registration":"","name":"ΜΕΡΑ/ΔΕΒΕΤΖΗ","aliases":[],"club":"","category":"","period":"2015-10","provisional":true}
-{"id":"u-bee5988c55674e8b","registration":"","name":"ΣΟΛΟΜΩΝ ΣΟΛΟΜΩΝ του ΡΑΦΑΗΛ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-10","provisional":true}
+{"id":"u-41072dcd3b58f388","registration":"","name":"ΣΟΛΟΜΩΝ ΣΟΛΟΜΩΝ του ΡΑΦΑΗΛ","aliases":[],"club":"","category":"","period":"2015-10","provisional":true}
 {"id":"u-283ff5a740636b8b","registration":"","name":"JAIN SANJAY","aliases":[],"club":"c-8e9518ffd977d627","category":"","period":"2015-10","provisional":true}
 {"id":"u-29eeff4dbc1e47b5","registration":"","name":"ΠΑΓΟΠΟΥΛΟΣ/ΕΥΑΓΓΕΛΙΔΗΣ","aliases":[],"club":"c-f36c1cf28b915aaf","category":"","period":"2015-10","provisional":true}
 {"id":"u-c06ae4b5291bda1a","registration":"","name":"ΚΟΥΛΑΣ/ΔΑΜΑΣΚΗΝΟΣ","aliases":[],"club":"c-bce1d621682dfd82","category":"","period":"2015-10","provisional":true}
@@ -5310,7 +5265,7 @@
 {"id":"u-03653e46eb35421f","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-1abacfb79be5fb79","category":"","period":"2015-10","provisional":true}
 {"id":"u-b316614281a6fada","registration":"","name":"ΗΛΙΑΣ ΣΑΛΩΜ","aliases":[],"club":"c-be8ed9d3dced1c20","category":"","period":"2015-10","provisional":true}
 {"id":"u-5fa4639537ed5fcf","registration":"","name":"ΧΧΧ","aliases":[],"club":"","category":"","period":"2015-10","provisional":true}
-{"id":"u-4656c2cb1b02b295","registration":"","name":"ΠΑΝΤΕΛΙΔΗΣ/ΧΕΛΒΑΤΖΙΑΝ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-10","provisional":true}
+{"id":"u-ca0f8c7195a27eab","registration":"","name":"ΠΑΝΤΕΛΙΔΗΣ/ΧΕΛΒΑΤΖΙΑΝ","aliases":[],"club":"","category":"","period":"2015-10","provisional":true}
 {"id":"u-63b2fcfec851c9f5","registration":"","name":"ΠΑΠΑΣΚΑΡΛΑΤΟΣ/ΣΑΛΩΜ","aliases":[],"club":"","category":"","period":"2015-10","provisional":true}
 {"id":"u-273a6463df9d3f1e","registration":"","name":"ΗΛΙΑΣ ΣΑΛΩΜ","aliases":[],"club":"","category":"","period":"2015-10","provisional":true}
 {"id":"u-33064a4f3c0b5307","registration":"","name":"ΜΑΥΡΟΜΜΑΤΗΣ ΑΝΤΩΝΗΣ","aliases":[],"club":"c-4167f55bb61a6b8c","category":"","period":"2015-10","provisional":true}
@@ -5416,7 +5371,7 @@
 {"id":"u-f1c8550aaca6c42a","registration":"","name":"ΤΣΟΥΡΟΣ ΜΙΧΑΗΛ","aliases":[],"club":"c-532da4561f48874a","category":"","period":"2015-11","provisional":true}
 {"id":"u-d81766205b1fe1c6","registration":"","name":"ΤΣΑΛΑΜΑΝΗΣ ΔΗΜΗΤΡΗΣ","aliases":[],"club":"c-bc61237dae75ff6d","category":"","period":"2015-11","provisional":true}
 {"id":"u-1da7b6022090d8a6","registration":"","name":"ΔΕΜΑΓΚΟΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-a6fcff566d3431f9","category":"","period":"2015-11","provisional":true}
-{"id":"u-9e8489da603d3069","registration":"","name":"ΔΕΜΑΓΚΟΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-11","provisional":true}
+{"id":"u-34ae53f3f4efc434","registration":"","name":"ΔΕΜΑΓΚΟΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"","category":"","period":"2015-11","provisional":true}
 {"id":"u-4aca17a3d6503348","registration":"","name":"VOLOVNYK MYKHALO","aliases":[],"club":"c-b08fb8aa0f8e08c7","category":"","period":"2015-11","provisional":true}
 {"id":"u-3f48d108e6832ce0","registration":"","name":"BOUDIK GEGEN","aliases":[],"club":"c-b08fb8aa0f8e08c7","category":"","period":"2015-11","provisional":true}
 {"id":"u-63036e47115a3bf4","registration":"","name":"ΧΑΤΖΗΓΕΩΡΓΙΟΥ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-019c927651706ef9","category":"","period":"2015-11","provisional":true}
@@ -5449,8 +5404,8 @@
 {"id":"u-00fd010b647b2da5","registration":"","name":"ΜΠΕΡΝΑΡΝΤΟΥΤ ΙΣΑΑΚ","aliases":[],"club":"c-5693d9e79629555f","category":"","period":"2015-11","provisional":true}
 {"id":"u-a18d25b5c7ab415c","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΙΔΗΣ/ΚΑΡΑΤΖΑΣ","aliases":[],"club":"c-3aa38ba1e6266496","category":"","period":"2015-11","provisional":true}
 {"id":"u-5ae8f7bcc058e068","registration":"","name":"ΣΙΨΑΣ/ΧΡΥΣΙΔΗΣ","aliases":[],"club":"c-82dbc04e7ec26a23","category":"","period":"2015-11","provisional":true}
-{"id":"u-b71c6dfb168d581d","registration":"","name":"ΜΑΥΡΟΜΜΑΤΗΣ ΑΝΤΩΝΗΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-11","provisional":true}
-{"id":"u-fcfc6a81b88277d0","registration":"","name":"ΛΕΟΝΤΗΣ ΜΑΥΡΕΛΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-11","provisional":true}
+{"id":"u-fc0d1482b25a51e5","registration":"","name":"ΜΑΥΡΟΜΜΑΤΗΣ ΑΝΤΩΝΗΣ","aliases":[],"club":"","category":"","period":"2015-11","provisional":true}
+{"id":"u-513e55251dfdb27d","registration":"","name":"ΛΕΟΝΤΗΣ ΜΑΥΡΕΛΟΣ","aliases":[],"club":"","category":"","period":"2015-11","provisional":true}
 {"id":"u-ace55a93cbe5f797","registration":"","name":"ΠΑΝΤΕΛΙΔΗΣ/ΧΕΛΒΑΤΖΙΑΝ","aliases":[],"club":"c-7f271da2b2518b27","category":"","period":"2015-11","provisional":true}
 {"id":"u-a80692dcbfda5597","registration":"","name":"ΓΕΩΡΓΙΑΔΗΣ/ΔΩΡΙΖΑΣ","aliases":[],"club":"c-add248a9d22e59dc","category":"","period":"2015-11","provisional":true}
 {"id":"u-df64bc6ea2a71ad6","registration":"","name":"ΧΑΤΖΗΓΕΩΡΓΙΟΥ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-0c81c1f9fe45bfbd","category":"","period":"2015-11","provisional":true}
@@ -5496,7 +5451,6 @@
 {"id":"u-ae7181443000194b","registration":"","name":"ΦΡΑΓΓΙΝΕΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"c-cf8b99e85f37241e","category":"","period":"2015-11","provisional":true}
 {"id":"u-1258eb5d626f72f4","registration":"","name":"ΤΡΙΑΝΤΑΦΥΛΛΙΔΗΣ","aliases":[],"club":"c-cf77cbd18988422d","category":"","period":"2015-11","provisional":true}
 {"id":"u-b3c073a0885c7e51","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-654ea6725a557e98","category":"","period":"2015-11","provisional":true}
-{"id":"u-ccdd95edf8e16d92","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2015-11","provisional":true}
 {"id":"u-ad6dac112a60d8fb","registration":"","name":"ΜΠΑΛΤΖΙΔΗΣ ΣΠΑΡΤΑΚΟΣ","aliases":[],"club":"","category":"","period":"2015-11","provisional":true}
 {"id":"u-497c4a7ce0151dbb","registration":"","name":"ΧΑΡΑΚΛΙΑΣ ΠΑΝΤΕΛΗΣ","aliases":[],"club":"c-4af9d9b1c029e51e","category":"","period":"2015-11","provisional":true}
 {"id":"u-9d23d29973e65b7e","registration":"","name":"ΔΑΣΚΑΛΑΚΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-7e19998654977174","category":"","period":"2015-11","provisional":true}
@@ -5765,9 +5719,7 @@
 {"id":"u-59612f63a8df8874","registration":"","name":"ΛΟΥΚΙΔΗΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"","category":"","period":"2016-02","provisional":true}
 {"id":"u-cb99bc37ce46889f","registration":"","name":"ΣΤΑΜΑΤΙΑΔΗΣ ΣΥΕΜΩΝ","aliases":[],"club":"","category":"","period":"2016-02","provisional":true}
 {"id":"u-cdbfa2e8f9676b20","registration":"","name":"ΤΣΑΡΣΙΤΑΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2016-02","provisional":true}
-{"id":"u-d987e920f4512e4f","registration":"","name":"ΤΣΑΡΣΙΤΑΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2016-02","provisional":true}
 {"id":"u-246af309fb697f20","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"","category":"","period":"2016-02","provisional":true}
-{"id":"u-638d65555f400088","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2016-02","provisional":true}
 {"id":"u-00c2e5f474211765","registration":"","name":"ΔΕΛΑΚΟΥΡΑΣ ΑΝΤΡΕΑΣ","aliases":[],"club":"c-56af5f6a5db73d18","category":"","period":"2016-02","provisional":true}
 {"id":"u-a872bac1965c4899","registration":"","name":"ΡΙΖΟΣ ΔΗΜΟΣ","aliases":[],"club":"c-ea270e97f0728afb","category":"","period":"2016-02","provisional":true}
 {"id":"u-b629270840eabdf8","registration":"","name":"STROH THEODOR","aliases":[],"club":"c-200c72ee6d093479","category":"","period":"2016-02","provisional":true}
@@ -6029,7 +5981,6 @@
 {"id":"u-1f26e2b4cb4344e0","registration":"","name":"ΤΣΟΥΡΟΣ ΜΙΧΑΗΛ","aliases":[],"club":"","category":"","period":"2016-06","provisional":true}
 {"id":"u-d2352c89c9e25e50","registration":"","name":"ΔΗΜΗΤΡΙΟΥ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"","category":"","period":"2016-06","provisional":true}
 {"id":"u-3aa024eb70c28557","registration":"","name":"ΟΡΦΑΝΟΥΔΑΚΗΣ ΝΙΚΟΑΛΑΟΣ","aliases":[],"club":"","category":"","period":"2016-06","provisional":true}
-{"id":"u-30b6eb917f781f48","registration":"","name":"ΑΝΥΦΑΝΤΑΚΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2016-06","provisional":true}
 {"id":"u-93958fbcb9e10e74","registration":"","name":"ΑΝΥΦΑΝΤΑΚΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2016-06","provisional":true}
 {"id":"u-1f5b2bc5c9fc9893","registration":"","name":"ΧΟΧΛΑΚΗΣ-ΜΠΕΡΕΖΙΝ","aliases":[],"club":"c-1f484e9115853aee","category":"","period":"2016-09","provisional":true}
 {"id":"u-e1d9872f066ba48f","registration":"","name":"ΟΡΦΑΝΟΥΔΑΚΗΣ-ΚΑΡΑΜΗΤΣΙΟΣ","aliases":[],"club":"c-bfc3fd607d3aeec4","category":"","period":"2016-09","provisional":true}
@@ -6069,23 +6020,18 @@
 {"id":"u-ab44624d3a284cdc","registration":"","name":"ΠΑΠΑΔΑΚΗ ΕΛΕΝΑ","aliases":[],"club":"c-7fb0f88e053f122d","category":"","period":"2016-09","provisional":true}
 {"id":"u-eef033330fe85677","registration":"","name":"ΠΑΡΟΔΟΣ/ΡΙΖΟΣ","aliases":[],"club":"c-7fb0f88e053f122d","category":"","period":"2016-09","provisional":true}
 {"id":"u-fdf197444f5ed086","registration":"","name":"ΣΕΡΕΜΕΤΗΣ/ΛΑΖΑΡΙΔΗΣ","aliases":[],"club":"c-2f774315c12ccd04","category":"","period":"2016-09","provisional":true}
-{"id":"u-20b1727a3b9de4f0","registration":"","name":"ΠΑΠΑΔΑΚΗ ΕΛΕΝΑ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2016-09","provisional":true}
+{"id":"u-1ae4e2880f43ebca","registration":"","name":"ΠΑΠΑΔΑΚΗ ΕΛΕΝΑ","aliases":[],"club":"","category":"","period":"2016-09","provisional":true}
 {"id":"u-921938c084cbdc52","registration":"","name":"ΓΙΟΥΡΓΗΣ/ΑΠΟΣΤΟΛΟΥ","aliases":[],"club":"c-fdcee95f990690d7","category":"","period":"2016-09","provisional":true}
 {"id":"u-ccebf4953383164d","registration":"","name":"ΤΣΕΠΕΡΛΗΣ ΟΔΥΣΣΕΑΣ","aliases":[],"club":"c-70b5b4e824acf414","category":"","period":"2016-09","provisional":true}
 {"id":"u-b8dc34ef4f446693","registration":"","name":"ΚΑΖΑΝΤΖΟΓΛΟΥ / ΚΟΥΤΡΟΥΜΠΑ","aliases":[],"club":"c-ede7ffb9c867fd80","category":"","period":"2016-09","provisional":true}
 {"id":"u-d274ca7f74bb28e5","registration":"","name":"ΚΟΧΥΛΗΣ / ΔΕΡΕΔΑΚΗΣ","aliases":[],"club":"c-70b5b4e824acf414","category":"","period":"2016-09","provisional":true}
 {"id":"u-8a1d65dad3e63103","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2016-09","provisional":true}
-{"id":"u-4f48a9bfdc80e63a","registration":"","name":"JAMI HAMDAD","aliases":[],"club":"c-3fc7da63e03075e5","category":"","period":"2016-09","provisional":true}
 {"id":"u-db762823813eb50d","registration":"","name":"JAMI HAMDAD","aliases":[],"club":"","category":"","period":"2016-09","provisional":true}
-{"id":"u-f962bff505e70488","registration":"","name":"ΚΥΠΡΑΙΟΣ ΕΠΑΜΕΙΝΩΝΔΑΣ","aliases":[],"club":"c-3fc7da63e03075e5","category":"","period":"2016-09","provisional":true}
 {"id":"u-0fe73a63516f776a","registration":"","name":"ΚΥΠΡΑΙΟΣ ΕΠΑΜΕΙΝΩΝΔΑΣ","aliases":[],"club":"","category":"","period":"2016-09","provisional":true}
 {"id":"u-72fb0ef9bb23c365","registration":"","name":"ΜΕΧΙΛΛΗΣ ΙΟΥΛΙΟΣ","aliases":[],"club":"","category":"","period":"2016-09","provisional":true}
 {"id":"u-58ff1d740549755f","registration":"","name":"ZBI DRZEWASZEWSKI","aliases":[],"club":"","category":"","period":"2016-09","provisional":true}
-{"id":"u-0abc40b59c1d1d7b","registration":"","name":"ZBI DRZEWASZEWSKI","aliases":[],"club":"c-5b40b9347046a36b","category":"","period":"2016-09","provisional":true}
-{"id":"u-42f7910544a354df","registration":"","name":"ΚΑΡΤΣΩΝΗΣ ΧΑΡΗΣ","aliases":[],"club":"c-99f68992a0d037e7","category":"","period":"2016-09","provisional":true}
 {"id":"u-3504b71380f0e9ee","registration":"","name":"ΚΑΡΤΣΩΝΗΣ ΧΑΡΗΣ","aliases":[],"club":"","category":"","period":"2016-09","provisional":true}
 {"id":"u-0ee5ed5f500493cd","registration":"","name":"ΤΣΑΡΣΙΤΑΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2016-09","provisional":true}
-{"id":"u-a0044814a389ae6c","registration":"","name":"ΤΣΑΡΣΙΤΑΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-011c379cd0784bd8","category":"","period":"2016-09","provisional":true}
 {"id":"u-82eb47133015fbec","registration":"","name":"ΚΑΛΟΣ / ΖΕΡΒΟΥΔΗΣ","aliases":[],"club":"c-be88aef4c12bc891","category":"","period":"2016-09","provisional":true}
 {"id":"u-81bf4e91961f76e0","registration":"","name":"ΓΛΑΒΑΣ / ΧΕΛΒΑΤΖΙΑΝ","aliases":[],"club":"c-94e098c453b5cc9f","category":"","period":"2016-09","provisional":true}
 {"id":"u-15bd531a29f56243","registration":"","name":"ΠΕΤΡΑΚΗ / ΛΟΥΚΑ","aliases":[],"club":"c-3123c8b93cf4a641","category":"","period":"2016-09","provisional":true}
@@ -6133,7 +6079,7 @@
 {"id":"u-e6a3e8a771646b79","registration":"","name":"ΡΩΜΝΙΟΣ/ΣΙΕΤΤΟΣ","aliases":[],"club":"c-badca1c13cb1787d","category":"","period":"2016-09","provisional":true}
 {"id":"u-bb1ee2d3474266af","registration":"","name":"ΜΩΥΣΗΣ/ΑΠΑΠΑΔΗΜΗΤΡΙΟΥ","aliases":[],"club":"c-319bae41f4ec50e0","category":"","period":"2016-09","provisional":true}
 {"id":"u-c685797629715293","registration":"","name":"ΧΑΤΖΗΓΕΩΡΓΙΟΥ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"","category":"","period":"2016-09","provisional":true}
-{"id":"u-e06bcbdfe38fb167","registration":"","name":"ΤΣΑΜΗΣ/ΓΡΗΓΟΡΟΠΟΥΛΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2016-09","provisional":true}
+{"id":"u-e164b7302d03953f","registration":"","name":"ΤΣΑΜΗΣ/ΓΡΗΓΟΡΟΠΟΥΛΟΣ","aliases":[],"club":"","category":"","period":"2016-09","provisional":true}
 {"id":"u-a13ac58d696cb017","registration":"","name":"ΚΟΥΤΡΟΣ/ΤΡΑΧΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2016-09","provisional":true}
 {"id":"u-5c4de1112a17ae0a","registration":"","name":"ΔΕΡΕΔΑΚΗΣ/ΤΣΕΡΠΕΛΗΣ","aliases":[],"club":"c-70b5b4e824acf414","category":"","period":"2016-09","provisional":true}
 {"id":"u-66c07ce16276c2a9","registration":"","name":"ΦΑΚΑΡΟΣ/ΦΡΑΓΚΑΚΗΣ","aliases":[],"club":"c-9d1c5226054a002d","category":"","period":"2016-09","provisional":true}
@@ -6215,28 +6161,19 @@
 {"id":"u-1c6f4fa72632ed88","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-0000c2f9fb84d85f","category":"","period":"2016-10","provisional":true}
 {"id":"u-ca322916001bbd41","registration":"","name":"ΤΟΜΑΡΑΣ / ΔΑΛΙΕΤΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2016-10","provisional":true}
 {"id":"u-fe130ab6d35fcba4","registration":"","name":"ΜΠΕΚΑΣ / ΤΖΑΡΑΒΑ","aliases":[],"club":"c-0000c2f9fb84d85f","category":"","period":"2016-10","provisional":true}
-{"id":"u-947f974de93dd325","registration":"","name":"ΠΑΓΟΥΡΤΖΗΣ/ΚΑΡΑΚΑΤΣΑΝΗΣ","aliases":[],"club":"","category":"","period":"2016-10","provisional":true}
-{"id":"u-f1b2a486b71cb5fe","registration":"","name":"ΣΤΕΦΑΝΙΔΗΣ/ΠΑΝΟΥΚΙΔΗΣ","aliases":[],"club":"c-eaeba4429a044dee","category":"","period":"2016-10","provisional":true}
-{"id":"u-2361eed57d93c0a0","registration":"","name":"ΦΩΤΙΑΔΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2016-10","provisional":true}
-{"id":"u-7545dbf6072fc26d","registration":"","name":"ΤΖΑΡΑΒΑ ΑΘΑΝΑΣΙΑ","aliases":[],"club":"","category":"","period":"2016-10","provisional":true}
-{"id":"u-2ab550f8fa62789a","registration":"","name":"ΠΕΤΣΟΥΚΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-46fbd7ab86474c1b","category":"","period":"2016-10","provisional":true}
-{"id":"u-f7e20c343a694241","registration":"","name":"ΧΧΧ","aliases":[],"club":"","category":"","period":"2016-10","provisional":true}
-{"id":"u-f5c5a8c8b7d5afcb","registration":"","name":"ΜΠΕΚΑΣ / ΤΖΑΡΑΒΑ","aliases":[],"club":"","category":"","period":"2016-10","provisional":true}
-{"id":"u-8e0b3f3cf23eb089","registration":"","name":"ΚΑΛΟΓΗΡΟΥ/ΦΩΤΙΑΔΗΣ","aliases":[],"club":"c-46fbd7ab86474c1b","category":"","period":"2016-10","provisional":true}
-{"id":"u-7126972c8f7f4832","registration":"","name":"ΧΡΗΣΤΟΥ ΚΩΝ/ΝΟΣ","aliases":[],"club":"","category":"","period":"2016-10","provisional":true}
-{"id":"u-817e2b3b4bb907b9","registration":"","name":"ΛΑΓΑΡΟΣ/ΠΑΝΟΥΚΙΔΗΣ","aliases":[],"club":"c-eaeba4429a044dee","category":"","period":"2016-10","provisional":true}
-{"id":"u-d014c348bb50f61a","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ/ΚΑΠΕΤΑΝΙΔΗΣ","aliases":[],"club":"","category":"","period":"2016-10","provisional":true}
-{"id":"u-9be908ea39ae0497","registration":"","name":"ΜΕΡΚΟΥΡΟΠΟΥΛΟΣ ΧΑΡΑΛΑΜ","aliases":[],"club":"","category":"","period":"2016-10","provisional":true}
-{"id":"u-c7b6c520b1d2fce5","registration":"","name":"ΚΟΥΣΤΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"","category":"","period":"2016-10","provisional":true}
-{"id":"u-ee991c5a600d55cf","registration":"","name":"ΣΚΛΙΑΣ/ΔΟΥΗΣ","aliases":[],"club":"c-46fbd7ab86474c1b","category":"","period":"2016-10","provisional":true}
-{"id":"u-3e2bc91df6830d13","registration":"","name":"ΜΕΡΚΟΥΡΟΠΟΥΛΟΣ/ΔΑΛΙΕΤΟΣ","aliases":[],"club":"","category":"","period":"2016-10","provisional":true}
-{"id":"u-c9adf2ab07d826c4","registration":"","name":"ΤΟΜΑΡΑΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"","category":"","period":"2016-10","provisional":true}
-{"id":"u-fac7eba052de5057","registration":"","name":"ΧΡΗΣΤΟΥ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2016-10","provisional":true}
-{"id":"u-40f9fbb6b34f689d","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ/ΚΑΠΕΤΑΝΙΔΗΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2016-10","provisional":true}
 {"id":"u-fbef9109d64f4504","registration":"","name":"ΠΑΓΟΥΡΤΖΗΣ/ΚΑΡΑΚΑΤΣΑΝΗΣ","aliases":[],"club":"c-5c1cec799e747087","category":"","period":"2016-10","provisional":true}
-{"id":"u-68081253d0c8feab","registration":"","name":"ΚΟΥΣΤΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2016-10","provisional":true}
-{"id":"u-1f6925c2d0474acb","registration":"","name":"ΜΕΡΚΟΥΡΟΠΟΥΛΟΣ/ΔΑΛΙΕΤΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2016-10","provisional":true}
+{"id":"u-b868594b21c0710b","registration":"","name":"ΣΤΕΦΑΝΙΔΗΣ/ΠΑΝΟΥΚΙΔΗΣ","aliases":[],"club":"c-aef4abbc5b804b76","category":"","period":"2016-10","provisional":true}
+{"id":"u-2361eed57d93c0a0","registration":"","name":"ΦΩΤΙΑΔΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2016-10","provisional":true}
+{"id":"u-a210d35f72c35568","registration":"","name":"ΤΖΑΡΑΒΑ ΑΘΑΝΑΣΙΑ","aliases":[],"club":"c-0000c2f9fb84d85f","category":"","period":"2016-10","provisional":true}
+{"id":"u-1ac379d25efc066e","registration":"","name":"ΠΕΤΣΟΥΚΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2016-10","provisional":true}
+{"id":"u-8d96e379930252e9","registration":"","name":"ΚΑΛΟΓΗΡΟΥ/ΦΩΤΙΑΔΗΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2016-10","provisional":true}
+{"id":"u-fac7eba052de5057","registration":"","name":"ΧΡΗΣΤΟΥ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2016-10","provisional":true}
+{"id":"u-db9a047f9ba4f783","registration":"","name":"ΛΑΓΑΡΟΣ/ΠΑΝΟΥΚΙΔΗΣ","aliases":[],"club":"c-aef4abbc5b804b76","category":"","period":"2016-10","provisional":true}
+{"id":"u-40f9fbb6b34f689d","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ/ΚΑΠΕΤΑΝΙΔΗΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2016-10","provisional":true}
 {"id":"u-92c497db8bfe546b","registration":"","name":"ΜΕΡΚΟΥΡΟΠΟΥΛΟΣ ΧΑΡΑΛΑΜ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2016-10","provisional":true}
+{"id":"u-68081253d0c8feab","registration":"","name":"ΚΟΥΣΤΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2016-10","provisional":true}
+{"id":"u-59f64e6245335cd6","registration":"","name":"ΣΚΛΙΑΣ/ΔΟΥΗΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2016-10","provisional":true}
+{"id":"u-1f6925c2d0474acb","registration":"","name":"ΜΕΡΚΟΥΡΟΠΟΥΛΟΣ/ΔΑΛΙΕΤΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2016-10","provisional":true}
 {"id":"u-c7f9c2af1cf3457a","registration":"","name":"ΠΑΠΑΛΕΟΝΤΙΟΥ ΘΕΟΔΩΡΟΣ","aliases":[],"club":"c-150b9f8cea2846d7","category":"","period":"2016-10","provisional":true}
 {"id":"u-5e19683d22b82fda","registration":"","name":"ΓΡΗΓΟΡΟΠΟΥΛΟΣ/ΜΟΣΧΟΝΑΣ","aliases":[],"club":"c-1a63d32d95073269","category":"","period":"2016-10","provisional":true}
 {"id":"u-8f9fa0a439f7338c","registration":"","name":"ΑΝΔΡΙΤΣΟΣ/ΣΟΚΟΡΕΛΗΣ","aliases":[],"club":"c-150b9f8cea2846d7","category":"","period":"2016-10","provisional":true}
@@ -6381,9 +6318,8 @@
 {"id":"u-f313369e170bc4a5","registration":"","name":"ΤΣΟΥΓΚΟΣ / ΖΑΡΡΟΣ","aliases":[],"club":"c-df4ac97c565afb45","category":"","period":"2016-10","provisional":true}
 {"id":"u-e6bf0fe327e7de58","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ / ΒΛΑΧΟΓΙΑΝΝΗΣ","aliases":[],"club":"c-1abacfb79be5fb79","category":"","period":"2016-10","provisional":true}
 {"id":"u-6414d3cf8ba56b61","registration":"","name":"ΛΙΑΚΟΠΟΥΛΟΥ / ΚΩΣΤΟΠΟΥΛΟΣ","aliases":[],"club":"c-040ebac7ac19fdf7","category":"","period":"2016-10","provisional":true}
-{"id":"u-06951f43fbb5ab8b","registration":"","name":"ΣΙΧΛΙΜΙΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"","category":"","period":"2016-11","provisional":true}
-{"id":"u-c96f66b0ffb545b8","registration":"","name":"ΠΕΤΣΟΥΚΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-46fbd7ab86474c1b","category":"","period":"2016-11","provisional":true}
 {"id":"u-bec7ef1b3219fc60","registration":"","name":"ΣΙΧΛΙΜΙΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2016-11","provisional":true}
+{"id":"u-a90617dc34ec90ae","registration":"","name":"ΠΕΤΣΟΥΚΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2016-11","provisional":true}
 {"id":"u-4f09b85044ee5e0e","registration":"","name":"ΜΑΛΑΜΑΣ ΜΙΛΤΙΑΔΗΣ","aliases":[],"club":"c-34ec3c76372aa07d","category":"","period":"2016-11","provisional":true}
 {"id":"u-00ce3acf24f121bf","registration":"","name":"ΧΟΥΡΜΟΥΖΙΑΔΗΣ ΑΛΕΞ/ΡΟΣ","aliases":[],"club":"c-bc61237dae75ff6d","category":"","period":"2016-11","provisional":true}
 {"id":"u-87e6249f5b90ed9f","registration":"","name":"ΠΕΤΡΙΔΗΣ ΚΩΝ.του ΠΕΤΡ.","aliases":[],"club":"c-bc61237dae75ff6d","category":"","period":"2016-11","provisional":true}
@@ -6490,14 +6426,9 @@
 {"id":"u-15368bb012512407","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-42d2beeaf38cfa2f","category":"","period":"2016-11","provisional":true}
 {"id":"u-b8aea21e936468c6","registration":"","name":"ΣΙΕΤΤΟΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-cf8b99e85f37241e","category":"","period":"2016-11","provisional":true}
 {"id":"u-17a5f833524b1783","registration":"","name":"ΧΑΡΙΤΟΥ ΕΛΕΝΗ","aliases":[],"club":"c-f881e5d4dc8becd4","category":"","period":"2016-11","provisional":true}
-{"id":"u-dfe426a0035dab6c","registration":"","name":"DRZEWASZEWSKI ZBIGNIEW","aliases":[],"club":"c-4197d044643d1785","category":"","period":"2016-11","provisional":true}
 {"id":"u-c0dae5f8460e4f44","registration":"","name":"DRZEWASZEWSKI ZBIGNIEW","aliases":[],"club":"","category":"","period":"2016-11","provisional":true}
-{"id":"u-54e8dc02894b3f02","registration":"","name":"DRZEWASZEWSKI ZBIGNIEW","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2016-11","provisional":true}
 {"id":"u-4dee2bf7f69c7f96","registration":"","name":"ΜΕΧΙΛΛΗΣ ΙΟΥΛΙΑΝ","aliases":[],"club":"","category":"","period":"2016-11","provisional":true}
-{"id":"u-ac1a1b1e2456e03e","registration":"","name":"ΜΕΧΙΛΛΗΣ ΙΟΥΛΙΑΝ","aliases":[],"club":"c-4197d044643d1785","category":"","period":"2016-11","provisional":true}
-{"id":"u-5ccfe954b809fe4f","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"c-4197d044643d1785","category":"","period":"2016-11","provisional":true}
-{"id":"u-119cbb82769991c3","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2016-11","provisional":true}
-{"id":"u-42d096e513a1b79e","registration":"","name":"ΚΩΣΤΑΚΟΠΟΥΛΟΥ ΑΝΑΤΑΣΙΑ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2016-11","provisional":true}
+{"id":"u-9efc6bf2240ac8d2","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"","category":"","period":"2016-11","provisional":true}
 {"id":"u-8e2ba1b20c0f56b6","registration":"","name":"ΚΩΣΤΑΚΟΠΟΥΛΟΥ ΑΝΑΤΑΣΙΑ","aliases":[],"club":"","category":"","period":"2016-11","provisional":true}
 {"id":"u-e91706e7bd83abfa","registration":"","name":"ΒΑΝΚΙΩΤΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-c77f167eeca7f667","category":"","period":"2016-11","provisional":true}
 {"id":"u-d1314b6df0aae6b8","registration":"","name":"ΧΑΤΖΟΠΟΥΛΟΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-c77f167eeca7f667","category":"","period":"2016-11","provisional":true}
@@ -6644,8 +6575,7 @@
 {"id":"u-3feee8c19ccaf5bd","registration":"","name":"ΧΑΤΖΗΓΕΩΡΓΙΟΥ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-39dd29547fa7412c","category":"","period":"2016-12","provisional":true}
 {"id":"u-fd006f3341da3482","registration":"","name":"ΔΑΣΚΑΛΑΚΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-195c5475c17d49fd","category":"","period":"2016-12","provisional":true}
 {"id":"u-16e1feb30962a46d","registration":"","name":"WACLAWECK MACIEJ","aliases":[],"club":"c-195c5475c17d49fd","category":"","period":"2016-12","provisional":true}
-{"id":"u-f807ed4397190124","registration":"","name":"ΔΑΣΚΑΛΑΚΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2016-12","provisional":true}
-{"id":"u-23ff4a2faae52c8c","registration":"","name":"WACLAWECK MACIEJ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2016-12","provisional":true}
+{"id":"u-4b4f6d4ce7fb4827","registration":"","name":"WACLAWECK MACIEJ","aliases":[],"club":"","category":"","period":"2016-12","provisional":true}
 {"id":"u-54982476485c4b08","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-fabac1188a4a99cd","category":"","period":"2016-12","provisional":true}
 {"id":"u-850cbc20147de7f4","registration":"","name":"ΣΟΛΟΜΩΝ ΣΟΛΟΜΩΝ","aliases":[],"club":"c-5693d9e79629555f","category":"","period":"2016-12","provisional":true}
 {"id":"u-adcd003c9db9c7f9","registration":"","name":"ΖΗΚΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-48916282ba027eb8","category":"","period":"2016-12","provisional":true}
@@ -6697,16 +6627,11 @@
 {"id":"u-23a8ac7f11c6fcb3","registration":"","name":"ΣΟΛΟΜΩΝ ΣΟΛΟΜΩΝ","aliases":[],"club":"c-5693d9e79629555f","category":"","period":"2017-01","provisional":true}
 {"id":"u-e9907f0f5c426a35","registration":"","name":"ΦΕΛΟΥΣ ΑΑΡΩΝ","aliases":[],"club":"c-5693d9e79629555f","category":"","period":"2017-01","provisional":true}
 {"id":"u-68db4de2466b6b68","registration":"","name":"ΧΡΙΣΤΟΦΥΛΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-a69dd7ad30201b55","category":"","period":"2017-01","provisional":true}
-{"id":"u-1d8099846f68187d","registration":"","name":"ΚΑΠΕΤΑΝΗ ΕΥΑ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2017-01","provisional":true}
-{"id":"u-8ff2739f2ed9d14b","registration":"","name":"ΜΑΚΡΕΛΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2017-01","provisional":true}
-{"id":"u-6001b0f381d85855","registration":"","name":"ΜΑΚΡΕΛΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2017-01","provisional":true}
 {"id":"u-bd22d2abfc11a3f6","registration":"","name":"ΚΑΠΕΤΑΝΗ ΕΥΑ","aliases":[],"club":"","category":"","period":"2017-01","provisional":true}
+{"id":"u-6001b0f381d85855","registration":"","name":"ΜΑΚΡΕΛΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2017-01","provisional":true}
 {"id":"u-13936a523154b410","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"","category":"","period":"2017-01","provisional":true}
-{"id":"u-a1f749a190fc1564","registration":"","name":"ΚΥΠΡΑΙΟΣ ΕΠΑΜΕΙΝΩΝΔΑΣ","aliases":[],"club":"c-a3512013f16cc527","category":"","period":"2017-01","provisional":true}
-{"id":"u-bab7e1b631e38a5f","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"c-a3512013f16cc527","category":"","period":"2017-01","provisional":true}
 {"id":"u-5808e603f09bbcdb","registration":"","name":"ΚΥΠΡΑΙΟΣ ΕΠΑΜΕΙΝΩΝΔΑΣ","aliases":[],"club":"","category":"","period":"2017-01","provisional":true}
 {"id":"u-9152fd138ae25781","registration":"","name":"DRZEWASZEWSKI ZBIGNIEW","aliases":[],"club":"","category":"","period":"2017-01","provisional":true}
-{"id":"u-7bfb8c2a2fd9e6c5","registration":"","name":"DRZEWASZEWSKI ZBIGNIEW","aliases":[],"club":"c-b6dcab3509f77c44","category":"","period":"2017-01","provisional":true}
 {"id":"u-0e9c3235d11b2ee6","registration":"","name":"ΛΟΥΚΑΝΗ ΛΕΟΝΑΡΝΤ","aliases":[],"club":"c-8b3bbf1794df11b1","category":"","period":"2017-01","provisional":true}
 {"id":"u-36215b1e3c42e223","registration":"","name":"ΠΑΠΑΧΑΡΑΛΑΜΠΟΥΕ ΕΥΘΥΜΙΟΣ","aliases":[],"club":"c-66694068c1cf517e","category":"","period":"2017-01","provisional":true}
 {"id":"u-8f3e274d5f13711b","registration":"","name":"ΠΕΡΓΑΛΗΣ ΑΛΕΞΙΟΣ","aliases":[],"club":"c-1b34a47880cb0bf2","category":"","period":"2017-01","provisional":true}
@@ -6732,7 +6657,7 @@
 {"id":"u-a62949d46ad6072a","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-2556320dc7f35239","category":"","period":"2017-01","provisional":true}
 {"id":"u-66e34d31817053ae","registration":"","name":"XXX","aliases":[],"club":"c-2556320dc7f35239","category":"","period":"2017-01","provisional":true}
 {"id":"u-e16883d83af532d2","registration":"","name":"ΠΑΠΑΔΗΜΗΤΡΙΟΥ ΜΙΧΑΗΛ-ΙΑΣΩΝ","aliases":[],"club":"c-a8579581d7b7aad3","category":"","period":"2017-01","provisional":true}
-{"id":"u-260d9ee9aee7b49f","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2017-01","provisional":true}
+{"id":"u-ffbfb84643f6c08a","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"","category":"","period":"2017-01","provisional":true}
 {"id":"u-be92ec64b224dcfb","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-b156cc03486626e2","category":"","period":"2017-01","provisional":true}
 {"id":"u-9bc4c4f0aa6e5ebb","registration":"","name":"ΑΝΤΝΩΙΟΥ ΧΡΙΣΤΑΚΗΣ","aliases":[],"club":"c-ebb145fbe91bb0aa","category":"","period":"2017-01","provisional":true}
 {"id":"u-61d82e966cff7e13","registration":"","name":"ΣΤΑΜΕΛΟΣ ΑΘΑΝΑΣΙΟΣ","aliases":[],"club":"c-ebb145fbe91bb0aa","category":"","period":"2017-01","provisional":true}
@@ -6806,16 +6731,14 @@
 {"id":"u-98bcafb7840ab89a","registration":"","name":"ΡΟΙΔΟΥ ΗΡΑ","aliases":[],"club":"c-ebbe70647ade8e00","category":"","period":"2017-02","provisional":true}
 {"id":"u-f04b6cc3979b737c","registration":"","name":"ΡΟΙΔΟΥ ΗΡΑ","aliases":[],"club":"c-ebbe70647ade8e00","category":"","period":"2017-02","provisional":true}
 {"id":"u-52f3b59b8b8aa045","registration":"","name":"ΚΟΥΤΛΟΓΛΟΥ ΔΙΟΝΥΣΗΣ","aliases":[],"club":"c-08162da1fb5abe30","category":"","period":"2017-02","provisional":true}
-{"id":"u-9e12ae4a254f3e62","registration":"","name":"ΔΜΗΤΡΙΑΔΗΣ ΑΝΑΣΤΑΣΙΟΣ","aliases":[],"club":"c-fee900eccc5575d2","category":"","period":"2017-02","provisional":true}
-{"id":"u-cc799347e225c7af","registration":"","name":"ΚΑΡΑΚΑΣΙΔΗΣ ΝΙΚΟΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
-{"id":"u-0b4d83138c8e1a0d","registration":"","name":"ΔΜΗΤΡΙΑΔΗΣ ΑΝΑΣΤΑΣΙΟΣ","aliases":[],"club":"c-fee900eccc5575d2","category":"","period":"2017-02","provisional":true}
-{"id":"u-493b6209edf51560","registration":"","name":"ΚΟΥΤΛΟΓΛΟΥ ΔΙΟΝΥΣΗΣ","aliases":[],"club":"c-fee900eccc5575d2","category":"","period":"2017-02","provisional":true}
-{"id":"u-595454317b691795","registration":"","name":"ΚΑΡΑΚΑΣΙΔΗΣ ΝΙΚΟΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
+{"id":"u-96b2e4687cb778c8","registration":"","name":"ΔΜΗΤΡΙΑΔΗΣ ΑΝΑΣΤΑΣΙΟΣ","aliases":[],"club":"c-08162da1fb5abe30","category":"","period":"2017-02","provisional":true}
+{"id":"u-b90d32c9629888e9","registration":"","name":"ΔΜΗΤΡΙΑΔΗΣ ΑΝΑΣΤΑΣΙΟΣ","aliases":[],"club":"c-08162da1fb5abe30","category":"","period":"2017-02","provisional":true}
+{"id":"u-61d32ba7393c47d1","registration":"","name":"ΚΟΥΤΛΟΓΛΟΥ ΔΙΟΝΥΣΗΣ","aliases":[],"club":"c-08162da1fb5abe30","category":"","period":"2017-02","provisional":true}
 {"id":"u-369a503785d712ad","registration":"","name":"ΚΑΡΑΜΑΝΙΔΗΣ ΘΑΝΑΣΗΣ","aliases":[],"club":"c-636355b48fb4c6c8","category":"","period":"2017-02","provisional":true}
-{"id":"u-a7d9b7d5b7d90173","registration":"","name":"ΣΠΥΡΟΠΟΥΛΟΣ ΝΙΚΟΣ","aliases":[],"club":"c-6f0d69044d68bb9f","category":"","period":"2017-02","provisional":true}
-{"id":"u-09a84d2ab0238bdc","registration":"","name":"ΑΝΔΡΕΑΔΗΣ ΔΗΜΗΤΡΗΣ","aliases":[],"club":"c-6f0d69044d68bb9f","category":"","period":"2017-02","provisional":true}
-{"id":"u-a3c2de49311cf4fd","registration":"","name":"ΚΑΡΑΜΑΝΙΔΗΣ ΘΑΝΑΣΗΣ","aliases":[],"club":"c-6f0d69044d68bb9f","category":"","period":"2017-02","provisional":true}
-{"id":"u-ca37a748c514f218","registration":"","name":"ΣΠΥΡΟΠΟΥΛΟΣ ΝΙΚΟΣ","aliases":[],"club":"c-6f0d69044d68bb9f","category":"","period":"2017-02","provisional":true}
+{"id":"u-cacf2a108c56ddb0","registration":"","name":"ΣΠΥΡΟΠΟΥΛΟΣ ΝΙΚΟΣ","aliases":[],"club":"c-636355b48fb4c6c8","category":"","period":"2017-02","provisional":true}
+{"id":"u-db7b24b27fc72c02","registration":"","name":"ΑΝΔΡΕΑΔΗΣ ΔΗΜΗΤΡΗΣ","aliases":[],"club":"c-636355b48fb4c6c8","category":"","period":"2017-02","provisional":true}
+{"id":"u-046a903e2229d505","registration":"","name":"ΚΑΡΑΜΑΝΙΔΗΣ ΘΑΝΑΣΗΣ","aliases":[],"club":"c-636355b48fb4c6c8","category":"","period":"2017-02","provisional":true}
+{"id":"u-92025855fcbbb868","registration":"","name":"ΣΠΥΡΟΠΟΥΛΟΣ ΝΙΚΟΣ","aliases":[],"club":"c-636355b48fb4c6c8","category":"","period":"2017-02","provisional":true}
 {"id":"u-520f81be515f1f25","registration":"","name":"ΠΑΠΑΔΑΚΗ ΕΛΕΝΑ","aliases":[],"club":"c-7fb0f88e053f122d","category":"","period":"2017-02","provisional":true}
 {"id":"u-2fe642e05bcfa87a","registration":"","name":"ΣΤΕΡΓΙΟΥΔΗΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"c-fb60d654da53e858","category":"","period":"2017-02","provisional":true}
 {"id":"u-c1d0c3487356baf6","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-fb60d654da53e858","category":"","period":"2017-02","provisional":true}
@@ -6834,19 +6757,13 @@
 {"id":"u-d4714001801e1b34","registration":"","name":"ΣΙΑΚΑΒΑΡΑΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-5b3066da8c69d16d","category":"","period":"2017-02","provisional":true}
 {"id":"u-c25ca650f582480c","registration":"","name":"ΝΑΘΑΝΑΗΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-d5cdc265b5ec3ed3","category":"","period":"2017-02","provisional":true}
 {"id":"u-014357fc0c6384f5","registration":"","name":"XXX","aliases":[],"club":"c-eda6e7ac5b6c5851","category":"","period":"2017-02","provisional":true}
-{"id":"u-b6644c07ba1672a4","registration":"","name":"ΚΑΣΑΠΟΓΛΟΥ ΛΙΛΛΗ","aliases":[],"club":"c-d010cfd0460da0cb","category":"","period":"2017-02","provisional":true}
 {"id":"u-5e59c75c7c692f67","registration":"","name":"ΚΑΣΑΠΟΓΛΟΥ ΛΙΛΛΗ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
 {"id":"u-95516eae1bc040ab","registration":"","name":"ΚΑΛΝΕΛΛΟΣ ΛΕΩΝΙΔΑΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
-{"id":"u-e9bc21b8b3025026","registration":"","name":"ΚΩΣΤΑΓΙΟΛΑΣ","aliases":[],"club":"c-4524cdd891e748c6","category":"","period":"2017-02","provisional":true}
-{"id":"u-8c0febc2243c9483","registration":"","name":"ΧΑΤΖΗΓΕΩΡΓΙΟΥ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-4524cdd891e748c6","category":"","period":"2017-02","provisional":true}
+{"id":"u-57ca76bf764f1102","registration":"","name":"ΚΩΣΤΑΓΙΟΛΑΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
 {"id":"u-33f83aa26ccc3f36","registration":"","name":"ΧΑΤΖΗΓΕΩΡΓΙΟΥ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
-{"id":"u-461121e0f276c69e","registration":"","name":"ΑΝΔΡΙΑΝΟΣ ΝΕΣΤΩΡ","aliases":[],"club":"c-4524cdd891e748c6","category":"","period":"2017-02","provisional":true}
 {"id":"u-8c3d8b10274743b1","registration":"","name":"ΑΝΔΡΙΑΝΟΣ ΝΕΣΤΩΡ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
 {"id":"u-cdafcb7bb9bb4397","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
-{"id":"u-dc630c4bcc95d920","registration":"","name":"ΤΣΑΡΣΙΤΑΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-4524cdd891e748c6","category":"","period":"2017-02","provisional":true}
-{"id":"u-e17845c14650c59f","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"c-4524cdd891e748c6","category":"","period":"2017-02","provisional":true}
-{"id":"u-aac34c163b8ebc4a","registration":"","name":"ΧΑΤΖΗΓΕΩΡΓΙΟΥ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-e07a15728b79f88a","category":"","period":"2017-02","provisional":true}
-{"id":"u-22abaa6818fdd70d","registration":"","name":"ΑΝΔΡΙΑΝΟΣ ΝΕΣΤΩΡ","aliases":[],"club":"c-e07a15728b79f88a","category":"","period":"2017-02","provisional":true}
+{"id":"u-aaf3ebee2180f9f8","registration":"","name":"ΤΣΑΡΣΙΤΑΛΙΔΗΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
 {"id":"u-c79e1ed5bbcf94b3","registration":"","name":"ΜΠΑΛΑΣΗΣ ΑΘΑΝΑΣΙΟΣ","aliases":[],"club":"c-9b80ec67e419ed2b","category":"","period":"2017-02","provisional":true}
 {"id":"u-832eb0c75af3d0f5","registration":"","name":"ΠΑΠΑΔΗΜΗΤΡΙΟΥ ΜΙΧΑΗΛ-ΙΑΣΩΝ","aliases":[],"club":"c-319bae41f4ec50e0","category":"","period":"2017-02","provisional":true}
 {"id":"u-e385a39b742f5448","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-badca1c13cb1787d","category":"","period":"2017-02","provisional":true}
@@ -6879,31 +6796,15 @@
 {"id":"u-c90077c08114f768","registration":"","name":"ΔΙΓΕΝΑΚΗΣ / ΣΤΑΜΑΤΑΚΗΣ","aliases":[],"club":"c-c16096e5b23fd53a","category":"","period":"2017-02","provisional":true}
 {"id":"u-502b8e04c2ea9985","registration":"","name":"ΠΛΑΤΙΑ / ΣΤΕΡΓΙΟΥ","aliases":[],"club":"c-cf278a46cc9c5fde","category":"","period":"2017-02","provisional":true}
 {"id":"u-a5d354cdf058cd74","registration":"","name":"ΦΡΑΓΚΙΑΔΑΚΗΣ / ΠΑΠΑΔΑΚΗΣ","aliases":[],"club":"c-90c37365f475db08","category":"","period":"2017-02","provisional":true}
-{"id":"u-459f1a125fab8b55","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2017-02","provisional":true}
-{"id":"u-8c9a74a7ceefb204","registration":"","name":"ΧΑΤΖΟΠΟΥΛΟΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2017-02","provisional":true}
-{"id":"u-2be5daf876b9d2e4","registration":"","name":"ΧΑΤΖΟΠΟΥΛΟΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2017-02","provisional":true}
-{"id":"u-c31ee0f2e4af92b4","registration":"","name":"ΜΕΧΙΛΛΗΣ ΑΛΕΞΑΝΔΡΟΣ","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2017-02","provisional":true}
-{"id":"u-acbe8fa6e178818b","registration":"","name":"ΜΕΧΙΛΛΗΣ ΑΛΕΞΑΝΔΡΟΣ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2017-02","provisional":true}
+{"id":"u-7e79ecc9e98f0db6","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
 {"id":"u-79551ec776df0b9d","registration":"","name":"ΜΕΧΙΛΛΗΣ ΑΛΕΞΑΝΔΡΟΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
-{"id":"u-c03462dff0bb8a2f","registration":"","name":"ΚΥΠΡΑΙΟΣ ΕΠΑΜΕΙΝΩΝΔΑΣ","aliases":[],"club":"c-a3512013f16cc527","category":"","period":"2017-02","provisional":true}
-{"id":"u-2f7351ad0efdbea0","registration":"","name":"ΛΟΥΚΑΝΙ ΛΕΟΝΑΡΝΤ","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2017-02","provisional":true}
-{"id":"u-b26f73706f9e878c","registration":"","name":"ΠΑΠΑΝΑΙΚΗΤΑΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2017-02","provisional":true}
-{"id":"u-7b9c59f55d6f4939","registration":"","name":"ΛΟΥΚΑΝΙ ΛΕΟΝΑΡΝΤ","aliases":[],"club":"c-a3512013f16cc527","category":"","period":"2017-02","provisional":true}
-{"id":"u-cb5872b1249671b6","registration":"","name":"ΚΛΕΙΔΑΣ ΤΡΥΑΝΤΑΦΥΛΛΟΣ","aliases":[],"club":"c-a3512013f16cc527","category":"","period":"2017-02","provisional":true}
-{"id":"u-8c563dc45fd3ee46","registration":"","name":"ΣΤΥΛΑΪΔΗΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-a3512013f16cc527","category":"","period":"2017-02","provisional":true}
-{"id":"u-7e3e77396c5d1259","registration":"","name":"ΚΛΕΙΔΑΣ ΤΡΥΑΝΤΑΦΥΛΛΟΣ","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2017-02","provisional":true}
-{"id":"u-b0b2860f12a10b25","registration":"","name":"ΣΤΥΛΑΪΔΗΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2017-02","provisional":true}
 {"id":"u-1c16f1e4922ab14d","registration":"","name":"ΚΥΠΡΑΙΟΣ ΕΠΑΜΕΙΝΩΝΔΑΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
-{"id":"u-434ab53e29cc9ed3","registration":"","name":"ΚΛΕΙΔΑΣ ΤΡΥΑΝΤΑΦΥΛΛΟΣ","aliases":[],"club":"c-e07a15728b79f88a","category":"","period":"2017-02","provisional":true}
+{"id":"u-ec283bb32be1d6a3","registration":"","name":"ΛΟΥΚΑΝΙ ΛΕΟΝΑΡΝΤ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
+{"id":"u-a5e48067a869f012","registration":"","name":"ΠΑΠΑΝΑΙΚΗΤΑΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
 {"id":"u-13f1d609e2a1ecc0","registration":"","name":"ΚΛΕΙΔΑΣ ΤΡΥΑΝΤΑΦΥΛΛΟΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
 {"id":"u-12e732537c108ed1","registration":"","name":"ΣΤΥΛΑΪΔΗΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
-{"id":"u-0df0149d73f1ac2c","registration":"","name":"ΔΕΛΛΑΠΟΡΤΑΣ ΦΩΤΙΟΣ","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2017-02","provisional":true}
-{"id":"u-d25e16b8662780b4","registration":"","name":"ΠΑΝΤΑΒΟΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"c-0815478aaaebeacd","category":"","period":"2017-02","provisional":true}
-{"id":"u-649139861cbc4c69","registration":"","name":"ΔΕΛΛΑΠΟΡΤΑΣ ΦΩΤΙΟΣ","aliases":[],"club":"c-0a3bec51e31c9fa8","category":"","period":"2017-02","provisional":true}
-{"id":"u-4e020f2db9d3f36b","registration":"","name":"ΠΑΝΤΑΒΟΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"c-e07a15728b79f88a","category":"","period":"2017-02","provisional":true}
-{"id":"u-44cd87dcb561e4ca","registration":"","name":"DRZEWASZEWSKI ZBIGNIEW","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2017-02","provisional":true}
-{"id":"u-0b6e035a41d1a78f","registration":"","name":"DRZEWASZEWSKI ZBIGNIEW","aliases":[],"club":"c-3b924e43f4ae89bb","category":"","period":"2017-02","provisional":true}
-{"id":"u-e334e8b388c66392","registration":"","name":"DRZEWASZEWSKI ZBIGNIEW","aliases":[],"club":"c-0a3bec51e31c9fa8","category":"","period":"2017-02","provisional":true}
+{"id":"u-bca537a7227cfb56","registration":"","name":"ΔΕΛΛΑΠΟΡΤΑΣ ΦΩΤΙΟΣ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
+{"id":"u-89429347fe0c57eb","registration":"","name":"ΠΑΝΤΑΒΟΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
 {"id":"u-bbf0167460803373","registration":"","name":"DRZEWASZEWSKI ZBIGNIEW","aliases":[],"club":"","category":"","period":"2017-02","provisional":true}
 {"id":"u-9b2009ab5345e1db","registration":"","name":"WACLAWECK MACIEJ","aliases":[],"club":"c-739a8d626ac6816c","category":"","period":"2017-02","provisional":true}
 {"id":"u-9f8625879bbd3b4b","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"c-519416905ed5f6d0","category":"","period":"2017-02","provisional":true}
@@ -6918,8 +6819,8 @@
 {"id":"u-dcba455e1e2e76c7","registration":"","name":"ΧΑΤΖΗΓΕΩΡΓΙΟΥ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-39dd29547fa7412c","category":"","period":"2017-02","provisional":true}
 {"id":"u-5033e2a2b1671b46","registration":"","name":"XXX","aliases":[],"club":"c-a59cc0012c926117","category":"","period":"2017-02","provisional":true}
 {"id":"u-e1fc0b8b37f0f94b","registration":"","name":"ΚΑΖΑΚΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-2f774315c12ccd04","category":"","period":"2017-03","provisional":true}
-{"id":"u-1ef0c8dcaf793d94","registration":"","name":"XXX","aliases":[],"club":"c-fee900eccc5575d2","category":"","period":"2017-03","provisional":true}
-{"id":"u-9cd34dd4fcc86a7f","registration":"","name":"XXX","aliases":[],"club":"c-fee900eccc5575d2","category":"","period":"2017-03","provisional":true}
+{"id":"u-a433d571becd241b","registration":"","name":"XXX","aliases":[],"club":"c-08162da1fb5abe30","category":"","period":"2017-03","provisional":true}
+{"id":"u-9b111763fa691f1f","registration":"","name":"XXX","aliases":[],"club":"c-08162da1fb5abe30","category":"","period":"2017-03","provisional":true}
 {"id":"u-924cfac77be8216c","registration":"","name":"XXX","aliases":[],"club":"c-fb60d654da53e858","category":"","period":"2017-03","provisional":true}
 {"id":"u-b4c443ac4c3f66a8","registration":"","name":"ΤΕΡΖΙΔΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-d52abe0c0993fed0","category":"","period":"2017-03","provisional":true}
 {"id":"u-513f402585894b1c","registration":"","name":"ΤΕΡΖΙΔΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-d52abe0c0993fed0","category":"","period":"2017-03","provisional":true}
@@ -6943,24 +6844,15 @@
 {"id":"u-836c9ea7fb5e5c62","registration":"","name":"ΦΙΛΛΙΠΟΥ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-ebbe70647ade8e00","category":"","period":"2017-03","provisional":true}
 {"id":"u-41c3aca71b27cb60","registration":"","name":"ΔΗΜΗΤΡΙΑΔΗΣ","aliases":[],"club":"c-2dcb31dd32ca1857","category":"","period":"2017-03","provisional":true}
 {"id":"u-f66edad3351dcbe7","registration":"","name":"XXX","aliases":[],"club":"c-b44ccab899d4d66c","category":"","period":"2017-03","provisional":true}
-{"id":"u-63582743cda0d12c","registration":"","name":"ΖΟΥΠΑ ΜΙΧΑΗΛ","aliases":[],"club":"c-4a8f78b645ef1454","category":"","period":"2017-03","provisional":true}
 {"id":"u-3ac4f58605160609","registration":"","name":"ΖΟΥΠΑ ΜΙΧΑΗΛ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
-{"id":"u-afcbcbf04e32c095","registration":"","name":"ΘΕΟΤΟΚΑΤΟΣ ΧΡΙΣΤΟΦΟΡΟΣ","aliases":[],"club":"c-4a8f78b645ef1454","category":"","period":"2017-03","provisional":true}
-{"id":"u-8202662450838a03","registration":"","name":"ΠΑΠΑΔΟΠΟΥΛΟΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-4a8f78b645ef1454","category":"","period":"2017-03","provisional":true}
 {"id":"u-accc308af5b4e99b","registration":"","name":"ΚΑΡΑΜΑΝΙΔΗΣ ΘΑΝΑΣΗΣ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
 {"id":"u-3c59665ac47edd92","registration":"","name":"ΛΙΟΛΗΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
-{"id":"u-bf5b2f8dc1c2c837","registration":"","name":"ΛΙΟΛΗΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"c-4a8f78b645ef1454","category":"","period":"2017-03","provisional":true}
 {"id":"u-aafa0246923f8bcc","registration":"","name":"ΚΡΗΤΣΕΦ ΙΩΣΗΦ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
-{"id":"u-7b259f83b9c846a2","registration":"","name":"ΚΑΡΥΟΦΙΛΛΗΣ ΑΝΔΡΕΑΣ","aliases":[],"club":"c-ad3287dfcafb4cfd","category":"","period":"2017-03","provisional":true}
+{"id":"u-73c351b99ee40a4b","registration":"","name":"ΚΑΡΥΟΦΙΛΛΗΣ ΑΝΔΡΕΑΣ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
 {"id":"u-6d801540a5a8cd87","registration":"","name":"ΚΑΡΥΟΦΥΛΗΣ ΑΝΔΡΕΑΣ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
-{"id":"u-78400ce62d06b954","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-d8a99eec08ad6c08","category":"","period":"2017-03","provisional":true}
 {"id":"u-d65f251fe9e16e9e","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
 {"id":"u-3b2ca9d49621a32c","registration":"","name":"ΒΑΣΙΛΕΙΑΔΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
-{"id":"u-03b3fbcef229690b","registration":"","name":"ΒΑΣΙΛΕΙΑΔΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-d8a99eec08ad6c08","category":"","period":"2017-03","provisional":true}
-{"id":"u-1372144f62550544","registration":"","name":"ΠΑΡΑΣΚΕΥΑΙΔΟΥ ΧΑΡΙΤΙΝΗ","aliases":[],"club":"c-215b23ecaba136da","category":"","period":"2017-03","provisional":true}
-{"id":"u-803434fbb234d656","registration":"","name":"ΤΣΟΥΡΟΣ ΜΙΧΑΗΛ","aliases":[],"club":"c-8b34f715b3c17b72","category":"","period":"2017-03","provisional":true}
 {"id":"u-8cf800a249f816d0","registration":"","name":"ΤΣΟΥΡΟΣ ΜΙΧΑΗΛ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
-{"id":"u-1a24876a194a6ecd","registration":"","name":"ΑΝΥΦΑΝΤΑΚΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-c551c325b99d4b17","category":"","period":"2017-03","provisional":true}
 {"id":"u-bbd175c6c1f71c9f","registration":"","name":"ΑΝΥΦΑΝΤΑΚΗΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
 {"id":"u-af202539c46ca42a","registration":"","name":"ΠΕΤΡΙΔΗΣ ΚΩΝ. Του Κ.","aliases":[],"club":"c-bc61237dae75ff6d","category":"","period":"2017-03","provisional":true}
 {"id":"u-0ffc385675c1a244","registration":"","name":"ΠΕΤΡΙΔΗΣ ΚΩΝ. Του Π.","aliases":[],"club":"c-bc61237dae75ff6d","category":"","period":"2017-03","provisional":true}
@@ -6969,9 +6861,9 @@
 {"id":"u-3939d589ba601131","registration":"","name":"ΕΜΜΑΜΝΟΥΗΛΙΔΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-b44ccab899d4d66c","category":"","period":"2017-03","provisional":true}
 {"id":"u-2818b633c4e882ca","registration":"","name":"ΕΜΜΑΜΝΟΥΗΛΙΔΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-b44ccab899d4d66c","category":"","period":"2017-03","provisional":true}
 {"id":"u-1382ecfbde6d5682","registration":"","name":"ΚΑΖΑΚΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-2f774315c12ccd04","category":"","period":"2017-03","provisional":true}
-{"id":"u-2a1495c73a873d5d","registration":"","name":"ΚΕΧΑΓΙΑΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
-{"id":"u-0c318015e8db56ca","registration":"","name":"ΓΕΡΟΙΩΑΝΝΗΣ ΙΩΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
-{"id":"u-b2f2f48e001d2f9a","registration":"","name":"ΚΕΧΑΓΙΑΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"","category":"","period":"2017-03","provisional":true}
+{"id":"u-0a59aaf839d1d396","registration":"","name":"ΚΕΧΑΓΙΑΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-0f833523a4386d82","category":"","period":"2017-03","provisional":true}
+{"id":"u-85197793fca368c4","registration":"","name":"ΓΕΡΟΙΩΑΝΝΗΣ ΙΩΑΝΝΗΣ","aliases":[],"club":"c-0f833523a4386d82","category":"","period":"2017-03","provisional":true}
+{"id":"u-41418318e57c5ecd","registration":"","name":"ΚΕΧΑΓΙΑΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-0f833523a4386d82","category":"","period":"2017-03","provisional":true}
 {"id":"u-59a15766e0468cdc","registration":"","name":"ΤΣΙΟΝΑΝΗΣ ΘΟΔΩΡΟΣ","aliases":[],"club":"c-c71ad14b09d97536","category":"","period":"2017-03","provisional":true}
 {"id":"u-7d6481bf92e4978b","registration":"","name":"ΒΑΣΙΛΕΙΑΔΗΣ","aliases":[],"club":"c-81ffb95f698c511b","category":"","period":"2017-03","provisional":true}
 {"id":"u-67748e9ffa45eb8b","registration":"","name":"ΒΙΔΟΥΡΗΣ","aliases":[],"club":"c-81ffb95f698c511b","category":"","period":"2017-03","provisional":true}
@@ -6982,7 +6874,6 @@
 {"id":"u-6263a18e9be45057","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-7fb0f88e053f122d","category":"","period":"2017-03","provisional":true}
 {"id":"u-0e47f7de20377ff3","registration":"","name":"ΚΕΧΑΓΙΑΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-0f833523a4386d82","category":"","period":"2017-03","provisional":true}
 {"id":"u-15cdfeeb42c7f02f","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-ebbe70647ade8e00","category":"","period":"2017-03","provisional":true}
-{"id":"u-41418318e57c5ecd","registration":"","name":"ΚΕΧΑΓΙΑΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-0f833523a4386d82","category":"","period":"2017-03","provisional":true}
 {"id":"u-05cbbf783a670667","registration":"","name":"ΒΑΣΙΛΕΙΑΔΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-81ffb95f698c511b","category":"","period":"2017-03","provisional":true}
 {"id":"u-ab890dbeeb7149b8","registration":"","name":"ΒΑΣΙΛΕΙΑΔΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-81ffb95f698c511b","category":"","period":"2017-03","provisional":true}
 {"id":"u-592daad30ff1e21d","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-7da42d58ceac08bc","category":"","period":"2017-03","provisional":true}
@@ -7040,21 +6931,18 @@
 {"id":"u-3715d5c017eb6aa6","registration":"","name":"ΧΑΤΖΗΓΕΩΡΓΙΟΥ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-39dd29547fa7412c","category":"","period":"2017-03","provisional":true}
 {"id":"u-e727c8e82697a1ff","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-b156cc03486626e2","category":"","period":"2017-03","provisional":true}
 {"id":"u-75679d0879648a80","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-90c37365f475db08","category":"","period":"2017-03","provisional":true}
-{"id":"u-cc6a1bf2eb840c54","registration":"","name":"ΧΡΗΣΤΟΥ ΚΩΝ/ΝΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-6999dcaddab0f316","registration":"","name":"ΦΩΤΙΑΔΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-46fbd7ab86474c1b","category":"","period":"2017-04","provisional":true}
-{"id":"u-76fa92d90d3a52fd","registration":"","name":"ΒΑΒΑΤΣΙΚΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-230298154f0270f5","registration":"","name":"ΧΡΗΣΤΟΥ ΚΩΝ/ΝΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-dbd00f2d81a63f61","registration":"","name":"ΦΩΤΙΑΔΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-46fbd7ab86474c1b","category":"","period":"2017-04","provisional":true}
+{"id":"u-d2dd98841b02e604","registration":"","name":"ΧΡΗΣΤΟΥ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2017-04","provisional":true}
+{"id":"u-095d9aadf880f066","registration":"","name":"ΦΩΤΙΑΔΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2017-04","provisional":true}
+{"id":"u-455845fce07f1b72","registration":"","name":"ΒΑΒΑΤΣΙΚΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2017-04","provisional":true}
+{"id":"u-04762a76ce27e754","registration":"","name":"ΧΡΗΣΤΟΥ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2017-04","provisional":true}
+{"id":"u-1c0fe7a6c811ffa7","registration":"","name":"ΦΩΤΙΑΔΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2017-04","provisional":true}
 {"id":"u-a0faa7e739983313","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2017-04","provisional":true}
 {"id":"u-5342f43f44844e4c","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2017-04","provisional":true}
 {"id":"u-26c65ae4e0bb7859","registration":"","name":"ΚΟΥΣΤΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2017-04","provisional":true}
-{"id":"u-5e510157e28e3f04","registration":"","name":"ΚΟΥΣΤΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-7337584c87ea0a05","registration":"","name":"ΤΟΜΑΡΑΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2017-04","provisional":true}
-{"id":"u-86428a351091418b","registration":"","name":"ΚΟΥΣΤΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-5c86d947214355b1","registration":"","name":"ΤΟΜΑΡΑΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-95f675ffb33448e2","registration":"","name":"ΚΟΥΣΤΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2017-04","provisional":true}
-{"id":"u-04762a76ce27e754","registration":"","name":"ΧΡΗΣΤΟΥ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2017-04","provisional":true}
 {"id":"u-513a6e4c7f9f1f91","registration":"","name":"ΚΟΥΣΤΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2017-04","provisional":true}
+{"id":"u-7337584c87ea0a05","registration":"","name":"ΤΟΜΑΡΑΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2017-04","provisional":true}
+{"id":"u-95f675ffb33448e2","registration":"","name":"ΚΟΥΣΤΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2017-04","provisional":true}
+{"id":"u-1a4eb29f37dda52f","registration":"","name":"ΤΟΜΑΡΑΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2017-04","provisional":true}
 {"id":"u-18c0a0ba6a7e708d","registration":"","name":"ΕΛΕΥΘΕΡΙΑΔΗΣ ΑΛΕΞ.","aliases":[],"club":"c-b5d06ff75f475b7a","category":"","period":"2017-04","provisional":true}
 {"id":"u-b0ea071ad1b9b497","registration":"","name":"ΗΛΙΑΔΗΣ ΕΥΑΓΓΕΛΟΣ","aliases":[],"club":"c-b5d06ff75f475b7a","category":"","period":"2017-04","provisional":true}
 {"id":"u-39634473d171b134","registration":"","name":"ΜΑΛΑΜΑΣ ΜΙΛΤΙΑΔΗΣ","aliases":[],"club":"c-34ec3c76372aa07d","category":"","period":"2017-04","provisional":true}
@@ -7078,10 +6966,7 @@
 {"id":"u-73f317938c93799f","registration":"","name":"ΠΗΤΤΑΣ ΑΛΕΞΗΣ","aliases":[],"club":"c-71a0dc9f5f972e8a","category":"","period":"2017-04","provisional":true}
 {"id":"u-3a5280f382650158","registration":"","name":"ΤΟΜΑΡΑΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2017-04","provisional":true}
 {"id":"u-fe8edba006a5986d","registration":"","name":"ΒΕΝΕΤΙΔΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-0000c2f9fb84d85f","category":"","period":"2017-04","provisional":true}
-{"id":"u-1a4eb29f37dda52f","registration":"","name":"ΤΟΜΑΡΑΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2017-04","provisional":true}
-{"id":"u-7a0769a09dddd12b","registration":"","name":"ΤΟΜΑΡΑΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
 {"id":"u-8ebed5192743980a","registration":"","name":"ΒΕΝΕΤΙΔΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-0000c2f9fb84d85f","category":"","period":"2017-04","provisional":true}
-{"id":"u-fc9d9421d0ffcdfc","registration":"","name":"ΒΕΝΕΤΙΔΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
 {"id":"u-81d973ef66993bd6","registration":"","name":"ΒΟΥΒΑΛΙΔΗΣ ΚΩΣΤΑΣ","aliases":[],"club":"c-32edf96a0fbc9ca4","category":"","period":"2017-04","provisional":true}
 {"id":"u-1426dd4a889b2ad4","registration":"","name":"ΚΑΡΑΜΑΝΙΔΗΣ ΘΑΝΑΣΗΣ","aliases":[],"club":"c-a1533b50e4c545a2","category":"","period":"2017-04","provisional":true}
 {"id":"u-44d6c7b21bab67c8","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-a1533b50e4c545a2","category":"","period":"2017-04","provisional":true}
@@ -7113,18 +6998,12 @@
 {"id":"u-4b234b87e839065b","registration":"","name":"ΜΙΧΑΛΕΦ ΙΩΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
 {"id":"u-f7e5e242a8246137","registration":"","name":"ΚΑΛΥΒΑΣ ΠΕΤΡΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
 {"id":"u-03d693db29cf1e04","registration":"","name":"ΜΙΧΑΛΕΦ ΙΩΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-47d174cc48af5493","registration":"","name":"ΣΙΧΛΙΜΙΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2017-04","provisional":true}
-{"id":"u-cd7deca783a67a9a","registration":"","name":"ΟΙΚΟΝΟΜΟΥ ΑΡΗΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-84b2047f6f3437ea","registration":"","name":"ΟΙΚΟΝΟΜΟΥ ΑΡΗΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2017-04","provisional":true}
 {"id":"u-e05a05d4fd9c1f2a","registration":"","name":"ΣΙΧΛΙΜΙΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-679f5ae29bfdf215","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2017-04","provisional":true}
+{"id":"u-cd7deca783a67a9a","registration":"","name":"ΟΙΚΟΝΟΜΟΥ ΑΡΗΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
 {"id":"u-2d3a840e36343a03","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-1bc09dfb4c85a64d","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2017-04","provisional":true}
 {"id":"u-1c543b81163c866c","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-81964a229080485f","registration":"","name":"ΠΑΡΑΣΚΕΥΑΪΔΟΥ ΧΑΡΙΤΙΝΗ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2017-04","provisional":true}
 {"id":"u-fc7ace09324c385c","registration":"","name":"ΠΑΡΑΣΚΕΥΑΪΔΟΥ ΧΑΡΙΤΙΝΗ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
 {"id":"u-a7401d406c112686","registration":"","name":"ΠΟΛΥΖΟΣ ΑΘΑΝΑΣΙΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
-{"id":"u-7550aa18e17f59b5","registration":"","name":"ΠΟΛΥΖΟΣ ΑΘΑΝΑΣΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2017-04","provisional":true}
 {"id":"u-7ea7710e42cbd99b","registration":"","name":"ΧΡΗΣΤΟΥ ΙΩΑΝΝΗΣ","aliases":[],"club":"c-05b3ad336edcf1b3","category":"","period":"2017-04","provisional":true}
 {"id":"u-ba00a7e626c8102f","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-ede7ffb9c867fd80","category":"","period":"2017-04","provisional":true}
 {"id":"u-94fca73439c1c731","registration":"","name":"ΜΑΥΡΟΜΑΤΗΣ ΙΩΣΗΦ","aliases":[],"club":"c-3fdba54e919592f6","category":"","period":"2017-04","provisional":true}
@@ -7170,7 +7049,7 @@
 {"id":"u-3a73d9eb7da4a7ca","registration":"","name":"ΧΑΡΑΛΑΜΠΟΥΣ Ν. ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-cf77cbd18988422d","category":"","period":"2017-04","provisional":true}
 {"id":"u-a7cf3290df3bfa08","registration":"","name":"ΔΕΛΛΑΠΟΡΤΑΣ ΦΩΤΙΟΣ","aliases":[],"club":"c-54e2ffbaa81eaec0","category":"","period":"2017-04","provisional":true}
 {"id":"u-752572846258b69f","registration":"","name":"DRZEWASZEWSKI ZBIGNIEW","aliases":[],"club":"c-a59cc0012c926117","category":"","period":"2017-04","provisional":true}
-{"id":"u-71e8d54b9a592e34","registration":"","name":"ΔΕΛΛΑΠΟΡΤΑΣ ΦΩΤΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2017-04","provisional":true}
+{"id":"u-7151ca8d8e9fa7d6","registration":"","name":"ΔΕΛΛΑΠΟΡΤΑΣ ΦΩΤΙΟΣ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
 {"id":"u-418b5650603e945e","registration":"","name":"DRZEWASZEWSKI ZBIGNIEW","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
 {"id":"u-02d96acc8d0596b3","registration":"","name":"ΠΑΠΑΔΗΜΗΤΡΙΟΥ ΜΙΧΑΗΛ-ΙΑΣΩΝ","aliases":[],"club":"c-319bae41f4ec50e0","category":"","period":"2017-04","provisional":true}
 {"id":"u-abdfd947277f4b89","registration":"","name":"ΠΕΡΓΑΛΗΣ ΑΛΕΞΗΣ","aliases":[],"club":"c-1de5b52c578fbe73","category":"","period":"2017-04","provisional":true}
@@ -7204,7 +7083,7 @@
 {"id":"u-e4e49031d4272976","registration":"","name":"ΤΕΡΨΙΔΗΣ/ΔΕΣΗΣ","aliases":[],"club":"c-31c0cbde9a67a0f9","category":"","period":"2017-04","provisional":true}
 {"id":"u-043cce95bf6cb5f0","registration":"","name":"MARINAS/ΜΑΡΔΙΚΙΑΝ","aliases":[],"club":"c-2556320dc7f35239","category":"","period":"2017-04","provisional":true}
 {"id":"u-42380c78bcc4a856","registration":"","name":"WACLAWECK MACIEJ","aliases":[],"club":"c-7c60f48bd8f3c2af","category":"","period":"2017-04","provisional":true}
-{"id":"u-00ba77680b4baa01","registration":"","name":"WACLAWECK MACIEJ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2017-04","provisional":true}
+{"id":"u-1ed08392de726a2a","registration":"","name":"WACLAWECK MACIEJ","aliases":[],"club":"","category":"","period":"2017-04","provisional":true}
 {"id":"u-a457af869f7e8dfa","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-c8c1dcfad9e1ef69","category":"","period":"2017-04","provisional":true}
 {"id":"u-fff8068c3a57ad3c","registration":"","name":"ΤΣΜΠΕΡΑΣ ΣΩΤΗΡΙΟΣ","aliases":[],"club":"c-c8c1dcfad9e1ef69","category":"","period":"2017-04","provisional":true}
 {"id":"u-11946ea377840bd9","registration":"","name":"ΛΑΜΠΡΙΔΗΣ ΧΑΡΗΣ","aliases":[],"club":"c-9e130d604cb186b2","category":"","period":"2017-04","provisional":true}
@@ -7357,10 +7236,10 @@
 {"id":"u-d9bfa69cd0c6145f","registration":"","name":"ΔΗΜΟΓΛΗΣ/ΤΖΑΡΑΣ","aliases":[],"club":"c-841f8b3253469a51","category":"","period":"2017-09","provisional":true}
 {"id":"u-ee4b1e2c8e102b43","registration":"","name":"ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2017-10","provisional":true}
 {"id":"u-aa44ee85992100f3","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-13e237891a1c2484","category":"","period":"2017-10","provisional":true}
-{"id":"u-bfa301ff4bec6f63","registration":"","name":"ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-46fbd7ab86474c1b","category":"","period":"2017-10","provisional":true}
-{"id":"u-8fbe774863eebf92","registration":"","name":"ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-46fbd7ab86474c1b","category":"","period":"2017-10","provisional":true}
-{"id":"u-916e49b2460d20d3","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-13e237891a1c2484","category":"","period":"2017-10","provisional":true}
 {"id":"u-3abc07f96d4a295a","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-13e237891a1c2484","category":"","period":"2017-10","provisional":true}
+{"id":"u-c806399c5ebc6e56","registration":"","name":"ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2017-10","provisional":true}
+{"id":"u-7b2945e5a29a1352","registration":"","name":"ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2017-10","provisional":true}
+{"id":"u-916e49b2460d20d3","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-13e237891a1c2484","category":"","period":"2017-10","provisional":true}
 {"id":"u-24af4c6f08ec77a1","registration":"","name":"ΚΡΗΤΣΕΦ ΙΩΣΗΦ","aliases":[],"club":"c-0d8b5e4eede3e01a","category":"","period":"2017-10","provisional":true}
 {"id":"u-32a5d4e3314cf118","registration":"","name":"ΠΑΠΑΠΑΝΑΓΟΥ/ΔΟΥΖΗ","aliases":[],"club":"c-b44ccab899d4d66c","category":"","period":"2017-10","provisional":true}
 {"id":"u-234776d366e95d1f","registration":"","name":"ΚΑΒΕΛΙΔΗΣ/ΚΑΡΑΚΑΣΙΔΗΣ","aliases":[],"club":"c-0d8b5e4eede3e01a","category":"","period":"2017-10","provisional":true}
@@ -7405,8 +7284,6 @@
 {"id":"u-2629810d100c8a25","registration":"","name":"ΠΕΤΡΙΔΗΣ Κ.του ΠΕΤΡΟΥ","aliases":[],"club":"c-bc61237dae75ff6d","category":"","period":"2017-10","provisional":true}
 {"id":"u-df4ab1b95e3ba876","registration":"","name":"ΚΑΡΑΤΖΟΓΛΟΥ ΓΙΩΡΓΟΣ","aliases":[],"club":"c-34ec3c76372aa07d","category":"","period":"2017-10","provisional":true}
 {"id":"u-3ef052d0a6ef1156","registration":"","name":"ΜΑΛΑΜΑΣ ΜΙΛΤΙΑΔΗΣ","aliases":[],"club":"c-34ec3c76372aa07d","category":"","period":"2017-10","provisional":true}
-{"id":"u-7b2945e5a29a1352","registration":"","name":"ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2017-10","provisional":true}
-{"id":"u-c806399c5ebc6e56","registration":"","name":"ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-85f62e45cb04422c","category":"","period":"2017-10","provisional":true}
 {"id":"u-46ef799474d34121","registration":"","name":"ΧΑΡΑΚΛΙΑΣ ΠΑΝΤΕΛΗΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2017-10","provisional":true}
 {"id":"u-7c9b49eddd5c0b49","registration":"","name":"ΧΑΡΑΚΛΙΑΣ ΠΑΝΤΕΛΗΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2017-10","provisional":true}
 {"id":"u-6ddb4d254edb716b","registration":"","name":"ΣΙΧΛΙΜΙΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2017-10","provisional":true}
@@ -7505,19 +7382,9 @@
 {"id":"u-169acdb83b08902a","registration":"","name":"ΜΠΟΥΡΛΩΤΟΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-bf0b3ca28764b14f","category":"","period":"2017-10","provisional":true}
 {"id":"u-89f3d8b9e4f21244","registration":"","name":"ΧΑΤΖΗΓΕΩΡΓΙΟΥ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-019c927651706ef9","category":"","period":"2017-10","provisional":true}
 {"id":"u-3357487ba33b75d0","registration":"","name":"ΣΚΟΡΔΙΑΛΗΣ ΦΡΑΓΙΣΚΟΣ","aliases":[],"club":"c-57f1b4e039c05202","category":"","period":"2017-10","provisional":true}
-{"id":"u-75529f01ea8864ae","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2017-10","provisional":true}
-{"id":"u-ea48b4d2ca840c0b","registration":"","name":"ΧΑΤΖΟΠΟΥΛΟΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-48336712b16e0e3d","category":"","period":"2017-10","provisional":true}
-{"id":"u-900cf9fd55025bb7","registration":"","name":"ΠΑΠΑΔΗΜΗΤΡΙΟΥ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-48336712b16e0e3d","category":"","period":"2017-10","provisional":true}
-{"id":"u-bd5ad4c38edc37eb","registration":"","name":"ΠΑΠΑΔΗΜΗΤΡΙΟΥ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2017-10","provisional":true}
 {"id":"u-8c6c87696af97a33","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2017-10","provisional":true}
-{"id":"u-a8c3d5c1411a9d68","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-e4c28e188137d4ea","category":"","period":"2017-10","provisional":true}
-{"id":"u-fae41d691580e500","registration":"","name":"ΧΑΤΖΟΠΟΥΛΟΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-4650843dc5ad6490","category":"","period":"2017-10","provisional":true}
-{"id":"u-99b3e80d59244bc3","registration":"","name":"ΠΑΠΑΔΗΜΗΤΡΙΟΥ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-4650843dc5ad6490","category":"","period":"2017-10","provisional":true}
-{"id":"u-c0246134ce06e2af","registration":"","name":"ΚΑΣΑΠΟΓΛΟΥ ΛΙΛΛΗ","aliases":[],"club":"c-43d319aee52a49c8","category":"","period":"2017-10","provisional":true}
-{"id":"u-ea06c4f5576715e3","registration":"","name":"STROH THEODOR","aliases":[],"club":"c-48336712b16e0e3d","category":"","period":"2017-10","provisional":true}
-{"id":"u-3f59879e3ee15ca9","registration":"","name":"STROH THEODOR","aliases":[],"club":"c-5f2d4e8cd58ddb6d","category":"","period":"2017-10","provisional":true}
+{"id":"u-0587255f561e67c3","registration":"","name":"ΚΑΣΑΠΟΓΛΟΥ ΛΙΛΛΗ","aliases":[],"club":"","category":"","period":"2017-10","provisional":true}
 {"id":"u-b9c20922651aa164","registration":"","name":"STROH THEODOR","aliases":[],"club":"","category":"","period":"2017-10","provisional":true}
-{"id":"u-6b0dc9be4abde08c","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"c-a3512013f16cc527","category":"","period":"2017-10","provisional":true}
 {"id":"u-a2f77dd3440fc2da","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"","category":"","period":"2017-10","provisional":true}
 {"id":"u-a05c7b4555cae01b","registration":"","name":"ΚΑΤΣΙΒΕΛΗΣ.ΚΩΣΤΟΠΟΥΛΟΣ","aliases":[],"club":"c-8d4cde7c4115d0b8","category":"","period":"2017-10","provisional":true}
 {"id":"u-85e47c1ad18e4a04","registration":"","name":"ΚΩΣΤΟΠΟΥΛΟΣ/ΒΑΤΣΑΚΛΗΣ","aliases":[],"club":"c-8d4cde7c4115d0b8","category":"","period":"2017-10","provisional":true}
@@ -7797,10 +7664,8 @@
 {"id":"u-69c18814d0400be8","registration":"","name":"ΣΙΝΟΥΡΗΣ ΧΑΡΗΣ","aliases":[],"club":"c-32ea5158adb42e0e","category":"","period":"2017-12","provisional":true}
 {"id":"u-93bdaa59101faa08","registration":"","name":"ΚΟΥΤΡΟΎΜΠΑΣ ΧΑΡΑΛΑΜΠΟΣ3","aliases":[],"club":"c-abe6ea598bfcc897","category":"","period":"2017-12","provisional":true}
 {"id":"u-466b81b442824711","registration":"","name":"ΧΑΤΖΗΝΙΚΟΛΗΣ ΕΠΑΜΕΙΝΩΝΤΑΣ","aliases":[],"club":"","category":"","period":"2017-12","provisional":true}
-{"id":"u-8e27a01cc4ea26c2","registration":"","name":"ΧΑΤΖΟΠΟΥΛΟΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-59cd5f0bae50beb7","category":"","period":"2017-12","provisional":true}
 {"id":"u-be52cdd2552e5f8f","registration":"","name":"ΠΑΕΥΑΓΓΕΛΙΟΥ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"","category":"","period":"2017-12","provisional":true}
-{"id":"u-c10063263ece65c9","registration":"","name":"ΧΑΤΖΟΠΟΥΛΟΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-59cd5f0bae50beb7","category":"","period":"2017-12","provisional":true}
-{"id":"u-f89674cb65b05931","registration":"","name":"ΧΑΤΖΗΝΙΚΟΛΗΣ ΕΠΑΜΕΙΝΩΝΤΑΣ","aliases":[],"club":"c-59cd5f0bae50beb7","category":"","period":"2017-12","provisional":true}
+{"id":"u-764d79fcd29793f0","registration":"","name":"ΧΑΤΖΗΝΙΚΟΛΗΣ ΕΠΑΜΕΙΝΩΝΤΑΣ","aliases":[],"club":"","category":"","period":"2017-12","provisional":true}
 {"id":"u-2685c9cb305c89af","registration":"","name":"ΤΣΙΟΚΑΣ ΝΤΑΝΙΕΛ","aliases":[],"club":"c-3d7c067d1636d1f6","category":"","period":"2017-12","provisional":true}
 {"id":"u-b14c0211a4aad641","registration":"","name":"ΚΥΠΡΑΙΟΣ ΕΠΑΜΕΙΝΩΝΔΑΣ","aliases":[],"club":"c-8dc60033e3ab35ac","category":"","period":"2017-12","provisional":true}
 {"id":"u-988df9645fd5d56c","registration":"","name":"ΜΠΕΝΡΑΝΤΟΥΤ ΙΣΑΑΚ","aliases":[],"club":"c-5693d9e79629555f","category":"","period":"2017-12","provisional":true}
@@ -8046,18 +7911,14 @@
 {"id":"u-c953d6bcb9631bb1","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-4fc32881396f13a1","category":"","period":"2018-02","provisional":true}
 {"id":"u-c8414e218fe613ed","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-d0f6fd0015a63116","category":"","period":"2018-02","provisional":true}
 {"id":"u-ddd2a5747ae3c516","registration":"","name":"ΜΠΑΛΗΣ ΣΑΡΑΝΤΗΣ","aliases":[],"club":"c-f8a45e13db93c8f0","category":"","period":"2018-02","provisional":true}
-{"id":"u-ff204b46853c4adf","registration":"","name":"ΓΑΒΙΡΗΛ ΑΓΓΕΛΟΣ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2018-02","provisional":true}
-{"id":"u-34ead4ffeacc26aa","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2018-02","provisional":true}
-{"id":"u-d43c76282d592116","registration":"","name":"ΤΡΙΑΝΑΤΑΦΥΛΛΙΔΗΣ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2018-02","provisional":true}
-{"id":"u-d89b44e8f38f5e45","registration":"","name":"ΜΠΟΥΡΛΩΤΟΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2018-02","provisional":true}
-{"id":"u-3698913c9beb3f64","registration":"","name":"ΜΑΥΡΟΜΜΑΤΗΣ ΙΩΣΗΦ-ΣΠΥΡΙΔΩΝ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2018-02","provisional":true}
-{"id":"u-0c9d37be217452c2","registration":"","name":"ΜΑΥΡΟΜΜΑΤΗΣ ΙΩΣΗΦ-ΣΠΥΡΙΔΩΝ","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2018-02","provisional":true}
-{"id":"u-af358def70eda94a","registration":"","name":"ΧΑΤΖΑΚΗΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2018-02","provisional":true}
-{"id":"u-937adf7c851f98aa","registration":"","name":"ΧΑΤΖΑΚΗΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"c-eef85b35d803d3ec","category":"","period":"2018-02","provisional":true}
-{"id":"u-6c1233c70912f10e","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-6a7c54a51c88e36c","category":"","period":"2018-02","provisional":true}
+{"id":"u-269880299b416501","registration":"","name":"ΓΑΒΙΡΗΛ ΑΓΓΕΛΟΣ","aliases":[],"club":"","category":"","period":"2018-02","provisional":true}
+{"id":"u-48d05f7f4b8cdc64","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2018-02","provisional":true}
+{"id":"u-04d2da9ebaafce47","registration":"","name":"ΤΡΙΑΝΑΤΑΦΥΛΛΙΔΗΣ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"","category":"","period":"2018-02","provisional":true}
+{"id":"u-626104e2cbe8268f","registration":"","name":"ΜΠΟΥΡΛΩΤΟΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"","category":"","period":"2018-02","provisional":true}
+{"id":"u-476acc957facd909","registration":"","name":"ΜΑΥΡΟΜΜΑΤΗΣ ΙΩΣΗΦ-ΣΠΥΡΙΔΩΝ","aliases":[],"club":"","category":"","period":"2018-02","provisional":true}
+{"id":"u-472e2e861c29dd60","registration":"","name":"ΧΑΤΖΑΚΗΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"","category":"","period":"2018-02","provisional":true}
 {"id":"u-f5bcb0a217d49c2e","registration":"","name":"JAIN SANJAY","aliases":[],"club":"","category":"","period":"2018-02","provisional":true}
-{"id":"u-5d7dc612c858b4bd","registration":"","name":"JAIN SANJAY","aliases":[],"club":"c-a3512013f16cc527","category":"","period":"2018-02","provisional":true}
-{"id":"u-749696d75778fafd","registration":"","name":"ΠΑΡΑΣΚΕΥΑΪΔΟΥ ΧΑΡΙΤΙΝΗ","aliases":[],"club":"c-b9d5970cc2dd7a2a","category":"","period":"2018-02","provisional":true}
+{"id":"u-59f138234f31d8af","registration":"","name":"ΠΑΡΑΣΚΕΥΑΪΔΟΥ ΧΑΡΙΤΙΝΗ","aliases":[],"club":"","category":"","period":"2018-02","provisional":true}
 {"id":"u-57daca180a965248","registration":"","name":"ΤΣΟΥΛΧΑΣ","aliases":[],"club":"","category":"","period":"2018-02","provisional":true}
 {"id":"u-72820e1324791b20","registration":"","name":"XXX","aliases":[],"club":"c-b51f0c5c2e7494c2","category":"","period":"2018-02","provisional":true}
 {"id":"u-72fef2452396cad7","registration":"","name":"WACLAVECK MACIEJ","aliases":[],"club":"c-0b63bc22321e5c7d","category":"","period":"2018-02","provisional":true}
@@ -8137,160 +7998,107 @@
 {"id":"u-160924958bd52fb1","registration":"","name":"ΔΗΜΗΤΡΙΟΥ ΑΝΤΩΝΙΟΣ","aliases":[],"club":"c-2dcb31dd32ca1857","category":"","period":"2018-03","provisional":true}
 {"id":"u-3cf86aed1c712dfe","registration":"","name":"ΧΑΤΖΑΤΡΙΑΝ ΑΜΠΓΚΑΡ","aliases":[],"club":"c-582a0cc9170d092c","category":"","period":"2018-03","provisional":true}
 {"id":"u-6fa9a809a00e2042","registration":"","name":"ΜΠΟΖΙΝΗΣ ΑΝΕΣΤΟΣ","aliases":[],"club":"c-d7ea48e1a487dc1a","category":"","period":"2018-03","provisional":true}
-{"id":"u-65d727db2fe296cb","registration":"","name":"ΚΟΧΛΙΑΔΗΣ ΧΑΡΗΣ","aliases":[],"club":"c-3b0949c2c774eae9","category":"","period":"2018-03","provisional":true}
-{"id":"u-5f5be4d51d90bc47","registration":"","name":"ΖΑΠΑΡΤΑΣ ΦΙΛΙΠΠΑΣ","aliases":[],"club":"c-3b0949c2c774eae9","category":"","period":"2018-03","provisional":true}
-{"id":"u-95d20ea8f6ed06f8","registration":"","name":"ΠΕΤΡΙΔΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-3b0949c2c774eae9","category":"","period":"2018-03","provisional":true}
+{"id":"u-248f2ef6acce7c8e","registration":"","name":"ΚΟΧΛΙΑΔΗΣ ΧΑΡΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-f2e32a0d0339811c","registration":"","name":"ΖΑΠΑΡΤΑΣ ΦΙΛΙΠΠΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-6017bf0266d7eaa4","registration":"","name":"ΠΕΡΙΚΛΗΣ ΣΤΑΥΡΟΠΟΥΛΟΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
+{"id":"u-2c330b30553d4c7e","registration":"","name":"ΠΕΤΡΙΔΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-ab13a6ea02706905","registration":"","name":"ΠΕΡΙΚΛΗΣ ΣΤΑΥΡΟΠΟΥΛΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-9eb4ce1afedf5e28","registration":"","name":"ΙΩΑΝΝΗΣ ΚΑΡΑΜΙΧΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-9b2325df264c6d53","registration":"","name":"ΔΗΜΗΤΡΗΣ ΑΝΥΦΑΝΤΑΚΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
+{"id":"u-382932a9c362e321","registration":"","name":"ΔΗΜΗΤΡΗΣ ΑΝΥΦΑΝΤΑΚΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-4e8dfbc91875ca5c","registration":"","name":"ΑΝΤΩΝΗΣ ΔΗΜΗΤΡΙΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-a07ae1657472242f","registration":"","name":"ΗΛΙΑΣ ΔΗΜΗΤΡΙΑΔΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
+{"id":"u-ad3579e664c34930","registration":"","name":"ΗΛΙΑΣ ΔΗΜΗΤΡΙΑΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-a0c472d61267ea09","registration":"","name":"ΠΕΤΡΟΣ ΑΠΟΣΤΟΛΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-088e8a1e752d12f1","registration":"","name":"ΦΙΛΙΠΠΑΣ ΖΑΠΑΡΤΑΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
+{"id":"u-1382a4edcdf732a2","registration":"","name":"ΦΙΛΙΠΠΑΣ ΖΑΠΑΡΤΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-64cefabe91f5bfad","registration":"","name":"ΝΙΚΟΛΑΟΣ ΔΟΥΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-3e800f660799c4ff","registration":"","name":"ΠΕΡΙΚΛΗΣ ΣΤΑΥΡΟΠΟΥΛΟΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-2a411fe4bd8f6c80","registration":"","name":"ΗΛΙΑΣ ΔΗΜΗΤΡΙΑΔΗΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-290673bd9694ce6a","registration":"","name":"ΠΕΡΙΚΛΗΣ ΣΤΑΥΡΟΠΟΥΛΟΣ","aliases":[],"club":"c-412a4789b02cad19","category":"","period":"2018-03","provisional":true}
-{"id":"u-0ee9765539eec725","registration":"","name":"ΠΑΡΑΣΚΕΥΟΠΟΥΛΟΣ ΦΙΛ.","aliases":[],"club":"c-02cc9ebf9195648b","category":"","period":"2018-03","provisional":true}
 {"id":"u-40071c42e1cdf04b","registration":"","name":"ΠΑΡΑΣΚΕΥΟΠΟΥΛΟΣ ΦΙΛ.","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-82f13f078c8d8862","registration":"","name":"ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ ΚΩΝ.","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-3c9bab94cc6567f8","registration":"","name":"ΟΡΦΑΝΟΥΔΑΚΗΣ ΝΙΚ.","aliases":[],"club":"c-02cc9ebf9195648b","category":"","period":"2018-03","provisional":true}
-{"id":"u-d32d75b5752f47ef","registration":"","name":"ΝΤΟΥΜΑΝΑΚΗΣ ΕΥΣ.","aliases":[],"club":"c-02cc9ebf9195648b","category":"","period":"2018-03","provisional":true}
-{"id":"u-431fcc4f9f18ceb9","registration":"","name":"ΧΡΗΣΤΟΣ ΣΟΦΙΑΝΟΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
+{"id":"u-f846abd53196975a","registration":"","name":"ΟΡΦΑΝΟΥΔΑΚΗΣ ΝΙΚ.","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-6bdd025f8c91c0b5","registration":"","name":"ΝΤΟΥΜΑΝΑΚΗΣ ΕΥΣ.","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-c01f89e741dd52f4","registration":"","name":"ΧΡΗΣΤΟΣ ΣΟΦΙΑΝΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-b584596b2a56ac62","registration":"","name":"ΓΕΩΡΓΙΟΣ ΕΡΜΕΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-58403d98fedcd818","registration":"","name":"ΝΙΚΟΛΑΟΣ ΟΡΦΑΝΟΥΔΑΚΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
+{"id":"u-e6db0651efc94ad0","registration":"","name":"ΝΙΚΟΛΑΟΣ ΟΡΦΑΝΟΥΔΑΚΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-010f0cec9a772f12","registration":"","name":"ΘΕΟΛΟΓΟΣ ΚΑΠΕΤΑΝΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-eca13c7b06c4ccc1","registration":"","name":"ΚΩΝ. ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-8e77c33806cc726c","registration":"","name":"ΝΙΚΟΛΑΟΣ ΚΑΓΙΑΔΑΚΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-1df7f8620c3c7824","registration":"","name":"ΑΛΕΞΑΝΔΡΟΣ ΧΟΧΛΑΚΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-6f0461729c547c00","registration":"","name":"ΦΙΛ. ΠΑΡΑΣΚΕΥΟΠΟΥΛΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-3b2e34cc234b46b6","registration":"","name":"ΧΡΗΣΤΟΣ ΣΟΦΙΑΝΟΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-27c6df3204a2190f","registration":"","name":"ΚΩΝ. ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-33f8ab6548314064","registration":"","name":"ΧΡΗΣΤΟΣ ΣΟΦΙΑΝΟΣ","aliases":[],"club":"c-412a4789b02cad19","category":"","period":"2018-03","provisional":true}
 {"id":"u-1d2f33e0d81f52dd","registration":"","name":"ΚΩΝ. ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-6fed138746fcdf9f","registration":"","name":"ΓΕΩΡΓΙΑΔΗΣ ΠΛΑΤΩΝΑΣ","aliases":[],"club":"c-57892546f36df0e9","category":"","period":"2018-03","provisional":true}
+{"id":"u-8e77c33806cc726c","registration":"","name":"ΝΙΚΟΛΑΟΣ ΚΑΓΙΑΔΑΚΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-cacb54e2f2b984bc","registration":"","name":"ΑΛΕΞΑΝΔΡΟΣ ΧΟΧΛΑΚΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-6f0461729c547c00","registration":"","name":"ΦΙΛ. ΠΑΡΑΣΚΕΥΟΠΟΥΛΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-725dc9b6948a3ba2","registration":"","name":"ΓΕΩΡΓΙΑΔΗΣ ΠΛΑΤΩΝΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-ca6fcdc8171a20ab","registration":"","name":"ΚΟΥΤΛΟΓΛΟΥ ΔΙΟΝΥΣΗΣ","aliases":[],"club":"c-57892546f36df0e9","category":"","period":"2018-03","provisional":true}
 {"id":"u-63c1245775e0cbc0","registration":"","name":"ΚΟΥΤΛΟΓΛΟΥ ΔΙΟΝΥΣΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-d00e61f5ea83faec","registration":"","name":"ΙΩΑΝΝΗΣ ΚΕΛΙΑΦΑΝΟΣ","aliases":[],"club":"c-8890263da7f47fc6","category":"","period":"2018-03","provisional":true}
-{"id":"u-8e0ccbe24ff6e9c2","registration":"","name":"ΧΡΥΣΟΣΤΟΜΟΣ ΜΑΚΕΔΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-3e80b990d54d4f0b","registration":"","name":"ΑΡΙΣΤΕΙΔΗΣ ΚΟΜΠΟΥΡΗΣ","aliases":[],"club":"c-8890263da7f47fc6","category":"","period":"2018-03","provisional":true}
-{"id":"u-3541a08ef1ac81fd","registration":"","name":"ΓΕΩΡΓΙΟΣ ΓΙΟΥΡΓΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-e2c270aa0720c40c","registration":"","name":"ΑΛΕΞΗΣ ΠΗΤΤΑΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-da02621ab7d69639","registration":"","name":"ΜΙΧΑΛΗΣ ΤΣΟΥΡΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-84d0e864c3bd3129","registration":"","name":"ΙΩΑΝΝΗΣ ΚΕΛΙΑΦΑΝΟΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-8267dec4e3c9607e","registration":"","name":"ΝΙΚΟΛΑΟΣ ΓΡΑΜΜΕΝΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-4a2eb471515bbd63","registration":"","name":"ΠΑΝΤΕΛΗΣ ΕΛΕΥΘΕΡΙΑΔΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-6cbad9501e4fa871","registration":"","name":"ΑΡΙΣΤΕΙΔΗΣ ΚΟΜΠΟΥΡΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-affb10188e9f2d41","registration":"","name":"ΙΩΑΝΝΗΣ ΚΑΤΣΑΝΤΩΝΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-a1adc7eb727eebe8","registration":"","name":"ΙΩΑΝΝΗΣ ΚΙΛΚΙΣΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-277b88dc7ed1246e","registration":"","name":"ΑΛΕΞΗΣ ΠΗΤΤΑΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
 {"id":"u-c56dbf78d01548c4","registration":"","name":"ΙΩΑΝΝΗΣ ΚΕΛΙΑΦΑΝΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-c70ee75606eadac6","registration":"","name":"ΠΑΝΤΕΛΗΣ ΕΛΕΥΘΕΡΙΑΔΗΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-a24e6967b161569d","registration":"","name":"ΑΛΕΞΗΣ ΠΗΤΤΑΣ","aliases":[],"club":"c-412a4789b02cad19","category":"","period":"2018-03","provisional":true}
-{"id":"u-ff23b14c0a8374c8","registration":"","name":"ΡΟΪΔΟΥ ΗΡΑ-ΧΡΙΣΤΙΝΑ","aliases":[],"club":"c-dcf9448742f48b68","category":"","period":"2018-03","provisional":true}
+{"id":"u-8e0ccbe24ff6e9c2","registration":"","name":"ΧΡΥΣΟΣΤΟΜΟΣ ΜΑΚΕΔΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-6cbad9501e4fa871","registration":"","name":"ΑΡΙΣΤΕΙΔΗΣ ΚΟΜΠΟΥΡΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-3541a08ef1ac81fd","registration":"","name":"ΓΕΩΡΓΙΟΣ ΓΙΟΥΡΓΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-214489e9eea14f31","registration":"","name":"ΑΛΕΞΗΣ ΠΗΤΤΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-da02621ab7d69639","registration":"","name":"ΜΙΧΑΛΗΣ ΤΣΟΥΡΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-8267dec4e3c9607e","registration":"","name":"ΝΙΚΟΛΑΟΣ ΓΡΑΜΜΕΝΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-9217ff98da5ca294","registration":"","name":"ΠΑΝΤΕΛΗΣ ΕΛΕΥΘΕΡΙΑΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-d5e6ad2c82eaa761","registration":"","name":"ΙΩΑΝΝΗΣ ΚΑΤΣΑΝΤΩΝΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-a1adc7eb727eebe8","registration":"","name":"ΙΩΑΝΝΗΣ ΚΙΛΚΙΣΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-104af306b302ce2a","registration":"","name":"ΡΟΪΔΟΥ ΗΡΑ-ΧΡΙΣΤΙΝΑ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-32106c14201731bd","registration":"","name":"ΧΑΤΣΑΤΡΙΑΝ ΒΕΝΕΡΑ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-e9a9e2e9f3f546f1","registration":"","name":"ΜΗΤΚΑ ΑΛΕΚΑ","aliases":[],"club":"c-dcf9448742f48b68","category":"","period":"2018-03","provisional":true}
 {"id":"u-150ede43ca635c46","registration":"","name":"ΜΗΤΚΑ ΑΛΕΚΑ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-602d5c021f5cef72","registration":"","name":"ΣΤΥΛΙΑΝΗ ΠΕΤΡΟΜΕΛΙΔΟΥ","aliases":[],"club":"c-a16dc3c3baafdebf","category":"","period":"2018-03","provisional":true}
+{"id":"u-b93c77acef0fd9eb","registration":"","name":"ΣΤΥΛΙΑΝΗ ΠΕΤΡΟΜΕΛΙΔΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-387845b16ba851c8","registration":"","name":"ΜΑΡΙΑ ΠΑΠΑΜΟΣΧΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-1d99547bb04e7b4c","registration":"","name":"ΑΛΕΚΑ ΜΗΤΚΑ","aliases":[],"club":"c-a16dc3c3baafdebf","category":"","period":"2018-03","provisional":true}
-{"id":"u-812555c83ceeca98","registration":"","name":"ΜΑΡΙΑ ΣΥΠΟΥΛΑ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-153d64aaabeb662c","registration":"","name":"ΑΘΗΝΑ ΠΑΥΛΙΔΟΥ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-186e10a6be9f6d73","registration":"","name":"ΑΛΕΚΑ ΜΗΤΚΑ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-c4b62e56459456fe","registration":"","name":"ΗΡΑ-ΧΡΙΣΤΙΝΑ ΡΟΪΔΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-2e64a3219d0d3c49","registration":"","name":"ΑΘΗΝΑ ΠΑΥΛΙΔΟΥ","aliases":[],"club":"c-412a4789b02cad19","category":"","period":"2018-03","provisional":true}
 {"id":"u-d332a3d29f5189d1","registration":"","name":"ΑΛΕΚΑ ΜΗΤΚΑ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-812555c83ceeca98","registration":"","name":"ΜΑΡΙΑ ΣΥΠΟΥΛΑ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-0937f70fc33e9fff","registration":"","name":"ΑΘΗΝΑ ΠΑΥΛΙΔΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-c4b62e56459456fe","registration":"","name":"ΗΡΑ-ΧΡΙΣΤΙΝΑ ΡΟΪΔΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-e92f30be86ae4f36","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-54fda05066c3cc1d","registration":"","name":"ΑΝΑΣΤΑΣΟΠΟΥΛΟΣ ΚΩΣΤΑΣ","aliases":[],"club":"c-51f265ac22764f41","category":"","period":"2018-03","provisional":true}
 {"id":"u-c02ded6aed7004d2","registration":"","name":"ΑΝΑΣΤΑΣΟΠΟΥΛΟΣ ΚΩΣΤΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-2188fdefcb5f3125","registration":"","name":"ΒΑΣΙΛΕΙΑΔΗΣ ΚΩΣΤΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-fcda1dc0e197c672","registration":"","name":"ΓΙΑΚΟΜΙΔΗΣ ΝΙΚΟΛΑΣ","aliases":[],"club":"c-51f265ac22764f41","category":"","period":"2018-03","provisional":true}
-{"id":"u-ded69e001081fd72","registration":"","name":"ΠΕΡΙΚΛΗΣ ΔΙΔΑΣΚΑΛΟΥ","aliases":[],"club":"c-8890263da7f47fc6","category":"","period":"2018-03","provisional":true}
+{"id":"u-973def9a0f6698f0","registration":"","name":"ΓΙΑΚΟΜΙΔΗΣ ΝΙΚΟΛΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-346e83eec01b1746","registration":"","name":"ΠΕΡΙΚΛΗΣ ΔΙΔΑΣΚΑΛΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-df723d49c8d1f61a","registration":"","name":"ΧΡΗΣΤΟΣ ΚΑΡΑΤΖΕΝΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-5b867aafb487a95a","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΠΕΡΑΚΗΣ","aliases":[],"club":"c-8890263da7f47fc6","category":"","period":"2018-03","provisional":true}
+{"id":"u-f694fa6908c91b32","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΠΕΡΑΚΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-ddd83f3afbdf8f9f","registration":"","name":"ΚΩΣΤΑΣ ΒΑΣΙΛΕΙΑΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-df6811a7bb315b28","registration":"","name":"ΔΗΜΗΤΡΙΟΣ ΠΑΡΟΔΟΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-d2b0d6bfe717f689","registration":"","name":"ΚΩΣΤΑΣ ΒΑΣΙΛΕΙΑΔΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
+{"id":"u-d3c91341e745bf61","registration":"","name":"ΔΗΜΗΤΡΙΟΣ ΠΑΡΟΔΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-a3bad929af2bc45e","registration":"","name":"ΧΡΗΣΤΟΣ ΣΙΩΠΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-f9e5716512b43a82","registration":"","name":"ΧΡΙΣΤΟΦΟΡΟΣ ΡΙΖΟΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
+{"id":"u-5dccf20b46283f03","registration":"","name":"ΧΡΙΣΤΟΦΟΡΟΣ ΡΙΖΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-e419824255d6bfe0","registration":"","name":"ΙΩΑΝΝΗΣ ΛΑΜΠΡΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-0be0760eae97a26e","registration":"","name":"ΝΙΚΟΛΑΟΣ ΧΑΛΕΠΛΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
+{"id":"u-1281518ce408cf0d","registration":"","name":"ΝΙΚΟΛΑΟΣ ΧΑΛΕΠΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-6a8511742d8eed44","registration":"","name":"ΠΑΝΑΓΙΩΤΗΣ ΠΑΓΟΥΡΤΖΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-99b2b8fc8da4f391","registration":"","name":"ΧΡΗΣΤΟΣ ΚΑΡΑΤΖΕΝΗΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-b57f9ef05ece2d50","registration":"","name":"ΧΡΙΣΤΟΦΟΡΟΣ ΡΙΖΟΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-011f5e6ab8f934f9","registration":"","name":"ΧΡΗΣΤΟΣ ΣΙΩΠΗΣ","aliases":[],"club":"c-412a4789b02cad19","category":"","period":"2018-03","provisional":true}
 {"id":"u-ac1b42aae37b824a","registration":"","name":"ΡΑΜΠΟΤΑΣ ΝΙΚΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-14dd300b6163be57","registration":"","name":"ΠΑΖΟΛΙΔΗΣ ΓΙΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-35060743b9e9d38a","registration":"","name":"ΠΑΖΟΛΙΔΗΣ ΓΙΑΝΝΗΣ","aliases":[],"club":"c-257a45c071dea3d2","category":"","period":"2018-03","provisional":true}
-{"id":"u-075ca0b43afb522e","registration":"","name":"ΜΙΧΑΗΛΙΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"c-257a45c071dea3d2","category":"","period":"2018-03","provisional":true}
+{"id":"u-09631164f8cff32c","registration":"","name":"ΜΙΧΑΗΛΙΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-72e7048a9a91ba27","registration":"","name":"ΛΥΜΠΟΥΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-7521114fe849caeb","registration":"","name":"ΠΑΝΟΥΚΙΔΗΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-bb65a604a398a0d8","registration":"","name":"ΤΖΙΟΥΦΑΣ ΚΩΣΤΑΣ","aliases":[],"club":"c-257a45c071dea3d2","category":"","period":"2018-03","provisional":true}
-{"id":"u-9a011360e51379b8","registration":"","name":"ΠΑΝΟΥΚΙΔΗΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"c-257a45c071dea3d2","category":"","period":"2018-03","provisional":true}
-{"id":"u-7a73e927822d8abc","registration":"","name":"ΓΙΑΝΝΗΣ ΠΑΖΟΛΙΔΗΣ","aliases":[],"club":"c-8890263da7f47fc6","category":"","period":"2018-03","provisional":true}
+{"id":"u-cb42e4afd5bdce3b","registration":"","name":"ΤΖΙΟΥΦΑΣ ΚΩΣΤΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-be72eb34ce8b4411","registration":"","name":"ΓΙΑΝΝΗΣ ΠΑΖΟΛΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-268df13e1a4485e9","registration":"","name":"ΙΩΑΝΝΗΣ ΑΝΑΣΤΑΣΙΑΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-39a6751f4d0a5a26","registration":"","name":"ΧΡΗΣΤΟΣ ΑΚΛΑΣΗΣ","aliases":[],"club":"c-8890263da7f47fc6","category":"","period":"2018-03","provisional":true}
-{"id":"u-9959ea70afd44003","registration":"","name":"ΠΑΥΛΟΣ ΑΚΡΙΤΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-8b9f196a71b5cb3e","registration":"","name":"ΝΙΚΟΣ ΡΑΜΠΟΤΑΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-c03e81ae4672fffe","registration":"","name":"ΓΙΩΡΓΟΣ ΠΑΝΟΥΚΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-60d9f01b788ccfb9","registration":"","name":"ΙΩΑΝΝΗΣ ΑΝΑΣΤΑΣΙΑΔΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-d2fc98f30c5701a6","registration":"","name":"ΕΥΑΓΓΕΛΟΣ ΛΑΖΑΡΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-d089acc10061909f","registration":"","name":"ΒΑΣΙΛΗΣ ΛΥΜΠΟΥΔΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
 {"id":"u-969ec57c8583d956","registration":"","name":"ΧΡΗΣΤΟΣ ΑΚΛΑΣΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-16c7ad4d6a64c298","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΠΑΥΛΙΔΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-1c40dd43a9d25199","registration":"","name":"ΑΝΔΡΕΑΣ ΚΑΡΥΟΦΥΛΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-01c54a550e81a8b7","registration":"","name":"ΝΙΚΟΣ ΡΑΜΠΟΤΑΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-89c6d5a18c84745f","registration":"","name":"ΒΑΣΙΛΗΣ ΛΥΜΠΟΥΔΗΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-a5a82d0281cc3bc6","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΠΑΥΛΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-4508c4ad7aa67173","registration":"","name":"ΝΙΚΟΣ ΡΑΜΠΟΤΑΣ","aliases":[],"club":"c-412a4789b02cad19","category":"","period":"2018-03","provisional":true}
+{"id":"u-9959ea70afd44003","registration":"","name":"ΠΑΥΛΟΣ ΑΚΡΙΤΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-da0fe831ab79f1cc","registration":"","name":"ΝΙΚΟΣ ΡΑΜΠΟΤΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-c03e81ae4672fffe","registration":"","name":"ΓΙΩΡΓΟΣ ΠΑΝΟΥΚΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-d2fc98f30c5701a6","registration":"","name":"ΕΥΑΓΓΕΛΟΣ ΛΑΖΑΡΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-da230f856a50c152","registration":"","name":"ΒΑΣΙΛΗΣ ΛΥΜΠΟΥΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-d6b09057eebdc08c","registration":"","name":"ΙΩΑΝΝΟΥ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-89efb96633033233","category":"","period":"2018-03","provisional":true}
-{"id":"u-e60fd255f6ac9021","registration":"","name":"ΚΙΤΣΙΟΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"c-89efb96633033233","category":"","period":"2018-03","provisional":true}
-{"id":"u-623fddba15ffa8f1","registration":"","name":"ΚΑΒΕΛΙΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-7a0d74902a908752","registration":"","name":"ΚΑΒΕΛΙΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"c-89efb96633033233","category":"","period":"2018-03","provisional":true}
+{"id":"u-a5a82d0281cc3bc6","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΠΑΥΛΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-1c40dd43a9d25199","registration":"","name":"ΑΝΔΡΕΑΣ ΚΑΡΥΟΦΥΛΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-c9ebdee6242980fe","registration":"","name":"ΙΩΑΝΝΟΥ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-acf2c786ea9f4a11","registration":"","name":"ΚΙΤΣΙΟΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-623fddba15ffa8f1","registration":"","name":"ΚΑΒΕΛΙΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-d52f75a9b178381e","registration":"","name":"ΣΚΟΛΙΔΗΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-f85653acdb7a19e0","registration":"","name":"ΣΚΟΛΙΔΗΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"c-89efb96633033233","category":"","period":"2018-03","provisional":true}
-{"id":"u-92489f02fcdbaa9f","registration":"","name":"ΑΛΚΙΒΙΑΔΗΣ ΛΟΥΚΑΝΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
+{"id":"u-e82bbaf39d83472f","registration":"","name":"ΑΛΚΙΒΙΑΔΗΣ ΛΟΥΚΑΝΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-231cb23b6c467bba","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΧΡΗΣΤΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-5a258bcb60114925","registration":"","name":"ΑΘΑΝΑΣΙΟΣ ΑΡΓΥΡΙΑΔΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-9e22947eddddadce","registration":"","name":"ΓΙΩΡΓΟΣ ΣΚΟΛΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-28ab8abbc04757c6","registration":"","name":"ΓΕΩΡΓΙΟΣ ΣΤΕΦΑΝΙΔΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-5d55bba96ef3e49c","registration":"","name":"ΒΑΣΙΛΗΣ ΚΑΒΕΛΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-b889e77362bd0b3f","registration":"","name":"ΠΑΝΑΓΙΩΤΗΣ ΚΑΡΑΚΑΤΣΑΝΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-9dda2234d88bba5a","registration":"","name":"ΝΙΚΟΛΑΟΣ ΚΑΡΑΚΑΣΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-0db7f364f21bd0a6","registration":"","name":"ΑΛΚΙΒΙΑΔΗΣ ΛΟΥΚΑΝΗΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
 {"id":"u-b1316fdd7c303d2a","registration":"","name":"ΑΘΑΝΑΣΙΟΣ ΑΡΓΥΡΙΑΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-4eb2ce2c4ef30ff3","registration":"","name":"ΓΕΩΡΓΙΟΣ ΣΤΕΦΑΝΙΔΗΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-d4ed57079797d7ac","registration":"","name":"ΠΑΝΑΓΙΩΤΗΣ ΚΑΡΑΚΑΤΣΑΝΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-c6a119a5bc43dc9f","registration":"","name":"ΑΛΚΙΒΙΑΔΗΣ ΛΟΥΚΑΝΗΣ","aliases":[],"club":"c-412a4789b02cad19","category":"","period":"2018-03","provisional":true}
+{"id":"u-9e22947eddddadce","registration":"","name":"ΓΙΩΡΓΟΣ ΣΚΟΛΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-fed9f086d9e47d2d","registration":"","name":"ΓΕΩΡΓΙΟΣ ΣΤΕΦΑΝΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-5d55bba96ef3e49c","registration":"","name":"ΒΑΣΙΛΗΣ ΚΑΒΕΛΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-d4ed57079797d7ac","registration":"","name":"ΠΑΝΑΓΙΩΤΗΣ ΚΑΡΑΚΑΤΣΑΝΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-9dda2234d88bba5a","registration":"","name":"ΝΙΚΟΛΑΟΣ ΚΑΡΑΚΑΣΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-088409297db48d1e","registration":"","name":"ΣΚΑΡΚΑΛΑΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-e890d86ba3c789fd","registration":"","name":"ΣΚΑΡΚΑΛΑΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"c-11c379d79c19d5ca","category":"","period":"2018-03","provisional":true}
-{"id":"u-a95ff651e0725079","registration":"","name":"ΧΑΡΑΚΛΙΑΣ ΠΑΝΤΕΛΗΣ","aliases":[],"club":"c-11c379d79c19d5ca","category":"","period":"2018-03","provisional":true}
-{"id":"u-5b391a0ccb26852a","registration":"","name":"ΛΙΟΛΗΣ ΜΑΝΟΣ","aliases":[],"club":"c-11c379d79c19d5ca","category":"","period":"2018-03","provisional":true}
-{"id":"u-19e1bee4238aec0b","registration":"","name":"ΧΑΤΖΗΘΕΟΔΩΡΟΥ ΓΙΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-c7291390999be0e1","registration":"","name":"ΧΑΤΖΗΘΕΟΔΩΡΟΥ ΓΙΑΝΝΗΣ","aliases":[],"club":"c-11c379d79c19d5ca","category":"","period":"2018-03","provisional":true}
+{"id":"u-6188692245a39b41","registration":"","name":"ΧΑΡΑΚΛΙΑΣ ΠΑΝΤΕΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-af5c821a6f920a09","registration":"","name":"ΛΙΟΛΗΣ ΜΑΝΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-b950493e68714b14","registration":"","name":"ΠΕΤΡΟΣ ΠΑΥΛΙΔΗΣ","aliases":[],"club":"c-1aa38f1954c5d0be","category":"","period":"2018-03","provisional":true}
+{"id":"u-19e1bee4238aec0b","registration":"","name":"ΧΑΤΖΗΘΕΟΔΩΡΟΥ ΓΙΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-9d7ba4f414955580","registration":"","name":"ΠΕΤΡΟΣ ΠΑΥΛΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-15b1502d3e9ca06c","registration":"","name":"ΠΑΝΤΕΛΗΣ ΧΑΡΑΚΛΙΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-f2fd825e8f6864e3","registration":"","name":"ΧΡΗΣΤΟΣ ΛΑΓΑΡΟΣ","aliases":[],"club":"c-1aa38f1954c5d0be","category":"","period":"2018-03","provisional":true}
-{"id":"u-e9f71dc2ab426074","registration":"","name":"ΓΙΑΝΝΗΣ ΧΑΤΖΗΘΕΟΔΩΡΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-63d48c74c4ae1c4b","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΑΝΔΡΕΑΔΗΣ","aliases":[],"club":"c-1aa38f1954c5d0be","category":"","period":"2018-03","provisional":true}
-{"id":"u-982e173ad37bca60","registration":"","name":"ΚΥΡΙΑΚΟΣ ΦΕΤΦΑΤΖΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-7be6de2830b84a9a","registration":"","name":"ΧΑΡΑΛΑΜΠΟΣ ΜΕΡΚΟΥΡΟΠΟΥΛΟΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-2f4f176167b6b6db","registration":"","name":"ΑΘΑΝΑΣΙΟΣ ΚΑΡΑΜΑΝΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-e64f2aac1b0f84e5","registration":"","name":"ΠΑΝΤΕΛΗΣ ΧΑΡΑΚΛΙΑΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
-{"id":"u-cb1ff21152dad8ac","registration":"","name":"ΙΩΑΝΝΗΣ ΣΕΡΕΜΕΤΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-6f3fbc60f3e7ea82","registration":"","name":"ΧΡΙΣΤΟΦΟΡΟΣ ΘΕΟΤΟΚΑΤΟΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
 {"id":"u-3690cde768e9dfdd","registration":"","name":"ΧΡΗΣΤΟΣ ΛΑΓΑΡΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-74d250122ac72843","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΑΝΔΡΕΑΔΗΣ","aliases":[],"club":"c-5e5eaaedee30d405","category":"","period":"2018-03","provisional":true}
+{"id":"u-e9f71dc2ab426074","registration":"","name":"ΓΙΑΝΝΗΣ ΧΑΤΖΗΘΕΟΔΩΡΟΥ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-bd166c8c1c9dbd97","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΑΝΔΡΕΑΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-982e173ad37bca60","registration":"","name":"ΚΥΡΙΑΚΟΣ ΦΕΤΦΑΤΖΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-f46595dc49c46411","registration":"","name":"ΧΑΡΑΛΑΜΠΟΣ ΜΕΡΚΟΥΡΟΠΟΥΛΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-2f4f176167b6b6db","registration":"","name":"ΑΘΑΝΑΣΙΟΣ ΚΑΡΑΜΑΝΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-cb1ff21152dad8ac","registration":"","name":"ΙΩΑΝΝΗΣ ΣΕΡΕΜΕΤΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
+{"id":"u-bb418267e4a3ff8b","registration":"","name":"ΧΡΙΣΤΟΦΟΡΟΣ ΘΕΟΤΟΚΑΤΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
 {"id":"u-2985ade9486958fb","registration":"","name":"ΓΙΩΡΓΟΣ ΣΚΑΡΚΑΛΑΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-ce1c77fb9228cb2c","registration":"","name":"ΧΑΡΑΛΑΜΠΟΣ ΜΕΡΚΟΥΡΟΠΟΥΛΟΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-fe3f83bd40e54223","registration":"","name":"ΧΡΗΣΤΟΣ ΛΑΓΑΡΟΣ","aliases":[],"club":"c-07d3d4d89d9a4c45","category":"","period":"2018-03","provisional":true}
-{"id":"u-4e598625fc3c68a7","registration":"","name":"ΧΑΡΑΛΑΜΠΟΣ ΜΕΡΚΟΥΡΟΠΟΥΛΟΣ","aliases":[],"club":"c-412a4789b02cad19","category":"","period":"2018-03","provisional":true}
 {"id":"u-667e4a417ea12b64","registration":"","name":"ΖΗΚΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-35cf4462f6a5ca9d","category":"","period":"2018-03","provisional":true}
 {"id":"u-0b2017f7cbba3908","registration":"","name":"ΣΙΝΟΥΡΗΣ ΧΑΡΗΣ","aliases":[],"club":"c-32ea5158adb42e0e","category":"","period":"2018-03","provisional":true}
 {"id":"u-e3ae6476af838a4f","registration":"","name":"ΧΑΡΙΤΟΥ ΕΛΛΙΑΝΑ","aliases":[],"club":"c-f881e5d4dc8becd4","category":"","period":"2018-03","provisional":true}
@@ -8328,15 +8136,9 @@
 {"id":"u-510039501ffb4814","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-57df66b87e042608","category":"","period":"2018-03","provisional":true}
 {"id":"u-7685c5f5920c2551","registration":"","name":"ΜΠΑΛΝΤΟΥΝΑΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-57df66b87e042608","category":"","period":"2018-03","provisional":true}
 {"id":"u-5adbbc3f60787045","registration":"","name":"WILLKOMM Ρ","aliases":[],"club":"c-fe3eb52b2c29b5f6","category":"","period":"2018-03","provisional":true}
-{"id":"u-fe6f2e65b0403cd4","registration":"","name":"ΜΑΥΡΟΜΑΤΗΣ ΙΩΣΗΦ","aliases":[],"club":"c-7889fc37e75dd4ff","category":"","period":"2018-03","provisional":true}
 {"id":"u-4c6f445d82b64246","registration":"","name":"ΜΑΥΡΟΜΑΤΗΣ ΙΩΣΗΦ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-81f9f4bb851d5f0c","registration":"","name":"ΜΑΥΡΟΜΑΤΗΣ ΙΩΣΗΦ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2018-03","provisional":true}
-{"id":"u-07fc7e6586b8aa71","registration":"","name":"ΡΟΥΣΟΠΟΥΛΟΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-10430e4e2ca63798","category":"","period":"2018-03","provisional":true}
 {"id":"u-fa12b84154123255","registration":"","name":"ΡΟΥΣΟΠΟΥΛΟΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-b1416329305b368e","registration":"","name":"ΡΟΥΣΟΠΟΥΛΟΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2018-03","provisional":true}
-{"id":"u-95e9dc1e483f16df","registration":"","name":"ΤΣΑΚΩΝΑΣ ΜΙΧΑΛΗΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-03","provisional":true}
 {"id":"u-87314b91f72ab7dc","registration":"","name":"ΤΣΑΚΩΝΑΣ ΜΙΧΑΛΗΣ","aliases":[],"club":"","category":"","period":"2018-03","provisional":true}
-{"id":"u-7aefae5224ad8f14","registration":"","name":"ΤΣΑΚΩΝΑΣ ΜΙΧΑΛΗΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2018-03","provisional":true}
 {"id":"u-c07928da68c759f5","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-efaf46ce33909c99","category":"","period":"2018-03","provisional":true}
 {"id":"u-66e11ff75c92d393","registration":"","name":"ΜΠΑΛΗΣ ΣΑΡΑΝΤΗΣ","aliases":[],"club":"c-f8a45e13db93c8f0","category":"","period":"2018-03","provisional":true}
 {"id":"u-8fdd90576732eb04","registration":"","name":"ΤΡΟΧΟΥΤΣΟΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-626007918fa7d73e","category":"","period":"2018-03","provisional":true}
@@ -8448,7 +8250,6 @@
 {"id":"u-a2825fdbaf583fff","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-2556320dc7f35239","category":"","period":"2018-05","provisional":true}
 {"id":"u-e90ffb1a35f70f2f","registration":"","name":"ΚΟΥΝΤΟΥΡΙΩΤΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-626007918fa7d73e","category":"","period":"2018-05","provisional":true}
 {"id":"u-5a63c98a0c848fbd","registration":"","name":"YOVKO PANKIN","aliases":[],"club":"c-b99d2b062d8c235c","category":"","period":"2018-05","provisional":true}
-{"id":"u-7d730d0796f99e95","registration":"","name":"ΖΗΚΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-1bf7cbeefe9e9c88","category":"","period":"2018-05","provisional":true}
 {"id":"u-4b479c81f6274202","registration":"","name":"ΔΑΛΙΕΤΟΣ ΧΑΡΗΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2018-06","provisional":true}
 {"id":"u-380cc65521e0a505","registration":"","name":"ΜΕΡΚΟΥΡΟΠΟΥΛΟΣ ΧΑΡΗΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2018-06","provisional":true}
 {"id":"u-c22a86cfbad23156","registration":"","name":"ΔΑΛΙΕΤΟΣ ΧΑΡΗΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2018-06","provisional":true}
@@ -8472,72 +8273,48 @@
 {"id":"u-ba84600813bd1cde","registration":"","name":"ΖΑΝΕΒΑ ΒΑΝΙΑ","aliases":[],"club":"c-32edf96a0fbc9ca4","category":"","period":"2018-06","provisional":true}
 {"id":"u-e572e3042005848b","registration":"","name":"ΒΛΟΤΙΝΟΣ/ΓΕΡΟΓΙΑΝΝΗΣ","aliases":[],"club":"c-32edf96a0fbc9ca4","category":"","period":"2018-06","provisional":true}
 {"id":"u-8b3f2da3a6b76be9","registration":"","name":"ΚΑΠΕΤΑΝΙΔΗΣ/ΣΙΧΛΙΜΙΡΗΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2018-06","provisional":true}
-{"id":"u-849a16e0295569f9","registration":"","name":"ΠΑΡΑΣΚΕΥΑΪΔΟΥ ΧΑΡΙΤΙΝΗ","aliases":[],"club":"c-5224a2e84a895a0a","category":"","period":"2018-06","provisional":true}
 {"id":"u-b97fbaa2dbcdec73","registration":"","name":"ΖΑΝΕΒΑ ΒΑΝΙΑ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-2e884a0c6e039aa2","registration":"","name":"ΜΕΧΙΛΛΗΣ ΑΛΕΞΗΣ","aliases":[],"club":"c-cfcd5fab0ff1257f","category":"","period":"2018-06","provisional":true}
 {"id":"u-b25f05ba60d03c4a","registration":"","name":"ΜΕΧΙΛΛΗΣ ΑΛΕΞΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-f9aaace00f248a4b","registration":"","name":"ΛΙΟΛΗΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"c-cfcd5fab0ff1257f","category":"","period":"2018-06","provisional":true}
-{"id":"u-1919458d6c05151a","registration":"","name":"ΘΕΟΤΟΚΑΤΟΣ ΧΡΙΣΤΟΦΟΡΟΣ","aliases":[],"club":"c-cfcd5fab0ff1257f","category":"","period":"2018-06","provisional":true}
-{"id":"u-79251858bba70b0c","registration":"","name":"ΚΑΒΕΛΙΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"c-3becf90e2998f155","category":"","period":"2018-06","provisional":true}
-{"id":"u-7caf8fa7124a9608","registration":"","name":"ΣΚΟΛΙΔΗΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"c-3becf90e2998f155","category":"","period":"2018-06","provisional":true}
+{"id":"u-24db711e0918d9ff","registration":"","name":"ΛΙΟΛΗΣ ΕΜΜΑΝΟΥΗΛ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-56890f34e564cca1","registration":"","name":"ΚΑΒΕΛΙΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-83271fb036ad10e2","registration":"","name":"ΒΑΣΙΛΗΣ ΚΑΒΕΛΙΔΗΣ","aliases":[],"club":"c-3becf90e2998f155","category":"","period":"2018-06","provisional":true}
+{"id":"u-6bb3ffa81d7833dc","registration":"","name":"ΣΚΟΛΙΔΗΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
+{"id":"u-4db08bf5129ee543","registration":"","name":"ΒΑΣΙΛΗΣ ΚΑΒΕΛΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-d277fb218ef0ecf5","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-5c0cd483a1559f57","registration":"","name":"ΣΤΑΜΑΤΙΑΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-7e830de592f604b3","registration":"","name":"ΑΝΑΣΤΑΣΟΠΟΥΛΟΣ ΚΩΣΤΑΣ","aliases":[],"club":"c-a5564b5c7d0c9967","category":"","period":"2018-06","provisional":true}
+{"id":"u-2eda1d64ec0b0a76","registration":"","name":"ΑΝΑΣΤΑΣΟΠΟΥΛΟΣ ΚΩΣΤΑΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-ec3197e0561500df","registration":"","name":"ΠΑΓΟΠΟΥΛΟΣ ΓΙΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-462bebcc4df05de8","registration":"","name":"ΠΑΓΟΠΟΥΛΟΣ ΓΙΑΝΝΗΣ","aliases":[],"club":"c-a5564b5c7d0c9967","category":"","period":"2018-06","provisional":true}
 {"id":"u-3cab1677041e44e3","registration":"","name":"ΡΑΜΠΟΤΑΣ ΝΙΚΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-469a2928b1360b42","registration":"","name":"ΣΙΧΛΙΜΟΙΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2018-06","provisional":true}
 {"id":"u-f711c372cf696dce","registration":"","name":"ΣΙΧΛΙΜΟΙΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-2ccece1beaddd957","registration":"","name":"ΠΑΥΛΙΔΗΣ ΚΩNΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-ca94ab1ef016082f","registration":"","name":"ΠΑΥΛΙΔΗΣ ΚΩNΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2018-06","provisional":true}
-{"id":"u-8edac0c7abcd3488","registration":"","name":"ΤΣΑΜΗΣ ΔΗΜΗΤΡΗΣ","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2018-06","provisional":true}
-{"id":"u-e2632c1ae008e9ed","registration":"","name":"ΚΑΦΑΤΑΡΙΔΗΣ ΑΛΕΚΟΣ","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2018-06","provisional":true}
 {"id":"u-8a129a80f71256ec","registration":"","name":"ΤΣΑΜΗΣ ΔΗΜΗΤΡΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
+{"id":"u-670b309499996ad8","registration":"","name":"ΚΑΦΑΤΑΡΙΔΗΣ ΑΛΕΚΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-64c5349ad30fa0e9","registration":"","name":"ΒΑΓΙΑΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-ad3d54ca549e40b5","registration":"","name":"ΠΑΖΟΛΙΔΗΣ ΓΙΑΝΝΗΣ","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2018-06","provisional":true}
 {"id":"u-cf6343ae99995692","registration":"","name":"ΠΑΖΟΛΙΔΗΣ ΓΙΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-dae2fc66fa81a65e","registration":"","name":"ΛΥΜΠΟΥΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-aafd7076f1b9270d","registration":"","name":"ΛΥΜΠΟΥΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2018-06","provisional":true}
-{"id":"u-d4c6f8d180e16d8d","registration":"","name":"ΒΑΓΙΑΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2018-06","provisional":true}
 {"id":"u-28a160c2acb40045","registration":"","name":"ΧΑΤΖΗΠΑΠΑΣ ΠΕΤΡΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-95782f04747f4649","registration":"","name":"ΧΑΤΖΗΠΑΠΑΣ ΠΕΤΡΟΣ","aliases":[],"club":"c-a5564b5c7d0c9967","category":"","period":"2018-06","provisional":true}
-{"id":"u-f16171e71572112a","registration":"","name":"ΦΩΤΙΟΣ ΔΕΛΛΑΠΟΡΤΑΣ","aliases":[],"club":"c-a5564b5c7d0c9967","category":"","period":"2018-06","provisional":true}
-{"id":"u-a57e508ab00155ac","registration":"","name":"ΣΤΑΜΑΤΙΑΔΗΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"c-a5564b5c7d0c9967","category":"","period":"2018-06","provisional":true}
-{"id":"u-3d25245f94c50ab6","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-a5564b5c7d0c9967","category":"","period":"2018-06","provisional":true}
-{"id":"u-5830cd8cbe016cb1","registration":"","name":"ΜΑΡΚΟΠΟΥΛΟΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
-{"id":"u-1b1357c10b684791","registration":"","name":"ΚΑΛΑΪΤΖΗΣ ΚΩΣΤΑΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
-{"id":"u-6dee2d1962c1322f","registration":"","name":"ΦΙΛΙΠΠΟΥ ΓΡΗΓΟΡΗΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
+{"id":"u-7bbd5c488537a822","registration":"","name":"ΦΩΤΙΟΣ ΔΕΛΛΑΠΟΡΤΑΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
+{"id":"u-d89280b3b7aa5b21","registration":"","name":"ΚΑΛΑΪΤΖΗΣ ΚΩΣΤΑΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-642522e8400c83f3","registration":"","name":"ΦΙΛΙΠΠΟΥ ΓΡΗΓΟΡΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-67339cb9c9982fad","registration":"","name":"ΚΟΥΣΤΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
 {"id":"u-8e419b84681b47c2","registration":"","name":"ΚΟΥΣΤΑΣ ΣΠΥΡΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-5f37067d7da3dd27","registration":"","name":"ΠΑΠΑΔΑΚΗΣ ΝΙΚΗΤΑΣ ΑΡΗΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
 {"id":"u-141ab4798507f1ae","registration":"","name":"ΠΑΠΑΔΑΚΗΣ ΝΙΚΗΤΑΣ ΑΡΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-b54e72d7c662575f","registration":"","name":"ΠΑΠΑΔΑΚΗΣ ΝΙΚΗΤΑΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
+{"id":"u-8c2c023a42650d12","registration":"","name":"ΠΑΠΑΔΑΚΗΣ ΝΙΚΗΤΑΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-5956caf4968c4f8c","registration":"","name":"ΝΙΚΟΠΟΥΛΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-51a812a03117bbaa","registration":"","name":"ΣΤΥΛΙΑΝΟΣ ΓΙΑΝΝΟΥ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-e9cd6d4e1e5f9178","registration":"","name":"ΘΕΟΦΑΝΗΣ ΓΙΟΥΡΕΤΖΙΔΗΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
+{"id":"u-10d1fc89e632bacc","registration":"","name":"ΘΕΟΦΑΝΗΣ ΓΙΟΥΡΕΤΖΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-54a28ce66d62b699","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-46d8412e8acb4932","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΤΣΙΑΜΠΑΛΗΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
+{"id":"u-86fd03f04f658bf5","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΤΣΙΑΜΠΑΛΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-9b076ad9661f21bd","registration":"","name":"ΒΑΣΙΛΕΙΟΣ ΒΑΡΒΕΡΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-66a5011b9a7564f6","registration":"","name":"ΙΩΑΝΝΗΣ ΑΚΟΥΔΗΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
-{"id":"u-83ae663ce7e97276","registration":"","name":"ΘΕΟΛΟΓΟΣ ΚΑΠΕΤΑΝΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-ff72895775bd950a","registration":"","name":"ΝΙΚΟΛΑΟΣ ΟΡΦΑΝΟΥΔΑΚΗΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
-{"id":"u-376bcc2d22ad5fca","registration":"","name":"ΚΩΝ/ΝΟΣ ΝΙΚΟΠΟΥΛΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-63a534077f960d6c","registration":"","name":"ΣΤΥΛΙΑΝΟΣ ΓΙΑΝΝΟΥ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
-{"id":"u-7b52c06a71295bc3","registration":"","name":"ΓΕΩΡΓΙΟΣ ΜΑΡΚΑΝΤΩΝΑΚΗΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
-{"id":"u-713c75b236cd90d1","registration":"","name":"ΧΡΗΣΤΟΣ ΣΟΦΙΑΝΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-3c0301ab1d9763d0","registration":"","name":"ΕΥΣΤΑΘΙΟΣ ΧΡΥΣΙΔΗΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
-{"id":"u-99ff5f9fe23f6772","registration":"","name":"ΚΩΝΣΤΑΝΤΙΝΟΣ ΔΗΜΗΤΡΑΚΟΠΟΥΛΟΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-06","provisional":true}
 {"id":"u-3ad0771e1f719335","registration":"","name":"ΙΩΑΝΝΗΣ ΑΚΟΥΔΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
+{"id":"u-83ae663ce7e97276","registration":"","name":"ΘΕΟΛΟΓΟΣ ΚΑΠΕΤΑΝΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
+{"id":"u-a34c1578fa43b236","registration":"","name":"ΝΙΚΟΛΑΟΣ ΟΡΦΑΝΟΥΔΑΚΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
+{"id":"u-376bcc2d22ad5fca","registration":"","name":"ΚΩΝ/ΝΟΣ ΝΙΚΟΠΟΥΛΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
+{"id":"u-4ad1c8faabdaab60","registration":"","name":"ΓΕΩΡΓΙΟΣ ΜΑΡΚΑΝΤΩΝΑΚΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
+{"id":"u-713c75b236cd90d1","registration":"","name":"ΧΡΗΣΤΟΣ ΣΟΦΙΑΝΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
+{"id":"u-ccf9f7b2c13c4bb1","registration":"","name":"ΕΥΣΤΑΘΙΟΣ ΧΡΥΣΙΔΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-8ca2519a47744c74","registration":"","name":"ΤΣΑΚΙΡΟΓΛΟΥ ΑΡΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-dd7b1a2d1b3afe63","registration":"","name":"ΤΣΑΚΙΡΟΓΛΟΥ ΑΡΗΣ","aliases":[],"club":"c-51931293146286ca","category":"","period":"2018-06","provisional":true}
-{"id":"u-5fc063ef0731f653","registration":"","name":"ΜΟΥΤΖΟΥΡΕΛΛΗΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-c5361c46ab33d70e","category":"","period":"2018-06","provisional":true}
-{"id":"u-6cf25c0a552ea0bc","registration":"","name":"ΚΟΥΜΠΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-c5361c46ab33d70e","category":"","period":"2018-06","provisional":true}
+{"id":"u-a4d374aa6d744341","registration":"","name":"ΜΟΥΤΖΟΥΡΕΛΛΗΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-49a0b0dc27d216c6","registration":"","name":"ΚΟΥΜΠΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
-{"id":"u-e991f62b1dc58def","registration":"","name":"ΚΟΧΛΙΑΔΗΣ ΧΑΡΗΣ","aliases":[],"club":"c-c5361c46ab33d70e","category":"","period":"2018-06","provisional":true}
-{"id":"u-4537d129af11e6e9","registration":"","name":"ΖΗΚΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-c5361c46ab33d70e","category":"","period":"2018-06","provisional":true}
+{"id":"u-242e96582f33b20f","registration":"","name":"ΚΟΧΛΙΑΔΗΣ ΧΑΡΗΣ","aliases":[],"club":"","category":"","period":"2018-06","provisional":true}
 {"id":"u-03d8d7fcdc9e4c60","registration":"","name":"ΚΑΤΣΑΡΑΚΗΣ ΙΩΑΝΝΗΣ","aliases":[],"club":"c-587fd58530f1b32c","category":"","period":"2018-06","provisional":true}
 {"id":"u-a67e13e76674f12c","registration":"","name":"XXX","aliases":[],"club":"c-587fd58530f1b32c","category":"","period":"2018-06","provisional":true}
 {"id":"u-db35a972c1cd3bf7","registration":"","name":"ΦΑΚΟΥΔΗΣ/ΜΠΟΖΙΝΗΣ","aliases":[],"club":"c-d7ea48e1a487dc1a","category":"","period":"2018-06","provisional":true}
@@ -8625,14 +8402,9 @@
 {"id":"u-e5cab2187b5a50c3","registration":"","name":"ΚΡΙΑΡΑΣ/ΧΑΤΟΥΤΣΙΔΗΣ","aliases":[],"club":"c-8b3bbf1794df11b1","category":"","period":"2018-09","provisional":true}
 {"id":"u-bd4ea6fdbb110448","registration":"","name":"ΛΙΑΡΟΣ/ΑΞΑΡΛΗΣ","aliases":[],"club":"c-6143222459d1f22d","category":"","period":"2018-09","provisional":true}
 {"id":"u-638cafb0341de2b8","registration":"","name":"ΘΑΝΟΣ/ΣΤΥΛΟΓΙΑΝΝΗ","aliases":[],"club":"c-c7c2d5dc45c649f8","category":"","period":"2018-09","provisional":true}
-{"id":"u-e050852d4d2e7738","registration":"","name":"JAMI HAMDAD","aliases":[],"club":"c-3becf90e2998f155","category":"","period":"2018-09","provisional":true}
-{"id":"u-08903d9a08b9ee8f","registration":"","name":"JAMI HAMDAD","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2018-09","provisional":true}
 {"id":"u-6bce8766948c31b4","registration":"","name":"JAMI HAMDAD","aliases":[],"club":"","category":"","period":"2018-09","provisional":true}
 {"id":"u-5babb0c8fb0f0133","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"","category":"","period":"2018-09","provisional":true}
-{"id":"u-94da997e1a481851","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2018-09","provisional":true}
-{"id":"u-73a5ba2af1eefa59","registration":"","name":"KRUCZYNSKI ALEXANDER","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2018-09","provisional":true}
 {"id":"u-80f9a6ac9224f299","registration":"","name":"ΦΥΛΑΚΟΥΡΗ ΡΕΝΑ","aliases":[],"club":"","category":"","period":"2018-09","provisional":true}
-{"id":"u-5998a886abcd4b48","registration":"","name":"ΦΥΛΑΚΟΥΡΗ ΡΕΝΑ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2018-09","provisional":true}
 {"id":"u-58e338a3fd9af48f","registration":"","name":"ΠΑΧΑΚΗΣ/ΚΥΡΙΑΚΗΣ","aliases":[],"club":"c-cd1ab9a84ca369f6","category":"","period":"2018-09","provisional":true}
 {"id":"u-4f2b53b75b33e403","registration":"","name":"ΤΣΟΥΛΧΑΣ/ΧΟΝΔΡΟΚΩΣΤΑΣ","aliases":[],"club":"c-6e713b206bcd4278","category":"","period":"2018-09","provisional":true}
 {"id":"u-c82ddea7d6ba6f40","registration":"","name":"ΤΟΥΡΣΟΥΝΙΔΟΥ ΧΡΙΣΤΙΝΑ","aliases":[],"club":"c-3e013c59995e97f4","category":"","period":"2018-09","provisional":true}
@@ -8945,9 +8717,7 @@
 {"id":"u-c6085f51a9a91271","registration":"","name":"ΔΕΒΕΤΖΗΣ/ΤΕΡΨΙΔΗΣ","aliases":[],"club":"c-fabac1188a4a99cd","category":"","period":"2018-11","provisional":true}
 {"id":"u-202ed370a6889710","registration":"","name":"JAIN SANJAY","aliases":[],"club":"c-78f1c62bb959bf72","category":"","period":"2018-11","provisional":true}
 {"id":"u-891510fc2eccd8ed","registration":"","name":"ΧΑΡΑΛΑΜΠΟΥΣ Β.ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-dae7b2f06ea5946f","category":"","period":"2018-11","provisional":true}
-{"id":"u-48ec9a65d81c2c1f","registration":"","name":"ΤΣΑΛΙΚΗΣ ΣΠΥΡΙΔΩΝ","aliases":[],"club":"c-cfcd5fab0ff1257f","category":"","period":"2018-11","provisional":true}
 {"id":"u-23fc7895ffc81afb","registration":"","name":"ΤΣΑΛΙΚΗΣ ΣΠΥΡΙΔΩΝ","aliases":[],"club":"","category":"","period":"2018-11","provisional":true}
-{"id":"u-45bb762d63ca7acc","registration":"","name":"ΤΣΑΛΙΚΗΣ ΣΠΥΡΙΔΩΝ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2018-11","provisional":true}
 {"id":"u-1b460311c3c8eb55","registration":"","name":"ΛΟΥΛΑ ΛΙΛΙΑΝ","aliases":[],"club":"","category":"","period":"2018-11","provisional":true}
 {"id":"u-b8a24243a50b6c1c","registration":"","name":"ΨΑΡΡΟΣ/ΤΣΙΤΖΙΛΩΝΗΣ","aliases":[],"club":"c-af3e674b785c8204","category":"","period":"2018-11","provisional":true}
 {"id":"u-182a6a55cdf7adef","registration":"","name":"ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ/ΓΙΑΝΝΑΚΟΠΟΥΛΟΣ","aliases":[],"club":"c-1abacfb79be5fb79","category":"","period":"2018-11","provisional":true}
@@ -8977,10 +8747,7 @@
 {"id":"u-74600fc737a07f2d","registration":"","name":"ΓΕΩΡΓΙΟΠΟΥΛΟΣ ΙΩΑΝΝΗΣ","aliases":[],"club":"c-02d1b9197790411a","category":"","period":"2018-11","provisional":true}
 {"id":"u-f0bd31863bf07ef8","registration":"","name":"ΤΣΑΒΑΛΛΑΣ ΣΠΥΡΙΔΩΝ","aliases":[],"club":"c-896ee7784fa13076","category":"","period":"2018-11","provisional":true}
 {"id":"u-30f83e71921a418b","registration":"","name":"JAIN SANJAY","aliases":[],"club":"","category":"","period":"2018-11","provisional":true}
-{"id":"u-27016125f7edcaee","registration":"","name":"ΤΡΙΑΝΤΑΦΥΛΛΑΚΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-e01a1c4d90a206be","category":"","period":"2018-11","provisional":true}
-{"id":"u-c9a2354dde942724","registration":"","name":"ΤΡΙΑΝΤΑΦΥΛΛΑΚΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2018-11","provisional":true}
 {"id":"u-56f851491b18f36f","registration":"","name":"ΤΡΙΑΝΤΑΦΥΛΛΑΚΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"","category":"","period":"2018-11","provisional":true}
-{"id":"u-6cf5d16a3a93c0bd","registration":"","name":"JAIN SANJAY","aliases":[],"club":"c-f20242514e6904a0","category":"","period":"2018-11","provisional":true}
 {"id":"u-e0f94023c46a56d1","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-972b3484284ff227","category":"","period":"2018-11","provisional":true}
 {"id":"u-63660aee1326005e","registration":"","name":"XXX","aliases":[],"club":"c-af3e674b785c8204","category":"","period":"2018-11","provisional":true}
 {"id":"u-9b66d86a3cc125a6","registration":"","name":"XXX","aliases":[],"club":"c-469cee7be3ed7c56","category":"","period":"2018-11","provisional":true}
@@ -9131,12 +8898,9 @@
 {"id":"u-da396005ae951060","registration":"","name":"ΠΑΣΧΑΛΙΔΗΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-a4c3658daf4d032c","category":"","period":"2019-01","provisional":true}
 {"id":"u-1635ba7490e16a01","registration":"","name":"ΧΙΩΤΕΛΛΗΣ ΠΑΡΣΚΕΥΑΣ","aliases":[],"club":"c-cbdbc765062f3825","category":"","period":"2019-01","provisional":true}
 {"id":"u-c0b5807875ca9fa5","registration":"","name":"ΛΑΠΙΕΡΗΣ ΣΠΥΡΟΣ","aliases":[],"club":"c-ede7ffb9c867fd80","category":"","period":"2019-01","provisional":true}
-{"id":"u-a19dd006ce52209d","registration":"","name":"CHUYEVSKY PAVEL","aliases":[],"club":"c-3becf90e2998f155","category":"","period":"2019-01","provisional":true}
-{"id":"u-a825b7059f7380df","registration":"","name":"ΑΘΑΝΑΣΙΟΥ","aliases":[],"club":"c-3becf90e2998f155","category":"","period":"2019-01","provisional":true}
-{"id":"u-9f99a5334eb7ed92","registration":"","name":"ΑΘΑΝΑΣΙΟΥ","aliases":[],"club":"","category":"","period":"2019-01","provisional":true}
 {"id":"u-42a8b562c92d6f16","registration":"","name":"CHUYEVSKY PAVEL","aliases":[],"club":"","category":"","period":"2019-01","provisional":true}
-{"id":"u-6b2be1a129bd97de","registration":"","name":"MODOVAN IAN","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2019-01","provisional":true}
-{"id":"u-cdd27896fd7169c0","registration":"","name":"ΚΥΠΡΑΙΟΣ ΕΠΑΜΕΙΝΩΝΔΑΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2019-01","provisional":true}
+{"id":"u-9f99a5334eb7ed92","registration":"","name":"ΑΘΑΝΑΣΙΟΥ","aliases":[],"club":"","category":"","period":"2019-01","provisional":true}
+{"id":"u-282149ff6cd9fdcf","registration":"","name":"MODOVAN IAN","aliases":[],"club":"","category":"","period":"2019-01","provisional":true}
 {"id":"u-49686aaddbbd4dd7","registration":"","name":"ΚΥΠΡΑΙΟΣ ΕΠΑΜΕΙΝΩΝΔΑΣ","aliases":[],"club":"","category":"","period":"2019-01","provisional":true}
 {"id":"u-7285684dc11f9a4b","registration":"","name":"ΤΣΙΟΚΑΣ ΝΤΑΝΙΕΛ","aliases":[],"club":"c-3d7c067d1636d1f6","category":"","period":"2019-01","provisional":true}
 {"id":"u-564a8f3cc819705a","registration":"","name":"ΚΥΠΡΑΙΟΣ ΕΠΑΜΕΙΝΩΝΔΑΣ","aliases":[],"club":"c-d2202f9156317dfe","category":"","period":"2019-01","provisional":true}
@@ -9256,9 +9020,7 @@
 {"id":"u-40df6eb96c50f5ad","registration":"","name":"ΤΟΥΡΣΟΥΝΙΔΟΥ ΧΡΙΣΤΙΝΑ","aliases":[],"club":"c-3e013c59995e97f4","category":"","period":"2019-02","provisional":true}
 {"id":"u-a09db52166c47ca4","registration":"","name":"STROH THEODOR","aliases":[],"club":"c-3e013c59995e97f4","category":"","period":"2019-02","provisional":true}
 {"id":"u-6e4967cedf3bd3c0","registration":"","name":"ΜΑΥΡΟΜΜΑΤΗΣ ΙΩΣΗΦ - ΣΠΥΡΙΔΩΝ","aliases":[],"club":"c-d07d5729cf171b50","category":"","period":"2019-02","provisional":true}
-{"id":"u-e9c0f89476cd8cec","registration":"","name":"ΠΑΠΠΑΣ ΓΕΩΡΓΙΟΣ-ΧΡΗΣΤΟΣ","aliases":[],"club":"c-326930bc06dfb4d6","category":"","period":"2019-02","provisional":true}
 {"id":"u-454f1aa607e057f5","registration":"","name":"ΠΑΠΠΑΣ ΓΕΩΡΓΙΟΣ-ΧΡΗΣΤΟΣ","aliases":[],"club":"","category":"","period":"2019-02","provisional":true}
-{"id":"u-0bcab5943c1bad7b","registration":"","name":"ΜΕΓΑΛΟΟΙΚΟΝΟΜΟΥ ΑΝΔΡΕΑΣ","aliases":[],"club":"c-295e30fcdb4f20af","category":"","period":"2019-02","provisional":true}
 {"id":"u-715b769a4e75f981","registration":"","name":"ΜΕΓΑΛΟΟΙΚΟΝΟΜΟΥ ΑΝΔΡΕΑΣ","aliases":[],"club":"","category":"","period":"2019-02","provisional":true}
 {"id":"u-315905f086a3c7de","registration":"","name":"ΠΑΠΑΔΑΚΗΣ ΑΡΙΣΤΕΙΔΗΣ","aliases":[],"club":"c-224abe91a8fe4829","category":"","period":"2019-02","provisional":true}
 {"id":"u-c48c33b38cee446d","registration":"","name":"ΠΑΠΑΔΑΚΗΣ ΑΡΙΣΤΕΙΔΗΣ","aliases":[],"club":"c-ee0ef80e0279b1cb","category":"","period":"2019-02","provisional":true}
@@ -9340,25 +9102,16 @@
 {"id":"u-0ca89479e94cea7b","registration":"","name":"ΖΟΡΜΠΑΣ ΑΛΕΞΑΝΔΡΟΣ","aliases":[],"club":"c-dee2af8b162b7001","category":"","period":"2019-03","provisional":true}
 {"id":"u-40d6ea1d5e1102fe","registration":"","name":"ΚΑΤΑΚΑΛΟΥ ΕΛΕΝΑ","aliases":[],"club":"c-7146ceeb47bd9c33","category":"","period":"2019-03","provisional":true}
 {"id":"u-6290c94b173f82c5","registration":"","name":"ΣΟΛΟΜΩΝ ΣΟΛΟΜΩΝ του ΡΑΦΑΗΛ","aliases":[],"club":"c-5693d9e79629555f","category":"","period":"2019-03","provisional":true}
-{"id":"u-1cb6f6132309a84f","registration":"","name":"ΚΑΛΕΜΗΣ ΑΝΤΩΝΗΣ","aliases":[],"club":"c-2e7d6d36a3f20927","category":"","period":"2019-03","provisional":true}
-{"id":"u-ce155c8ef480f4c7","registration":"","name":"ΜΑΥΡΟΜΑΤΗΣ ΙΩΣΗΦ","aliases":[],"club":"c-2e7d6d36a3f20927","category":"","period":"2019-03","provisional":true}
+{"id":"u-722ddf3eccc0d52d","registration":"","name":"ΚΑΛΕΜΗΣ ΑΝΤΩΝΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
 {"id":"u-5dfa511ce40b2ad2","registration":"","name":"ΜΑΥΡΟΜΑΤΗΣ ΙΩΣΗΦ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
 {"id":"u-0809dbb9125fb64b","registration":"","name":"ΠΑΣΧΑΛΙΓΚΟΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
-{"id":"u-2fb62900dcc95350","registration":"","name":"ΣΚΑΛΤΣΗΣ ΔΙΟΝΥΣΗΣ","aliases":[],"club":"c-2e7d6d36a3f20927","category":"","period":"2019-03","provisional":true}
 {"id":"u-48880df65d91fac3","registration":"","name":"ΣΚΑΛΤΣΗΣ ΔΙΟΝΥΣΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
-{"id":"u-783d0724d4d14ba7","registration":"","name":"ΠΑΣΧΑΛΙΓΚΟΣ ΓΙΩΡΓΟΣ","aliases":[],"club":"c-2e7d6d36a3f20927","category":"","period":"2019-03","provisional":true}
-{"id":"u-5f10cfb587a90896","registration":"","name":"ΜΠΟΥΡΑΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"c-2e7d6d36a3f20927","category":"","period":"2019-03","provisional":true}
 {"id":"u-3ccb8103226adf01","registration":"","name":"ΜΠΟΥΡΑΣ ΒΑΣΙΛΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
-{"id":"u-4fe9fe3e66467d73","registration":"","name":"ΔΕΛΛΑΠΟΡΤΑΣ ΦΩΤΗΣ","aliases":[],"club":"c-2e7d6d36a3f20927","category":"","period":"2019-03","provisional":true}
 {"id":"u-0e91b6b59ba169b3","registration":"","name":"ΔΕΛΛΑΠΟΡΤΑΣ ΦΩΤΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
-{"id":"u-99d553c476c03eb1","registration":"","name":"ΧΑΤΖΗΑΘΑΝΑΣΙΟΥ ΜΙΧΑΛΗΣ","aliases":[],"club":"c-2e7d6d36a3f20927","category":"","period":"2019-03","provisional":true}
-{"id":"u-ee1e0562554d86e9","registration":"","name":"ΜΑΚΡΟΔΗΜΟΣ ΓΙΑΝΝΗΣ","aliases":[],"club":"c-2e7d6d36a3f20927","category":"","period":"2019-03","provisional":true}
-{"id":"u-a8e9c8a11c8dd0d8","registration":"","name":"ΠΑΡΑΣΚΕΥΑΣ ΓΙΑΝΝΗΣ","aliases":[],"club":"c-2e7d6d36a3f20927","category":"","period":"2019-03","provisional":true}
-{"id":"u-2d500d987b589b92","registration":"","name":"ΠΑΡΑΣΚΕΥΑΣ ΓΙΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
-{"id":"u-0adc04d1ea461254","registration":"","name":"ΔΕΛΑΠΟΡΤΑΣ ΦΩΤΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
-{"id":"u-722ddf3eccc0d52d","registration":"","name":"ΚΑΛΕΜΗΣ ΑΝΤΩΝΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
 {"id":"u-6288d5dbdaa83da8","registration":"","name":"ΧΑΤΖΗΑΘΑΝΑΣΙΟΥ ΜΙΧΑΛΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
 {"id":"u-933c81898c3e020c","registration":"","name":"ΜΑΚΡΟΔΗΜΟΣ ΓΙΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
+{"id":"u-2d500d987b589b92","registration":"","name":"ΠΑΡΑΣΚΕΥΑΣ ΓΙΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
+{"id":"u-0adc04d1ea461254","registration":"","name":"ΔΕΛΑΠΟΡΤΑΣ ΦΩΤΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
 {"id":"u-2354e1836229421b","registration":"","name":"ΣΙΝΑΤΣΑΚΗΣ ΝΙΟΛΑΟΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
 {"id":"u-adc0e3f575976b8c","registration":"","name":"ΠΟΤΗΡΗΣ ΑΝΤΩΝΗΣ","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
 {"id":"u-e7f7a1a8d7247864","registration":"","name":"CHUYEVSKY PAVLOS","aliases":[],"club":"","category":"","period":"2019-03","provisional":true}
@@ -9504,21 +9257,13 @@
 {"id":"u-34bcf5fd7cd13c82","registration":"","name":"ΔΙΔΑΣΚΑΛΟΥ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-79f2779d5a3358ba","category":"","period":"2019-04","provisional":true}
 {"id":"u-0397cd47df0350bb","registration":"","name":"ΧΑΡΑΚΛΙΑΣ ΠΑΝΤΕΛΗΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2019-04","provisional":true}
 {"id":"u-f2a5d2b8add0723d","registration":"","name":"ΧΑΡΑΚΛΙΑΣ ΠΑΝΤΕΛΗΣ","aliases":[],"club":"c-ea57459bb2703d96","category":"","period":"2019-04","provisional":true}
-{"id":"u-803d3706fd59e0d9","registration":"","name":"ΘΕΟΤΟΚΑΤΟΣ ΧΡΙΣΤΟΦΟΡΟΣ","aliases":[],"club":"c-326930bc06dfb4d6","category":"","period":"2019-04","provisional":true}
 {"id":"u-92918bbb5eb326e2","registration":"","name":"ΘΕΟΤΟΚΑΤΟΣ ΧΡΙΣΤΟΦΟΡΟΣ","aliases":[],"club":"","category":"","period":"2019-04","provisional":true}
 {"id":"u-bf2783effdaf57e0","registration":"","name":"ΣΑΠΟΥΝΤΖΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"","category":"","period":"2019-04","provisional":true}
-{"id":"u-731e8438ee122641","registration":"","name":"ΣΑΠΟΥΝΤΖΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-7fbaf21ba6a28636","category":"","period":"2019-04","provisional":true}
-{"id":"u-135ebe97487b250f","registration":"","name":"ΑΝΑΣΤΑΣΟΠΟΥΛΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-459230e10cf3977e","category":"","period":"2019-04","provisional":true}
 {"id":"u-1ec488771dd59e37","registration":"","name":"ΑΝΑΣΤΑΣΟΠΟΥΛΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"","category":"","period":"2019-04","provisional":true}
-{"id":"u-d30907d21dfa132c","registration":"","name":"ΠΗΤΤΑΣ ΑΛΕΞΗΣ","aliases":[],"club":"c-e80041b47e583d87","category":"","period":"2019-04","provisional":true}
 {"id":"u-2afa7707293342ea","registration":"","name":"ΠΗΤΤΑΣ ΑΛΕΞΗΣ","aliases":[],"club":"","category":"","period":"2019-04","provisional":true}
 {"id":"u-28d2640d08654a32","registration":"","name":"ΠΑΠΑΔΗΜΗΤΡΙΟΥ Ι. ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"","category":"","period":"2019-04","provisional":true}
-{"id":"u-3dad64681b1a998e","registration":"","name":"ΠΑΠΑΔΗΜΗΤΡΙΟΥ Ι. ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-e80041b47e583d87","category":"","period":"2019-04","provisional":true}
 {"id":"u-19745ba6d7ff385e","registration":"","name":"ΤΣΟΥΡΟΣ ΜΙΧΑΛΗΣ","aliases":[],"club":"","category":"","period":"2019-04","provisional":true}
-{"id":"u-b65935901d38f341","registration":"","name":"ΤΣΟΥΡΟΣ ΜΙΧΑΛΗΣ","aliases":[],"club":"c-e80041b47e583d87","category":"","period":"2019-04","provisional":true}
 {"id":"u-d0cae18b87c6b13a","registration":"","name":"ΠΟΛΥΖΟΣ ΑΘΑΝΑΣΙΟΣ","aliases":[],"club":"","category":"","period":"2019-04","provisional":true}
-{"id":"u-0cad2c5af5a4795e","registration":"","name":"ΠΟΛΥΖΟΣ ΑΘΑΝΑΣΙΟΣ","aliases":[],"club":"c-27421efe950faed0","category":"","period":"2019-04","provisional":true}
-{"id":"u-9ed717388ab545be","registration":"","name":"ΔΗΜΗΤΡΙΟΥ ΑΝΤΩΝΗΣ","aliases":[],"club":"c-16e2fe22c2936052","category":"","period":"2019-04","provisional":true}
 {"id":"u-d212203f77e580c8","registration":"","name":"ΔΗΜΗΤΡΙΟΥ ΑΝΤΩΝΗΣ","aliases":[],"club":"","category":"","period":"2019-04","provisional":true}
 {"id":"u-c7dde75f89e65687","registration":"","name":"ΠΑΤΙΚΑΣ ΕΥΘΥΜΙΟΣ","aliases":[],"club":"c-babf054344e4f61d","category":"","period":"2019-04","provisional":true}
 {"id":"u-bfa94bd36b8c1509","registration":"","name":"ΤΣΙΑΜΠΑΛΗΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-bfc3fd607d3aeec4","category":"","period":"2019-04","provisional":true}
@@ -9573,7 +9318,7 @@
 {"id":"u-6614ddd247d29e40","registration":"","name":"ΓΑΛΑΝΗΣ ΘΕΟΔΩΡΟΣ","aliases":[],"club":"c-b563145b53647a5b","category":"","period":"2019-04","provisional":true}
 {"id":"u-d85d0ef32080fd64","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-20f0a055b030fde4","category":"","period":"2019-04","provisional":true}
 {"id":"u-85fb018de928da2a","registration":"","name":"ΛΑΠΙΕΡΗΣ ΣΠΥΡΟΣ","aliases":[],"club":"c-ede7ffb9c867fd80","category":"","period":"2019-04","provisional":true}
-{"id":"u-5f7ff65421797a53","registration":"","name":"ΝΑΝΤΕΡ ΝΑΤΣΕ","aliases":[],"club":"c-257a45c071dea3d2","category":"","period":"2019-04","provisional":true}
+{"id":"u-4568447251b97421","registration":"","name":"ΝΑΝΤΕΡ ΝΑΤΣΕ","aliases":[],"club":"","category":"","period":"2019-04","provisional":true}
 {"id":"u-e153e8464156e48c","registration":"","name":"ΓΚΙΤΖΙΑΣ ΚΩΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-40339fb24dae7c4e","category":"","period":"2019-04","provisional":true}
 {"id":"u-4cec8c08d91b9f2c","registration":"","name":"ΑΜΠΑΤΖΗ ΕΛΕΝΑ","aliases":[],"club":"c-1757c45a602b623b","category":"","period":"2019-04","provisional":true}
 {"id":"u-e98718fea0167f86","registration":"","name":"ΠΑΝΤΕΛΕΩΝ ΓΡΗΓΟΡΙΟΣ","aliases":[],"club":"c-519416905ed5f6d0","category":"","period":"2019-04","provisional":true}
@@ -9635,12 +9380,7 @@
 {"id":"u-57b97af964b44387","registration":"","name":"XXX","aliases":[],"club":"c-cbcfc7ea90fe487b","category":"","period":"2019-05","provisional":true}
 {"id":"u-49f0e9ae6de5ddfc","registration":"","name":"XXX","aliases":[],"club":"c-bc61237dae75ff6d","category":"","period":"2019-05","provisional":true}
 {"id":"u-76508ac48c2ff14b","registration":"","name":"ΠΕΤΡΙΔΗΣ ΚΩΝ/ΝΟΣτου Π.","aliases":[],"club":"c-bc61237dae75ff6d","category":"","period":"2019-05","provisional":true}
-{"id":"u-fd721901b5cd5178","registration":"","name":"ΚΑΡΑΤΖΟΥΛΗΣ ΧΡΗΣΤΟΣ","aliases":[],"club":"c-3becf90e2998f155","category":"","period":"2019-05","provisional":true}
-{"id":"u-2de64704b99c4e85","registration":"","name":"ΣΙΧΛΙΜΟΙΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2019-05","provisional":true}
 {"id":"u-a7c3f357d601a1e7","registration":"","name":"ΣΙΧΛΙΜΟΙΡΗΣ ΒΑΣΙΛΕΙΟΣ","aliases":[],"club":"","category":"","period":"2019-05","provisional":true}
-{"id":"u-46864c3a62bf993c","registration":"","name":"ΒΡΑΖΙΤΟΥΛΗΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2019-05","provisional":true}
-{"id":"u-8771ce814a617be8","registration":"","name":"ΑΝΑΣΤΑΣΟΠΟΥΛΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-e8a243a4b4147bfe","category":"","period":"2019-05","provisional":true}
-{"id":"u-6f0ef32e721db305","registration":"","name":"ΜΑΡΚΟΠΟΥΛΟΣ ΝΙΚΟΛΑΟΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2019-05","provisional":true}
 {"id":"u-9658c555abcc66c4","registration":"","name":"ΧΧΧ","aliases":[],"club":"c-4f7e68e70b43c128","category":"","period":"2019-05","provisional":true}
 {"id":"u-470c429b05045f9f","registration":"","name":"ΖΟΡΜΠΑΣ ΑΛΕΞΑΝΔΡΟΣ","aliases":[],"club":"c-dee2af8b162b7001","category":"","period":"2019-05","provisional":true}
 {"id":"u-b2dfba3568e85c43","registration":"","name":"ΜΙΧΑΗΛΙΔΗΣ ΣΤΕΛΙΟΣ","aliases":[],"club":"c-9e52c02326d09180","category":"","period":"2019-05","provisional":true}
@@ -9699,30 +9439,18 @@
 {"id":"u-d8de01053bfadb84","registration":"","name":"ΠΑΡΟΔΟΣ ΔΗΜΗΤΡΙΟΣ","aliases":[],"club":"c-7fb0f88e053f122d","category":"","period":"2019-06","provisional":true}
 {"id":"u-8d3fd3d7ab5b5cad","registration":"","name":"ΑΓΙΑΝΝΟΓΛΟΥ ΑΝΑΣΤΑΣΙΟΣ","aliases":[],"club":"c-a7dd70328b31ab78","category":"","period":"2019-06","provisional":true}
 {"id":"u-47174629cd73bf73","registration":"","name":"ΑΝΑΣΤΑΣΟΠΟΥΛΟΣ ΚΩΝ/ΝΟΣ","aliases":[],"club":"c-a7dd70328b31ab78","category":"","period":"2019-06","provisional":true}
-{"id":"u-ca7163d3567b94cc","registration":"","name":"ΛΑΡΔΗΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-0b935002b17ca1d3","category":"","period":"2019-06","provisional":true}
-{"id":"u-2cf9c408957f439c","registration":"","name":"ΛΑΡΔΗΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"c-cfcd5fab0ff1257f","category":"","period":"2019-06","provisional":true}
+{"id":"u-8a6600979b32c70a","registration":"","name":"ΛΑΡΔΗΣ ΓΕΩΡΓΙΟΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
 {"id":"u-ae136e6c2eb459f8","registration":"","name":"SANJAY JAN","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
-{"id":"u-277877f6dcd7dc4b","registration":"","name":"SANJAY JAN","aliases":[],"club":"c-3becf90e2998f155","category":"","period":"2019-06","provisional":true}
-{"id":"u-b59eec05dc2f6028","registration":"","name":"ΚΑΡΑΓΡΗΓΟΡΙΟΥ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"c-3becf90e2998f155","category":"","period":"2019-06","provisional":true}
 {"id":"u-a2027f49ee0b41b1","registration":"","name":"ΚΑΡΑΓΡΗΓΟΡΙΟΥ ΠΑΝΑΓΙΩΤΗΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
 {"id":"u-9f4c9f798c2b3c3b","registration":"","name":"ΤΖΙΤΖΙΛΩΝΗΣ ΕΥΘΥΜΙΟΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
-{"id":"u-31b5ea45c31c8e96","registration":"","name":"ΤΖΙΤΖΙΛΩΝΗΣ ΕΥΘΥΜΙΟΣ","aliases":[],"club":"c-31abbdc065bc135b","category":"","period":"2019-06","provisional":true}
 {"id":"u-888206a1d239636a","registration":"","name":"ΜΠΑΚΑΣ ΘΑΝΑΣΗΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
-{"id":"u-fc29e444086917b3","registration":"","name":"ΔΕΛΑΠΟΡΤΑΣ ΦΩΤΗΣ","aliases":[],"club":"c-e8a243a4b4147bfe","category":"","period":"2019-06","provisional":true}
-{"id":"u-d9c6a0138ca10422","registration":"","name":"ΜΠΕΙΚΕΡ ΦΡΑΝΣΙΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
 {"id":"u-242035ab52018559","registration":"","name":"ΔΕΛΑΠΟΡΤΑΣ ΦΩΤΗΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
-{"id":"u-689c8ef9d70c3cce","registration":"","name":"ΜΠΕΙΚΕΡ ΦΡΑΝΣΙΣ","aliases":[],"club":"c-e8a243a4b4147bfe","category":"","period":"2019-06","provisional":true}
+{"id":"u-d9c6a0138ca10422","registration":"","name":"ΜΠΕΙΚΕΡ ΦΡΑΝΣΙΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
 {"id":"u-4e6f461769210d95","registration":"","name":"ΣΑΚΚΑΡΙΔΗΣ ΣΑΡΑΝΤΗΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
 {"id":"u-07693bd0749b4482","registration":"","name":"CHUYEYSKYY PANKIN","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
 {"id":"u-754c475e14ed93c8","registration":"","name":"ΤΖΑΒΕΛΛΑΣ ΙΩΑΝΝΗΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
-{"id":"u-883a445ce2d69590","registration":"","name":"CHUYEYSKYY PANKIN","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2019-06","provisional":true}
-{"id":"u-f54a1d8324a9806a","registration":"","name":"ΤΖΑΒΕΛΛΑΣ ΙΩΑΝΝΗΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2019-06","provisional":true}
-{"id":"u-116b87ab0e836954","registration":"","name":"ΨΑΡΡΟΣ ΞΕΝΟΦΩΝΤΑΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2019-06","provisional":true}
-{"id":"u-226fa0fdd4f7039e","registration":"","name":"ΚΥΠΡΑΙΟΣ ΝΩΝΤΑΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
-{"id":"u-76439ba9b60cd42e","registration":"","name":"ΚΥΠΡΑΙΟΣ ΝΩΝΤΑΣ","aliases":[],"club":"c-97cf34bf9f373de2","category":"","period":"2019-06","provisional":true}
 {"id":"u-42cdb4b496fc0525","registration":"","name":"ΨΑΡΡΟΣ ΞΕΝΟΦΩΝΤΑΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
-{"id":"u-539461c4bba093a7","registration":"","name":"ΘΕΟΤΟΚΑΤΟΣ ΧΡΙΣΤΟΦΟΡΟΣ","aliases":[],"club":"c-980853592bd4db75","category":"","period":"2019-06","provisional":true}
-{"id":"u-1e9c205090b104be","registration":"","name":"ΘΕΟΤΟΚΑΤΟΣ ΧΡΙΣΤΟΦΟΡΟΣ","aliases":[],"club":"c-326930bc06dfb4d6","category":"","period":"2019-06","provisional":true}
+{"id":"u-226fa0fdd4f7039e","registration":"","name":"ΚΥΠΡΑΙΟΣ ΝΩΝΤΑΣ","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
 {"id":"u-8a5636f6e17cdcb5","registration":"","name":"ΤΣΙΟΚΑΣ ΝΤΑΝΙΕΛ","aliases":[],"club":"c-3d7c067d1636d1f6","category":"","period":"2019-06","provisional":true}
 {"id":"u-9aab360c80381c92","registration":"","name":"ΘΕΟΔΩΡΟΥ/ΚΟΡΔΟΥΤΗΣ","aliases":[],"club":"c-3d7c067d1636d1f6","category":"","period":"2019-06","provisional":true}
 {"id":"u-a185f2b275adf75c","registration":"","name":"ΜΙΧΑΛΟΠΟΥΛΟΣ/ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ","aliases":[],"club":"c-1abacfb79be5fb79","category":"","period":"2019-06","provisional":true}
@@ -9745,10 +9473,7 @@
 {"id":"u-a4bcea7112426849","registration":"","name":"ΚΟΥΣΤΑΣ/ΔΑΛΙΕΤΟΣ","aliases":[],"club":"c-d070771a38975801","category":"","period":"2019-06","provisional":true}
 {"id":"u-fc5cc2e100f43932","registration":"","name":"ΒΛΟΤΙΝΟΣ/ΑΡΓΥΡΑΚΗΣ","aliases":[],"club":"c-32edf96a0fbc9ca4","category":"","period":"2019-06","provisional":true}
 {"id":"u-a5bdacc2852f8b5a","registration":"","name":"ΑΓΓΕΛΙΔΗΣ/ΧΑΤΖΗΠΛΗΣ","aliases":[],"club":"c-90c37365f475db08","category":"","period":"2019-06","provisional":true}
-{"id":"u-624d04a19436bda4","registration":"","name":"ΑΝΑΣΤΑΣΟΠΟΥΛΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-459230e10cf3977e","category":"","period":"2019-06","provisional":true}
-{"id":"u-7a868046ca27519e","registration":"","name":"ΖΗΚΟΣ ΚΩΝΣΤΑΝΤΙΝΟΣ","aliases":[],"club":"c-24bd50b84dc24772","category":"","period":"2019-06","provisional":true}
 {"id":"u-6fd5048b0a33fc10","registration":"","name":"DRZEWAZEWSKI ZBGNIEW","aliases":[],"club":"","category":"","period":"2019-06","provisional":true}
-{"id":"u-db274d49aa39e436","registration":"","name":"DRZEWAZEWSKI ZBGNIEW","aliases":[],"club":"c-27421efe950faed0","category":"","period":"2019-06","provisional":true}
 {"id":"u-fbde0b700cdb225c","registration":"","name":"ΘΕΟΔΩΡΙΔΗΣ/ΠΟΛΥΧΡΟΝΟΠΟΥΛΟΣ","aliases":[],"club":"c-3b49d86aea840742","category":"","period":"2019-06","provisional":true}
 {"id":"u-0fdcfc674be28d42","registration":"","name":"ΒΑΪΤΣΗΣ/ΧΕΛΒΑΤΖΙΑΝ","aliases":[],"club":"c-b2d11ccb256fd87c","category":"","period":"2019-06","provisional":true}
 {"id":"u-ae894d94a0dfa6de","registration":"","name":"ΜΑΣΤΟΡΑΣ/ΔΕΛΛΑΠΟΡΤΑΣ","aliases":[],"club":"c-e24970f24fd10b85","category":"","period":"2019-06","provisional":true}

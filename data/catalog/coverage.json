@@ -140,9 +140,9 @@
   "2026-10"
  ],
  "matches": 137385,
- "players": 9914,
+ "players": 9639,
  "ranked_players": 3851,
- "provisional_players": 6063,
+ "provisional_players": 5788,
  "fixtures": 20444,
  "reported_fixtures": 17186,
  "ranking_rows": 742275,
@@ -162,12 +162,12 @@
  "identity_methods": {
   "sheet_registration": 1276,
   "reviewed_sheet_name_and_team": 609,
-  "unique_name_in_month": 45112,
-  "exact_name_and_team": 182454,
-  "unique_name_team_differs": 32029,
+  "unique_name_in_month": 50848,
+  "exact_name_and_team": 182515,
+  "unique_name_team_differs": 26283,
   "name_not_found": 12148,
-  "ambiguous_name": 269,
-  "team_mismatch": 873
+  "ambiguous_name": 301,
+  "team_mismatch": 790
  },
  "identity_conflicts": [
   {
