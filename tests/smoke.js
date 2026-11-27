@@ -14,6 +14,7 @@ assert.deepEqual(C.fixtureRounds(roundFixtures).map(g=>[g.label,g.rows.map(f=>f.
   ['2η Αγωνιστική',['a','c']],['1η Αγωνιστική',['b']],['Τελικός',['d']],['',['e']],['1η Αγωνιστική (δεύτερη φάση)',['f']]
 ],'Group non-adjacent round records without sorting source stages or merging different phases');
 const db=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/data/bootstrap.json.gz')));
+const about=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/data/about.json.gz')));
 const manifest=JSON.parse(fs.readFileSync('dist/index.html','utf8').match(/<script type="application\/json" id="site-data">(.*?)<\/script>/s)[1]);
 db.version='test';db.ranking_index='https://www.pofepa.gr/';
 const event=db.events.find(e=>e.kind==='singles'), fixtureEvent=db.events.find(e=>e.kind==='fixtures');
@@ -85,6 +86,22 @@ for(const language of ['el','en']) for(const route of routes){
     assert(app.innerHTML.includes('id="competition-crete"'));
     assert(app.innerHTML.includes('Play off (final four)'),'Generic document title must inherit the source region');
     assert(!app.innerHTML.includes('Α1-Α2'),'Attica cup must not leak into Crete');
+  }
+  const nav=app.innerHTML.match(/<nav class="nav"[\s\S]*?<\/nav>/)[0];
+  assert(!nav.includes('id="lang"')&&app.innerHTML.includes('</nav><button class="lang" id="lang"'),'Language toggle must sit outside the scrolling nav');
+  if(route==='about'){
+    const html=app.innerHTML,size=25;
+    assert(html.indexOf('<h1>')<html.indexOf('id="about-sheet-list"'),'Explanations precede the match-sheet audit');
+    assert(html.indexOf('id="about-sheet-list"')<html.indexOf('id="about-sources"'),'Source inventory comes last');
+    assert.equal((html.match(/<td class="source-cell">/g)||[]).length,Math.min(size,about.sources.length),'Source inventory is paginated');
+    assert(html.includes('data-page-key="sheetpage"')&&html.includes('data-page-key="sourcepage"'),'Long audit lists have pagers');
+  }
+  if(route==='home'){
+    const names=Object.fromEntries((db.competition_regions||[]).map(r=>[r.id,language==='el'?r.el:r.en]));
+    for(const m of db.recent_matches){
+      const region=db.events.find(e=>e.id===m.event)?.competition_region;
+      if(region&&region!=='unspecified'&&region!=='nationwide')assert(app.innerHTML.includes('<span class="meta">'+C.escape(names[region])+'</span>'),'Match rows show where the competition is played');
+    }
   }
 }
 for(const language of ['el','en']){

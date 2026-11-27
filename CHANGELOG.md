@@ -3,6 +3,9 @@
 ## Prototype updates — 2026-11-27
 
 - Remove the imported-matches statistics notice from the overview, competition, comparison, and athlete pages.
+- Keep the language switch visible on phones, bring the current section into view in the scrolling menu, and fade its clipped edges.
+- Open Coverage & sources with its explanations, then paginate the match-sheet, document and source lists.
+- Label match rows, home-page competitions and the competition filter with the region where the competition is played, falling back to the ranking-source region when the results site gives none.
 
 ## Prototype updates — 2026-11-26
 
