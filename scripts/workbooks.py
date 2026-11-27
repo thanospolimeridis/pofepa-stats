@@ -88,14 +88,24 @@ def number(value):
 
 
 # Older sheets head individual-event blocks with a category (ΑΝΕ 18-39,
-# ΒΕΤΕΡΑΝΟΙ 40-49 ΟΜΙΛΟΙ), a stage (ΦΑΣΗ ΟΜΙΛΩΝ, 1-8, ΚΑΤΑΤΑΞΗ 5-14) or a
-# row-number header (α/α) in the cells where team results print two teams.
-# Team names such as "ΒΕΤ. ΑΟ ΤΑΤΑΥΛΑ" or "ΒΕΤΕΡΑΝΟΙ ΔΡΑΜΑΣ" do not match.
+# ΒΕΤΕΡΑΝΟΙ 40-49 ΟΜΙΛΟΙ) or a stage (ΦΑΣΗ ΟΜΙΛΩΝ, 1-8, ΚΑΤΑΤΑΞΗ 5-14) in
+# the cells where team results print two teams. A walkover mark (α/α) is also
+# never a team. Names such as "ΒΕΤ. ΑΟ ΤΑΤΑΥΛΑ" or "ΒΕΤΕΡΑΝΟΙ ΔΡΑΜΑΣ" do not match.
 CATEGORY_WORD = r'(?:ΚΑΤΗΓΟΡΙΑ|ΑΝΕΞ(?:ΑΡΤΗΤ\w*)?|ANE|ΑΝΕ|ΒΕΤ(?:ΕΡΑΝ\w*)?|BET|ΓΥΝ(?:ΑΙΚ\w*)?)\.?'
 EVENT_LABEL = re.compile(
     rf'^(?:{CATEGORY_WORD}\s*)+(?:\d+\s*(?:-\s*\d+|\+))?(?:\s*(?:{CATEGORY_WORD}|ΟΜΙΛΟΙ))*$'
     r'|^(?:α\.?/?α\.?|\d+\s*-\s*\d+|ΚΑΤΑΤΑΞΗ\b.*|ΦΑΣΗ\s.*|ΟΜΙΛΟΙ|ΗΜΙΤΕΛΙΚΟΙ|ΤΕΛΙΚΟΣ|ΝΟΚ\s*ΑΟΥΤ|`)$',
     re.I)
+
+
+# "α/α" or "α.α." (άνευ αγώνα) on a result row marks a game that was not played.
+# It appears in a player cell, alone in a team or event cell, or in front of a
+# team name ("α/α ΓΛΥΦΑΔΑ"). It annotates that row only.
+WALKOVER_MARK = re.compile(r'^\s*α\s*[./]\s*α\.?(?=\s|$)\s*', re.I)
+
+
+def without_walkover_mark(value):
+    return WALKOVER_MARK.sub('', value) if isinstance(value, str) else value
 
 
 def team_pair(values):
@@ -146,8 +156,10 @@ def result_rows(sheet):
         if explicit_date:
             last_date, date_row = raw_date, rownum
             teams, team_row = ['', ''], None
+        # The walkover mark belongs to this result, never to the block's teams or event.
+        walkover = any(isinstance(v, str) and WALKOVER_MARK.match(v) for v in row[1:event_at + 1])
         if club_at is not None:
-            new_teams = [v.strip() if isinstance(v, str) else '' for v in row[club_at:club_at + 2]]
+            new_teams = [without_walkover_mark(v).strip() if isinstance(v, str) else '' for v in row[club_at:club_at + 2]]
             if any(new_teams):
                 # Long team names wrap onto the next undated row ("ΚΡΟΚΟΔΕΙΛΟΙ"
                 # above "ΦΛΩΡΙΝΑΣ"); such a line keeps the pair. Otherwise an
@@ -159,7 +171,7 @@ def result_rows(sheet):
                 else:
                     pair = team_pair(new_teams)
                     teams, team_row, team_line = pair or ['', ''], rownum, rownum if pair else None
-        raw_event = row[event_at]
+        raw_event = without_walkover_mark(row[event_at])
         if isinstance(raw_event, str) and raw_event.strip():
             event, event_row = raw_event.strip(), rownum
         if layout == 'combined':
@@ -170,8 +182,11 @@ def result_rows(sheet):
         date_value = last_date if legacy else raw_date
         clubs = teams if legacy else [row[5], row[6]]
         event_value = event if legacy else raw_event
-        yield rownum, (date_value, row[1], row[2], a, b, *clubs, event_value), {
+        context = {
             'sheet': sheet.title, 'layout': str(layout) + ('-compact' if compact else ''),
             'date_row': date_row if legacy else rownum, 'team_row': team_row if legacy else rownum,
             'event_row': event_row if legacy else rownum,
         }
+        if walkover:
+            context['walkover'] = True  # excluded by the collector; never stored as evidence
+        yield rownum, (date_value, row[1], row[2], a, b, *clubs, event_value), context

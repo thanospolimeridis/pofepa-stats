@@ -76,7 +76,7 @@ The collector discovers all linked workbooks and result seasons rather than main
 - Earlier lists omit DAI. An exact name and team, or a unique exact name among registered profiles, can associate the historical entry. Names appearing more than once in historical general lists remain separate.
 - Match records link against the same month's ranking lists. Exact name plus team is preferred; unique exact names with blank or differing teams are provisional associations. Ambiguous or unmatched names remain separate profiles. No fuzzy spelling matching is used.
 - Older spreadsheets use grouped dates and team headings, numeric text scores, combined score cells and different column layouts. The importer retains the worksheet, result row and context row numbers used to interpret each result.
-- Only completed 3–0, 3–1 and 3–2 singles scores enter statistics. Invalid dates, implausible years, bonus entries and nonstandard outcomes are excluded with reasons. Scores and dates are never invented.
+- Only completed 3–0, 3–1 and 3–2 singles scores enter statistics. Invalid dates, implausible years, bonus entries, nonstandard outcomes and workbook rows marked α/α (walkover) are excluded with reasons. Scores and dates are never invented.
 - Repeated result exports are deduplicated while preserving every source row. Repeated games within one source remain separate. Repeated ranking entries remain as published and are flagged.
 - Team fixtures retain reported totals and source-page references. Schedule deadlines are not treated as dates played. PDF brackets use drawn connectors, named winners and source-bound visual transcriptions. Repeated grids and bracket pages count once; real repeats in later rounds remain separate.
 

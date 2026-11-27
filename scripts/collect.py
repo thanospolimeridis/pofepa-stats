@@ -373,6 +373,10 @@ def collect(cache, as_of):
         for rownum, row, context in results:
             raw_date, first, second, a, b, first_club, second_club, event_name = row[:8]
             first, second, first_club, second_club, event_name = map(clean, (first, second, first_club, second_club, event_name))
+            if context.pop("walkover", False):
+                # Marked "α/α" (άνευ αγώνα): not a played match, so it never enters statistics.
+                issues.append({"source": sid, "sheet": context["sheet"], "row": rownum, "reason": "walkover_mark", "score": [a, b]})
+                continue
             status = score_status(a, b, second)
             if status != "completed":
                 issues.append({"source": sid, "sheet": context["sheet"], "row": rownum, "reason": status, "score": [a, b]})

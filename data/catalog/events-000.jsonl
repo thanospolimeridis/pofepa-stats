@@ -119,7 +119,6 @@
 {"id":"e-61460abbb6613da8","name":"Δ3' ΑΤΤΙΚΗΣ","season":"2014-2015","region":"south","regions":["south"],"kind":"singles","sources":["s-81442e4a477498e9"]}
 {"id":"e-d6f6d16beb108d37","name":"ΠΑΝΑΤΤΙΚΟ 2016","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-81442e4a477498e9"]}
 {"id":"e-e3095097abe594d3","name":"Δ2' ΑΤΤΙΚΗΣ","season":"2016-2017","region":"south","regions":["south"],"kind":"singles","sources":["s-81442e4a477498e9"]}
-{"id":"e-002077d74d175af3","name":"α/α","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-81442e4a477498e9"]}
 {"id":"e-ff0400cbf4d439af","name":"ΔΥΤ. ΕΛΛΑΔΑ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-a6b336abf5f453e9","s-67a0e5279bde2f45"]}
 {"id":"e-f4ed048ddc0b2ad1","name":"Β΄ΑΤΤΙΚΗΣ","season":"2015-2016","region":"south","regions":["south"],"kind":"singles","sources":["s-a6b336abf5f453e9"]}
 {"id":"e-f2c9694ffe081771","name":"A' ΚΑΤΗΓΟΡΙΑ","season":"2015-2016","region":"north","regions":["north"],"kind":"singles","sources":["s-9f24d5dbbb97fcb8"]}
@@ -246,7 +245,6 @@
 {"id":"e-47fa4e48cb2fce36","name":"ANE 40-49","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
 {"id":"e-3cdbc50a2eba4cc1","name":"ANE 50-59","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
 {"id":"e-b30de4c11ce1e00d","name":"ANE 60+","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
-{"id":"e-73d0609833c82c37","name":"α/α","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
 {"id":"e-497596204c830860","name":"ΒΕΤ 50+","season":"2017-2018","region":"south","regions":["south"],"kind":"singles","sources":["s-06780c46ab7d7299"]}
 {"id":"e-c44f009204e5bb38","name":"ΚΥΠΕΛΛΟ","season":"2018-2019","region":"multi","regions":["south","north"],"kind":"singles","sources":["s-d2b821317ec21ad1","s-2b1dd800d8d9a877","s-d7e25e1a9ffc514b","s-5aec01e4599cee35","s-3bb8e0366d252706","s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-c7d89350b3dc4c01","s-99e209fecfa33d1c","s-c52534cb3f853dda","s-5c527b1d950e32c0","s-263630291b165b71","s-3a6c5d8c6d68d25e"]}
 {"id":"e-507a33f3dda886a1","name":"Α2 ΑΤΤΙΚΗΣ","season":"2018-2019","region":"south","regions":["south"],"kind":"singles","sources":["s-d2b821317ec21ad1","s-d7e25e1a9ffc514b","s-3bb8e0366d252706","s-9242bc0927f6df4b","s-e3d1c17221d1d304","s-99e209fecfa33d1c","s-5c527b1d950e32c0","s-3a6c5d8c6d68d25e","s-36a71bb568037654"]}
