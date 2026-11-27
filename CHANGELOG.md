@@ -2,6 +2,7 @@
 
 ## Prototype updates — 2026-11-27
 
+- Refresh the visual design within the existing ink, teal and mint palette: pill navigation, the archive totals beside the search in the hero, a latest-ranking banner, flat rounded cards with their headings inside, a category-free home ranking with position chips, one linked row per home competition, each player's games as a chip beside the name in match rows, a segmented athlete section switch, and proportional bars in the athlete score breakdown.
 - Remove the imported-matches statistics notice from the overview, competition, comparison, and athlete pages.
 - Keep the language switch visible on phones, bring the current section into view in the scrolling menu, and fade its clipped edges.
 - Open Coverage & sources with its explanations, then paginate the match-sheet, document and source lists.

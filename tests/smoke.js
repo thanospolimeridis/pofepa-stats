@@ -142,6 +142,21 @@ for(const language of ['el','en']){
   assert.equal(points(profile('')),points(profile('?season=2025-2026')),'Match season must not shorten ranking history');
   assert.notEqual(metrics(profile('')),metrics(profile('?season=2025-2026')),'Season must update match statistics');
   assert(profile('').indexOf('id="athlete-rankings"')<profile('').indexOf('id="athlete-matches"'),'Keep ranking chart before matches');
+  // Home layout: totals in the hero, then the latest-ranking banner, a compact ranking and linked competitions.
+  const home=rendered.get(language+':home'),at=text=>home.indexOf(text),count=(html,pattern)=>(html.match(pattern)||[]).length;
+  assert(at('class="stats-band"')>0&&at('class="stats-band"')<at('<main'),'Home statistics sit in the hero');
+  assert(at('<main')<at('class="latest-ranking"')&&at('class="latest-ranking"')<at('class="grid-two"'),'The latest-ranking banner opens the page content');
+  const homeRanking=home.match(/<section class="panel home-card home-ranking">[\s\S]*?<\/section>/)[0];
+  assert.equal(count(homeRanking,/<th /g),4,'The home ranking names its category once, above the table');
+  assert.equal(count(homeRanking,/class="rank-chip"/g),6,'Home ranking positions are chips');
+  assert.equal(count(home,/<a class="event-row" href="#event\//g),4,'Each home competition is one linked row');
+  const rankings=rendered.get(language+':rankings');
+  assert(rankings.includes('<span class="badge neutral">')&&!rankings.includes('class="rank-chip"'),'Full ranking tables keep the category column and plain positions');
+  // Match rows carry each player's games beside the name; score bars scale to the most frequent score.
+  assert(count(home,/<td class="match-players">/g)>0,'Home lists recent matches');
+  for(const html of [home,profile('')])assert.equal(count(html,/class="set-score"/g),2*count(html,/<td class="match-players">/g),'Every player in a match row carries their games');
+  const widths=[...profile('').matchAll(/<span class="score-bar (?:won|lost)" aria-hidden="true"><i style="width:(\d+)%">/g)].map(m=>Number(m[1]));
+  assert(widths.length>0&&Math.max(...widths)===100&&widths.every(w=>w>=0&&w<=100),'Score bars scale to the most frequent score');
 }
 console.log(`Passed domain checks and ${routes.length*2} route/language renders.`);
 
