@@ -110,7 +110,50 @@ async function clickExport(route,kind,lang='en') {
   return {...parseCsv(text),text};
 }
 
+// The dataset download hands over the published gzip catalog: no parsing or
+// re-serialising of the whole archive in the page.
+async function datasetDownload(sitePayload,fetcher = () => {throw new Error('Offline dataset download must not access the network');}) {
+  const handlers = {},errors = [],downloads = [],blobs = new Map(),requests = [];
+  const app = {innerHTML:'',addEventListener:(type,handler) => {handlers[type]=handler;}};
+  const context = {
+    Pofepa,PofepaEvidence,PofepaAthleteStats,Blob,Response,DecompressionStream,Uint8Array,atob,URLSearchParams,Intl,
+    document:{
+      documentElement:{},
+      getElementById:id => id === 'site-data' ? {textContent:JSON.stringify(sitePayload)} : app,
+      querySelector:() => ({addEventListener(){}}),
+      createElement:tag => {assert.equal(tag,'a');return {href:'',download:'',click(){downloads.push({url:this.href,filename:this.download});}};}
+    },
+    URL:{createObjectURL:blob => {const url='blob:test-'+blobs.size;blobs.set(url,blob);return url;},revokeObjectURL(){}},
+    location:{hash:'#rankings'},window:{addEventListener(){},scrollTo(){}},
+    localStorage:{getItem:() => 'en'},console:{error:error => errors.push(error)},
+    setTimeout:() => 0,clearTimeout(){},
+    fetch:async (request,options) => {requests.push(request);return fetcher(request,options);}
+  };
+  vm.runInNewContext(code,context,{timeout:10000});
+  await context.window.pofepaReady;
+  assert.equal(errors.length,0,errors.map(String).join('\n'));
+  handlers.click({target:{closest:selector => selector === 'button' ? {dataset:{export:'data'}} : null}});
+  await new Promise(resolve => setImmediate(resolve));
+  assert.equal(downloads.length,1,'Dataset click must trigger exactly one download');
+  return {download:downloads[0],blob:blobs.get(downloads[0].url),requests};
+}
+
 (async () => {
+  const compressed = zlib.gzipSync(JSON.stringify(payload));
+  const offline = await datasetDownload({compressed:compressed.toString('base64')});
+  assert.equal(offline.download.filename,'pofepa-data.json.gz');
+  assert.equal(offline.blob.type,'application/gzip');
+  assert.deepEqual(Buffer.from(await offline.blob.arrayBuffer()),compressed,'Offline dataset must be the embedded compressed catalog, byte for byte');
+  assert.equal(offline.requests.length,0);
+  const bootstrap = zlib.gzipSync(JSON.stringify({...structuredClone(payload),lazy:true,recent_matches:payload.matches}));
+  const hosted = await datasetDownload({bootstrap:'data/bootstrap.json.gz',revision:'r1'},request => {
+    assert.equal(request.split('?')[0],'data/bootstrap.json.gz','Hosted dataset download must not fetch the catalog into the page');
+    return new Response(bootstrap);
+  });
+  assert.deepEqual(hosted.download,{url:'data/catalog.json.gz?data=r1',filename:'pofepa-data.json.gz'});
+  assert.equal(hosted.blob,undefined,'Hosted dataset download links to the published file');
+  assert.equal(hosted.requests.length,1);
+
   const result = await clickExport('matches?season=2025-2026','matches');
   assert.equal(result.rows.length,4,'Season export must exclude other-season result');
   for (const field of ['document_sources','correction_flags','correction_original_state','correction_reasons']) assert(result.header.includes(field));
@@ -147,5 +190,5 @@ async function clickExport(route,kind,lang='en') {
   assert.equal(other.rows.length,1);
   assert.equal(other.rows[0].date,otherSeason.date);
   assert.equal(other.rows[0].correction_flags,'');
-  console.log('Passed actual app CSV downloads: real corrections/provenance, BOM, quoting, formula guard and athlete/match season filters.');
+  console.log('Passed actual app CSV downloads: real corrections/provenance, BOM, quoting, formula guard and athlete/match season filters; dataset downloads hand over the gzip catalog.');
 })().catch(error => {console.error(error);process.exitCode=1;});

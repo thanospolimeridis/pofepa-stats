@@ -27,7 +27,7 @@ routes.push('events?region=crete&season=2025-2026','events?region=central-macedo
 routes.push('event/e-872537db429e91ee','event/e-076a3ed10707b3f2','event/e-c3a3dcdc39edcc8e','event/e-df9707fab1c9c47f','event/e-5d1c3230f89cd9aa','event/e-d7de6d7827232949','events?competition=cup');
 routes.push('event/e-517d2fa8e574a147','event/e-517d2fa8e574a147?page=1','event/e-517d2fa8e574a147?page=99');
 const otherSeasonEvent=db.events.find(e=>e.kind==='singles'&&e.season==='2024-2025');
-routes.push('matches?season=2025-2026','matches?q=papadopoulos&season=2025-2026','matches?season=2025-2026&event='+otherSeasonEvent.id,'matches?view=teams&season=2025-2026');
+routes.push('matches?season=2025-2026','matches?q=papadopoulos&season=2025-2026','matches?season=2025-2026&event='+otherSeasonEvent.id,'matches?view=teams&season=2025-2026','nonexistent','event/missing');
 const fullMatches=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/data/matches.json.gz')));
 const eventSeason=new Map(db.events.map(e=>[e.id,e.season]));
 const fixtures=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/data/fixtures.json.gz')));
@@ -80,6 +80,8 @@ for(const language of ['el','en']) for(const route of routes){
     const unique=new Set(records.map(h=>JSON.stringify([h.snapshot.period,h.points])));
     assert.equal((charts[0][0].match(/<circle /g)||[]).length,unique.size,'Preserve distinct points and collapse only identical month/value pairs');
     assert(!charts[0][0].includes('<h3>'),'Combined chart must have no regional or national subheadings');
+    assert.equal((charts[0][0].match(/tabindex=/g)||[]).length,1,'The chart is a single tab stop');
+    assert(/^<svg [^>]*tabindex="0"[^>]*aria-describedby="ranking-readout"/.test(charts[0][0]),'The chart itself takes focus and describes the readout');
   }
   if(route==='rankings?region=north&class=BET&age=40-49')assert(app.innerHTML.includes('ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ'));
   if(route==='events'||route==='teams'){
@@ -94,6 +96,11 @@ for(const language of ['el','en']) for(const route of routes){
     assert(app.innerHTML.includes('Play off (final four)'),'Generic document title must inherit the source region');
     assert(!app.innerHTML.includes('Α1-Α2'),'Attica cup must not leak into Crete');
   }
+  const title=context.document.title,notFoundTitle=language==='el'?'Η σελίδα δεν βρέθηκε':'Page not found';
+  const showsNotFound=app.innerHTML.includes('<h1>'+notFoundTitle+'</h1>');
+  if(['player/missing','nonexistent','event/missing'].includes(route))assert(showsNotFound,route+' must render the not-found page');
+  assert.equal(title.startsWith(notFoundTitle),showsNotFound,route+' title must match the page shown, got '+title);
+  if(route==='about')assert(title.startsWith(language==='el'?'Κάλυψη & πηγές':'Coverage & sources'),'About title');
   const nav=app.innerHTML.match(/<nav class="nav"[\s\S]*?<\/nav>/)[0];
   assert(!nav.includes('id="lang"')&&app.innerHTML.includes('</nav><button class="lang" id="lang"'),'Language toggle must sit outside the scrolling nav');
   if(route==='about'){

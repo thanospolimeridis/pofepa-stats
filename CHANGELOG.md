@@ -8,6 +8,8 @@
 - Label match rows, home-page competitions and the competition filter with the region where the competition is played, falling back to the ranking-source region when the results site gives none.
 - Load the Matches page from a compact match list instead of the full records, and search names without re-normalising every row on each keystroke. The full records remain the CSV export source.
 - Add a season filter to Matches, group competitions by season, and show the season in each competition name.
+- Download the dataset as the published gzip catalog in both editions, without parsing and re-serialising the whole archive in the page.
+- Return to the previous scroll position on Back/Forward, move focus to the new page's heading after navigation, make the ranking chart a single tab stop with arrow-key navigation, and title missing pages "Page not found".
 
 ## Prototype updates — 2026-11-26
 
