@@ -8,7 +8,7 @@ window.pofepaReady = (async () => {
   const playerHistories=new Map();
   const playerRankComparisons=new Map();
 
-  const {escape:E,search,stats,h2h}=Pofepa;
+  const {escape:E,search,pairSearch,stats,h2h}=Pofepa;
   const Evidence=PofepaEvidence;
   const app=document.getElementById('app');
   const map=rows=>new Map(rows.map(r=>[r.id,r]));
@@ -196,10 +196,27 @@ window.pofepaReady = (async () => {
       (s.played?athleteInsights(summary)+athleteSeasonTables(summary,id):'')+
       `<section aria-labelledby="athlete-matches"><div class="section-title"><h2 id="athlete-matches" tabindex="-1">${L('Ιστορικό αγώνων','Match history')}</h2><button class="button secondary" data-export="player" data-id="${E(id)}">CSV</button></div>${paged(filtered,r=>matchTable(r,id),'page',10)}</section></div>`;
   }
-  function matchList(){const view=param('view','singles');const relevantEvents=db.events.filter(e=>e.kind===(view==='singles'?'singles':'fixtures'));
-    let rows=(view==='singles'?db.matches:db.fixtures).filter(m=>(!param('event')||m.event===param('event'))&&(!param('region')||(m.regions||[m.region]).includes(param('region')))&&search(view==='singles'?m.names.join(' '):m.home+' '+m.away,param('q'))&&(!param('season')||events.get(m.event).season===param('season'))&&(!param('status')||m.status===param('status')));
+  // The hosted Matches page reads a compact list (data/match-list.json.gz); full
+  // records stay in data/matches.json.gz for CSV export. Offline uses db.matches.
+  let matchIndex=null;
+  async function loadMatchIndex(){if(!matchIndex){const list=await fetchData('data/match-list.json.gz');matchIndex||=Pofepa.expandMatchList(list);}return matchIndex;}
+  const nameForms=new Map();
+  // Shared by the Matches view and its CSV export. A season or competition that
+  // does not belong to this view (or to each other) is ignored, not applied.
+  function matchFilters(view){const singles=view==='singles',relevant=db.events.filter(e=>e.kind===(singles?'singles':'fixtures'));
+    const seasons=[...new Set(relevant.map(e=>e.season))].sort().reverse(),season=seasons.includes(param('season'))?param('season'):'';
+    const competitions=relevant.filter(e=>!season||e.season===season),event=competitions.some(e=>e.id===param('event'))?param('event'):'';
+    const region=param('region'),status=param('status'),found=pairSearch(param('q'),nameForms);
+    const keep=m=>(!event||m.event===event)&&(!season||events.get(m.event).season===season)&&(!region||(m.regions||[m.region]).includes(region))&&(!status||m.status===status)&&(singles?found(m.names[0],m.names[1]):found(m.home,m.away));
+    return {seasons,season,competitions,event,keep};}
+  function competitionLabel(e){const name=eventTitle(e),short=e.season.length===9?e.season.slice(0,5)+e.season.slice(7):e.season,place=eventPlace(e,regionName(e.region));
+    return name+(name.includes(e.season)||name.includes(short)?'':' · '+e.season)+(place?' · '+place:'');}
+  function competitionSelect(competitions,value){const seasons=[...new Set(competitions.map(e=>e.season))].sort().reverse();
+    return `<div class="field competition-field"><label for="filter-event">${E(L('Διοργάνωση','Competition'))}</label><select id="filter-event" data-filter="event"><option value="">${E(L('Όλες οι διοργανώσεις','All competitions'))}</option>${seasons.map(season=>`<optgroup label="${E(season)}">${competitions.filter(e=>e.season===season).map(e=>[e.id,competitionLabel(e)]).sort((a,b)=>a[1].localeCompare(b[1],'el')).map(([id,label])=>`<option value="${E(id)}" ${id===value?'selected':''}>${E(label)}</option>`).join('')}</optgroup>`).join('')}</select></div>`;}
+  function matchList(){const view=param('view','singles');const {seasons,season,competitions,event,keep}=matchFilters(view);
+    const rows=(view==='singles'?db.matches:db.fixtures).filter(keep);
     return pageHead(L('Αγώνες & αποτελέσματα','Matches & results'),view==='singles'?L('Μόνο ολοκληρωμένα σκορ 3–0, 3–1 και 3–2.','Completed 3–0, 3–1 and 3–2 scores only.'):L('Οι ημερομηνίες ορισμού είναι προθεσμίες της πηγής, όχι επιβεβαιωμένες ημερομηνίες διεξαγωγής.','Source deadlines are not confirmed dates of play.'),view==='singles'?`<button class="button secondary" data-export="matches">${L('Εξαγωγή CSV','Export CSV')}</button>`:'')+
-      `<div class="chips"><a class="${view==='singles'?'active':''}" href="#matches">${L('Ατομικοί αγώνες','Singles')}</a><a class="${view==='teams'?'active':''}" href="#matches?view=teams">${L('Ομαδικές συναντήσεις','Team fixtures')}</a></div><div class="toolbar">${field('q',L('Αναζήτηση','Search'),param('q'),view==='singles'?L('Όνομα αθλητή','Player name'):L('Όνομα ομάδας','Team name'))}${select('event',L('Διοργάνωση','Competition'),[['',L('Όλες οι διοργανώσεις','All competitions')],...relevantEvents.map(e=>{const place=eventPlace(e,regionName(e.region));return [e.id,e.name+(place?' · '+place:'')];})],param('event'))}${view==='singles'?select('region',L('Περιοχή πηγής','Source region'),[['',L('Όλες οι περιοχές','All regions')],...['national','south','north'].map(r=>[r,regionName(r)])],param('region')):select('status',L('Κατάσταση','Status'),[['',L('Όλες','All')],['reported',L('Με αποτέλεσμα','Reported results')],['scheduled',L('Χωρίς αποτέλεσμα','No result yet')]],param('status'))}</div>`+paged(rows,r=>view==='singles'?matchTable(r):fixtureTable(r));
+      `<div class="chips"><a class="${view==='singles'?'active':''}" href="#matches">${L('Ατομικοί αγώνες','Singles')}</a><a class="${view==='teams'?'active':''}" href="#matches?view=teams">${L('Ομαδικές συναντήσεις','Team fixtures')}</a></div><div class="toolbar">${field('q',L('Αναζήτηση','Search'),param('q'),view==='singles'?L('Όνομα αθλητή','Player name'):L('Όνομα ομάδας','Team name'))}${select('season',L('Περίοδος','Season'),[['',L('Όλες οι περίοδοι','All seasons')],...seasons.map(s=>[s,s])],season)}${competitionSelect(competitions,event)}${view==='singles'?select('region',L('Περιοχή πηγής','Source region'),[['',L('Όλες οι περιοχές','All regions')],...['national','south','north'].map(r=>[r,regionName(r)])],param('region')):select('status',L('Κατάσταση','Status'),[['',L('Όλες','All')],['reported',L('Με αποτέλεσμα','Reported results')],['scheduled',L('Χωρίς αποτέλεσμα','No result yet')]],param('status'))}</div>`+paged(rows,r=>view==='singles'?matchTable(r):fixtureTable(r));
   }
   function eventList(){
     const seasons=[...new Set(db.events.map(e=>e.season))].sort().reverse();
@@ -277,7 +294,7 @@ window.pofepaReady = (async () => {
     }
     if(r.name==='player'){await loadPlayer(r.id);return db.recent_matches;}
     if(r.name==='h2h'){const id=r.params.get('p1');await loadPlayer(id);return matchesByPlayer.get(id)||[];}
-    if(r.name==='matches'&&r.params.get('view')!=='teams')return fetchData('data/matches.json.gz');
+    if(r.name==='matches'&&r.params.get('view')!=='teams')return loadMatchIndex();
     if(r.name==='event'&&events.get(r.id)?.kind==='singles')return fetchData(events.get(r.id).archive);
     if(r.name==='rankings'){
       const region=r.params.get('region')||'national',all=db.snapshots.filter(s=>s.region===region);
@@ -307,7 +324,7 @@ window.pofepaReady = (async () => {
   }
   async function updateFilter(name,value){const focus=document.activeElement?.id;let pos;try{pos=document.activeElement.selectionStart;}catch{}
     const params=new URLSearchParams(current.params);value?params.set(name,value):params.delete(name);if(!['page','epage','range'].includes(name)){params.delete('page');params.delete('epage');}params.delete('rpage');
-    if(name==='region'&&current.name==='rankings'){params.delete('period');params.delete('list');}if(name==='class')params.delete('age');if(name==='kind'&&value==='singles')params.delete('competition');
+    if(name==='region'&&current.name==='rankings'){params.delete('period');params.delete('list');}if(name==='class')params.delete('age');if(name==='season'&&current.name==='matches'&&value&&events.get(params.get('event'))?.season!==value)params.delete('event');if(name==='kind'&&value==='singles')params.delete('competition');
     history.replaceState(null,'',href(current.name+(current.id?'/'+current.id:''),Object.fromEntries(params)));await render();
     if(focus){const el=document.getElementById(focus);el?.focus();try{el?.setSelectionRange(pos,pos);}catch{}}
   }
@@ -339,7 +356,7 @@ window.pofepaReady = (async () => {
   async function exportData(kind,id){let content,mime,filename;
     if(kind==='data'){content=JSON.stringify(db.lazy?await fetchData('data/catalog.json.gz'):db);mime='application/json';filename='pofepa-data.json';}
     else{let rows=kind==='player'?(matchesByPlayer.get(id)||[]).filter(m=>!param('season')||events.get(m.event).season===param('season')):db.lazy?await fetchData('data/matches.json.gz'):db.matches;
-      if(kind==='matches'&&current.name==='matches')rows=rows.filter(m=>(!param('season')||events.get(m.event).season===param('season'))&&(!param('event')||m.event===param('event'))&&(!param('region')||(m.regions||[m.region]).includes(param('region')))&&search(m.names.join(' '),param('q')));
+      if(kind==='matches'&&current.name==='matches')rows=rows.filter(matchFilters('singles').keep);
       const quote=v=>'"'+String(v??'').replace(/^[=+@-]/,"'$&").replace(/"/g,'""')+'"';
       const evidenceColumns=['document_sources','correction_flags','correction_original_state','correction_reasons'];
       content='\ufeff'+[['date','player_1','player_2','games_1','games_2','event','region','source','sheet_row','identity_1','identity_2',...evidenceColumns],...rows.map(m=>{const evidence=Evidence.csvFields(m,{sourceUrl:id=>sources.get(id)?.url||''});return [m.date,...m.names,...m.score,events.get(m.event).name,m.region,sources.get(m.source).url,m.row,...m.identity,...evidenceColumns.map(k=>evidence[k])];})].map(r=>r.map(quote).join(',')).join('\r\n');mime='text/csv;charset=utf-8';filename='pofepa-matches.csv';}

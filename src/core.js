@@ -4,6 +4,40 @@
   const fold = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/ς/g, 'σ');
   const romanize = value => fold(value).replace(/ου/g,'ou').replace(/αι/g,'ai').replace(/ει/g,'ei').replace(/οι/g,'oi').replace(/γγ/g,'ng').replace(/μπ/g,'b').replace(/ντ/g,'d').replace(/[αβγδεζηθικλμνξοπρστυφχψω]/g,c=>({α:'a',β:'v',γ:'g',δ:'d',ε:'e',ζ:'z',η:'i',θ:'th',ι:'i',κ:'k',λ:'l',μ:'m',ν:'n',ξ:'x',ο:'o',π:'p',ρ:'r',σ:'s',τ:'t',υ:'y',φ:'f',χ:'ch',ψ:'ps',ω:'o'}[c]));
   const search = (value, query) => fold(query).split(/\s+/).every(q => fold(value).includes(q) || romanize(value).includes(q));
+  // search(a + ' ' + b, query) for two-name records (players or teams), with
+  // folded forms cached per distinct name so a keystroke does not re-normalise
+  // every row. Equivalent because query tokens never contain the separating space.
+  function pairSearch(query, cache = new Map()) {
+    const tokens = fold(query).split(/\s+/);
+    if (tokens.every(token => !token)) return () => true;
+    const forms = name => {
+      let value = cache.get(name);
+      if (!value) { value = [fold(name), romanize(name)]; cache.set(name, value); }
+      return value;
+    };
+    const has = (name, token) => { const [folded, roman] = forms(name); return folded.includes(token) || roman.includes(token); };
+    return (a, b) => tokens.every(token => has(a, token) || has(b, token));
+  }
+  // Reverse of build.py match_list(): restores the fields the Matches page
+  // filters and renders. Single primary citations stay implicit (source/row).
+  function expandMatchList(list) {
+    const pairs = refs => {
+      const out = [];
+      for (let i = 0; i < (refs || []).length; i += 2) out.push({source: list.sources[refs[i]], row: refs[i + 1]});
+      return out;
+    };
+    return list.rows.map((values, index) => {
+      const [date, event, p1, p2, a, b, n1, n2, place, evidenceRefs, documentRefs] = values;
+      const [region, regions] = list.regions[place], evidence = pairs(evidenceRefs);
+      const match = {date, event: list.events[event], p1, p2, score: [a, b], names: [list.names[n1], list.names[n2]],
+        region, source: evidence[0].source, row: evidence[0].row};
+      if (regions) match.regions = regions;
+      if (evidence.length > 1) match.evidence = evidence;
+      if (documentRefs) match.document_evidence = pairs(documentRefs);
+      if (list.corrections?.[index]) match.sheet_corrections = list.corrections[index];
+      return match;
+    });
+  }
   function stats(matches, id) {
     const rows = matches.filter(m => m.p1 === id || m.p2 === id);
     let wins=0, gamesWon=0, gamesLost=0, deciding=0, decidingWins=0;
@@ -69,7 +103,7 @@
     return {rounds,groups,placement,champion:finals.length===1?finals[0].winner:null};
   }
   const escape = value => String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const api={fold,romanize,search,stats,h2h,fixtureRounds,cupBracket,escape};
+  const api={fold,romanize,search,pairSearch,expandMatchList,stats,h2h,fixtureRounds,cupBracket,escape};
   if(typeof module!=='undefined' && module.exports) module.exports=api;
   else root.Pofepa=api;
 })(globalThis);

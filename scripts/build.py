@@ -36,6 +36,44 @@ ROUTE_ARCHIVES = {
     'fixtures': 'data/fixtures.json.gz',
     'about': 'data/about.json.gz',
 }
+MATCH_LIST = 'data/match-list.json.gz'
+
+
+def match_list(matches):
+    """Compact index for the Matches page, decoded by core.js expandMatchList.
+
+    Each singles result becomes one row with shared event, name, source and
+    region tables: what the list filters, searches and renders, plus correction
+    evidence. data/matches.json.gz keeps the full records for CSV exports.
+    """
+    tables = {name: ([], {}) for name in ('events', 'names', 'sources', 'regions')}
+
+    def index(name, value):
+        values, positions = tables[name]
+        key = json.dumps(value, ensure_ascii=False)
+        if key not in positions:
+            positions[key] = len(values)
+            values.append(value)
+        return positions[key]
+
+    def refs(items):
+        return [value for ref in items for value in (index('sources', ref['source']), ref.get('row'))]
+
+    rows, corrections = [], {}
+    for position, match in enumerate(matches):
+        evidence = match.get('evidence') or [{'source': match['source'], 'row': match.get('row')}]
+        if (evidence[0]['source'], evidence[0].get('row')) != (match['source'], match.get('row')):
+            raise ValueError(f'Primary source must lead the evidence list: {match["id"]}')
+        row = [match['date'], index('events', match['event']), match['p1'], match['p2'], *match['score'],
+               *(index('names', name) for name in match['names']),
+               index('regions', [match['region'], match.get('regions')]), refs(evidence)]
+        if match.get('document_evidence'):
+            row.append(refs(match['document_evidence']))
+        if match.get('sheet_corrections'):
+            corrections[str(position)] = match['sheet_corrections']
+        rows.append(row)
+    return {'schema': 1, **{name: values for name, (values, _) in tables.items()},
+            'rows': rows, 'corrections': corrections}
 
 
 def bootstrap_data(data):
@@ -82,6 +120,7 @@ def build():
     (dist / 'offline.html').write_text(offline)
     save(data, dist / 'data/catalog.json.gz')
     save(data['matches'], dist / 'data/matches.json.gz')
+    save(match_list(data['matches']), dist / MATCH_LIST)
     history, matches = defaultdict(list), defaultdict(list)
     event_matches = defaultdict(list)
     for match in data['matches']:

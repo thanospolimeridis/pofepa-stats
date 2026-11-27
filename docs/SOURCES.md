@@ -46,7 +46,7 @@ The handwritten North Aegean final records ΓΑΤΕΛΟΥΖΟΙ 0–4 ΑΡΙΣΒ
 
 ## Distribution and reproducibility
 
-`data/catalog.json.gz` is deterministic gzip JSON with timestamps disabled in the compression header. The hosted build includes a small bootstrap archive, per-ranking shards, athlete buckets, event shards and full-dataset exports. Athlete buckets contain the complete associated match and ranking histories. The offline HTML embeds the complete compressed data.
+`data/catalog.json.gz` is deterministic gzip JSON with timestamps disabled in the compression header. The hosted build includes a small bootstrap archive, per-ranking shards, athlete buckets, event shards, a compact match list for the Matches page (`data/match-list.json.gz`) and full-dataset exports. The match list keeps what the page filters and renders, including evidence and corrections; CSV exports still read the full records in `data/matches.json.gz`. Athlete buckets contain the complete associated match and ranking histories. The offline HTML embeds the complete compressed data.
 
 Validation checks references, unique record IDs, legal singles scores, date bounds and reconciled counts. Source auditing independently compares every ranking row and every singles evidence row with the cached original cells. UI smoke tests exercise both languages and all routes against the hosted shards. Reproducibility checks hash every generated file recursively.
 

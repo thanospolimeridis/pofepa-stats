@@ -22,6 +22,19 @@ assert.deepEqual(JSON.parse(bytes('coverage.json')),full.coverage);
 assert.deepEqual(JSON.parse(bytes('provenance.json')),{dataset_sha256:full.dataset_sha256,sources:full.sources});
 assert.deepEqual(JSON.parse(gunzipSync(Buffer.from(embedded('offline.html').compressed,'base64'))),full,'offline archive must retain the full catalog');
 assert.deepEqual(archive('data/matches.json.gz'),full.matches,'full match export must remain intact');
+{
+  // The compact Matches-page list must restore everything the list filters and renders.
+  const C=require('../src/core.js'),expanded=C.expandMatchList(archive('data/match-list.json.gz'));
+  const ref=e=>({source:e.source,row:e.row});
+  assert.equal(expanded.length,full.matches.length);
+  full.matches.forEach((m,i)=>{
+    const x=expanded[i];
+    assert.deepEqual([x.date,x.event,x.p1,x.p2,x.score,x.names,x.region,x.regions,x.source,x.row],[m.date,m.event,m.p1,m.p2,m.score,m.names,m.region,m.regions,m.source,m.row],m.id);
+    assert.deepEqual(x.evidence||[ref(x)],(m.evidence||[m]).map(ref),m.id+' evidence');
+    assert.deepEqual(x.document_evidence||[],(m.document_evidence||[]).map(ref),m.id+' document evidence');
+    assert.deepEqual(x.sheet_corrections,m.sheet_corrections,m.id+' corrections');
+  });
+}
 assert.deepEqual(bootstrap.matches,full.matches.slice(0,6));
 assert.deepEqual(bootstrap.coverage.ranking_periods,full.coverage.ranking_periods);
 for(const [key,value] of Object.entries(bootstrap.coverage)){

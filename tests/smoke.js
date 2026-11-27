@@ -8,6 +8,9 @@ assert.equal(C.h2h(rows,'a','b').length,2);
 assert.equal(C.h2h(rows,'a','a').length,0);
 assert(C.search('ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ','πολυμερίδης'));
 assert(C.search('ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ','polymeridis'));
+{const names=['ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ','ΠΑΠΑΔΟΠΟΥΛΟΣ ΓΕΩΡΓΙΟΣ','ΝΤΟΥΣΗΣ ΜΠΑΜΠΗΣ','Ελένη Ζαχαρίου','NGA ESSOE JOEL'];
+  const queries=['','  ','πολυμ','polymeridis','Παπαδόπουλος γεωργ','papadopoulos georgios','dousis','ou','σ ζ','joel ελένη','αθανασιος γεωργ','xyz'];
+  for(const q of queries)for(const a of names)for(const b of names)assert.equal(C.pairSearch(q)(a,b),C.search(a+' '+b,q),'pairSearch must equal search: '+[q,a,b].join(' | '));}
 assert.equal(C.escape('<script>'), '&lt;script&gt;');
 const roundFixtures=[{id:'a',round:' 2η Αγωνιστική '},{id:'b',round:'1η Αγωνιστική'},{id:'c',round:'2η   Αγωνιστική'},{id:'d',round:'Τελικός'},{id:'e',round:''},{id:'f',round:'1η Αγωνιστική (δεύτερη φάση)'}];
 assert.deepEqual(C.fixtureRounds(roundFixtures).map(g=>[g.label,g.rows.map(f=>f.id)]),[
@@ -23,6 +26,10 @@ routes.push('players?category=BET%2040-49','players?category=ANE%2050-59','playe
 routes.push('events?region=crete&season=2025-2026','events?region=central-macedonia&season=2026-2027','events?season=all&kind=all','events?kind=singles');
 routes.push('event/e-872537db429e91ee','event/e-076a3ed10707b3f2','event/e-c3a3dcdc39edcc8e','event/e-df9707fab1c9c47f','event/e-5d1c3230f89cd9aa','event/e-d7de6d7827232949','events?competition=cup');
 routes.push('event/e-517d2fa8e574a147','event/e-517d2fa8e574a147?page=1','event/e-517d2fa8e574a147?page=99');
+const otherSeasonEvent=db.events.find(e=>e.kind==='singles'&&e.season==='2024-2025');
+routes.push('matches?season=2025-2026','matches?q=papadopoulos&season=2025-2026','matches?season=2025-2026&event='+otherSeasonEvent.id,'matches?view=teams&season=2025-2026');
+const fullMatches=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/data/matches.json.gz')));
+const eventSeason=new Map(db.events.map(e=>[e.id,e.season]));
 const fixtures=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/data/fixtures.json.gz')));
 const rendered=new Map();
 (async()=>{
@@ -102,6 +109,21 @@ for(const language of ['el','en']) for(const route of routes){
       const region=db.events.find(e=>e.id===m.event)?.competition_region;
       if(region&&region!=='unspecified'&&region!=='nationwide')assert(app.innerHTML.includes('<span class="meta">'+C.escape(names[region])+'</span>'),'Match rows show where the competition is played');
     }
+  }
+  if(route.startsWith('matches')){
+    const singles=!route.includes('view=teams');
+    assert.equal(requests.includes('data/match-list.json.gz'),singles,route+' compact match-list download scope');
+    assert(!requests.includes('data/matches.json.gz'),route+' must not download full match records');
+    assert(app.innerHTML.includes('id="filter-season"')&&app.innerHTML.includes('<optgroup label="'),route+' needs a season filter and season-grouped competitions');
+  }
+  if(route==='matches?q=papadopoulos&season=2025-2026'){
+    const expected=fullMatches.filter(m=>eventSeason.get(m.event)==='2025-2026'&&C.search(m.names.join(' '),'papadopoulos')).length;
+    assert(expected>0&&app.innerHTML.includes('role="status">'+new Intl.NumberFormat(language==='el'?'el-GR':'en-GB').format(expected)+' '),'Compact list search and season filter must match the full records');
+  }
+  if(route==='matches?season=2025-2026&event='+otherSeasonEvent.id){
+    assert(!app.innerHTML.includes('value="'+otherSeasonEvent.id+'"'),'Competitions from other seasons are not offered');
+    assert(app.innerHTML.includes('<optgroup label="2025-2026">')&&!app.innerHTML.includes('<optgroup label="2024-2025">'));
+    assert(!app.innerHTML.includes(language==='el'?'Δεν βρέθηκαν εγγραφές':'No records match'),'A competition outside the chosen season is ignored, not applied');
   }
 }
 for(const language of ['el','en']){
