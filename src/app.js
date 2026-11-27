@@ -245,8 +245,31 @@ window.pofepaReady = (async () => {
     return breadcrumb(L('Διοργανώσεις','Competitions'),'events')+pageHead(c.name,L('Η σύνθεση βασίζεται στην τελευταία πανελλαδική κατάταξη.','Roster follows the latest national ranking.'))+`<div class="section-title"><h2>${L('Αθλητές','Players')} · ${month(latestPeriod)}</h2></div><div class="panel">${roster.length?rankingTable(roster,latestGeneral):empty()}</div><div class="section-title"><h2>${L('Ομαδικές συναντήσεις','Team fixtures')}</h2></div>`+paged(fixtures,fixtureTable);
   }
   const playerOption=p=>p.name+' · '+(p.registration?'ΔΑΙ '+p.registration:p.id);
+  // Head-to-head player picker: an ARIA combobox over the same accent-insensitive
+  // search as the player list, instead of a datalist of every profile.
+  const pickerForms=new Map();
+  const pickerText=p=>[p.name,p.aliases.join(' '),p.registration,clubs.get(p.club)?.name].join(' ');
+  const suggestPlayers=(query,limit=8)=>Pofepa.playerSuggestions(db.players,query,{text:pickerText,played:p=>statsByPlayer.get(p.id)?.played||0,limit,cache:pickerForms});
+  function playerPicker(key,name,label,player){const id='compare-'+key;
+    return `<div class="field player-picker"><label for="${id}">${E(label)}</label><input id="${id}" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="${id}-list" value="${E(player?playerOption(player):'')}" placeholder="${E(L('Όνομα, ΔΑΙ ή ομάδα','Name, ID or team'))}" autocomplete="off" autocapitalize="off" spellcheck="false" required><input type="hidden" name="${name}" value="${E(player?.id||'')}"><ul id="${id}-list" class="picker-list" role="listbox" aria-label="${E(label)}" hidden></ul><span class="sr-only" role="status" id="${id}-status"></span></div>`;}
+  const pickerParts=input=>{const picker=input.closest('.player-picker');return {picker,list:picker.querySelector('[role=listbox]'),status:picker.querySelector('[role=status]'),chosen:picker.querySelector('input[type=hidden]')};};
+  function closePicker(input){const {list}=pickerParts(input);list.hidden=true;input.setAttribute('aria-expanded','false');input.removeAttribute('aria-activedescendant');}
+  function showSuggestions(input){const {list,status}=pickerParts(input),{total,results}=suggestPlayers(input.value),typed=input.value.trim();
+    list.innerHTML=results.length?results.map((p,i)=>`<li id="${input.id}-opt-${i}" role="option" aria-selected="false" data-player="${E(p.id)}"><strong>${E(p.name)}</strong><small>${E([p.registration?L('ΔΑΙ','ID')+' '+p.registration:L('Προσωρινή ταυτότητα','Provisional identity'),clubs.get(p.club)?.name,p.category,statsByPlayer.get(p.id)?.played?num(statsByPlayer.get(p.id).played)+' '+L('αγώνες','matches'):''].filter(Boolean).join(' · '))}</small></li>`).join('')+(total>results.length?`<li class="picker-more" role="presentation">${E(L(`Εμφανίζονται ${num(results.length)} από ${num(total)} · συνεχίστε να πληκτρολογείτε`,`Showing ${num(results.length)} of ${num(total)} · keep typing`))}</li>`:''):typed?`<li class="picker-more" role="presentation">${E(L('Δεν βρέθηκε αθλητής','No matching player'))}</li>`:'';
+    list.hidden=!typed;input.setAttribute('aria-expanded',String(results.length>0));input.removeAttribute('aria-activedescendant');
+    status.textContent=typed?(total?num(total)+' '+L(total===1?'αθλητής':'αθλητές','matching players'):L('Δεν βρέθηκε αθλητής','No matching player')):'';}
+  function choosePlayer(input,option){const player=players.get(option?.dataset.player);if(!player)return;const {chosen,status}=pickerParts(input);
+    input.value=playerOption(player);chosen.value=player.id;status.textContent='';closePicker(input);const error=document.getElementById('compare-error');if(error)error.textContent='';}
+  function movePicker(input,step){const {list}=pickerParts(input);if(list.hidden)showSuggestions(input);const options=[...list.querySelectorAll('[role=option]')];if(!options.length)return;
+    const current=options.findIndex(o=>o.id===input.getAttribute('aria-activedescendant')),next=current<0?(step>0?0:options.length-1):Math.min(options.length-1,Math.max(0,current+step));
+    options.forEach((o,i)=>{o.setAttribute('aria-selected',String(i===next));o.classList.toggle('active',i===next);});input.setAttribute('aria-activedescendant',options[next].id);options[next].scrollIntoView({block:'nearest'});}
+  // On submit: the chosen suggestion, else the exact label, else a unique match for the typed text.
+  function pickedPlayer(form,name){const chosen=form.querySelector(`input[type=hidden][name="${name}"]`),text=chosen?.closest('.player-picker')?.querySelector('[role=combobox]')?.value.trim()||'';
+    if(players.has(chosen?.value))return players.get(chosen.value);const exact=db.players.find(p=>playerOption(p)===text);if(exact)return exact;
+    const registered=db.players.filter(p=>p.registration&&p.registration===text);if(registered.length===1)return registered[0];
+    const {total,results}=suggestPlayers(text,1);return total===1?results[0]:null;}
   function compare(){const a=players.get(param('p1')),b=players.get(param('p2')),rows=h2h(db.matches,a?.id,b?.id),same=a&&b&&a.id===b.id;
-    return pageHead(L('Σύγκριση αθλητών','Head to head'),L('Επίλεξε δύο αθλητές. Η διεύθυνση κρατά τη σύγκριση για να τη μοιραστείς.','Choose two players. The URL preserves your comparison for sharing.'))+`<form id="compare-form" class="panel panel-pad"><div class="compare"><div class="field"><label for="compare-a">${L('Πρώτος αθλητής','First player')}</label><input id="compare-a" name="p1" list="player-options" value="${E(a?playerOption(a):'')}" placeholder="${L('Όνομα ή ΔΑΙ','Name or ID')}" autocomplete="off" required></div><span class="versus">vs</span><div class="field"><label for="compare-b">${L('Δεύτερος αθλητής','Second player')}</label><input id="compare-b" name="p2" list="player-options" value="${E(b?playerOption(b):'')}" placeholder="${L('Όνομα ή ΔΑΙ','Name or ID')}" autocomplete="off" required></div></div><datalist id="player-options">${db.players.map(p=>`<option value="${E(playerOption(p))}"></option>`).join('')}</datalist><button class="primary" style="margin-top:20px">${L('Σύγκριση','Compare')}</button><p id="compare-error" role="alert" style="margin-top:14px"></p></form>`+
+    return pageHead(L('Σύγκριση αθλητών','Head to head'),L('Επίλεξε δύο αθλητές. Η διεύθυνση κρατά τη σύγκριση για να τη μοιραστείς.','Choose two players. The URL preserves your comparison for sharing.'))+`<form id="compare-form" class="panel panel-pad"><div class="compare">${playerPicker('a','p1',L('Πρώτος αθλητής','First player'),a)}<span class="versus">vs</span>${playerPicker('b','p2',L('Δεύτερος αθλητής','Second player'),b)}</div><button class="primary" style="margin-top:20px">${L('Σύγκριση','Compare')}</button><p id="compare-error" role="alert" style="margin-top:14px"></p></form>`+
       (same?empty(L('Επίλεξε δύο διαφορετικούς αθλητές.','Choose two different players.')):a&&b?`<div class="panel compare-score"><div><h2>${pLink(a.id)}</h2><small>${E(a.category)}</small></div><strong>${stats(rows,a.id).wins} : ${stats(rows,b.id).wins}</strong><div><h2>${pLink(b.id)}</h2><small>${E(b.category)}</small></div></div>${rows.length?paged(rows,matchTable):empty(L('Δεν υπάρχουν μεταξύ τους αγώνες στο εισαγμένο αρχείο. Αυτό δεν σημαίνει ότι δεν έχουν αγωνιστεί ποτέ.','No meetings in the imported archive. This does not mean they have never played.'))}`:'');
   }
   function aboutBase(){const c=db.coverage;
@@ -335,13 +358,26 @@ window.pofepaReady = (async () => {
     if(focus){const el=document.getElementById(focus);el?.focus();try{el?.setSelectionRange(pos,pos);}catch{}}
   }
   let searchTimer;
-  app.addEventListener('input',event=>{if(event.target.matches('input[data-filter]')){clearTimeout(searchTimer);const {filter}=event.target.dataset,value=event.target.value;searchTimer=setTimeout(()=>updateFilter(filter,value),160);}});
+  app.addEventListener('input',event=>{if(event.target.matches('input[data-filter]')){clearTimeout(searchTimer);const {filter}=event.target.dataset,value=event.target.value;searchTimer=setTimeout(()=>updateFilter(filter,value),160);}
+    else if(event.target.matches('.player-picker [role=combobox]')){pickerParts(event.target).chosen.value='';showSuggestions(event.target);}});
+  // Suggestions are chosen on pointer-up (a touch scroll of the list cancels the
+  // pointer, so it never chooses); mouse-down only keeps focus in the combobox.
+  app.addEventListener('mousedown',event=>{if(event.target.closest?.('.picker-list'))event.preventDefault();});
+  app.addEventListener('pointerup',event=>{const option=event.target.closest?.('.picker-list [role=option]');if(option)choosePlayer(option.closest('.player-picker').querySelector('[role=combobox]'),option);});
+  app.addEventListener('focusout',event=>{const input=event.target;if(input.matches?.('.player-picker [role=combobox]'))setTimeout(()=>{if(document.activeElement!==input&&input.isConnected)closePicker(input);},150);});
   app.addEventListener('change',event=>{if(event.target.matches('select[data-draw-zoom]')){const image=document.getElementById('draw-canvas-'+event.target.dataset.drawZoom);image.style.width=event.target.value==='fit'?'100%':Math.round(Number(image.dataset.width)*Number(event.target.value))+'px';}if(event.target.matches('select[data-filter]'))updateFilter(event.target.dataset.filter,event.target.value);});
   function jumpToSection(id){const section=document.getElementById(id);if(section){section.focus({preventScroll:true});section.scrollIntoView({block:'start'});}}
   function showRankingPoint(event){const point=event.target.closest('[data-rank-point]');if(point){const readout=document.getElementById('ranking-readout');if(readout)readout.textContent=point.dataset.rankPoint;}}
   app.addEventListener('focusin',showRankingPoint);
   // The chart is one tab stop; arrow keys, Home and End step through its points.
-  app.addEventListener('keydown',event=>{const chart=event.target.closest?.('.athlete-ranking-chart');if(!chart)return;
+  // Player picker keys: arrows move through suggestions, Enter chooses, Escape closes.
+  function pickerKey(event){const input=event.target;
+    if(event.key==='ArrowDown'||event.key==='ArrowUp'){event.preventDefault();movePicker(input,event.key==='ArrowDown'?1:-1);return;}
+    const {list}=pickerParts(input),open=!list.hidden,options=[...list.querySelectorAll('[role=option]')];
+    if(event.key==='Enter'&&open&&options.length){const active=document.getElementById(input.getAttribute('aria-activedescendant')||'')||(options.length===1?options[0]:null);if(active){event.preventDefault();choosePlayer(input,active);}}
+    else if(event.key==='Escape'&&open){event.preventDefault();closePicker(input);}}
+  app.addEventListener('keydown',event=>{if(event.target.matches?.('.player-picker [role=combobox]'))return pickerKey(event);
+    const chart=event.target.closest?.('.athlete-ranking-chart');if(!chart)return;
     const points=[...chart.querySelectorAll('[data-rank-point]')],steps={ArrowLeft:-1,ArrowDown:-1,ArrowRight:1,ArrowUp:1};if(!points.length)return;
     let index=Number(chart.dataset.active??points.length-1);
     if(event.key in steps)index=Math.min(points.length-1,Math.max(0,index+steps[event.key]));else if(event.key==='Home')index=0;else if(event.key==='End')index=points.length-1;else return;
@@ -361,7 +397,7 @@ window.pofepaReady = (async () => {
   });
   app.addEventListener('submit',event=>{event.preventDefault();const form=event.target;
     if(form.id==='home-search')location.hash=href('players',{q:new FormData(form).get('q')}).slice(1);
-    if(form.id==='compare-form'){const values=new FormData(form);const a=db.players.find(p=>playerOption(p)===values.get('p1')),b=db.players.find(p=>playerOption(p)===values.get('p2'));
+    if(form.id==='compare-form'){const a=pickedPlayer(form,'p1'),b=pickedPlayer(form,'p2');
       if(!a||!b||a.id===b.id){document.getElementById('compare-error').textContent=L('Επίλεξε δύο διαφορετικούς αθλητές από τις προτάσεις.','Select two different players from the suggestions.');return;}
       location.hash=href('h2h',{p1:a.id,p2:b.id}).slice(1);
     }

@@ -18,6 +18,18 @@
     const has = (name, token) => { const [folded, roman] = forms(name); return folded.includes(token) || roman.includes(token); };
     return (a, b) => tokens.every(token => has(a, token) || has(b, token));
   }
+  // Player suggestions (Head to head picker). Every query token must match the
+  // player's text (accent-insensitive, Greek or Latin). Exact registration
+  // first, then names starting with the first token, then most matches played.
+  function playerSuggestions(players, query, {text, played = () => 0, limit = 8, cache = new Map()} = {}) {
+    const q = String(query || '').trim();
+    if (!q) return {total: 0, results: []};
+    const found = pairSearch(q, cache), first = fold(q).split(/\s+/)[0];
+    const rank = p => p.registration && p.registration === q ? 0 : fold(p.name).startsWith(first) || romanize(p.name).startsWith(first) ? 1 : 2;
+    const matches = players.filter(p => found(text(p), '')).map(p => [rank(p), played(p), p]);
+    matches.sort((a, b) => a[0] - b[0] || b[1] - a[1] || a[2].name.localeCompare(b[2].name, 'el'));
+    return {total: matches.length, results: matches.slice(0, limit).map(m => m[2])};
+  }
   // Reverse of build.py match_list(): restores the fields the Matches page
   // filters and renders. Single primary citations stay implicit (source/row).
   function expandMatchList(list) {
@@ -103,7 +115,7 @@
     return {rounds,groups,placement,champion:finals.length===1?finals[0].winner:null};
   }
   const escape = value => String(value ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const api={fold,romanize,search,pairSearch,expandMatchList,stats,h2h,fixtureRounds,cupBracket,escape};
+  const api={fold,romanize,search,pairSearch,playerSuggestions,expandMatchList,stats,h2h,fixtureRounds,cupBracket,escape};
   if(typeof module!=='undefined' && module.exports) module.exports=api;
   else root.Pofepa=api;
 })(globalThis);

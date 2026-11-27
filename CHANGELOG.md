@@ -10,6 +10,7 @@
 - Add a season filter to Matches, group competitions by season, and show the season in each competition name.
 - Download the dataset as the published gzip catalog in both editions, without parsing and re-serialising the whole archive in the page.
 - Return to the previous scroll position on Back/Forward, move focus to the new page's heading after navigation, make the ranking chart a single tab stop with arrow-key navigation, and title missing pages "Page not found".
+- Replace the Head to head datalist of every profile with a player picker: accent-insensitive Greek or Latin search over name, registration and team, keyboard and touch selection, and ranked suggestions.
 
 ## Prototype updates — 2026-11-26
 

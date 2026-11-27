@@ -11,6 +11,16 @@ assert(C.search('ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ','polymeridis'));
 {const names=['ΠΟΛΥΜΕΡΙΔΗΣ ΑΘΑΝΑΣΙΟΣ','ΠΑΠΑΔΟΠΟΥΛΟΣ ΓΕΩΡΓΙΟΣ','ΝΤΟΥΣΗΣ ΜΠΑΜΠΗΣ','Ελένη Ζαχαρίου','NGA ESSOE JOEL'];
   const queries=['','  ','πολυμ','polymeridis','Παπαδόπουλος γεωργ','papadopoulos georgios','dousis','ou','σ ζ','joel ελένη','αθανασιος γεωργ','xyz'];
   for(const q of queries)for(const a of names)for(const b of names)assert.equal(C.pairSearch(q)(a,b),C.search(a+' '+b,q),'pairSearch must equal search: '+[q,a,b].join(' | '));}
+{const people=[{id:'a',name:'ΠΑΠΑΔΟΠΟΥΛΟΣ ΓΕΩΡΓΙΟΣ',registration:'12',team:'ΑΚΤΩΡ'},{id:'b',name:'ΓΕΩΡΓΙΟΥ ΠΑΠΑΣ',registration:'120',team:'ΑΡΗΣ'},{id:'c',name:'ΝΙΚΟΛΑΟΥ ΜΑΡΙΑ',registration:'',team:'ΑΚΤΩΡ'}];
+  const played={a:5,b:1,c:9},suggest=(q,limit)=>C.playerSuggestions(people,q,{text:p=>[p.name,p.registration,p.team].join(' '),played:p=>played[p.id],limit});
+  const ids=q=>suggest(q).results.map(p=>p.id);
+  assert.deepEqual(ids('γεωργ'),['b','a'],'Names starting with the query come first');
+  assert.deepEqual(ids('12'),['a','b'],'An exact registration comes first');
+  assert.deepEqual(ids('papad'),['a'],'Latin input matches Greek names');
+  assert.deepEqual(ids('Παπαδόπουλος'),['a'],'Accents are ignored');
+  assert.deepEqual(ids('ακτωρ'),['c','a'],'Team matches rank by matches played');
+  assert.deepEqual(ids('  '),[]);
+  assert.deepEqual(suggest('α',1),{total:3,results:[people[2]]},'Limit keeps the total');}
 assert.equal(C.escape('<script>'), '&lt;script&gt;');
 const roundFixtures=[{id:'a',round:' 2η Αγωνιστική '},{id:'b',round:'1η Αγωνιστική'},{id:'c',round:'2η   Αγωνιστική'},{id:'d',round:'Τελικός'},{id:'e',round:''},{id:'f',round:'1η Αγωνιστική (δεύτερη φάση)'}];
 assert.deepEqual(C.fixtureRounds(roundFixtures).map(g=>[g.label,g.rows.map(f=>f.id)]),[
@@ -116,6 +126,13 @@ for(const language of ['el','en']) for(const route of routes){
       const region=db.events.find(e=>e.id===m.event)?.competition_region;
       if(region&&region!=='unspecified'&&region!=='nationwide')assert(app.innerHTML.includes('<span class="meta">'+C.escape(names[region])+'</span>'),'Match rows show where the competition is played');
     }
+  }
+  if(route.startsWith('h2h')){
+    assert(!app.innerHTML.includes('<datalist'),'Head to head must not ship a datalist of every profile');
+    assert.equal((app.innerHTML.match(/role="combobox"/g)||[]).length,2,'Two player pickers');
+    const chosen=[...app.innerHTML.matchAll(/<input type="hidden" name="(p[12])" value="([^"]*)">/g)].map(m=>m[1]+'='+m[2]);
+    const params=new URLSearchParams(route.split('?')[1]||'');
+    assert.deepEqual(chosen,['p1','p2'].map(k=>k+'='+(db.players.some(p=>p.id===params.get(k))?params.get(k):'')),'Pickers carry the chosen player ids');
   }
   if(route.startsWith('matches')){
     const singles=!route.includes('view=teams');
