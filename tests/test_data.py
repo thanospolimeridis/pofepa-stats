@@ -116,13 +116,18 @@ class DatasetTests(unittest.TestCase):
 
     def test_results_under_one_date_heading_keep_that_date(self):
         # rl_03_2018.xls row 428 heads the second day "11-03-2018"; rl_be_05-2016.xls
-        # row 19 heads a tournament "7-8/05/16", which is not one known day.
+        # row 19 heads a two-day tournament "7-8/05/16", dated to its first day.
         source = {s["url"].rsplit("/", 1)[-1]: s["id"] for s in self.data["sources"]}
         second_day = [m for m in self.data["matches"] if m["source"] == source["rl_03_2018.xls"] and m["evidence"][0].get("date_row") == 428]
         self.assertEqual({m["date"] for m in second_day}, {"2018-03-11"})
         self.assertEqual(len(second_day), 56)
-        ranged = [m for m in self.data["matches"] if m["source"] == source["rl_be_05-2016.xls"] and m["row"] >= 19]
-        self.assertFalse([m["id"] for m in ranged if m["date"] == "2016-05-05"], "results below the range never take the earlier date")
+        ranged = [m for m in self.data["matches"] if m["source"] == source["rl_be_05-2016.xls"] and m["evidence"][0].get("date_row") == 19]
+        self.assertEqual(len(ranged), 111)
+        self.assertEqual({m["date"] for m in ranged}, {"2016-05-07"}, "the first day of the range, never the earlier block's date")
+        self.assertEqual({m["evidence"][0].get("date_through") for m in ranged}, {"2016-05-08"})
+        self.assertEqual({tuple(m["clubs"]) for m in ranged}, {("", "")}, "the tournament has no teams")
+        through = [m for m in self.data["matches"] if any("date_through" in e for e in m["evidence"])]
+        self.assertEqual(len(through), len(ranged), "no other result is dated from a range")
 
     def test_skipped_rounds_are_listed_and_new_ones_with_results_need_review(self):
         # A parallel-column round that does not align yields no fixtures and is

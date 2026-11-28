@@ -139,14 +139,14 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 136048,
- "players": 9111,
+ "matches": 136159,
+ "players": 9129,
  "ranked_players": 3851,
- "provisional_players": 5260,
+ "provisional_players": 5278,
  "fixtures": 20444,
  "reported_fixtures": 17186,
  "ranking_rows": 742275,
- "events": 942,
+ "events": 943,
  "match_date_min": "2011-10-26",
  "match_date_max": "2026-11-24",
  "excluded_rows": {
@@ -155,7 +155,7 @@
   "overlapping_source_result": 5436,
   "no_opponent": 1044,
   "walkover_mark": 239,
-  "invalid_date": 137,
+  "invalid_date": 26,
   "future_result": 31,
   "invalid_participants": 159,
   "date_outside_workbook_year": 27,
@@ -164,11 +164,11 @@
  "identity_methods": {
   "sheet_registration": 1276,
   "reviewed_sheet_name_and_team": 609,
-  "unique_name_in_month": 50230,
+  "unique_name_in_month": 50396,
   "exact_name_and_team": 182092,
   "unique_name_team_differs": 25881,
-  "name_not_found": 10938,
-  "ambiguous_name": 299,
+  "name_not_found": 10985,
+  "ambiguous_name": 308,
   "team_mismatch": 771
  },
  "identity_conflicts": [

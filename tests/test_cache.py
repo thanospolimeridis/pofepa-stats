@@ -196,13 +196,18 @@ class ResultRowTests(unittest.TestCase):
         for name in ('ΑΝΕΥΡΥΣΜΑΣ ΝΙΚΟΣ', 'ΑΓΩΝΟΣ', 'ΞΑΝΘΟΣ Χ.', 'LEI SHI', 'ΠΑΠΑΓΕΩΡΓΙΟΥ-ΝΑΝΤΙΜ', 'X', ''):
             self.assertFalse(collect.no_opponent(name), name)
 
-    def test_a_result_under_a_date_range_is_reported_not_dated(self):
+    def test_a_result_under_a_date_range_takes_its_first_day(self):
         data = self.collect_rows([
             ('11-03-2018', 'ΑΛΦΑ ΝΙΚΟΣ', 'ΒΗΤΑ ΓΙΩΡΓΟΣ', 3, 1, 'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'),
-            ('7-8/05/2018', 'ΑΛΦΑ ΝΙΚΟΣ', 'ΒΗΤΑ ΓΙΩΡΓΟΣ', 3, 2, 'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'),
+            ('7-8/05/18', 'ΑΛΦΑ ΝΙΚΟΣ', 'ΒΗΤΑ ΓΙΩΡΓΟΣ', 3, 2, 'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'),
+            ('30/4-1/5/18', 'ΑΛΦΑ ΝΙΚΟΣ', 'ΒΗΤΑ ΓΙΩΡΓΟΣ', 3, 0, 'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'),
+            ('2/6/208', 'ΑΛΦΑ ΝΙΚΟΣ', 'ΒΗΤΑ ΓΙΩΡΓΟΣ', 0, 3, 'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'),
         ])
-        self.assertEqual([(m['date'], m['score']) for m in data['matches']], [('2018-03-11', [3, 1])])
-        self.assertEqual(data['coverage']['excluded_rows'], {'invalid_date': 1})
+        by_date = {m['date']: m for m in data['matches']}
+        self.assertEqual({day: m['score'] for day, m in by_date.items()}, {'2018-03-11': [3, 1], '2018-05-07': [3, 2]})
+        self.assertEqual(by_date['2018-05-07']['evidence'][0]['date_through'], '2018-05-08')
+        self.assertNotIn('date_through', by_date['2018-03-11']['evidence'][0])
+        self.assertEqual(data['coverage']['excluded_rows'], {'invalid_date': 2})
 
 
 if __name__ == '__main__':

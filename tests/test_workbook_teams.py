@@ -6,7 +6,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from workbooks import LegacySheet, result_date, result_rows, team_pair
+from workbooks import LegacySheet, result_date, result_days, result_rows, team_pair
 
 
 class Sheet(LegacySheet):
@@ -75,7 +75,7 @@ class DateBlockTests(unittest.TestCase):
     def rows(self, rows):
         return {num: (values, context) for num, values, context in result_rows(Sheet(rows))}
 
-    def test_a_date_range_starts_a_block_without_the_previous_date_or_teams(self):
+    def test_a_date_range_starts_a_block_dated_to_its_first_day(self):
         # Reduced from rl_be_05-2016.xls rows 10-19: a league match dated 5 May,
         # then a two-day tournament headed "7-8/05/16" with no team cells.
         out = self.rows([
@@ -89,9 +89,12 @@ class DateBlockTests(unittest.TestCase):
         for num in (3, 4):
             values, context = out[num]
             self.assertEqual(values[0], '7-8/05/16', 'the printed range, never the earlier date')
-            self.assertIsNone(result_date(values[0]), 'a range is not one known day')
+            self.assertEqual(result_date(values[0]).isoformat(), '2016-05-07', 'the first day of the range')
+            self.assertEqual(context['date_through'], '2016-05-08', 'the last day stays with the evidence')
             self.assertEqual((values[5], values[6], values[7]), ('', '', '1ο ΒΟΡΕΙΟΥ ΕΛΛΑΔΑΣ'))
             self.assertEqual((context['date_row'], context['team_row']), (3, None))
+        for num in (1, 2):
+            self.assertNotIn('date_through', out[num][1], 'a single day has no range')
 
     def test_a_dashed_date_is_the_date_of_its_block(self):
         # Reduced from rl_03_2018.xls rows 319 and 428: the second day is typed "11-03-2018".
@@ -115,12 +118,20 @@ class DateBlockTests(unittest.TestCase):
         self.assertIsNone(result_date(out[3][0][0]))
         self.assertEqual((out[3][0][5], out[3][0][6]), ('', ''))
 
-    def test_only_one_full_day_is_a_date(self):
+    def test_a_day_or_a_range_of_days_in_one_month_is_a_date(self):
         for text, expected in (('26/10/2011', '2011-10-26'), ('6/1/2011', '2011-01-06'), ('11-03-2018', '2018-03-11'),
-                               ('11.03.2018', '2018-03-11'), (' 26/10/2011 ', '2011-10-26')):
-            self.assertEqual(result_date(text).isoformat(), expected, text)
+                               ('11.03.2018', '2018-03-11'), (' 26/10/2011 ', '2011-10-26'), ('26/10/11', '2011-10-26')):
+            self.assertEqual([day.isoformat() for day in result_days(text)], [expected, expected], text)
         self.assertEqual(result_date(datetime(2019, 6, 1, 0, 0)).isoformat(), '2019-06-01')
-        for text in ('7-8/05/16', '26/10/11', '31/02/2015', '11-03/2018', '2018-03-11', 'ΣΑΒΒΑΤΟ', '', None, 43160):
+        for text, first, last in (('7-8/05/16', '2016-05-07', '2016-05-08'), ('7 - 8/05/2016', '2016-05-07', '2016-05-08'),
+                                  ('6-8.05.16', '2016-05-06', '2016-05-08')):
+            self.assertEqual([day.isoformat() for day in result_days(text)], [first, last], text)
+            self.assertEqual(result_date(text).isoformat(), first, text)
+        # Not a date: a reversed or empty range, a day that does not exist, a range across
+        # months, a three-digit year (rl_06_2018.xls prints "2/6/208") and other text.
+        for text in ('8-7/05/16', '7-7/05/16', '30-31/02/16', '30/4-1/5/16', '31/02/2015', '29/2/2015', '2/6/208',
+                     '11-03/2018', '2018-03-11', 'ΣΑΒΒΑΤΟ', '', None, 43160):
+            self.assertIsNone(result_days(text), text)
             self.assertIsNone(result_date(text), text)
 
 

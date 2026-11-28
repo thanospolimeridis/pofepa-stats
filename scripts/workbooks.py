@@ -108,23 +108,38 @@ def without_walkover_mark(value):
     return WALKOVER_MARK.sub('', value) if isinstance(value, str) else value
 
 
-def result_date(value):
-    """The single day printed for a result, or None.
+def result_days(value):
+    """The first and last day printed for a result, or None.
 
-    Workbooks print it as an Excel date or as day, month and four-digit year
-    separated by "/", "-" or "." (26/10/2011, 11-03-2018). A range such as
-    "7-8/05/16", a two-digit year or any other text is not one known day.
+    Workbooks print one day as an Excel date or as day, month and year
+    separated by "/", "-" or "." (26/10/2011, 11-03-2018). A tournament played
+    over several days of one month is headed by a range (7-8/05/16): its first
+    and last day. A two-digit year is read as 20yy; the collector quarantines a
+    year far from the workbook's. Any other text is not a date.
     """
     if isinstance(value, datetime):
-        return value.date()
+        return value.date(), value.date()
     text = str(value if value is not None else '').replace('\u200b', '').replace('\ufeff', '').strip()
-    found = re.fullmatch(r'(\d{1,2})([/.-])(\d{1,2})\2(\d{4})', text)
-    if not found:
-        return None
+    found = re.fullmatch(r'(\d{1,2})([/.-])(\d{1,2})\2(\d{4}|\d{2})', text)
+    if found:
+        first = last = found[1]
+    else:
+        found = re.fullmatch(r'(\d{1,2})\s*-\s*(\d{1,2})([/.])(\d{1,2})\3(\d{4}|\d{2})', text)
+        if not found or int(found[1]) >= int(found[2]):
+            return None
+        first, last = found[1], found[2]
+    year = int(found[found.lastindex])
+    month = int(found[found.lastindex - 1])
     try:
-        return date(int(found[4]), int(found[3]), int(found[1]))
+        return tuple(date(year + 2000 if year < 100 else year, month, int(day)) for day in (first, last))
     except ValueError:
         return None
+
+
+def result_date(value):
+    """The day a result is dated: the single day printed, or the first day of a range."""
+    days = result_days(value)
+    return days[0] if days else None
 
 
 def team_pair(values):
@@ -145,7 +160,8 @@ def result_rows(sheet):
     A new date/team block resets teams; numeric cells are never team names.
     Anything printed in the date column starts a block, also when it is not one
     date (a range such as "7-8/05/16", or a note): the rows below it never
-    inherit the previous block's date and teams.
+    inherit the previous block's date and teams. Results under a range are dated
+    to its first day and keep its last day as date_through.
     """
     rows = list(sheet.iter_rows(values_only=True))
     votes = Counter()
@@ -209,6 +225,9 @@ def result_rows(sheet):
             'date_row': date_row if legacy else rownum, 'team_row': team_row if legacy else rownum,
             'event_row': event_row if legacy else rownum,
         }
+        days = result_days(date_value)
+        if days and days[1] != days[0]:
+            context['date_through'] = days[1].isoformat()  # the date is the first day of a printed range
         if walkover:
             context['walkover'] = True  # excluded by the collector; never stored as evidence
         yield rownum, (date_value, row[1], row[2], a, b, *clubs, event_value), context
