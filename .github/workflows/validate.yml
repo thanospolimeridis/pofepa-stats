@@ -1,5 +1,11 @@
 name: Validate archive
-on: [push, pull_request, workflow_dispatch]
+# Every branch except main, and pull requests: the full check set.
+# main runs the same checks in "Publish GitHub Pages" before deploying.
+on:
+  push:
+    branches-ignore: [main]
+  pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
@@ -14,7 +20,5 @@ jobs:
         with:
           node-version: '22'
       - run: pip install -r requirements.txt
-      - run: python -m unittest discover -s tests -v
-      - run: python scripts/build.py
-      - run: node tests/smoke.js
-      - run: python scripts/check_reproducible_build.py
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: bash scripts/check_all.sh
