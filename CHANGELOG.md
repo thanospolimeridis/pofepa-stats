@@ -3,6 +3,7 @@
 ## Prototype updates — 2026-11-28
 
 - Check the figures quoted in README.md and docs/SOURCES.md against the committed catalog (`tests/test_docs.py`). A data change that leaves a sentence stale now fails the tests and names the sentence to update. Page counts and build sizes need the raw cache or a build, so they are not checked.
+- Lay out `src/app.js` and `src/style.css` so changes read in a diff: long functions get one statement per line, long templates break only inside their `${…}` substitutions, and the stylesheet has one declaration per line with media queries indented. Only whitespace between tokens changed: the parsed script and stylesheet are identical and every route renders the same HTML. The page grows by about 1 KB compressed. Remaining long lines are bilingual sentences and static markup.
 
 ## Prototype updates — 2026-11-27
 
