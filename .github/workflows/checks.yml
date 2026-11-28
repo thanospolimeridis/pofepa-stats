@@ -1,4 +1,4 @@
-name: Validate archive
+name: Checks
 # Every branch except main, and pull requests: the full check set.
 # main runs the same checks in "Publish GitHub Pages" before deploying.
 on:
