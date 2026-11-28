@@ -82,7 +82,7 @@ def main():
     parser.add_argument('--cache',type=Path,default=ROOT/'capture')
     args=parser.parse_args()
     data=refresh(load(),Cache(args.cache,offline=args.offline))
-    save(data,ROOT/'data/catalog.json.gz')
+    save(data,ROOT/'data/catalog')
     print(f"Reviewed {len(data['coverage']['document_reviews'])} documents; {data['coverage']['reported_fixtures']:,} reported team results.")
 
 

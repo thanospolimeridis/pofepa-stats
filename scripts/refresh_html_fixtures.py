@@ -104,7 +104,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--offline', action='store_true')
     parser.add_argument('--cache', type=Path, default=ROOT / 'capture')
-    parser.add_argument('--output', type=Path, default=ROOT / 'data/catalog.json.gz')
+    parser.add_argument('--output', type=Path, default=ROOT / 'data/catalog')
     parser.add_argument('--issues-output', type=Path, default=ISSUES)
     args = parser.parse_args()
     data, issues = load(), json.loads(ISSUES.read_text())

@@ -1,0 +1,2 @@
+# The catalog is generated, line-per-record text so git stores changes as small deltas.
+data/catalog/** linguist-generated=true

@@ -33,7 +33,7 @@ python3 -m http.server 8000 --directory dist
 
 Open `http://localhost:8000`. The generated root `index.html` and `dist/offline.html` contain the complete compressed archive and can be saved for offline use. The hosted site loads ranking, athlete and competition data on demand; team fixtures and detailed source reports load only on their respective pages. Cup drawings load only when their competition is opened and are also included in the offline edition. The compressed initial data package is approximately 631 KB, down from 2.01 MB. A modern browser with `DecompressionStream` support is required.
 
-The committed dataset is `data/catalog.json.gz`. Builds require Python 3.10+ and make no network requests. Generated build files and raw downloads are ignored by Git. The small, compressed source-bound cup assets in `data/cup-draws/` are committed so deployment needs no source downloads or PDF conversion.
+The committed dataset is `data/catalog/`: an index plus JSON Lines shards (one record per line, files of at most about 8 MB) that git stores as small deltas, so a data change no longer adds a whole 18 MB copy to the history. Scripts read and write it through `scripts/dataset.py`; the downloadable `dist/data/catalog.json.gz` is built from it. Builds require Python 3.10+ and make no network requests. Generated build files and raw downloads are ignored by Git. The small, compressed source-bound cup assets in `data/cup-draws/` are committed so deployment needs no source downloads or PDF conversion.
 
 ## Collect, validate and reproduce
 

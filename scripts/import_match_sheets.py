@@ -254,7 +254,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--offline', action='store_true')
     parser.add_argument('--discover', action='store_true')
-    parser.add_argument('--output', type=Path, default=ROOT / 'data/catalog.json.gz')
+    parser.add_argument('--output', type=Path, default=ROOT / 'data/catalog')
     args = parser.parse_args()
     cache = Cache(ROOT / 'capture', offline=args.offline)
     data = load()

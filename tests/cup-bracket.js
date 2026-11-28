@@ -69,7 +69,7 @@ assert.deepEqual(model.rounds[1].matches[0].feeders,[null,null]);
 assert.equal(cupBracket([fixture('g','ΟΜΙΛΟΣ ΠΟΥΛ','A','B')]).rounds.length,0);
 
 // All nine historical HTML cups and the single North Aegean cup-final sheet.
-const data=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(__dirname,'../data/catalog.json.gz'))));
+const data=require('./lib/catalog.js')();
 const ids=['e-0d88862fea9fcb51','e-df9707fab1c9c47f','e-bfd8ebf8bd3bddab','e-5d1c3230f89cd9aa','e-fcf3bcb08ba5838b','e-d1617a2e858d3586','e-ad84a67db7ab2ac1','e-a6dcea0ba29a77cc','e-ec08bc9719630027','e-d7de6d7827232949'];
 for(const id of ids) {
   const rows=data.fixtures.filter(f=>f.event===id),saved=JSON.stringify(rows);

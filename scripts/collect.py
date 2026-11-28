@@ -575,7 +575,7 @@ def main():
     parser.add_argument("--refresh", action="store_true", help="Re-fetch configured source scope")
     parser.add_argument("--as-of", default=date.today().isoformat())
     parser.add_argument("--cache", type=Path, default=ROOT / "capture")
-    parser.add_argument("--output", type=Path, default=ROOT / "data/catalog.json.gz")
+    parser.add_argument("--output", type=Path, default=ROOT / "data/catalog", help="Catalog folder (or a .json.gz file)")
     args = parser.parse_args()
     if args.offline and args.refresh:
         parser.error("--offline and --refresh are mutually exclusive")

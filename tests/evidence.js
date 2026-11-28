@@ -7,7 +7,7 @@ const vm = require('node:vm');
 const Evidence = require('../src/evidence.js');
 const {escape} = require('../src/core.js');
 const root = path.resolve(__dirname,'..');
-const data = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'data/catalog.json.gz'))));
+const data = require('./lib/catalog.js')();
 const players = new Map(data.players.map(p => [p.id,p.name]));
 const sources = new Map(data.sources.map(s => [s.id,s.url]));
 const sourceUrl = id => sources.get(id) || '';

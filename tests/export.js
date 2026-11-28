@@ -10,7 +10,7 @@ const root = path.resolve(__dirname,'..');
 const Pofepa = require('../src/core.js');
 const PofepaEvidence = require('../src/evidence.js');
 const PofepaAthleteStats = require('../src/athlete-stats.js');
-const catalog = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(root,'data/catalog.json.gz'))));
+const catalog = require('./lib/catalog.js')();
 const code = fs.readFileSync(path.join(root,'src/app.js'),'utf8');
 const ids = ['m-fd7e881d92c54d6f','m-71e3ade7d7899d7b','m-fbabd63d13623401'];
 const corrected = ids.map(id => {
