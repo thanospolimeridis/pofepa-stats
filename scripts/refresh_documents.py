@@ -29,7 +29,7 @@ def corroborate_singles(data):
 
 
 def refresh(data, cache):
-    from collect import BASE, RANKINGS, uid, clean
+    from collect import BASE, RANKINGS, uid, clean, order_deferred
     reviews, new_fixtures, visited, inventory = [], [], set(), []
     events = {e['id']:e for e in data['events']}
     clubs = {c['id']:c for c in data['clubs']}
@@ -70,6 +70,7 @@ def refresh(data, cache):
         if '2012-13-k-makp.html' in d['url']:d['reason']='empty_source'
     for r in reviews:
         if r['review_status']=='source_conflict':coverage['deferred'].append({'label':events[uid('e-',r['url'])]['name'],'url':r['url'],'reason':'document_source_conflict','detail':r['review_issues']})
+    coverage['deferred']=order_deferred(coverage['deferred'])
     corroborate_singles(data)
     validate(data)
     return data

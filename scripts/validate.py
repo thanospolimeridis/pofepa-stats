@@ -4,15 +4,23 @@ import math
 import re
 from urllib.parse import urlparse
 
-# A published schedule line with a dash opposite a team is a bye: it keeps the
-# dash as printed and has no club. Any other team name must contain a letter,
-# which rejects separator columns merged into a fixture.
-BYE = ("-", "—")
+# A published schedule line with a dash or a row of X's (Latin "XXX" or Greek
+# "ΧΧΧ") opposite a team is a bye: it keeps the text as printed and has no
+# club. Any other team name must contain a letter, which rejects separator
+# columns merged into a fixture. On league pages "ΑΝΕΥ ΑΓΩΝΟΣ" is a real team's
+# name, so it is not a bye here (PDF cup draws treat that text as a vacant slot).
+BYE = re.compile(r"[-–—]+|[XΧ]{2,}", re.I)
 LETTER = re.compile(r"[^\W\d_]")
 
 
+def bye(name):
+    return bool(BYE.fullmatch((name or "").strip()))
+
+
 def fixture_side_ok(name, club, clubs):
-    return (name in BYE and club == "") or (bool(LETTER.search(name or "")) and club in clubs)
+    if bye(name):
+        return club == ""
+    return bool(LETTER.search(name or "")) and club in clubs
 
 
 def validate(data):

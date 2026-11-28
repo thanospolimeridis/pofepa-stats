@@ -665,7 +665,7 @@ window.pofepaReady = (async () => {
         datefmt(c.as_of)}.</p><h2>${L('Ηλικία και περιοχή','Age and region')}</h2><p>${
         L('Χρησιμοποιούμε τους επίσημους πίνακες ANE και BET για κάθε ηλικιακό εύρος. Οι κατηγορίες και οι θέσεις λαμβάνονται από το αντίστοιχο φύλλο, δεν υπολογίζονται από έτη γέννησης ή από φιλτραρισμένη γενική κατάταξη. Τα έτη γέννησης δεν περιλαμβάνονται στο αρχείο. Η πηγή δίνει ενιαίο πίνακα γυναικών, όχι χωριστούς ανά ηλικία.','We use the official ANE and BET sheets for each age bracket. Categories and positions come from the relevant sheet, not from birth years or a filtered overall ranking. Birth years are not included. The source supplies one combined women’s list, not separate age lists.')}</p><h2>${
         L('Τι μετράει ως αγώνας','What counts as a match')}</h2><p>${
-        L('Μετράνε μόνο γραμμές με δύο αθλητές, έγκυρη ημερομηνία και τελικό σκορ 3–0, 3–1 ή 3–2. Bonus, μη τυπικά σκορ (π.χ. 1–0), αποτελέσματα με σήμανση «α/α» (άνευ αγώνα), κενές ή ίδιες ταυτότητες αποκλείονται. Κάθε αποτέλεσμα διατηρεί την πηγή και τη γραμμή του στο αρχείο ή στο φύλλο αγώνα. Δεν εμφανίζονται επιμέρους πόντοι σετ.','Only rows with two players, a valid date and a final 3–0, 3–1 or 3–2 score count. Bonus rows, nonstandard scores (such as 1–0), results marked “α/α” (walkover, not played), missing or identical participants are excluded. Each result retains its source and row in the workbook or match sheet. Individual game points are not displayed.')}</p><p>${
+        L('Μετράνε μόνο γραμμές με δύο αθλητές, έγκυρη ημερομηνία και τελικό σκορ 3–0, 3–1 ή 3–2. Bonus, μη τυπικά σκορ (π.χ. 1–0), αποτελέσματα με σήμανση «α/α» (άνευ αγώνα), γραμμές χωρίς αντίπαλο («ΧΧΧ», παύλα ή «ΑΝΕΥ» στη θέση του ονόματος), κενές ή ίδιες ταυτότητες αποκλείονται. Κάθε αποτέλεσμα διατηρεί την πηγή και τη γραμμή του στο αρχείο ή στο φύλλο αγώνα. Δεν εμφανίζονται επιμέρους πόντοι σετ.','Only rows with two players, a valid date and a final 3–0, 3–1 or 3–2 score count. Bonus rows, nonstandard scores (such as 1–0), results marked “α/α” (walkover, not played), rows with no opponent (“ΧΧΧ”, a dash or “ΑΝΕΥ” in place of a name), missing or identical participants are excluded. Each result retains its source and row in the workbook or match sheet. Individual game points are not displayed.')}</p><p>${
         L('Εξαιρέσεις ανά λόγο','Excluded rows by reason')}: ${
         Object.entries(c.excluded_rows).map(([k,v])=>E(k)+': '+num(v)).join(' · ')}.</p><h2>${
         L('Σύνδεση αθλητών','Player identity')}</h2><p>${
@@ -687,10 +687,10 @@ window.pofepaReady = (async () => {
         external(s.url,fileName(s.url))}</td><td>${E(s.retrieved_at)}</td><td><details><summary>${
         s.sha256.slice(0,12)}…</summary><code style="overflow-wrap:anywhere">${s.sha256}</code></details></td></tr>`).join('')),'sourcepage',ABOUT_PAGE_SIZE,L('πηγές','sources'))+
       `<details class="panel panel-pad"><summary>${
-        L('Σελίδες που χρειάζονται ξεχωριστή εισαγωγή','Pages needing separate ingestion')} (${
+        L('Σελίδες και αγωνιστικές που χρειάζονται ξεχωριστή εισαγωγή','Pages and rounds needing separate ingestion')} (${
         c.deferred.length})</summary>${
         table([L('Πηγή','Source'),L('Αιτία','Reason')],c.deferred.map(d=>`<tr><td>${external(d.url,d.label)}</td><td>${
-          E(d.reason)}</td></tr>`).join(''))}</details>`;
+          E(d.reason)}${d.reason==='unaligned_round'?' · '+num(d.printed_results)+' '+L('αποτελέσματα στη σελίδα','results printed'):''}</td></tr>`).join(''))}</details>`;
   }
   function about(){
     return aboutBase()+matchSheetCoverage()+documentReviews()+`<section class="panel panel-pad"><h2>${

@@ -144,5 +144,66 @@ class CollectorFailsClosedTests(unittest.TestCase):
                          [('https://www.pofepa.gr/cup.pdf', 'source_unavailable')])
 
 
+class FakeSheet:
+    def __init__(self, title, rows):
+        self.title, self.rows = title, rows
+
+    def iter_rows(self, values_only=True):
+        return iter(self.rows)
+
+
+class FakeBook(list):
+    def close(self):
+        pass
+
+
+class ResultRowTests(unittest.TestCase):
+    """Which workbook result rows become singles matches."""
+    WORKBOOK = {'url': 'https://www.pofepa.gr/uploads/rl_03_2019.xlsx', 'filename': 'rl_03_2019.xlsx',
+                'period': '2019-03', 'region': 'national', 'labels': [], 'imported': False}
+
+    def collect_rows(self, results):
+        ranking = FakeSheet('ΓΕΝΙΚΟΣ', [('Θέση', 'Ονοματεπώνυμο', 'Βαθμοί', 'Κατηγορία', 'Ομάδα'),
+                                        (1, 'ΑΛΦΑ ΝΙΚΟΣ', 20.0, 'ANE 18-39', 'ΑΚΤΩΡ'), (2, 'ΒΗΤΑ ΓΙΩΡΓΟΣ', 10.0, 'ANE 18-39', 'ΓΛΥΦΑΔΑ')])
+        rows = [(day, a, b, x, y, home, away, 'Γ\' ΑΤΤΙΚΗΣ', None) for day, a, b, x, y, home, away in results]
+        book = FakeBook([ranking, FakeSheet('ΑΠΟΤΕΛΕΣΜΑΤΑ', rows)])
+        with mock.patch.object(collect, 'workbook_inventory', return_value=[dict(self.WORKBOOK)]), \
+             mock.patch.object(collect, 'open_book', return_value=book), \
+             mock.patch.object(collect, 'seasons', return_value=[]), \
+             mock.patch('import_match_sheets.import_reviews'):
+            return collect.collect(FakeCache(), date(2026, 11, 26))
+
+    def test_a_placeholder_opponent_is_not_a_match_a_player_or_a_club(self):
+        # Reduced from rl_04_2017v4.xls, rl_03_2019v2.xls and rl_03_2023v2.xlsx: a row of
+        # X's, dashes or "ΑΝΕΥ 1" stands where a team fielded no player or a draw had a bye.
+        data = self.collect_rows([
+            ('03/03/2019', 'ΑΛΦΑ ΝΙΚΟΣ', 'ΒΗΤΑ ΓΙΩΡΓΟΣ', 3, 1, 'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'),
+            ('03/03/2019', 'ΑΛΦΑ ΝΙΚΟΣ', 'ΧΧΧ', 3, 0, 'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'),
+            ('03/03/2019', 'XXX', 'ΒΗΤΑ ΓΙΩΡΓΟΣ', 3, 0, 'ΑΚΤΩΡ', 'ΦΑΝΤΑΣΜΑΤΑ'),
+            ('03/03/2019', 'ΑΛΦΑ ΝΙΚΟΣ', '---', 3, 0, 'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'),
+            ('03/03/2019', 'ΑΝΕΥ 1', 'ΒΗΤΑ ΓΙΩΡΓΟΣ', 0, 3, None, None),
+            ('03/03/2019', 'ΑΝΕΥ', 'ΑΓΩΝΟΣ', 0, 3, 'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'),
+        ])
+        self.assertEqual([(m['names'], m['score']) for m in data['matches']], [(['ΑΛΦΑ ΝΙΚΟΣ', 'ΒΗΤΑ ΓΙΩΡΓΟΣ'], [3, 1])])
+        self.assertEqual({p['name'] for p in data['players']}, {'ΑΛΦΑ ΝΙΚΟΣ', 'ΒΗΤΑ ΓΙΩΡΓΟΣ'})
+        self.assertEqual({c['name'] for c in data['clubs']}, {'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'}, 'a club seen only beside a placeholder is not created')
+        self.assertEqual(data['coverage']['excluded_rows'], {'no_opponent': 5})
+        self.assertEqual({i['row'] for i in data['issues']}, {2, 3, 4, 5, 6})
+
+    def test_a_real_name_is_never_a_placeholder(self):
+        for name in ('ΧΧΧ', 'XXX', 'xxx', 'ΧΧΧΧΧ', '-', '----', 'ΑΝΕΥ', 'άνευ', 'ΑΝΕΥ 1', 'ΑΝΕΥ2'):
+            self.assertTrue(collect.no_opponent(name), name)
+        for name in ('ΑΝΕΥΡΥΣΜΑΣ ΝΙΚΟΣ', 'ΑΓΩΝΟΣ', 'ΞΑΝΘΟΣ Χ.', 'LEI SHI', 'ΠΑΠΑΓΕΩΡΓΙΟΥ-ΝΑΝΤΙΜ', 'X', ''):
+            self.assertFalse(collect.no_opponent(name), name)
+
+    def test_a_result_under_a_date_range_is_reported_not_dated(self):
+        data = self.collect_rows([
+            ('11-03-2018', 'ΑΛΦΑ ΝΙΚΟΣ', 'ΒΗΤΑ ΓΙΩΡΓΟΣ', 3, 1, 'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'),
+            ('7-8/05/2018', 'ΑΛΦΑ ΝΙΚΟΣ', 'ΒΗΤΑ ΓΙΩΡΓΟΣ', 3, 2, 'ΑΚΤΩΡ', 'ΓΛΥΦΑΔΑ'),
+        ])
+        self.assertEqual([(m['date'], m['score']) for m in data['matches']], [('2018-03-11', [3, 1])])
+        self.assertEqual(data['coverage']['excluded_rows'], {'invalid_date': 1})
+
+
 if __name__ == '__main__':
     unittest.main()

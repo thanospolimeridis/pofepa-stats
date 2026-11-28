@@ -20,10 +20,11 @@ from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 
 from bs4 import BeautifulSoup
-from workbooks import inventory as workbook_inventory, open_book, canonical_list, result_rows
+from workbooks import inventory as workbook_inventory, open_book, canonical_list, result_rows, result_date
 from season_sources import seasons, content_links
 from competition_regions import regional_links
 from reviewed_documents import extract_document
+from validate import bye
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://www.pofepa.gr/"
@@ -52,6 +53,15 @@ def sha(data):
 def safe_url(value):
     p = urlparse(value)
     return p.scheme in ("http", "https") and p.hostname in ("www.pofepa.gr", "pofepa.gr", "files.ping-pong.gr") and not p.username
+
+
+# Result rows print a row of X's, dashes or "ΑΝΕΥ" ("ΑΝΕΥ 1", "ΑΝΕΥ2") where a
+# player has no opponent. Such a row is not a played match in either direction.
+NO_OPPONENT = re.compile(r"ΑΝΕΥ ?\d*")
+
+
+def no_opponent(name):
+    return bye(name) or bool(NO_OPPONENT.fullmatch(key(name)))
 
 
 def score_status(a, b, opponent=""):
@@ -218,10 +228,14 @@ def flat_cells(row):
     return cells, expanded
 
 
-def parse_fixture_tables(html, source_id, source_url, event_id):
+def parse_fixture_tables(html, source_id, source_url, event_id, skipped=None):
+    """Team fixtures printed on a page. A parallel-column round whose columns do
+    not align yields nothing; pass a list as `skipped` to receive one record for
+    each such round (table index, heading and how many results it prints)."""
     soup = BeautifulSoup(html, "html.parser")
     fixtures = []
     consumed = set()  # nested tables already read as part of their parent round
+    unaligned = set()  # nested tables of a round already reported as skipped
     for table_index, table in enumerate(soup.select("table")):
         if id(table) in consumed:
             continue
@@ -283,7 +297,8 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
             candidates = [(compact_home, compact_away, score_lines), (home_lines, away_lines, score_lines),
                           (compact_home, compact_away, list(filter(None, score_lines)))]
             columns = None
-            if any(x not in ('-', '–', '—') for x in lines(cells[offset + 1])):
+            separators = lines(cells[offset + 1])
+            if any(x not in ('-', '–', '—') for x in separators):
                 continue
             for homes, aways, results in candidates:
                 results = list(results)
@@ -301,6 +316,13 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
                 if explicit[0] and len({len(col) for col in explicit}) == 1 and all(value in ('-', '–', '—') for value in explicit[1]):
                     columns = explicit
             if columns is None:
+                # A column of dashes between team columns is a round. Never guess
+                # which line is missing; report the round so it is not lost silently.
+                if skipped is not None and separators and id(table) not in unaligned:
+                    heading = table.find_previous(['h2', 'h3'])
+                    skipped.append({'table': table_index, 'round': clean(heading.get_text(' ')) if heading else '',
+                        'printed_results': sum(bool(re.match(r'^\d+\s*[-–:]\s*\d+', value)) for value in score_lines)})
+                    unaligned.update(id(t) for t in nested_tables)
                 continue
             consumed.update(id(t) for t in nested_tables)
             heading = table.find_previous(['h2', 'h3'])
@@ -339,10 +361,22 @@ def parse_fixture_tables(html, source_id, source_url, event_id):
     return fixtures
 
 
+def unaligned_rounds(title, url, skipped):
+    """Coverage records for the rounds of one page that parse_fixture_tables skipped."""
+    return [{"label": " · ".join(filter(None, (title, item["round"]))), "url": url, "reason": "unaligned_round",
+             "table": item["table"], "printed_results": item["printed_results"]} for item in skipped]
+
+
+def order_deferred(deferred):
+    """Whole sources first in their recorded order, then skipped rounds by page and table."""
+    rounds = sorted((d for d in deferred if d["reason"] == "unaligned_round"), key=lambda d: (d["url"], d["table"]))
+    return [d for d in deferred if d["reason"] != "unaligned_round"] + rounds
+
+
 def collect(cache, as_of):
     sources, players, clubs, events, snapshots, matches, fixtures, issues = {}, {}, {}, {}, [], [], [], []
     def club_id(name):
-        if not name or name in ("-", "—"):
+        if not name or bye(name):
             return ""
         cid = uid("c-", name)  # no undocumented club alias merges
         clubs[cid] = {"id": cid, "name": name}
@@ -432,9 +466,12 @@ def collect(cache, as_of):
             if status != "completed":
                 issues.append({"source": sid, "sheet": context["sheet"], "row": rownum, "reason": status, "score": [a, b]})
                 continue
-            try:
-                played = raw_date.date() if isinstance(raw_date, datetime) else datetime.strptime(clean(raw_date), "%d/%m/%Y").date()
-            except (ValueError, TypeError):
+            if no_opponent(first) or no_opponent(second):
+                # "ΧΧΧ", "-" or "ΑΝΕΥ 1" stands where a player had no opponent: no match was played.
+                issues.append({"source": sid, "sheet": context["sheet"], "row": rownum, "reason": "no_opponent", "score": [a, b]})
+                continue
+            played = result_date(raw_date)
+            if played is None:
                 issues.append({"source": sid, "row": rownum, "reason": "invalid_date"})
                 continue
             if played > as_of:
@@ -535,7 +572,9 @@ def collect(cache, as_of):
                 html = path.read_text()
                 page = BeautifulSoup(html, "html.parser")
                 title = clean(page.title.get_text()).split(" - ΠΑΝΕΛ")[0] if page.title else label
-                parsed = parse_fixture_tables(html, sid, url, eid)
+                skipped = []
+                parsed = parse_fixture_tables(html, sid, url, eid, skipped)
+                deferred.extend(unaligned_rounds(title, url, skipped))
             events[eid] = {"id": eid, "name": title, "season": season_name, "kind": "fixtures", "sources": [sid]}
             if url in regions:
                 events[eid]['competition_region'] = regions[url]['region']
@@ -546,6 +585,7 @@ def collect(cache, as_of):
             if not parsed and url.endswith('.html'):
                 deferred.append({"label": title, "url": url, "reason": "no_supported_fixture_table"})
 
+    deferred = order_deferred(deferred)
     referenced_players = {m[p] for m in matches for p in ("p1", "p2")}
     players = {pid: p for pid, p in players.items() if not p["provisional"] or pid in referenced_players}
     matches.sort(key=lambda m: (m["date"], m["id"]), reverse=True)

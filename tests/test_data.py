@@ -8,8 +8,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from collect import key, parse_fixture_tables, registry_id, resolve_player, score_status
-from validate import validate
+from collect import key, no_opponent, parse_fixture_tables, registry_id, resolve_player, score_status
+from validate import bye, validate
 from dataset import load
 
 
@@ -101,6 +101,43 @@ class DatasetTests(unittest.TestCase):
         self.assertEqual(sum(len(s["rows"]) for s in self.data["snapshots"]), c["ranking_rows"])
         self.assertEqual(sum(f["status"] == "reported" for f in self.data["fixtures"]), c["reported_fixtures"])
         self.assertEqual(len(self.data["issues"]), sum(c["excluded_rows"].values()))
+
+    def test_no_placeholder_is_a_player_a_match_side_or_a_club(self):
+        # "ΧΧΧ", "-" or "ΑΝΕΥ 1" stands where a player or team had no opponent.
+        self.assertEqual([p["id"] for p in self.data["players"] if no_opponent(p["name"])], [])
+        self.assertEqual([m["id"] for m in self.data["matches"] if any(no_opponent(n) for n in m["names"])], [])
+        self.assertEqual([c["name"] for c in self.data["clubs"] if bye(c["name"])], [])
+        self.assertGreater(self.data["coverage"]["excluded_rows"]["no_opponent"], 1000)
+        byes = [f for f in self.data["fixtures"] if bye(f["home"]) or bye(f["away"])]
+        self.assertGreater(len(byes), 800)
+        self.assertTrue(all(f["score"] is None and not f.get("rubbers") for f in byes), "a bye is never a played fixture")
+        # "ΑΝΕΥ ΑΓΩΝΟΣ" is a real team in the 2025-26 East Macedonia & Thrace league.
+        self.assertIn("ΑΝΕΥ ΑΓΩΝΟΣ", {c["name"] for c in self.data["clubs"]})
+
+    def test_results_under_one_date_heading_keep_that_date(self):
+        # rl_03_2018.xls row 428 heads the second day "11-03-2018"; rl_be_05-2016.xls
+        # row 19 heads a tournament "7-8/05/16", which is not one known day.
+        source = {s["url"].rsplit("/", 1)[-1]: s["id"] for s in self.data["sources"]}
+        second_day = [m for m in self.data["matches"] if m["source"] == source["rl_03_2018.xls"] and m["evidence"][0].get("date_row") == 428]
+        self.assertEqual({m["date"] for m in second_day}, {"2018-03-11"})
+        self.assertEqual(len(second_day), 56)
+        ranged = [m for m in self.data["matches"] if m["source"] == source["rl_be_05-2016.xls"] and m["row"] >= 19]
+        self.assertFalse([m["id"] for m in ranged if m["date"] == "2016-05-05"], "results below the range never take the earlier date")
+
+    def test_skipped_rounds_are_listed_and_new_ones_with_results_need_review(self):
+        # A parallel-column round that does not align yields no fixtures and is
+        # listed under coverage. These ten print results that are not in the
+        # catalog; a new one must be looked at before this list is extended.
+        rounds = [d for d in self.data["coverage"]["deferred"] if d["reason"] == "unaligned_round"]
+        self.assertEqual(len({(d["url"], d["table"]) for d in rounds}), len(rounds))
+        with_results = {(d["url"].rsplit("/", 1)[-1], d["table"]): d["printed_results"] for d in rounds if d["printed_results"]}
+        self.assertEqual(with_results, {
+            ("2010-11-b.html", 0): 5, ("2012-13-a.html", 6): 5, ("2012-13-a.html", 8): 5, ("2012-13-b.html", 5): 5,
+            ("2012-13-b.html", 7): 5, ("2012-13-c2.html", 0): 6, ("2012-13-d-mak.html", 0): 2, ("2012-13-a-mak.html", 3): 2,
+            ("2015-16-b.html", 1): 4, ("2024-2025-e3.html", 9): 7})
+        listed = {(f["source"], f["table"]) for f in self.data["fixtures"] if "table" in f}
+        sources = {s["url"]: s["id"] for s in self.data["sources"]}
+        self.assertFalse([d["label"] for d in rounds if (sources[d["url"]], d["table"]) in listed], "a listed round has no fixtures")
 
     def test_cross_region_results_count_once_and_retain_both_sources(self):
         shared = [m for m in self.data["matches"] if len(m["evidence"]) > 1]

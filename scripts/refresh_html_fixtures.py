@@ -5,18 +5,19 @@ Fixtures the parser still produces unchanged keep their catalog record, with any
 match-sheet date, rubbers and links. New fixtures, and fixtures whose teams or
 score changed, are taken from the parser. A fixture that carries match-sheet
 results, or that a review or availability record cites, is never changed or
-dropped. Bye lines (a dash opposite a team) keep no club. Held match sheets are
-re-pointed to the one fixture that links them, and sheet coverage is recomputed.
-Repeated runs change nothing.
+dropped. Bye lines (a dash or a row of X's opposite a team) keep no club. Rounds
+whose columns do not align are listed again under coverage. Held match sheets
+are re-pointed to the one fixture that links them, and sheet coverage is
+recomputed. Repeated runs change nothing.
 """
 import argparse
 import json
 from pathlib import Path
 
-from collect import Cache, parse_fixture_tables, uid
+from collect import Cache, order_deferred, parse_fixture_tables, uid, unaligned_rounds
 from dataset import load, save
 from import_match_sheets import ISSUES, MANIFEST, UNAVAILABLE, import_reviews
-from validate import BYE, validate
+from validate import bye, validate
 
 ROOT = Path(__file__).resolve().parents[1]
 PROTECTED = ('rubbers', 'date', 'match_sheet_source')
@@ -34,7 +35,7 @@ def refresh(data, cache, issues):
     clubs = {c['id']: c for c in data['clubs']}
 
     def club(name):
-        if name in BYE:
+        if bye(name):
             return ''
         cid = uid('c-', name)
         clubs.setdefault(cid, {'id': cid, 'name': name})
@@ -44,13 +45,15 @@ def refresh(data, cache, issues):
         if fixture['id'] in cited or any(fixture.get(k) for k in PROTECTED):
             raise ValueError(f'Refusing to change a fixture with match-sheet results: {fixture["id"]}')
 
-    refreshed, summary = {}, {'events': 0, 'added': 0, 'changed': 0}
+    refreshed, summary, rounds = {}, {'events': 0, 'added': 0, 'changed': 0}, []
     for event in data['events']:
         url = sources[event['sources'][0]]['url']
         if event['kind'] != 'fixtures' or not url.endswith('.html'):
             continue
         _, path = cache.get(url)
-        parsed = parse_fixture_tables(path.read_text(), event['sources'][0], url, event['id'])
+        skipped = []
+        parsed = parse_fixture_tables(path.read_text(), event['sources'][0], url, event['id'], skipped)
+        rounds.extend(unaligned_rounds(event['name'], url, skipped))
         old = {f['id']: f for f in data['fixtures'] if f['event'] == event['id']}
         rows, ids = [], {f['id'] for f in parsed}
         for gone in set(old) - ids:
@@ -78,8 +81,8 @@ def refresh(data, cache, issues):
         elif event not in placed:
             fixtures.extend(refreshed[event])
             placed.add(event)
-    for fixture in fixtures:  # byes as collect.py records them: the dash has no club
-        fixture['clubs'] = ['' if name in BYE else cid for name, cid in zip((fixture['home'], fixture['away']), fixture['clubs'])]
+    for fixture in fixtures:  # byes as collect.py records them: the dash or "ΧΧΧ" has no club
+        fixture['clubs'] = ['' if bye(name) else cid for name, cid in zip((fixture['home'], fixture['away']), fixture['clubs'])]
     data['fixtures'] = fixtures
     linking = {}
     for fixture in fixtures:
@@ -95,6 +98,7 @@ def refresh(data, cache, issues):
     referenced.update(row[3] for snapshot in data['snapshots'] for row in snapshot['rows'])
     data['clubs'] = [c for cid, c in clubs.items() if cid in referenced]
     data['coverage'].update(fixtures=len(fixtures), reported_fixtures=sum(f['status'] == 'reported' for f in fixtures))
+    data['coverage']['deferred'] = order_deferred([d for d in data['coverage']['deferred'] if d['reason'] != 'unaligned_round'] + rounds)
     import_reviews(data, cache, reviews=reviews, issues=issues, unavailable=unavailable)
     validate(data)
     return summary

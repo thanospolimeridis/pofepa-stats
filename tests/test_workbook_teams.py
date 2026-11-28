@@ -6,7 +6,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from workbooks import LegacySheet, result_rows, team_pair
+from workbooks import LegacySheet, result_date, result_rows, team_pair
 
 
 class Sheet(LegacySheet):
@@ -69,6 +69,59 @@ class LegacyBlockTests(unittest.TestCase):
         self.assertEqual(clubs[6][:2], ('ΒΕΤ. ΑΟ ΤΑΤΑΥΛΑ', 'ΑΚΤΩΡ'))
         # A category directly under a pair starts a new block; it is not a wrapped name.
         self.assertEqual(clubs[7][2], 7)
+
+
+class DateBlockTests(unittest.TestCase):
+    def rows(self, rows):
+        return {num: (values, context) for num, values, context in result_rows(Sheet(rows))}
+
+    def test_a_date_range_starts_a_block_without_the_previous_date_or_teams(self):
+        # Reduced from rl_be_05-2016.xls rows 10-19: a league match dated 5 May,
+        # then a two-day tournament headed "7-8/05/16" with no team cells.
+        out = self.rows([
+            row(datetime(2016, 5, 5), 'Α1', 'Β1', (3, 0), 'ΠΟΛΥΝΙΚΟΣ', 'ΑΕΤΟΙ ΕΥΟΣΜΟΥ', 'ΠΡΩΤΑΘΛΗΜΑ'),
+            row(None, 'Α2', 'Β2', (3, 1)),
+            row('7-8/05/16', 'Γ1', 'Δ1', (2, 3), None, None, '1ο ΒΟΡΕΙΟΥ ΕΛΛΑΔΑΣ'),
+            row(None, 'Γ2', 'Δ2', (3, 0)),
+        ])
+        self.assertEqual(out[2][0][0], datetime(2016, 5, 5))
+        self.assertEqual((out[2][0][5], out[2][0][6]), ('ΠΟΛΥΝΙΚΟΣ', 'ΑΕΤΟΙ ΕΥΟΣΜΟΥ'))
+        for num in (3, 4):
+            values, context = out[num]
+            self.assertEqual(values[0], '7-8/05/16', 'the printed range, never the earlier date')
+            self.assertIsNone(result_date(values[0]), 'a range is not one known day')
+            self.assertEqual((values[5], values[6], values[7]), ('', '', '1ο ΒΟΡΕΙΟΥ ΕΛΛΑΔΑΣ'))
+            self.assertEqual((context['date_row'], context['team_row']), (3, None))
+
+    def test_a_dashed_date_is_the_date_of_its_block(self):
+        # Reduced from rl_03_2018.xls rows 319 and 428: the second day is typed "11-03-2018".
+        out = self.rows([
+            row(datetime(2018, 3, 10), 'Α1', 'Β1', (3, 0), None, None, '1ο VENUS SPINTHAROS'),
+            row('11-03-2018', 'Α2', 'Β2', (0, 3)),
+            row(None, 'Α3', 'Β3', (3, 2)),
+        ])
+        self.assertEqual(result_date(out[1][0][0]).isoformat(), '2018-03-10')
+        for num in (2, 3):
+            self.assertEqual(result_date(out[num][0][0]).isoformat(), '2018-03-11')
+            self.assertEqual(out[num][1]['date_row'], 2)
+            self.assertEqual(out[num][0][7], '1ο VENUS SPINTHAROS')
+
+    def test_a_note_in_the_date_column_ends_the_dated_block(self):
+        out = self.rows([
+            row(datetime(2016, 5, 5), 'Α1', 'Β1', (3, 0), 'ΠΟΛΥΝΙΚΟΣ', 'ΑΕΤΟΙ ΕΥΟΣΜΟΥ', 'ΠΡΩΤΑΘΛΗΜΑ'),
+            row('Τα αποτελέσματα του τουρνουά εμφανίζονται παρακάτω', None, None, (None, None)),
+            row(None, 'Γ1', 'Δ1', (3, 0)),
+        ])
+        self.assertIsNone(result_date(out[3][0][0]))
+        self.assertEqual((out[3][0][5], out[3][0][6]), ('', ''))
+
+    def test_only_one_full_day_is_a_date(self):
+        for text, expected in (('26/10/2011', '2011-10-26'), ('6/1/2011', '2011-01-06'), ('11-03-2018', '2018-03-11'),
+                               ('11.03.2018', '2018-03-11'), (' 26/10/2011 ', '2011-10-26')):
+            self.assertEqual(result_date(text).isoformat(), expected, text)
+        self.assertEqual(result_date(datetime(2019, 6, 1, 0, 0)).isoformat(), '2019-06-01')
+        for text in ('7-8/05/16', '26/10/11', '31/02/2015', '11-03/2018', '2018-03-11', 'ΣΑΒΒΑΤΟ', '', None, 43160):
+            self.assertIsNone(result_date(text), text)
 
 
 class WalkoverMarkTests(unittest.TestCase):

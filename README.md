@@ -14,7 +14,7 @@ Every 2025–26 sheet linked when that review ran has been inspected. Seven more
 
 ## Historical coverage
 
-All **270 distinct Excel workbooks** linked in the official ranking archive are imported, covering **October 2011–October 2026** and **742,275 ranking records**. Every published regional and age-category position is retained. The archive contains over **137,000 completed singles matches**, together with historical team results from HTML pages, 124 reviewed PDFs and a handwritten match sheet. The document review adds 1,601 team results, bringing reported team results to 17,186. Six older images contain standings only. Exact current counts, exclusions, source hashes and unparsed documents are available on the website's **Coverage & sources** page and in `dist/coverage.json`.
+All **270 distinct Excel workbooks** linked in the official ranking archive are imported, covering **October 2011–October 2026** and **742,275 ranking records**. Every published regional and age-category position is retained. The archive contains over **136,000 completed singles matches**, together with historical team results from HTML pages, 124 reviewed PDFs and a handwritten match sheet. The document review adds 1,601 team results, bringing reported team results to 17,186. Six older images contain standings only. Exact current counts, exclusions, source hashes and unparsed documents are available on the website's **Coverage & sources** page and in `dist/coverage.json`.
 
 The results menu is inventoried for every listed season, from 2007–2008 through 2026–2027. The two earliest season pages currently link no results; the imported team pages start in 2009–2010. Some source documents contain ambiguous layouts or incomplete score fields. Those sections remain explicitly listed for review; this does not claim that every match ever played is recoverable.
 
@@ -31,7 +31,7 @@ python3 scripts/build.py
 python3 -m http.server 8000 --directory dist
 ```
 
-Open `http://localhost:8000`. The generated root `index.html` and `dist/offline.html` contain the complete compressed archive and can be saved for offline use. The hosted site loads ranking, athlete and competition data on demand; team fixtures and detailed source reports load only on their respective pages. Cup drawings load only when their competition is opened and are also included in the offline edition. The compressed initial data package is approximately 631 KB, down from 2.01 MB. A modern browser with `DecompressionStream` support is required.
+Open `http://localhost:8000`. The generated root `index.html` and `dist/offline.html` contain the complete compressed archive and can be saved for offline use. The hosted site loads ranking, athlete and competition data on demand; team fixtures and detailed source reports load only on their respective pages. Cup drawings load only when their competition is opened and are also included in the offline edition. The compressed initial data package is approximately 615 KB, down from 2.01 MB. A modern browser with `DecompressionStream` support is required.
 
 The committed dataset is `data/catalog/`: an index plus JSON Lines shards (one record per line, files of at most about 8 MB) that git stores as small deltas, so a data change no longer adds a whole 18 MB copy to the history. Scripts read and write it through `scripts/dataset.py`; the downloadable `dist/data/catalog.json.gz` is built from it. Builds require Python 3.10+ and make no network requests. Generated build files and raw downloads are ignored by Git. The small, compressed source-bound cup assets in `data/cup-draws/` are committed so deployment needs no source downloads or PDF conversion.
 
@@ -59,7 +59,7 @@ python3 scripts/refresh_html_fixtures.py --offline
 python3 scripts/cup_draws.py
 ```
 
-The collector discovers all linked workbooks and result seasons rather than maintaining a fixed month list. `--refresh` refetches sources; `--cache PATH` selects the raw cache; `--output PATH` stages a separate collection. Validation must pass before the output is atomically replaced. Only a source that cannot be fetched at all is deferred as unavailable; a parse error, a changed reviewed document or a missing tool such as `pdftotext` stops the run. A refresh that changes a cached source keeps its previous bytes in `capture/replaced/`, and a failed refresh keeps the cached copy. The source-cell audit requires the original ignored `capture/` downloads.
+The collector discovers all linked workbooks and result seasons rather than maintaining a fixed month list. `--refresh` refetches sources; `--cache PATH` selects the raw cache; `--output PATH` stages a separate collection. Validation must pass before the output is atomically replaced. Only a source that cannot be fetched at all is deferred as unavailable; a parse error, a changed reviewed document or a missing tool such as `pdftotext` stops the run. A team round whose parallel columns do not align yields no fixtures and is listed under coverage as `unaligned_round`, with the number of results it prints. A refresh that changes a cached source keeps its previous bytes in `capture/replaced/`, and a failed refresh keeps the cached copy. The source-cell audit requires the original ignored `capture/` downloads.
 
 ## Identity and evidence
 
@@ -68,9 +68,9 @@ The collector discovers all linked workbooks and result seasons rather than main
 - Earlier lists omit DAI. An exact name and team, or a unique exact name among registered profiles, can associate the historical entry. Names appearing more than once in historical general lists remain separate.
 - Match records link against the same month's ranking lists. Exact name plus team is preferred; unique exact names with blank or differing teams are provisional associations. Ambiguous or unmatched names remain separate profiles. No fuzzy spelling matching is used.
 - Older spreadsheets use grouped dates and team headings, numeric text scores, combined score cells and different column layouts. The importer retains the worksheet, result row and context row numbers used to interpret each result.
-- Only completed 3–0, 3–1 and 3–2 singles scores enter statistics. Invalid dates, implausible years, bonus entries, nonstandard outcomes and workbook rows marked α/α (walkover) are excluded with reasons. Scores and dates are never invented.
+- Only completed 3–0, 3–1 and 3–2 singles scores enter statistics. Invalid dates, implausible years, bonus entries, nonstandard outcomes, workbook rows marked α/α (walkover) and rows where "ΧΧΧ", a dash or "ΑΝΕΥ" stands in for a missing opponent are excluded with reasons. Scores and dates are never invented: results printed under a date range such as "7-8/05/16" are excluded as `invalid_date` instead of taking a neighbouring date.
 - Repeated result exports are deduplicated while preserving every source row. Repeated games within one source remain separate. Repeated ranking entries remain as published and are flagged.
-- Team fixtures retain reported totals and source-page references. Schedule deadlines are not treated as dates played. PDF brackets use drawn connectors, named winners and source-bound visual transcriptions. Repeated grids and bracket pages count once; real repeats in later rounds remain separate.
+- Team fixtures retain reported totals and source-page references. A dash or a row of X's opposite a team is a bye and never a club. Schedule deadlines are not treated as dates played. PDF brackets use drawn connectors, named winners and source-bound visual transcriptions. Repeated grids and bracket pages count once; real repeats in later rounds remain separate.
 
 See [SOURCES.md](docs/SOURCES.md) for the source contract and known anomalies.
 

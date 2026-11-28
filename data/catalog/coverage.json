@@ -139,36 +139,37 @@
   "2026-09",
   "2026-10"
  ],
- "matches": 137152,
- "players": 9600,
+ "matches": 136048,
+ "players": 9111,
  "ranked_players": 3851,
- "provisional_players": 5749,
+ "provisional_players": 5260,
  "fixtures": 20444,
  "reported_fixtures": 17186,
  "ranking_rows": 742275,
- "events": 943,
+ "events": 942,
  "match_date_min": "2011-10-26",
  "match_date_max": "2026-11-24",
  "excluded_rows": {
   "repeated_source_ranking": 56,
   "nonstandard_score": 2578,
-  "overlapping_source_result": 5480,
+  "overlapping_source_result": 5436,
+  "no_opponent": 1044,
   "walkover_mark": 239,
-  "invalid_date": 26,
+  "invalid_date": 137,
   "future_result": 31,
-  "invalid_participants": 160,
-  "date_outside_workbook_year": 33,
+  "invalid_participants": 159,
+  "date_outside_workbook_year": 27,
   "bonus": 1807
  },
  "identity_methods": {
   "sheet_registration": 1276,
   "reviewed_sheet_name_and_team": 609,
-  "unique_name_in_month": 50239,
-  "exact_name_and_team": 182709,
-  "unique_name_team_differs": 26315,
-  "name_not_found": 12068,
+  "unique_name_in_month": 50230,
+  "exact_name_and_team": 182092,
+  "unique_name_team_differs": 25881,
+  "name_not_found": 10938,
   "ambiguous_name": 299,
-  "team_mismatch": 789
+  "team_mismatch": 771
  },
  "identity_conflicts": [
   {
@@ -489,6 +490,496 @@
      "printed_winner": "ΑΤΡΟΜΗΤΟΙ"
     }
    ]
+  },
+  {
+   "label": "2010-11 B · 1η Αγωνιστική",
+   "url": "https://www.pofepa.gr/2010-11-b.html",
+   "reason": "unaligned_round",
+   "table": 0,
+   "printed_results": 5
+  },
+  {
+   "label": "2012-13 A-MAK · 4η Αγωνιστική",
+   "url": "https://www.pofepa.gr/2012-13-a-mak.html",
+   "reason": "unaligned_round",
+   "table": 3,
+   "printed_results": 2
+  },
+  {
+   "label": "2012-13 A · 7η Αγωνιστική",
+   "url": "https://www.pofepa.gr/2012-13-a.html",
+   "reason": "unaligned_round",
+   "table": 6,
+   "printed_results": 5
+  },
+  {
+   "label": "2012-13 A · 9η Αγωνιστική",
+   "url": "https://www.pofepa.gr/2012-13-a.html",
+   "reason": "unaligned_round",
+   "table": 8,
+   "printed_results": 5
+  },
+  {
+   "label": "2012-13 B · 6η Αγωνιστική",
+   "url": "https://www.pofepa.gr/2012-13-b.html",
+   "reason": "unaligned_round",
+   "table": 5,
+   "printed_results": 5
+  },
+  {
+   "label": "2012-13 B · 8η Αγωνιστική",
+   "url": "https://www.pofepa.gr/2012-13-b.html",
+   "reason": "unaligned_round",
+   "table": 7,
+   "printed_results": 5
+  },
+  {
+   "label": "2012-13 C2 · 1η Αγωνιστική",
+   "url": "https://www.pofepa.gr/2012-13-c2.html",
+   "reason": "unaligned_round",
+   "table": 0,
+   "printed_results": 6
+  },
+  {
+   "label": "2012-13 D-MAK · 1η Αγωνιστική",
+   "url": "https://www.pofepa.gr/2012-13-d-mak.html",
+   "reason": "unaligned_round",
+   "table": 0,
+   "printed_results": 2
+  },
+  {
+   "label": "2015-16 B · 2η Αγωνιστική (30/11-6/12/2015)",
+   "url": "https://www.pofepa.gr/2015-16-b.html",
+   "reason": "unaligned_round",
+   "table": 1,
+   "printed_results": 4
+  },
+  {
+   "label": "2019-20 A DYTELL · 3η Αγωνιστική (2-8/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a-dytell.html",
+   "reason": "unaligned_round",
+   "table": 9,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A-KMAK · 10η Αγωνιστική (2-8/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a-kmak.html",
+   "reason": "unaligned_round",
+   "table": 9,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A-KMAK · 11η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a-kmak.html",
+   "reason": "unaligned_round",
+   "table": 10,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A-KMAK · 12η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a-kmak.html",
+   "reason": "unaligned_round",
+   "table": 11,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A-KMAK · 13η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a-kmak.html",
+   "reason": "unaligned_round",
+   "table": 12,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A-KMAK · 14η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a-kmak.html",
+   "reason": "unaligned_round",
+   "table": 13,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A-MAK · 9η Αγωνιστική (29/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a-mak.html",
+   "reason": "unaligned_round",
+   "table": 8,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A-MAK · 10η Αγωνιστική (26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a-mak.html",
+   "reason": "unaligned_round",
+   "table": 9,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A1 · 9η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a1.html",
+   "reason": "unaligned_round",
+   "table": 8,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A1 · 1η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a1.html",
+   "reason": "unaligned_round",
+   "table": 9,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A1 · 2η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a1.html",
+   "reason": "unaligned_round",
+   "table": 10,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A1 · 3η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a1.html",
+   "reason": "unaligned_round",
+   "table": 11,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A2 · 9η Αγωνιστική (2-8/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a2.html",
+   "reason": "unaligned_round",
+   "table": 8,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A2 · 10η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a2.html",
+   "reason": "unaligned_round",
+   "table": 9,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A2 · 11η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a2.html",
+   "reason": "unaligned_round",
+   "table": 10,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A2 · 12η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a2.html",
+   "reason": "unaligned_round",
+   "table": 11,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 A2 · 13η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-a2.html",
+   "reason": "unaligned_round",
+   "table": 12,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B DYTELL · 8η Αγωνιστική (2-8/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b-dytell.html",
+   "reason": "unaligned_round",
+   "table": 7,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B DYTELL · 9η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b-dytell.html",
+   "reason": "unaligned_round",
+   "table": 8,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B DYTELL · 10η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b-dytell.html",
+   "reason": "unaligned_round",
+   "table": 9,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B-KMAK · 14η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b-kmak.html",
+   "reason": "unaligned_round",
+   "table": 13,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B-KMAK · 15η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b-kmak.html",
+   "reason": "unaligned_round",
+   "table": 14,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B-KMAK · 16η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b-kmak.html",
+   "reason": "unaligned_round",
+   "table": 15,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B-KMAK · 17η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b-kmak.html",
+   "reason": "unaligned_round",
+   "table": 16,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B-KMAK · 18η Αγωνιστική (11-17/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b-kmak.html",
+   "reason": "unaligned_round",
+   "table": 17,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B · 12η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b.html",
+   "reason": "unaligned_round",
+   "table": 11,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B · 13η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b.html",
+   "reason": "unaligned_round",
+   "table": 12,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B · 14η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b.html",
+   "reason": "unaligned_round",
+   "table": 13,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 B · 15η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-b.html",
+   "reason": "unaligned_round",
+   "table": 14,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 C-KMAK · 13η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-c-kmak.html",
+   "reason": "unaligned_round",
+   "table": 12,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 C-KMAK · 14η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-c-kmak.html",
+   "reason": "unaligned_round",
+   "table": 13,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 C-KMAK · 15η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-c-kmak.html",
+   "reason": "unaligned_round",
+   "table": 14,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 C1 · 12η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-c1.html",
+   "reason": "unaligned_round",
+   "table": 11,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 C1 · 13η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-c1.html",
+   "reason": "unaligned_round",
+   "table": 12,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 C1 · 14η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-c1.html",
+   "reason": "unaligned_round",
+   "table": 13,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 C1 · 15η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-c1.html",
+   "reason": "unaligned_round",
+   "table": 14,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 C2 · 12η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-c2.html",
+   "reason": "unaligned_round",
+   "table": 11,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 C2 · 13η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-c2.html",
+   "reason": "unaligned_round",
+   "table": 12,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 C2 · 14η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-c2.html",
+   "reason": "unaligned_round",
+   "table": 13,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 C2 · 15η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-c2.html",
+   "reason": "unaligned_round",
+   "table": 14,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 D1 · 12η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-d1.html",
+   "reason": "unaligned_round",
+   "table": 11,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 D1 · 13η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-d1.html",
+   "reason": "unaligned_round",
+   "table": 12,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 D1 · 14η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-d1.html",
+   "reason": "unaligned_round",
+   "table": 13,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 D1 · 15η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-d1.html",
+   "reason": "unaligned_round",
+   "table": 14,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 D2 · 12η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-d2.html",
+   "reason": "unaligned_round",
+   "table": 11,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 D2 · 13η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-d2.html",
+   "reason": "unaligned_round",
+   "table": 12,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 D2 · 14η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-d2.html",
+   "reason": "unaligned_round",
+   "table": 13,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 D2 · 15η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-d2.html",
+   "reason": "unaligned_round",
+   "table": 14,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 E1 · 12η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-e1.html",
+   "reason": "unaligned_round",
+   "table": 11,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 E1 · 13η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-e1.html",
+   "reason": "unaligned_round",
+   "table": 12,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 E1 · 14η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-e1.html",
+   "reason": "unaligned_round",
+   "table": 13,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 E1 · 15η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-e1.html",
+   "reason": "unaligned_round",
+   "table": 14,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 E2 · 12η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-e2.html",
+   "reason": "unaligned_round",
+   "table": 11,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 E2 · 13η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-e2.html",
+   "reason": "unaligned_round",
+   "table": 12,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 E2 · 14η Αγωνιστική (20-26/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-e2.html",
+   "reason": "unaligned_round",
+   "table": 13,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 E2 · 15η Αγωνιστική (4-10/5/2020)",
+   "url": "https://www.pofepa.gr/2019-20-e2.html",
+   "reason": "unaligned_round",
+   "table": 14,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 KRHTH · 10η Αγωνιστική (16-22/3/2020)",
+   "url": "https://www.pofepa.gr/2019-20-krhth.html",
+   "reason": "unaligned_round",
+   "table": 9,
+   "printed_results": 0
+  },
+  {
+   "label": "2019-20 KRHTH · 11η Αγωνιστική (30/3-5/4/2020)",
+   "url": "https://www.pofepa.gr/2019-20-krhth.html",
+   "reason": "unaligned_round",
+   "table": 10,
+   "printed_results": 0
+  },
+  {
+   "label": "2020-21 KRHTH · PLAY OFFS",
+   "url": "https://www.pofepa.gr/2020-21-krhth.html",
+   "reason": "unaligned_round",
+   "table": 11,
+   "printed_results": 0
+  },
+  {
+   "label": "2022-23 D-MAKB · 2η Αγωνιστική (ΚΟΝΙΤΣΑ)",
+   "url": "https://www.pofepa.gr/2022-23-d-makb.html",
+   "reason": "unaligned_round",
+   "table": 1,
+   "printed_results": 0
+  },
+  {
+   "label": "Ε ΚΑΤΗΓΟΡΙΑ ΑΤΤΙΚΗΣ Α' ΟΜΙΛΟΣ 2023-2024 · 10η Αγωνιστική (10-16/2/2025)",
+   "url": "https://www.pofepa.gr/2024-2025-e3.html",
+   "reason": "unaligned_round",
+   "table": 9,
+   "printed_results": 7
   }
  ],
  "workbook_inventory": [

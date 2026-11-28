@@ -1,7 +1,7 @@
 """Discover the official archive and read both generations of Excel files."""
 import re
 from collections import Counter
-from datetime import datetime
+from datetime import date, datetime
 from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
@@ -108,6 +108,25 @@ def without_walkover_mark(value):
     return WALKOVER_MARK.sub('', value) if isinstance(value, str) else value
 
 
+def result_date(value):
+    """The single day printed for a result, or None.
+
+    Workbooks print it as an Excel date or as day, month and four-digit year
+    separated by "/", "-" or "." (26/10/2011, 11-03-2018). A range such as
+    "7-8/05/16", a two-digit year or any other text is not one known day.
+    """
+    if isinstance(value, datetime):
+        return value.date()
+    text = str(value if value is not None else '').replace('\u200b', '').replace('\ufeff', '').strip()
+    found = re.fullmatch(r'(\d{1,2})([/.-])(\d{1,2})\2(\d{4})', text)
+    if not found:
+        return None
+    try:
+        return date(int(found[4]), int(found[3]), int(found[1]))
+    except ValueError:
+        return None
+
+
 def team_pair(values):
     """The two printed team names, or None when the cells head an individual event.
 
@@ -124,6 +143,9 @@ def result_rows(sheet):
     Pre-2019 sheets leave repeated date/team/competition cells blank. Context
     row numbers are retained so every filled value can be checked in Excel.
     A new date/team block resets teams; numeric cells are never team names.
+    Anything printed in the date column starts a block, also when it is not one
+    date (a range such as "7-8/05/16", or a note): the rows below it never
+    inherit the previous block's date and teams.
     """
     rows = list(sheet.iter_rows(values_only=True))
     votes = Counter()
@@ -152,8 +174,8 @@ def result_rows(sheet):
         if not any(v is not None and str(v).strip() for v in raw):
             continue
         raw_date = row[0]
-        explicit_date = isinstance(raw_date, datetime) or (isinstance(raw_date, str) and re.fullmatch(r'\s*\d{1,2}/\d{1,2}/\d{2,4}\s*', raw_date))
-        if explicit_date:
+        new_block = raw_date is not None and bool(str(raw_date).strip())
+        if new_block:
             last_date, date_row = raw_date, rownum
             teams, team_row = ['', ''], None
         # The walkover mark belongs to this result, never to the block's teams or event.
@@ -164,7 +186,7 @@ def result_rows(sheet):
                 # Long team names wrap onto the next undated row ("ΚΡΟΚΟΔΕΙΛΟΙ"
                 # above "ΦΛΩΡΙΝΑΣ"); such a line keeps the pair. Otherwise an
                 # individual-event heading starts a block without teams.
-                wrapped = (not explicit_date and team_line == rownum - 1 and all(teams)
+                wrapped = (not new_block and team_line == rownum - 1 and all(teams)
                            and not any(EVENT_LABEL.match(n) for n in new_teams if n))
                 if wrapped:
                     team_line = rownum

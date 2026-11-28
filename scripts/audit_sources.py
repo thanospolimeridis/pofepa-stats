@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Compare every ranking and singles result with its original cached cells."""
 from collections import defaultdict
-from datetime import datetime
 import hashlib
 from pathlib import Path
 import re
 
 from dataset import load
-from workbooks import open_book, number
+from workbooks import open_book, number, result_date
 from collect import clean, key
+from validate import bye
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -54,7 +54,7 @@ def audit():
                     assert str(int(cell('ΔΑΙ'))) == players[pid]['registration']
                 assert clean(cell('Κατηγορία')) == category
                 expected_club = clean(cell('Ομάδα'))
-                assert clubs.get(club, '') == (expected_club if expected_club not in ('-', '—') else '')
+                assert clubs.get(club, '') == ('' if bye(expected_club) else expected_club)
                 ranking_count += 1
         for match, proof in evidence[source['id']]:
             rows = sheets[proof['sheet']]
@@ -63,8 +63,7 @@ def audit():
             scores = list(map(int, re.split(r'[-:]', str(row[3])))) if layout == 'combined' else list(map(number, row[int(layout):int(layout) + 2]))
             assert sorted([(key(row[1]), scores[0]), (key(row[2]), scores[1])]) == sorted(zip(map(key, match['names']), match['score']))
             raw_date = rows[proof['date_row'] - 1][0]
-            played = raw_date if isinstance(raw_date, datetime) else datetime.strptime(clean(raw_date), '%d/%m/%Y')
-            assert played.date().isoformat() == match['date']
+            assert result_date(raw_date).isoformat() == match['date']
             result_count += 1
     assert ranking_count == data['coverage']['ranking_rows']
     assert result_count == sum(e.get('kind')!='match_sheet' for m in data['matches'] for e in m['evidence'])

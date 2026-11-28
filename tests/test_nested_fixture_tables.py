@@ -5,8 +5,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from collect import parse_fixture_tables
-from validate import fixture_side_ok
+from collect import order_deferred, parse_fixture_tables, unaligned_rounds
+from validate import bye, fixture_side_ok
 
 URL = 'https://www.pofepa.gr/league.html'
 # Reduced from 2024-2025-e2.html round 14: home column beside a nested table
@@ -67,6 +67,36 @@ class NestedFixtureTableTests(unittest.TestCase):
         broken = HOME_BESIDE_NESTED.replace('SPIN DOCTORS</br>', '</br>')
         self.assertEqual(results(broken), [])
 
+    def test_a_skipped_round_is_reported_once_with_its_printed_results(self):
+        broken = HOME_BESIDE_NESTED.replace('SPIN DOCTORS</br>', '</br>')
+        skipped = []
+        self.assertEqual(parse_fixture_tables(broken, 'source', URL, 'event', skipped), [])
+        self.assertEqual(skipped, [{'table': 0, 'round': '14η Αγωνιστική (7-13/4/2025)', 'printed_results': 3}])
+        self.assertEqual(unaligned_rounds('Ε ΚΑΤΗΓΟΡΙΑ', URL, skipped), [{
+            'label': 'Ε ΚΑΤΗΓΟΡΙΑ · 14η Αγωνιστική (7-13/4/2025)', 'url': URL, 'reason': 'unaligned_round',
+            'table': 0, 'printed_results': 3}])
+
+    def test_a_round_without_results_is_reported_with_none_printed(self):
+        # Reduced from 2019-20-a1.html: rounds listed for spring 2020 with an empty score column.
+        html = '<h2>9η Αγωνιστική (16-22/3/2020)</h2><table><tr><td>A<br>B</td><td>-<br>-</td><td>C<br>D</td><td></td></tr></table>'
+        skipped = []
+        self.assertEqual(parse_fixture_tables(html, 'source', URL, 'event', skipped), [])
+        self.assertEqual(skipped, [{'table': 0, 'round': '9η Αγωνιστική (16-22/3/2020)', 'printed_results': 0}])
+
+    def test_aligned_rounds_and_other_tables_are_not_reported(self):
+        layout = '<table><tr><td>Κείμενο</td><td></td><td>Εικόνα</td><td>Σύνδεσμος</td></tr></table>'
+        for html in (HOME_BESIDE_NESTED, HOME_AND_DASH_BESIDE_NESTED, layout):
+            skipped = []
+            parse_fixture_tables(html, 'source', URL, 'event', skipped)
+            self.assertEqual(skipped, [])
+
+    def test_deferred_order_lists_whole_sources_before_rounds(self):
+        entries = [{'url': 'b', 'reason': 'unaligned_round', 'table': 2}, {'url': 'z', 'reason': 'source_unavailable'},
+                   {'url': 'a', 'reason': 'unaligned_round', 'table': 9}, {'url': 'b', 'reason': 'unaligned_round', 'table': 1},
+                   {'url': 'c', 'reason': 'document_source_conflict'}]
+        self.assertEqual([(d['url'], d.get('table')) for d in order_deferred(entries)],
+                         [('z', None), ('c', None), ('a', 9), ('b', 1), ('b', 2)])
+
     def test_text_beside_a_nested_table_keeps_the_cell_whole(self):
         # A cell with its own text is not expanded, so its parts cannot shift columns.
         mixed = HOME_BESIDE_NESTED.replace('<div><div class="wsite-multicol">', '<div>Σημείωση<div class="wsite-multicol">')
@@ -85,6 +115,20 @@ class FixtureTeamValidationTests(unittest.TestCase):
         clubs = {'c-dash'}
         self.assertTrue(fixture_side_ok('-', '', clubs))
         self.assertFalse(fixture_side_ok('-', 'c-dash', clubs), 'A bye has no club')
+
+    def test_a_row_of_x_is_a_bye_in_either_alphabet(self):
+        clubs = {'c-x'}
+        for name in ('XXX', 'ΧΧΧ', 'ΧΧΧΧ', 'xxx', ' ΧΧΧ ', '—', '–'):
+            self.assertTrue(bye(name), name)
+            self.assertTrue(fixture_side_ok(name, '', clubs), name)
+            self.assertFalse(fixture_side_ok(name, 'c-x', clubs), 'A bye has no club')
+
+    def test_real_team_names_are_not_byes(self):
+        # "ΑΝΕΥ ΑΓΩΝΟΣ" plays in the 2025-26 East Macedonia & Thrace league.
+        for name in ('ΑΝΕΥ ΑΓΩΝΟΣ', 'X', 'ΧΑΝΘΗ', 'XXL', 'ΑΕΚ', '25ο', 'A-B', ''):
+            self.assertFalse(bye(name), name)
+        self.assertTrue(fixture_side_ok('ΑΝΕΥ ΑΓΩΝΟΣ', 'c-1', {'c-1'}))
+        self.assertFalse(fixture_side_ok('ΑΝΕΥ ΑΓΩΝΟΣ', '', {'c-1'}))
 
 
 if __name__ == '__main__':
