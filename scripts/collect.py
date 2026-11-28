@@ -13,6 +13,9 @@ from pathlib import Path
 import re
 import time
 import unicodedata
+import http.client
+import sys
+from urllib.error import URLError
 from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 
@@ -59,12 +62,45 @@ def score_status(a, b, opponent=""):
     return "nonstandard_score"
 
 
+MAX_SOURCE_BYTES = 64 * 1024 * 1024
+FETCH_ERRORS = (URLError, TimeoutError, ConnectionError, http.client.HTTPException)
+
+
+class SourceUnavailable(OSError):
+    """A source could not be fetched and has no cached copy."""
+
+
+def write_atomic(path, body):
+    """Replace a file only once its new bytes are completely written."""
+    temporary = path.with_name(path.name + ".part")
+    temporary.write_bytes(body)
+    temporary.replace(path)
+
+
 class Cache:
+    """Raw source cache in capture/. Cached bytes are the only copy of each source.
+
+    A refresh that changes a file keeps the previous bytes in capture/replaced/,
+    so a hash-pinned reviewed source is never lost. A failed fetch falls back to
+    the cached copy; with no copy it raises SourceUnavailable.
+    """
     def __init__(self, directory, offline=False, refresh=False):
         self.path = directory
         self.path.mkdir(parents=True, exist_ok=True)
         self.offline, self.refresh = offline, refresh
         self.sources = {}
+
+    @staticmethod
+    def fetch(url):
+        request = Request(url, headers={"User-Agent": "pofepa-stats/0.1 (public sports archive)"})
+        with urlopen(request, timeout=45) as response:
+            final = response.geturl()
+            if not safe_url(final):
+                raise ValueError(f"Source redirected to an unapproved URL: {url} -> {final}")
+            body = response.read(MAX_SOURCE_BYTES + 1)
+        if len(body) > MAX_SOURCE_BYTES:
+            raise ValueError(f"Source is larger than {MAX_SOURCE_BYTES} bytes: {url}")
+        return body
 
     def get(self, url, filename=None):
         if not safe_url(url):
@@ -73,13 +109,27 @@ class Cache:
         path = self.path / filename
         meta_path = path.with_suffix(path.suffix + ".meta.json")
         if (self.refresh or not path.exists()) and not self.offline:
-            request = Request(url, headers={"User-Agent": "pofepa-stats/0.1 (public sports archive)"})
-            with urlopen(request, timeout=45) as response:
-                body = response.read()
-            path.write_bytes(body)
-            meta_path.write_text(json.dumps({"url": url, "retrieved_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}), encoding="utf-8")
-            time.sleep(.15)
+            try:
+                body = self.fetch(url)
+            except FETCH_ERRORS as error:
+                if not path.exists():
+                    raise SourceUnavailable(f"{url}: {error}") from error
+                print(f"Refresh failed, keeping the cached copy: {url}: {error}", file=sys.stderr)
+            else:
+                if path.exists() and path.read_bytes() != body:
+                    previous = path.read_bytes()
+                    kept = self.path / "replaced" / f"{path.name}.{sha(previous)[:12]}"
+                    kept.parent.mkdir(exist_ok=True)
+                    if not kept.exists():
+                        write_atomic(kept, previous)
+                        if meta_path.exists():
+                            write_atomic(kept.with_name(kept.name + ".meta.json"), meta_path.read_bytes())
+                write_atomic(path, body)
+                write_atomic(meta_path, json.dumps({"url": url, "retrieved_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}).encode())
+                time.sleep(.15)
         if not path.exists():
+            # Offline, a linked source missing from the cache is an incomplete
+            # collection, not an unavailable source: stop rather than drop it.
             raise FileNotFoundError(f"Missing cached source: {url}")
         body = path.read_bytes()
         if meta_path.exists():
@@ -466,31 +516,35 @@ def collect(cache, as_of):
             if not url.lower().endswith((".html", ".pdf", ".jpg", ".jpeg", ".png")):
                 deferred.append({"label": label, "url": url, "season": season_name, "reason": "invalid_result_link"})
                 continue
+            # Only a source that cannot be fetched is deferred. A parse error, a
+            # changed reviewed document or a missing tool stops the collection,
+            # so no event's fixtures can silently drop out of the catalog.
             try:
                 sid, path = cache.get(url, "a1.html" if url == BASE + "2026-2027-a1.html" else None)
-                eid = uid("e-", url)
-                if not url.endswith(".html"):
-                    title = label
-                    parsed, pdf_info = extract_document(path, sid, eid, uid)
-                    document_reviews.append({"source":sid,"url":url,"season":season_name,**pdf_info})
-                    if pdf_info['review_status'] in ('pending','source_conflict'):
-                        deferred.append({"label":title,"url":url,"reason":"document_"+pdf_info['review_status'],"detail":pdf_info.get('review_issues',[])})
-                else:
-                    html = path.read_text()
-                    page = BeautifulSoup(html, "html.parser")
-                    title = clean(page.title.get_text()).split(" - ΠΑΝΕΛ")[0] if page.title else label
-                    parsed = parse_fixture_tables(html, sid, url, eid)
-                events[eid] = {"id": eid, "name": title, "season": season_name, "kind": "fixtures", "sources": [sid]}
-                if url in regions:
-                    events[eid]['competition_region'] = regions[url]['region']
-                    events[eid]['competition_type'] = regions[url]['competition_type']
-                for f in parsed:
-                    f["clubs"] = [club_id(f["home"]), club_id(f["away"])]
-                fixtures.extend(parsed)
-                if not parsed and url.endswith('.html'):
-                    deferred.append({"label": title, "url": url, "reason": "no_supported_fixture_table"})
-            except (OSError, ValueError) as exc:
+            except SourceUnavailable as exc:
                 deferred.append({"label": label, "url": url, "reason": "source_unavailable", "detail": str(exc)})
+                continue
+            eid = uid("e-", url)
+            if not url.endswith(".html"):
+                title = label
+                parsed, pdf_info = extract_document(path, sid, eid, uid)
+                document_reviews.append({"source":sid,"url":url,"season":season_name,**pdf_info})
+                if pdf_info['review_status'] in ('pending','source_conflict'):
+                    deferred.append({"label":title,"url":url,"reason":"document_"+pdf_info['review_status'],"detail":pdf_info.get('review_issues',[])})
+            else:
+                html = path.read_text()
+                page = BeautifulSoup(html, "html.parser")
+                title = clean(page.title.get_text()).split(" - ΠΑΝΕΛ")[0] if page.title else label
+                parsed = parse_fixture_tables(html, sid, url, eid)
+            events[eid] = {"id": eid, "name": title, "season": season_name, "kind": "fixtures", "sources": [sid]}
+            if url in regions:
+                events[eid]['competition_region'] = regions[url]['region']
+                events[eid]['competition_type'] = regions[url]['competition_type']
+            for f in parsed:
+                f["clubs"] = [club_id(f["home"]), club_id(f["away"])]
+            fixtures.extend(parsed)
+            if not parsed and url.endswith('.html'):
+                deferred.append({"label": title, "url": url, "reason": "no_supported_fixture_table"})
 
     referenced_players = {m[p] for m in matches for p in ("p1", "p2")}
     players = {pid: p for pid, p in players.items() if not p["provisional"] or pid in referenced_players}

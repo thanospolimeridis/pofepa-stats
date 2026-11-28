@@ -19,6 +19,7 @@
 - Stop reading individual-event headings in older workbooks as teams: 6,033 singles results no longer carry a category, stage, row header or tournament name as a club, and wrapped team names keep their real team. 121 placeholder clubs drop out.
 - Merge 388 provisional profiles that were split only by those placeholders into 113 (links to the old profiles redirect). 53 match sides now link to a registered profile under the existing rule for results without a team; two sides become provisional because a restored team's spelling differs from the ranking list. Match dates, scores, events and counts are unchanged.
 - Exclude 233 workbook results marked "α/α" (άνευ αγώνα, a walkover) that were counted as played 3–0 matches; 239 rows are now listed as `walkover_mark` exclusions. The mark no longer clears a block's teams or names an event, restoring the team on 153 results and removing two events called "α/α". Placeholder profiles such as "ΧΧΧ" that only had walkovers disappear.
+- Make the collector fail closed: only a source that cannot be fetched is deferred; a parse error, a changed reviewed document or a missing PDF tool now stops the run instead of silently dropping that event's fixtures. Cache files are written atomically, a refresh keeps any changed source's previous bytes in `capture/replaced/`, a failed refresh keeps the cached copy, redirects must stay on approved hosts and oversized downloads are refused. The catalog regenerates unchanged.
 
 ## Prototype updates — 2026-11-26
 

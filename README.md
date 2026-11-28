@@ -67,7 +67,7 @@ python3 scripts/refresh_html_fixtures.py --offline
 python3 scripts/cup_draws.py
 ```
 
-The collector discovers all linked workbooks and result seasons rather than maintaining a fixed month list. `--refresh` refetches sources; `--cache PATH` selects the raw cache; `--output PATH` stages a separate collection. Validation must pass before the output is atomically replaced. The source-cell audit requires the original ignored `capture/` downloads.
+The collector discovers all linked workbooks and result seasons rather than maintaining a fixed month list. `--refresh` refetches sources; `--cache PATH` selects the raw cache; `--output PATH` stages a separate collection. Validation must pass before the output is atomically replaced. Only a source that cannot be fetched at all is deferred as unavailable; a parse error, a changed reviewed document or a missing tool such as `pdftotext` stops the run. A refresh that changes a cached source keeps its previous bytes in `capture/replaced/`, and a failed refresh keeps the cached copy. The source-cell audit requires the original ignored `capture/` downloads.
 
 ## Identity and evidence
 
