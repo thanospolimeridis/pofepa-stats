@@ -45,16 +45,8 @@ pip install -r requirements.txt
 
 python3 scripts/collect.py --as-of 2026-11-26
 python3 scripts/collect.py --offline --as-of 2026-11-26
-python3 scripts/build.py
-python3 -m unittest discover -s tests -v
-node tests/smoke.js
-node tests/athlete-stats.js
-node tests/evidence.js
-node tests/export.js
-node tests/bootstrap.js
-node tests/hydration.js
-node tests/cup-bracket.js
-python3 scripts/check_reproducible_build.py
+# Every CI check: unit tests, build, all Node suites and a reproducibility rebuild.
+scripts/check_all.sh
 python3 scripts/audit_sources.py
 python3 scripts/audit_documents.py
 python3 scripts/audit_match_sheets.py
@@ -84,6 +76,6 @@ See [SOURCES.md](docs/SOURCES.md) for the source contract and known anomalies.
 
 ## Deployment
 
-Pushes to `main` validate, build, verify reproducibility and publish `dist/` through GitHub Actions. During prototyping, each validated change is also pushed to `main` for immediate preview. No new version numbers or release tags are created until the prototype is ready. The full normalized dataset and offline edition are downloadable; the hosted HTML is small and loads compressed data shards on demand.
+Pushes to `main` run every check (`scripts/check_all.sh`) and publish `dist/` through the "Publish GitHub Pages" workflow (`.github/workflows/publish.yml`); pushes to other branches and pull requests run the same checks in "Checks" (`.github/workflows/checks.yml`). During prototyping, each validated change is also pushed to `main` for immediate preview. No new version numbers or release tags are created until the prototype is ready. The full normalized dataset and offline edition are downloadable; the hosted HTML is small and loads compressed data shards on demand.
 
 Code is MIT licensed, with Greek TT Archive attribution retained in `LICENSE`. Third-party sports data and source documents remain attributed to POFΕPA and are not covered by the code license.
