@@ -1111,7 +1111,8 @@ summary{
 th,.field label{
   font-size:14px
 }
-main:focus{
+/* The page title takes focus on navigation for screen readers; it is not a control, so no ring. */
+main:focus,main h1:focus{
   outline:none
 }
 .player-cell>a{
