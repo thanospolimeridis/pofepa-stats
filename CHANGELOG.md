@@ -1,5 +1,9 @@
 # Changelog
 
+## Prototype updates — 2026-11-28
+
+- Check the figures quoted in README.md and docs/SOURCES.md against the committed catalog (`tests/test_docs.py`). A data change that leaves a sentence stale now fails the tests and names the sentence to update. Page counts and build sizes need the raw cache or a build, so they are not checked.
+
 ## Prototype updates — 2026-11-27
 
 - Refresh the visual design within the existing ink, teal and mint palette: pill navigation, the archive totals beside the search in the hero, a latest-ranking banner, flat rounded cards with their headings inside, a category-free home ranking with position chips, one linked row per home competition, each player's games as a chip beside the name in match rows, a segmented athlete section switch, and proportional bars in the athlete score breakdown.
