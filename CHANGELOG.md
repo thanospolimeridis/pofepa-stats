@@ -5,6 +5,12 @@ adds a section when a release is cut, one line per commit since the release
 before it. See "Releases and versions" in the README. The sections headed
 "Prototype updates" were written by hand before releases were numbered.
 
+## 0.2.0 — 2026-11-28
+
+- First numbered release since 0.1.0. It carries the work listed under the prototype updates below.
+- Number every release and let only tagged releases reach main
+- Measure test coverage in the checks and show it on README badges
+
 ## Prototype updates — 2026-11-28
 
 - Stop counting placeholder opponents as players. 993 workbook results had "ΧΧΧ", "XXX", a dash or "ΑΝΕΥ 1" in place of a missing opponent, nearly all recorded as 3–0. They are now excluded as `no_opponent` (1,044 rows, including repeats in overlapping workbooks), which removes 992 unplayed wins and one unplayed loss from 605 profiles and drops 448 placeholder profiles and 10 provisional profiles that had no other result. Three profile redirects that pointed at placeholders are removed.
