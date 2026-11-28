@@ -76,6 +76,52 @@ See [SOURCES.md](docs/SOURCES.md) for the source contract and known anomalies.
 
 ## Deployment
 
-Pushes to `main` run every check (`scripts/check_all.sh`) and publish `dist/` through the "Publish GitHub Pages" workflow (`.github/workflows/publish.yml`); pushes to other branches and pull requests run the same checks in "Checks" (`.github/workflows/checks.yml`). During prototyping, each validated change is also pushed to `main` for immediate preview. No new version numbers or release tags are created until the prototype is ready. The full normalized dataset and offline edition are downloadable; the hosted HTML is small and loads compressed data shards on demand.
+`main` is the public site: each push to it runs every check (`scripts/check_all.sh`) and publishes `dist/` through the "Publish GitHub Pages" workflow (`.github/workflows/publish.yml`). Work is staged on `develop`. Changes are merged there first, by a push or by a pull request opened with `--base develop` (GitHub proposes `main`); pushes to branches other than `main` and all pull requests run the same checks in "Checks" (`.github/workflows/checks.yml`), and nothing is published. `main` moves only when a release is wanted, and only to a numbered release (see [Releases and versions](#releases-and-versions)):
+
+```sh
+python3 scripts/release.py minor
+PUBLISH=1 git push --atomic origin develop develop:main vX.Y.Z
+```
+
+The first command cuts the release on `develop` and prints the second, which fast-forwards `main` to it, sends its tag and starts the deployment. If Git rejects the push as non-fast-forward, `main` holds commits that `develop` lacks; the release script checks for that before it tags anything.
+
+Two guards keep everything else off the site. `scripts/hooks/pre-push` refuses any push to `main` that is not made with `PUBLISH=1`, and any push whose commit is not a release: the tag `vX.Y.Z` named by that commit's `VERSION` has to point at it, and has to be in the push or already on the remote. A hook is local to a clone, so install it once per clone (its worktrees share it):
+
+```sh
+cp scripts/hooks/pre-push "$(git rev-parse --git-common-dir)/hooks/pre-push"
+```
+
+The publish workflow makes the same check before it builds, so a commit that reaches `main` another way, such as a pull request merged there on GitHub, is not deployed.
+
+The full normalized dataset and offline edition are downloadable; the hosted HTML is small and loads compressed data shards on demand.
+
+## Releases and versions
+
+Every public state of the site is a numbered release. `VERSION` holds the number as `MAJOR.MINOR.PATCH` and is the only place it is set. The build stamps it into both editions, and the footer shows it, linked to [`CHANGELOG.md`](CHANGELOG.md). The number identifies a release of the site. It says nothing about how complete the data are, and `dataset_sha256` in `dist/provenance.json` remains the identity of the data: a release that changes no data leaves it as it was.
+
+| Part | Raised for |
+| --- | --- |
+| `patch` | Fixes, wording, and refreshes of data that were already covered |
+| `minor` | New features, and newly covered competitions, seasons or documents |
+| `major` | Redesigns, and changes that break saved links or the published file formats |
+
+Branches and commits on `develop` leave `VERSION` and `CHANGELOG.md` alone, so parallel work never conflicts over them. A release is cut on `develop` when one is wanted:
+
+```sh
+python3 scripts/release.py          # the current version and the commits waiting since the last release
+python3 scripts/release.py minor    # or patch, major, or a version named outright such as 1.0.0
+```
+
+The script refuses unless the checkout is on `develop`, has no uncommitted changes to tracked files and already contains `origin/develop` and `origin/main`. It then raises `VERSION`, adds a `CHANGELOG.md` section listing the subject of every commit since the previous release, commits the two files as `Release X.Y.Z` and tags that commit `vX.Y.Z`. With `--summary "One line"`, which can be repeated, the section lists the given lines instead of the commits. Nothing is pushed: the script prints the publishing command and stops. Until that command is run the release can be withdrawn by deleting the tag and the commit.
+
+Because every release is tagged, an earlier one can be put back on the public site. Both guards allow it, since the commit is a release:
+
+```sh
+PUBLISH=1 git push --force origin 'vX.Y.Z^{commit}:main'
+```
+
+`develop` keeps the later work, and the next release moves `main` forward again.
+
+## License
 
 Code is MIT licensed, with Greek TT Archive attribution retained in `LICENSE`. Third-party sports data and source documents remain attributed to POFΕPA and are not covered by the code license.

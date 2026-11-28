@@ -846,6 +846,9 @@ select{
 .footer a{
   margin-left:16px
 }
+.footer .version-link{
+  margin-left:0
+}
 summary{
   cursor:pointer;
   color:var(--teal);

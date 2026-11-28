@@ -32,7 +32,7 @@ const eventIds = new Set(corrected.map(m => m.event));
 const sourceIds = new Set(matches.flatMap(m => [m.source,...(m.document_evidence||[]).map(e => e.source),
   ...(m.sheet_corrections||[]).flatMap(e => [e.correction.source,e.match.source])]));
 const payload = {
-  schema:1,version:'prototype',matches,fixtures:[],snapshots:[],
+  schema:1,matches,fixtures:[],snapshots:[],
   players:catalog.players.filter(p => playerIds.has(p.id)),
   clubs:catalog.clubs,
   events:[...catalog.events.filter(e => eventIds.has(e.id)),{
@@ -92,6 +92,7 @@ async function clickExport(route,kind,lang='en') {
   await context.window.pofepaReady;
   assert.equal(errors.length,0,errors.map(String).join('\n'));
   assert(app.innerHTML.includes('<main'),'Route did not render');
+  assert(app.innerHTML.includes('<footer')&&!app.innerHTML.includes('CHANGELOG.md'),'A copy built without VERSION names no release');
   const buttonHtml = app.innerHTML.match(new RegExp('<button\\b[^>]*data-export="'+kind+'"[^>]*>'))?.[0];
   assert(buttonHtml,`Rendered ${route} lacks its ${kind} CSV button`);
   const dataset = Object.fromEntries([...buttonHtml.matchAll(/data-([a-z]+)="([^"]*)"/g)].map(m => [m[1],m[2]]));

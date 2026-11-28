@@ -7,7 +7,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from build import bootstrap_data
+from build import bootstrap_data, stamp
 from dataset import encode
 
 
@@ -55,6 +55,16 @@ class BootstrapContractTests(unittest.TestCase):
         result['bootstrap_schema'] += 1
         self.assertNotEqual(before, hashlib.sha256(encode(result)).hexdigest())
         self.assertEqual(result['dataset_sha256'], self.data['dataset_sha256'])
+
+
+class ReleaseStampTests(unittest.TestCase):
+    def test_a_release_number_never_changes_the_identity_of_the_data(self):
+        catalog = {'schema': 1, 'players': [{'id': 'p-1'}]}
+        identity = hashlib.sha256(encode(catalog)).hexdigest()
+        self.assertEqual(stamp(dict(catalog), '0.2.0'), {**catalog, 'dataset_sha256': identity, 'version': '0.2.0'})
+        self.assertEqual(stamp(dict(catalog), '1.0.0')['dataset_sha256'], identity)
+        self.assertEqual(stamp(dict(catalog), None), {**catalog, 'dataset_sha256': identity}, 'a copy without VERSION is unversioned')
+        self.assertNotEqual(stamp({**catalog, 'schema': 2}, '0.2.0')['dataset_sha256'], identity)
 
 
 if __name__ == '__main__':

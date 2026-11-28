@@ -78,6 +78,10 @@ window.pofepaReady = (async () => {
       E(text)}</a>`:'—';
   }
   const sourceLink=(id,row)=>external(sources.get(id)?.url,L('Πηγή','Source')+(row?' · '+row:''));
+  // The release this page was built from (VERSION, changed only by scripts/release.py),
+  // linked to what each release changed. A copy built without the file names none.
+  const CHANGELOG_URL='https://github.com/thanospolimeridis/pofepa-stats/blob/main/CHANGELOG.md';
+  const versionTag=()=>db.version?' · '+external(CHANGELOG_URL,'v'+db.version,'source-link version-link'):'';
   const empty=text=>`<div class="empty">${E(text||L('Δεν βρέθηκαν εγγραφές για αυτά τα φίλτρα.','No records match these filters.'))}</div>`;
   const table=(heads,body)=>`<div class="table-wrap"><table><thead><tr>${
     heads.map(h=>`<th scope="col">${h}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table></div>`;
@@ -783,8 +787,8 @@ window.pofepaReady = (async () => {
     }[current.name]||notFound;
     let body;try{body=view();}catch(error){renderError(error,true);return;}
     document.title=pageTitle(view)+' · POFEPA Stats';
-    app.innerHTML=header()+(current.name==='home'?body:`<main id="main" class="wrap main">${body}</main>`)+`<footer class="footer"><div class="wrap footer-inner"><div><b>POFEPA STATS</b> · ${
-      db.version==='prototype'?L('Πρωτότυπο','Prototype'):'v'+E(db.version)}<br>${
+    app.innerHTML=header()+(current.name==='home'?body:`<main id="main" class="wrap main">${body}</main>`)+`<footer class="footer"><div class="wrap footer-inner"><div><b>POFEPA STATS</b>${
+      versionTag()}<br>${
       L('Ανεξάρτητο αρχείο · όχι επίσημη υπηρεσία ΠΟΦΕΠΑ.','Independent archive · not an official POFΕPA service.')}</div><div>${
       link('about',L('Κάλυψη & πηγές','Coverage & sources'))}${external('https://www.pofepa.gr/','pofepa.gr')}${
       external('https://thanospolimeridis.github.io/greek-tt-stats/','Greek TT Archive')}</div></div></footer>`;

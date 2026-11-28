@@ -1,0 +1,67 @@
+#!/bin/sh
+# Let only deliberate, versioned releases reach main.
+#
+# main is the public site: every push to it is deployed to GitHub Pages.
+# Work is staged on develop. A release is cut there with
+#     python3 scripts/release.py patch|minor|major
+# and published on purpose with the command that script prints:
+#     PUBLISH=1 git push --atomic origin develop develop:main vX.Y.Z
+#
+# A push to main is refused unless PUBLISH=1 is set and the pushed commit is a
+# release: its VERSION file names a version whose tag vX.Y.Z points at that very
+# commit, and the tag travels with the push or is already on the remote.
+#
+# Install (once per clone; the hook is shared by all its worktrees):
+#     cp scripts/hooks/pre-push "$(git rev-parse --git-common-dir)/hooks/pre-push"
+
+remote="$1"
+pushed=$(cat)
+
+while read -r local_ref local_sha remote_ref remote_sha; do
+    [ "$remote_ref" = "refs/heads/main" ] || continue
+    if [ "${PUBLISH:-}" != "1" ]; then
+        cat >&2 <<'EOF'
+Push to main refused by the pre-push guard.
+
+main is the public site: every push to it is deployed to GitHub Pages.
+Merge your work into develop and push develop instead.
+
+Publishing is the repository owner's decision. Only when they have asked
+for a release, cut it on develop and use the command it prints:
+
+    python3 scripts/release.py patch|minor|major
+    PUBLISH=1 git push --atomic origin develop develop:main vX.Y.Z
+EOF
+        exit 1
+    fi
+    version=$(git cat-file -p "$local_sha:VERSION" 2>/dev/null | head -n 1 | tr -d '[:space:]')
+    tag="v$version"
+    if [ -z "$version" ] || [ "$(git rev-parse -q --verify "refs/tags/$tag^{commit}" 2>/dev/null)" != "$local_sha" ]; then
+        cat >&2 <<EOF
+Push to main refused by the pre-push guard: this commit is not a release.
+
+Every public version of the site is a tagged release. The commit being
+pushed has VERSION "${version:-missing}", and no tag $tag points at it.
+Cut the release on develop first, then publish with the command it prints:
+
+    python3 scripts/release.py patch|minor|major
+EOF
+        exit 1
+    fi
+    case "$pushed" in
+        *" refs/tags/$tag "*) ;;
+        *) if ! git ls-remote --exit-code "$remote" "refs/tags/$tag" >/dev/null 2>&1; then
+               cat >&2 <<EOF
+Push to main refused by the pre-push guard: the tag $tag is not on the remote.
+
+Send the release tag together with the release:
+
+    PUBLISH=1 git push --atomic origin develop develop:main $tag
+EOF
+               exit 1
+           fi ;;
+    esac
+done <<EOF
+$pushed
+EOF
+exit 0

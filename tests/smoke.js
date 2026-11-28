@@ -167,6 +167,7 @@ for(const language of ['el','en']){
   assert(profile('').indexOf('id="athlete-rankings"')<profile('').indexOf('id="athlete-matches"'),'Keep ranking chart before matches');
   // Home layout: totals in the hero, then the latest-ranking banner, a compact ranking and linked competitions.
   const home=rendered.get(language+':home'),at=text=>home.indexOf(text),count=(html,pattern)=>(html.match(pattern)||[]).length;
+  assert(home.includes(`<b>POFEPA STATS</b> · <a class="source-link version-link" href="https://github.com/thanospolimeridis/pofepa-stats/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">v${fs.readFileSync('VERSION','utf8').trim()}</a>`),'The footer names the release and links to its notes');
   assert(at('class="stats-band"')>0&&at('class="stats-band"')<at('<main'),'Home statistics sit in the hero');
   assert(at('<main')<at('class="latest-ranking"')&&at('class="latest-ranking"')<at('class="grid-two"'),'The latest-ranking banner opens the page content');
   const homeRanking=home.match(/<section class="panel home-card home-ranking">[\s\S]*?<\/section>/)[0];

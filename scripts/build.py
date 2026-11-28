@@ -6,6 +6,7 @@ import gzip
 import hashlib
 import json
 from pathlib import Path
+import re
 import shutil
 
 from dataset import load, encode, save
@@ -15,6 +16,23 @@ from cup_draws import attach_draws
 from athlete_rankings import match_ranking_context
 
 ROOT = Path(__file__).resolve().parents[1]
+VERSION_FORMAT = re.compile(r'(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)')
+
+
+def read_version(root=ROOT):
+    """The site's release version, from the committed VERSION file.
+
+    The file is the only source: reading Git or the clock here would make the same
+    commit build differently in CI. scripts/release.py is what changes it. A copy
+    of the project without the file builds an unversioned site.
+    """
+    path = root / 'VERSION'
+    if not path.exists():
+        return None
+    version = path.read_text(encoding='utf-8').strip()
+    if not VERSION_FORMAT.fullmatch(version):
+        raise SystemExit(f'VERSION must hold MAJOR.MINOR.PATCH, found {version!r}')
+    return version
 
 
 def player_stats(rows, pid):
@@ -97,6 +115,18 @@ def bootstrap_data(data):
     return result
 
 
+def stamp(data, version):
+    """Give the catalog its data hash, then the number of the release that carries it.
+
+    The hash comes first and so leaves the number out: a release that changes no
+    data leaves dataset_sha256 as it was.
+    """
+    data['dataset_sha256'] = hashlib.sha256(encode(data)).hexdigest()
+    if version:
+        data['version'] = version
+    return data
+
+
 def build():
     data = load()
     validate(data)
@@ -104,8 +134,7 @@ def build():
     attach_draws(data)
     data['match_rankings'] = match_ranking_context(data)
     data['player_redirects'] = json.loads((ROOT / 'data/player-redirects.json').read_text())
-    data['version'] = (ROOT / 'VERSION').read_text().strip()
-    data['dataset_sha256'] = hashlib.sha256(encode(data)).hexdigest()
+    stamp(data, read_version())
     data['ranking_index'] = 'https://www.pofepa.gr/piiotanualphakappaepsilonsigmaf-alphaxiiotaomicronlambdaomicrongammaetasigmaetasigmaf.html'
     html = (ROOT / 'src/template.html').read_text()
     for marker, filename in [('STYLE', 'style.css'), ('CORE', 'core.js'), ('EVIDENCE', 'evidence.js'), ('ATHLETES', 'athlete-stats.js'), ('APP', 'app.js')]:
