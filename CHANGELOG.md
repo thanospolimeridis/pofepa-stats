@@ -5,6 +5,10 @@ adds a section when a release is cut, one line per commit since the release
 before it. See "Releases and versions" in the README. The sections headed
 "Prototype updates" were written by hand before releases were numbered.
 
+## 0.2.1 — 2026-11-28
+
+- Drop the focus frame around the page title after navigation
+
 ## 0.2.0 — 2026-11-28
 
 - First numbered release since 0.1.0. It carries the work listed under the prototype updates below.
