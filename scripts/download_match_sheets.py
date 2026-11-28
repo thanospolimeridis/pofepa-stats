@@ -12,10 +12,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--season', default='2026-2027')
+    parser.add_argument('--season', help='Season such as 2026-2027 (default: the latest season with linked sheets)')
     args = parser.parse_args()
     data = load()
     events = {e['id']: e for e in data['events']}
+    args.season = args.season or max(events[f['event']]['season'] for f in data['fixtures'] if f.get('sheet_url'))
     urls = sorted({f['sheet_url'] for f in data['fixtures'] if f.get('sheet_url')
                    and events[f['event']]['season'] == args.season})
     def fetch(url):

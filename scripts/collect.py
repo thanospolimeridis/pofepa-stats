@@ -28,7 +28,8 @@ from reviewed_documents import extract_document
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://www.pofepa.gr/"
 RANKINGS = BASE + "piiotanualphakappaepsilonsigmaf-alphaxiiotaomicronlambdaomicrongammaetasigmaetasigmaf.html"
-SEASON = BASE + "2026-2027.html"
+# Seasons are discovered from the site-wide results menu on the ranking index,
+# so a new season needs no code change.
 
 
 def clean(value):
@@ -497,13 +498,12 @@ def collect(cache, as_of):
             matches.append(match)
             records_by_fingerprint[fingerprint].append(match)
 
-    _, season_path = cache.get(SEASON, "season.html")
     visited = set()
     deferred = []
     document_reviews = []
     season_inventory = []
-    for season_name, season_url in seasons(season_path.read_text(), BASE):
-        season_sid, path = cache.get(season_url, "season.html" if season_url == SEASON else None)
+    for season_name, season_url in seasons(ranking_index.read_text(), BASE):
+        season_sid, path = cache.get(season_url)
         links = content_links(path.read_text(), season_url)
         regions = regional_links(path.read_text(), season_url)
         season_inventory.append({"season": season_name, "url": season_url, "linked_sources": len(links)})
@@ -520,7 +520,7 @@ def collect(cache, as_of):
             # changed reviewed document or a missing tool stops the collection,
             # so no event's fixtures can silently drop out of the catalog.
             try:
-                sid, path = cache.get(url, "a1.html" if url == BASE + "2026-2027-a1.html" else None)
+                sid, path = cache.get(url)
             except SourceUnavailable as exc:
                 deferred.append({"label": label, "url": url, "reason": "source_unavailable", "detail": str(exc)})
                 continue

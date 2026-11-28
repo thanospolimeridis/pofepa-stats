@@ -29,7 +29,7 @@ def discover(data, cache):
         url = source['url']
         if not url.endswith('.html'):
             continue
-        _, path = cache.get(url, 'a1.html' if url.endswith('/2026-2027-a1.html') else None)
+        _, path = cache.get(url)
         parsed = parse_fixture_tables(path.read_text(), source['id'], url, event['id'])
         previous = [f for f in data['fixtures'] if f['event'] == event['id']]
         if len(parsed) != len(previous):

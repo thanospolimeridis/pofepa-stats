@@ -14,6 +14,7 @@ import collect  # noqa: E402
 from collect import Cache, SourceUnavailable  # noqa: E402
 
 URL = 'https://www.pofepa.gr/2026-2027-a1.html'
+SEASON_PAGE = 'https://www.pofepa.gr/2026-2027.html'
 
 
 class Response:
@@ -104,8 +105,8 @@ class FakeCache:
             raise SourceUnavailable(f'{url}: HTTP 404')
         path = self.dir / (filename or 'source' + Path(url).suffix)
         if url == collect.RANKINGS:
-            path.write_text('<html></html>')
-        elif url == collect.SEASON:
+            path.write_text('<html><nav>results menu</nav></html>')
+        elif url == SEASON_PAGE:
             path.write_text('<html><body><a href="https://www.pofepa.gr/2026-2027.html">Αποτελεσματα</a>'
                             '<a href="https://www.pofepa.gr/cup.pdf">Κύπελλο</a></body></html>')
         else:
@@ -117,11 +118,14 @@ class FakeCache:
 
 class CollectorFailsClosedTests(unittest.TestCase):
     def run_collect(self, cache):
-        with mock.patch.object(collect, 'seasons', return_value=[('2026-2027', collect.SEASON)]), \
+        with mock.patch.object(collect, 'seasons', return_value=[('2026-2027', SEASON_PAGE)]) as found, \
              mock.patch.object(collect, 'content_links', return_value=[('Κύπελλο', 'https://www.pofepa.gr/cup.pdf')]), \
              mock.patch.object(collect, 'regional_links', return_value={}), \
              mock.patch('import_match_sheets.import_reviews'):  # match-sheet replay needs the real catalog
-            return collect.collect(cache, date(2026, 11, 26))
+            data = collect.collect(cache, date(2026, 11, 26))
+        # Seasons come from the results menu on the ranking index, not a fixed season page.
+        self.assertEqual(found.call_args.args[0], (cache.dir / 'rankings.html').read_text())
+        return data
 
     def test_changed_reviewed_document_stops_the_collection(self):
         error = ValueError('Document changed since visual review; transcription must be checked again')

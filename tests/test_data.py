@@ -157,8 +157,11 @@ class HistoricalTests(unittest.TestCase):
 
     def test_full_linked_workbook_archive_is_accounted_for(self):
         d = DatasetTests.data
-        self.assertEqual(len(d['coverage']['workbook_inventory']), 270)
-        self.assertTrue(all(i['imported'] for i in d['coverage']['workbook_inventory']))
+        inventory = d['coverage']['workbook_inventory']
+        # New monthly workbooks add to the archive; none may be skipped or listed twice.
+        self.assertGreaterEqual(len(inventory), 270)
+        self.assertEqual(len({i['url'] for i in inventory}), len(inventory))
+        self.assertTrue(all(i['imported'] for i in inventory))
         self.assertEqual(d['coverage']['ranking_periods'][0], '2011-10')
         self.assertGreater(d['coverage']['matches'], 130000)
         self.assertGreater(d['coverage']['ranking_rows'], 700000)

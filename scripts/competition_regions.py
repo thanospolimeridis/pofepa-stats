@@ -117,7 +117,7 @@ def generate():
     links, pages = {}, []
     for season in data['coverage']['season_inventory']:
         url = season['url']
-        filename = 'season.html' if season['season'] == '2026-2027' else hashlib.sha256(url.encode()).hexdigest()[:16] + '.html'
+        filename = hashlib.sha256(url.encode()).hexdigest()[:16] + '.html'  # the cache's standard name for this URL
         body = (ROOT / 'capture' / filename).read_bytes()
         pages.append({'url': url, 'sha256': hashlib.sha256(body).hexdigest()})
         for target, context in regional_links(body.decode(), url).items():

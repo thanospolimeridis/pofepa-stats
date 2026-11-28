@@ -29,13 +29,13 @@ def corroborate_singles(data):
 
 
 def refresh(data, cache):
-    from collect import BASE, SEASON, uid, clean
+    from collect import BASE, RANKINGS, uid, clean
     reviews, new_fixtures, visited, inventory = [], [], set(), []
     events = {e['id']:e for e in data['events']}
     clubs = {c['id']:c for c in data['clubs']}
-    _,path = cache.get(SEASON,'season.html')
-    for season,url in seasons(path.read_text(),BASE):
-        _,landing = cache.get(url,'season.html' if url==SEASON else None)
+    _,index = cache.get(RANKINGS,'rankings.html')
+    for season,url in seasons(index.read_text(),BASE):
+        _,landing = cache.get(url)
         links = content_links(landing.read_text(),url)
         inventory.append({'season':season,'url':url,'linked_sources':len(links)})
         for label,source_url in links:

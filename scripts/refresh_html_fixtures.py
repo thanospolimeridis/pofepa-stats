@@ -49,7 +49,7 @@ def refresh(data, cache, issues):
         url = sources[event['sources'][0]]['url']
         if event['kind'] != 'fixtures' or not url.endswith('.html'):
             continue
-        _, path = cache.get(url, 'a1.html' if url.endswith('/2026-2027-a1.html') else None)
+        _, path = cache.get(url)
         parsed = parse_fixture_tables(path.read_text(), event['sources'][0], url, event['id'])
         old = {f['id']: f for f in data['fixtures'] if f['event'] == event['id']}
         rows, ids = [], {f['id'] for f in parsed}

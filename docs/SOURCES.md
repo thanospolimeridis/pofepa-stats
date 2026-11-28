@@ -2,7 +2,7 @@
 
 ## Discovery and provenance
 
-The collector reads the POFΕPA ranking index headings to assign `north`, `south`, or `national`; it discovers every linked XLS/XLSX workbook. Source filenames provide the month. All 270 distinct linked workbooks are imported. Result seasons are discovered specifically from the **Αποτελεσματα** navigation menu, avoiding similarly named competition-announcement pages.
+The collector reads the POFΕPA ranking index headings to assign `north`, `south`, or `national`; it discovers every linked XLS/XLSX workbook. Source filenames provide the month. All 270 distinct linked workbooks are imported. Result seasons are discovered specifically from the **Αποτελεσματα** navigation menu, avoiding similarly named competition-announcement pages. The menu is read from the ranking index, so a new season is picked up without a code change; every cached page uses its standard hashed file name.
 
 Each fetched source records its public URL, retrieval time, byte length and SHA-256. Raw files and cache metadata stay in ignored `capture/`. Cache files are replaced atomically; a refresh that changes a file keeps the previous bytes and metadata in `capture/replaced/`, so a hash-pinned reviewed source is never lost. Redirects must stay on the approved hosts, and a source larger than 64 MB is refused. No credentials or private data are needed.
 

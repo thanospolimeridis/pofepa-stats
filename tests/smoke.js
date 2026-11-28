@@ -114,6 +114,10 @@ for(const language of ['el','en']) for(const route of routes){
   const nav=app.innerHTML.match(/<nav class="nav"[\s\S]*?<\/nav>/)[0];
   assert(!nav.includes('id="lang"')&&app.innerHTML.includes('</nav><button class="lang" id="lang"'),'Language toggle must sit outside the scrolling nav');
   if(route==='about'){
+    const monthText=p=>new Intl.DateTimeFormat(language==='el'?'el-GR':'en-GB',{month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(p+'-01T12:00:00Z'));
+    const periods=about.coverage.ranking_periods;
+    assert(app.innerHTML.includes(monthText(periods[0]))&&app.innerHTML.includes(monthText(periods.at(-1))),'Coverage dates come from the ranking periods');
+    assert(!app.innerHTML.includes('${'),'No uninterpolated template text');
     const html=app.innerHTML,size=25;
     assert(html.indexOf('<h1>')<html.indexOf('id="about-sheet-list"'),'Explanations precede the match-sheet audit');
     assert(html.indexOf('id="about-sheet-list"')<html.indexOf('id="about-sources"'),'Source inventory comes last');
@@ -121,6 +125,8 @@ for(const language of ['el','en']) for(const route of routes){
     assert(html.includes('data-page-key="sheetpage"')&&html.includes('data-page-key="sourcepage"'),'Long audit lists have pagers');
   }
   if(route==='home'){
+    const season=db.events.filter(e=>e.kind==='singles'&&e.region==='national').map(e=>e.season).sort().at(-1).replace('-','–');
+    assert(app.innerHTML.includes(language==='el'?'Αγωνιστική περίοδος '+season:season+' season'),'Home competitions follow the newest season in the data');
     const names=Object.fromEntries((db.competition_regions||[]).map(r=>[r.id,language==='el'?r.el:r.en]));
     for(const m of db.recent_matches){
       const region=db.events.find(e=>e.id===m.event)?.competition_region;
