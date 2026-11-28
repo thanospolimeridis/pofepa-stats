@@ -37,7 +37,15 @@ jobs:
       - run: pip install -r requirements.txt
       - run: sudo apt-get update && sudo apt-get install -y poppler-utils
       # Same checks as the "Checks" workflow; the reproducibility rebuild leaves dist/ ready.
+      # COVERAGE makes them record which code they run (see "Test coverage" in the README).
       - run: bash scripts/check_all.sh
+        env:
+          COVERAGE: ${{ runner.temp }}/coverage
+      # After the checks, because every build clears dist/: the release and coverage badges the README shows.
+      - name: Show the test coverage and add the README badges to the site
+        run: |
+          python scripts/code_coverage.py "$RUNNER_TEMP/coverage" --markdown >> "$GITHUB_STEP_SUMMARY"
+          python scripts/badges.py "$RUNNER_TEMP/coverage" dist/badges
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

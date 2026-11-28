@@ -88,7 +88,7 @@ async function clickExport(route,kind,lang='en') {
     setTimeout:callback => {timers.push(callback);return timers.length;},clearTimeout(){},
     fetch:() => {throw new Error('Non-lazy export test must not access the network');}
   };
-  vm.runInNewContext(code,context,{timeout:10000});
+  vm.runInNewContext(code,context,require('./lib/source.js')('app.js',{timeout:10000}));
   await context.window.pofepaReady;
   assert.equal(errors.length,0,errors.map(String).join('\n'));
   assert(app.innerHTML.includes('<main'),'Route did not render');
@@ -130,7 +130,7 @@ async function datasetDownload(sitePayload,fetcher = () => {throw new Error('Off
     setTimeout:() => 0,clearTimeout(){},
     fetch:async (request,options) => {requests.push(request);return fetcher(request,options);}
   };
-  vm.runInNewContext(code,context,{timeout:10000});
+  vm.runInNewContext(code,context,require('./lib/source.js')('app.js',{timeout:10000}));
   await context.window.pofepaReady;
   assert.equal(errors.length,0,errors.map(String).join('\n'));
   handlers.click({target:{closest:selector => selector === 'button' ? {dataset:{export:'data'}} : null}});

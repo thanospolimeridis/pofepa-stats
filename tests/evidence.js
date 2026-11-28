@@ -90,7 +90,7 @@ assert.deepEqual(Evidence.csvFields({source:'workbook',row:5}),{
 assert.equal(Evidence.render(null),'');
 
 const browser = {};
-vm.runInNewContext(fs.readFileSync(path.join(root,'src/evidence.js'),'utf8'),browser);
+vm.runInNewContext(fs.readFileSync(path.join(root,'src/evidence.js'),'utf8'),browser,require('./lib/source.js')('evidence.js'));
 assert.equal(typeof browser.PofepaEvidence.render,'function');
 assert.equal(typeof browser.PofepaEvidence.csvFields,'function');
 console.log('Passed real correction fixtures, bilingual evidence, CSV provenance, escaping and browser export checks.');

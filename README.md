@@ -1,5 +1,11 @@
 # POFEPA Stats · Αγώνες & αθλητές
 
+[![Checks on develop](https://github.com/thanospolimeridis/pofepa-stats/actions/workflows/checks.yml/badge.svg?branch=develop&event=push)](https://github.com/thanospolimeridis/pofepa-stats/actions/workflows/checks.yml?query=branch%3Adevelop)
+[![Publication of main](https://github.com/thanospolimeridis/pofepa-stats/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/thanospolimeridis/pofepa-stats/actions/workflows/publish.yml)
+[![Published release](https://thanospolimeridis.github.io/pofepa-stats/badges/release.svg)](CHANGELOG.md)
+[![Python test coverage](https://thanospolimeridis.github.io/pofepa-stats/badges/python-coverage.svg)](#test-coverage)
+[![JavaScript test coverage](https://thanospolimeridis.github.io/pofepa-stats/badges/js-coverage.svg)](#test-coverage)
+
 [Website](https://thanospolimeridis.github.io/pofepa-stats/) · [Offline edition](https://thanospolimeridis.github.io/pofepa-stats/offline.html) · [Source archive](https://www.pofepa.gr/piiotanualphakappaepsilonsigmaf-alphaxiiotaomicronlambdaomicrongammaetasigmaetasigmaf.html)
 
 An independent Greek/English POFΕPA table tennis archive, following [Greek TT Archive](https://github.com/thanospolimeridis/greek-tt-stats): Python ingestion, a static website, no backend, and an offline HTML edition.
@@ -47,6 +53,8 @@ python3 scripts/collect.py --as-of 2026-11-26
 python3 scripts/collect.py --offline --as-of 2026-11-26
 # Every CI check: unit tests, build, all Node suites and a reproducibility rebuild.
 scripts/check_all.sh
+# The same, also reporting how much of the code the checks run:
+COVERAGE=.qa/coverage scripts/check_all.sh
 python3 scripts/audit_sources.py
 python3 scripts/audit_documents.py
 python3 scripts/audit_match_sheets.py
@@ -121,6 +129,12 @@ PUBLISH=1 git push --force origin 'vX.Y.Z^{commit}:main'
 ```
 
 `develop` keeps the later work, and the next release moves `main` forward again.
+
+## Test coverage
+
+`COVERAGE=.qa/coverage scripts/check_all.sh` runs the same checks while recording which code they execute into that folder, then prints the share per file (`scripts/code_coverage.py`). Both workflows run the checks this way and show the tables in the run summary. Python is measured by coverage.py, in executable statements of `scripts/`; a script that no check imports counts in full as not run. JavaScript comes from V8's block coverage of `src/*.js`, counted the way c8 counts lines: every line of a file counts, and a line is missed when it lies wholly inside a block that never ran. The two figures are not added up.
+
+The badges at the top of this page need no badge service. GitHub Actions draws two: "Checks" is green when every check passed on the latest push to `develop`, and "Publish GitHub Pages" when the latest release passed them and was deployed. The publish workflow draws the other three (`scripts/badges.py`) and serves them with the site under `badges/`, so they describe the published release: its number, and its Python and JavaScript test coverage, bright green at 100%, green from 90%, yellow-green from 80% and yellow below. "Coverage" here means the code the checks run; how much of the source archive is imported is reported on the Coverage & sources page and in `dist/coverage.json`.
 
 ## License
 

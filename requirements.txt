@@ -3,3 +3,4 @@ openpyxl>=3.1,<4
 xlrd>=2,<3
 pymupdf>=1.26,<2
 fonttools>=4.50,<5
+coverage>=7.6,<8

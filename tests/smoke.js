@@ -47,7 +47,7 @@ for(const language of ['el','en']) for(const route of routes){
   const app={innerHTML:'',addEventListener(){}},skip={addEventListener(){}},requests=[];
   const context={Pofepa:C,PofepaEvidence:Evidence,PofepaAthleteStats:AthleteStats,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>skip},location:{hash:'#'+route},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=>language},URLSearchParams,Intl,console,setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(fs.readFileSync('dist/'+path.split('?')[0]))};
   const fetchArchive=context.fetch;context.fetch=async path=>{requests.push(path.split('?')[0]);return fetchArchive(path);};
-  vm.runInNewContext(fs.readFileSync('src/app.js','utf8'),context,{timeout:10000});
+  vm.runInNewContext(fs.readFileSync('src/app.js','utf8'),context,require('./lib/source.js')('app.js',{timeout:10000}));
   await context.window.pofepaReady;
   rendered.set(language+':'+route,app.innerHTML);
   assert(app.innerHTML.includes('<main'),route+' main is missing');
@@ -194,7 +194,7 @@ stale.events=stale.events.filter(e=>e.id!==newEvent);
 const handlers={},errors=[];let reloaded=false;
 const app={innerHTML:'',addEventListener:(name,fn)=>{handlers[name]=fn;}};
 const context={Pofepa:C,PofepaEvidence:Evidence,PofepaAthleteStats:AthleteStats,document:{getElementById:id=>id==='site-data'?{textContent:JSON.stringify(manifest)}:app,documentElement:{},querySelector:()=>({addEventListener(){}})},location:{hash:'#player/p-1912',reload:()=>{reloaded=true;}},window:{addEventListener(){},scrollTo(){}},localStorage:{getItem:()=> 'en'},URLSearchParams,Intl,console:{error:error=>errors.push(error)},setTimeout,clearTimeout,Blob,Response,DecompressionStream,Uint8Array,atob,fetch:async path=>new Response(path.split('?')[0]===manifest.bootstrap?zlib.gzipSync(JSON.stringify(stale)):fs.readFileSync('dist/'+path.split('?')[0]))};
-vm.runInNewContext(fs.readFileSync('src/app.js','utf8'),context,{timeout:10000});
+vm.runInNewContext(fs.readFileSync('src/app.js','utf8'),context,require('./lib/source.js')('app.js',{timeout:10000}));
 await context.window.pofepaReady;
 assert.equal(errors.length,1,'Stale index should exercise the rendering failure');
 assert(app.innerHTML.includes('id="reload"'),'Stale data must offer a full page reload');

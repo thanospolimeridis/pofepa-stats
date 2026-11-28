@@ -49,7 +49,7 @@ function harness(payload,initialRoute,fetcher) {
     localStorage:{getItem:() => 'en'},console:{error:error => errors.push(error)},
     setTimeout,clearTimeout,fetch:fetcher
   };
-  vm.runInNewContext(code,context,{timeout:10000});
+  vm.runInNewContext(code,context,require('./lib/source.js')('app.js',{timeout:10000}));
   async function renderedAfter(action) {
     let timer;
     const rendered = new Promise(resolve => {observer=resolve;});

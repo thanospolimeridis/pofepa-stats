@@ -69,6 +69,6 @@ const empty=summarize([],'athlete');
 assert.deepEqual(empty,{totals:{played:0,wins:0,losses:0,winRate:null,gamesWon:0,gamesLost:0,deciding:0,decidingWins:0},scoreLines:[],opponents:[],bySeason:[],byEvent:[],vsRanking:{higher:[0,0],lower:[0,0],level:[0,0],unknown:[0,0]},bestWins:[]});
 assert.deepEqual(summarize(rows,'absent'),empty);
 assert.equal(summarize([rows[0]],'athlete').bySeason[0].season,'—');
-const browser={};vm.runInNewContext(fs.readFileSync(require.resolve('../src/athlete-stats.js'),'utf8'),browser);
+const browser={};vm.runInNewContext(fs.readFileSync(require.resolve('../src/athlete-stats.js'),'utf8'),browser,require('./lib/source.js')('athlete-stats.js'));
 assert.equal(typeof browser.PofepaAthleteStats.summarize,'function');
 console.log('Passed athlete score, opponent, season, event and source-ranking summaries.');

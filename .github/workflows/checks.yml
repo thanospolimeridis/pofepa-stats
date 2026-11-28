@@ -21,4 +21,9 @@ jobs:
           node-version: '22'
       - run: pip install -r requirements.txt
       - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      # COVERAGE makes the checks record which code they run (see "Test coverage" in the README).
       - run: bash scripts/check_all.sh
+        env:
+          COVERAGE: ${{ runner.temp }}/coverage
+      - name: Show the test coverage in the run summary
+        run: python scripts/code_coverage.py "$RUNNER_TEMP/coverage" --markdown >> "$GITHUB_STEP_SUMMARY"
